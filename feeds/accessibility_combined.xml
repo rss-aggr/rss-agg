@@ -3,7 +3,84 @@
     <title>Accessibility Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: Accessibility Combined Feed</description>
-    <lastBuildDate>Wed, 15 Jul 2026 13:45:30 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 12:58:38 +0000</lastBuildDate>
+    <item>
+      <title>Accessibility by Default: Links</title>
+      <link>https://medium.com/@joshhallan/accessibility-by-default-links-e4df59815743?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@joshhallan/accessibility-by-default-links-e4df59815743?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1380/1*_gIvlFkPGrw2ts-p_BD_OA.png&quot; width=&quot;1380&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Welcome back to Accessibility by Default. If this is the first post you&amp;#x2019;re reading, welcome in and be sure to check out the previous posts&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@joshhallan/accessibility-by-default-links-e4df59815743?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/e4df59815743</guid>
+      <pubDate>Thu, 16 Jul 2026 10:48:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>Redefining Accessibility in Indie Gaming: The Story of Space Conqueror</title>
+      <link>https://ovidgame.medium.com/redefining-accessibility-in-indie-gaming-the-story-of-space-conqueror-82178a627777?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Building video games is not just about graphics or complex stories; it is about creating experiences that everyone can enjoy. At Ovid Game&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://ovidgame.medium.com/redefining-accessibility-in-indie-gaming-the-story-of-space-conqueror-82178a627777?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/82178a627777</guid>
+      <pubDate>Thu, 16 Jul 2026 10:07:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>First Public Working Draft: Character Model for the World Wide Web: String Matching</title>
+      <link>https://www.w3.org/news/2026/first-public-working-draft-character-model-for-the-world-wide-web-string-matching/</link>
+      <description>This document builds upon Character Model for the World Wide Web 1.0: Fundamentals to provide authors of specifications, software developers, and content developers a common reference on string identity matching on the World Wide Web and thereby increase interoperability.</description>
+      <guid>https://www.w3.org/news/2026/first-public-working-draft-character-model-for-the-world-wide-web-string-matching/</guid>
+      <pubDate>Thu, 16 Jul 2026 09:29:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>First Public Working Draft: Strings on the Web: Language and Direction Metadata</title>
+      <link>https://www.w3.org/news/2026/first-public-working-draft-strings-on-the-web-language-and-direction-metadata/</link>
+      <description>This document describes the best practices for identifying the language and direction for strings used on the Web.</description>
+      <guid>https://www.w3.org/news/2026/first-public-working-draft-strings-on-the-web-language-and-direction-metadata/</guid>
+      <pubDate>Thu, 16 Jul 2026 09:25:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Three Ways to Build Accessible Tabs in Angular — and Why One of Them Changes Everything</title>
+      <link>https://medium.com/@vhurley.dev/three-ways-to-build-accessible-tabs-in-angular-and-why-one-of-them-changes-everything-a16e80681ca8?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@vhurley.dev/three-ways-to-build-accessible-tabs-in-angular-and-why-one-of-them-changes-everything-a16e80681ca8?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1552/1*Bv7j43BY3VKtwEM-vlNZhw.png&quot; width=&quot;1552&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Tabs on the surface look deceptively simple, it&amp;#x2019;s just a row of labels with a content area below &amp;#x2014; click on one and the content is&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@vhurley.dev/three-ways-to-build-accessible-tabs-in-angular-and-why-one-of-them-changes-everything-a16e80681ca8?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/a16e80681ca8</guid>
+      <pubDate>Thu, 16 Jul 2026 07:29:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>Screen Reader Testing Checklist for Audits</title>
+      <link>https://iaapaudit.medium.com/screen-reader-testing-checklist-for-audits-ba90791c616b?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://iaapaudit.medium.com/screen-reader-testing-checklist-for-audits-ba90791c616b?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1200/1*eaZLSHEc-yDaKEpj7jQfcA.png&quot; width=&quot;1200&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Screen reader testing is one of the strongest ways to understand whether a digital product is usable beyond its visual design.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://iaapaudit.medium.com/screen-reader-testing-checklist-for-audits-ba90791c616b?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/ba90791c616b</guid>
+      <pubDate>Thu, 16 Jul 2026 05:06:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>Preservation Is Not Access: What the Cats: The Jellicle Ball NYPL Archive Filming Announcement…</title>
+      <link>https://medium.com/@h2shofitness/preservation-is-not-access-what-the-cats-the-jellicle-ball-archive-announcement-actually-means-ef215731d35b?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@h2shofitness/preservation-is-not-access-what-the-cats-the-jellicle-ball-archive-announcement-actually-means-ef215731d35b?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1200/1*euBbSoeBYpo4HIpd9QlWcg.jpeg&quot; width=&quot;1200&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;The announcement that Broadway&amp;#x2019;s, soon to be closing, Cats: The Jellicle Ball is getting an NYPL archive recording is being treated, by&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@h2shofitness/preservation-is-not-access-what-the-cats-the-jellicle-ball-archive-announcement-actually-means-ef215731d35b?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/ef215731d35b</guid>
+      <pubDate>Thu, 16 Jul 2026 01:33:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>Interpreter Services for Social Security Benefits Appointments</title>
+      <link>https://thelanguagedoctors.medium.com/interpreter-services-for-social-security-benefits-appointments-0011e055d5e7?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://thelanguagedoctors.medium.com/interpreter-services-for-social-security-benefits-appointments-0011e055d5e7?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2000/0*sodBPubiWIGeZAhK.jpg&quot; width=&quot;2000&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;TL;DR: A language barrier should not make a Social Security appointment harder than it already is.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://thelanguagedoctors.medium.com/interpreter-services-for-social-security-benefits-appointments-0011e055d5e7?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/0011e055d5e7</guid>
+      <pubDate>Wed, 15 Jul 2026 19:03:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>CSS animations, human rights, and big accessibility at the AB Web Meetup</title>
+      <link>https://www.w3.org/blog/2026/css-animations-human-rights-and-big-accessibility-at-the-ab-web-meetup/</link>
+      <description>On 2 July 2026 , the W3C Advisory Board organised a meetup around the web and web standards. It featured three talks and had time to mingle.</description>
+      <guid>https://www.w3.org/blog/2026/css-animations-human-rights-and-big-accessibility-at-the-ab-web-meetup/</guid>
+      <pubDate>Wed, 15 Jul 2026 15:29:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Do You Make a Doorbell Ring for Someone Who Can’t Hear It?</title>
+      <link>https://medium.com/@dilan.sazan01/how-do-you-make-a-doorbell-ring-for-someone-who-cant-hear-it-29ba3478fa6e?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@dilan.sazan01/how-do-you-make-a-doorbell-ring-for-someone-who-cant-hear-it-29ba3478fa6e?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/820/1*9xkF4VTEaIW6MwCOLccspw.png&quot; width=&quot;820&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;A $10 pile of parts, an Android app, and the part of modern Android that fought me the hardest&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@dilan.sazan01/how-do-you-make-a-doorbell-ring-for-someone-who-cant-hear-it-29ba3478fa6e?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/29ba3478fa6e</guid>
+      <pubDate>Wed, 15 Jul 2026 15:27:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>Accessibility Testing Tools for Keyboard Navigation, Contrast, Alt Text, and Captions</title>
+      <link>https://jennykeeper.medium.com/accessibility-testing-tools-for-keyboard-navigation-contrast-alt-text-and-captions-315097183d2d?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://jennykeeper.medium.com/accessibility-testing-tools-for-keyboard-navigation-contrast-alt-text-and-captions-315097183d2d?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2600/0*BTaY-HsOgGx-Ia2U&quot; width=&quot;3840&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Most accessibility testing tools target specific problems rather than offering end-to-end coverage, and comprehensive platforms are often&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://jennykeeper.medium.com/accessibility-testing-tools-for-keyboard-navigation-contrast-alt-text-and-captions-315097183d2d?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/315097183d2d</guid>
+      <pubDate>Wed, 15 Jul 2026 13:52:32 GMT</pubDate>
+    </item>
     <item>
       <title>How To Find Real Options: Where to Buy Edu Email Accounts Safely</title>
       <link>https://medium.com/@accsuper20/how-to-find-real-options-where-to-buy-edu-email-accounts-safely-187ba34d3609?source=rss------accessibility-5</link>
@@ -17,62 +94,6 @@
       <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@georgejo997/what-gets-left-out-of-the-debate-c2997aab5798?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2600/1*Ltb-Xrc-BdfiIgKxKwtikA.jpeg&quot; width=&quot;4096&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;The inequalities of education are a debate, contested, discussed, clarified &amp;#x2014; the list of verbs goes on. And the conclusion often ends up&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@georgejo997/what-gets-left-out-of-the-debate-c2997aab5798?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
       <guid>https://medium.com/p/c2997aab5798</guid>
       <pubDate>Wed, 15 Jul 2026 07:11:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>Annotations Panel in PDF Accessibility checker</title>
-      <link>https://medium.com/@pdf4wcag/annotations-panel-in-pdf-accessibility-checker-adc6fad867aa?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@pdf4wcag/annotations-panel-in-pdf-accessibility-checker-adc6fad867aa?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1600/1*mYVEGG7EAA0AMpUyN8aWFw.png&quot; width=&quot;1600&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Annotations are a general mechanism for adding an interactive layer to PDF documents. They include elements such as links, comments&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@pdf4wcag/annotations-panel-in-pdf-accessibility-checker-adc6fad867aa?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/adc6fad867aa</guid>
-      <pubDate>Wed, 15 Jul 2026 06:41:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>Keyboard Accessibility Checklist for Audits</title>
-      <link>https://iaapaudit.medium.com/keyboard-accessibility-checklist-for-audits-2871973c5309?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://iaapaudit.medium.com/keyboard-accessibility-checklist-for-audits-2871973c5309?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1200/1*9VlU9duUrLDUr7Mi9PbGfQ.png&quot; width=&quot;1200&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Keyboard accessibility is one of the clearest signs of whether a digital product has been tested for real use, not only visual polish.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://iaapaudit.medium.com/keyboard-accessibility-checklist-for-audits-2871973c5309?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/2871973c5309</guid>
-      <pubDate>Wed, 15 Jul 2026 06:20:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>Is equality the same as inclusion? Or have we been confusing fairness with belonging?</title>
-      <link>https://medium.com/@thaliahortezano/is-equality-the-same-as-inclusion-or-have-we-been-confusing-fairness-with-belonging-f612a263cde8?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@thaliahortezano/is-equality-the-same-as-inclusion-or-have-we-been-confusing-fairness-with-belonging-f612a263cde8?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1280/1*PC9B97G1hVkbswJjWiNpXQ.jpeg&quot; width=&quot;1280&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;When people hear the word inclusion, they often assume it means treating everyone the same. It sounds fair. It sounds reasonable. But what&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@thaliahortezano/is-equality-the-same-as-inclusion-or-have-we-been-confusing-fairness-with-belonging-f612a263cde8?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/f612a263cde8</guid>
-      <pubDate>Wed, 15 Jul 2026 04:27:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>I Built a Voice-Controlled Audio Player for macOS Because Blind Users Asked Me To</title>
-      <link>https://voiceactivity.medium.com/i-built-a-voice-controlled-audio-player-for-macos-because-blind-users-asked-me-to-af1ffc715948?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://voiceactivity.medium.com/i-built-a-voice-controlled-audio-player-for-macos-because-blind-users-asked-me-to-af1ffc715948?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/600/1*MXvvvKK55WOsB_ngdWc41w.png&quot; width=&quot;600&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;I&amp;#x2019;ve been building voice-first audio tools since 2021. It started with an Alexa skill called Sound Stream &amp;#x2014; a way to play your own MP3s&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://voiceactivity.medium.com/i-built-a-voice-controlled-audio-player-for-macos-because-blind-users-asked-me-to-af1ffc715948?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/af1ffc715948</guid>
-      <pubDate>Wed, 15 Jul 2026 03:22:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>How Text-to-Speech Is Making Reading More Accessible for Students</title>
-      <link>https://medium.com/@romeumaleiane1/how-text-to-speech-is-making-reading-more-accessible-for-students-85f5e865a2f6?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;For most students, reading is treated as the default way to learn.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@romeumaleiane1/how-text-to-speech-is-making-reading-more-accessible-for-students-85f5e865a2f6?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/85f5e865a2f6</guid>
-      <pubDate>Wed, 15 Jul 2026 00:51:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>The Ongoing Evolution of Beyond Absurdity</title>
-      <link>https://medium.com/@beyondabsurdity/the-ongoing-evolution-of-beyond-absurdity-d485c050b6ad?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@beyondabsurdity/the-ongoing-evolution-of-beyond-absurdity-d485c050b6ad?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1491/1*3gWySTBJmC6w-cm7U2IQvQ.png&quot; width=&quot;1491&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;From creative outlet to advocacy-centered platform&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@beyondabsurdity/the-ongoing-evolution-of-beyond-absurdity-d485c050b6ad?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/d485c050b6ad</guid>
-      <pubDate>Tue, 14 Jul 2026 21:41:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>Building Better Brands Through Accessibility</title>
-      <link>https://medium.com/@signals_24744/building-better-brands-through-accessibility-2c9dfbcc1f47?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Accessibility and creativity are often treated as opposing ideas.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@signals_24744/building-better-brands-through-accessibility-2c9dfbcc1f47?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/2c9dfbcc1f47</guid>
-      <pubDate>Tue, 14 Jul 2026 20:35:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>I built a browser tool that turns a kid’s story idea into a 3D-printable Braille book</title>
-      <link>https://medium.com/@ilianofasolino/i-built-a-browser-tool-that-turns-a-kids-story-idea-into-a-3d-printable-braille-book-5535d110ffd1?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Most blind kids can&amp;#x2019;t get a bedtime story about the exact thing they&amp;#x2019;re obsessed with this week. A dragon that&amp;#x2019;s afraid of the dark, a cat&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@ilianofasolino/i-built-a-browser-tool-that-turns-a-kids-story-idea-into-a-3d-printable-braille-book-5535d110ffd1?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/5535d110ffd1</guid>
-      <pubDate>Tue, 14 Jul 2026 20:09:09 GMT</pubDate>
     </item>
     <item>
       <title>First Public Working Draft: CSS Linked Parameters Module Level 1</title>
@@ -1162,20 +1183,6 @@ customElements.define(&quot;the-section&quot;, Section);&lt;/code&gt;&lt;/pre&gt
       <pubDate>Mon, 27 Apr 2026 13:12:02 +0000</pubDate>
     </item>
     <item>
-      <title>Upcoming: W3C Workshop on the Future of ODRL</title>
-      <link>https://www.w3.org/news/2026/upcoming-w3c-workshop-on-the-future-of-odrl/</link>
-      <description>A workshop to examine broad and specific aspects since ODRL became a W3C Recommendation in 2018 and gained robust recognition and adoption.</description>
-      <guid>https://www.w3.org/news/2026/upcoming-w3c-workshop-on-the-future-of-odrl/</guid>
-      <pubDate>Mon, 27 Apr 2026 12:22:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>First Public Working Drafts for the Linked Web Storage (LWS) 1.0 Authentication Suite</title>
-      <link>https://www.w3.org/news/2026/first-public-working-drafts-for-the-linked-web-storage-lws-1-0-authentication-suite/</link>
-      <description>The Linked Web Storage Working Group has published four First Public Working Drafts for the Linked Web Storage (LWS) 1.0 Authentication Suite.</description>
-      <guid>https://www.w3.org/news/2026/first-public-working-drafts-for-the-linked-web-storage-lws-1-0-authentication-suite/</guid>
-      <pubDate>Thu, 23 Apr 2026 01:56:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Weekly Reading List April 20 2026</title>
       <link>https://www.tpgi.com/weekly-reading-list-april-20-2026/</link>
       <description>&lt;p&gt;A weekly roundup of links to digital accessibility industry news, posted every Monday. Compiled by Ricky Onsman.&lt;/p&gt;
@@ -2003,13 +2010,6 @@ geo.addEventListener('location', updateMap)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Added info about the behaviour when contrast is to low.&lt;/p&gt;&lt;p&gt;My blog doesn't support comments yet, but you can reply via &lt;a href=&quot;mailto:blog@matuzo.at?subject=Comment+on+%E2%80%9CIntroduction+to+the+new+HTML+element+%26lt%3Bgeolocation%26gt%3B%E2%80%9D&quot;&gt;blog@matuzo.at&lt;/a&gt;.&lt;/p&gt;</description>
       <guid>https://www.matuzo.at/blog/2026/geolocation-element</guid>
       <pubDate>2026-02-04T10:00:00+00:00</pubDate>
-    </item>
-    <item>
-      <title>A Decade of Building for Everyone</title>
-      <link>https://aka.ms/acc2026</link>
-      <description>&lt;p&gt;The post &lt;a href=&quot;https://aka.ms/acc2026&quot;&gt;A Decade of Building for Everyone&lt;/a&gt; appeared first on &lt;a href=&quot;https://blogs.microsoft.com/accessibility&quot;&gt;Microsoft Accessibility Blog&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid>https://blogs.microsoft.com/accessibility/?p=6665</guid>
-      <pubDate>Thu, 29 Jan 2026 20:12:10 +0000</pubDate>
     </item>
   </channel>
 </rss>
