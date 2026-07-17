@@ -3,7 +3,192 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Thu, 16 Jul 2026 12:58:29 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 12:41:52 +0000</lastBuildDate>
+    <item>
+      <title>Spot birds not golf</title>
+      <link>https://simonwillison.net/2026/Jul/17/spot-birds-not-golf/#atom-tag</link>
+      <description>&lt;p&gt;Suggestion for hyperscalers feeling pressure over data center water use:&lt;/p&gt;
+&lt;p&gt;Buy up a few exclusive country clubs, convert the golf courses into public parks, pay for guides and binoculars to get the previous members into birdwatching - help them embrace a more sustainable hobby!&lt;/p&gt;
+&lt;p&gt;Google &lt;a href=&quot;https://sustainability.google/reports/google-2026-environmental-report/&quot;&gt;used 10.9 billion gallons in 2025&lt;/a&gt;, so about 30 million gallons per day.&lt;/p&gt;
+&lt;p&gt;The Coachella Valley has &lt;a href=&quot;https://www.cvwd.org/167/Water-Conservation&quot;&gt;120 golf courses each using ~800 acre-feet per year&lt;/a&gt;,  which is ~750,000 gallons per day.&lt;/p&gt;
+&lt;p&gt;So Google buying up 40 of those courses (1/3) should do the trick.&lt;/p&gt;
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai-energy-usage&quot;&gt;ai-energy-usage&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Jul/17/spot-birds-not-golf/#atom-tag</guid>
+      <pubDate>2026-07-17T02:58:07+00:00</pubDate>
+    </item>
+    <item>
+      <title>Firefox in WebAssembly</title>
+      <link>https://simonwillison.net/2026/Jul/16/firefox-in-webassembly/#atom-tag</link>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://developer.puter.com/labs/firefox-wasm/&quot;&gt;Firefox in WebAssembly&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+This is absurdly cool: Puter compiled Firefox to WebAssembly such that the whole browser runs in another browser.&lt;/p&gt;
+&lt;p&gt;Here's my blog, running in Firefox, running in WebAssembly, running in Chrome:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;A Chrome window. The tab has the Firefox UI and has loaded my blog. On the right is the Chrome network panel showing that it loaded resources that include a 233MB gecko.wasm and an 18MB chrome-assets.tar.zst&quot; src=&quot;https://static.simonwillison.net/static/2026/firefox-wasm.webp&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;They chose Firefox/Gecko because it has strong single-process support. The project used an estimated $25,000 worth of Claude Opus and Fable tokens, but took advantage of a Claude Max subscription plan so cost much less in actual dollars.&lt;/p&gt;
+&lt;p&gt;The demo funnels all traffic over a WebSocket protocol (using the &lt;a href=&quot;https://github.com/MercuryWorkshop/wisp-protocol&quot;&gt;Wisp protocol&lt;/a&gt;) through Puter's server - a requirement to get this kind of thing to work because code running in browsers can't open arbitrary network connections.&lt;/p&gt;
+&lt;p&gt;(That proxying sounds expensive! The team &lt;a href=&quot;https://news.ycombinator.com/item?id=48926939#48936563&quot;&gt;had to scale the servers up&lt;/a&gt; to handle the traffic during the Hacker News conversation about the project.)&lt;/p&gt;
+&lt;p&gt;Puter claim this supports end-to-end encryption and that looks to be true - I inspected the WebSocket messages and traffic to my own HTTPS site was encrypted whereas requests and responses to &lt;code&gt;http://www.example.com/&lt;/code&gt; were in cleartext.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/HeyPuter/firefox-wasm&quot;&gt;Here's the repo&lt;/a&gt; for &lt;code&gt;firefox-wasm&lt;/code&gt;. &lt;a href=&quot;https://github.com/theogbob/WebkitWasm&quot;&gt;theogbob/WebkitWasm&lt;/a&gt; is a similar project that compiles WebKit to WASM, but that one doesn't currently have an accessible online demo.
+
+    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://news.ycombinator.com/item?id=48926939&quot;&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/browsers&quot;&gt;browsers&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/firefox&quot;&gt;firefox&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/webassembly&quot;&gt;webassembly&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-assisted-programming&quot;&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Jul/16/firefox-in-webassembly/#atom-tag</guid>
+      <pubDate>2026-07-16T23:34:16+00:00</pubDate>
+    </item>
+    <item>
+      <title>Kimi K3, and what we can still learn from the pelican benchmark</title>
+      <link>https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-tag</link>
+      <description>&lt;p&gt;Chinese AI lab Moonshot AI &lt;a href=&quot;https://www.kimi.com/blog/kimi-k3&quot;&gt;announced Kimi K3&lt;/a&gt; this morning, describing it as their &quot;most capable model to date, with 2.8 trillion parameters&quot;. It's currently available via their website and API, but an open weight release is promised &quot;by July 27, 2026&quot;.&lt;/p&gt;
+&lt;p&gt;Moonshot are calling this the first &quot;open 3T-class model&quot; (I guess they're rounding 2.8 trillion up to 3 trillion), taking the crown from &lt;a href=&quot;https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro&quot;&gt;DeepSeek's 1.6T v4 Pro&lt;/a&gt;. Their &lt;a href=&quot;https://www.kimi.com/blog/kimi-k3#full-benchmark-table&quot;&gt;self-reported benchmarks&lt;/a&gt; have K3 mostly beating Claude Opus 4.8 max and GPT-5.5 high, while losing out to Claude Fable 5 and GPT-5.6 Sol.&lt;/p&gt;
+&lt;p&gt;A few highlights from the &lt;a href=&quot;https://twitter.com/ArtificialAnlys/status/2077832874183860404&quot;&gt;Artificial Analysis report&lt;/a&gt; on the model:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&quot;On our private long-horizon knowledge work evaluation, Kimi K3 reaches an overall Elo of 1547, +732 points from Kimi K2.6 and behind only Claude Fable 5.&quot;&lt;/li&gt;
+&lt;li&gt;&quot;Cost per task ($0.94) is similar to GPT-5.6 Sol ($1.04), ~1/2 the price of Opus 4.8 ($1.80) and higher than open weights peers&quot;&lt;/li&gt;
+&lt;li&gt;&quot;Kimi K3’s token usage on the Artificial Analysis Intelligence Index decreased significantly, using 21% fewer output tokens than K2.6.&quot;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The model is also now the &lt;a href=&quot;https://twitter.com/arena/status/2077824029126504525&quot;&gt;leading model on Arena.ai's Frontend Code arena&lt;/a&gt;, surpassing even Claude Fable 5.&lt;/p&gt;
+&lt;p&gt;The new model is notable for the pricing: $3/million input tokens and $15/million output tokens, putting it at the same level as Anthropic's Claude Sonnet series and making it the most expensive model released by a Chinese AI lab to date. This is a significant increase on their earlier models &lt;a href=&quot;https://platform.kimi.ai/docs/pricing/chat-k26&quot;&gt;such as Kimi K2.6&lt;/a&gt; at $0.95/$4. 2.8 trillion parameters is also more than twice the size of that 1T model.&lt;/p&gt;
+&lt;h4 id=&quot;but-how-does-it-pelican-&quot;&gt;But how does it pelican?&lt;/h4&gt;
+&lt;p&gt;I used OpenRouter (to avoid signing up for a Moonshot API key) with the &lt;a href=&quot;https://github.com/simonw/llm-openrouter&quot;&gt;llm-openrouter plugin&lt;/a&gt; to generate an SVG of a pelican riding a bicycle:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;llm -m openrouter/moonshotai/kimi-k3 'Generate an SVG of a pelican riding a bicycle'
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Here's &lt;a href=&quot;https://gist.github.com/simonw/66a2699eb1594258904c7b5102840dd6&quot;&gt;the transcript&lt;/a&gt;. It looks like this:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;See description below&quot; src=&quot;https://static.simonwillison.net/static/2026/kimi-3-pelican.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;That pelican took 95 input tokens and 16,658 output tokens (13,241 were reasoning tokens), for a total cost of &lt;a href=&quot;https://www.llm-prices.com/#it=95&amp;amp;ot=16658&amp;amp;ic=3&amp;amp;oc=15&quot;&gt;25 cents&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;Since K3 accepts image input I ran it against that rendered SVG above (with my &lt;a href=&quot;https://simonwillison.net/guides/agentic-engineering-patterns/prompts/#alt-text&quot;&gt;alt text prompt&lt;/a&gt;) and &lt;a href=&quot;https://gist.github.com/simonw/665dbf840701b421745f2cb891acdfd6&quot;&gt;got back&lt;/a&gt; (for &lt;a href=&quot;https://www.llm-prices.com/#it=822&amp;amp;ot=243&amp;amp;ic=3&amp;amp;oc=15&quot;&gt;0.6 cents&lt;/a&gt;):&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Cartoon illustration of a white pelican wearing a red scarf, riding a red bicycle along a gray road with white dashed lines; the pelican has a large orange beak and webbed orange feet pedaling, with white motion lines behind it; the background shows a light blue sky with white clouds, a yellow sun, two small black birds in flight, and green grass with tiny white flowers in the foreground&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;what-can-we-learn-from-the-pelican-&quot;&gt;What can we learn from the pelican?&lt;/h4&gt;
+&lt;p&gt;My &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle/&quot;&gt;Generate an SVG of a pelican riding a bicycle&lt;/a&gt; test is 21 months old now. It was never a particularly great benchmark. It started out as a joke on how absurdly difficult it is to compare these models, but then for the first year it turned out to have a &lt;a href=&quot;https://simonwillison.net/2025/Jun/6/six-months-in-llms/&quot;&gt;surprising correlation&lt;/a&gt; to how good the models actually were.&lt;/p&gt;
+&lt;p&gt;That connection has been mostly severed now. The &lt;a href=&quot;https://simonwillison.net/2026/Jul/9/gpt-5-6/&quot;&gt;GPT-5.6&lt;/a&gt; and &lt;a href=&quot;https://simonwillison.net/2026/Jun/9/claude-fable-5/&quot;&gt;Claude Fable 5&lt;/a&gt;  pelicans are outclassed &lt;a href=&quot;https://simonwillison.net/2026/Jun/17/glm-52/&quot;&gt;by GLM-5.2&lt;/a&gt;, and much as I love GLM I don't think that's a Fable-class model.&lt;/p&gt;
+&lt;p&gt;(I'm still not convinced that labs are &lt;a href=&quot;https://simonwillison.net/2025/Nov/13/training-for-pelicans-riding-bicycles/&quot;&gt;training for the benchmark&lt;/a&gt; - if they were, I'd expect much better results. There's a chance that Gemini has optimized for &lt;a href=&quot;https://simonwillison.net/2026/Feb/19/gemini-31-pro/#jeff-dean&quot;&gt;any combination of an animal on a vehicle&lt;/a&gt; though!)&lt;/p&gt;
+&lt;p&gt;The biggest limitation of the pelican is that it doesn't touch at all on the thing that matters most for today's model: agentic tool calling and the ability to operate tools reliably as conversations grow in length.&lt;/p&gt;
+&lt;p&gt;So don't go using pelicans to compare models!&lt;/p&gt;
+
+&lt;p&gt;All of that said, I still get a decent amount of value out of running the benchmark myself.&lt;/p&gt;
+&lt;p&gt;Firstly, it's a forcing function for actually trying the model. If I show you a pelican, that means I've managed to run a prompt through it. If the model has an official API I'll use that, if it's open weight (and small enough to fit a 128GB M5 MacBook Pro) I'll try running it on my own machine, usually via &lt;a href=&quot;https://github.com/ggml-org/llama.cpp&quot;&gt;llama.cpp&lt;/a&gt; or &lt;a href=&quot;https://lmstudio.ai&quot;&gt;LM Studio&lt;/a&gt; or &lt;a href=&quot;https://ollama.com&quot;&gt;Ollama&lt;/a&gt;. I'll frequently use &lt;a href=&quot;https://openrouter.ai&quot;&gt;OpenRouter&lt;/a&gt; since that usually provides a proxy to an official API without me needing a new API key.&lt;/p&gt;
+&lt;p&gt;Most of my pelicans are generated using &lt;a href=&quot;https://llm.datasette.io/&quot;&gt;my LLM CLI tool&lt;/a&gt;, which helps encourage me to ensure the latest models are supported by that (via one of its plugins).&lt;/p&gt;
+&lt;p&gt;More importantly though, even the act of a single prompt to &quot;Generate an SVG of a pelican riding a bicycle&quot; can reveal interesting model characteristics.&lt;/p&gt;
+&lt;p&gt;Consider &lt;a href=&quot;https://gist.github.com/simonw/66a2699eb1594258904c7b5102840dd6&quot;&gt;the result&lt;/a&gt; for Kimi K3 today. Running those simple prompts helped emphasize several points about the model.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;It only has one reasoning effort right now, &quot;max&quot; - and it shows. The model consumed 13,241 reasoning tokens to output 3,417 tokens of response. This is expensive - the pelican cost 25 cents!&lt;/li&gt;
+&lt;li&gt;How does the prompt &quot;Generate an SVG of a pelican riding a bicycle&quot; add up to 95 input tokens?  OpenAI's &lt;a href=&quot;https://platform.openai.com/tokenizer&quot;&gt;tokenizer&lt;/a&gt;  counts 10, &lt;a href=&quot;https://tools.simonwillison.net/claude-token-counter&quot;&gt;Anthropic's&lt;/a&gt; counts 10 for Opus 4.6, 30 for Opus 4.7 and 25 for Sonnet 5/Fable 5. Prompting &quot;hi&quot; &lt;a href=&quot;https://news.ycombinator.com/item?id=48935342#48936461&quot;&gt;to Kimi K3&lt;/a&gt; counted 86 tokens, suggesting there may be an 85 token hidden system prompt. It &lt;a href=&quot;https://news.ycombinator.com/item?id=48935342#48936515&quot;&gt;refused to leak it&lt;/a&gt; though.&lt;/li&gt;
+&lt;li&gt;Vision works well: the alt text it generated is very good.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;K3 currently only has one thinking effort level, but I've been deriving quite a bit of value recently from running the same pelican prompt through different effort levels to get a quick idea for what impact those have. Here's my matrix &lt;a href=&quot;https://static.simonwillison.net/static/2026/gpt-5.6-pelicans.html&quot;&gt;for the GPT-5.6 model family&lt;/a&gt;, for example.&lt;/p&gt;
+&lt;p&gt;Really though the main things I gain from the pelican test are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;It's a &quot;hello world&quot; exercise for prompting a model&lt;/li&gt;
+&lt;li&gt;A rough cost and reasoning estimate for a simple task&lt;/li&gt;
+&lt;li&gt;Confirmation that the model can output valid SVG and has a basic idea of geometry and spatial awareness. This is a much bigger deal for the smaller models that run on my laptop.&lt;/li&gt;
+&lt;li&gt;It's still interesting to compare pelicans between releases in the same model family. K3's pelican is a notable improvement from &lt;a href=&quot;https://simonwillison.net/2026/Jan/27/kimi-k25/&quot;&gt;Kimi 2.5&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;It's something I can share that demonstrates I've tried it. Plus a comment with a pelican in it is kind of a tradition on Hacker News at this point, any time I'm late I get comments asking where it is!&lt;/li&gt;
+&lt;/ol&gt;
+    
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-pricing&quot;&gt;llm-pricing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-release&quot;&gt;llm-release&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-in-china&quot;&gt;ai-in-china&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/artificial-analysis&quot;&gt;artificial-analysis&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/moonshot&quot;&gt;moonshot&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/kimi&quot;&gt;kimi&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-tag</guid>
+      <pubDate>2026-07-16T20:19:30+00:00</pubDate>
+    </item>
+    <item>
+      <title>Quoting Thibault Sottiaux</title>
+      <link>https://simonwillison.net/2026/Jul/16/bad-codex-bug/#atom-tag</link>
+      <description>&lt;blockquote cite=&quot;https://twitter.com/thsottiaux/status/2077630111499882637&quot;&gt;&lt;p&gt;On file deletions. We’ve investigated a handful of reports where GPT-5.6 unexpectedly deleted files. &lt;/p&gt;
+&lt;p&gt;What we have  found is that this most commonly occurs when:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Full access mode is enabled and codex is run without sandboxing protections, including without auto review being enabled&lt;/li&gt;
+&lt;li&gt;The model attempts  to override the $HOME env var to define a temporary directory.&lt;/li&gt;
+&lt;li&gt;The model makes an honest mistake and mistakenly deletes $HOME instead.&lt;/li&gt;
+&lt;/ul&gt;&lt;/blockquote&gt;
+&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://twitter.com/thsottiaux/status/2077630111499882637&quot;&gt;Thibault Sottiaux&lt;/a&gt;, describing a pretty gnarly Codex bug&lt;/p&gt;
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/codex&quot;&gt;codex&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Jul/16/bad-codex-bug/#atom-tag</guid>
+      <pubDate>2026-07-16T17:45:59+00:00</pubDate>
+    </item>
+    <item>
+      <title>Inkling: Our open-weights model</title>
+      <link>https://simonwillison.net/2026/Jul/16/inkling/#atom-tag</link>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://thinkingmachines.ai/news/introducing-inkling/&quot;&gt;Inkling: Our open-weights model&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+Mira Murati's Thinking Machines Lab just released their first open-weights model. Inkling is &quot;a Mixture-of-Experts transformer with 975B total parameters, 41B active&quot; - an Apache-2.0 licensed multimodal model trained on 45 trillion tokens of text, images, audio and video.&lt;/p&gt;
+&lt;p&gt;They're also promising Inkling-Small, a 276B (12B active) model, but that's still being tested and the weights will be released &quot;once that work is complete&quot;.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;https://thinkingmachines.ai/model-card/inkling/&quot;&gt;model card&lt;/a&gt; is much shorter than I've come to expect from US AI labs. It links to even shorter &lt;a href=&quot;https://thinkingmachines.ai/training-data-documentation/&quot;&gt;Training Data Documentation&lt;/a&gt; with almost nothing of interest in it - it's best summarized by these two paragraphs:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The datasets Thinking Machines Lab uses to develop its AI services includes content that is in the public domain as well as content that may be subject to intellectual property protection.&lt;/p&gt;
+&lt;p&gt;Thinking Machines Lab’s services were developed using publicly available content obtained from the open internet and publicly accessible data repositories. Certain datasets were also obtained from third parties.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;By Thinking Machines' own admission, this is not a frontier model. It's instead intended as a strong base model for fine-tuning using their own &lt;a href=&quot;https://thinkingmachines.ai/tinker/&quot;&gt;Tinker training platform&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Inkling is not the strongest overall model available today, open or closed. Instead, a combination of qualities makes it a good open-weights base for customization: multimodal capabilities, efficient thinking, and availability on Tinker for fine-tuning.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;There's a lot to like about this release. It's Apache-2.0 licensed, and looks competitive with the open weight models coming out of China - it's good to see the US open weights ecosystem gain a new viable contender to join NVIDIA Nemotron and Gemma 4.&lt;/p&gt;
+&lt;p&gt;Here's its attempt at an SVG pelican riding a bicycle, which I generated using this &lt;code&gt;curl&lt;/code&gt; command against the Thinking Machines API:&lt;/p&gt;
+&lt;div class=&quot;highlight highlight-source-shell&quot;&gt;&lt;pre&gt;curl &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;https://tinker.thinkingmachines.dev/services/tinker-prod/oai/api/v1/chat/completions&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; \
+  -H &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;Authorization: Bearer &lt;span class=&quot;pl-smi&quot;&gt;$TINKER_API_KEY&lt;/span&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; \
+  -H &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;Content-Type: application/json&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; \
+  -d &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;'&lt;/span&gt;{&lt;/span&gt;
+&lt;span class=&quot;pl-s&quot;&gt;    &quot;model&quot;: &quot;thinkingmachines/Inkling&quot;,&lt;/span&gt;
+&lt;span class=&quot;pl-s&quot;&gt;    &quot;messages&quot;: [&lt;/span&gt;
+&lt;span class=&quot;pl-s&quot;&gt;      {&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: &quot;Generate an SVG of a pelican riding a bicycle&quot;}&lt;/span&gt;
+&lt;span class=&quot;pl-s&quot;&gt;    ],&lt;/span&gt;
+&lt;span class=&quot;pl-s&quot;&gt;    &quot;stream&quot;: false&lt;/span&gt;
+&lt;span class=&quot;pl-s&quot;&gt;  }&lt;span class=&quot;pl-pds&quot;&gt;'&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Full &lt;a href=&quot;https://gist.github.com/simonw/8117ac4376371dd3fc2b5dbce27e0855&quot;&gt;response here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;See image description below&quot; src=&quot;https://static.simonwillison.net/static/2026/inkling-pelican.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Since it's a multi-modal model I had it describe its own image (after I rendered it to a JPEG) by sending this JSON:&lt;/p&gt;
+&lt;div class=&quot;highlight highlight-source-json&quot;&gt;&lt;pre&gt;{
+  &lt;span class=&quot;pl-ent&quot;&gt;&quot;model&quot;&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;thinkingmachines/Inkling&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;,
+  &lt;span class=&quot;pl-ent&quot;&gt;&quot;messages&quot;&lt;/span&gt;: [{
+    &lt;span class=&quot;pl-ent&quot;&gt;&quot;role&quot;&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;user&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;,
+    &lt;span class=&quot;pl-ent&quot;&gt;&quot;content&quot;&lt;/span&gt;: [
+      {&lt;span class=&quot;pl-ent&quot;&gt;&quot;type&quot;&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;image_url&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;, &lt;span class=&quot;pl-ent&quot;&gt;&quot;image_url&quot;&lt;/span&gt;: {&lt;span class=&quot;pl-ent&quot;&gt;&quot;url&quot;&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;data:image/jpeg;base64,$BASE_64_JPEG&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;}},
+      {&lt;span class=&quot;pl-ent&quot;&gt;&quot;type&quot;&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;text&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;, &lt;span class=&quot;pl-ent&quot;&gt;&quot;text&quot;&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;Describe this image in detail&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;},
+    ],
+  }],
+  &lt;span class=&quot;pl-ent&quot;&gt;&quot;stream&quot;&lt;/span&gt;: &lt;span class=&quot;pl-c1&quot;&gt;false&lt;/span&gt;
+}&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Here's &lt;a href=&quot;https://gist.github.com/simonw/dccebd0581f5c4056c5b0ca5bdc38cd9#reasoning_content&quot;&gt;the full response&lt;/a&gt;. It thought it had drawn a &quot;stork or seagull&quot;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is a cheerful, flat-vector cartoon illustration featuring a white bird riding a bicycle across a green landscape.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Bird:&lt;/strong&gt; The central figure is a stylized white bird—resembling a stork or seagull—with a plump, rounded body. It has a long, prominent orange beak that is slightly open, revealing a black line for the mouth. Its eye is small and black with a tiny white highlight. The bird has black wing and tail feathers with white edges, and thin orange legs ending in black feet that rest on the bicycle's orange pedals.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Bicycle:&lt;/strong&gt; The bike has a simple black frame with two large wheels featuring black tires, gray inner rims, and black spokes arranged in a cross pattern. The handlebars are black, and there are bright orange pedals attached to a black crank. A white seat is visible behind the bird's body.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Setting:&lt;/strong&gt; The scene is set against a clear, light blue sky. There are two fluffy white clouds—one on the left side and a smaller one near the bird's head on the right. A bright, solid yellow sun shines in the upper right corner. At the bottom, there are rolling green hills with a smooth, curved top edge where the bicycle rests.&lt;/p&gt;
+&lt;p&gt;The overall style is playful, simple, and colorful, with clean lines and a bright, sunny atmosphere.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://news.ycombinator.com/item?id=48924912&quot;&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/training-data&quot;&gt;training-data&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-release&quot;&gt;llm-release&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Jul/16/inkling/#atom-tag</guid>
+      <pubDate>2026-07-16T15:35:25+00:00</pubDate>
+    </item>
+    <item>
+      <title>Quoting Linus Torvalds</title>
+      <link>https://simonwillison.net/2026/Jul/16/linus-torvalds/#atom-tag</link>
+      <description>&lt;blockquote cite=&quot;https://lore.kernel.org/linux-media/CAHk-=wi4zC+Ze8e+p3tMv8TtG_80KzsZ1syL9anBtmEh5Z40vg@mail.gmail.com/&quot;&gt;&lt;p&gt;I realize that some people really dislike AI, but this is an area where I'm willing to absolutely put my foot down as the top-level maintainer.&lt;/p&gt;
+&lt;p&gt;Linux is not one of those anti-AI projects, and if somebody has issues with that, they can do the open-source thing and fork it.&lt;/p&gt;
+&lt;p&gt;Or just walk away.&lt;/p&gt;
+&lt;p&gt;AI is a tool, just like other tools we use.  And it's clearly a useful one.&lt;/p&gt;
+&lt;p&gt;It may not have been that &quot;clearly&quot; even just a year ago, but it's no longer in question today.&lt;/p&gt;
+&lt;p&gt;There are other questions around AI (like what the economy of it will actually look like in the end), but &quot;is it useful&quot; is no longer one of those questions. Anybody who doubts that clearly hasn't actually used it.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://lore.kernel.org/linux-media/CAHk-=wi4zC+Ze8e+p3tMv8TtG_80KzsZ1syL9anBtmEh5Z40vg@mail.gmail.com/&quot;&gt;Linus Torvalds&lt;/a&gt;, Linux Media Mailing List&lt;/p&gt;
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/linus-torvalds&quot;&gt;linus-torvalds&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/linux&quot;&gt;linux&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/open-source&quot;&gt;open-source&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Jul/16/linus-torvalds/#atom-tag</guid>
+      <pubDate>2026-07-16T13:26:10+00:00</pubDate>
+    </item>
+    <item>
+      <title>Thinking Machines Inkling 🧠, GPT-Red 🔒, Perplexity sandboxes 🛡️</title>
+      <link>https://tldr.tech/ai/2026-07-16</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-07-16</guid>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>xai-org/grok-build, now open source</title>
       <link>https://simonwillison.net/2026/Jul/15/grok-build/#atom-tag</link>
@@ -903,249 +1088,6 @@ modifying existing files.&lt;/p&gt;
       <pubDate>Wed, 01 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Quoting Anthropic</title>
-      <link>https://simonwillison.net/2026/Jun/30/anthropic/#atom-tag</link>
-      <description>&lt;blockquote cite=&quot;https://twitter.com/anthropicai/status/2072106151890809341&quot;&gt;&lt;p&gt;We’ve received notice that the Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5.&lt;/p&gt;
-&lt;p&gt;We'll begin restoring access tomorrow, and will share an update soon.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://twitter.com/anthropicai/status/2072106151890809341&quot;&gt;Anthropic&lt;/a&gt;, on Twitter&lt;/p&gt;
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Jun/30/anthropic/#atom-tag</guid>
-      <pubDate>2026-06-30T23:58:15+00:00</pubDate>
-    </item>
-    <item>
-      <title>Nano Banana 2 Lite</title>
-      <link>https://simonwillison.net/2026/Jun/30/nano-banana-2-lite/#atom-tag</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://deepmind.google/models/gemini-image/flash-lite/&quot;&gt;Nano Banana 2 Lite&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-Also known as Gemini 3.1 Flash Lite Image (&lt;code&gt;gemini-3.1-flash-lite-image&lt;/code&gt; &lt;a href=&quot;https://ai.google.dev/gemini-api/docs/image-generation&quot;&gt;in their API&lt;/a&gt;), this is the &quot;fastest and cheapest Gemini image model, engineered for velocity and scale&quot;.&lt;/p&gt;
-&lt;p&gt;I &lt;a href=&quot;https://aistudio.google.com/app/prompts/new_chat?model=gemini-3.1-flash-lite-image&quot;&gt;used AI studio&lt;/a&gt; to run this prompt:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;Do a where's Waldo style image but it's where is the raccoon holding a ham radio&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img alt=&quot;Densely illustrated &amp;quot;Where's Waldo&amp;quot;-style cartoon of a woodland festival filled with anthropomorphic animals (bears, foxes, badgers, rabbits, squirrels, owls) under a banner reading &amp;quot;FOREE'S FESTIVAL&amp;quot; and another reading &amp;quot;FOREST FIVAL,&amp;quot; with bunting flags strung between trees, a Ferris wheel on the right, market stalls including one labeled &amp;quot;ACORN FAIR,&amp;quot; signs reading &amp;quot;BANDSTAND,&amp;quot; &amp;quot;HAM RADIO MEET&amp;quot; (appearing twice), and a stage where a bear plays guitar, a raccoon uses a ham radio, a badger plays drums, an owl looks on, and a fox plays trumpet, with crowds of animals wandering forest paths between trees and mountains in the background.&quot; src=&quot;https://static.simonwillison.net/static/2026/nano-banana-2-lite-raccoon.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;I like that one better than &lt;a href=&quot;https://simonwillison.net/2026/Apr/21/gpt-image-2/#nano-banana-2-and-pro&quot;&gt;the results I got from the other Nano Banana models&lt;/a&gt; when I tried this back in April. It spelled Forest Festival wrong in two different ways though.
-
-    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://news.ycombinator.com/item?id=48735444&quot;&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/google&quot;&gt;google&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gemini&quot;&gt;gemini&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/text-to-image&quot;&gt;text-to-image&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-release&quot;&gt;llm-release&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/nano-banana&quot;&gt;nano-banana&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Jun/30/nano-banana-2-lite/#atom-tag</guid>
-      <pubDate>2026-06-30T22:15:35+00:00</pubDate>
-    </item>
-    <item>
-      <title>What's new in Claude Sonnet 5</title>
-      <link>https://simonwillison.net/2026/Jun/30/claude-sonnet-5/#atom-tag</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://platform.claude.com/docs/en/about-claude/models/whats-new-sonnet-5&quot;&gt;What&amp;#x27;s new in Claude Sonnet 5&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-Claude Sonnet 5 came out &lt;a href=&quot;https://www.anthropic.com/news/claude-sonnet-5&quot;&gt;this morning&lt;/a&gt;. I always head straight for the &quot;what's new&quot; developer docs because they tend to have more actionable information than the official announcement post.&lt;/p&gt;
-&lt;p&gt;Anthropic say of Sonnet 5 that &quot;its performance is close to that of Opus 4.8, but at lower prices&quot;. The &lt;a href=&quot;https://www-cdn.anthropic.com/9e6a1044980d8c4ed85669faf9c2a8342e2e9f1e/Claude%20Sonnet%205%20System%20Card.pdf&quot;&gt;system card&lt;/a&gt; helps explain how they were able to release the model without being blocked by the US government:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Sonnet 5 is significantly less capable at cyber tasks than Mythos 5: its safeguards are thus similar to those we apply to Opus 4.7 and Opus 4.8 (models that are more capable than Sonnet 5 but much less capable than Mythos 5).&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Of note from the &quot;what's new&quot; API changes:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Sampling parameters &lt;code&gt;temperature&lt;/code&gt;, &lt;code&gt;top_p&lt;/code&gt;, &lt;code&gt;top_k&lt;/code&gt; are no longer supported.&lt;/li&gt;
-&lt;li&gt;It has a 1 million token context window and 128,000 maximum output tokens.&lt;/li&gt;
-&lt;li&gt;It features &quot;the same set of tools and platform features as Claude Sonnet 4.6&quot;&lt;/li&gt;
-&lt;li&gt;Adaptive thinking is on by default, unless you specify &lt;code&gt;&quot;thinking&quot;: {type: &quot;disabled&quot;}&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;The pricing is the same as Sonnet 4.6: $3/million input, $15/million input, with an introductory discount to $2/$10 until 31st August. But...&lt;/li&gt;
-&lt;li&gt;The model has a new tokenizer, where &quot;The same input text produces approximately 30% more tokens than on Claude Sonnet 4.6.&quot; - effectively a 30% price increase.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I used my &lt;a href=&quot;https://tools.simonwillison.net/claude-token-counter&quot;&gt;Claude Token Counter&lt;/a&gt; tool to try out the new tokenizer. Here are my results for several larger documents:&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Document&lt;/th&gt;
-      &lt;th&gt;Sonnet 4.6&lt;/th&gt;
-      &lt;th&gt;Opus 4.7&lt;/th&gt;
-      &lt;th&gt;Sonnet 5&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;https://github.com/simonw/udhr-markdown/blob/main/declarations/eng.md&quot;&gt;Universal Declaration of Human Rights (English)&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;b&gt;2,356&lt;/b&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;b&gt;3,347&lt;/b&gt;&lt;br /&gt;1.42x&lt;/td&gt;
-      &lt;td&gt;&lt;b&gt;3,341&lt;/b&gt;&lt;br /&gt;1.42x&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;https://github.com/simonw/udhr-markdown/blob/main/declarations/spa.md&quot;&gt;Universal Declaration of Human Rights (Spanish)&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;b&gt;3,572&lt;/b&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;b&gt;4,753&lt;/b&gt;&lt;br /&gt;1.33x&lt;/td&gt;
-      &lt;td&gt;&lt;b&gt;4,747&lt;/b&gt;&lt;br /&gt;1.33x&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;https://github.com/simonw/udhr-markdown/blob/main/declarations/cmn_hans.md&quot;&gt;Universal Declaration of Human Rights (Chinese, Mandarin Simplified)&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;b&gt;3,334&lt;/b&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;b&gt;3,366&lt;/b&gt;&lt;br /&gt;1.01x&lt;/td&gt;
-      &lt;td&gt;&lt;b&gt;3,360&lt;/b&gt;&lt;br /&gt;1.01x&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;https://github.com/simonw/sqlite-utils/blob/79117b9d110d72f46dab5fe2cda412ff4789ab55/sqlite_utils/db.py&quot;&gt;sqlite_utils/db.py&lt;/a&gt; (4,279 lines of Python)&lt;/td&gt;
-      &lt;td&gt;&lt;b&gt;44,014&lt;/b&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;b&gt;56,118&lt;/b&gt;&lt;br /&gt;1.28x&lt;/td&gt;
-      &lt;td&gt;&lt;b&gt;56,113&lt;/b&gt;&lt;br /&gt;1.27x&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;So the new token is roughly 1.4x times more expensive for English, 1.33x for Spanish, 1.28x for Python code and effectively the same cost for Simplified Mandarin.&lt;/p&gt;
-&lt;p&gt;Here's &lt;a href=&quot;https://gist.github.com/simonw/a89e756b621a31e8ffc210e3428efa77&quot;&gt;the pelican&lt;/a&gt;. It's nothing to write home about. Sonnet 5 thinks it looks like a goose.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Illustration of a white goose riding a bicycle, with one wing extended forward to grip the handlebar, set against a plain white background with a brown ground line.&quot; src=&quot;https://static.simonwillison.net/static/2026/sonnet-5-pelican.png&quot; /&gt;
-
-    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://news.ycombinator.com/item?id=48736605&quot;&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-pricing&quot;&gt;llm-pricing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-release&quot;&gt;llm-release&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Jun/30/claude-sonnet-5/#atom-tag</guid>
-      <pubDate>2026-06-30T21:23:02+00:00</pubDate>
-    </item>
-    <item>
-      <title>The AI Compass</title>
-      <link>https://simonwillison.net/2026/Jun/30/the-ai-compass/#atom-tag</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://bambamramfan.github.io/ai-compass/&quot;&gt;The AI Compass&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-This political compass style quiz &lt;a href=&quot;https://bambamramfan.tumblr.com/post/820505178072580096/the-ai-compass&quot;&gt;by bambamramfan&lt;/a&gt; is pretty neat - answer 29 questions about AI and AI ethics to see which of the 30 archetypes you best fit.&lt;/p&gt;
-&lt;p&gt;I'm impressed that my answers on my first time through the quiz categorized me as &quot;The Garage Tinkerer&quot;, patron saint myself!&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Screenshot of a quiz result screen on a dark background. The top half shows a square scatter-plot quadrant chart with axes labeled GOOD (top), BAD (bottom), OVERHYPED (left of center) and TRANSFORMATIVE (right of center), filled with colored regions and scattered dots; a glowing white-ringed teal dot marks the user's position in the upper-right (good/transformative) area. Below, a card reads: &amp;quot;YOU ARE...&amp;quot; / &amp;quot;The Garage Tinkerer&amp;quot; / &amp;quot;patron saint: Simon Willison&amp;quot; / &amp;quot;You're running local models, building little tools, and having a genuinely great time. You don't care about the discourse — you care about making the thing do cool stuff. The technology is interesting and everyone arguing about it would be happier if they just opened a terminal.&amp;quot;&quot; src=&quot;https://static.simonwillison.net/static/2026/garage-tinkerer.jpg&quot; style=&quot;display: block; width: 100%; margin: 0 auto;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;It's implemented as a single page React app using the &lt;code&gt;&amp;lt;script type=&quot;text/babel&quot;&amp;gt;&lt;/code&gt; trick to avoid the necessary build step. &lt;a href=&quot;https://github.com/bambamramfan/ai-compass/blob/main/index.html&quot;&gt;Here's the code&lt;/a&gt;.
-
-    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://bsky.app/profile/erisianrite.com/post/3mphwpqgd4c2y&quot;&gt;@erisianrite.com&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Jun/30/the-ai-compass/#atom-tag</guid>
-      <pubDate>2026-06-30T17:39:23+00:00</pubDate>
-    </item>
-    <item>
-      <title>Have your agent record video demos of its work with shot-scraper video</title>
-      <link>https://simonwillison.net/2026/Jun/30/shot-scraper-video/#atom-tag</link>
-      <description>&lt;p&gt;&lt;a href=&quot;https://shot-scraper.datasette.io/en/stable/video.html&quot;&gt;shot-scraper video&lt;/a&gt; is a new command introduced in today's &lt;a href=&quot;https://github.com/simonw/shot-scraper/releases/tag/1.10&quot;&gt;shot-scraper 1.10&lt;/a&gt; release which accepts a &lt;code&gt;storyboard.yml&lt;/code&gt; file defining a routine to run against a web application and uses Playwright to record a video of that routine. I've written before about the importance of &lt;a href=&quot;https://simonwillison.net/2026/Feb/10/showboat-and-rodney/#proving-code-actually-works&quot;&gt;having coding agents produce demos&lt;/a&gt; of their work; this is my latest attempt at enabling them to do that.&lt;/p&gt;
-&lt;p&gt;Here's an example video created using &lt;code&gt;shot-scraper video&lt;/code&gt;, exercising a &lt;a href=&quot;https://github.com/simonw/datasette/pull/2813&quot;&gt;still in development&lt;/a&gt; feature adding the ability to create new tables in Datasette from pasted CSV, TSV or JSON data:&lt;/p&gt;
-&lt;div style=&quot;margin-bottom: 0.4em;&quot;&gt;
-    &lt;video controls=&quot;controls&quot; loop=&quot;loop&quot; poster=&quot;https://static.simonwillison.net/static/2026/datasette-bulk-insert-demo.jpg&quot; preload=&quot;none&quot; style=&quot;width: 100%; height: auto;&quot;&gt;
-        &lt;source src=&quot;https://static.simonwillison.net/static/2026/datasette-bulk-insert-demo.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    &lt;/video&gt;
-&lt;/div&gt;
-&lt;p&gt;That video was created by running this command:&lt;/p&gt;
-&lt;div class=&quot;highlight highlight-source-shell&quot;&gt;&lt;pre&gt;shot-scraper video datasette-bulk-insert-storyboard.yml \
-  --auth datasette-demo-auth.json --mp4&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;(That &lt;code&gt;--auth&lt;/code&gt; JSON file &lt;a href=&quot;https://gist.github.com/simonw/287b26aff53fcb72942b19f5b69d7e5c&quot;&gt;contains a cookie&lt;/a&gt;, as &lt;a href=&quot;https://shot-scraper.datasette.io/en/stable/authentication.html&quot;&gt;described here&lt;/a&gt; in the documentation.)&lt;/p&gt;
-&lt;p&gt;Here's the &lt;code&gt;datasette-bulk-insert-storyboard.yml&lt;/code&gt; file:&lt;/p&gt;
-&lt;div class=&quot;highlight highlight-source-yaml&quot;&gt;&lt;pre&gt;&lt;span class=&quot;pl-ent&quot;&gt;output&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;/tmp/datasette-bulk-insert-demo.webm&lt;/span&gt;
-&lt;span class=&quot;pl-ent&quot;&gt;server&lt;/span&gt;:
-  - &lt;span class=&quot;pl-s&quot;&gt;uv&lt;/span&gt;
-  - &lt;span class=&quot;pl-s&quot;&gt;--directory&lt;/span&gt;
-  - &lt;span class=&quot;pl-s&quot;&gt;/Users/simon/Dropbox/dev/datasette&lt;/span&gt;
-  - &lt;span class=&quot;pl-s&quot;&gt;run&lt;/span&gt;
-  - &lt;span class=&quot;pl-s&quot;&gt;datasette&lt;/span&gt;
-  - &lt;span class=&quot;pl-s&quot;&gt;-p&lt;/span&gt;
-  - &lt;span class=&quot;pl-c1&quot;&gt;6419&lt;/span&gt;
-  - &lt;span class=&quot;pl-s&quot;&gt;--root&lt;/span&gt;
-  - &lt;span class=&quot;pl-s&quot;&gt;--secret&lt;/span&gt;
-  - &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;1&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-  - &lt;span class=&quot;pl-s&quot;&gt;/tmp/demo.db&lt;/span&gt;
-&lt;span class=&quot;pl-ent&quot;&gt;url&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;http://127.0.0.1:6419/demo/tasks&lt;/span&gt;
-&lt;span class=&quot;pl-ent&quot;&gt;viewport&lt;/span&gt;:
-  &lt;span class=&quot;pl-ent&quot;&gt;width&lt;/span&gt;: &lt;span class=&quot;pl-c1&quot;&gt;1280&lt;/span&gt;
-  &lt;span class=&quot;pl-ent&quot;&gt;height&lt;/span&gt;: &lt;span class=&quot;pl-c1&quot;&gt;720&lt;/span&gt;
-&lt;span class=&quot;pl-ent&quot;&gt;cursor&lt;/span&gt;: &lt;span class=&quot;pl-c1&quot;&gt;true&lt;/span&gt;
-&lt;span class=&quot;pl-ent&quot;&gt;wait_for&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;'&lt;/span&gt;button[data-table-action=&quot;insert-row&quot;]&lt;span class=&quot;pl-pds&quot;&gt;'&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;pl-ent&quot;&gt;javascript&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;|&lt;/span&gt;
-&lt;span class=&quot;pl-s&quot;&gt;  (() =&amp;gt; {&lt;/span&gt;
-&lt;span class=&quot;pl-s&quot;&gt;    let clipboardText = &quot;&quot;;&lt;/span&gt;
-&lt;span class=&quot;pl-s&quot;&gt;    Object.defineProperty(navigator, &quot;clipboard&quot;, {&lt;/span&gt;
-&lt;span class=&quot;pl-s&quot;&gt;      configurable: true,&lt;/span&gt;
-&lt;span class=&quot;pl-s&quot;&gt;      get: () =&amp;gt; ({&lt;/span&gt;
-&lt;span class=&quot;pl-s&quot;&gt;        writeText: async (text) =&amp;gt; {&lt;/span&gt;
-&lt;span class=&quot;pl-s&quot;&gt;          clipboardText = String(text);&lt;/span&gt;
-&lt;span class=&quot;pl-s&quot;&gt;        },&lt;/span&gt;
-&lt;span class=&quot;pl-s&quot;&gt;        readText: async () =&amp;gt; clipboardText,&lt;/span&gt;
-&lt;span class=&quot;pl-s&quot;&gt;      }),&lt;/span&gt;
-&lt;span class=&quot;pl-s&quot;&gt;    });&lt;/span&gt;
-&lt;span class=&quot;pl-s&quot;&gt;  })();&lt;/span&gt;
-&lt;span class=&quot;pl-s&quot;&gt;&lt;/span&gt;&lt;span class=&quot;pl-ent&quot;&gt;scenes&lt;/span&gt;:
-  - &lt;span class=&quot;pl-ent&quot;&gt;name&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;Bulk insert existing table rows&lt;/span&gt;
-    &lt;span class=&quot;pl-ent&quot;&gt;do&lt;/span&gt;:
-      - &lt;span class=&quot;pl-ent&quot;&gt;pause&lt;/span&gt;: &lt;span class=&quot;pl-c1&quot;&gt;0.8&lt;/span&gt;
-      - &lt;span class=&quot;pl-ent&quot;&gt;click&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;'&lt;/span&gt;button[data-table-action=&quot;insert-row&quot;]&lt;span class=&quot;pl-pds&quot;&gt;'&lt;/span&gt;&lt;/span&gt;
-      - &lt;span class=&quot;pl-ent&quot;&gt;wait_for&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;#row-edit-dialog[open]&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-      - &lt;span class=&quot;pl-ent&quot;&gt;pause&lt;/span&gt;: &lt;span class=&quot;pl-c1&quot;&gt;0.5&lt;/span&gt;
-      - &lt;span class=&quot;pl-ent&quot;&gt;click&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;.row-edit-bulk-insert&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-      - &lt;span class=&quot;pl-ent&quot;&gt;wait_for&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;.row-edit-bulk-textarea&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-      - &lt;span class=&quot;pl-ent&quot;&gt;pause&lt;/span&gt;: &lt;span class=&quot;pl-c1&quot;&gt;0.5&lt;/span&gt;
-      - &lt;span class=&quot;pl-ent&quot;&gt;click&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;.row-edit-copy-template&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-      - &lt;span class=&quot;pl-ent&quot;&gt;wait_for&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;text=Copied&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-      - &lt;span class=&quot;pl-ent&quot;&gt;pause&lt;/span&gt;: &lt;span class=&quot;pl-c1&quot;&gt;0.8&lt;/span&gt;
-      - &lt;span class=&quot;pl-ent&quot;&gt;fill&lt;/span&gt;:
-          &lt;span class=&quot;pl-ent&quot;&gt;into&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;.row-edit-bulk-textarea&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-          &lt;span class=&quot;pl-ent&quot;&gt;text&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;|&lt;/span&gt;
-&lt;span class=&quot;pl-s&quot;&gt;            title,owner,status,priority,notes&lt;/span&gt;
-&lt;span class=&quot;pl-s&quot;&gt;            Prepare release video,Ana,doing,1,Recorded with shot-scraper&lt;/span&gt;
-&lt;span class=&quot;pl-s&quot;&gt;            Check pasted CSV import,Ben,review,3,Previewed before inserting&lt;/span&gt;
-&lt;span class=&quot;pl-s&quot;&gt;            Share the branch demo,Chen,queued,2,Bulk insert creates three rows&lt;/span&gt;
-&lt;span class=&quot;pl-s&quot;&gt;&lt;/span&gt;      - &lt;span class=&quot;pl-ent&quot;&gt;pause&lt;/span&gt;: &lt;span class=&quot;pl-c1&quot;&gt;0.8&lt;/span&gt;
-      - &lt;span class=&quot;pl-ent&quot;&gt;click&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;.row-edit-save&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-      - &lt;span class=&quot;pl-ent&quot;&gt;wait_for&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;text=Previewing 3 rows.&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-      - &lt;span class=&quot;pl-ent&quot;&gt;pause&lt;/span&gt;: &lt;span class=&quot;pl-c1&quot;&gt;1.2&lt;/span&gt;
-      - &lt;span class=&quot;pl-ent&quot;&gt;click&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;.row-edit-save&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-      - &lt;span class=&quot;pl-ent&quot;&gt;wait_for&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;text=3 rows inserted.&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-      - &lt;span class=&quot;pl-ent&quot;&gt;pause&lt;/span&gt;: &lt;span class=&quot;pl-c1&quot;&gt;1.0&lt;/span&gt;
-      - &lt;span class=&quot;pl-ent&quot;&gt;click&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;.row-edit-cancel&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-      - &lt;span class=&quot;pl-ent&quot;&gt;wait_for&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;text=Prepare release video&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-      - &lt;span class=&quot;pl-ent&quot;&gt;pause&lt;/span&gt;: &lt;span class=&quot;pl-c1&quot;&gt;1.0&lt;/span&gt;
-  - &lt;span class=&quot;pl-ent&quot;&gt;name&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;Create a table from pasted CSV&lt;/span&gt;
-    &lt;span class=&quot;pl-ent&quot;&gt;open&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;http://127.0.0.1:6419/demo&lt;/span&gt;
-    &lt;span class=&quot;pl-ent&quot;&gt;wait_for&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;'&lt;/span&gt;details.actions-menu-links summary&lt;span class=&quot;pl-pds&quot;&gt;'&lt;/span&gt;&lt;/span&gt;
-    &lt;span class=&quot;pl-ent&quot;&gt;do&lt;/span&gt;:
-      - &lt;span class=&quot;pl-ent&quot;&gt;pause&lt;/span&gt;: &lt;span class=&quot;pl-c1&quot;&gt;0.8&lt;/span&gt;
-      - &lt;span class=&quot;pl-ent&quot;&gt;click&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;'&lt;/span&gt;details.actions-menu-links summary&lt;span class=&quot;pl-pds&quot;&gt;'&lt;/span&gt;&lt;/span&gt;
-      - &lt;span class=&quot;pl-ent&quot;&gt;click&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;'&lt;/span&gt;button[data-database-action=&quot;create-table&quot;]&lt;span class=&quot;pl-pds&quot;&gt;'&lt;/span&gt;&lt;/span&gt;
-      - &lt;span class=&quot;pl-ent&quot;&gt;wait_for&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;#table-create-dialog[open]&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-      - &lt;span class=&quot;pl-ent&quot;&gt;pause&lt;/span&gt;: &lt;span class=&quot;pl-c1&quot;&gt;0.5&lt;/span&gt;
-      - &lt;span class=&quot;pl-ent&quot;&gt;fill&lt;/span&gt;:
-          &lt;span class=&quot;pl-ent&quot;&gt;into&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;.table-create-table-name&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-          &lt;span class=&quot;pl-ent&quot;&gt;text&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;launch_metrics&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-      - &lt;span class=&quot;pl-ent&quot;&gt;click&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;.table-create-from-data&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-      - &lt;span class=&quot;pl-ent&quot;&gt;wait_for&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;.table-create-data-textarea&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-      - &lt;span class=&quot;pl-ent&quot;&gt;pause&lt;/span&gt;: &lt;span class=&quot;pl-c1&quot;&gt;0.5&lt;/span&gt;
-      - &lt;span class=&quot;pl-ent&quot;&gt;fill&lt;/span&gt;:
-          &lt;span class=&quot;pl-ent&quot;&gt;into&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;.table-create-data-textarea&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-          &lt;span class=&quot;pl-ent&quot;&gt;text&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;|&lt;/span&gt;
-&lt;span class=&quot;pl-s&quot;&gt;            metric_id,name,score,recorded_on&lt;/span&gt;
-&lt;span class=&quot;pl-s&quot;&gt;            m001,Activation rate,87.5,2026-06-29&lt;/span&gt;
-&lt;span class=&quot;pl-s&quot;&gt;            m002,Retention check,72.25,2026-06-30&lt;/span&gt;
-&lt;span class=&quot;pl-s&quot;&gt;            m003,CSV import health,95,2026-07-01&lt;/span&gt;
-&lt;span class=&quot;pl-s&quot;&gt;&lt;/span&gt;      - &lt;span class=&quot;pl-ent&quot;&gt;pause&lt;/span&gt;: &lt;span class=&quot;pl-c1&quot;&gt;0.8&lt;/span&gt;
-      - &lt;span class=&quot;pl-ent&quot;&gt;click&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;.table-create-save&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-      - &lt;span class=&quot;pl-ent&quot;&gt;wait_for&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;text=Previewing 3 rows.&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-      - &lt;span class=&quot;pl-ent&quot;&gt;pause&lt;/span&gt;: &lt;span class=&quot;pl-c1&quot;&gt;1.2&lt;/span&gt;
-      - &lt;span class=&quot;pl-ent&quot;&gt;click&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;.table-create-save&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-      - &lt;span class=&quot;pl-ent&quot;&gt;wait_for_url&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;**/demo/launch_metrics&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-      - &lt;span class=&quot;pl-ent&quot;&gt;wait_for&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;text=Activation rate&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-      - &lt;span class=&quot;pl-ent&quot;&gt;pause&lt;/span&gt;: &lt;span class=&quot;pl-c1&quot;&gt;1.2&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;The &lt;a href=&quot;https://shot-scraper.datasette.io/en/stable/video.html&quot;&gt;video command documentation&lt;/a&gt; includes simpler examples, but for the purpose of this post I thought I'd go with something more comprehensive.&lt;/p&gt;
-&lt;p&gt;That demo YAML storyboard was constructed entirely by GPT-5.5 xhigh running in Codex Desktop, using the following prompt run inside my &lt;code&gt;~/dev/datasette&lt;/code&gt; checkout of &lt;a href=&quot;https://github.com/simonw/datasette/commits/b759ea548606bc9bf9a4bf0e33e2d57ead7e0ab8/&quot;&gt;this branch&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;Review the changes on this branch.&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;cd to ~/dev/shot-scraper and run the command &quot;uv run shot-scraper video --help&quot;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Now use that new video command to record a video demo of the new features from this branch, including running a &quot;uv run datasette -p 6419 --root --secret 1 /tmp/demo.db&quot; development server so you can record the video against a demo DB that you first create.&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Now that I've released the feature the prompt could say &quot;&lt;code&gt;run uvx shot-scraper video --help&lt;/code&gt;&quot; instead and it should achieve the same result.&lt;/p&gt;
-&lt;p&gt;I really like this pattern where the &lt;code&gt;--help&lt;/code&gt; output for a command provides enough detail that a coding agent can use it - it works kind of like bundling a &lt;code&gt;SKILL.md&lt;/code&gt; file directly inside the tool. I used the same pattern for &lt;a href=&quot;https://simonwillison.net/2026/Feb/10/showboat-and-rodney/&quot;&gt;showboat and rodney&lt;/a&gt;.&lt;/p&gt;
-&lt;h4 id=&quot;how-i-built-this&quot;&gt;How I built this&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;shot-scraper video&lt;/code&gt; started as an experimental prototype. &lt;code&gt;shot-scraper&lt;/code&gt; is built on top of &lt;a href=&quot;https://playwright.dev/&quot;&gt;Playwright&lt;/a&gt;, and the key feature it needed was for Playwright to be able to record video of browser sessions with enough control to create the desired demo.&lt;/p&gt;
-&lt;p&gt;I first tried this a few years ago and found that the Playwright-produced videos included additional chrome that was useful for debugging a test failure but unwanted for a product demo.&lt;/p&gt;
-&lt;p&gt;They fixed that a while ago, but there were still some minor blockers. In particular I was getting &lt;a href=&quot;https://github.com/simonw/shot-scraper/pull/194/changes/c2f3b3a52ba84f2adcf3ad6da4d39c2570328584#issuecomment-4724459369&quot;&gt;a few white frames at the start of the videos&lt;/a&gt;, since the recording mechanism kicked in before the first URL was loaded by the browser.&lt;/p&gt;
-&lt;p&gt;Playwright 1.59 added a new &lt;a href=&quot;https://playwright.dev/python/docs/api/class-screencast&quot;&gt;screencast mechanism&lt;/a&gt; providing much more finely grained control over video recording. This was very nearly what I needed, but the resulting videos were fixed at 800px wide.&lt;/p&gt;
-&lt;p&gt;I found a &lt;a href=&quot;https://github.com/microsoft/playwright/pull/41183&quot;&gt;landed PR fixing that&lt;/a&gt; but it wasn't yet in a release. Then yesterday they shipped it in &lt;a href=&quot;https://github.com/microsoft/playwright-python/releases/tag/v1.61.0&quot;&gt;playwright-python 1.61.0&lt;/a&gt; and I was finally unblocked to finish implementing the feature!&lt;/p&gt;
-&lt;p&gt;The code itself was all written by GPT-5.5 xhigh in Codex Desktop. I had it write the documentation as well which gave me a very useful frame for reviewing the design - much of the iteration on the feature came from reviewing that documentation, spotting things that were redundant, inconsistent or confusing, and requesting (or dictating) a better design.&lt;/p&gt;
-&lt;p&gt;The YAML format itself was mostly defined by the coding agent. I had it &lt;a href=&quot;https://github.com/simonw/shot-scraper/blob/1.10/shot_scraper/video.py#L24&quot;&gt;use Pydantic&lt;/a&gt; to both define and validate the format, partly to make the design easier to review.&lt;/p&gt;
-&lt;p&gt;This is a great example of the kind of feature that I almost certainly wouldn't have taken on without coding agent support. I filed the &lt;a href=&quot;https://github.com/simonw/shot-scraper/issues/142&quot;&gt;original issue&lt;/a&gt; in February 2024, and had difficulty finding the necessary time to solve this in amongst all of my other projects.&lt;/p&gt;
-    
-        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/projects&quot;&gt;projects&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/python&quot;&gt;python&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/yaml&quot;&gt;yaml&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/datasette&quot;&gt;datasette&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/playwright&quot;&gt;playwright&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/shot-scraper&quot;&gt;shot-scraper&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pydantic&quot;&gt;pydantic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/agentic-engineering&quot;&gt;agentic-engineering&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Jun/30/shot-scraper-video/#atom-tag</guid>
-      <pubDate>2026-06-30T16:54:26+00:00</pubDate>
-    </item>
-    <item>
       <title>Claude Science, an AI workbench for scientists, is now available</title>
       <link>https://www.anthropic.com/news/claude-science-ai-workbench</link>
       <description>Claude Science, an AI workbench for scientists, is now available</description>
@@ -1172,27 +1114,6 @@ This political compass style quiz &lt;a href=&quot;https://bambamramfan.tumblr.c
       <description/>
       <guid>https://tldr.tech/ai/2026-06-30</guid>
       <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding</title>
-      <link>https://simonwillison.net/2026/Jun/29/ornith/#atom-tag</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://deep-reinforce.com/ornith_1_0.html&quot;&gt;Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-This is an interesting new open weights (MIT licensed) model, the first model release from DeepReinforce.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;[...] with variants including 9B Dense, 31B Dense, 35B MoE, and 397B MoE. Built on top of pretrained Gemma 4 and Qwen 3.5, it achieves state-of-the-art performance among open-source models of comparable size on coding benchmarks.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;As far as I can tell the licenses of those underlying models is compatible with being used in this way - Gemma 4 is Apache 2.0 licensed (and not bound by the janky additional &lt;a href=&quot;https://ai.google.dev/gemma/terms&quot;&gt;Gemma Terms of Use&lt;/a&gt; that afflicted the previous Gemma models) and Qwen 3.5 is Apache 2.0 licensed as well.&lt;/p&gt;
-&lt;p&gt;I've been running the model using LM Studio and the &lt;a href=&quot;https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF&quot;&gt;ornith-1.0-35b-Q4_K_M.gguf&lt;/a&gt; (20GB) GGUF, hooked up to &lt;a href=&quot;https://pi.dev/&quot;&gt;Pi&lt;/a&gt;. Initial impressions are very good - it seems to be able to run the agent harness over many tool calls in a proficient way.&lt;/p&gt;
-&lt;p&gt;Here's &lt;a href=&quot;https://gisthost.github.io/?35da4d9ce7f0c27124c67655a0dc9e5d&quot;&gt;a terminal session&lt;/a&gt; where I asked it to &quot;find the code that decodes the actor cookie&quot; and then &quot;find the code that opens the insert dialog when thebutton is clicked&quot; against a Datasette checkout, which it handled with ease.&lt;/p&gt;
-&lt;p&gt;I also had it &lt;a href=&quot;https://gist.github.com/simonw/1869e1bbcafe5bcad0f26351f6a978a6&quot;&gt;draw this pelican&lt;/a&gt;, which came out at 103 tokens/second:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Cartoon illustration of a white pelican (albeit slightly mangled) with a large orange beak riding a red bicycle across green hills. The scene has a blue sky with a yellow sun and three white clouds, and small grass tufts dot the foreground.&quot; src=&quot;https://static.simonwillison.net/static/2024/ornith-1-pelican.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;It's a little bit mangled but the pelican is clearly a pelican.&lt;/p&gt;
-&lt;p&gt;I couldn't find much information about DeepReinforce themselves. The earliest paper I could find from the was &lt;a href=&quot;https://arxiv.org/abs/2507.14111&quot;&gt;CUDA-L1: Improving CUDA Optimization via Contrastive Reinforcement Learning&lt;/a&gt; from June 2025.
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/local-llms&quot;&gt;local-llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/qwen&quot;&gt;qwen&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gemma&quot;&gt;gemma&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-release&quot;&gt;llm-release&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/lm-studio&quot;&gt;lm-studio&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Jun/29/ornith/#atom-tag</guid>
-      <pubDate>2026-06-29T16:17:59+00:00</pubDate>
     </item>
     <item>
       <title>GPT-5.6 preview ☀️, Grok 4.5 beta 🤖, Google limits Meta 🛑</title>
@@ -1249,13 +1170,6 @@ This is an interesting new open weights (MIT licensed) model, the first model re
       <description/>
       <guid>https://tldr.tech/ai/2026-06-19</guid>
       <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ChatGPT marketshare drops 📉, Vercel eve 🤖, Replit links Claude 🔌</title>
-      <link>https://tldr.tech/ai/2026-06-18</link>
-      <description/>
-      <guid>https://tldr.tech/ai/2026-06-18</guid>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem</title>
