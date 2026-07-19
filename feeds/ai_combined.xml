@@ -3,7 +3,32 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Sat, 18 Jul 2026 12:10:53 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2026 12:12:29 +0000</lastBuildDate>
+    <item>
+      <title>AI Mania Is Eviscerating Global Decision-Making</title>
+      <link>https://simonwillison.net/2026/Jul/19/ai-mania/#atom-tag</link>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/&quot;&gt;AI Mania Is Eviscerating Global Decision-Making&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+Here's an entertaining perspective from Nik Suresh on the AI mania that is overwhelming the large companies that he consults with. It's crammed with spicy anecdotes from anonymous sources.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In one extreme case, I have seen an executive confess that they had never even used ChatGPT or any AI tool in their life, immediately after producing a technical strategy for an organisation with $2B+ in revenue which was entirely centered around AI.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Here's a report from an engineer at a company with a token leaderboard:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Checking out a parallel copy of our Go repository and telling the AI to rewrite the whole thing in Zig while I work on something else just so I can keep my job.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I particularly enjoyed this report of a conversation with a skeptical executive at an over-enthusiastic company:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I asked &lt;em&gt;why&lt;/em&gt; this was being repeated without opposition. Was it just sales fluff?&lt;/p&gt;
+&lt;p&gt;The answer was a lot more interesting. It was &lt;em&gt;partially&lt;/em&gt; ridiculous sales material being delivered to an easily excitable audience, but this was not the dominant factor constraining honesty. Executives at their &lt;em&gt;customers&lt;/em&gt; were saying absurd things about achieving 100x productivity, and this meant that if any executive at the &lt;em&gt;vendor&lt;/em&gt; said that these gains were not plausible, it would undermine the credibility of the customer’s executive, be perceived as an attack (or heresy), and possibly result in an enterprise contract cancellation. And getting enterprise contracts cancelled because you wanted to opine on something that doesn’t really matter to your organisation’s mission is a great way to get fired.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://news.ycombinator.com/item?id=48964185&quot;&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-misuse&quot;&gt;ai-misuse&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Jul/19/ai-mania/#atom-tag</guid>
+      <pubDate>2026-07-19T05:06:21+00:00</pubDate>
+    </item>
     <item>
       <title>Claude make Fable 5 permanent</title>
       <link>https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-tag</link>
@@ -16,7 +41,8 @@ An update from the &lt;code&gt;@claudeai&lt;/code&gt; account on Twitter:&lt;/p&
 &lt;p&gt;As I was saying &lt;a href=&quot;https://simonwillison.net/2026/Jul/12/bump/&quot;&gt;last week&lt;/a&gt;, the competition from &lt;a href=&quot;https://simonwillison.net/2026/Jul/9/gpt-5-6/&quot;&gt;GPT-5.6 Sol&lt;/a&gt; (and maybe to a lesser extent &lt;a href=&quot;https://simonwillison.net/2026/Jul/16/kimi-k3/&quot;&gt;Kimi 3&lt;/a&gt;) made untenable Anthropic's plan to remove Fable 5 from their subscription accounts and make it available exclusively through API pricing.&lt;/p&gt;
 &lt;p&gt;Why pay $100 or $200/month for a subscription plan that &lt;em&gt;doesn't&lt;/em&gt; include Anthropic's best model?&lt;/p&gt;
 &lt;p&gt;Their original plan was driven by concerns over compute capacity. I wonder if they'll have to dial back their training efforts in order to make more GPUs available to help serve the model.&lt;/p&gt;
-&lt;p&gt;A lot of people were losing sleep over trying to make the most of Fable 5 before subscriber access was withdrawn. It's nice not to have to worry about the Fablepocalypse any more.
+&lt;p&gt;A lot of people were losing sleep over trying to make the most of Fable 5 before subscriber access was withdrawn. It's nice not to have to worry about the Fablepocalypse any more.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: Important to note that users on the $20/month plan will still not have access to Fable 5 on that subscription. The Max plans are $100 and $200/month.
 
 
     &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-pricing&quot;&gt;llm-pricing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;&lt;/p&gt;</description>
@@ -63,7 +89,7 @@ An update from the &lt;code&gt;@claudeai&lt;/code&gt; account on Twitter:&lt;/p&
 &lt;p&gt;The Coachella Valley has &lt;a href=&quot;https://www.cvwd.org/167/Water-Conservation&quot;&gt;120 golf courses each using ~800 acre-feet per year&lt;/a&gt;,  which is ~750,000 gallons per day.&lt;/p&gt;
 &lt;p&gt;So Google buying up 40 of those courses (1/3) should do the trick.&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai-energy-usage&quot;&gt;ai-energy-usage&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-energy-usage&quot;&gt;ai-energy-usage&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Jul/17/spot-birds-not-golf/#atom-tag</guid>
       <pubDate>2026-07-17T02:58:07+00:00</pubDate>
     </item>
@@ -473,7 +499,7 @@ I went looking for a definition of &quot;Directly Responsible Individuals&quot; 
 &lt;/blockquote&gt;
 &lt;p&gt;At this point I think Anthropic should change track and keep Fable permanently available on those plans. OpenAI are winning users simply due to the uncertainty that surrounds Fable access.&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gpt&quot;&gt;gpt&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-pricing&quot;&gt;llm-pricing&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-pricing&quot;&gt;llm-pricing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gpt&quot;&gt;gpt&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Jul/12/bump/#atom-tag</guid>
       <pubDate>2026-07-12T21:20:07+00:00</pubDate>
     </item>
@@ -639,7 +665,7 @@ Jarred Sumner has been promising this blog post (&lt;a href=&quot;https://x.com/
     &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://news.ycombinator.com/item?id=48837877&quot;&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
 
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/rust&quot;&gt;rust&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/zig&quot;&gt;zig&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-assisted-programming&quot;&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/bun&quot;&gt;bun&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/conformance-suites&quot;&gt;conformance-suites&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/agentic-engineering&quot;&gt;agentic-engineering&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/rust&quot;&gt;rust&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/zig&quot;&gt;zig&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-assisted-programming&quot;&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/bun&quot;&gt;bun&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/conformance-suites&quot;&gt;conformance-suites&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/agentic-engineering&quot;&gt;agentic-engineering&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/jarred-sumner&quot;&gt;jarred-sumner&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-tag</guid>
       <pubDate>2026-07-08T23:57:21+00:00</pubDate>
     </item>
@@ -963,44 +989,6 @@ Armin reports on a weird problem he ran into while hacking on Pi:&lt;/p&gt;
     &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/careers&quot;&gt;careers&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/josh-comeau&quot;&gt;josh-comeau&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Jul/3/josh-w-comeau/#atom-tag</guid>
       <pubDate>2026-07-03T21:25:52+00:00</pubDate>
-    </item>
-    <item>
-      <title>Fable's judgement</title>
-      <link>https://simonwillison.net/2026/Jul/3/judgement/#atom-tag</link>
-      <description>&lt;p&gt;One of the most interesting tips I got from &lt;a href=&quot;https://www.ai.engineer/worldsfair/schedule?session=asn_slot_2026_06_30_main_stage_1230_2026_06_08t09_35_43_039z&quot;&gt;the Fireside Chat&lt;/a&gt; I hosted with Cat Wu and Thariq Shihipar from the Claude Code team at AIE on Wednesday was to let Fable (and to a certain extent Opus) use their own judgement rather than dictating how they should work.&lt;/p&gt;
-&lt;p&gt;The example they gave was testing. You can tell Fable &quot;only use automated testing for larger features, don't update and run tests for small copy or design changes&quot; - but it's better to just tell Fable to use its own judgement when deciding to write tests instead.&lt;/p&gt;
-&lt;p&gt;Jesse Vincent just gave me a related tip to help avoid burning too many of those valuable Fable tokens in the few days we have left before the prices go up. Tell Fable to use other models for smaller tasks, applying its own judgement about which model to use.&lt;/p&gt;
-&lt;p&gt;I prompted Claude Code just now with:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;For all coding tasks use your judgement to decide an appropriate lower power model and run that in a subagent&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Claude saved this memory file in &lt;code&gt;~/.claude/projects/name-of-project/memory/delegate-coding-to-subagents.md&lt;/code&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;pre&gt;&lt;code&gt;---
-name: delegate-coding-to-subagents
-description: Simon wants coding tasks delegated to subagents running an appropriately lower-power model
-metadata: 
-  node_type: memory
-  type: feedback
-  originSessionId: 30068d78-43a9-4fb1-bb29-9799e18c526a
----
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Stated by Simon on 2026-07-03: &quot;For all coding tasks use your judgement to
-decide an appropriate lower power model and run that in a subagent.&quot;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Why:&lt;/strong&gt; cost/efficiency — implementation work rarely needs the top-tier
-model; judgment, review, and synthesis stay with the main loop.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;How to apply:&lt;/strong&gt; when a task in this project is primarily writing/editing
-code, spawn an Agent with a model override (sonnet for substantive
-implementation, haiku for trivial/mechanical edits) and a self-contained
-prompt; review the result in the main loop before committing. Design,
-auditing, data synthesis, and anything judgment-heavy stays in the main
-model. See also [[project-goals]].&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;So far it seems to be working well. I'm getting a &lt;em&gt;ton&lt;/em&gt; of work done and my Fable allowance is shrinking less quickly than before.&lt;/p&gt;
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-code&quot;&gt;claude-code&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/prompt-engineering&quot;&gt;prompt-engineering&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Jul/3/judgement/#atom-tag</guid>
-      <pubDate>2026-07-03T18:51:06+00:00</pubDate>
     </item>
     <item>
       <title>Meta Watermelon 🍉, Anthropic Samsung chips 🤝, autoresearch in practice 📈</title>
