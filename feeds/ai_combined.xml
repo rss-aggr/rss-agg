@@ -3,7 +3,42 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Mon, 20 Jul 2026 13:25:02 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 12:51:51 +0000</lastBuildDate>
+    <item>
+      <title>Reverse-engineering is cheap now</title>
+      <link>https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-tag</link>
+      <description>&lt;p&gt;I keep hearing anecdotes from people who used coding agents to reverse-engineer and automate devices in their homes.&lt;/p&gt;
+&lt;p&gt;I think this is an interesting illustration of the impact of the reduced cost of writing code.&lt;/p&gt;
+&lt;p&gt;Prior to agents, it was entirely possible to reverse-engineer home devices. The problem was the ROI - was it really worth all of that effort? More importantly, any experienced programmer knows that undocumented, unstable APIs like that may well change or break in the future. Is that initial work worth the effort if you're committing yourself to a frustrating cycle of maintenance in the future?&lt;/p&gt;
+&lt;p&gt;Coding agents change that equation entirely. The effort to get a simple automation working has dropped, as has the cost of trying and failing to get it to work. Since the code is so cheap, the idea of having to maintain it in the future - or throw it away and start again - carries way less psychological baggage.&lt;/p&gt;
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/reverse-engineering&quot;&gt;reverse-engineering&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-assisted-programming&quot;&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-tag</guid>
+      <pubDate>2026-07-20T19:24:05+00:00</pubDate>
+    </item>
+    <item>
+      <title>Who’s Afraid of Chinese Models?</title>
+      <link>https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models/#atom-tag</link>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://stratechery.com/2026/whos-afraid-of-chinese-models/&quot;&gt;Who’s Afraid of Chinese Models?&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+Interesting proposal from Ben Thompson that both addresses the hypocrisy of labs outlawing distillation against their models despite training on unlicensed data, and could help US open models compete more effectively with their Chinese counterparts:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The U.S. should pass a law that (1) makes explicit that collecting data for training models is fair use, and (2) bars terms of service that forbid distillation, for U.S. companies at a minimum. Stopping distillation — which is literally just querying the API — is nearly impossible; the U.S. should go the other way and lean into a new copyright policy that both indemnifies the labs and also guarantees that what they learned fuels further innovation for everyone else.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Ben also theorizes that Alibaba's decision to release Qwen 3.8 Max as open weights - a reversal from their decision &lt;a href=&quot;https://qwen.ai/blog?id=qwen3.7&quot;&gt;not to release Qwen 3.7 Max&lt;/a&gt; in May - may have been influenced by a &lt;a href=&quot;http://english.scio.gov.cn/topnews/2026-07/18/content_118605932.html&quot;&gt;recent speech&lt;/a&gt; by Xi Jinping, who said:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We should seize this rare, historic opportunity to encourage open source, openness, collaboration and sharing.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;And on the subject of &lt;a href=&quot;https://twitter.com/Alibaba_Qwen/status/2078759124914098291&quot;&gt;Qwen 3.8 Max&lt;/a&gt; - a new 2.4T parameter model (nearly as large as the 2.8T Kimi K3) - here's &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F735f2cf19b795517cb2ff6cae1c71c64&quot;&gt;a pelican it drew&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Described by Qwen 3.8 Max: Flat vector cartoon illustration of a white pelican with a large orange beak and pouch riding a red bicycle, its orange legs on the pedals, against a light blue sky with a yellow sun top right and a white cloud top left, with horizontal motion lines behind the bike and a pale green ground strip at the bottom.&quot; src=&quot;https://static.simonwillison.net/static/2026/qwen-3.8-max-pelican.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I particularly enjoyed seeing these notes in the (extensive) reasoning trace:  &quot;Could add helmet? No.&quot; and &quot;Maybe add small bell? no.&quot; and &quot;Need maybe add small fish in basket? Not necessary.&quot;
+
+    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://daringfireball.net/linked/2026/07/20/thompson-chinese-models-distillation&quot;&gt;John Gruber&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/training-data&quot;&gt;training-data&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/qwen&quot;&gt;qwen&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-release&quot;&gt;llm-release&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-in-china&quot;&gt;ai-in-china&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models/#atom-tag</guid>
+      <pubDate>2026-07-20T17:09:19+00:00</pubDate>
+    </item>
     <item>
       <title>Quoting Sam Altman</title>
       <link>https://simonwillison.net/2026/Jul/20/sam-altman/#atom-tag</link>
@@ -13,6 +48,13 @@
     &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/sam-altman&quot;&gt;sam-altman&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Jul/20/sam-altman/#atom-tag</guid>
       <pubDate>2026-07-20T03:47:59+00:00</pubDate>
+    </item>
+    <item>
+      <title>Apply for Anthropic’s AI for Science rare disease research grants</title>
+      <link>https://www.anthropic.com/news/rare-disease-research-grants</link>
+      <description>Apply for Anthropic’s AI for Science rare disease research grants</description>
+      <guid>https://www.anthropic.com/news/rare-disease-research-grants</guid>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Qwen 3.8 ✨, Kimi Code CLI 👨‍💻, Netflix’s LLM stack 🤖</title>
@@ -106,7 +148,7 @@ An update from the &lt;code&gt;@claudeai&lt;/code&gt; account on Twitter:&lt;/p&
 &lt;p&gt;The Coachella Valley has &lt;a href=&quot;https://www.cvwd.org/167/Water-Conservation&quot;&gt;120 golf courses each using ~800 acre-feet per year&lt;/a&gt;,  which is ~750,000 gallons per day.&lt;/p&gt;
 &lt;p&gt;So Google buying up 40 of those courses (1/3) should do the trick.&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-energy-usage&quot;&gt;ai-energy-usage&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai-energy-usage&quot;&gt;ai-energy-usage&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Jul/17/spot-birds-not-golf/#atom-tag</guid>
       <pubDate>2026-07-17T02:58:07+00:00</pubDate>
     </item>
@@ -516,7 +558,7 @@ I went looking for a definition of &quot;Directly Responsible Individuals&quot; 
 &lt;/blockquote&gt;
 &lt;p&gt;At this point I think Anthropic should change track and keep Fable permanently available on those plans. OpenAI are winning users simply due to the uncertainty that surrounds Fable access.&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-pricing&quot;&gt;llm-pricing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gpt&quot;&gt;gpt&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gpt&quot;&gt;gpt&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-pricing&quot;&gt;llm-pricing&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Jul/12/bump/#atom-tag</guid>
       <pubDate>2026-07-12T21:20:07+00:00</pubDate>
     </item>
@@ -956,185 +998,6 @@ New Apache 2.0 licensed model from Tencent in China:&lt;/p&gt;
       <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)</title>
-      <link>https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-tag</link>
-      <description>&lt;p&gt;I wrote about the &lt;a href=&quot;https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/&quot;&gt;sqlite-utils 4.0rc1&lt;/a&gt; release a couple of weeks ago. Since we only have Claude Fable on our Max subscriptions for a few more days, I decided to see if it could help me get to a 4.0 stable release that I felt truly comfortable about, since I try to keep to &lt;a href=&quot;https://semver.org&quot;&gt;SemVer&lt;/a&gt; and like my incompatible major versions to be as rare as possible.&lt;/p&gt;
-&lt;p&gt;I started with this prompt, in Claude Code for web on my iPhone:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;Final review before shipping a stable 4.0 release - very important to spot any last minute things that would be a breaking change if we fix them later&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Here's &lt;a href=&quot;https://github.com/simonw/sqlite-utils/blob/0c369a447eeaf39084f0d14a45b3eeb7eacb631b/fable-review-4.0rc1.md&quot;&gt;that initial report&lt;/a&gt; it created for me. There were some &lt;em&gt;significant&lt;/em&gt; problems that I hadn't myself encountered yet - 5 that Fable categorized as &quot;release blockers&quot;. Here's the worst of the bunch:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;1. &lt;code&gt;delete_where()&lt;/code&gt; never commits and poisons the connection (data loss)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Table.delete_where()&lt;/code&gt; (&lt;code&gt;sqlite_utils/db.py:2948&lt;/code&gt;) runs its DELETE via a bare &lt;code&gt;self.db.execute()&lt;/code&gt; with no &lt;code&gt;atomic()&lt;/code&gt; wrapper — compare &lt;code&gt;Table.delete()&lt;/code&gt; at &lt;code&gt;db.py:2944&lt;/code&gt;, which wraps correctly. The connection is left &lt;code&gt;in_transaction=True&lt;/code&gt;, so every &lt;em&gt;subsequent&lt;/em&gt; &lt;code&gt;atomic()&lt;/code&gt; call takes the savepoint branch (&lt;code&gt;db.py:430-440&lt;/code&gt;) and never commits either.&lt;/p&gt;
-&lt;p&gt;Reproduced end-to-end:&lt;/p&gt;
-&lt;pre&gt;&lt;span class=&quot;pl-s1&quot;&gt;db&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;pl-s1&quot;&gt;sqlite_utils&lt;/span&gt;.&lt;span class=&quot;pl-c1&quot;&gt;Database&lt;/span&gt;(&lt;span class=&quot;pl-s&quot;&gt;&quot;dw.db&quot;&lt;/span&gt;)
-&lt;span class=&quot;pl-s1&quot;&gt;db&lt;/span&gt;[&lt;span class=&quot;pl-s&quot;&gt;&quot;t&quot;&lt;/span&gt;].&lt;span class=&quot;pl-c1&quot;&gt;insert_all&lt;/span&gt;([{&lt;span class=&quot;pl-s&quot;&gt;&quot;id&quot;&lt;/span&gt;: &lt;span class=&quot;pl-s1&quot;&gt;i&lt;/span&gt;} &lt;span class=&quot;pl-k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;pl-s1&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;pl-en&quot;&gt;range&lt;/span&gt;(&lt;span class=&quot;pl-c1&quot;&gt;3&lt;/span&gt;)], &lt;span class=&quot;pl-s1&quot;&gt;pk&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;pl-s&quot;&gt;&quot;id&quot;&lt;/span&gt;)
-&lt;span class=&quot;pl-s1&quot;&gt;db&lt;/span&gt;[&lt;span class=&quot;pl-s&quot;&gt;&quot;t&quot;&lt;/span&gt;].&lt;span class=&quot;pl-c1&quot;&gt;delete_where&lt;/span&gt;(&lt;span class=&quot;pl-s&quot;&gt;&quot;id = ?&quot;&lt;/span&gt;, [&lt;span class=&quot;pl-c1&quot;&gt;0&lt;/span&gt;])   &lt;span class=&quot;pl-c&quot;&gt;# conn.in_transaction is now True&lt;/span&gt;
-&lt;span class=&quot;pl-s1&quot;&gt;db&lt;/span&gt;[&lt;span class=&quot;pl-s&quot;&gt;&quot;t&quot;&lt;/span&gt;].&lt;span class=&quot;pl-c1&quot;&gt;insert&lt;/span&gt;({&lt;span class=&quot;pl-s&quot;&gt;&quot;id&quot;&lt;/span&gt;: &lt;span class=&quot;pl-c1&quot;&gt;50&lt;/span&gt;})
-&lt;span class=&quot;pl-s1&quot;&gt;db&lt;/span&gt;[&lt;span class=&quot;pl-s&quot;&gt;&quot;u&quot;&lt;/span&gt;].&lt;span class=&quot;pl-c1&quot;&gt;insert&lt;/span&gt;({&lt;span class=&quot;pl-s&quot;&gt;&quot;a&quot;&lt;/span&gt;: &lt;span class=&quot;pl-c1&quot;&gt;1&lt;/span&gt;})
-&lt;span class=&quot;pl-s1&quot;&gt;db&lt;/span&gt;.&lt;span class=&quot;pl-c1&quot;&gt;close&lt;/span&gt;()
-&lt;span class=&quot;pl-c&quot;&gt;# Reopen: rows are [0, 1, 2] — the delete, row 50, AND table u are all gone.&lt;/span&gt;&lt;/pre&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;That's a really bad bug! Very glad I didn't ship that, although at least it would have been a bug I could fix in a 4.0.1 point release, not a design flaw that would force a 5.0.&lt;/p&gt;
-&lt;p&gt;Over the course of 37 prompts, 34 commits and +1,321 -190 code changes over 30 separate files, we worked through the entire set of feedback in turn, making several other design improvements along the way.&lt;/p&gt;
-&lt;p&gt;A weird thing about coding agents is that harder tasks like this one actually provide &lt;em&gt;more&lt;/em&gt; opportunity to do other things at the same time, since the agent sometimes needs 10-15 minutes to churn away on a new task. I went out to enjoy the Half Moon Bay 4th of July parade, occasionally checking in and prompting the next step for Fable from my phone.&lt;/p&gt;
-&lt;p&gt;Full details &lt;a href=&quot;https://github.com/simonw/sqlite-utils/pull/767&quot;&gt;in the PR&lt;/a&gt; and &lt;a href=&quot;https://claude.ai/code/session_01UnLnhsH25Nnv7LHhekUfPd&quot;&gt;this shared transcript&lt;/a&gt;. I switched to my laptop for the final review, which I conducted through GitHub's PR interface.&lt;/p&gt;
-&lt;p&gt;The most significant changes relate to transaction handling, which was the signature new feature in &lt;a href=&quot;https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/#new-feature-db-atomic-transactions&quot;&gt;the earlier RC&lt;/a&gt;. The new RC now includes &lt;a href=&quot;https://sqlite-utils.datasette.io/en/latest/python-api.html#transactions-and-saving-your-changes&quot;&gt;comprehensive documentation&lt;/a&gt; on the new transaction model, the intro to which I'll quote here in full:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Every method in this library that writes to the database - &lt;code&gt;insert()&lt;/code&gt;, &lt;code&gt;upsert()&lt;/code&gt;, &lt;code&gt;update()&lt;/code&gt;, &lt;code&gt;delete()&lt;/code&gt;, &lt;code&gt;delete_where()&lt;/code&gt;, &lt;code&gt;transform()&lt;/code&gt;, &lt;code&gt;create_table()&lt;/code&gt;, &lt;code&gt;create_index()&lt;/code&gt;, &lt;code&gt;enable_fts()&lt;/code&gt; and the rest - runs inside its own transaction and commits it before returning. Your changes are saved to disk as soon as the method call finishes:&lt;/p&gt;
-&lt;pre&gt;&lt;span class=&quot;pl-s1&quot;&gt;db&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;pl-en&quot;&gt;Database&lt;/span&gt;(&lt;span class=&quot;pl-s&quot;&gt;&quot;data.db&quot;&lt;/span&gt;)
-&lt;span class=&quot;pl-s1&quot;&gt;db&lt;/span&gt;.&lt;span class=&quot;pl-c1&quot;&gt;table&lt;/span&gt;(&lt;span class=&quot;pl-s&quot;&gt;&quot;news&quot;&lt;/span&gt;).&lt;span class=&quot;pl-c1&quot;&gt;insert&lt;/span&gt;({&lt;span class=&quot;pl-s&quot;&gt;&quot;headline&quot;&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&quot;Dog wins award&quot;&lt;/span&gt;})
-&lt;span class=&quot;pl-c&quot;&gt;# The new row is already saved - no commit() required&lt;/span&gt;&lt;/pre&gt;
-&lt;p&gt;The same applies to raw SQL executed with &lt;a href=&quot;https://sqlite-utils.datasette.io/en/latest/python-api.html#python-api-transactions-execute&quot;&gt;db.execute()&lt;/a&gt; - a write statement is committed as soon as it has run.&lt;/p&gt;
-&lt;p&gt;You never need to call &lt;code&gt;commit()&lt;/code&gt;, and you do not need to close the database to persist your changes. There are exactly two situations where you need to think about transactions:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;You want to group several write operations together, so they either all succeed or all fail - use &lt;a href=&quot;https://sqlite-utils.datasette.io/en/latest/python-api.html#python-api-atomic&quot;&gt;db.atomic()&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;You are &lt;a href=&quot;https://sqlite-utils.datasette.io/en/latest/python-api.html#python-api-transactions-manual&quot;&gt;managing a transaction yourself&lt;/a&gt; with &lt;code&gt;db.begin()&lt;/code&gt;, in which case nothing is committed until you commit - the library will never commit a transaction you opened.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;In reviewing Fable's documentation - I find that reviewing the documentation edits first is an &lt;em&gt;excellent&lt;/em&gt; way to build an initial understanding of what has changed - I spotted &lt;a href=&quot;https://github.com/simonw/sqlite-utils/blob/6c88067ab76b9597fb1c538c53164632526a2891/docs/python-api.rst?plain=1#L386&quot;&gt;this detail&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;db.atomic()&lt;/code&gt; and the automatic per-method transactions are designed for connections in Python's default transaction handling mode. Connections created with the Python 3.12+ &lt;code&gt;sqlite3.connect(..., autocommit=True)&lt;/code&gt; or &lt;code&gt;autocommit=False&lt;/code&gt; options are not supported, because &lt;code&gt;commit()&lt;/code&gt; and &lt;code&gt;rollback()&lt;/code&gt; behave differently on those connections.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;I admit I hadn't thought about how &lt;code&gt;sqlite-utils&lt;/code&gt; would react to the more recent &lt;a href=&quot;https://docs.python.org/3/library/sqlite3.html#sqlite3.Connection.autocommit&quot;&gt;autocommit setting&lt;/a&gt;, added in Python 3.12. It turns out &quot;behave differently on those connections&quot; equated to almost the entire test suite failing, so I worked with the model to &lt;a href=&quot;https://github.com/simonw/sqlite-utils/commit/f7ff3e2027aefb9905ebb2e611e5bbb0a62382c5&quot;&gt;ensure that this difference&lt;/a&gt; would not break how the library works.&lt;/p&gt;
-&lt;h4 id=&quot;and-a-final-review-by-gpt-5-5&quot;&gt;And a final review by GPT-5.5&lt;/h4&gt;
-&lt;p&gt;I used to think that the idea of having one model review the work of another was somewhat absurd - it felt weirdly superstitious. The problem is &lt;em&gt;it really does work&lt;/em&gt; - I've started habitually having Anthropic's best model review OpenAI's work and vice versa, because I've had that turn up interesting results often enough to be valuable.&lt;/p&gt;
-&lt;p&gt;I prompted Codex Desktop and GPT-5.5 xhigh with the following:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;Review changes since the last RC. Also confirm that the changelog is up-to-date.&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Which was enough to turn up two issues worth investigating:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Findings&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;[P1] &lt;a href=&quot;https://github.com/simonw/sqlite-utils/blob/04f8971546418962aaf6579d4028c7117d6c3a20/sqlite_utils/db.py#L663&quot;&gt;sqlite_utils/db.py:663&lt;/a&gt; &lt;code&gt;db.query()&lt;/code&gt; now rejects non-row statements only after calling &lt;code&gt;db.execute()&lt;/code&gt;, and &lt;a href=&quot;https://github.com/simonw/sqlite-utils/blob/04f8971546418962aaf6579d4028c7117d6c3a20/sqlite_utils/db.py#L705&quot;&gt;sqlite_utils/db.py:705&lt;/a&gt; auto-commits those writes first. So &lt;code&gt;db.query(&quot;update ...&quot;)&lt;/code&gt; raises &lt;code&gt;ValueError&lt;/code&gt; but the update is already committed. That is a surprising side effect for a method documented as “can only be used with SQL that returns rows.”&lt;/li&gt;
-&lt;li&gt;[P1] &lt;a href=&quot;https://github.com/simonw/sqlite-utils/blob/04f8971546418962aaf6579d4028c7117d6c3a20/sqlite_utils/db.py#L672&quot;&gt;sqlite_utils/db.py:672&lt;/a&gt; &lt;code&gt;INSERT ... RETURNING&lt;/code&gt; through &lt;code&gt;db.query()&lt;/code&gt; only commits after the returned generator is fully exhausted. &lt;code&gt;db.query(&quot;insert ... returning ...&quot;)&lt;/code&gt; without iteration, or common &lt;code&gt;next(db.query(...))&lt;/code&gt; usage, leaves the transaction open and the write can be rolled back on close. This contradicts &lt;a href=&quot;https://github.com/simonw/sqlite-utils/blob/04f8971546418962aaf6579d4028c7117d6c3a20/docs/changelog.rst?plain=1#L15&quot;&gt;docs/changelog.rst:15&lt;/a&gt; and &lt;a href=&quot;https://github.com/simonw/sqlite-utils/blob/04f8971546418962aaf6579d4028c7117d6c3a20/docs/python-api.rst?plain=1#L232&quot;&gt;docs/python-api.rst:232&lt;/a&gt;, which say it takes effect without iteration.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;I pasted that into a fresh Fable session, which ran some experiments to confirm the problem:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Both findings were confirmed. &lt;code&gt;db.query()&lt;/code&gt; called &lt;code&gt;self.execute()&lt;/code&gt; first, which auto-commits writes, and only then checked &lt;code&gt;cursor.description&lt;/code&gt; — so &lt;code&gt;db.query(&quot;update ...&quot;)&lt;/code&gt; committed the update before raising &lt;code&gt;ValueError&lt;/code&gt;. And the &lt;code&gt;INSERT ... RETURNING&lt;/code&gt; commit lived at the end of the returned generator, so it never fired unless you exhausted the iterator — &lt;code&gt;next(db.query(...))&lt;/code&gt; or an un-iterated call left the transaction open, contradicting what the changelog and docs promise.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Here's &lt;a href=&quot;https://github.com/simonw/sqlite-utils/pull/768&quot;&gt;the PR&lt;/a&gt; with the fix, and the &lt;a href=&quot;https://claude.ai/code/session_012U3iRfJoTZ5vd22cBSF2nJ&quot;&gt;full Claude Code transcript&lt;/a&gt;. Reviewing this code helped me build a better mental model of the edge cases of SQLite transaction semantics!&lt;/p&gt;
-&lt;h4 id=&quot;for-an-estimated-unsubsidized-cost-of-149-25&quot;&gt;For an estimated (unsubsidized) cost of $149.25&lt;/h4&gt;
-&lt;p&gt;I upgraded to the Claude Max $200/month plan (I was previously on $100/month) to increase my Fable allowance for the remaining time until &lt;a href=&quot;https://www.anthropic.com/news/redeploying-fable-5&quot;&gt;the July 7th Fablepocalypse&lt;/a&gt;, when even Claude Max subscribers will have to pay full API cost for the model.&lt;/p&gt;
-&lt;p&gt;I was curious as to how much this would have cost me if I had been paying those costs directly. At first I thought those numbers weren't available to me since I had run the work remotely using Claude Code for web, and then I realized I could run &lt;a href=&quot;https://www.agentsview.io&quot;&gt;AgentsView&lt;/a&gt; inside that existing session to get that cost estimate!&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;Run &quot;uvx agentsview --help&quot;​ and then use that tool to calculate the cost of this session&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Claude figured out how to use the &lt;code&gt;session list --include-children&lt;/code&gt; command and came out with the following:&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Transcript&lt;/th&gt;
-&lt;th&gt;Model&lt;/th&gt;
-&lt;th&gt;Cost&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Main session&lt;/td&gt;
-&lt;td&gt;claude-fable-5&lt;/td&gt;
-&lt;td&gt;$141.02&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;API-surface sweep agent&lt;/td&gt;
-&lt;td&gt;claude-fable-5&lt;/td&gt;
-&lt;td&gt;$2.40&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Transactions/atomic review agent&lt;/td&gt;
-&lt;td&gt;claude-fable-5&lt;/td&gt;
-&lt;td&gt;$2.39&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Post-rc1 commits review agent&lt;/td&gt;
-&lt;td&gt;claude-fable-5&lt;/td&gt;
-&lt;td&gt;$1.72&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Migrations review agent&lt;/td&gt;
-&lt;td&gt;claude-fable-5&lt;/td&gt;
-&lt;td&gt;$1.40&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Prompt-counting agent&lt;/td&gt;
-&lt;td&gt;claude-opus-4-8&lt;/td&gt;
-&lt;td&gt;$0.32&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Total&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;$149.25&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;I'm very glad I'm on that subscription! I really should have &lt;a href=&quot;https://simonwillison.net/2026/Jul/3/judgement/&quot;&gt;followed my own advice&lt;/a&gt; and leaned more heavily into subagents with cheaper models.&lt;/p&gt;
-&lt;p&gt;Here's what &lt;a href=&quot;https://claude.ai/settings/usage&quot;&gt;claude.ai/settings/usage&lt;/a&gt; is showing me right now:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Screenshot of a Claude plan usage limits panel: &amp;quot;Plan usage limits Max (20x)&amp;quot;; &amp;quot;Current session&amp;quot; with &amp;quot;Resets in 3 hr 52 min&amp;quot; showing a progress bar at &amp;quot;7% used&amp;quot;; &amp;quot;Weekly limits&amp;quot; heading with a &amp;quot;Learn more about usage limits&amp;quot; link; &amp;quot;All models&amp;quot; with &amp;quot;Resets Wed 12:00 PM&amp;quot; showing a progress bar at &amp;quot;32% used&amp;quot;; &amp;quot;Fable&amp;quot; with &amp;quot;Resets Wed 12:00 PM&amp;quot; showing a progress bar at &amp;quot;63% used&amp;quot;.&quot; src=&quot;https://static.simonwillison.net/static/2026/fable-plan-usage.webp&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;I have several other major Fable-driven projects on the go right now as well, with the goal of hitting 100% on that Fable bar just in time for the price increase.&lt;/p&gt;
-&lt;h4 id=&quot;the-full-release-notes-for-sqlite-utils-4-0rc2&quot;&gt;The full release notes for sqlite-utils 4.0rc2&lt;/h4&gt;
-&lt;p&gt;Here are &lt;a href=&quot;https://sqlite-utils.datasette.io/en/latest/changelog.html#rc2-2026-07-04&quot;&gt;the full release notes&lt;/a&gt; for the RC. I had Fable add these to an &quot;Unreleased&quot; section of the changelog as each change landed, reviewing them as it went. This has the neat side effect that &lt;a href=&quot;https://github.com/simonw/sqlite-utils/commits/4.0rc2/docs/changelog.rst&quot;&gt;the commit history of the changelog&lt;/a&gt; acts as a concise summary of each of the changes that went into the release.&lt;/p&gt;
-&lt;p&gt;In the past I've had a policy of writing release notes by hand, but honestly these are better than I would have created myself. Release notes are a great example of writing that I'm OK to outsource to agents because they need to be boring, predictable and accurate.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Breaking changes:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Write statements executed with &lt;code&gt;db.execute()&lt;/code&gt; are now committed automatically, unless a transaction is already open in which case they join it. Previously they opened an implicit transaction that stayed open until something committed it - writes appeared to work when read on the same connection but were silently rolled back when the connection closed. Code that relied on rolling back uncommitted &lt;code&gt;db.execute()&lt;/code&gt; writes should use the new &lt;code&gt;db.begin()&lt;/code&gt; method to open an explicit transaction first. The transaction model is documented in full at &lt;a href=&quot;https://sqlite-utils.datasette.io/en/latest/python-api.html#python-api-transactions&quot;&gt;Transactions and saving your changes&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;
-&lt;code&gt;db.query()&lt;/code&gt; now executes its SQL as soon as it is called, rather than waiting until the returned generator is first iterated. Rows are still fetched lazily during iteration. SQL errors are now raised at the call site, statements such as &lt;code&gt;INSERT ... RETURNING&lt;/code&gt; are executed and committed immediately without needing to iterate over their results, and passing a statement that returns no rows - previously a silent no-op - now raises a &lt;code&gt;ValueError&lt;/code&gt; recommending &lt;code&gt;db.execute()&lt;/code&gt; instead. A statement rejected this way is rolled back before the error is raised, so it has no effect on the database.&lt;/li&gt;
-&lt;li&gt;Python API validation errors now raise &lt;code&gt;ValueError&lt;/code&gt; instead of &lt;code&gt;AssertionError&lt;/code&gt;. Previously invalid arguments - such as &lt;code&gt;create_table()&lt;/code&gt; with no columns, &lt;code&gt;transform()&lt;/code&gt; on a table that does not exist, or passing both &lt;code&gt;ignore=True&lt;/code&gt; and &lt;code&gt;replace=True&lt;/code&gt; - were rejected using bare &lt;code&gt;assert&lt;/code&gt; statements, which are silently skipped when Python runs with the &lt;code&gt;-O&lt;/code&gt; flag. Code that caught &lt;code&gt;AssertionError&lt;/code&gt; for these cases should catch &lt;code&gt;ValueError&lt;/code&gt; instead.&lt;/li&gt;
-&lt;li&gt;
-&lt;code&gt;table.upsert()&lt;/code&gt; and &lt;code&gt;table.upsert_all()&lt;/code&gt; now raise &lt;code&gt;PrimaryKeyRequired&lt;/code&gt; if a record is missing a value for any primary key column, or has a value of &lt;code&gt;None&lt;/code&gt; for one. Previously such records - which can never match an existing row - were quietly inserted as brand new rows, or triggered a confusing &lt;code&gt;KeyError&lt;/code&gt; after the insert had already taken place.&lt;/li&gt;
-&lt;li&gt;
-&lt;code&gt;db.enable_wal()&lt;/code&gt; and &lt;code&gt;db.disable_wal()&lt;/code&gt; now raise a &lt;code&gt;sqlite_utils.db.TransactionError&lt;/code&gt; if called while a transaction is open. Previously they would silently commit the open transaction as a side effect of changing the journal mode, breaking the rollback guarantee of &lt;code&gt;db.atomic()&lt;/code&gt; and of user-managed transactions.&lt;/li&gt;
-&lt;li&gt;The &lt;code&gt;View&lt;/code&gt; class no longer has an &lt;code&gt;enable_fts()&lt;/code&gt; method. It existed only to raise &lt;code&gt;NotImplementedError&lt;/code&gt;, since full-text search is not supported for views - calling it now raises &lt;code&gt;AttributeError&lt;/code&gt; instead, and the method no longer appears in the API reference. The &lt;code&gt;sqlite-utils enable-fts&lt;/code&gt; command shows a clean error when pointed at a view.&lt;/li&gt;
-&lt;li&gt;The no-op &lt;code&gt;-d/--detect-types&lt;/code&gt; flag has been removed from the &lt;code&gt;insert&lt;/code&gt; and &lt;code&gt;upsert&lt;/code&gt; commands. Type detection has been the default for CSV/TSV data since 4.0a1, so the flag did nothing - invocations using it should simply drop it. &lt;code&gt;--no-detect-types&lt;/code&gt; remains available to disable detection.&lt;/li&gt;
-&lt;li&gt;
-&lt;code&gt;Database()&lt;/code&gt; now raises a &lt;code&gt;sqlite_utils.db.TransactionError&lt;/code&gt; if passed a connection created with the Python 3.12+ &lt;code&gt;sqlite3.connect(..., autocommit=True)&lt;/code&gt; or &lt;code&gt;autocommit=False&lt;/code&gt; options. &lt;code&gt;commit()&lt;/code&gt; and &lt;code&gt;rollback()&lt;/code&gt; behave differently on those connections, which previously caused every write made by the library to be silently discarded when the connection closed.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Everything else:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Fixed a bug where &lt;code&gt;table.delete_where()&lt;/code&gt;, &lt;code&gt;table.optimize()&lt;/code&gt; and &lt;code&gt;table.rebuild_fts()&lt;/code&gt; did not commit their changes, leaving the connection inside an open transaction. Their work - and any subsequent writes - could then be silently rolled back when the connection was closed. All three now use &lt;code&gt;db.atomic()&lt;/code&gt;, consistent with the other write methods.&lt;/li&gt;
-&lt;li&gt;The &lt;code&gt;sqlite-utils drop-table&lt;/code&gt; command now refuses to drop a view, and &lt;code&gt;drop-view&lt;/code&gt; refuses to drop a table. Previously each would silently drop the wrong type of object if the name matched. Both now exit with an error suggesting the correct command to use.&lt;/li&gt;
-&lt;li&gt;Migrations applied by the new &lt;a href=&quot;https://sqlite-utils.datasette.io/en/latest/migrations.html#migrations&quot;&gt;migrations system&lt;/a&gt; now run inside a transaction, together with the record of the migration having been applied. If a migration raises an exception its changes are rolled back and it stays pending, so it can be safely re-applied after the error is fixed. Migrations that cannot run inside a transaction, such as those executing &lt;code&gt;VACUUM&lt;/code&gt;, can opt out using &lt;code&gt;@migrations(transactional=False)&lt;/code&gt; - see &lt;a href=&quot;https://sqlite-utils.datasette.io/en/latest/migrations.html#migrations-transactions&quot;&gt;Migrations and transactions&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;
-&lt;code&gt;table.upsert()&lt;/code&gt; and &lt;code&gt;table.upsert_all()&lt;/code&gt; now detect the primary key or compound primary key of an existing table, so the &lt;code&gt;pk=&lt;/code&gt; argument is no longer required when upserting into a table that already has a primary key.&lt;/li&gt;
-&lt;li&gt;
-&lt;code&gt;db.table(table_name).insert({})&lt;/code&gt; can now be used to insert a row consisting entirely of default values into an existing table, using &lt;code&gt;INSERT INTO ... DEFAULT VALUES&lt;/code&gt;. (&lt;a href=&quot;https://github.com/simonw/sqlite-utils/issues/759&quot;&gt;#759&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Improvements to the &lt;code&gt;sqlite-utils migrate&lt;/code&gt; command: &lt;code&gt;--stop-before&lt;/code&gt; values that do not match any known migration are now an error instead of being silently ignored, &lt;code&gt;--stop-before&lt;/code&gt; now works correctly with migration files that still use the older &lt;code&gt;sqlite_migrate.Migrations&lt;/code&gt; class, and &lt;code&gt;--list&lt;/code&gt; is now a read-only operation that no longer creates the database file or the migrations tracking table. &lt;code&gt;migrations.applied()&lt;/code&gt; now returns migrations in the order they were applied.&lt;/li&gt;
-&lt;li&gt;New &lt;code&gt;db.begin()&lt;/code&gt;, &lt;code&gt;db.commit()&lt;/code&gt; and &lt;code&gt;db.rollback()&lt;/code&gt; methods for taking manual control of transactions, as an alternative to the &lt;code&gt;db.atomic()&lt;/code&gt; context manager.&lt;/li&gt;
-&lt;li&gt;New documentation: &lt;a href=&quot;https://sqlite-utils.datasette.io/en/latest/python-api.html#python-api-transactions&quot;&gt;Transactions and saving your changes&lt;/a&gt; describes how transactions work and when changes are committed, and a new &lt;a href=&quot;https://sqlite-utils.datasette.io/en/latest/upgrading.html#upgrading&quot;&gt;Upgrading&lt;/a&gt; page details the changes needed to move between major versions.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-    
-        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/projects&quot;&gt;projects&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/sqlite&quot;&gt;sqlite&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/sqlite-utils&quot;&gt;sqlite-utils&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/annotated-release-notes&quot;&gt;annotated-release-notes&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-pricing&quot;&gt;llm-pricing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-code&quot;&gt;claude-code&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/agentic-engineering&quot;&gt;agentic-engineering&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gpt&quot;&gt;gpt&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-tag</guid>
-      <pubDate>2026-07-05T01:00:48+00:00</pubDate>
-    </item>
-    <item>
-      <title>Better Models: Worse Tools</title>
-      <link>https://simonwillison.net/2026/Jul/4/better-models-worse-tools/#atom-tag</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/&quot;&gt;Better Models: Worse Tools&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-Armin reports on a weird problem he ran into while hacking on Pi:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The short version is that newer Claude models sometimes call Pi’s edit tool with extra, invented fields in the nested &lt;code&gt;edits[]&lt;/code&gt; array. And not Haiku or some small model: Opus 4.8. The edit itself is usually correct but the arguments do not match the schema as the model invents made-up keys and Pi thus rejects the tool call and asks to try again.&lt;/p&gt;
-&lt;p&gt;That alone is not too surprising as models emit malformed tool calls sometimes. Particularly small ones. What surprised me is that this is getting worse with newer Anthropic models as both Opus 4.8 and Sonnet 5 show it but none of the older models. In other words, the SOTA models of the family are worse at this specific tool schema than their older siblings.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Armin theorizes that this is because more recent Anthropic models have been specifically trained (presumably via Reinforcement Learning) to better use the edit tools that are baked into Claude Code. This has the unfortunate effect that other coding harnesses, such as Pi, may find that their own custom edit tools are more likely to be used incorrectly.&lt;/p&gt;
-&lt;p&gt;Claude's edit tool &lt;a href=&quot;https://platform.claude.com/docs/en/agents-and-tools/tool-use/text-editor-tool#str-replace&quot;&gt;uses search and replace&lt;/a&gt;. OpenAI's Codex &lt;a href=&quot;https://developers.openai.com/api/docs/guides/tools-apply-patch&quot;&gt;uses an apply_patch mechanism instead&lt;/a&gt;, and OpenAI have talked in the past about how their models are trained to use that tool effectively.&lt;/p&gt;
-&lt;p&gt;Does this mean third-party coding harnesses like Pi should implement multiple edit tools just so they can use the one with the best performance for the underlying model the user has selected?
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/armin-ronacher&quot;&gt;armin-ronacher&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-tool-use&quot;&gt;llm-tool-use&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pi&quot;&gt;pi&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Jul/4/better-models-worse-tools/#atom-tag</guid>
-      <pubDate>2026-07-04T22:53:52+00:00</pubDate>
-    </item>
-    <item>
       <title>Meta Watermelon 🍉, Anthropic Samsung chips 🤝, autoresearch in practice 📈</title>
       <link>https://tldr.tech/ai/2026-07-03</link>
       <description/>
@@ -1483,13 +1346,6 @@ Armin reports on a weird problem he ran into while hacking on Pi:&lt;/p&gt;
       <description>Anthropic invests $100 million into the Claude Partner Network</description>
       <guid>https://www.anthropic.com/news/claude-partner-network</guid>
       <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing The Anthropic Institute</title>
-      <link>https://www.anthropic.com/news/the-anthropic-institute</link>
-      <description>Introducing The Anthropic Institute</description>
-      <guid>https://www.anthropic.com/news/the-anthropic-institute</guid>
-      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
