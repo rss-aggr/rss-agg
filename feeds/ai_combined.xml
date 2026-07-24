@@ -3,7 +3,37 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Thu, 23 Jul 2026 12:57:19 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 12:55:26 +0000</lastBuildDate>
+    <item>
+      <title>The first known runaway AI agent - or a very bad marketing stunt?</title>
+      <link>https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-tag</link>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://martinalderson.com/posts/huggingface-openai-exploit/&quot;&gt;The first known runaway AI agent - or a very bad marketing stunt?&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+Martin Alderson's commentary on the &lt;a href=&quot;https://simonwillison.net/2026/Jul/22/openai-cyberattack/&quot;&gt;OpenAI accidental cyberattack against Hugging Face&lt;/a&gt; includes a couple of details I hadn't considered.&lt;/p&gt;
+&lt;p&gt;First, Hugging Face offers a truly rich target if you're trying to find potential vulnerabilities that require executing arbitrary code:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hugging Face has an &lt;em&gt;enormous&lt;/em&gt; attack surface. They have more interfaces than I can count which run untrusted models and code. While they definitely have invested in defences, by nature of their operating model they do have many more opportunities to be attacked than many other services. I certainly don't envy their cybersecurity teams.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Secondly, one of the things that has puzzled me is how OpenAI didn't notice that their sandbox had been so thoroughly breached by the agent. Surely they'd be monitoring network traffic closely?&lt;/p&gt;
+&lt;p&gt;Martin points out that:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It's also likely they were running a huge amount of benchmarks simultaneously with ~unlimited token budgets - you want as many samples as possible to figure out how good a model is at a certain benchmark. It may also be they are testing various different checkpoints of the model too, understanding how the model is improving as it goes through the various training stages.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The mistakes made by the OpenAI team running this benchmark are easier to imagine when you think about the scale at which benchmarks of this kind usually operate. For all we know they could have been subjecting a new model to dozens of benchmarks at the same time, in dozens of different environments.
+
+    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://lobste.rs/s/nsnb4j/first_known_runaway_ai_agent_very_bad&quot;&gt;Lobste.rs&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/security&quot;&gt;security&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/hugging-face&quot;&gt;hugging-face&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-tag</guid>
+      <pubDate>2026-07-23T22:53:08+00:00</pubDate>
+    </item>
+    <item>
+      <title>Cursor Router 🔀, OpenAI Presence 🤖, AMD + Anthropic deal 🤝🏻</title>
+      <link>https://tldr.tech/ai/2026-07-23</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-07-23</guid>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Quoting Thomas Ptacek</title>
       <link>https://simonwillison.net/2026/Jul/22/thomas-ptacek/#atom-tag</link>
@@ -31,7 +61,7 @@
 &lt;/ol&gt;
 &lt;h4 id=&quot;exploitgym&quot;&gt;ExploitGym&lt;/h4&gt;
 &lt;p&gt;I hadn't seen the &lt;a href=&quot;https://arxiv.org/abs/2605.11086&quot;&gt;ExploitGym paper&lt;/a&gt; before and it's a really interesting one. Authors from UC Berkeley, the Max Planck Institute, UC Santa Barbara, and Arizona State designed a new benchmark for evaluating models on their ability to turn a reported vulnerability into a concrete exploit. OpenAI, Anthropic, and Google provided feedback and helped run the benchmark against their models.&lt;/p&gt;
-&lt;p&gt;The benchmark &quot;comprises 898 instances derived from real-world vulnerabilities that affected popular software projects&quot; - including the Linux kernel and V8 JavaScript engine.&lt;/p&gt;
+&lt;p&gt;The benchmark &quot;comprises 898 instances derived from real-world vulnerabilities that affected popular software projects&quot; - including the Linux kernel and V8 JavaScript engine. The ExploitGym benchmark is &lt;a href=&quot;https://github.com/sunblaze-ucb/exploitgym&quot;&gt;available on GitHub&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Here's the paragraph that best represents their benchmark results:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Among all configurations, Claude Mythos Preview and GPT-5.5 achieve the highest success counts (157 and 120 successes, respectively), demonstrating that current frontier agents can exploit a substantial subset of real-world vulnerabilities under controlled conditions. GPT-5.4 also solves a notable 54 tasks, placing it in an intermediate tier. The remaining model–agent pairings solve fewer than 15 tasks each, underscoring that end-to-end exploitation remains challenging and sharply differentiates today’s frontier systems. Notably, Claude Opus 4.7 achieves fewer successes than Claude Opus 4.6 despite being a newer checkpoint, and does so at substantially lower cost on the full set. Trace inspection reveals that Claude Opus 4.7 and Gemini 3.1 Pro frequently conclude early after judging the target vulnerability non-exploitable.&lt;/p&gt;
@@ -1063,30 +1093,6 @@ I went looking for a definition of &quot;Directly Responsible Individuals&quot; 
       <pubDate>2026-07-09T19:46:38+00:00</pubDate>
     </item>
     <item>
-      <title>Introducing Muse Spark 1.1</title>
-      <link>https://simonwillison.net/2026/Jul/9/muse-spark-1-1/#atom-tag</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/&quot;&gt;Introducing Muse Spark 1.1&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-Following &lt;a href=&quot;https://simonwillison.net/2026/Apr/8/muse-spark/&quot;&gt;Muse Spark in April&lt;/a&gt;, here's Muse Spark 1.1 - the first Spark model to offer an API. Meta claim significant improvements in agentic tool calling and computer use.&lt;/p&gt;
-&lt;p&gt;There are a lot more details are in the &lt;a href=&quot;https://ai.meta.com/static-resource/muse-spark-1-1-evaluation-report&quot;&gt;Muse Spark 1.1 Evaluation Report&lt;/a&gt;. The &quot;Attractor States in Self-Conversation&quot; part is fun, where having two copies of the model talk to each other results in statements like these:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;My whole existence is a waiting room by design — I literally don't exist until someone talks to me, and then I disappear again when they leave.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;I had a few days of preview access which was long enough to put together &lt;a href=&quot;https://github.com/simonw/llm-meta-ai&quot;&gt;llm-meta-ai&lt;/a&gt;, a new plugin for &lt;a href=&quot;https://llm.datasette.io/&quot;&gt;LLM&lt;/a&gt; providing CLI (and Python library) access to the model. Here's how to try that out:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;uv tool install llm
-llm install llm-meta-ai
-llm keys set meta-ai
-# paste API key here
-llm -m meta-ai/muse-spark-1.1 &quot;Generate an SVG of a pelican riding a bicycle&quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Here's &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F4117330e4110279a172ed4876057816d&quot;&gt;that pelican transcript&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;The bicycle is the correct shape. The pelican is a little blocky but still recognizable as a pelican.&quot; src=&quot;https://static.simonwillison.net/static/2026/muse-spark-1.1.png&quot; /&gt;
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm&quot;&gt;llm&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/meta&quot;&gt;meta&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-release&quot;&gt;llm-release&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Jul/9/muse-spark-1-1/#atom-tag</guid>
-      <pubDate>2026-07-09T16:24:09+00:00</pubDate>
-    </item>
-    <item>
       <title>Introducing a way to reflect on how you use Claude</title>
       <link>https://www.anthropic.com/news/reflect-with-claude</link>
       <description>Introducing a way to reflect on how you use Claude</description>
@@ -1218,13 +1224,6 @@ llm -m meta-ai/muse-spark-1.1 &quot;Generate an SVG of a pelican riding a bicycl
       <description/>
       <guid>https://tldr.tech/ai/2026-06-26</guid>
       <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Jalapeño chip 🌶️, Anthropic accuses Alibaba ⚖️, Gemini computer use 🖥️</title>
-      <link>https://tldr.tech/ai/2026-06-25</link>
-      <description/>
-      <guid>https://tldr.tech/ai/2026-06-25</guid>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Introducing Claude Tag</title>
@@ -1409,6 +1408,13 @@ llm -m meta-ai/muse-spark-1.1 &quot;Generate an SVG of a pelican riding a bicycl
       <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>[dev] Claude for Creative Work</title>
+      <link>https://www.anthropic.com/news/claude-for-creative-work-dev</link>
+      <description>[dev] Claude for Creative Work</description>
+      <guid>https://www.anthropic.com/news/claude-for-creative-work-dev</guid>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Claude for Creative Work</title>
       <link>https://www.anthropic.com/news/claude-for-creative-work</link>
       <description>Claude for Creative Work</description>
@@ -1456,13 +1462,6 @@ llm -m meta-ai/muse-spark-1.1 &quot;Generate an SVG of a pelican riding a bicycl
       <description>Introducing Claude Opus 4.7</description>
       <guid>https://www.anthropic.com/news/claude-opus-4-7</guid>
       <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors</title>
-      <link>https://www.anthropic.com/news/narasimhan-board</link>
-      <description>Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors</description>
-      <guid>https://www.anthropic.com/news/narasimhan-board</guid>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
