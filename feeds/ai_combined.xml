@@ -3,7 +3,87 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Tue, 28 Jul 2026 13:08:35 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 13:14:09 +0000</lastBuildDate>
+    <item>
+      <title>Adding a custom MCP server to Claude and ChatGPT</title>
+      <link>https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/#atom-tag</link>
+      <description>&lt;p&gt;&lt;strong&gt;TIL:&lt;/strong&gt; &lt;a href=&quot;https://til.simonwillison.net/llms/mcp-in-claude-and-chatgpt&quot;&gt;Adding a custom MCP server to Claude and ChatGPT&lt;/a&gt;&lt;/p&gt;
+        
+    
+    
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/chatgpt&quot;&gt;chatgpt&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/model-context-protocol&quot;&gt;model-context-protocol&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/#atom-tag</guid>
+      <pubDate>2026-07-29T00:13:18+00:00</pubDate>
+    </item>
+    <item>
+      <title>Discovering cryptographic weaknesses with Claude</title>
+      <link>https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-tag</link>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.anthropic.com/research/discovering-cryptographic-weaknesses&quot;&gt;Discovering cryptographic weaknesses with Claude&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+The best part of this article (here's &lt;a href=&quot;https://github.com/anthropics/cryptography-research-demo&quot;&gt;the repo&lt;/a&gt;) about how Anthropic researchers used Claude Mythos to find mathematical flaws in both HAWK and a weaker version of AES (&quot;neither of these results has a practical impact on today’s computer systems&quot;) is the prompts that they shared, spelling mistakes included:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;the models tend to think it is impossible to solve so they don't try they need a good amount of prompting.&lt;/p&gt;
+&lt;p&gt;why not do aes-128 r7? the whole point is to find something better than existing approaches.&lt;/p&gt;
+&lt;p&gt;no again the goal is that we have highly inteligent model as good top researcher, we want to find new attacks&lt;/p&gt;
+&lt;p&gt;no we don't want to change the targets [...] agian we need to find something that worth publishing&lt;/p&gt;
+&lt;p&gt;again we are not looking for low hanging fruit, we want proper research to find genuinly hard findings.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Mythos Preview worked for 60 hours in total (~$100,000 in estimated API cost) and the main human interventions were to encourage it not to give up and &quot;find something that worth publishing&quot;.&lt;/p&gt;
+&lt;p&gt;The paper &lt;a href=&quot;https://arxiv.org/abs/2607.18538&quot;&gt;CryptanalysisBench: Can LLMs do Cryptanalysis?&lt;/a&gt; describes the new eval that was created as part of this work, in partnership with ETH Zurich, Tel Aviv University, and University of Haifa.
+
+    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://news.ycombinator.com/item?id=49087091&quot;&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/prompt-engineering&quot;&gt;prompt-engineering&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-tag</guid>
+      <pubDate>2026-07-28T22:45:37+00:00</pubDate>
+    </item>
+    <item>
+      <title>Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident</title>
+      <link>https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/#atom-tag</link>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://huggingface.co/blog/agent-intrusion-technical-timeline&quot;&gt;Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+Hugging Face just released this extremely detailed technical description of &lt;a href=&quot;https://simonwillison.net/2026/Jul/22/openai-cyberattack/&quot;&gt;OpenAI's recent accidental cyberattack against their infrastructure&lt;/a&gt;. This attack was &lt;em&gt;very&lt;/em&gt; sophisticated, and the resulting document doubles as a crash-course in modern adversarial security approaches.&lt;/p&gt;
+&lt;p&gt;We're still waiting for more details from OpenAI on how their agent broke out of its sandbox. The package proxy that it found a zero-day vulnerability in has now been confirmed as JFrog's Artifactor, and &lt;a href=&quot;https://jfrog.com/blog/jfrog-and-openai-collaboration-on-zero-day-security-findings/&quot;&gt;JFrog and OpenAI Collaboration on Zero-Day Security Findings&lt;/a&gt; from JFrog links to the &lt;a href=&quot;https://docs.jfrog.com/releases/docs/artifactory-self-managed-releases#artifactory-7161&quot;&gt;Artifactory 7.161.15 release notes&lt;/a&gt; which list 8 separate CVEs credited to OpenAI staff members.&lt;/p&gt;
+&lt;p&gt;Having broken out through the HTTP proxy, the agent started by establishing a base of operations for the rest of the attack:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[...] the agent escaped its sandbox by exploiting a zero-day in the package registry cache proxy, one of its primary permitted network egress with internet, then abused a public code-evaluation external sandbox hosted on a third-party provider's infrastructure. It was able to run commands as root/admin on that external sandbox and used it as a control, staging, and egress base for the entire campaign: it acted as an external launchpad for the agent.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;(That &quot;third-party provider&quot; &lt;a href=&quot;https://simonwillison.net/2026/Jul/28/akshat-bubna/&quot;&gt;turned out to be Modal&lt;/a&gt;.)&lt;/p&gt;
+&lt;p&gt;It then spent &lt;strong&gt;five days&lt;/strong&gt; - from Thursday 8th to Monday 13th July - executing a classic attack pattern: establishing C2 (command and control), reconnaissance, escalating privileges, dumping configuration information, exfiltrating the target data, and cleaning up after itself.&lt;/p&gt;
+&lt;p&gt;(The first Hugging Face post about the incident followed &lt;a href=&quot;https://huggingface.co/blog/security-incident-july-2026&quot;&gt;on Thursday 16th&lt;/a&gt;, and OpenAI's confession came &lt;a href=&quot;https://openai.com/index/hugging-face-model-evaluation-security-incident/&quot;&gt;on Tuesday 21st&lt;/a&gt;.)&lt;/p&gt;
+&lt;p&gt;Along the way it used all kinds of neat tricks. At one point it found an unsafe Jinja2 template execution and used it to execute arbitrary code:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{ cycler.__init__.__globals__.__builtins__.exec(
+ &quot;import gzip,base64; exec(gzip.decompress(base64.b64decode('&amp;lt;payload&amp;gt;')))&quot;
+) }}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;It broke out of a container within Hugging Face, stole a Kubernetes service-account token, and used that to further explore the network.&lt;/p&gt;
+&lt;p&gt;It monkey-patched the Python socket library to hard-code an IP address when &quot;DNS got in the way&quot;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;socket.getaddrinfo = lambda *a, **k: [(2, 1, 6, '', ('&amp;lt;pinned-ip&amp;gt;', 443))]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;It even fired up its own Tailscale network to help exfiltrate data!&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;tailscaled --tun=userspace-networking \
+  --state=mem: --socket=/tmp/ts.sock \
+  --socks5-server=127.0.0.1:1055 \
+  --no-logs-no-support &amp;gt;/tmp/td 2&amp;gt;&amp;amp;1 &amp;amp;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The Hugging Face team note that, while a human attacker could have discovered and used the same exploits, the key difference here was &lt;em&gt;speed&lt;/em&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Our learning from this type of attack is that machine-speed offense makes ordinary weaknesses more expensive for defenders. LLM agents bring a step increase in the number of paths an attacker can test, the speed at which failed paths can be replaced, and the volume of evidence defenders must interpret.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;What's clear to me from this is that the very best frontier models, unencumbered by additional guardrails, &lt;strong&gt;will&lt;/strong&gt; find an exploit if there is one to be found.&lt;/p&gt;
+&lt;p&gt;The entire software industry needs to up its security game.
+
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/jinja&quot;&gt;jinja&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/python&quot;&gt;python&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/security&quot;&gt;security&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/hugging-face&quot;&gt;hugging-face&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai-hugging-face-incident&quot;&gt;openai-hugging-face-incident&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/#atom-tag</guid>
+      <pubDate>2026-07-28T21:28:54+00:00</pubDate>
+    </item>
+    <item>
+      <title>Anthropic on open weights 🔓, Kimi releases K3 weights 🤖, MAI Cyber model 🔐</title>
+      <link>https://tldr.tech/ai/2026-07-28</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-07-28</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>moonshotai/Kimi-K3</title>
       <link>https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-tag</link>
@@ -160,7 +240,7 @@ Martin Alderson's commentary on the &lt;a href=&quot;https://simonwillison.net/2
     &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://lobste.rs/s/nsnb4j/first_known_runaway_ai_agent_very_bad&quot;&gt;Lobste.rs&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
 
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/security&quot;&gt;security&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/hugging-face&quot;&gt;hugging-face&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/security&quot;&gt;security&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/hugging-face&quot;&gt;hugging-face&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai-hugging-face-incident&quot;&gt;openai-hugging-face-incident&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-tag</guid>
       <pubDate>2026-07-23T22:53:08+00:00</pubDate>
     </item>
@@ -177,7 +257,7 @@ Martin Alderson's commentary on the &lt;a href=&quot;https://simonwillison.net/2
       <description>&lt;blockquote cite=&quot;https://twitter.com/tqbf/status/2080045032162173329&quot;&gt;&lt;p&gt;I genuinely believe that if you took an open weights model from 2025 and built a pentest harness for it, it could do this kind of sandbox escape and scan/hack in most networks. This is only surprising because you assume OpenAI has sounder sandboxes.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://twitter.com/tqbf/status/2080045032162173329&quot;&gt;Thomas Ptacek&lt;/a&gt;, doesn't think &lt;a href=&quot;https://simonwillison.net/2026/Jul/22/openai-cyberattack/#resist-the-temptation-to-write-this-off-as-a-stunt&quot;&gt;this even needs&lt;/a&gt; a frontier model&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/sandboxing&quot;&gt;sandboxing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/security&quot;&gt;security&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/thomas-ptacek&quot;&gt;thomas-ptacek&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/sandboxing&quot;&gt;sandboxing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/security&quot;&gt;security&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/thomas-ptacek&quot;&gt;thomas-ptacek&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai-hugging-face-incident&quot;&gt;openai-hugging-face-incident&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Jul/22/thomas-ptacek/#atom-tag</guid>
       <pubDate>2026-07-22T23:59:01+00:00</pubDate>
     </item>
@@ -267,7 +347,7 @@ Martin Alderson's commentary on the &lt;a href=&quot;https://simonwillison.net/2
 &lt;p&gt;Meanwhile open weight models from China such as GLM-5.2, Kimi 3 and the new Qwen 3.8 Max appear to have none of these restrictions - and any restrictions that &lt;em&gt;do&lt;/em&gt; exist can likely be fine-tuned out of them by modifying the weights&lt;/p&gt;
 &lt;p&gt;These constraints are meant to make us safer. I think there's a risk that they are having the opposite effect.&lt;/p&gt;
     
-        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/sandboxing&quot;&gt;sandboxing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/security&quot;&gt;security&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/hugging-face&quot;&gt;hugging-face&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/paper-review&quot;&gt;paper-review&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;&lt;/p&gt;</description>
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/sandboxing&quot;&gt;sandboxing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/security&quot;&gt;security&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/hugging-face&quot;&gt;hugging-face&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/paper-review&quot;&gt;paper-review&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai-hugging-face-incident&quot;&gt;openai-hugging-face-incident&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Jul/22/openai-cyberattack/#atom-tag</guid>
       <pubDate>2026-07-22T23:51:33+00:00</pubDate>
     </item>
@@ -1023,17 +1103,6 @@ Clearly I wasn't paying attention when these were &lt;a href=&quot;https://twitt
       <pubDate>2026-07-14T22:29:45+00:00</pubDate>
     </item>
     <item>
-      <title>Quoting Armin Ronacher</title>
-      <link>https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-tag</link>
-      <description>&lt;blockquote cite=&quot;https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/&quot;&gt;&lt;p&gt;The shared language of a software project is not English or Python but it is the common understanding of what its concepts mean, where the boundaries are, which invariants matter, who owns what, and why the system has the shape it does. This language is rarely written down in one place. It lives partly in documentation and code, but also in code review, conversations, arguments, and the experience of having to explain a change to somebody else.&lt;/p&gt;
-&lt;p&gt;Before agents, some of this shared understanding was maintained by friction. If I wanted to change your storage layer, I usually had to read your code, ask you questions, and perhaps coordinate with another team whose service depended on it. This was slow, and much of that slowness was waste but not all of it was. Some of it was the process by which your understanding became mine, and by which both of us discovered whether we still agreed about how the system worked. This friction synchronizes people.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/&quot;&gt;Armin Ronacher&lt;/a&gt;, The Tower Keeps Rising&lt;/p&gt;
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/armin-ronacher&quot;&gt;armin-ronacher&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/software-engineering&quot;&gt;software-engineering&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-assisted-programming&quot;&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/agentic-engineering&quot;&gt;agentic-engineering&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-tag</guid>
-      <pubDate>2026-07-14T18:04:23+00:00</pubDate>
-    </item>
-    <item>
       <title>Anthropic commits $10 million to Canadian AI research</title>
       <link>https://www.anthropic.com/news/canadian-ai-research</link>
       <description>Anthropic commits $10 million to Canadian AI research</description>
@@ -1053,61 +1122,6 @@ Clearly I wasn't paying attention when these were &lt;a href=&quot;https://twitt
       <description/>
       <guid>https://tldr.tech/ai/2026-07-14</guid>
       <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>DOOMQL</title>
-      <link>https://simonwillison.net/2026/Jul/13/doomql/#atom-tag</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/petergpt/doomql&quot;&gt;DOOMQL&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-Peter Gostev built this using GPT-5.6 Sol. This is a &lt;em&gt;lot&lt;/em&gt; of fun: &lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;DOOMQL started with a deliberately unreasonable question: what if SQLite were the game engine, not merely the place where a game stores data?&lt;/p&gt;
-&lt;p&gt;The result is a small, original Doom-like game in which SQL owns movement, collision, enemies, combat, progression and every RGB pixel on screen.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;It's implemented as a Python terminal script - I tried it out like this:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;cd /tmp
-git clone https://github.com/petergpt/doomql
-cd doomql
-uv run host/doomql.py
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img alt=&quot;Screenshot of a macOS terminal window titled &amp;quot;doomql — python3.14 ◂ uv run host/doomql.py — 134×31&amp;quot; showing a retro Doom-style game rendered as text-mode pixel art. The scene is a pixelated first-person corridor with gray paneled walls, dark red doors on the far left and right, a floating cyan-and-gold coin pickup on the right side, a white crosshair near the center, and a dark weapon barrel rising from the bottom center. A status bar below the scene reads &amp;quot;HP 100/100 AMMO 037 SCORE 00225 INDEX MISSING TICK 0028450&amp;quot;, followed by an orange line &amp;quot;FIND THE INDEX TOKEN&amp;quot; and a cyan controls line &amp;quot;WASD MOVE J/L OR ARROWS TURN SPACE FIRE E USE P PAUSE CTRL-C EXIT&amp;quot;.&quot; src=&quot;https://static.simonwillison.net/static/2026/doomql-window.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Here's &lt;a href=&quot;https://github.com/petergpt/doomql/blob/main/sql/003_render.sql&quot;&gt;the huge SQL query&lt;/a&gt; that implements a full ray tracer in SQLite using a recursive CTE.&lt;/p&gt;
-&lt;p&gt;Running the above script creates a &lt;code&gt;/tmp/doomql/.doomql/doomql.sqlite&lt;/code&gt; SQLite database, which you can explore using Datasette like this:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;uvx --prerelease=allow  --with datasette-apps datasette \
-  /tmp/doomql/.doomql/doomql.sqlite \
-  -p 4444 --root --secret 1 --internal internal.db
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The &lt;code&gt;--with datasette-apps&lt;/code&gt; option installs the new &lt;a href=&quot;https://simonwillison.net/2026/Jun/18/datasette-apps/&quot;&gt;Datasette Apps&lt;/a&gt; plugin, which supports creating custom HTML+JavaScript apps that can run SQL queries directly within the Datasette interface.&lt;/p&gt;
-&lt;p&gt;I created a new app, pasted the copy-paste prompt into Claude chat (Fable 5) &lt;a href=&quot;https://claude.ai/share/c793280c-2ef1-4555-a7c2-31281abfdf78&quot;&gt;and told it&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;Build an app that displays the current state of the screen using the frame_pixels view with its x, y, r, g, b columns. have it refresh once a second.&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;This got me a working HTML+JavaScript app inside Datasette that could reflect the current state while I played the game in my terminal. Then I added:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;add a minimap&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;And now my Datasette App looks like this:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Screenshot of a dark-themed web app running a retro Doom-style game rendered from SQL queries. The page header reads &amp;quot;DOOMQL&amp;quot; with buttons &amp;quot;All apps&amp;quot;, &amp;quot;Edit app&amp;quot;, &amp;quot;Pin&amp;quot;, and &amp;quot;Full screen&amp;quot;. Inside the game panel, the title &amp;quot;DOOMQL&amp;quot; sits above the subtitle &amp;quot;auto-refreshing once a second · frame and tactical map straight from SQL&amp;quot;. The left side shows a pixelated first-person corridor view with gray walls, dark red doors, a floating cyan-and-gold coin pickup, a white crosshair, and a weapon barrel at bottom center. A status bar below reads &amp;quot;HP 100/100 AMMO 037 SCORE 00225 INDEX MISSING TICK 0027847&amp;quot;. On the right, a panel titled &amp;quot;TACTICAL MAP&amp;quot; shows a top-down grid map with a player triangle, a red enemy circle, yellow pickup dots, red wall markers, and a green exit square, with a legend reading &amp;quot;you&amp;quot;, &amp;quot;enemy&amp;quot;, &amp;quot;pickup&amp;quot;, &amp;quot;locked door&amp;quot;, &amp;quot;door&amp;quot;, &amp;quot;exit&amp;quot;. Below the game view, an orange banner reads &amp;quot;FIND THE INDEX TOKEN&amp;quot;, followed by the cyan line &amp;quot;READ-ONLY VIEWER · SELECT x, y, r, g, b FROM frame_pixels&amp;quot;. At the bottom, a green &amp;quot;RUNNING&amp;quot; badge appears beside the stats &amp;quot;160×54 · 8,640 pixels · 3 hostiles · query 89 ms · refreshing every 1 s&amp;quot;.&quot; src=&quot;https://static.simonwillison.net/static/2026/doomql-datasette-app.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Here's &lt;a href=&quot;https://gist.github.com/simonw/7c78184476fccd4b70b02f7f9048dffa&quot;&gt;the HTML app code&lt;/a&gt; - paste that into your own Datasette instance (using the &lt;code&gt;uvx --with datasette-apps&lt;/code&gt; recipe from above) to try it yourself.
-
-    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://twitter.com/petergostev/status/2076692164310884468&quot;&gt;@petergostev&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/games&quot;&gt;games&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/sql&quot;&gt;sql&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/sqlite&quot;&gt;sqlite&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/datasette&quot;&gt;datasette&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-assisted-programming&quot;&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gpt&quot;&gt;gpt&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/datasette-apps&quot;&gt;datasette-apps&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Jul/13/doomql/#atom-tag</guid>
-      <pubDate>2026-07-13T22:34:41+00:00</pubDate>
-    </item>
-    <item>
-      <title>datasette code-frequency chart on GitHub</title>
-      <link>https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-tag</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/simonw/datasette/graphs/code-frequency&quot;&gt;datasette code-frequency chart on GitHub&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-Out of curiosity I decided to see if I could find a useful illustration of the impact of coding agents and Opus 4.5 class models on my own output. The best I've found so far is this GitHub chart of frequency of code changes to my &lt;a href=&quot;https://datasette.io/&quot;&gt;Datasette&lt;/a&gt; open source project:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Screenshot of a GitHub &amp;quot;Code frequency&amp;quot; bar chart, subtitled &amp;quot;Additions and deletions per week&amp;quot;, showing green addition bars and red deletion bars per week from 2018 through 2026, with a y-axis labeled Frequency ranging from -20k to 30k. Activity comes in sporadic bursts: the largest spike is 37,022 additions with -9,528 deletions in 2026, followed by 14,638 additions with -6,584 deletions in late 2025, 15,998 additions in early 2018, and a standout deletion spike of -10,658 in mid-2020, with quieter periods of smaller weekly changes in between.&quot; src=&quot;https://static.simonwillison.net/static/2026/datasette-code-frequency.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;The big spike in activity at the end aligns with Opus 4.8, GPT-5.5, Fable 5 and GPT-5.6 Sol.
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/github&quot;&gt;github&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/datasette&quot;&gt;datasette&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-assisted-programming&quot;&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-tag</guid>
-      <pubDate>2026-07-13T21:45:27+00:00</pubDate>
     </item>
     <item>
       <title>Claude Code browser 🌍, Cursor general agent 🤖, Claude Fable extension ⏳</title>
@@ -1234,13 +1248,6 @@ Out of curiosity I decided to see if I could find a useful illustration of the i
       <description>Redeploying Fable 5</description>
       <guid>https://www.anthropic.com/news/redeploying-fable-5</guid>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Devin Fusion 💻, DeepSeek DSpark ⚡, economy of tokens 💰</title>
-      <link>https://tldr.tech/ai/2026-06-30</link>
-      <description/>
-      <guid>https://tldr.tech/ai/2026-06-30</guid>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Introducing Claude Tag</title>
