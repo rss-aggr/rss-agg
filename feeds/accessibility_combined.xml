@@ -3,7 +3,78 @@
     <title>Accessibility Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: Accessibility Combined Feed</description>
-    <lastBuildDate>Wed, 29 Jul 2026 13:14:22 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 13:06:00 +0000</lastBuildDate>
+    <item>
+      <title>Use the Axe Monitor MCP integration within your preferred AI assistant to accelerate issue prioritization</title>
+      <link>https://www.deque.com/blog/use-the-axe-monitor-mcp-integration-within-your-preferred-ai-assistant-to-accelerate-issue-prioritization/</link>
+      <description>&lt;p&gt;Now, by using our new Axe Monitor MCP integration within your preferred AI assistant, you can use natural language prompts to dramatically speed up the process of creating and comparing scans, prioritizing fixes, and building and delivering actionable accessibility sprint plans.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://www.deque.com/blog/use-the-axe-monitor-mcp-integration-within-your-preferred-ai-assistant-to-accelerate-issue-prioritization/&quot;&gt;Use the Axe Monitor MCP integration within your preferred AI assistant to accelerate issue prioritization&lt;/a&gt; appeared first on &lt;a href=&quot;https://www.deque.com&quot;&gt;Deque&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid>https://www.deque.com/?p=61505</guid>
+      <pubDate>Thu, 30 Jul 2026 11:57:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>GEO Just Became a Budget Line Describing Accessibility.</title>
+      <link>https://uxplanet.org/geo-is-accessibility-c4dcbf24316b?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://uxplanet.org/geo-is-accessibility-c4dcbf24316b?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2000/1*UFSV46gEPS0Wd0uRDxvhnQ.png&quot; width=&quot;2000&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Generative Engine Optimisation is real money now &amp;#x2014; around a $365m line item in the US this year alone. And every GEO guide is quietly&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://uxplanet.org/geo-is-accessibility-c4dcbf24316b?source=rss------accessibility-5&quot;&gt;Continue reading on UX Planet »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/c4dcbf24316b</guid>
+      <pubDate>Thu, 30 Jul 2026 09:12:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>W3C Invites Implementations of WebTransport</title>
+      <link>https://www.w3.org/news/2026/w3c-invites-implementations-of-webtransport/</link>
+      <description>This document defines a set of ECMAScript APIs in WebIDL to allow data to be sent and received between a browser and server, utilizing [WEB-TRANSPORT-OVERVIEW].</description>
+      <guid>https://www.w3.org/news/2026/w3c-invites-implementations-of-webtransport/</guid>
+      <pubDate>Thu, 30 Jul 2026 08:25:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Group Note Draft: Verifiable Credentials Overview v1.1</title>
+      <link>https://www.w3.org/news/2026/group-note-draft-verifiable-credentials-overview-v1-1/</link>
+      <description>The family of W3C Recommendations for Verifiable Credentials, described in this overview document, provides a mechanism to express these sorts of credentials on the Web in a way that is cryptographically secure, privacy respecting, and machine-verifiable.</description>
+      <guid>https://www.w3.org/news/2026/group-note-draft-verifiable-credentials-overview-v1-1/</guid>
+      <pubDate>Thu, 30 Jul 2026 08:20:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Group Note Draft: EPUB Accessibility 1.2 Explainer</title>
+      <link>https://www.w3.org/news/2026/group-note-draft-epub-accessibility-1-2-explainer/</link>
+      <description>The EPUB Accessibility 1.2 Explainer provides information on how to understand and evaluate the accessible publications conformance requirements of EPUB Accessibility 1.2 against reflowable EPUB publications.</description>
+      <guid>https://www.w3.org/news/2026/group-note-draft-epub-accessibility-1-2-explainer/</guid>
+      <pubDate>Thu, 30 Jul 2026 08:17:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Accessibility by Default: Dialogs</title>
+      <link>https://medium.com/@joshhallan/accessibility-by-default-dialogs-be60a3708d29?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@joshhallan/accessibility-by-default-dialogs-be60a3708d29?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1376/1*tKq1FLnpwanise7IuVdS_w.png&quot; width=&quot;1376&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Hi, and welcome to Accessibility by Default. If you&amp;#x2019;re new, this series is all about building web components with accessibility in mind&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@joshhallan/accessibility-by-default-dialogs-be60a3708d29?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/be60a3708d29</guid>
+      <pubDate>Thu, 30 Jul 2026 06:01:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>The accessibility paradox</title>
+      <link>https://uxdesign.cc/the-accessibility-paradox-d2c073256660?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://uxdesign.cc/the-accessibility-paradox-d2c073256660?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1200/1*4s_Qp2whVbrZgedYJXCL0Q.jpeg&quot; width=&quot;1200&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;How making the web easier for humans also made it easier for machines.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://uxdesign.cc/the-accessibility-paradox-d2c073256660?source=rss------accessibility-5&quot;&gt;Continue reading on UX Collective »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/d2c073256660</guid>
+      <pubDate>Thu, 30 Jul 2026 05:24:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>Baltimore Orioles</title>
+      <link>https://medium.com/@nesmith.michael/baltimore-orioles-ecba23350f2f?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@nesmith.michael/baltimore-orioles-ecba23350f2f?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1024/1*AHBOP82NDyUSsZuHgDBhxA.png&quot; width=&quot;1024&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Camden Yards, 2018&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@nesmith.michael/baltimore-orioles-ecba23350f2f?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/ecba23350f2f</guid>
+      <pubDate>Wed, 29 Jul 2026 21:41:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>Why I Teach</title>
+      <link>https://medium.com/@jadeshineslight/why-i-teach-b35e04e42569?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@jadeshineslight/why-i-teach-b35e04e42569?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2600/1*n6J6_s4EeXe639iBhCrovQ@2x.jpeg&quot; width=&quot;3240&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;It was never just a job to me.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@jadeshineslight/why-i-teach-b35e04e42569?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/b35e04e42569</guid>
+      <pubDate>Wed, 29 Jul 2026 16:31:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>The Universal ROI: Why Accessibility is the Secret Weapon of Great Design</title>
+      <link>https://medium.com/@junaidmaniyar/the-universal-roi-why-accessibility-is-the-secret-weapon-of-great-design-576c75b0995b?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Have you ever tried to check an urgent email in direct sunlight, only to find the text completely washed out?&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@junaidmaniyar/the-universal-roi-why-accessibility-is-the-secret-weapon-of-great-design-576c75b0995b?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/576c75b0995b</guid>
+      <pubDate>Wed, 29 Jul 2026 13:54:47 GMT</pubDate>
+    </item>
     <item>
       <title>Making AI Chatbots Accessible for Screen Reader Users: A Developer Guide</title>
       <link>https://medium.com/@marketing_58999/making-ai-chatbots-accessible-for-screen-reader-users-a-developer-guide-8f77a92407d5?source=rss------accessibility-5</link>
@@ -39,49 +110,6 @@
       <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://blog.cubed.run/structure-tree-in-the-pdf-accessibility-checker-76c675bc1f8d?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1600/1*_eb7q_tdQsuA_fNwxJfv_A.png&quot; width=&quot;1600&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;What is a Structure Tree?&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://blog.cubed.run/structure-tree-in-the-pdf-accessibility-checker-76c675bc1f8d?source=rss------accessibility-5&quot;&gt;Continue reading on Cubed »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
       <guid>https://medium.com/p/76c675bc1f8d</guid>
       <pubDate>Wed, 29 Jul 2026 01:39:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>Everyone Audits a Snapshot. Nobody Guards the Deploy.</title>
-      <link>https://medium.com/@singhkanishk1999/everyone-audits-a-snapshot-nobody-guards-the-deploy-5227faab8a31?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@singhkanishk1999/everyone-audits-a-snapshot-nobody-guards-the-deploy-5227faab8a31?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1280/1*_z0bCVp1wdBsZjyH-f9syw.png&quot; width=&quot;1280&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Why I stopped building an accessibility scanner and started building an alarm.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@singhkanishk1999/everyone-audits-a-snapshot-nobody-guards-the-deploy-5227faab8a31?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/5227faab8a31</guid>
-      <pubDate>Tue, 28 Jul 2026 22:02:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>Improve your Android accessibility with toggleables</title>
-      <link>https://medium.com/@cononube/improve-your-android-accessibility-with-toggleables-b6f7239f35e1?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@cononube/improve-your-android-accessibility-with-toggleables-b6f7239f35e1?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1015/1*oLahEq5KbzdTAAfviXQb4A.png&quot; width=&quot;1015&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Customizing the views in our Apps is something very common in our daily development of screens but we often forget to review the&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@cononube/improve-your-android-accessibility-with-toggleables-b6f7239f35e1?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/b6f7239f35e1</guid>
-      <pubDate>Tue, 28 Jul 2026 21:27:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>Microalgas UI Form | 
-Desarrollo de producto con un enfoque accesible</title>
-      <link>https://medium.com/@facundotubio/microalgas-ui-form-desarrollo-de-producto-con-un-enfoque-accesible-3dc7bfda3bad?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@facundotubio/microalgas-ui-form-desarrollo-de-producto-con-un-enfoque-accesible-3dc7bfda3bad?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1212/1*E7bEs9Bio11uInS_H8jClg.jpeg&quot; width=&quot;1212&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Decisiones de dise&amp;#xf1;o y criterios de conformidad para el desarrollo de un formulario web bajo est&amp;#xe1;ndares de accesibilidad. (Versi&amp;#xf3;n 01 &amp;#x2014;&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@facundotubio/microalgas-ui-form-desarrollo-de-producto-con-un-enfoque-accesible-3dc7bfda3bad?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/3dc7bfda3bad</guid>
-      <pubDate>Tue, 28 Jul 2026 20:42:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>Designing Accessible Integrations</title>
-      <link>https://medium.com/@poojapkamath/designing-accessible-integrations-855d51550102?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@poojapkamath/designing-accessible-integrations-855d51550102?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2600/0*zB_MTqzOdZUe_qFk&quot; width=&quot;4819&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;What API-Led Connectivity Owes the End User&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@poojapkamath/designing-accessible-integrations-855d51550102?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/855d51550102</guid>
-      <pubDate>Tue, 28 Jul 2026 15:53:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>How to Build an Accessible Data Table in React</title>
-      <link>https://medium.com/@davinchiupka/how-to-build-an-accessible-data-table-in-react-9bbf3ee9413c?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@davinchiupka/how-to-build-an-accessible-data-table-in-react-9bbf3ee9413c?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2600/0*QtdleJFwCOW1jwss&quot; width=&quot;3456&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;This blog post was originally written for Boreal UI on July 17th, 2026.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@davinchiupka/how-to-build-an-accessible-data-table-in-react-9bbf3ee9413c?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/9bbf3ee9413c</guid>
-      <pubDate>Tue, 28 Jul 2026 15:05:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>You Do Not Have to Lose Yourself to Build Something Meaningful</title>
-      <link>https://zenythshop.medium.com/you-do-not-have-to-lose-yourself-to-build-something-meaningful-dd840e8dd505?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://zenythshop.medium.com/you-do-not-have-to-lose-yourself-to-build-something-meaningful-dd840e8dd505?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2600/0*_CMO0OLVW4yJ75FW&quot; width=&quot;5488&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;A gentle reflection for creators learning to begin, grow, and build in their own way.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://zenythshop.medium.com/you-do-not-have-to-lose-yourself-to-build-something-meaningful-dd840e8dd505?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/dd840e8dd505</guid>
-      <pubDate>Tue, 28 Jul 2026 14:59:32 GMT</pubDate>
     </item>
     <item>
       <title>WOFF 1.0: a milestone on W3C’s journey of fonts on the web</title>
@@ -907,14 +935,6 @@ customElements.define(&quot;the-section&quot;, Section);&lt;/code&gt;&lt;/pre&gt
       <pubDate>2026-06-03T14:30:00+00:00</pubDate>
     </item>
     <item>
-      <title>NFB sues DOJ and HHS over deadline extensions: What it means for your ADA Title II and Section 504 compliance program</title>
-      <link>https://www.deque.com/blog/nfb-sues-doj-and-hhs-over-deadline-extensions-ada-title-ii-and-section-504/</link>
-      <description>&lt;p&gt;The deadline extensions issued by DOJ and HHS for Title II and Section 504 are being challenged in federal court by a plaintiff with strong standing and serious legal arguments. Regardless of the outcome, the underlying obligation—to make your digital experiences accessible to people with disabilities—has not changed and will not change.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://www.deque.com/blog/nfb-sues-doj-and-hhs-over-deadline-extensions-ada-title-ii-and-section-504/&quot;&gt;NFB sues DOJ and HHS over deadline extensions: What it means for your ADA Title II and Section 504 compliance program&lt;/a&gt; appeared first on &lt;a href=&quot;https://www.deque.com&quot;&gt;Deque&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid>https://www.deque.com/?p=59179</guid>
-      <pubDate>Tue, 02 Jun 2026 12:57:31 +0000</pubDate>
-    </item>
-    <item>
       <title>Upcoming: W3C/GS1 Workshop on E-commerce for Humans and AI Agents</title>
       <link>https://www.w3.org/news/2026/upcoming-w3c-gs1-workshop-on-e-commerce-for-humans-and-ai-agents/</link>
       <description>This workshop aims to share experience of creating content with AI Agents in mind, with ecommerce as a particular focus.</description>
@@ -1138,26 +1158,12 @@ customElements.define(&quot;the-section&quot;, Section);&lt;/code&gt;&lt;/pre&gt
       <pubDate>Thu, 21 May 2026 12:49:00 +0000</pubDate>
     </item>
     <item>
-      <title>IMSC Text Profile 1.3 is now a W3C Recommendation</title>
-      <link>https://www.w3.org/news/2026/imsc-text-profile-1-3-is-now-a-w3c-recommendation/</link>
-      <description>This specification defines a text-only profile of ttml2 intended for subtitle and caption delivery applications worldwide.</description>
-      <guid>https://www.w3.org/news/2026/imsc-text-profile-1-3-is-now-a-w3c-recommendation/</guid>
-      <pubDate>Thu, 21 May 2026 08:48:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Weekly Reading List May 18 2026</title>
       <link>https://www.tpgi.com/weekly-reading-list-may-18-2026/</link>
       <description>&lt;p&gt;A weekly roundup of links to digital accessibility industry news, posted every Monday. Compiled by Ricky Onsman.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://www.tpgi.com/weekly-reading-list-may-18-2026/&quot;&gt;Weekly Reading List May 18 2026&lt;/a&gt; appeared first on &lt;a href=&quot;https://www.tpgi.com&quot;&gt;TPGi — a Vispero company&lt;/a&gt;.&lt;/p&gt;</description>
       <guid>https://www.tpgi.com/?p=10868</guid>
       <pubDate>Mon, 18 May 2026 12:38:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>First Public Working Draft: Recognized Entities v1.0</title>
-      <link>https://www.w3.org/news/2026/first-public-working-draft-recognized-entities-v1-0/</link>
-      <description>This specification describes a data model with which one or more recognized entities, such as one or more persons and/or organizations, can be described as known to perform specific actions, such as issuing or verifying a verifiable credential.</description>
-      <guid>https://www.w3.org/news/2026/first-public-working-draft-recognized-entities-v1-0/</guid>
-      <pubDate>Tue, 12 May 2026 09:15:00 +0000</pubDate>
     </item>
     <item>
       <title>Weekly Reading List May 11 2026</title>
@@ -1174,13 +1180,6 @@ customElements.define(&quot;the-section&quot;, Section);&lt;/code&gt;&lt;/pre&gt
 &lt;p&gt;The post &lt;a href=&quot;https://www.tpgi.com/weekly-reading-list-may-4-2026/&quot;&gt;Weekly Reading List May 4 2026&lt;/a&gt; appeared first on &lt;a href=&quot;https://www.tpgi.com&quot;&gt;TPGi — a Vispero company&lt;/a&gt;.&lt;/p&gt;</description>
       <guid>https://www.tpgi.com/?p=10864</guid>
       <pubDate>Mon, 04 May 2026 13:44:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>W3C Advisory Committee Elects Advisory Board</title>
-      <link>https://www.w3.org/news/2026/w3c-advisory-committee-elects-advisory-board/</link>
-      <description>The W3C Advisory Committee has elected four individuals to the W3C Advisory Board (AB) .</description>
-      <guid>https://www.w3.org/news/2026/w3c-advisory-committee-elects-advisory-board/</guid>
-      <pubDate>Fri, 01 May 2026 13:33:00 +0000</pubDate>
     </item>
     <item>
       <title>Age-restrictions on the web and user privacy and safety</title>
