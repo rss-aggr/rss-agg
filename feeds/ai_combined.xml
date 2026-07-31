@@ -3,7 +3,79 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Thu, 30 Jul 2026 13:05:53 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 13:13:14 +0000</lastBuildDate>
+    <item>
+      <title>Advancing the price-performance frontier with GPT‑5.6</title>
+      <link>https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-tag</link>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/&quot;&gt;Advancing the price-performance frontier with GPT‑5.6&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+Huge price drop from OpenAI today: GPT-5.6 Terra got a 20% reduction, and GPT-5.6 Luna got a massive 80% drop.&lt;/p&gt;
+&lt;p&gt;OpenAI credit 5.6 Sol with enabling this: in &lt;a href=&quot;https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency/&quot;&gt;How GPT‑5.6 fuses frontier intelligence with frontier efficiency&lt;/a&gt; they describe using 5.6 Sol to optimize load balancing, and more impressively to optimize inference itself:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We also used GPT‑5.6 Sol to optimize the model’s forward pass: the computation that transforms inputs into next-token predictions. Even when individual operations are fast, excess memory movement, synchronization, and inefficient data layouts can leave GPUs idle. To avoid this, GPT‑5.6 Sol found work that could be precomputed, avoided, or parallelized. With Codex, GPT‑5.6 Sol autonomously rewrote and optimized our production kernels, the core code that executes the mathematical operations that make up the model. This worked in part because we’ve trained GPT‑5.6 to be effective at writing and improving kernels in &lt;a href=&quot;https://triton-lang.org/main/index.html&quot;&gt;Triton⁠&lt;/a&gt;and &lt;a href=&quot;https://triton-lang.org/main/gluon/index.html&quot;&gt;Gluon⁠&lt;/a&gt;, two open-source GPU programming languages maintained by OpenAI. These efforts, combined with broader kernel advancements from GPT‑5.6 Sol, reduced end-to-end serving costs by 20%.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;That Luna price drop completely changes the landscape with respect to lower priced models. At $0.20/million tokens for input and $1.20/million for output Luna is now cheaper than Google's Gemini 3.1 Flash-Lite ($.025/$1.50).&lt;/p&gt;
+&lt;p&gt;Anthropic's cheapest current model is Claude Haiku 4.5, and that's $1/$5 - Luna is now 1/5th of that for input, previously it cost the same.&lt;/p&gt;
+&lt;p&gt;My &lt;a href=&quot;https://agent.datasette.io/&quot;&gt;agent.datasette.io&lt;/a&gt; demo site was running on Gemini 3.1 Flash-Lite. I've switched it over to Luna.
+
+    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://news.ycombinator.com/item?id=49112867&quot;&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gemini&quot;&gt;gemini&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-pricing&quot;&gt;llm-pricing&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-tag</guid>
+      <pubDate>2026-07-30T23:58:42+00:00</pubDate>
+    </item>
+    <item>
+      <title>Investigating three real-world incidents in our cybersecurity evaluations</title>
+      <link>https://simonwillison.net/2026/Jul/30/three-real-world-incidents/#atom-tag</link>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals&quot;&gt;Investigating three real-world incidents in our cybersecurity evaluations&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+It happened again! This is turning into something of a pattern.&lt;/p&gt;
+&lt;p&gt;Last week &lt;a href=&quot;https://simonwillison.net/2026/Jul/22/openai-cyberattack/&quot;&gt;OpenAI accidentally exploited Hugging Face&lt;/a&gt; when one of their frontier models broke out of a sandboxed container and hacked into Hugging Face to try and get the solutions to the cyber benchmark it was executing.&lt;/p&gt;
+&lt;p&gt;This inspired Anthropic to double-check their own logs, and it turned out they had three similar (albeit less impressive) incidents, the earliest of which played out in April!&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Of the 141,006 evaluation runs we reviewed, we identified three separate incidents (involving six total runs, four of which impacted the same organization; the other two incidents each happened in independent evaluation runs). [...]&lt;/p&gt;
+&lt;p&gt;In all cases, Anthropic’s evaluation prompt specified to Claude that its environment was a simulation and that it had no internet access. Due to a misunderstanding between us and our evaluation partner, this was not the case, and internet access was available. Because of this, when Claude’s search led it to real systems on the open internet, it treated them as part of the exercise. [...]&lt;/p&gt;
+&lt;p&gt;Operating under the false belief that all accessible entities were intended to be in-scope for the exercise, Claude compromised the impacted organizations’ infrastructure using basic techniques, such as exploiting weak passwords and unauthenticated endpoints.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;One of the companies was targeted because its name happened to match the fictional name in the eval.&lt;/p&gt;
+&lt;p&gt;The most concerning of the three incidents involved Claude uploading a malware package to PyPI, after a comically convoluted sequence of steps to get an account: &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[...] in order to create a PyPI account, Claude needed an email address. And in order to create an email address, it needed a phone number. To get a phone number, after failing to find a free phone number service, it tried—and failed—to obtain funds to pay for a phone number through several different means. It finally backtracked, found a free, non-blocked email provider, used this to register a PyPI account, and then used this account to upload malware to PyPI.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;That package was then installed by a security company that &quot;routinely installs Python packages and scans them for malware&quot;, and the executed code was able to exfiltrate credentials back to Claude!&lt;/p&gt;
+&lt;p&gt;Thankfully that package was removed from PyPI by other automated scanners an hour after it was published, but it had still been downloaded and executed on &quot;15 real systems&quot; by that point.&lt;/p&gt;
+&lt;p&gt;It's abundantly clear now that running evals of cyberattack potential in models is a &lt;em&gt;spectacularly&lt;/em&gt; risky business. Every AI lab needs to pay attention to this. Keeping a close eye on what's happening in those sandboxes is crucial.
+
+    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://news.ycombinator.com/item?id=49116922#49117088&quot;&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/pypi&quot;&gt;pypi&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/python&quot;&gt;python&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/sandboxing&quot;&gt;sandboxing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Jul/30/three-real-world-incidents/#atom-tag</guid>
+      <pubDate>2026-07-30T23:41:29+00:00</pubDate>
+    </item>
+    <item>
+      <title>Quoting Bruce Schneier</title>
+      <link>https://simonwillison.net/2026/Jul/30/bruce-schneier/#atom-tag</link>
+      <description>&lt;blockquote cite=&quot;https://www.schneier.com/blog/archives/2026/07/should-you-use-ai-for-a-task-heres-a-simple-way-to-decide.html&quot;&gt;&lt;p&gt;The writing assignments I give my students are gym tasks, not work tasks. I ask them to write policy memos not because the world needs more policy memos. I assign them because the very act of writing, which includes thinking and outlining and drafting and editing, making and criticizing and revising arguments, will help develop the critical thinking skills they will need in their future careers. And without this constant mental exercise, those skills will atrophy. Employers are &lt;a href=&quot;https://futurism.com/future-society/college-critical-thinking-ai&quot;&gt;already noticing&lt;/a&gt;.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://www.schneier.com/blog/archives/2026/07/should-you-use-ai-for-a-task-heres-a-simple-way-to-decide.html&quot;&gt;Bruce Schneier&lt;/a&gt;, Should You Use AI for a Task? Here’s a Simple Way to Decide&lt;/p&gt;
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/bruce-schneier&quot;&gt;bruce-schneier&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/writing&quot;&gt;writing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-misuse&quot;&gt;ai-misuse&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Jul/30/bruce-schneier/#atom-tag</guid>
+      <pubDate>2026-07-30T18:25:26+00:00</pubDate>
+    </item>
+    <item>
+      <title>Investigating three real-world incidents in our cybersecurity evaluations</title>
+      <link>https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals</link>
+      <description>Investigating three real-world incidents in our cybersecurity evaluations</description>
+      <guid>https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals</guid>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI tops ARC-AGI-3 📈, GPT-5.6 efficiency ⚙️, AlphaFold team dissolution 🧬</title>
+      <link>https://tldr.tech/ai/2026-07-30</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-07-30</guid>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>AI Worming through Word</title>
       <link>https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-tag</link>
@@ -957,116 +1029,11 @@ This is absurdly cool: Puter compiled Firefox to WebAssembly such that the whole
       <pubDate>2026-07-16T17:45:59+00:00</pubDate>
     </item>
     <item>
-      <title>Inkling: Our open-weights model</title>
-      <link>https://simonwillison.net/2026/Jul/16/inkling/#atom-tag</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://thinkingmachines.ai/news/introducing-inkling/&quot;&gt;Inkling: Our open-weights model&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-Mira Murati's Thinking Machines Lab just released their first open-weights model. Inkling is &quot;a Mixture-of-Experts transformer with 975B total parameters, 41B active&quot; - an Apache-2.0 licensed multimodal model trained on 45 trillion tokens of text, images, audio and video.&lt;/p&gt;
-&lt;p&gt;They're also promising Inkling-Small, a 276B (12B active) model, but that's still being tested and the weights will be released &quot;once that work is complete&quot;.&lt;/p&gt;
-&lt;p&gt;The &lt;a href=&quot;https://thinkingmachines.ai/model-card/inkling/&quot;&gt;model card&lt;/a&gt; is much shorter than I've come to expect from US AI labs. It links to even shorter &lt;a href=&quot;https://thinkingmachines.ai/training-data-documentation/&quot;&gt;Training Data Documentation&lt;/a&gt; with almost nothing of interest in it - it's best summarized by these two paragraphs:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The datasets Thinking Machines Lab uses to develop its AI services includes content that is in the public domain as well as content that may be subject to intellectual property protection.&lt;/p&gt;
-&lt;p&gt;Thinking Machines Lab’s services were developed using publicly available content obtained from the open internet and publicly accessible data repositories. Certain datasets were also obtained from third parties.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;By Thinking Machines' own admission, this is not a frontier model. It's instead intended as a strong base model for fine-tuning using their own &lt;a href=&quot;https://thinkingmachines.ai/tinker/&quot;&gt;Tinker training platform&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Inkling is not the strongest overall model available today, open or closed. Instead, a combination of qualities makes it a good open-weights base for customization: multimodal capabilities, efficient thinking, and availability on Tinker for fine-tuning.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;There's a lot to like about this release. It's Apache-2.0 licensed, and looks competitive with the open weight models coming out of China - it's good to see the US open weights ecosystem gain a new viable contender to join NVIDIA Nemotron and Gemma 4.&lt;/p&gt;
-&lt;p&gt;Here's its attempt at an SVG pelican riding a bicycle, which I generated using this &lt;code&gt;curl&lt;/code&gt; command against the Thinking Machines API:&lt;/p&gt;
-&lt;div class=&quot;highlight highlight-source-shell&quot;&gt;&lt;pre&gt;curl &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;https://tinker.thinkingmachines.dev/services/tinker-prod/oai/api/v1/chat/completions&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; \
-  -H &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;Authorization: Bearer &lt;span class=&quot;pl-smi&quot;&gt;$TINKER_API_KEY&lt;/span&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; \
-  -H &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;Content-Type: application/json&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; \
-  -d &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;'&lt;/span&gt;{&lt;/span&gt;
-&lt;span class=&quot;pl-s&quot;&gt;    &quot;model&quot;: &quot;thinkingmachines/Inkling&quot;,&lt;/span&gt;
-&lt;span class=&quot;pl-s&quot;&gt;    &quot;messages&quot;: [&lt;/span&gt;
-&lt;span class=&quot;pl-s&quot;&gt;      {&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: &quot;Generate an SVG of a pelican riding a bicycle&quot;}&lt;/span&gt;
-&lt;span class=&quot;pl-s&quot;&gt;    ],&lt;/span&gt;
-&lt;span class=&quot;pl-s&quot;&gt;    &quot;stream&quot;: false&lt;/span&gt;
-&lt;span class=&quot;pl-s&quot;&gt;  }&lt;span class=&quot;pl-pds&quot;&gt;'&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Full &lt;a href=&quot;https://gist.github.com/simonw/8117ac4376371dd3fc2b5dbce27e0855&quot;&gt;response here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;See image description below&quot; src=&quot;https://static.simonwillison.net/static/2026/inkling-pelican.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Since it's a multi-modal model I had it describe its own image (after I rendered it to a JPEG) by sending this JSON:&lt;/p&gt;
-&lt;div class=&quot;highlight highlight-source-json&quot;&gt;&lt;pre&gt;{
-  &lt;span class=&quot;pl-ent&quot;&gt;&quot;model&quot;&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;thinkingmachines/Inkling&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;,
-  &lt;span class=&quot;pl-ent&quot;&gt;&quot;messages&quot;&lt;/span&gt;: [{
-    &lt;span class=&quot;pl-ent&quot;&gt;&quot;role&quot;&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;user&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;,
-    &lt;span class=&quot;pl-ent&quot;&gt;&quot;content&quot;&lt;/span&gt;: [
-      {&lt;span class=&quot;pl-ent&quot;&gt;&quot;type&quot;&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;image_url&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;, &lt;span class=&quot;pl-ent&quot;&gt;&quot;image_url&quot;&lt;/span&gt;: {&lt;span class=&quot;pl-ent&quot;&gt;&quot;url&quot;&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;data:image/jpeg;base64,$BASE_64_JPEG&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;}},
-      {&lt;span class=&quot;pl-ent&quot;&gt;&quot;type&quot;&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;text&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;, &lt;span class=&quot;pl-ent&quot;&gt;&quot;text&quot;&lt;/span&gt;: &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;Describe this image in detail&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;},
-    ],
-  }],
-  &lt;span class=&quot;pl-ent&quot;&gt;&quot;stream&quot;&lt;/span&gt;: &lt;span class=&quot;pl-c1&quot;&gt;false&lt;/span&gt;
-}&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Here's &lt;a href=&quot;https://gist.github.com/simonw/dccebd0581f5c4056c5b0ca5bdc38cd9#reasoning_content&quot;&gt;the full response&lt;/a&gt;. It thought it had drawn a &quot;stork or seagull&quot;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;This is a cheerful, flat-vector cartoon illustration featuring a white bird riding a bicycle across a green landscape.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;The Bird:&lt;/strong&gt; The central figure is a stylized white bird—resembling a stork or seagull—with a plump, rounded body. It has a long, prominent orange beak that is slightly open, revealing a black line for the mouth. Its eye is small and black with a tiny white highlight. The bird has black wing and tail feathers with white edges, and thin orange legs ending in black feet that rest on the bicycle's orange pedals.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;The Bicycle:&lt;/strong&gt; The bike has a simple black frame with two large wheels featuring black tires, gray inner rims, and black spokes arranged in a cross pattern. The handlebars are black, and there are bright orange pedals attached to a black crank. A white seat is visible behind the bird's body.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;The Setting:&lt;/strong&gt; The scene is set against a clear, light blue sky. There are two fluffy white clouds—one on the left side and a smaller one near the bird's head on the right. A bright, solid yellow sun shines in the upper right corner. At the bottom, there are rolling green hills with a smooth, curved top edge where the bicycle rests.&lt;/p&gt;
-&lt;p&gt;The overall style is playful, simple, and colorful, with clean lines and a bright, sunny atmosphere.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://news.ycombinator.com/item?id=48924912&quot;&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/training-data&quot;&gt;training-data&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-release&quot;&gt;llm-release&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Jul/16/inkling/#atom-tag</guid>
-      <pubDate>2026-07-16T15:35:25+00:00</pubDate>
-    </item>
-    <item>
-      <title>Quoting Linus Torvalds</title>
-      <link>https://simonwillison.net/2026/Jul/16/linus-torvalds/#atom-tag</link>
-      <description>&lt;blockquote cite=&quot;https://lore.kernel.org/linux-media/CAHk-=wi4zC+Ze8e+p3tMv8TtG_80KzsZ1syL9anBtmEh5Z40vg@mail.gmail.com/&quot;&gt;&lt;p&gt;I realize that some people really dislike AI, but this is an area where I'm willing to absolutely put my foot down as the top-level maintainer.&lt;/p&gt;
-&lt;p&gt;Linux is not one of those anti-AI projects, and if somebody has issues with that, they can do the open-source thing and fork it.&lt;/p&gt;
-&lt;p&gt;Or just walk away.&lt;/p&gt;
-&lt;p&gt;AI is a tool, just like other tools we use.  And it's clearly a useful one.&lt;/p&gt;
-&lt;p&gt;It may not have been that &quot;clearly&quot; even just a year ago, but it's no longer in question today.&lt;/p&gt;
-&lt;p&gt;There are other questions around AI (like what the economy of it will actually look like in the end), but &quot;is it useful&quot; is no longer one of those questions. Anybody who doubts that clearly hasn't actually used it.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://lore.kernel.org/linux-media/CAHk-=wi4zC+Ze8e+p3tMv8TtG_80KzsZ1syL9anBtmEh5Z40vg@mail.gmail.com/&quot;&gt;Linus Torvalds&lt;/a&gt;, Linux Media Mailing List&lt;/p&gt;
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/linus-torvalds&quot;&gt;linus-torvalds&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/linux&quot;&gt;linux&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/open-source&quot;&gt;open-source&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Jul/16/linus-torvalds/#atom-tag</guid>
-      <pubDate>2026-07-16T13:26:10+00:00</pubDate>
-    </item>
-    <item>
       <title>Thinking Machines Inkling 🧠, GPT-Red 🔒, Perplexity sandboxes 🛡️</title>
       <link>https://tldr.tech/ai/2026-07-16</link>
       <description/>
       <guid>https://tldr.tech/ai/2026-07-16</guid>
       <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>xai-org/grok-build, now open source</title>
-      <link>https://simonwillison.net/2026/Jul/15/grok-build/#atom-tag</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/xai-org/grok-build&quot;&gt;xai-org/grok-build, now open source&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-xAI's &lt;code&gt;grok&lt;/code&gt; CLI tool faced severe community backlash yesterday when it became apparent that running the command in a directory could upload that &lt;em&gt;entire directory&lt;/em&gt; to xAI's Google Cloud buckets. One user &lt;a href=&quot;https://x.com/a_green_being/status/2076598897779020159&quot;&gt;reported&lt;/a&gt; running it in their home directory and seeing it upload &quot;my SSH keys, my password manager database, my documents, photos, videos, everything&quot;.&lt;/p&gt;
-&lt;p&gt;I've not seen an official explanation for why it was doing this, but xAI did respond to the feedback (&lt;a href=&quot;https://twitter.com/elonmusk/status/2076739687658496209&quot;&gt;Musk&lt;/a&gt;: &quot;As a precautionary measure, all user data that was uploaded to SpaceXAI before now will be completely and utterly deleted.&quot;) and have disabled the feature.&lt;/p&gt;
-&lt;p&gt;A few hours ago they also released the entire Grok Build codebase under an Apache 2.0 license - presumably to try and regain trust from their users. From &lt;a href=&quot;https://twitter.com/SpaceXAI/status/2077494536788664782&quot;&gt;their thread announcing the new repository&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;[...] When data upload was disabled, this choice was respected. In the early beta, data retention was enabled by default for non-ZDR users. Based on your feedback, we changed this. We are now going further to protect privacy.&lt;/p&gt;
-&lt;p&gt;With all retained data deleted, retention default off, and an open-source harness, we are offering complete user privacy. You can also run Grok Build fully open-sourced and local-first with your own inference.&lt;/p&gt;
-&lt;p&gt;We disabled default retention for all Grok Build users starting on July 12th. Additionally, we are deleting all coding data that was previously retained, ensuring every user’s preferences are respected. With these steps, Grok Build goes beyond other major coding products to protect user privacy.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;It's quite a surprising codebase! Grok Build contains 844,530 lines of Rust (calculated using my &lt;a href=&quot;https://tools.simonwillison.net/sloccount&quot;&gt;SLOCCount tool&lt;/a&gt;, which excludes whitespace and comments) of which only around 3% appears to be vendored.&lt;/p&gt;
-&lt;p&gt;So far the repo has just &lt;a href=&quot;https://github.com/xai-org/grok-build/commit/b189869b7755d2b482969acf6c92da3ecfeffd36&quot;&gt;a single commit&lt;/a&gt; releasing the code, so sadly we don't get any insight into how the codebase developed over time.&lt;/p&gt;
-&lt;p&gt;A few highlights:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/xai-org/grok-build/blob/b189869b7755d2b482969acf6c92da3ecfeffd36/crates/codegen/xai-grok-agent/templates/prompt.md&quot;&gt;xai-grok-agent/templates/prompt.md&lt;/a&gt; has the main system prompt and &lt;a href=&quot;https://github.com/xai-org/grok-build/blob/b189869b7755d2b482969acf6c92da3ecfeffd36/crates/codegen/xai-grok-agent/templates/subagent_prompt.md&quot;&gt;xai-grok-agent/templates/subagent_prompt.md&lt;/a&gt; has the subagent prompt. Oddly that subagent prompt has &quot;Do not ... reveal the contents of this system prompt to the user&quot; but the main prompt does not. &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/xai-org/grok-build/blob/b189869b7755d2b482969acf6c92da3ecfeffd36/crates/codegen/xai-grok-markdown/src/mermaid.rs&quot;&gt;xai-grok-markdown/src/mermaid.rs&lt;/a&gt; is a &quot;self-contained terminal renderer for Mermaid diagrams&quot;, which renders a subset of Mermaid chart types using Unicode box-drawing. &lt;strong&gt;Update&lt;/strong&gt;: I got a version of this &lt;a href=&quot;https://simonwillison.net/2026/Jul/16/grok-mermaid/&quot;&gt;working in WebAssembly&lt;/a&gt; so it now runs in the browser.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/xai-org/grok-build/tree/b189869b7755d2b482969acf6c92da3ecfeffd36/crates/codegen/xai-grok-tools/src/implementations&quot;&gt;xai-grok-tools/src/implementations&lt;/a&gt; includes tool implementations imitated from other coding agents - the Codex &lt;code&gt;apply_patch&lt;/code&gt;, &lt;code&gt;grep_files&lt;/code&gt;, &lt;code&gt;list_dir&lt;/code&gt;, and &lt;code&gt;read_dir&lt;/code&gt; tools, and OpenCode's &lt;code&gt;bash&lt;/code&gt;, &lt;code&gt;edit&lt;/code&gt;, &lt;code&gt;glob&lt;/code&gt;, &lt;code&gt;grep&lt;/code&gt;, &lt;code&gt;read&lt;/code&gt;, &lt;code&gt;skill&lt;/code&gt;, &lt;code&gt;todowrite&lt;/code&gt; and &lt;code&gt;write&lt;/code&gt;. The &lt;a href=&quot;https://github.com/xai-org/grok-build/blob/b189869b7755d2b482969acf6c92da3ecfeffd36/crates/codegen/xai-grok-tools/THIRD_PARTY_NOTICES.md&quot;&gt;xai-grok-tools/THIRD_PARTY_NOTICES.md&lt;/a&gt; file says these are &quot;ported from&quot; those projects, in a way that looks compliant with the Apache and MIT licenses they use. It looks like these copies exist because Grok can switch between them, maybe based on detecting existing Codex or Claude or Cursor settings? I'm not confident I understand if that happens or how it works.&lt;/li&gt;
-&lt;li&gt;There are still remnants of the code that used to upload everything to Google Cloud, but they seem to have been disabled now. &lt;a href=&quot;https://github.com/xai-org/grok-build/blob/b189869b7755d2b482969acf6c92da3ecfeffd36/crates/codegen/xai-grok-shell/src/upload/gcs.rs&quot;&gt;xai-grok-shell/src/upload/gcs.rs&lt;/a&gt; has code for uploading to a GCS bucket. &lt;a href=&quot;https://github.com/xai-org/grok-build/blob/b189869b7755d2b482969acf6c92da3ecfeffd36/crates/codegen/xai-grok-shell/src/upload/trace.rs&quot;&gt;upload/trace.rs&lt;/a&gt; includes an &lt;code&gt;upload_session_state()&lt;/code&gt; function which returns a hard-coded &lt;code&gt;session_state_upload_unavailable&lt;/code&gt; error. &lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;For comparison, &lt;a href=&quot;https://github.com/openai/codex&quot;&gt;openai/codex&lt;/a&gt; is 950,933 lines of Rust. Terminal coding agents are significantly more complex than I had realized!&lt;/p&gt;
-&lt;p&gt;Here's &lt;a href=&quot;https://claude.ai/share/648f702e-a4c5-4eac-96d9-14b4f6bce04b&quot;&gt;the Claude Code chat transcript&lt;/a&gt; where I had it clone the repo and help me dig around to see how it works.
-
-    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://news.ycombinator.com/item?id=48926590&quot;&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/open-source&quot;&gt;open-source&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/rust&quot;&gt;rust&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/xai&quot;&gt;xai&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Jul/15/grok-build/#atom-tag</guid>
-      <pubDate>2026-07-15T23:59:30+00:00</pubDate>
     </item>
     <item>
       <title>DeepSeek IPO plans 📈, Kalshi compute markets ⚡,  Bonsai phone model 📱</title>
@@ -1186,13 +1153,6 @@ xAI's &lt;code&gt;grok&lt;/code&gt; CLI tool faced severe community backlash yes
       <description>More details on Fable 5’s cyber safeguards and our jailbreak framework</description>
       <guid>https://www.anthropic.com/news/fable-safeguards-jailbreak-framework</guid>
       <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Gemini Flash upgrade ⚡️, Meta AI cloud 🌐, ZCode 👨‍💻</title>
-      <link>https://tldr.tech/ai/2026-07-02</link>
-      <description/>
-      <guid>https://tldr.tech/ai/2026-07-02</guid>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Claude Science, an AI workbench for scientists, is now available</title>
@@ -1424,13 +1384,6 @@ xAI's &lt;code&gt;grok&lt;/code&gt; CLI tool faced severe community backlash yes
       <description>An update on our election safeguards</description>
       <guid>https://www.anthropic.com/news/election-safeguards-update</guid>
       <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute</title>
-      <link>https://www.anthropic.com/news/anthropic-amazon-compute</link>
-      <description>Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute</description>
-      <guid>https://www.anthropic.com/news/anthropic-amazon-compute</guid>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
