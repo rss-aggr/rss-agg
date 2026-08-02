@@ -3,7 +3,66 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Sat, 01 Aug 2026 12:32:14 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2026 12:34:16 +0000</lastBuildDate>
+    <item>
+      <title>Open letters about AI development</title>
+      <link>https://simonwillison.net/2026/Aug/2/open-letters/#atom-tag</link>
+      <description>&lt;h4&gt;Open letters about AI development&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;I wrote this summary of the past few weeks of open letters as a section of &lt;a href=&quot;https://simonwillison.net/2026/Aug/2/july-newsletter/&quot;&gt;my sponsors-only newsletter&lt;/a&gt; but I've decided to share it here as well.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight/&quot;&gt;Open Weights and American AI Leadership&lt;/a&gt;&lt;/strong&gt; was shepherded by Microsoft, dated July 24th, and signed by 235 AI-adjacent companies including NVIDIA, Amazon, Y Combinator, The Linux Foundation and (a later signer) OpenAI.&lt;/p&gt;
+&lt;p&gt;It's clearly an argument designed to counter &lt;a href=&quot;https://www.axios.com/2026/07/20/ai-us-china-open-source-kimi&quot;&gt;any instincts&lt;/a&gt; by the current US government to ban or limit open weight models over &quot;safety&quot; concerns - a reasonable consideration given &lt;a href=&quot;https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/&quot;&gt;what happened to Claude Fable 5&lt;/a&gt;!&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Relying solely on closed models is not inherently safe: they can be breached, misused, or fail in ways that outsiders cannot detect. And concentrating advanced AI capabilities behind a small number of closed models compounds that risk. It results in a small number of single points of failure, weakens competition, and leaves critical technology in the hands of a few providers. Open weight models, on the other hand, allow a broad community of researchers and developers to examine their behavior, identify vulnerabilities, develop safeguards, and improve them over time.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The one surprising note in the letter is that it comes out in support of distillation, where models train on output from other models:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In shaping this ecosystem, policymakers should be careful not to conflate legitimate model-development techniques with misappropriation. Distillation, or the practice of using one model’s outputs to help train or improve another, is a widely used technique for model improvement, evaluation, and validation. It reflects a long tradition of learning from, building upon, and improving existing technologies, a tradition that has helped drive innovation since the rise of the open-source software movement.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Notably absent from the signatures: Anthropic, who published their own response &lt;a href=&quot;https://www.anthropic.com/news/position-open-weights-models&quot;&gt;Our position on open-weights models&lt;/a&gt; three days later. CEO Dario Amodei doubled down on the risk of authoritarian governments building &quot;AI models that are more powerful than those built by the US&quot;, and models being &quot;misused to carry out cyberattacks or biological attacks&quot;, and called for &quot;a crack down on industrial-scale &lt;a href=&quot;https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks&quot;&gt;distillation operations&lt;/a&gt;&quot;, while also stating that &quot;Anthropic has never advocated for a ban on open-weights models&quot;.&lt;/p&gt;
+&lt;p&gt;Then on July 28th &lt;a href=&quot;https://www.pacingthefrontier.com&quot;&gt;Pacing the Frontier&lt;/a&gt; was published, featuring signatures from &quot;1,324 employees of frontier AI companies&quot; - with names like Jakub Pachocki (Chief Scientist, OpenAI), Ilya Sutskever (Safe Superintelligence Inc, previously OpenAI), Dario Amodei (Anthropic), Jack Clark (Anthropic) and more. Their core message:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We request that the U.S. government support an international effort to develop the technical and governance tools needed to deliberately pace the frontier of automated AI development.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Their concern is intense competitive pressure combined with accelerated AI progress caused by automated AI research - and given that Anthropic &lt;a href=&quot;https://www.anthropic.com/institute/recursive-self-improvement&quot;&gt;produce 80% of their code with Claude Code&lt;/a&gt;, OpenAI had Sol &lt;a href=&quot;https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency/&quot;&gt;reduce their end-to-end serving costs by 20%&lt;/a&gt;, and Kimi K3 &lt;a href=&quot;https://www.kimi.com/blog/kimi-k3#chip-design&quot;&gt;designed a chip to serve a nano model built on its own architecture&lt;/a&gt;, you can see why people are taking that risk more seriously right now.&lt;/p&gt;
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Aug/2/open-letters/#atom-tag</guid>
+      <pubDate>2026-08-02T04:16:52+00:00</pubDate>
+    </item>
+    <item>
+      <title>Quoting Greg Brockman</title>
+      <link>https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-tag</link>
+      <description>&lt;blockquote cite=&quot;https://twitter.com/gdb/status/2083435180392673714&quot;&gt;&lt;p&gt;at openai, many people hook their chatgpt up to slack.&lt;/p&gt;
+&lt;p&gt;people really don't like when a coworker's chatgpt contacts them asking for help with a task, even when they'd be perfectly happy doing that same work if asked by that coworker.&lt;/p&gt;
+&lt;p&gt;reinforces how much people care about human relationships and helping each other, and want AI to give time back — or enhance time together — rather than become a layer separating people.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://twitter.com/gdb/status/2083435180392673714&quot;&gt;Greg Brockman&lt;/a&gt;, President and Co-Founder, OpenAI&lt;/p&gt;
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-misuse&quot;&gt;ai-misuse&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-tag</guid>
+      <pubDate>2026-08-01T22:29:44+00:00</pubDate>
+    </item>
+    <item>
+      <title>Ten advances in mathematics and theoretical computer science</title>
+      <link>https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-tag</link>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://openai.com/index/ten-advances-in-mathematics/&quot;&gt;Ten advances in mathematics and theoretical computer science&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+A few days ago it was Anthropic &lt;a href=&quot;https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/&quot;&gt;discovering cryptographic weaknesses with Claude&lt;/a&gt; using Mythos Preview, spending $100,000 on tokens and with prompts that included &quot;again we are not looking for low hanging fruit, we want proper research to find genuinly hard findings.&quot;&lt;/p&gt;
+&lt;p&gt;Now it's OpenAI's turn to flex. They set &quot;an internal version of Astra, our next major model&quot; on finding solutions to ten mathematical problems that &quot;have seen no progress on the main result for at least a decade&quot;. They claim to have spent less than $2,000 at GPT-5.6 Sol token prices on each one.&lt;/p&gt;
+&lt;p&gt;(No news on how many problems they spent $2,000 on &lt;em&gt;without&lt;/em&gt; reaching a solution though.)&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;https://github.com/openai/ten-proofs&quot;&gt;openai/ten-proofs&lt;/a&gt; repository has Lean 4 formalizations of their results, and there's also &lt;a href=&quot;https://cdn.openai.com/pdf/ten-proofs-oai.pdf&quot;&gt;a paper&lt;/a&gt; describing the solutions and an additional &lt;a href=&quot;https://cdn.openai.com/pdf/reasoning-walkthroughs.pdf&quot;&gt;LLM-generated PDF&lt;/a&gt; where the model &quot;reconstructs how the proof came together&quot; based on the unpublished reasoning traces.&lt;/p&gt;
+&lt;p&gt;That's a decent level of transparency, but I want to see the prompts they used!&lt;/p&gt;
+&lt;p&gt;A lot of mathematicians online are experiencing a collective burst of &lt;a href=&quot;https://simonwillison.net/2026/Feb/15/deep-blue/&quot;&gt;Deep Blue&lt;/a&gt;. Mathematician Kirwin Hampshire published an impassioned essay last week, &lt;a href=&quot;https://kirwinhampshire.substack.com/p/the-dark-night-of-mathematics&quot;&gt;The Dark Night of Mathematics&lt;/a&gt;, describing &quot;a profound spiritual crisis&quot; brought on by previous (and less significant) results.&lt;/p&gt;
+&lt;p&gt;OpenAI's results reminds me of what Terence Tao described as &quot;big mathematics&quot; in &lt;a href=&quot;https://spectrum.ieee.org/ai-in-mathematics&quot;&gt;IEEE Spectrum in June&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Unlike some of his peers, Tao is neither dismissive of AI nor fearful. Instead, he sees it as the catalyst for a fundamental shift in the discipline—a transition toward what he calls “big mathematics.” He envisions a future of large-scale, decentralized collaborations between humans and machines, where complex mathematical tasks can be diced and sliced, with humans claiming the creative parts and AI doing the lion’s share of the technical grunt work.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://news.ycombinator.com/item?id=49132058&quot;&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/mathematics&quot;&gt;mathematics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/deep-blue&quot;&gt;deep-blue&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-tag</guid>
+      <pubDate>2026-08-01T20:34:49+00:00</pubDate>
+    </item>
     <item>
       <title>deepseek-ai/DeepSeek-V4-Flash-0731</title>
       <link>https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-tag</link>
@@ -180,7 +239,7 @@ On Monday Bryan Cantrill and Adam Leventhal invited me to join their podcast to 
 &lt;/blockquote&gt;
 
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/predictions&quot;&gt;predictions&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/local-llms&quot;&gt;local-llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/oxide&quot;&gt;oxide&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/bryan-cantrill&quot;&gt;bryan-cantrill&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/podcast-appearances&quot;&gt;podcast-appearances&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-in-china&quot;&gt;ai-in-china&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/predictions&quot;&gt;predictions&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/local-llms&quot;&gt;local-llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/oxide&quot;&gt;oxide&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/bryan-cantrill&quot;&gt;bryan-cantrill&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/podcast-appearances&quot;&gt;podcast-appearances&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-in-china&quot;&gt;ai-in-china&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai-hugging-face-incident&quot;&gt;openai-hugging-face-incident&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Jul/31/oxide-and-friends/#atom-tag</guid>
       <pubDate>2026-07-31T21:33:13+00:00</pubDate>
     </item>
@@ -1101,48 +1160,6 @@ Here's an entertaining perspective from Nik Suresh on the AI mania that is overw
     &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-misuse&quot;&gt;ai-misuse&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Jul/19/ai-mania/#atom-tag</guid>
       <pubDate>2026-07-19T05:06:21+00:00</pubDate>
-    </item>
-    <item>
-      <title>Claude make Fable 5 permanent</title>
-      <link>https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-tag</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://twitter.com/claudeai/status/2078302415804379218&quot;&gt;Claude make Fable 5 permanent&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-An update from the &lt;code&gt;@claudeai&lt;/code&gt; account on Twitter:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Beginning July 20, Claude Fable 5 will be included in all Max and Team Premium plans, at 50% of limits.&lt;/p&gt;
-&lt;p&gt;Pro and Team Standard users will continue to have access to Fable via usage credits, and will receive a one-time $100 credit.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;As I was saying &lt;a href=&quot;https://simonwillison.net/2026/Jul/12/bump/&quot;&gt;last week&lt;/a&gt;, the competition from &lt;a href=&quot;https://simonwillison.net/2026/Jul/9/gpt-5-6/&quot;&gt;GPT-5.6 Sol&lt;/a&gt; (and maybe to a lesser extent &lt;a href=&quot;https://simonwillison.net/2026/Jul/16/kimi-k3/&quot;&gt;Kimi 3&lt;/a&gt;) made untenable Anthropic's plan to remove Fable 5 from their subscription accounts and make it available exclusively through API pricing.&lt;/p&gt;
-&lt;p&gt;Why pay $100 or $200/month for a subscription plan that &lt;em&gt;doesn't&lt;/em&gt; include Anthropic's best model?&lt;/p&gt;
-&lt;p&gt;Their original plan was driven by concerns over compute capacity. I wonder if they'll have to dial back their training efforts in order to make more GPUs available to help serve the model.&lt;/p&gt;
-&lt;p&gt;A lot of people were losing sleep over trying to make the most of Fable 5 before subscriber access was withdrawn. It's nice not to have to worry about the Fablepocalypse any more.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: Important to note that users on the $20/month plan will still not have access to Fable 5 on that subscription. The Max plans are $100 and $200/month.
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-pricing&quot;&gt;llm-pricing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-tag</guid>
-      <pubDate>2026-07-18T06:00:13+00:00</pubDate>
-    </item>
-    <item>
-      <title>Quoting Kimi K3</title>
-      <link>https://simonwillison.net/2026/Jul/17/kimi-k3/#atom-tag</link>
-      <description>&lt;blockquote cite=&quot;https://news.ycombinator.com/item?id=48935342#48936515&quot;&gt;&lt;p&gt;Is there something I can actually help you with today?&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://news.ycombinator.com/item?id=48935342#48936515&quot;&gt;Kimi K3&lt;/a&gt;, after refusing to leak its system prompt&lt;/p&gt;
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-personality&quot;&gt;ai-personality&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/kimi&quot;&gt;kimi&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Jul/17/kimi-k3/#atom-tag</guid>
-      <pubDate>2026-07-17T13:43:53+00:00</pubDate>
-    </item>
-    <item>
-      <title>LLM cliché highlighter</title>
-      <link>https://simonwillison.net/2026/Jul/17/llm-cliche-highlighter/#atom-tag</link>
-      <description>&lt;p&gt;&lt;strong&gt;Tool:&lt;/strong&gt; &lt;a href=&quot;https://tools.simonwillison.net/llm-cliche-highlighter&quot;&gt;LLM cliché highlighter&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;I got frustrated reading &lt;em&gt;yet another&lt;/em&gt; article that was crammed with the clichés of LLM-generated writing - &quot;no fluff, no filler, no jargon&quot; type stuff - so I had Fable 5 vibe code up this app for highlighting ten common patterns that show up in that sort of writing.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Screenshot of a text-analysis web tool. Top summary row: &amp;quot;2 matches&amp;quot;, &amp;quot;1 flagged sentence&amp;quot;, &amp;quot;0 chain items&amp;quot;. Below, a collapsed &amp;quot;▶ Patterns · all 11 on&amp;quot; panel, then a URL input reading &amp;quot;https://example.com/article — fetched via r.jina.ai&amp;quot; with a &amp;quot;Load URL&amp;quot; button. A text area contains &amp;quot;That loss is real and it's worth naming&amp;quot;. Below are &amp;quot;Load example&amp;quot; and &amp;quot;Clear&amp;quot; buttons and a checked checkbox &amp;quot;Show just the highlights&amp;quot;. A &amp;quot;Highlighted text&amp;quot; section shows &amp;quot;That loss is real and it's worth naming&amp;quot; with &amp;quot;That loss&amp;quot; in pale yellow (flagged sentence) and &amp;quot;is real and&amp;quot; plus &amp;quot;'s worth naming&amp;quot; in darker yellow (pattern match). Legend: &amp;quot;flagged sentence&amp;quot;, &amp;quot;pattern match&amp;quot;, &amp;quot;3 chain item count&amp;quot;. &amp;quot;Matches&amp;quot; section: 1. &amp;quot;is real and&amp;quot; — &amp;quot;Is real … and / not&amp;quot;; 2. &amp;quot;'s worth naming&amp;quot; — &amp;quot;Worth naming&amp;quot;.&quot; src=&quot;https://static.simonwillison.net/static/2026/the-loss-is-real.webp&quot; /&gt;&lt;/p&gt;
-    
-    
-        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/tools&quot;&gt;tools&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Jul/17/llm-cliche-highlighter/#atom-tag</guid>
-      <pubDate>2026-07-17T12:11:11+00:00</pubDate>
     </item>
     <item>
       <title>Kimi K3 🌕, Gemini 3.5 delayed ⏳, crushing ARC-AGI 3 🤖</title>
