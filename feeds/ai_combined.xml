@@ -3,7 +3,58 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Mon, 03 Aug 2026 13:57:13 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 13:14:53 +0000</lastBuildDate>
+    <item>
+      <title>Quoting Steve Yegge</title>
+      <link>https://simonwillison.net/2026/Aug/4/steve-yegge/#atom-tag</link>
+      <description>&lt;blockquote cite=&quot;https://yegge.ai/essays/the-shape-of-things-to-come/&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://yegge.ai/gastown.html&quot;&gt;Gas Town&lt;/a&gt; was intended to be reusable, but I only ever wound up using it to build itself. Gas Town fell apart at the seams with Opus 4.7. Up through 4.6 it was working brilliantly. With 4.7 we saw the introduction of the &quot;just two more things&quot; tic, which prevented Opus from ever converging on being ready to do real work—it always wanted to fiddle with Gas Town itself. The Opus tic never went away, so Gas Town effectively burned down. It had other problems, too, but 4.7 was the final straw.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://yegge.ai/essays/the-shape-of-things-to-come/&quot;&gt;Steve Yegge&lt;/a&gt;, The Shape of Things to Come&lt;/p&gt;
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/steve-yegge&quot;&gt;steve-yegge&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Aug/4/steve-yegge/#atom-tag</guid>
+      <pubDate>2026-08-04T00:42:45+00:00</pubDate>
+    </item>
+    <item>
+      <title>Don't be a meat proxy</title>
+      <link>https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-tag</link>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://gruhn.me/blog/2026-08-03/&quot;&gt;Don&amp;#x27;t be a meat proxy&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+Niklas Gruhn coins an excellent new term - &lt;strong&gt;meat proxy&lt;/strong&gt; - for people who blindly copy and paste the output of AI systems to their peers.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;By all means, prompt AI. But don't just relay the output. Read it, understand it, validate it, and then write a response in your own words (a decent certificate that you've done the prior steps). Making that effort is value you can add.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://lobste.rs/s/hfbqr3/don_t_be_meat_proxy#c_svolls&quot;&gt;Lobste.rs&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/definitions&quot;&gt;definitions&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-misuse&quot;&gt;ai-misuse&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-tag</guid>
+      <pubDate>2026-08-03T23:45:04+00:00</pubDate>
+    </item>
+    <item>
+      <title>Quoting David Crawshaw's prompt</title>
+      <link>https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-tag</link>
+      <description>&lt;blockquote cite=&quot;https://blog.exe.dev/devtools-must-be-open-source&quot;&gt;&lt;p&gt;&lt;code&gt;Set up a nightly cron job that executes the prompt: fetch upstream changes to the &amp;lt;software&amp;gt; and rebase all local changes on top of upstream. Check that the software works as intended and replace the current version.&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://blog.exe.dev/devtools-must-be-open-source&quot;&gt;David Crawshaw&amp;#x27;s prompt&lt;/a&gt;, Devtools must be open source&lt;/p&gt;
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/open-source&quot;&gt;open-source&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/prompt-engineering&quot;&gt;prompt-engineering&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-tag</guid>
+      <pubDate>2026-08-03T16:15:27+00:00</pubDate>
+    </item>
+    <item>
+      <title>Devtools must be open source (exe.dev)</title>
+      <link>https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-tag</link>
+      <description>&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49156111#49156719&quot;&gt;My comment&lt;/a&gt; on &lt;a href=&quot;https://news.ycombinator.com/item?id=49156111&quot;&gt;Devtools must be open source (exe.dev)&lt;/a&gt; &amp;mdash; Hacker News.&lt;/p&gt;&lt;p&gt;One of the arguments for open source software for end-users has always been the freedom to examine and modify how that software works.&lt;/p&gt;
+&lt;p&gt;The reality for most people - even expert programmers - has been that the freedom is more about being able to lean on &lt;em&gt;other people&lt;/em&gt; to do that. Most people can't justify the time commitment needed to read and then modify the code for tools they use very often.&lt;/p&gt;
+&lt;p&gt;I think LLMs have changed that equation in a way that makes the original dream much more feasible.&lt;/p&gt;
+&lt;p&gt;Several times a day I'll prompt regular Claude chat to &quot;Clone x/y from GitHub and tell me how Z works&quot;.&lt;/p&gt;
+&lt;p&gt;Getting software to compile in order to start hacking on it used to be enough friction that I often wouldn't bother. Now I treat that as a zero time investment challenge: tell Codex or Claude Code to checkout and build X and then come back ten minutes later and see how it got on.&lt;/p&gt;
+&lt;p&gt;I'm not habitually &lt;em&gt;modifying&lt;/em&gt; the software I use yet, but I can see a path to that which didn't exist a year or so ago.&lt;/p&gt;
+    
+    
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/hacker-news&quot;&gt;hacker-news&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/open-source&quot;&gt;open-source&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-assisted-programming&quot;&gt;ai-assisted-programming&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-tag</guid>
+      <pubDate>2026-08-03T15:30:38+00:00</pubDate>
+    </item>
     <item>
       <title>DeepSeek V4 Flash ⚡, OpenAI’s math breakthrough 🔢, Qwen 3.8-Max 🤖</title>
       <link>https://tldr.tech/ai/2026-08-03</link>
@@ -1085,51 +1136,6 @@ Prince Canuma is the developer behind the excellent &lt;a href=&quot;https://git
       <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Reverse-engineering is cheap now</title>
-      <link>https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-tag</link>
-      <description>&lt;p&gt;I keep hearing anecdotes from people who used coding agents to reverse-engineer and automate devices in their homes.&lt;/p&gt;
-&lt;p&gt;I think this is an interesting illustration of the impact of the reduced cost of writing code.&lt;/p&gt;
-&lt;p&gt;Prior to agents, it was entirely possible to reverse-engineer home devices. The problem was the ROI - was it really worth all of that effort? More importantly, any experienced programmer knows that undocumented, unstable APIs like that may well change or break in the future. Is that initial work worth the effort if you're committing yourself to a frustrating cycle of maintenance in the future?&lt;/p&gt;
-&lt;p&gt;Coding agents change that equation entirely. The effort to get a simple automation working has dropped, as has the cost of trying and failing to get it to work. Since the code is so cheap, the idea of having to maintain it in the future - or throw it away and start again - carries way less psychological baggage.&lt;/p&gt;
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/reverse-engineering&quot;&gt;reverse-engineering&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-assisted-programming&quot;&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-tag</guid>
-      <pubDate>2026-07-20T19:24:05+00:00</pubDate>
-    </item>
-    <item>
-      <title>Who’s Afraid of Chinese Models?</title>
-      <link>https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models/#atom-tag</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://stratechery.com/2026/whos-afraid-of-chinese-models/&quot;&gt;Who’s Afraid of Chinese Models?&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-Interesting proposal from Ben Thompson that both addresses the hypocrisy of labs outlawing distillation against their models despite training on unlicensed data, and could help US open models compete more effectively with their Chinese counterparts:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The U.S. should pass a law that (1) makes explicit that collecting data for training models is fair use, and (2) bars terms of service that forbid distillation, for U.S. companies at a minimum. Stopping distillation — which is literally just querying the API — is nearly impossible; the U.S. should go the other way and lean into a new copyright policy that both indemnifies the labs and also guarantees that what they learned fuels further innovation for everyone else.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Ben also theorizes that Alibaba's decision to release Qwen 3.8 Max as open weights - a reversal from their decision &lt;a href=&quot;https://qwen.ai/blog?id=qwen3.7&quot;&gt;not to release Qwen 3.7 Max&lt;/a&gt; in May - may have been influenced by a &lt;a href=&quot;http://english.scio.gov.cn/topnews/2026-07/18/content_118605932.html&quot;&gt;recent speech&lt;/a&gt; by Xi Jinping, who said:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;We should seize this rare, historic opportunity to encourage open source, openness, collaboration and sharing.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;And on the subject of &lt;a href=&quot;https://twitter.com/Alibaba_Qwen/status/2078759124914098291&quot;&gt;Qwen 3.8 Max&lt;/a&gt; - a new 2.4T parameter model (nearly as large as the 2.8T Kimi K3) - here's &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F735f2cf19b795517cb2ff6cae1c71c64&quot;&gt;a pelican it drew&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Described by Qwen 3.8 Max: Flat vector cartoon illustration of a white pelican with a large orange beak and pouch riding a red bicycle, its orange legs on the pedals, against a light blue sky with a yellow sun top right and a white cloud top left, with horizontal motion lines behind the bike and a pale green ground strip at the bottom.&quot; src=&quot;https://static.simonwillison.net/static/2026/qwen-3.8-max-pelican.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;I particularly enjoyed seeing these notes in the (extensive) reasoning trace:  &quot;Could add helmet? No.&quot; and &quot;Maybe add small bell? no.&quot; and &quot;Need maybe add small fish in basket? Not necessary.&quot;
-
-    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://daringfireball.net/linked/2026/07/20/thompson-chinese-models-distillation&quot;&gt;John Gruber&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/training-data&quot;&gt;training-data&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/qwen&quot;&gt;qwen&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-release&quot;&gt;llm-release&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-in-china&quot;&gt;ai-in-china&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models/#atom-tag</guid>
-      <pubDate>2026-07-20T17:09:19+00:00</pubDate>
-    </item>
-    <item>
-      <title>Quoting Sam Altman</title>
-      <link>https://simonwillison.net/2026/Jul/20/sam-altman/#atom-tag</link>
-      <description>&lt;blockquote cite=&quot;https://twitter.com/techemails/status/2078854346683678927&quot;&gt;&lt;p&gt;We have been having extensive discussions around open source strategy. We will discuss it more at our next board meeting, but one thing we’d like to do soon is to create a language model with the approximate capability of GPT-3 that can run locally on consumer hardware and release that. We’d like to do it soon, before Stability or someone else does. In general, we think this helps discourage others from releasing similarly-powerful models, and makes it harder for new efforts to get funded.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://twitter.com/techemails/status/2078854346683678927&quot;&gt;Sam Altman&lt;/a&gt;, Email to OpenAI's board, October 1, 2022 - exposed in Musk v. Altman (2026)&lt;/p&gt;
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/sam-altman&quot;&gt;sam-altman&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Jul/20/sam-altman/#atom-tag</guid>
-      <pubDate>2026-07-20T03:47:59+00:00</pubDate>
-    </item>
-    <item>
       <title>Apply for Anthropic’s AI for Science rare disease research grants</title>
       <link>https://www.anthropic.com/news/rare-disease-research-grants</link>
       <description>Apply for Anthropic’s AI for Science rare disease research grants</description>
@@ -1142,31 +1148,6 @@ Interesting proposal from Ben Thompson that both addresses the hypocrisy of labs
       <description/>
       <guid>https://tldr.tech/ai/2026-07-20</guid>
       <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI Mania Is Eviscerating Global Decision-Making</title>
-      <link>https://simonwillison.net/2026/Jul/19/ai-mania/#atom-tag</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/&quot;&gt;AI Mania Is Eviscerating Global Decision-Making&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-Here's an entertaining perspective from Nik Suresh on the AI mania that is overwhelming the large companies that he consults with. It's crammed with spicy anecdotes from anonymous sources.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;In one extreme case, I have seen an executive confess that they had never even used ChatGPT or any AI tool in their life, immediately after producing a technical strategy for an organisation with $2B+ in revenue which was entirely centered around AI.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Here's a report from an engineer at a company with a token leaderboard:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Checking out a parallel copy of our Go repository and telling the AI to rewrite the whole thing in Zig while I work on something else just so I can keep my job.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;I particularly enjoyed this conversation with a skeptical executive at an over-enthusiastic company:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;I asked &lt;em&gt;why&lt;/em&gt; this was being repeated without opposition. Was it just sales fluff?&lt;/p&gt;
-&lt;p&gt;The answer was a lot more interesting. It was &lt;em&gt;partially&lt;/em&gt; ridiculous sales material being delivered to an easily excitable audience, but this was not the dominant factor constraining honesty. Executives at their &lt;em&gt;customers&lt;/em&gt; were saying absurd things about achieving 100x productivity, and this meant that if any executive at the &lt;em&gt;vendor&lt;/em&gt; said that these gains were not plausible, it would undermine the credibility of the customer’s executive, be perceived as an attack (or heresy), and possibly result in an enterprise contract cancellation. And getting enterprise contracts cancelled because you wanted to opine on something that doesn’t really matter to your organisation’s mission is a great way to get fired.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://news.ycombinator.com/item?id=48964185&quot;&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-misuse&quot;&gt;ai-misuse&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Jul/19/ai-mania/#atom-tag</guid>
-      <pubDate>2026-07-19T05:06:21+00:00</pubDate>
     </item>
     <item>
       <title>Kimi K3 🌕, Gemini 3.5 delayed ⏳, crushing ARC-AGI 3 🤖</title>
