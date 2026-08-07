@@ -3,13 +3,84 @@
     <title>Accessibility Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: Accessibility Combined Feed</description>
-    <lastBuildDate>Thu, 06 Aug 2026 13:09:28 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 12:07:28 +0000</lastBuildDate>
     <item>
-      <title>Accessibility Testing Basics: Myths, Tools, and How to Get Started</title>
-      <link>https://medium.com/customertimes/accessibility-testing-basics-myths-tools-and-how-to-get-started-77f1294580a8?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/customertimes/accessibility-testing-basics-myths-tools-and-how-to-get-started-77f1294580a8?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2600/1*-leYYPI9lPYtCPnmSDiltg.png&quot; width=&quot;3840&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Myths, tools, and a QA engineer&amp;#x2019;s real journey into accessibility testing&amp;#x200a;&amp;#x2014;&amp;#x200a;and why it matters more than you think.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/customertimes/accessibility-testing-basics-myths-tools-and-how-to-get-started-77f1294580a8?source=rss------accessibility-5&quot;&gt;Continue reading on Customertimes »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/77f1294580a8</guid>
-      <pubDate>Thu, 06 Aug 2026 12:33:56 GMT</pubDate>
+      <title>A year into the EAA, most accessibility statements are quietly making things worse</title>
+      <link>https://medium.com/design-bootcamp/accessibility-statements-making-things-worse-d76f3618dc43?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/design-bootcamp/accessibility-statements-making-things-worse-d76f3618dc43?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1920/1*lLeZxEhRt6726q2H9nX2iA.png&quot; width=&quot;1920&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;I read 40 accessibility statements. Three patterns keep appearing.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/design-bootcamp/accessibility-statements-making-things-worse-d76f3618dc43?source=rss------accessibility-5&quot;&gt;Continue reading on Bootcamp »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/d76f3618dc43</guid>
+      <pubDate>Fri, 07 Aug 2026 11:41:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>Nobody buys an accessibility audit. They buy the report.</title>
+      <link>https://medium.com/design-bootcamp/accessibility-audit-report-is-the-product-ed099323eb4e?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/design-bootcamp/accessibility-audit-report-is-the-product-ed099323eb4e?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1920/1*DJCC99J88Msp8oiKxetrcQ.png&quot; width=&quot;1920&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;I&amp;#x2019;ve written accessibility audit reports for five years. The deliverable is the only part the client ever sees&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/design-bootcamp/accessibility-audit-report-is-the-product-ed099323eb4e?source=rss------accessibility-5&quot;&gt;Continue reading on Bootcamp »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/ed099323eb4e</guid>
+      <pubDate>Fri, 07 Aug 2026 11:39:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>200 game pages, 200 star ratings, 0 machine-readable controls</title>
+      <link>https://medium.com/@lizaartofbox/200-game-pages-200-star-ratings-0-machine-readable-controls-cd770a815fab?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@lizaartofbox/200-game-pages-200-star-ratings-0-machine-readable-controls-cd770a815fab?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1200/0*WjelMpWDHMGjx4Jx.png&quot; width=&quot;1200&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;A player lands on your game&amp;#x2019;s page. Before they commit any attention to it they want one thing answered: do I have what this needs? A&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@lizaartofbox/200-game-pages-200-star-ratings-0-machine-readable-controls-cd770a815fab?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/cd770a815fab</guid>
+      <pubDate>Fri, 07 Aug 2026 10:29:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>Accessibility Is Not a Feature, It Is the Foundation of Design</title>
+      <link>https://fatmadoganseckin.medium.com/accessibility-is-not-a-feature-it-is-the-foundation-of-design-ea4e1f617a13?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://fatmadoganseckin.medium.com/accessibility-is-not-a-feature-it-is-the-foundation-of-design-ea4e1f617a13?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1600/1*NMmG5ZOM638554KQg1PNDw.png&quot; width=&quot;1600&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;As a Senior Product Designer, I have been working on accessibility for a long time, and I see WCAG standards, color contrast, screen&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://fatmadoganseckin.medium.com/accessibility-is-not-a-feature-it-is-the-foundation-of-design-ea4e1f617a13?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/ea4e1f617a13</guid>
+      <pubDate>Fri, 07 Aug 2026 10:07:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>Nobody Tells First-Time Flyers About Airport Assistance — Here’s What I Wish I’d Known</title>
+      <link>https://medium.com/@digitalm.universal/nobody-tells-first-time-flyers-about-airport-assistance-heres-what-i-wish-i-d-known-51a3990c7c18?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;I still remember standing at the check-in counter, watching my father shuffle behind me with his walking stick, and realizing neither of&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@digitalm.universal/nobody-tells-first-time-flyers-about-airport-assistance-heres-what-i-wish-i-d-known-51a3990c7c18?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/51a3990c7c18</guid>
+      <pubDate>Fri, 07 Aug 2026 06:37:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>7 Habits That Made Me an Accessibility-First Developer (Without Slowing Me Down)</title>
+      <link>https://pixicstudio.medium.com/7-habits-that-made-me-an-accessibility-first-developer-222423a0313d?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://pixicstudio.medium.com/7-habits-that-made-me-an-accessibility-first-developer-222423a0313d?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1456/1*ujhkEmiUtpDQ4jrm_RwoRA.png&quot; width=&quot;1456&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Close your eyes and try to fill out a form on your phone. Not metaphorically, actually do it. Pick up your phone right now, close your&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://pixicstudio.medium.com/7-habits-that-made-me-an-accessibility-first-developer-222423a0313d?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/222423a0313d</guid>
+      <pubDate>Fri, 07 Aug 2026 06:10:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>I Built Products for Years Without Realising I Was Locking People Out</title>
+      <link>https://medium.com/@vighneshramteke/i-built-products-for-years-without-realising-i-was-locking-people-out-fdf2844aaff7?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@vighneshramteke/i-built-products-for-years-without-realising-i-was-locking-people-out-fdf2844aaff7?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1672/1*Jvn0_s1TI6RBsUB0TtH0qQ.png&quot; width=&quot;1672&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Claude showed me the list. It was longer than I expected &amp;#x2014; and some of it was embarrassing.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@vighneshramteke/i-built-products-for-years-without-realising-i-was-locking-people-out-fdf2844aaff7?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/fdf2844aaff7</guid>
+      <pubDate>Fri, 07 Aug 2026 01:20:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>How to Make Your Organisation Truly Accessible Without Spending Years Building Training</title>
+      <link>https://medium.com/@Banu.A/how-to-make-your-organisation-truly-accessible-without-spending-years-building-training-87122e8854ca?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;The fast path to real accessibility that doesn&amp;#x2019;t drain your time, budget, or team.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@Banu.A/how-to-make-your-organisation-truly-accessible-without-spending-years-building-training-87122e8854ca?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/87122e8854ca</guid>
+      <pubDate>Thu, 06 Aug 2026 19:28:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>The last 8% need electricity they can use</title>
+      <link>https://wahyusyafiul.medium.com/the-last-8-need-electricity-they-can-use-6332b5d280cf?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://wahyusyafiul.medium.com/the-last-8-need-electricity-they-can-use-6332b5d280cf?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1448/1*13ek3WaIj2U80r9aPs6GNg.png&quot; width=&quot;1448&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;The households still without electricity are costly to reach and often unable to afford reliable service. Closing the remaining gap means&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://wahyusyafiul.medium.com/the-last-8-need-electricity-they-can-use-6332b5d280cf?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/6332b5d280cf</guid>
+      <pubDate>Thu, 06 Aug 2026 18:30:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>The anatomy of accessible forms: Required form fields</title>
+      <link>https://www.deque.com/blog/anatomy-of-accessible-forms-required-form-fields/</link>
+      <description>&lt;p&gt;Creating accessible forms ensures your forms are accessible to all users while meeting standards like ADA, WCAG, and EAA compliance.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://www.deque.com/blog/anatomy-of-accessible-forms-required-form-fields/&quot;&gt;The anatomy of accessible forms: Required form fields&lt;/a&gt; appeared first on &lt;a href=&quot;https://www.deque.com&quot;&gt;Deque&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid>http://www.deque.com/?p=23634</guid>
+      <pubDate>Thu, 06 Aug 2026 15:47:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Full Landscape of Accessibility Modalities for Deaf/Hard-of-Hearing and Blind/Low-Vision People</title>
+      <link>https://chierhu.medium.com/the-full-landscape-of-accessibility-modalities-for-deaf-hard-of-hearing-and-blind-low-vision-people-368ffd760c63?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Accessibility technology is governed by an unforgiving information-theoretic hierarchy &amp;#x2014; vision (~10&amp;#x2076; bits/s at the retina), audition&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://chierhu.medium.com/the-full-landscape-of-accessibility-modalities-for-deaf-hard-of-hearing-and-blind-low-vision-people-368ffd760c63?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/368ffd760c63</guid>
+      <pubDate>Thu, 06 Aug 2026 13:56:32 GMT</pubDate>
     </item>
     <item>
       <title>W3C invites implementations of Decentralized Identifier Resolution (DID Resolution) v1</title>
@@ -17,69 +88,6 @@
       <description>This document describes the process of obtaining a DID document and accompanying metadata for a specific DID.</description>
       <guid>https://www.w3.org/news/2026/w3c-invites-implementations-of-decentralized-identifier-resolution-did-resolution-v1/</guid>
       <pubDate>Thu, 06 Aug 2026 09:16:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Trainer Comes to You: At-Home Skills Instruction Is Quietly Growing in Singapore</title>
-      <link>https://modernlifestylejournal.medium.com/the-trainer-comes-to-you-at-home-skills-instruction-is-quietly-growing-in-singapore-398d7fcb5618?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Singapore has had home tuition for decades. Academic tutors coming to the flat is so normal it barely registers as a service model.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://modernlifestylejournal.medium.com/the-trainer-comes-to-you-at-home-skills-instruction-is-quietly-growing-in-singapore-398d7fcb5618?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/398d7fcb5618</guid>
-      <pubDate>Thu, 06 Aug 2026 07:31:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>UX Araştırmasında Çeşitlilik: Doğru Katılımcıları Bulmak ve Yardımcı Teknolojilerle Test Etmek</title>
-      <link>https://medium.com/@gayedinc190/ux-ara%C5%9Ft%C4%B1rmas%C4%B1nda-%C3%A7e%C5%9Fitlilik-do%C4%9Fru-kat%C4%B1l%C4%B1mc%C4%B1lar%C4%B1-bulmak-ve-yard%C4%B1mc%C4%B1-teknolojilerle-test-etmek-c2ed394152fd?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;&amp;#x130;yi bir ara&amp;#x15f;t&amp;#x131;rma yaln&amp;#x131;zca yeterli say&amp;#x131;da kat&amp;#x131;l&amp;#x131;mc&amp;#x131;ya ula&amp;#x15f;makla de&amp;#x11f;il &amp;#xfc;r&amp;#xfc;n&amp;#xfc; ger&amp;#xe7;ekten kullanacak farkl&amp;#x131; insanlar&amp;#x131; s&amp;#xfc;rece dahil etmekle&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@gayedinc190/ux-ara%C5%9Ft%C4%B1rmas%C4%B1nda-%C3%A7e%C5%9Fitlilik-do%C4%9Fru-kat%C4%B1l%C4%B1mc%C4%B1lar%C4%B1-bulmak-ve-yard%C4%B1mc%C4%B1-teknolojilerle-test-etmek-c2ed394152fd?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/c2ed394152fd</guid>
-      <pubDate>Thu, 06 Aug 2026 06:31:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>Accessibility by Default: Tabs, Accordions and Disclosures</title>
-      <link>https://medium.com/@joshhallan/accessibility-by-default-tabs-accordions-and-disclosures-08c7ee1103f8?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@joshhallan/accessibility-by-default-tabs-accordions-and-disclosures-08c7ee1103f8?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1376/1*oyErqaqDMHe_FhOCWiDgxg.png&quot; width=&quot;1376&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Hi and welcome back to Accessibility by Default. This week we&amp;#x2019;re looking at three components that are usually grouped together because&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@joshhallan/accessibility-by-default-tabs-accordions-and-disclosures-08c7ee1103f8?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/08c7ee1103f8</guid>
-      <pubDate>Thu, 06 Aug 2026 06:01:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>PDF Trends 2026Q2 by Dual Lab company</title>
-      <link>https://medium.com/codetodeploy/pdf-trends-2026q2-by-dual-lab-company-3606412d9184?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/codetodeploy/pdf-trends-2026q2-by-dual-lab-company-3606412d9184?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1600/1*dcN0XEP2mPQLoxoCLQrDvg.png&quot; width=&quot;1600&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Analysis of 20.6 Million PDF Documents from the June 2026 Common Crawl Dataset&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/codetodeploy/pdf-trends-2026q2-by-dual-lab-company-3606412d9184?source=rss------accessibility-5&quot;&gt;Continue reading on CodeToDeploy »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/3606412d9184</guid>
-      <pubDate>Thu, 06 Aug 2026 05:26:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>A Designer’s Field Guide to WCAG, iOS, and Android Rules</title>
-      <link>https://www.designsystemscollective.com/a-designers-field-guide-to-wcag-ios-and-android-rules-31ba5d01d46a?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://www.designsystemscollective.com/a-designers-field-guide-to-wcag-ios-and-android-rules-31ba5d01d46a?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2048/1*zwLjDMYSApcfd8TTpthsJg.png&quot; width=&quot;2048&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Stop switching tabs between Apple&amp;#x2019;s docs, Google&amp;#x2019;s docs, and the W3C. It&amp;#x2019;s all here.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://www.designsystemscollective.com/a-designers-field-guide-to-wcag-ios-and-android-rules-31ba5d01d46a?source=rss------accessibility-5&quot;&gt;Continue reading on Design Systems Collective »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/31ba5d01d46a</guid>
-      <pubDate>Thu, 06 Aug 2026 04:58:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>Semantic HTML: Why the Tags You Choose Actually Matter</title>
-      <link>https://medium.com/@ishwaryagopinathan/semantic-html-why-the-tags-you-choose-actually-matter-142ddcbe8b50?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@ishwaryagopinathan/semantic-html-why-the-tags-you-choose-actually-matter-142ddcbe8b50?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1600/1*Zc-ZEiRrj8lhVNT5VKZ8LA.png&quot; width=&quot;1600&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Here&amp;#x2019;s a fun little test. Open any website, right-click, and hit &amp;#x201c;Inspect.&amp;#x201d; Look at the code. If most of what you see is &amp;lt;div&amp;gt; after &amp;lt;div&amp;gt;&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@ishwaryagopinathan/semantic-html-why-the-tags-you-choose-actually-matter-142ddcbe8b50?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/142ddcbe8b50</guid>
-      <pubDate>Thu, 06 Aug 2026 04:05:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>My Three Visually Impaired Best Practices Improve Your Presentations</title>
-      <link>https://pamlicojd.medium.com/my-three-visually-impaired-best-practices-improve-your-presentations-6e42b4daa817?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://pamlicojd.medium.com/my-three-visually-impaired-best-practices-improve-your-presentations-6e42b4daa817?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1920/1*sVHEQbJtBtiAWxAKiWcb7g.png&quot; width=&quot;1920&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;What you do to improve communication for some makes it better for all.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://pamlicojd.medium.com/my-three-visually-impaired-best-practices-improve-your-presentations-6e42b4daa817?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/6e42b4daa817</guid>
-      <pubDate>Wed, 05 Aug 2026 21:32:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>Why Accessibility Is for Everyone (Yes, Even You)</title>
-      <link>https://medium.com/design-bootcamp/why-accessibility-is-for-everyone-yes-even-you-39320b3b6ff6?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/design-bootcamp/why-accessibility-is-for-everyone-yes-even-you-39320b3b6ff6?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2600/1*RqtFwcb2xaryOfjC1ncOWg.png&quot; width=&quot;2860&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Designing for accessibility just makes life easier for everyone.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/design-bootcamp/why-accessibility-is-for-everyone-yes-even-you-39320b3b6ff6?source=rss------accessibility-5&quot;&gt;Continue reading on Bootcamp »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/39320b3b6ff6</guid>
-      <pubDate>Wed, 05 Aug 2026 20:51:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>My thoughts on the International Association of Accessibility Professionals (IAAP): Certified…</title>
-      <link>https://medium.com/@gjacks303/my-thoughts-on-the-international-association-of-accessibility-professionals-iaap-certified-61ea90283082?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;By the end of my prep, I could practically recite chunks of the CPACC Body of Knowledge (BoK) from memory. I knew the models of disability&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@gjacks303/my-thoughts-on-the-international-association-of-accessibility-professionals-iaap-certified-61ea90283082?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/61ea90283082</guid>
-      <pubDate>Wed, 05 Aug 2026 18:39:50 GMT</pubDate>
     </item>
     <item>
       <title>New in Axe MCP Server: More automated coverage and streamlined developer workflows</title>
@@ -815,14 +823,6 @@ Show code
       <description>Hi, just me heading off some bad advice I&amp;#8217;m starting to see in developer venues. Background The proposed Document Outline Algorithm, where headings would automatically reset themselves to the appropriate level based on their position in the DOM structure, was never part of a final HTML specification. It was quickly&amp;#8230;</description>
       <guid>https://adrianroselli.com/?p=49155</guid>
       <pubDate>Thu, 11 Jun 2026 21:26:45 +0000</pubDate>
-    </item>
-    <item>
-      <title>The next big leap in digital accessibility: Why the digital accessibility community should embrace EN 17161</title>
-      <link>https://www.deque.com/blog/why-the-digital-accessibility-community-should-embrace-en-17161/</link>
-      <description>&lt;p&gt;Learn how integrating EN 17161 empowers your organization to set up a robust accessibility program for measuring real-world accessibility alongside WCAG.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://www.deque.com/blog/why-the-digital-accessibility-community-should-embrace-en-17161/&quot;&gt;The next big leap in digital accessibility: Why the digital accessibility community should embrace EN 17161&lt;/a&gt; appeared first on &lt;a href=&quot;https://www.deque.com&quot;&gt;Deque&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid>https://www.deque.com/?p=59298</guid>
-      <pubDate>Thu, 11 Jun 2026 15:50:01 +0000</pubDate>
     </item>
     <item>
       <title>W3C Invites Implementations of HTML Ruby Markup Extensions</title>
