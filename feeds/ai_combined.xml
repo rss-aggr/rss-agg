@@ -3,7 +3,46 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Mon, 10 Aug 2026 12:07:25 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 12:07:30 +0000</lastBuildDate>
+    <item>
+      <title>Introducing Muse Glimmer</title>
+      <link>https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-tag</link>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model&quot;&gt;Introducing Muse Glimmer&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+Meta are back in the open weights game! Muse Glimmer is a brand new 30B model under a clean Apache 2.0 license (a step up from the janky Llama licenses of old).&lt;/p&gt;
+&lt;p&gt;They claim to have optimized it for exactly the kind of things I'm looking for in a local model:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;End-to-end Agentic Task Completion.&lt;/strong&gt; Muse Glimmer achieves strong success rates on full-task benchmarks including DeepSearch QA, MCP-Atlas, 𝛕-Bench and SWE-Bench, which measure its ability to work within scaffolds, write and debug code, and resolve multi-turn requests from start to finish.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reliable Tool Use.&lt;/strong&gt; The model handles a wide range of function calls, invoking tools with precise schemas throughout extended workflows.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-Step Reasoning.&lt;/strong&gt; Muse Glimmer chains reasoning over long horizons, sustaining coherent plans across complex, extended workflows. [...]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Here's &lt;a href=&quot;https://gist.github.com/simonw/f20d4cd0ea7596990f7910ead616493e&quot;&gt;a pelican&lt;/a&gt; which I generated using LM Studio's &lt;a href=&quot;https://lmstudio.ai/models/muse-glimmer&quot;&gt;18.16 GB version of the model&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;All the pieces are there but they are pretty jumbled together.&quot; src=&quot;https://static.simonwillison.net/static/2026/glimmer-pelican.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I also tried it out with my &lt;a href=&quot;https://github.com/simonw/llm-coding-agent&quot;&gt;llm-coding-agent&lt;/a&gt; plugin, running against a fresh checkout of Datasette with the prompt:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;how does auth work?&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://gist.github.com/simonw/3623676275da1a6078b2500dcc78116f#response-24&quot;&gt;Here's the response&lt;/a&gt;, at the end of a long transcript showing all of the tool calls it made to explore the codebase. I ran this using &lt;code&gt;llm-lmstudio&lt;/code&gt; with &lt;a href=&quot;https://github.com/agustif/llm-lmstudio/pull/14&quot;&gt;this patch applied&lt;/a&gt; to upgrade it for compatibility with &lt;a href=&quot;https://llm.datasette.io/en/stable/changelog.html#v0-32&quot;&gt;LLM 0.32&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I really like this size of model, because if a machine has 32 GB of RAM or more (mine has 128GB) it leaves plenty of space for running other applications at the same time.&lt;/p&gt;
+&lt;p&gt;Glimmer is a vision model, so I asked it to describe this image:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;llm -m lmstudio/meta/muse-glimmer -a https://static.inaturalist.org/photos/714731804/large.jpg 'describe image'&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Two pelicans on some rocks&quot; src=&quot;https://static.simonwillison.net/static/2026/pelicans-on-rocks.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Here's &lt;a href=&quot;https://gist.github.com/simonw/288ef0dd33a913455d1b1ecc329637e0#response&quot;&gt;what I got back&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The photograph shows a rocky, breakwater-style shoreline on an overcast day with a smooth, gray body of water and a faint dock/pier line in the soft-focused background.&lt;/p&gt;
+&lt;p&gt;In the foreground two large brown pelicans, &lt;em&gt;Pelecanus occidentalis&lt;/em&gt;, are perched on the jumbled gray-white stones. They have the species’ characteristic long, down-curved yellow-orange bills with a large throat pouch, long slender necks and mottled brown-gray plumage on the back and wings. The pelican on the left is turned slightly toward the camera and appears to be preening or resting its bill against its chest; a pale, whitish patch is visible on the crown and nape and a small crest of feathers is raised. The pelican on the right faces mostly forward/right, its head up, bill pointing down and to the right, with the same pale head markings and the barred, darker wing feathers clearly visible.&lt;/p&gt;
+&lt;p&gt;Scattered among the rocks around the two pelicans are several much smaller dark birds — gulls/tern-like birds in muted brown-gray plumage. One dark bird sits on the far left on a rock, another brownish bird stands to the right of the right-hand pelican, a grayish bird with a reddish bill is in the lower right foreground, and a further small dark bird is at the extreme right edge of the frame. &lt;/p&gt;
+&lt;p&gt;The overall light is flat and diffused, giving the water and sky a muted, almost monochromatic palette that contrasts with the textured rock and the detailed feathering of the pelicans. The composition places the two big birds as the dominant subjects, framed against the calm water and the low, rocky perch.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://news.ycombinator.com/item?id=49241679&quot;&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llama&quot;&gt;llama&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/local-llms&quot;&gt;local-llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm&quot;&gt;llm&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/vision-llms&quot;&gt;vision-llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/meta&quot;&gt;meta&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-release&quot;&gt;llm-release&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-tag</guid>
+      <pubDate>2026-08-10T23:56:03+00:00</pubDate>
+    </item>
     <item>
       <title>Quoting OpenClaw</title>
       <link>https://simonwillison.net/2026/Aug/10/openclaw/#atom-tag</link>
@@ -13,6 +52,13 @@
     &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openclaw&quot;&gt;openclaw&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Aug/10/openclaw/#atom-tag</guid>
       <pubDate>2026-08-10T02:05:16+00:00</pubDate>
+    </item>
+    <item>
+      <title>OpenAI Astra pause 🚨, Claude Code cross-session 🤖, how Cursor Router works 🔀</title>
+      <link>https://tldr.tech/ai/2026-08-10</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-08-10</guid>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Quoting Claude Opus 5 system prompt</title>
@@ -1049,24 +1095,6 @@ It happened again! This is turning into something of a pattern.&lt;/p&gt;
       <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>AI Worming through Word</title>
-      <link>https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-tag</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/&quot;&gt;AI Worming through Word&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-Neat new prompt injection variant by Håkon Måløy, who found a way to upgrade prompt injection attacks against Microsoft Word to full self-replicating worms:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;An attacker places hidden instructions in a document that is later used as source material in Copilot for Word. Copilot may interpret those instructions as part of the user’s request, causing it to manipulate the document being drafted or edited. Copilot may then also copy the hidden instructions into the resulting document, turning that document into a new carrier. If the carrier is subsequently used in another Copilot-assisted workflow, the instructions can trigger again and propagate into further documents, even without the attacker’s original document being present.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;We've seen plenty of hidden white-on-white text before - the kids &lt;a href=&quot;https://x.com/ScienceYael/status/2082175224007848019&quot;&gt;are using it in their job applications now&lt;/a&gt; - but this is the first one I've seen that deliberately copies instructions to self-replicate itself.&lt;/p&gt;
-&lt;p&gt;It was responsibly disclosed to Microsoft who then had 144 days to work on a fix, but so far (unsurprisingly) there's no mitigation that covers the full class of attack.
-
-    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://news.ycombinator.com/item?id=49096188&quot;&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/microsoft&quot;&gt;microsoft&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/security&quot;&gt;security&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/prompt-injection&quot;&gt;prompt-injection&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-tag</guid>
-      <pubDate>2026-07-29T18:43:03+00:00</pubDate>
-    </item>
-    <item>
       <title>AI slowdown pact ⏸️, Personal superintelligence access 🌍, Grok Build Mode 🛠️</title>
       <link>https://tldr.tech/ai/2026-07-29</link>
       <description/>
@@ -1221,13 +1249,6 @@ Neat new prompt injection variant by Håkon Måløy, who found a way to upgrade 
       <description/>
       <guid>https://tldr.tech/ai/2026-07-14</guid>
       <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Claude Code browser 🌍, Cursor general agent 🤖, Claude Fable extension ⏳</title>
-      <link>https://tldr.tech/ai/2026-07-13</link>
-      <description/>
-      <guid>https://tldr.tech/ai/2026-07-13</guid>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Introducing a way to reflect on how you use Claude</title>
