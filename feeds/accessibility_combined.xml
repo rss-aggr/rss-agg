@@ -3,7 +3,70 @@
     <title>Accessibility Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: Accessibility Combined Feed</description>
-    <lastBuildDate>Wed, 12 Aug 2026 12:07:45 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 12:08:24 +0000</lastBuildDate>
+    <item>
+      <title>Flutter Accessibility 101</title>
+      <link>https://medium.com/simform-engineering/flutter-accessibility-101-ada6f4ba118a?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/simform-engineering/flutter-accessibility-101-ada6f4ba118a?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2560/1*JbR1dpbS0KrWg332g7lv4w.png&quot; width=&quot;2560&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Your Flutter app is beautiful. But can everyone use it? A practical guide to building for the other 15%.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/simform-engineering/flutter-accessibility-101-ada6f4ba118a?source=rss------accessibility-5&quot;&gt;Continue reading on Simform Engineering »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/ada6f4ba118a</guid>
+      <pubDate>Thu, 13 Aug 2026 11:17:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>IRIS for Education: Why Accessibility Starts Long Before AI</title>
+      <link>https://medium.com/@iris_canon_group/iris-for-education-why-accessibility-starts-long-before-ai-e31cf676249b?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@iris_canon_group/iris-for-education-why-accessibility-starts-long-before-ai-e31cf676249b?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1920/1*EAz8umqxCbLqVtQfOC4UPw.jpeg&quot; width=&quot;1920&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Education is producing more content than ever. Textbooks, worksheets, research papers, assessments, administrative records, PDFs, learning&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@iris_canon_group/iris-for-education-why-accessibility-starts-long-before-ai-e31cf676249b?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/e31cf676249b</guid>
+      <pubDate>Thu, 13 Aug 2026 10:01:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>How ADA works for me</title>
+      <link>https://medium.com/@sun_80352/how-ada-works-for-me-4cff74eff5e3?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;You may hear about ADA. What is ADA? The Americal with Disabilities Act (ADA) was signed into law on July 26, 1990, by President George&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@sun_80352/how-ada-works-for-me-4cff74eff5e3?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/4cff74eff5e3</guid>
+      <pubDate>Thu, 13 Aug 2026 06:02:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>Accessibility by Default: Comboboxes</title>
+      <link>https://www.designsystemscollective.com/accessibility-by-default-comboboxes-9ed5fc6ab3cb?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://www.designsystemscollective.com/accessibility-by-default-comboboxes-9ed5fc6ab3cb?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1408/1*F-BaABkHf7PDv02ERfcU6g.png&quot; width=&quot;1408&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Hi, and welcome back to Accessibility by Default. This week we&amp;#x2019;re going to look into comboboxes&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://www.designsystemscollective.com/accessibility-by-default-comboboxes-9ed5fc6ab3cb?source=rss------accessibility-5&quot;&gt;Continue reading on Design Systems Collective »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/9ed5fc6ab3cb</guid>
+      <pubDate>Thu, 13 Aug 2026 06:01:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>Should a Dialog Close When Clicked Outside?</title>
+      <link>https://adrianroselli.com/2026/08/should-a-dialog-close-when-clicked-outside.html</link>
+      <description>Maybe not, but I&amp;#8217;ll break these down into three categories because it depends on context and intent. Pretend this post also applies for pressing Esc. Action Required If the user must complete a task that is presented by the dialog, then they should not be able to close it without&amp;#8230;</description>
+      <guid>https://adrianroselli.com/?p=51261</guid>
+      <pubDate>Wed, 12 Aug 2026 16:28:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Beyond Automation: Why the Future of Metro Systems Is Both Digital and Human</title>
+      <link>https://medium.com/@PAVLOSPETSAVAS/beyond-automation-why-the-future-of-metro-systems-is-both-digital-and-human-6701e748425d?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@PAVLOSPETSAVAS/beyond-automation-why-the-future-of-metro-systems-is-both-digital-and-human-6701e748425d?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1536/1*aZV9BWmiX33FMeAaYTxqQw.png&quot; width=&quot;1536&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Beyond Automation: Why the Future of Metro Systems Is Both Digital and Human&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@PAVLOSPETSAVAS/beyond-automation-why-the-future-of-metro-systems-is-both-digital-and-human-6701e748425d?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/6701e748425d</guid>
+      <pubDate>Wed, 12 Aug 2026 15:19:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>Why Do We Still Feel Uncomfortable Talking About Disability?</title>
+      <link>https://medium.com/@lightuponlight1408/why-do-we-still-feel-uncomfortable-talking-about-disability-e4cd3f40ed05?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;I kept thinking about this after the Ability Summit.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@lightuponlight1408/why-do-we-still-feel-uncomfortable-talking-about-disability-e4cd3f40ed05?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/e4cd3f40ed05</guid>
+      <pubDate>Wed, 12 Aug 2026 15:02:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>Accessible Tabs in Angular Part 2: What Really Happens When You Switch Tabs?</title>
+      <link>https://medium.com/@vhurley.dev/accessible-tabs-in-angular-part-2-what-really-happens-when-you-switch-tabs-a63bfb50d400?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@vhurley.dev/accessible-tabs-in-angular-part-2-what-really-happens-when-you-switch-tabs-a63bfb50d400?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1432/1*M1cGzjVDsZpmS74Zo4E05Q.png&quot; width=&quot;1432&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;A Deep Dive into @angular/aria Defaults &amp;amp; Smart Caching&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@vhurley.dev/accessible-tabs-in-angular-part-2-what-really-happens-when-you-switch-tabs-a63bfb50d400?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/a63bfb50d400</guid>
+      <pubDate>Wed, 12 Aug 2026 14:01:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>A embalagem foi aprovada por todo mundo. Menos por quem precisava usá-la.</title>
+      <link>https://medium.com/@rf.fernandes.rodrigo/a-embalagem-foi-aprovada-por-todo-mundo-menos-por-quem-precisava-us%C3%A1-la-d0e1b9226b7f?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@rf.fernandes.rodrigo/a-embalagem-foi-aprovada-por-todo-mundo-menos-por-quem-precisava-us%C3%A1-la-d0e1b9226b7f?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2400/0*94kcuGYFwuN1IhON.jpeg&quot; width=&quot;2400&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;A embalagem foi aprovada por todo mundo. Menos por quem precisava us&amp;#xe1;-la.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@rf.fernandes.rodrigo/a-embalagem-foi-aprovada-por-todo-mundo-menos-por-quem-precisava-us%C3%A1-la-d0e1b9226b7f?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/d0e1b9226b7f</guid>
+      <pubDate>Wed, 12 Aug 2026 12:36:55 GMT</pubDate>
+    </item>
     <item>
       <title>Hot Girl Wellness Has an Accessibility Origin Story</title>
       <link>https://medium.com/cabin-fever-magazine/hot-girl-wellness-has-an-accessibility-origin-story-b63cbdacd378?source=rss------accessibility-5</link>
@@ -17,62 +80,6 @@
       <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@Geetika02/accessibility-isnt-a-feature-it-s-just-good-design-0aaffa9b6c4c?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1536/1*jroi85zpM8EXuIBnTaeWmQ.png&quot; width=&quot;1536&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;When I first started designing digital products, accessibility wasn&amp;#x2019;t something people talked about much. It was often treated as a&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@Geetika02/accessibility-isnt-a-feature-it-s-just-good-design-0aaffa9b6c4c?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
       <guid>https://medium.com/p/0aaffa9b6c4c</guid>
       <pubDate>Wed, 12 Aug 2026 09:55:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>Do accessibility overlays actually protect you from an ADA/WCAG lawsuit ?</title>
-      <link>https://medium.com/@clemens_22477/do-accessibility-overlays-actually-protect-you-from-an-ada-wcag-lawsuit-110ad5f42267?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@clemens_22477/do-accessibility-overlays-actually-protect-you-from-an-ada-wcag-lawsuit-110ad5f42267?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2600/1*RbMGYIP4WDZBJxpUL7o0VQ.jpeg&quot; width=&quot;4048&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;I&amp;#x2019;ve been digging into web accessibility for years now, and a recent FTC order caught my attention because it&amp;#x2019;s the first time a US&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@clemens_22477/do-accessibility-overlays-actually-protect-you-from-an-ada-wcag-lawsuit-110ad5f42267?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/110ad5f42267</guid>
-      <pubDate>Wed, 12 Aug 2026 08:33:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>Beyond the Buzzwords: Why Educational Institutions Need a Structural BSL Curriculum Framework</title>
-      <link>https://medium.com/@Banu.A/beyond-the-buzzwords-why-educational-institutions-need-a-structural-bsl-curriculum-framework-39512cf91058?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@Banu.A/beyond-the-buzzwords-why-educational-institutions-need-a-structural-bsl-curriculum-framework-39512cf91058?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2600/1*dxreNvp8H8oowvzjZ_PUvw@2x.jpeg&quot; width=&quot;3240&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Photo by Memento Media on Unsplash&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@Banu.A/beyond-the-buzzwords-why-educational-institutions-need-a-structural-bsl-curriculum-framework-39512cf91058?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/39512cf91058</guid>
-      <pubDate>Wed, 12 Aug 2026 08:30:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>The 60-Second PDF Makeover: Ditching the Manual Tagging Nightmare</title>
-      <link>https://medium.com/@pdfxt/the-60-second-pdf-makeover-ditching-the-manual-tagging-nightmare-fad3af946e8d?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@pdfxt/the-60-second-pdf-makeover-ditching-the-manual-tagging-nightmare-fad3af946e8d?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2600/1*8DsAuXpJ3ga1geZyKubEqA.png&quot; width=&quot;2918&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;pdf accessibility remediation | manual pdf tagging | publisher pdf compliance | pdf/ua | wcag 2.1&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@pdfxt/the-60-second-pdf-makeover-ditching-the-manual-tagging-nightmare-fad3af946e8d?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/fad3af946e8d</guid>
-      <pubDate>Wed, 12 Aug 2026 06:39:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>How People Actually Read on Screen, and What It Means for Interfaces and Training</title>
-      <link>https://medium.com/design-bootcamp/how-people-actually-read-on-screen-and-what-it-means-for-interfaces-and-training-81b81e9fd87f?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/design-bootcamp/how-people-actually-read-on-screen-and-what-it-means-for-interfaces-and-training-81b81e9fd87f?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2048/1*I9_9uA6wVyWWxC9ANAWJqw.jpeg&quot; width=&quot;2048&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Decades of eye-tracking research show people scan, not read. Designing as though they don&amp;#x2019;t is where most content goes wrong.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/design-bootcamp/how-people-actually-read-on-screen-and-what-it-means-for-interfaces-and-training-81b81e9fd87f?source=rss------accessibility-5&quot;&gt;Continue reading on Bootcamp »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/81b81e9fd87f</guid>
-      <pubDate>Wed, 12 Aug 2026 05:46:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>Dostępność cyfrowa w IT: kosztowny obowiązek czy przewaga biznesowa?</title>
-      <link>https://medium.com/@kkempin/dost%C4%99pno%C5%9B%C4%87-cyfrowa-w-it-kosztowny-obowi%C4%85zek-czy-przewaga-biznesowa-034864c27188?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@kkempin/dost%C4%99pno%C5%9B%C4%87-cyfrowa-w-it-kosztowny-obowi%C4%85zek-czy-przewaga-biznesowa-034864c27188?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2560/1*QSeGeBg5kWk1yQqsDdp5_A.jpeg&quot; width=&quot;2560&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;W ramach podcastu &amp;#x201c;Porozmawiajmy o IT&amp;#x201d; mia&amp;#x142;em okazj&amp;#x119; porozmawia&amp;#x107; z &amp;#x17b;anet&amp;#x105; Socho&amp;#x144; o dost&amp;#x119;pno&amp;#x15b;ci cyfrowej w IT.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@kkempin/dost%C4%99pno%C5%9B%C4%87-cyfrowa-w-it-kosztowny-obowi%C4%85zek-czy-przewaga-biznesowa-034864c27188?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/034864c27188</guid>
-      <pubDate>Wed, 12 Aug 2026 05:22:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>Restroom Door Accessibility: When Compliance Isn’t Enough</title>
-      <link>https://inga-10061.medium.com/restroom-door-accessibility-when-compliance-isnt-enough-8b57941f68be?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Restroom door accessibility isn&amp;#x2019;t just about whether a doorway meets ADA accessibility requirements. It&amp;#x2019;s about whether a person can&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://inga-10061.medium.com/restroom-door-accessibility-when-compliance-isnt-enough-8b57941f68be?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/8b57941f68be</guid>
-      <pubDate>Wed, 12 Aug 2026 02:06:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>Auto-Tagging in OpenDataLoader PDF: How Visual Integrity Is Guaranteed</title>
-      <link>https://blog.cubed.run/auto-tagging-in-opendataloader-pdf-how-visual-integrity-is-guaranteed-04fca2ca6d05?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://blog.cubed.run/auto-tagging-in-opendataloader-pdf-how-visual-integrity-is-guaranteed-04fca2ca6d05?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1600/1*IVzYSOd5tovw_hKMTUGNtg.png&quot; width=&quot;1600&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;OpenDataLoader&amp;#x2019;s auto-tagging guarantees that the document remains visually unchanged because it separates structure from presentation.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://blog.cubed.run/auto-tagging-in-opendataloader-pdf-how-visual-integrity-is-guaranteed-04fca2ca6d05?source=rss------accessibility-5&quot;&gt;Continue reading on Cubed »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/04fca2ca6d05</guid>
-      <pubDate>Wed, 12 Aug 2026 00:32:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>Your LLM is not a PDF parser: use OpenDataLoader first</title>
-      <link>https://blog.cubed.run/your-llm-is-not-a-pdf-parser-use-opendataloader-first-76641e74b85d?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://blog.cubed.run/your-llm-is-not-a-pdf-parser-use-opendataloader-first-76641e74b85d?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/941/1*lN0Ejk3VpmTdokbMnthYsw.png&quot; width=&quot;941&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Large Language Models (LLMs) have become remarkably powerful at understanding documents. Many modern AI platforms can accept PDF files&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://blog.cubed.run/your-llm-is-not-a-pdf-parser-use-opendataloader-first-76641e74b85d?source=rss------accessibility-5&quot;&gt;Continue reading on Cubed »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/76641e74b85d</guid>
-      <pubDate>Wed, 12 Aug 2026 00:32:36 GMT</pubDate>
     </item>
     <item>
       <title>Updated W3C Recommendation: ARIA in HTML</title>
@@ -1777,13 +1784,6 @@ The list items are accessible via swipe and touch.&lt;/p&gt;
 &lt;/ul&gt;&lt;p&gt;My blog doesn't support comments yet, but you can reply via &lt;a href=&quot;mailto:blog@matuzo.at?subject=Comment+on+%E2%80%9Caria-haspopup+might+not+do+what+you+think+it+does%E2%80%9D&quot;&gt;blog@matuzo.at&lt;/a&gt;.&lt;/p&gt;</description>
       <guid>https://www.matuzo.at/blog/2026/aria-haspopup-menu</guid>
       <pubDate>2026-02-23T19:45:00+00:00</pubDate>
-    </item>
-    <item>
-      <title>Honoring Mobile OS Text Size</title>
-      <link>https://adrianroselli.com/2026/02/honoring-mobile-os-text-size.html</link>
-      <description>If your users scale the text size in Android or iDeviceOS, that doesn&amp;#8217;t always affect the size of text on a web page. It&amp;#8217;s a function of browser and authored code, as opposed to a standardized approach. That may be changing. Support The current state of affairs in the three&amp;#8230;</description>
-      <guid>https://adrianroselli.com/?p=48799</guid>
-      <pubDate>Fri, 06 Feb 2026 20:35:57 +0000</pubDate>
     </item>
   </channel>
 </rss>

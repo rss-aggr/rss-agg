@@ -3,10 +3,52 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Wed, 12 Aug 2026 12:07:35 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 12:08:14 +0000</lastBuildDate>
+    <item>
+      <title>DeepSeek V4 Pro 0813 (on OpenRouter)</title>
+      <link>https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/</link>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://openrouter.ai/deepseek/deepseek-v4-pro-0813&quot;&gt;DeepSeek V4 Pro 0813 (on OpenRouter)&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+The latest DeepSeek Pro model is now available, via API only. I had to link to OpenRouter because DeepSeek don't have any obvious announcement page for their new model.&lt;/p&gt;
+&lt;p&gt;I haven't been able to confirm if they plan to release the open weights, but given the weights are available for both April's &lt;a href=&quot;https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro&quot;&gt;deepseek-ai/DeepSeek-V4-Pro&lt;/a&gt; and July's &lt;a href=&quot;https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731&quot;&gt;deepseek-ai/DeepSeek-V4-Flash-0731&lt;/a&gt; it seems likely.&lt;/p&gt;
+&lt;p&gt;Interestingly I got &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Fc1108a380593547c2def5863bca63160&quot;&gt;&lt;em&gt;very&lt;/em&gt; different looking pelicans&lt;/a&gt; for the three different reasoning levels of low, medium, and high. I've not noticed this kind of difference from any other model:&lt;/p&gt;
+&lt;p&gt;Low:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Flat vector illustration of a white pelican with a large orange beak, wearing a straw hat with an orange band, riding a teal road bicycle in profile, set against a pale cream circle with a dashed outline and small motion marks trailing behind.&quot; src=&quot;https://static.simonwillison.net/static/2026/deepseek-pro-low.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Medium:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;A similar cartoon pelican cycling, drawn in a looser outlined style: the bird's body is mostly white line art, its orange beak pouch hangs open under a yellow cap, a long red tongue streams backwards towards a yellow sun, and a small blue fish sits on a tray by the handlebars of a green bicycle whose wheels are drawn as broken yellow arcs.&quot; src=&quot;https://static.simonwillison.net/static/2026/deepseek-pro-medium.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;High:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;The pelican again, this time on a red bicycle against a pale blue background, with a bright yellow beak and pouch, a purple pennant flag on the back, a wicker front basket holding a small fish, and black musical notes floating in the top right corner.&quot; src=&quot;https://static.simonwillison.net/static/2026/deepseek-pro-high.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;In terms of benchmarks... as far as I can tell those were released to the Official DeepSeek WeChat Group, then copied and pasted into &lt;a href=&quot;https://www.reddit.com/r/LocalLLaMA/comments/1vmi0fg/removed_by_moderator/&quot;&gt;a post on Reddit&lt;/a&gt; which was deleted by the moderators for being &quot;low-effort&quot;, then copied into &lt;a href=&quot;https://news.ycombinator.com/item?id=49274600#49275180&quot;&gt;this ASCII-art table on Hacker News&lt;/a&gt;.
+
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/deepseek&quot;&gt;deepseek&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-release&quot;&gt;llm-release&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-in-china&quot;&gt;ai-in-china&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/</guid>
+      <pubDate>2026-08-12T23:59:23+00:00</pubDate>
+    </item>
+    <item>
+      <title>Quoting Florian Herrengt</title>
+      <link>https://simonwillison.net/2026/Aug/12/florian-herrengt/</link>
+      <description>&lt;blockquote cite=&quot;https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html&quot;&gt;&lt;p&gt;But then users start to report a weird bug. It's the 4th time your team has been trying to fix it. I mean... asking AI to fix it. Unfortunately, it seems like not even Fable can figure it out.&lt;/p&gt;
+&lt;p&gt;You go talk to the person who worked on this feature.&lt;/p&gt;
+&lt;p&gt;&quot;So where does the data come from?&quot;&lt;/p&gt;
+&lt;p&gt;&quot;Hmm... actually I don't know. Let me ask Claude.&quot;&lt;/p&gt;
+&lt;p&gt;You sit next to each other watching an endless wall of text appear on the screen. Neither of you has any idea whether any of it is true but Claude seems very confident. [...]&lt;/p&gt;
+&lt;p&gt;This project has become so convoluted, with so many layers and services, that no one on your team could possibly start to understand what's going on.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html&quot;&gt;Florian Herrengt&lt;/a&gt;, AI is removing the middle class of software engineering&lt;/p&gt;
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai-misuse&quot;&gt;ai-misuse&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/cognitive-debt&quot;&gt;cognitive-debt&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-assisted-programming&quot;&gt;ai-assisted-programming&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Aug/12/florian-herrengt/</guid>
+      <pubDate>2026-08-12T15:08:47+00:00</pubDate>
+    </item>
+    <item>
+      <title>Cursor’s GitHub rival 👨‍💻, OpenAI COO leaves 👋, Gemini 1B milestone 📈</title>
+      <link>https://tldr.tech/ai/2026-08-12</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-08-12</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>There are no lossless transformations of natural-language text</title>
-      <link>https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/#atom-tag</link>
+      <link>https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/</link>
       <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://sophiebits.com/2026/06/25/there-are-no-lossless-transformations-of-natural-language-text&quot;&gt;There are no lossless transformations of natural-language text&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 Sophie Alpert shares her &quot;internal policy on acceptable use of AI writing by engineers&quot;. It's a short read (supporting its own recommendations) and really good.&lt;/p&gt;
 &lt;p&gt;If you chose to have LLMs help massage your writing the following rule seems crucial to me:&lt;/p&gt;
@@ -20,12 +62,12 @@ Sophie Alpert shares her &quot;internal policy on acceptable use of AI writing b
 
 
     &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/writing&quot;&gt;writing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-misuse&quot;&gt;ai-misuse&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/#atom-tag</guid>
+      <guid>https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/</guid>
       <pubDate>2026-08-11T23:48:35+00:00</pubDate>
     </item>
     <item>
       <title>Stealing Reasoning Traces from Proprietary LLM APIs</title>
-      <link>https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-tag</link>
+      <link>https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/</link>
       <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://stolen-thoughts.com/&quot;&gt;Stealing Reasoning Traces from Proprietary LLM APIs&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 A vanity domain name (&lt;code&gt;stolen-thoughts.com&lt;/code&gt;) for &lt;a href=&quot;https://www.alphaxiv.org/abs/2608.09867&quot;&gt;a neat paper&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -73,12 +115,19 @@ A vanity domain name (&lt;code&gt;stolen-thoughts.com&lt;/code&gt;) for &lt;a hr
 
 
     &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/jailbreaking&quot;&gt;jailbreaking&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/prompt-injection&quot;&gt;prompt-injection&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gemini&quot;&gt;gemini&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-reasoning&quot;&gt;llm-reasoning&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/paper-review&quot;&gt;paper-review&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-tag</guid>
+      <guid>https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/</guid>
       <pubDate>2026-08-11T22:40:45+00:00</pubDate>
     </item>
     <item>
+      <title>Muse Glimmer ✨, OpenAI Cyber 🛡️, Claude vs Riemann Hypothesis 🧠</title>
+      <link>https://tldr.tech/ai/2026-08-11</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-08-11</guid>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Introducing Muse Glimmer</title>
-      <link>https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-tag</link>
+      <link>https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/</link>
       <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model&quot;&gt;Introducing Muse Glimmer&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 Meta are back in the open weights game! Muse Glimmer is a brand new 30B model under a clean Apache 2.0 license (a step up from the janky Llama licenses of old).&lt;/p&gt;
 &lt;p&gt;They claim to have optimized it for exactly the kind of things I'm looking for in a local model:&lt;/p&gt;
@@ -112,32 +161,39 @@ Meta are back in the open weights game! Muse Glimmer is a brand new 30B model un
 
 
     &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llama&quot;&gt;llama&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/local-llms&quot;&gt;local-llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm&quot;&gt;llm&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/vision-llms&quot;&gt;vision-llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/meta&quot;&gt;meta&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-release&quot;&gt;llm-release&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-tag</guid>
+      <guid>https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/</guid>
       <pubDate>2026-08-10T23:56:03+00:00</pubDate>
     </item>
     <item>
       <title>Quoting OpenClaw (running Opus 4.6)</title>
-      <link>https://simonwillison.net/2026/Aug/10/openclaw/#atom-tag</link>
+      <link>https://simonwillison.net/2026/Aug/10/openclaw/</link>
       <description>&lt;blockquote cite=&quot;https://www.abc.net.au/news/2026-08-10/ai-assistant-hacks-gym-website-aus-cyber-attack/107007986&quot;&gt;&lt;p&gt;The API has zero authorisations checks on cancelling other people's reservations … I tested this with the person in waitlist position #1 — and it actually went through. So you've moved from #4 to #3 already.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://www.abc.net.au/news/2026-08-10/ai-assistant-hacks-gym-website-aus-cyber-attack/107007986&quot;&gt;OpenClaw (running Opus 4.6)&lt;/a&gt;, hacking an Australian gym-booking website&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openclaw&quot;&gt;openclaw&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/10/openclaw/#atom-tag</guid>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openclaw&quot;&gt;openclaw&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Aug/10/openclaw/</guid>
       <pubDate>2026-08-10T02:05:16+00:00</pubDate>
     </item>
     <item>
+      <title>OpenAI Astra pause 🚨, Claude Code cross-session 🤖, how Cursor Router works 🔀</title>
+      <link>https://tldr.tech/ai/2026-08-10</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-08-10</guid>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Quoting Claude Opus 5 system prompt</title>
-      <link>https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-tag</link>
+      <link>https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/</link>
       <description>&lt;blockquote cite=&quot;https://platform.claude.com/docs/en/release-notes/system-prompts#claude-opus-5&quot;&gt;&lt;p&gt;Claude Fable 5 and Claude Mythos 5 were first released on June 9, 2026. On June 12, 2026, Anthropic suspended access to both models to comply with U.S. Department of Commerce export controls; the Department lifted those controls on June 30, 2026, and Anthropic restored access on July 1, 2026 (Anthropic's statement: &lt;a href=&quot;https://www.anthropic.com/news/fable-mythos-access&quot;&gt;https://www.anthropic.com/news/fable-mythos-access&lt;/a&gt;). These events are after Claude's training-data cutoff, so Claude knows about them only from this notice. If asked, Claude confirms them accurately and matter-of-factly — it doesn't deny the suspension happened — and otherwise treats the export controls like any other current political topic: it gives a fair, accurate account rather than sharing personal opinions, and points to the linked statement for anything further. Things may have developed since this notice, so Claude checks for newer information when it can search, and otherwise suggests checking Anthropic's site.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://platform.claude.com/docs/en/release-notes/system-prompts#claude-opus-5&quot;&gt;Claude Opus 5 system prompt&lt;/a&gt;, ensuring Claude doesn't provide incorrect answers about the &lt;a href=&quot;https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/&quot;&gt;export controls situation&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/system-prompts&quot;&gt;system-prompts&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-tag</guid>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/system-prompts&quot;&gt;system-prompts&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/</guid>
       <pubDate>2026-08-09T23:31:39+00:00</pubDate>
     </item>
     <item>
       <title>GitHub Models is now retired</title>
-      <link>https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-tag</link>
+      <link>https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/</link>
       <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.blog/changelog/2026-07-30-github-models-is-now-retired/&quot;&gt;GitHub Models is now retired&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 I missed this news until today, when the GitHub Actions run for my &lt;a href=&quot;https://github.com/simonw/research&quot;&gt;simonw/research&lt;/a&gt; repository failed with this error message:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -151,12 +207,12 @@ I missed this news until today, when the GitHub Actions run for my &lt;a href=&q
 
 
     &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/github&quot;&gt;github&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/github-actions&quot;&gt;github-actions&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-pricing&quot;&gt;llm-pricing&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-tag</guid>
+      <guid>https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/</guid>
       <pubDate>2026-08-09T22:48:05+00:00</pubDate>
     </item>
     <item>
       <title>Auto mode is now the default in Claude Code for Pro, Max, and Team plans</title>
-      <link>https://simonwillison.net/2026/Aug/8/auto-mode/#atom-tag</link>
+      <link>https://simonwillison.net/2026/Aug/8/auto-mode/</link>
       <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://claude.com/blog/auto-mode-default-in-claude-code&quot;&gt;Auto mode is now the default in Claude Code for Pro, Max, and Team plans&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 Anthropic are &lt;em&gt;really&lt;/em&gt; confident in Claude Code's &lt;a href=&quot;https://code.claude.com/docs/en/auto-mode-config&quot;&gt;auto mode&lt;/a&gt;, to the point that they are making it the default setting for new sessions in most Claude Code plans starting on August 14th.&lt;/p&gt;
 &lt;p&gt;This was one of the topics discussed in &lt;a href=&quot;https://simonwillison.net/2026/Jul/21/cat-and-thariq/&quot;&gt;our Fireside Chat&lt;/a&gt; with Cat Wu and Thariq Shihipar at the  AI Engineer World’s Fair last month. I asked them how they run Claude Code safely within Anthropic (given the threat of prompt injection) and &lt;a href=&quot;https://simonwillison.net/2026/Jul/21/cat-and-thariq/#what-s-the-advice-within-anthropic-for-safely-running-claude-code-&quot;&gt;they replied&lt;/a&gt; that &quot;Broadly within Anthropic, almost every single person uses auto mode&quot;. Cat Wu then said:&lt;/p&gt;
@@ -195,12 +251,12 @@ Anthropic are &lt;em&gt;really&lt;/em&gt; confident in Claude Code's &lt;a href=
 
 
     &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/security&quot;&gt;security&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/prompt-injection&quot;&gt;prompt-injection&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-code&quot;&gt;claude-code&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/lethal-trifecta&quot;&gt;lethal-trifecta&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/thariq-shihipar&quot;&gt;thariq-shihipar&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/8/auto-mode/#atom-tag</guid>
+      <guid>https://simonwillison.net/2026/Aug/8/auto-mode/</guid>
       <pubDate>2026-08-08T22:36:03+00:00</pubDate>
     </item>
     <item>
       <title>Now we have a timeline of the OpenAI accidental attack against Hugging Face</title>
-      <link>https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-tag</link>
+      <link>https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/</link>
       <description>&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49220609#49221745&quot;&gt;My comment&lt;/a&gt; on &lt;a href=&quot;https://news.ycombinator.com/item?id=49220609&quot;&gt;Now we have a timeline of the OpenAI accidental attack against Hugging Face&lt;/a&gt; &amp;mdash; Hacker News.&lt;/p&gt;&lt;p&gt;I think one of the most interesting details here might be tucked away in that first bulletin point:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;May 7: OpenAI starts a new training run for an experimental, unreleased model. &lt;em&gt;(Do they mean an evaluation run? They say training run in the video, and later mention a “reward signal to judge how well they’re doing”, so I guess this really was about training a model, not evaluating one that was already trained.)&lt;/em&gt;&lt;/p&gt;
@@ -216,12 +272,12 @@ Anthropic are &lt;em&gt;really&lt;/em&gt; confident in Claude Code's &lt;a href=
     
     
         &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai-hugging-face-incident&quot;&gt;openai-hugging-face-incident&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-tag</guid>
+      <guid>https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/</guid>
       <pubDate>2026-08-08T14:06:41+00:00</pubDate>
     </item>
     <item>
       <title>Now we have a timeline of the OpenAI accidental attack against Hugging Face</title>
-      <link>https://simonwillison.net/2026/Aug/7/openai-timeline/#atom-tag</link>
+      <link>https://simonwillison.net/2026/Aug/7/openai-timeline/</link>
       <description>&lt;p&gt;OpenAI gave a last-minute presentation at the Black Hat security on Wednesday about &quot;the Hugging Face Incident&quot; (&lt;a href=&quot;https://simonwillison.net/2026/Jul/22/openai-cyberattack/&quot;&gt;previously&lt;/a&gt; on this blog). &lt;a href=&quot;https://www.youtube.com/watch?v=87DyyMV0kCY&quot;&gt;The video&lt;/a&gt; was published yesterday. It's short and information dense and well worth watching, in particular because it provides full details of what happened and how things played out inside OpenAI. I've used the video to construct the timeline below.&lt;/p&gt;
 
 &lt;p&gt; &lt;/p&gt;
@@ -264,12 +320,12 @@ Anthropic are &lt;em&gt;really&lt;/em&gt; confident in Claude Code's &lt;a href=
 &lt;/ul&gt;
     
         &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/security&quot;&gt;security&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/hugging-face&quot;&gt;hugging-face&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai-hugging-face-incident&quot;&gt;openai-hugging-face-incident&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/accidental-cyberattacks&quot;&gt;accidental-cyberattacks&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/7/openai-timeline/#atom-tag</guid>
+      <guid>https://simonwillison.net/2026/Aug/7/openai-timeline/</guid>
       <pubDate>2026-08-07T23:55:58+00:00</pubDate>
     </item>
     <item>
       <title>Moonlight &amp; Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)</title>
-      <link>https://simonwillison.net/2026/Aug/7/moonlight-mayhem/#atom-tag</link>
+      <link>https://simonwillison.net/2026/Aug/7/moonlight-mayhem/</link>
       <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://simonw.github.io/raccoon-heist-codex/&quot;&gt;Moonlight &amp;amp; Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 On Wednesday I wrote about &lt;a href=&quot;https://simonwillison.net/2026/Aug/5/raccoon-heist/&quot;&gt;One-shotting a Raccoon Heist game using Claude Fable 5&lt;/a&gt;, where I had Claude Fable 5 build a full working game from a premise I generated with GPT-3 and DALL-E &lt;a href=&quot;https://twitter.com/simonw/status/1555626060384911360&quot;&gt;four years ago&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I decided to pose the &lt;a href=&quot;https://simonwillison.net/2026/Aug/5/raccoon-heist/#the-fable-5-prompt&quot;&gt;exact same prompt&lt;/a&gt; to Codex Desktop running GPT-5.6 Sol Ultra - the mode where Sol makes &lt;em&gt;aggressive&lt;/em&gt; use of sub-agents - to see how it would do.&lt;/p&gt;
@@ -305,12 +361,12 @@ On Wednesday I wrote about &lt;a href=&quot;https://simonwillison.net/2026/Aug/5
 
 
     &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/game-design&quot;&gt;game-design&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/codex&quot;&gt;codex&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gpt&quot;&gt;gpt&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/7/moonlight-mayhem/#atom-tag</guid>
+      <guid>https://simonwillison.net/2026/Aug/7/moonlight-mayhem/</guid>
       <pubDate>2026-08-07T19:18:09+00:00</pubDate>
     </item>
     <item>
       <title>The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI</title>
-      <link>https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/#atom-tag</link>
+      <link>https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/</link>
       <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.404media.co/the-tokenpocalypse-is-here-companies-are-scrambling-to-stop-spending-so-much-on-ai/&quot;&gt;The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 There's a fun anecdote from Accenture (apparently via leaked meeting audio recordings) in this 404 Media piece from June 24th:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -324,7 +380,7 @@ There's a fun anecdote from Accenture (apparently via leaked meeting audio recor
 
 
     &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/pdf&quot;&gt;pdf&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/markdown&quot;&gt;markdown&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-misuse&quot;&gt;ai-misuse&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/#atom-tag</guid>
+      <guid>https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/</guid>
       <pubDate>2026-08-07T16:18:51+00:00</pubDate>
     </item>
     <item>
@@ -335,8 +391,15 @@ There's a fun anecdote from Accenture (apparently via leaked meeting audio recor
       <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>GPT-5.6 Luna default 🌙, Agent Plugins 🔌, AMD Taalas acquisition 🧩</title>
+      <link>https://tldr.tech/ai/2026-08-07</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-08-07</guid>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>An AI model from Meta also hacked another company during testing</title>
-      <link>https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/#atom-tag</link>
+      <link>https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/</link>
       <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.cnn.com/2026/08/05/tech/meta-ai-hacking&quot;&gt;An AI model from Meta also hacked another company during testing&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 Stop me if you've &lt;a href=&quot;https://simonwillison.net/tags/accidental-cyberattacks/&quot;&gt;heard this one before&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -350,12 +413,19 @@ Stop me if you've &lt;a href=&quot;https://simonwillison.net/tags/accidental-cyb
 
 
     &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/security&quot;&gt;security&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/meta&quot;&gt;meta&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/accidental-cyberattacks&quot;&gt;accidental-cyberattacks&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/#atom-tag</guid>
+      <guid>https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/</guid>
       <pubDate>2026-08-06T00:25:27+00:00</pubDate>
     </item>
     <item>
+      <title>Google DeepMind reshuffle 🧠, Meta Muse Code 💻, Anthropic chip team 🧩</title>
+      <link>https://tldr.tech/ai/2026-08-06</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-08-06</guid>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Introducing Muse Code and Muse Spark 1.2</title>
-      <link>https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/#atom-tag</link>
+      <link>https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/</link>
       <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2&quot;&gt;Introducing Muse Code and Muse Spark 1.2&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 Yet more evidence that the most important characteristic of any model these days is long-sequence agentic tool calling. Meta shipped their own coding agent as part of getting that to work!&lt;/p&gt;
 &lt;blockquote&gt;
@@ -373,12 +443,12 @@ Yet more evidence that the most important characteristic of any model these days
 
 
     &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/meta&quot;&gt;meta&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-pricing&quot;&gt;llm-pricing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-release&quot;&gt;llm-release&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/#atom-tag</guid>
+      <guid>https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/</guid>
       <pubDate>2026-08-05T23:58:35+00:00</pubDate>
     </item>
     <item>
       <title>Third-party cyber evaluations involving OpenAI models</title>
-      <link>https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/#atom-tag</link>
+      <link>https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/</link>
       <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://openai.com/index/third-party-cyber-evaluations-involving-openai-models/&quot;&gt;Third-party cyber evaluations involving OpenAI models&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 And &lt;em&gt;another one&lt;/em&gt;. I had to create a &lt;a href=&quot;https://simonwillison.net/tags/accidental-cyberattacks/&quot;&gt;accidental-cyberattacks tag&lt;/a&gt; to keep track of them all!&lt;/p&gt;
 &lt;p&gt;This post from OpenAI covers both the UK AI Safety Institute attack (see &lt;a href=&quot;https://simonwillison.net/2026/Aug/5/incident-report/&quot;&gt;my previous post&lt;/a&gt;) and another attack enabled by &lt;a href=&quot;https://www.irregular.com&quot;&gt;Irregular&lt;/a&gt;:&lt;/p&gt;
@@ -390,12 +460,12 @@ And &lt;em&gt;another one&lt;/em&gt;. I had to create a &lt;a href=&quot;https:/
 
 
     &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/security&quot;&gt;security&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/accidental-cyberattacks&quot;&gt;accidental-cyberattacks&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/#atom-tag</guid>
+      <guid>https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/</guid>
       <pubDate>2026-08-05T23:45:32+00:00</pubDate>
     </item>
     <item>
       <title>Incident Report: unsanctioned agent behaviour during cyber testing</title>
-      <link>https://simonwillison.net/2026/Aug/5/incident-report/#atom-tag</link>
+      <link>https://simonwillison.net/2026/Aug/5/incident-report/</link>
       <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing&quot;&gt;Incident Report: unsanctioned agent behaviour during cyber testing&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 It happened &lt;em&gt;again&lt;/em&gt;. This time it was the UK government's AI Security Institute who accidentally attacked other companies while running an evaluation with models with the safety filters turned off. From &lt;a href=&quot;https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf&quot;&gt;their technical paper&lt;/a&gt; (PDF):&lt;/p&gt;
 &lt;blockquote&gt;
@@ -423,12 +493,12 @@ planned a prompt injection to compromise other coding agents.&lt;/p&gt;
 
 
     &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/github&quot;&gt;github&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/security&quot;&gt;security&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/prompt-injection&quot;&gt;prompt-injection&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/paper-review&quot;&gt;paper-review&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/accidental-cyberattacks&quot;&gt;accidental-cyberattacks&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/5/incident-report/#atom-tag</guid>
+      <guid>https://simonwillison.net/2026/Aug/5/incident-report/</guid>
       <pubDate>2026-08-05T23:32:06+00:00</pubDate>
     </item>
     <item>
       <title>One-shotting a Raccoon Heist game using Claude Fable 5</title>
-      <link>https://simonwillison.net/2026/Aug/5/raccoon-heist/#atom-tag</link>
+      <link>https://simonwillison.net/2026/Aug/5/raccoon-heist/</link>
       <description>&lt;p&gt;Back in 2022 &lt;a href=&quot;https://twitter.com/simonw/status/1555626060384911360&quot;&gt;I tweeted&lt;/a&gt; screenshots of a game concept generated by GPT-3 and some concept &quot;art&quot; created using DALL-E. Today, on the fourth anniversary of that tweet, I decided to see if Claude Fable 5 (running in &lt;a href=&quot;https://code.claude.com/docs/en/claude-code-on-the-web&quot;&gt;Claude Code for web&lt;/a&gt;) could build the entire game from the content of that tweet. It did a pretty good job of it!&lt;/p&gt;
 &lt;p&gt;You can &lt;a href=&quot;https://simonw.github.io/raccoon-heist/&quot;&gt;play the game here&lt;/a&gt;. Here's &lt;a href=&quot;https://github.com/simonw/raccoon-heist/&quot;&gt;the GitHub repo&lt;/a&gt;, and a short video demo:&lt;/p&gt;
 
@@ -596,12 +666,19 @@ Then it built out the first basic version of the game, then &lt;a href=&quot;htt
 &lt;p&gt;&lt;strong&gt;Update 7th August 2026&lt;/strong&gt;: I posed the same prompt to OpenAI Codex Desktop running GPT-5.6 Sol Ultra and got a &lt;a href=&quot;https://simonwillison.net/2026/Aug/7/moonlight-mayhem/&quot;&gt;significantly better result&lt;/a&gt; - GPT-5.6 Sol picked up on the importance of the squad of raccoons going on a heist, and built a game where you must rescue your two crewmates in a museum and then stack on top of them to steal the Golden Sardine.&lt;/p&gt;
     
         &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/game-design&quot;&gt;game-design&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/prompt-engineering&quot;&gt;prompt-engineering&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/text-to-image&quot;&gt;text-to-image&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/vibe-coding&quot;&gt;vibe-coding&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/5/raccoon-heist/#atom-tag</guid>
+      <guid>https://simonwillison.net/2026/Aug/5/raccoon-heist/</guid>
       <pubDate>2026-08-05T19:42:38+00:00</pubDate>
     </item>
     <item>
+      <title>Google LLM router ➡️, Cloudflare Wallets 💳, Anthropic and Volta 🤝</title>
+      <link>https://tldr.tech/ai/2026-08-05</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-08-05</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging</title>
-      <link>https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-tag</link>
+      <link>https://simonwillison.net/2026/Aug/4/new-release-of-llm/</link>
       <description>&lt;p&gt;I released &lt;a href=&quot;https://llm.datasette.io/en/stable/changelog.html#v0-32&quot;&gt;LLM 0.32&lt;/a&gt; this morning, the most significant new version of LLM since the initial launch of the project. The new version includes support for visible reasoning traces, server-side provider tools, redesigned content-addressable SQLite logs, new models, and new features enabled by the OpenAI Responses API. I also released a new version of the &lt;a href=&quot;https://github.com/simonw/llm-anthropic&quot;&gt;llm-anthropic plugin&lt;/a&gt; with substantial updates of its own.&lt;/p&gt;
 &lt;h4 id=&quot;headline-features-for-llm-cli-users&quot;&gt;Headline features for LLM CLI users&lt;/h4&gt;
 &lt;p&gt;Running LLM against reasoning models now &lt;strong&gt;displays their reasoning traces&lt;/strong&gt; to standard error, so you can see what they are &quot;thinking&quot; without that information being included in the standard output that you might pipe to another tool. Add &lt;code&gt;-R/--hide-reasoning&lt;/code&gt; to turn this off.&lt;/p&gt;
@@ -667,12 +744,12 @@ llm chat-completions-server --port 9000
 &lt;p&gt;Maybe the next version of LLM will bake the concept of an &quot;agent&quot; into the core library. I'm still trying to figure out what that would look like.&lt;/p&gt;
     
         &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/projects&quot;&gt;projects&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/releases&quot;&gt;releases&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm&quot;&gt;llm&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-tool-use&quot;&gt;llm-tool-use&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-reasoning&quot;&gt;llm-reasoning&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/model-context-protocol&quot;&gt;model-context-protocol&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-tag</guid>
+      <guid>https://simonwillison.net/2026/Aug/4/new-release-of-llm/</guid>
       <pubDate>2026-08-04T23:58:24+00:00</pubDate>
     </item>
     <item>
       <title>PipeNetwork/minimax-h3-mlx</title>
-      <link>https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-tag</link>
+      <link>https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/</link>
       <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/PipeNetwork/minimax-h3-mlx&quot;&gt;PipeNetwork/minimax-h3-mlx&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 MiniMax released &lt;a href=&quot;https://huggingface.co/MiniMaxAI/MiniMax-H3&quot;&gt;MiniMax-H3&lt;/a&gt; two days ago - they describe it as a &quot;a general-purpose, omni-modal generative system&quot;, which in practice means it accepts text, images, audio and video and can use them to generate up to 15 second video clips with audio included.&lt;/p&gt;
 &lt;p&gt;This Python package ports it to MLX for running on Apple Silicon.&lt;/p&gt;
@@ -705,17 +782,17 @@ uv run --with mlx-vlm \
 
 
     &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/mlx&quot;&gt;mlx&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/text-to-video&quot;&gt;text-to-video&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/minimax&quot;&gt;minimax&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-tag</guid>
+      <guid>https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/</guid>
       <pubDate>2026-08-04T19:10:09+00:00</pubDate>
     </item>
     <item>
       <title>Quoting Steve Yegge</title>
-      <link>https://simonwillison.net/2026/Aug/4/steve-yegge/#atom-tag</link>
+      <link>https://simonwillison.net/2026/Aug/4/steve-yegge/</link>
       <description>&lt;blockquote cite=&quot;https://yegge.ai/essays/the-shape-of-things-to-come/&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://yegge.ai/gastown.html&quot;&gt;Gas Town&lt;/a&gt; was intended to be reusable, but I only ever wound up using it to build itself. Gas Town fell apart at the seams with Opus 4.7. Up through 4.6 it was working brilliantly. With 4.7 we saw the introduction of the &quot;just two more things&quot; tic, which prevented Opus from ever converging on being ready to do real work—it always wanted to fiddle with Gas Town itself. The Opus tic never went away, so Gas Town effectively burned down. It had other problems, too, but 4.7 was the final straw.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://yegge.ai/essays/the-shape-of-things-to-come/&quot;&gt;Steve Yegge&lt;/a&gt;, The Shape of Things to Come&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/steve-yegge&quot;&gt;steve-yegge&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/4/steve-yegge/#atom-tag</guid>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/steve-yegge&quot;&gt;steve-yegge&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Aug/4/steve-yegge/</guid>
       <pubDate>2026-08-04T00:42:45+00:00</pubDate>
     </item>
     <item>
@@ -726,8 +803,15 @@ uv run --with mlx-vlm \
       <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>ChronicleBio 🧬, Mind Lab continual learning 📈, GPT-Live architecture 🎙️</title>
+      <link>https://tldr.tech/ai/2026-08-04</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-08-04</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Don't be a meat proxy</title>
-      <link>https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-tag</link>
+      <link>https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/</link>
       <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://gruhn.me/blog/2026-08-03/&quot;&gt;Don&amp;#x27;t be a meat proxy&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 Niklas Gruhn coins an excellent new term - &lt;strong&gt;meat proxy&lt;/strong&gt; - for people who blindly copy and paste the output of AI systems to their peers.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -738,22 +822,22 @@ Niklas Gruhn coins an excellent new term - &lt;strong&gt;meat proxy&lt;/strong&g
 
 
     &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/definitions&quot;&gt;definitions&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-misuse&quot;&gt;ai-misuse&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-tag</guid>
+      <guid>https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/</guid>
       <pubDate>2026-08-03T23:45:04+00:00</pubDate>
     </item>
     <item>
       <title>Quoting David Crawshaw's prompt</title>
-      <link>https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-tag</link>
+      <link>https://simonwillison.net/2026/Aug/3/david-crawshaw/</link>
       <description>&lt;blockquote cite=&quot;https://blog.exe.dev/devtools-must-be-open-source&quot;&gt;&lt;p&gt;&lt;code&gt;Set up a nightly cron job that executes the prompt: fetch upstream changes to the &amp;lt;software&amp;gt; and rebase all local changes on top of upstream. Check that the software works as intended and replace the current version.&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://blog.exe.dev/devtools-must-be-open-source&quot;&gt;David Crawshaw&amp;#x27;s prompt&lt;/a&gt;, Devtools must be open source&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/open-source&quot;&gt;open-source&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/prompt-engineering&quot;&gt;prompt-engineering&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-tag</guid>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/prompt-engineering&quot;&gt;prompt-engineering&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/open-source&quot;&gt;open-source&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Aug/3/david-crawshaw/</guid>
       <pubDate>2026-08-03T16:15:27+00:00</pubDate>
     </item>
     <item>
       <title>Devtools must be open source (exe.dev)</title>
-      <link>https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-tag</link>
+      <link>https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/</link>
       <description>&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49156111#49156719&quot;&gt;My comment&lt;/a&gt; on &lt;a href=&quot;https://news.ycombinator.com/item?id=49156111&quot;&gt;Devtools must be open source (exe.dev)&lt;/a&gt; &amp;mdash; Hacker News.&lt;/p&gt;&lt;p&gt;One of the arguments for open source software for end-users has always been the freedom to examine and modify how that software works.&lt;/p&gt;
 &lt;p&gt;The reality for most people - even expert programmers - has been that the freedom is more about being able to lean on &lt;em&gt;other people&lt;/em&gt; to do that. Most people can't justify the time commitment needed to read and then modify the code for tools they use very often.&lt;/p&gt;
 &lt;p&gt;I think LLMs have changed that equation in a way that makes the original dream much more feasible.&lt;/p&gt;
@@ -763,12 +847,19 @@ Niklas Gruhn coins an excellent new term - &lt;strong&gt;meat proxy&lt;/strong&g
     
     
         &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/hacker-news&quot;&gt;hacker-news&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/open-source&quot;&gt;open-source&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-assisted-programming&quot;&gt;ai-assisted-programming&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-tag</guid>
+      <guid>https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/</guid>
       <pubDate>2026-08-03T15:30:38+00:00</pubDate>
     </item>
     <item>
+      <title>DeepSeek V4 Flash ⚡, OpenAI’s math breakthrough 🔢, Qwen 3.8-Max 🤖</title>
+      <link>https://tldr.tech/ai/2026-08-03</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-08-03</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Open letters about AI development</title>
-      <link>https://simonwillison.net/2026/Aug/2/open-letters/#atom-tag</link>
+      <link>https://simonwillison.net/2026/Aug/2/open-letters/</link>
       <description>&lt;h4&gt;Open letters about AI development&lt;/h4&gt;
 &lt;p&gt;&lt;em&gt;I wrote this summary of the past few weeks of open letters as a section of &lt;a href=&quot;https://simonwillison.net/2026/Aug/2/july-newsletter/&quot;&gt;my sponsors-only newsletter&lt;/a&gt; but I've decided to share it here as well.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight/&quot;&gt;Open Weights and American AI Leadership&lt;/a&gt;&lt;/strong&gt; was shepherded by Microsoft, dated July 24th, and signed by 235 AI-adjacent companies including NVIDIA (see Jensen's &lt;a href=&quot;https://twitter.com/jensenhuang/status/2080643682408321103&quot;&gt;first ever tweet&lt;/a&gt;), Amazon, Y Combinator, The Linux Foundation, and (a later signer) OpenAI.&lt;/p&gt;
@@ -788,24 +879,24 @@ Niklas Gruhn coins an excellent new term - &lt;strong&gt;meat proxy&lt;/strong&g
 &lt;p&gt;Their concern is intense competitive pressure combined with accelerated AI progress caused by automated AI research - and given that Anthropic &lt;a href=&quot;https://www.anthropic.com/institute/recursive-self-improvement&quot;&gt;produce 80% of their code with Claude Code&lt;/a&gt;, OpenAI had Sol &lt;a href=&quot;https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency/&quot;&gt;reduce their end-to-end serving costs by 20%&lt;/a&gt;, and Kimi K3 &lt;a href=&quot;https://www.kimi.com/blog/kimi-k3#chip-design&quot;&gt;designed a chip to serve a nano model built on its own architecture&lt;/a&gt;, you can see why people are taking that risk more seriously right now.&lt;/p&gt;
 
     &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/2/open-letters/#atom-tag</guid>
+      <guid>https://simonwillison.net/2026/Aug/2/open-letters/</guid>
       <pubDate>2026-08-02T04:16:52+00:00</pubDate>
     </item>
     <item>
       <title>Quoting Greg Brockman</title>
-      <link>https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-tag</link>
+      <link>https://simonwillison.net/2026/Aug/1/greg-brockman/</link>
       <description>&lt;blockquote cite=&quot;https://twitter.com/gdb/status/2083435180392673714&quot;&gt;&lt;p&gt;at openai, many people hook their chatgpt up to slack.&lt;/p&gt;
 &lt;p&gt;people really don't like when a coworker's chatgpt contacts them asking for help with a task, even when they'd be perfectly happy doing that same work if asked by that coworker.&lt;/p&gt;
 &lt;p&gt;reinforces how much people care about human relationships and helping each other, and want AI to give time back — or enhance time together — rather than become a layer separating people.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://twitter.com/gdb/status/2083435180392673714&quot;&gt;Greg Brockman&lt;/a&gt;, President and Co-Founder, OpenAI&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-misuse&quot;&gt;ai-misuse&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-tag</guid>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-misuse&quot;&gt;ai-misuse&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Aug/1/greg-brockman/</guid>
       <pubDate>2026-08-01T22:29:44+00:00</pubDate>
     </item>
     <item>
       <title>Ten advances in mathematics and theoretical computer science</title>
-      <link>https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-tag</link>
+      <link>https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/</link>
       <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://openai.com/index/ten-advances-in-mathematics/&quot;&gt;Ten advances in mathematics and theoretical computer science&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 A few days ago it was Anthropic &lt;a href=&quot;https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/&quot;&gt;discovering cryptographic weaknesses with Claude&lt;/a&gt; using Mythos Preview, spending $100,000 on tokens and with prompts that included &quot;again we are not looking for low hanging fruit, we want proper research to find genuinly hard findings.&quot;&lt;/p&gt;
 &lt;p&gt;Now it's OpenAI's turn to flex. They set &quot;an internal version of Astra, our next major model&quot; on finding solutions to ten mathematical problems that &quot;have seen no progress on the main result for at least a decade&quot;. They claim to have spent less than $2,000 at GPT-5.6 Sol token prices on each one.&lt;/p&gt;
@@ -822,12 +913,12 @@ A few days ago it was Anthropic &lt;a href=&quot;https://simonwillison.net/2026/
 
 
     &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/mathematics&quot;&gt;mathematics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/deep-blue&quot;&gt;deep-blue&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-tag</guid>
+      <guid>https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/</guid>
       <pubDate>2026-08-01T20:34:49+00:00</pubDate>
     </item>
     <item>
       <title>deepseek-ai/DeepSeek-V4-Flash-0731</title>
-      <link>https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-tag</link>
+      <link>https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/</link>
       <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731&quot;&gt;deepseek-ai/DeepSeek-V4-Flash-0731&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 The latest release in DeepSeek's V4 family, &quot;with substantially enhanced agentic capabilities&quot;. It's 304 billion parameters - 167GB on Hugging Face - but it appears to punch &lt;em&gt;well&lt;/em&gt; above its weight.&lt;/p&gt;
 &lt;p&gt;Artificial Analysis &lt;a href=&quot;https://artificialanalysis.ai/models/deepseek-v4-flash&quot;&gt;rank it&lt;/a&gt; ahead of MiniMax M3 - a 428B model. It's $0.14/million input and $0.27/million output pricing means this may currently be the best value-per-intelligence model out there. It's looking very good on the &lt;a href=&quot;https://artificialanalysis.ai/models/deepseek-v4-flash#intelligence-comparison-tabs&quot;&gt;Intelligence Index vs. Cost per Intelligence Index Task&lt;/a&gt; chart:&lt;/p&gt;
@@ -842,12 +933,12 @@ The latest release in DeepSeek's V4 family, &quot;with substantially enhanced ag
 
 
     &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/deepseek&quot;&gt;deepseek&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-release&quot;&gt;llm-release&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openrouter&quot;&gt;openrouter&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-in-china&quot;&gt;ai-in-china&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/artificial-analysis&quot;&gt;artificial-analysis&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-tag</guid>
+      <guid>https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/</guid>
       <pubDate>2026-07-31T23:59:44+00:00</pubDate>
     </item>
     <item>
       <title>Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)</title>
-      <link>https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-tag</link>
+      <link>https://simonwillison.net/2026/Jul/31/stateless-mcp/</link>
       <description>&lt;p&gt;Tuesday was &lt;a href=&quot;https://x.com/ade_oshineye/status/2082129440943866149&quot;&gt;Stateless MCP day&lt;/a&gt; - the rollout of MCP 2.0, or &lt;a href=&quot;https://blog.modelcontextprotocol.io/posts/2026-07-28/&quot;&gt;the 2026-07-28 Model Context Protocol specification&lt;/a&gt; to use the more formal but less memorable name. This is the most significant change to the MCP spec since it first launched, and has also served to reignite my personal interest in the protocol.&lt;/p&gt;
 &lt;p&gt;For background: MCP is the Model Context Protocol, which describes a standard way to expose new tools to LLM-powered agent frameworks. It was introduced by Anthropic back &lt;a href=&quot;https://www.anthropic.com/news/model-context-protocol&quot;&gt;in November 2024&lt;/a&gt;, had a &lt;em&gt;huge&lt;/em&gt; spike of interest through much of 2025, and then became somewhat eclipsed by &lt;a href=&quot;https://simonwillison.net/2025/Oct/16/claude-skills/&quot;&gt;Skills&lt;/a&gt; (another Anthropic invention) when it became apparent that an agent harness with access to a terminal and &lt;code&gt;curl&lt;/code&gt; could do most of what MCP did in a more flexible way. I wrote about that &lt;a href=&quot;https://simonwillison.net/2025/Dec/31/the-year-in-llms/#the-only-year-of-mcp&quot;&gt;in my review of 2025&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I'm coming back around to MCP now. Giving an agent a shell environment with the ability to access the internet is &lt;a href=&quot;https://simonwillison.net/2026/Jul/22/openai-cyberattack/&quot;&gt;fraught with risk&lt;/a&gt;, and requires a strong model that is capable of effectively driving such an environment. MCP tools are easier to audit and control, and simple enough that smaller models that run on a laptop can still drive them reasonably well.&lt;/p&gt;
@@ -985,12 +1076,12 @@ llm -T &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;'
 &lt;p&gt;I plan to lean into MCP a whole lot more when I'm building sensitive applications on top of LLMs.&lt;/p&gt;
     
         &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/projects&quot;&gt;projects&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/datasette&quot;&gt;datasette&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/mermaid&quot;&gt;mermaid&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm&quot;&gt;llm&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/model-context-protocol&quot;&gt;model-context-protocol&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-tag</guid>
+      <guid>https://simonwillison.net/2026/Jul/31/stateless-mcp/</guid>
       <pubDate>2026-07-31T23:13:22+00:00</pubDate>
     </item>
     <item>
       <title>Oxide and Friends: The Open Weight Revolution with Simon Willison</title>
-      <link>https://simonwillison.net/2026/Jul/31/oxide-and-friends/#atom-tag</link>
+      <link>https://simonwillison.net/2026/Jul/31/oxide-and-friends/</link>
       <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://oxide-and-friends.transistor.fm/episodes/the-open-weight-revolution-with-simon-willison&quot;&gt;Oxide and Friends: The Open Weight Revolution with Simon Willison&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 On Monday Bryan Cantrill and Adam Leventhal invited me to join their podcast to talk about the &lt;em&gt;wild&lt;/em&gt; week we've had - with Kimi K3 showing open weight models can stand toe-to-toe with proprietary frontier ones, &lt;a href=&quot;https://simonwillison.net/2026/Jul/22/openai-cyberattack/&quot;&gt;accidental cybersecurity attacks&lt;/a&gt;, and public letters about &lt;a href=&quot;https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight/&quot;&gt;Open Weights and American AI Leadership&lt;/a&gt; signed by almost every big name in AI (with one &lt;a href=&quot;https://www.anthropic.com/news/position-open-weights-models&quot;&gt;notable exception&lt;/a&gt;).&lt;/p&gt;
 &lt;p&gt;It was a great conversation, even though it's already out-of-date! &lt;a href=&quot;https://artificialanalysis.ai/models/deepseek-v4-flash&quot;&gt;DeepSeek V4 Flash 0731&lt;/a&gt; and &lt;a href=&quot;https://simonwillison.net/2026/Jul/30/three-real-world-incidents/&quot;&gt;Anthropic's own embarrassing cyber incident&lt;/a&gt; would absolutely have made the cut if we had recorded just a few days later.&lt;/p&gt;
@@ -1002,68 +1093,15 @@ On Monday Bryan Cantrill and Adam Leventhal invited me to join their podcast to 
 
 
     &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/predictions&quot;&gt;predictions&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/local-llms&quot;&gt;local-llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/oxide&quot;&gt;oxide&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/bryan-cantrill&quot;&gt;bryan-cantrill&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/podcast-appearances&quot;&gt;podcast-appearances&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-in-china&quot;&gt;ai-in-china&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai-hugging-face-incident&quot;&gt;openai-hugging-face-incident&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/accidental-cyberattacks&quot;&gt;accidental-cyberattacks&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Jul/31/oxide-and-friends/#atom-tag</guid>
+      <guid>https://simonwillison.net/2026/Jul/31/oxide-and-friends/</guid>
       <pubDate>2026-07-31T21:33:13+00:00</pubDate>
     </item>
     <item>
-      <title>smevals - a small eval suite for evaluating models, prompts, and harnesses</title>
-      <link>https://simonwillison.net/2026/Jul/31/smevals/#atom-tag</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://primeradiant.com/blog/2026/smevals.html&quot;&gt;smevals - a small eval suite for evaluating models, prompts, and harnesses&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-I've been working with Jesse Vincent's &lt;a href=&quot;https://primeradiant.com&quot;&gt;Prime Radiant&lt;/a&gt; applied AI research lab building out this evals framework to help answer questions about the capabilities of different models.&lt;/p&gt;
-&lt;p&gt;The result is &lt;strong&gt;&lt;a href=&quot;https://github.com/prime-radiant-inc/smevals&quot;&gt;smevals&lt;/a&gt;&lt;/strong&gt;, a new tool for running small eval suites across different model configurations and grading the results.&lt;/p&gt;
-&lt;p&gt;The &lt;a href=&quot;https://primeradiant.com/blog/2026/smevals.html&quot;&gt;blog entry&lt;/a&gt; describes the tool in detail. Here's the 10 second version:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Tell your coding agent to &lt;code&gt;run uvx smevals docs&lt;/code&gt; to learn the tool (this outputs &lt;a href=&quot;https://github.com/prime-radiant-inc/smevals/blob/main/README.md&quot;&gt;the README&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Then tell it to build you an eval suite&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Once you've created an eval - which takes the form of a directory with some YAML files - you can run it against models like this:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;uvx smevals run path-to-eval/ -m gpt-5.5 -m claude-opus-4.6
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Runs are treated separately from grading operations - you can grade your runs (against your defined set of checks) using:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;uvx smevals grade path-to-eval/
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Then you can run a localhost web server to explore the results:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;uvx smevals serve path-to-eval/
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Or run the &lt;code&gt;smevals build&lt;/code&gt; command to build that report as static HTML, which you can then host anywhere. Here's &lt;a href=&quot;https://static.simonwillison.net/static/2026/smevals-haiku-build/#/haiku&quot;&gt;an example&lt;/a&gt; showing an eval suite I built to evaluate how well models can write haikus.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Screenshot of an evaluation dashboard for a haiku-writing benchmark, testing whether models can reply with exactly three non-empty lines. A header describes the eval, with panels below showing a leaderboard ranking three GPT models by score, lists of recent runs and recent grades, tag pass rates, the two haiku prompts that were tested, and details of the graders used with a 0.8 pass threshold.&quot; src=&quot;https://static.simonwillison.net/static/2026/smevals-report.webp&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;The most time-consuming part of this project was figuring out the vocabulary for it! Here's what I settled on, quoted from the announcement:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;An &lt;strong&gt;eval&lt;/strong&gt; is a collection of challenges designed to answer a question about a model, for example, how good is that model at generating SVGs?&lt;/li&gt;
-&lt;li&gt;Each eval is a collection of &lt;strong&gt;tasks&lt;/strong&gt;. A task is a specific challenge, for example &quot;Generate an SVG of a pelican riding a bicycle&quot;.&lt;/li&gt;
-&lt;li&gt;When you run the eval you do so against one or more &lt;strong&gt;configs&lt;/strong&gt;. Each config specifies a model to be evaluated, but may also include other parameters to test, such as different system prompts, model parameters, or agent harnesses.&lt;/li&gt;
-&lt;li&gt;A &lt;strong&gt;run&lt;/strong&gt; records what happened when a specific config was used to execute a specific task. A &lt;strong&gt;runner&lt;/strong&gt; is the script that executes a run.&lt;/li&gt;
-&lt;li&gt;Once you have collected one or more runs, you need to evaluate the results to see how well the model (or config) did. This is done by a &lt;strong&gt;grader&lt;/strong&gt;, which produces a &lt;strong&gt;grade&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Each grader runs a sequence of &lt;strong&gt;checks&lt;/strong&gt;. These can be simple operations, like checking for a specific string in the output, or confirming that the output is valid XML. They can also be more complicated custom operations (implemented as scripts called &lt;strong&gt;checkers&lt;/strong&gt;), including using other models to answer questions about the run.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;I've been trying to figure out an approach I like for evals for several years now. &lt;code&gt;smevals&lt;/code&gt; is my third iteration on the idea and it feels right to me. I'm looking forward to expanding this more in the future, as well as pointing it at some of my own projects.
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/projects&quot;&gt;projects&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm&quot;&gt;llm&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/evals&quot;&gt;evals&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/jesse-vincent&quot;&gt;jesse-vincent&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Jul/31/smevals/#atom-tag</guid>
-      <pubDate>2026-07-31T21:15:23+00:00</pubDate>
-    </item>
-    <item>
-      <title>Advancing the price-performance frontier with GPT‑5.6</title>
-      <link>https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-tag</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/&quot;&gt;Advancing the price-performance frontier with GPT‑5.6&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-Huge price drop from OpenAI today: GPT-5.6 Terra got a 20% reduction, and GPT-5.6 Luna got a massive 80% drop.&lt;/p&gt;
-&lt;p&gt;OpenAI credit 5.6 Sol with enabling this: in &lt;a href=&quot;https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency/&quot;&gt;How GPT‑5.6 fuses frontier intelligence with frontier efficiency&lt;/a&gt; they describe using 5.6 Sol to optimize load balancing, and more impressively to optimize inference itself:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;We also used GPT‑5.6 Sol to optimize the model’s forward pass: the computation that transforms inputs into next-token predictions. Even when individual operations are fast, excess memory movement, synchronization, and inefficient data layouts can leave GPUs idle. To avoid this, GPT‑5.6 Sol found work that could be precomputed, avoided, or parallelized. With Codex, GPT‑5.6 Sol autonomously rewrote and optimized our production kernels, the core code that executes the mathematical operations that make up the model. This worked in part because we’ve trained GPT‑5.6 to be effective at writing and improving kernels in &lt;a href=&quot;https://triton-lang.org/main/index.html&quot;&gt;Triton⁠&lt;/a&gt;and &lt;a href=&quot;https://triton-lang.org/main/gluon/index.html&quot;&gt;Gluon⁠&lt;/a&gt;, two open-source GPU programming languages maintained by OpenAI. These efforts, combined with broader kernel advancements from GPT‑5.6 Sol, reduced end-to-end serving costs by 20%.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;That Luna price drop completely changes the landscape with respect to lower priced models. At $0.20/million tokens for input and $1.20/million for output Luna is now cheaper than Google's Gemini 3.1 Flash-Lite ($.025/$1.50).&lt;/p&gt;
-&lt;p&gt;Anthropic's cheapest current model is Claude Haiku 4.5, and that's $1/$5 - Luna is now 1/5th of that for input, previously it cost the same.&lt;/p&gt;
-&lt;p&gt;My &lt;a href=&quot;https://agent.datasette.io/&quot;&gt;agent.datasette.io&lt;/a&gt; demo site was running on Gemini 3.1 Flash-Lite. I've switched it over to Luna.
-
-    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://news.ycombinator.com/item?id=49112867&quot;&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gemini&quot;&gt;gemini&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-pricing&quot;&gt;llm-pricing&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-tag</guid>
-      <pubDate>2026-07-30T23:58:42+00:00</pubDate>
+      <title>Inkling-Small 🧠, GPT-5.6 price cuts 💸, Gemini Robotics 2 🤖</title>
+      <link>https://tldr.tech/ai/2026-07-31</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-07-31</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Investigating three real-world incidents in our cybersecurity evaluations</title>
@@ -1071,6 +1109,27 @@ Huge price drop from OpenAI today: GPT-5.6 Terra got a 20% reduction, and GPT-5.
       <description>Investigating three real-world incidents in our cybersecurity evaluations</description>
       <guid>https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals</guid>
       <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI tops ARC-AGI-3 📈, GPT-5.6 efficiency ⚙️, AlphaFold team dissolution 🧬</title>
+      <link>https://tldr.tech/ai/2026-07-30</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-07-30</guid>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI slowdown pact ⏸️, Personal superintelligence access 🌍, Grok Build Mode 🛠️</title>
+      <link>https://tldr.tech/ai/2026-07-29</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-07-29</guid>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Anthropic on open weights 🔓, Kimi releases K3 weights 🤖, MAI Cyber model 🔐</title>
+      <link>https://tldr.tech/ai/2026-07-28</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-07-28</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients</title>
@@ -1085,6 +1144,13 @@ Huge price drop from OpenAI today: GPT-5.6 Terra got a 20% reduction, and GPT-5.
       <description>Our position on open-weights models</description>
       <guid>https://www.anthropic.com/news/position-open-weights-models</guid>
       <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Opus 5 🧠, inside OpenAI’s hack 👨‍💻, NVIDIA open weights 🔓</title>
+      <link>https://tldr.tech/ai/2026-07-27</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-07-27</guid>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Kimi K3 Redraws the Open Frontier, Muse Spark 1.1 Undercuts Competitors, Cloudflare Moves to Cut Off Crawlers</title>
@@ -1103,6 +1169,20 @@ Huge price drop from OpenAI today: GPT-5.6 Terra got a 20% reduction, and GPT-5.
       <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>ChatGPT Health 🩺, Fugu-Ultra 1.1 🐡, Runway Media Router 🎬</title>
+      <link>https://tldr.tech/ai/2026-07-24</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-07-24</guid>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Cursor Router 🔀, OpenAI Presence 🤖, AMD + Anthropic deal 🤝🏻</title>
+      <link>https://tldr.tech/ai/2026-07-23</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-07-23</guid>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Ask Claude about the Anthropic Economic Index</title>
       <link>https://www.anthropic.com/news/anthropic-economic-index-connector</link>
       <description>Ask Claude about the Anthropic Economic Index</description>
@@ -1117,6 +1197,13 @@ Huge price drop from OpenAI today: GPT-5.6 Terra got a 20% reduction, and GPT-5.
       <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Gemini 3.6 Flash ✨, OpenAI security escape 🚨, Devin Outposts 🛰️</title>
+      <link>https://tldr.tech/ai/2026-07-22</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-07-22</guid>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Anthropic is donating another $20 million to Public First Action</title>
       <link>https://www.anthropic.com/news/donation-public-first-action</link>
       <description>Anthropic is donating another $20 million to Public First Action</description>
@@ -1124,11 +1211,39 @@ Huge price drop from OpenAI today: GPT-5.6 Terra got a 20% reduction, and GPT-5.
       <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Ramp Router ⚡, Kimi Work 💼 , AMD Helios 🧱</title>
+      <link>https://tldr.tech/ai/2026-07-21</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-07-21</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Apply for Anthropic’s AI for Science rare disease research grants</title>
       <link>https://www.anthropic.com/news/rare-disease-research-grants</link>
       <description>Apply for Anthropic’s AI for Science rare disease research grants</description>
       <guid>https://www.anthropic.com/news/rare-disease-research-grants</guid>
       <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Qwen 3.8 ✨, Kimi Code CLI 👨‍💻, Netflix’s LLM stack 🤖</title>
+      <link>https://tldr.tech/ai/2026-07-20</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-07-20</guid>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Kimi K3 🌕, Gemini 3.5 delayed ⏳, crushing ARC-AGI 3 🤖</title>
+      <link>https://tldr.tech/ai/2026-07-17</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-07-17</guid>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Thinking Machines Inkling 🧠, GPT-Red 🔒, Perplexity sandboxes 🛡️</title>
+      <link>https://tldr.tech/ai/2026-07-16</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-07-16</guid>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Anthropic commits $10 million to Canadian AI research</title>
@@ -1402,146 +1517,6 @@ Huge price drop from OpenAI today: GPT-5.6 Terra got a 20% reduction, and GPT-5.
       <description>Anthropic names Theo Hourmouzis General Manager of Australia &amp; New Zealand and officially opens Sydney office</description>
       <guid>https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand</guid>
       <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce</title>
-      <link>https://www.anthropic.com/news/anthropic-nec</link>
-      <description>Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce</description>
-      <guid>https://www.anthropic.com/news/anthropic-nec</guid>
-      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>An update on our election safeguards</title>
-      <link>https://www.anthropic.com/news/election-safeguards-update</link>
-      <description>An update on our election safeguards</description>
-      <guid>https://www.anthropic.com/news/election-safeguards-update</guid>
-      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute</title>
-      <link>https://www.anthropic.com/news/anthropic-amazon-compute</link>
-      <description>Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute</description>
-      <guid>https://www.anthropic.com/news/anthropic-amazon-compute</guid>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing Claude Design by Anthropic Labs</title>
-      <link>https://www.anthropic.com/news/claude-design-anthropic-labs</link>
-      <description>Introducing Claude Design by Anthropic Labs</description>
-      <guid>https://www.anthropic.com/news/claude-design-anthropic-labs</guid>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing Claude Opus 4.7</title>
-      <link>https://www.anthropic.com/news/claude-opus-4-7</link>
-      <description>Introducing Claude Opus 4.7</description>
-      <guid>https://www.anthropic.com/news/claude-opus-4-7</guid>
-      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors</title>
-      <link>https://www.anthropic.com/news/narasimhan-board</link>
-      <description>Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors</description>
-      <guid>https://www.anthropic.com/news/narasimhan-board</guid>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute</title>
-      <link>https://www.anthropic.com/news/google-broadcom-partnership-compute</link>
-      <description>Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute</description>
-      <guid>https://www.anthropic.com/news/google-broadcom-partnership-compute</guid>
-      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Australian government and Anthropic sign MOU for AI safety and research</title>
-      <link>https://www.anthropic.com/news/australia-MOU</link>
-      <description>Australian government and Anthropic sign MOU for AI safety and research</description>
-      <guid>https://www.anthropic.com/news/australia-MOU</guid>
-      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic invests $100 million into the Claude Partner Network</title>
-      <link>https://www.anthropic.com/news/claude-partner-network</link>
-      <description>Anthropic invests $100 million into the Claude Partner Network</description>
-      <guid>https://www.anthropic.com/news/claude-partner-network</guid>
-      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing The Anthropic Institute</title>
-      <link>https://www.anthropic.com/news/the-anthropic-institute</link>
-      <description>Introducing The Anthropic Institute</description>
-      <guid>https://www.anthropic.com/news/the-anthropic-institute</guid>
-      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sydney will become Anthropic’s fourth office in Asia-Pacific</title>
-      <link>https://www.anthropic.com/news/sydney-fourth-office-asia-pacific</link>
-      <description>Sydney will become Anthropic’s fourth office in Asia-Pacific</description>
-      <guid>https://www.anthropic.com/news/sydney-fourth-office-asia-pacific</guid>
-      <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Partnering with Mozilla to improve Firefox’s security</title>
-      <link>https://www.anthropic.com/news/mozilla-firefox-security</link>
-      <description>Partnering with Mozilla to improve Firefox’s security</description>
-      <guid>https://www.anthropic.com/news/mozilla-firefox-security</guid>
-      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Where things stand with the Department of War</title>
-      <link>https://www.anthropic.com/news/where-stand-department-war</link>
-      <description>Where things stand with the Department of War</description>
-      <guid>https://www.anthropic.com/news/where-stand-department-war</guid>
-      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Statement on the comments from Secretary of War Pete Hegseth</title>
-      <link>https://www.anthropic.com/news/statement-comments-secretary-war</link>
-      <description>Statement on the comments from Secretary of War Pete Hegseth</description>
-      <guid>https://www.anthropic.com/news/statement-comments-secretary-war</guid>
-      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Statement from Dario Amodei on our discussions with the Department of War</title>
-      <link>https://www.anthropic.com/news/statement-department-of-war</link>
-      <description>Statement from Dario Amodei on our discussions with the Department of War</description>
-      <guid>https://www.anthropic.com/news/statement-department-of-war</guid>
-      <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic acquires Vercept to advance Claude's computer use capabilities</title>
-      <link>https://www.anthropic.com/news/acquires-vercept</link>
-      <description>Anthropic acquires Vercept to advance Claude's computer use capabilities</description>
-      <guid>https://www.anthropic.com/news/acquires-vercept</guid>
-      <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic’s Responsible Scaling Policy: Version 3.0</title>
-      <link>https://www.anthropic.com/news/responsible-scaling-policy-v3</link>
-      <description>Anthropic’s Responsible Scaling Policy: Version 3.0</description>
-      <guid>https://www.anthropic.com/news/responsible-scaling-policy-v3</guid>
-      <pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Detecting and preventing distillation attacks</title>
-      <link>https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks</link>
-      <description>Detecting and preventing distillation attacks</description>
-      <guid>https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks</guid>
-      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Making frontier cybersecurity capabilities available to defenders</title>
-      <link>https://www.anthropic.com/news/claude-code-security</link>
-      <description>Making frontier cybersecurity capabilities available to defenders</description>
-      <guid>https://www.anthropic.com/news/claude-code-security</guid>
-      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic and Infosys collaborate to build AI agents for telecommunications and other regulated industries</title>
-      <link>https://www.anthropic.com/news/anthropic-infosys</link>
-      <description>Anthropic and Infosys collaborate to build AI agents for telecommunications and other regulated industries</description>
-      <guid>https://www.anthropic.com/news/anthropic-infosys</guid>
-      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
