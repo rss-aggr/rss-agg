@@ -3,13 +3,40 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Thu, 13 Aug 2026 12:08:14 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 12:06:43 +0000</lastBuildDate>
+    <item>
+      <title>llm-gemini 0.33</title>
+      <link>https://simonwillison.net/2026/Aug/13/llm-gemini/</link>
+      <description>&lt;p&gt;&lt;strong&gt;Release:&lt;/strong&gt; &lt;a href=&quot;https://github.com/simonw/llm-gemini/releases/tag/0.33&quot;&gt;llm-gemini 0.33&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;It's been a while since the last &lt;code&gt;llm-gemini&lt;/code&gt; release. This version of the plugin adds support for today's &lt;a href=&quot;https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/&quot;&gt;Gemini 3.7 Flash&lt;/a&gt; release, plus &lt;code&gt;gemini-3.6-flash&lt;/code&gt;, &lt;code&gt;gemini-3.5-flash-lite&lt;/code&gt; and two embedding models &lt;code&gt;gemini-embedding-2&lt;/code&gt; and &lt;code&gt;gemini-embedding-001&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The plugin is also upgraded for compatibility with LLM 0.32, which means you can now see reasoning traces and you can also enable server-side tools using this pattern:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;llm -m gemini-3.7-flash -T CodeExecution \
+  'use python to calculate (factorial of 13) * 3'
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I had Gemini 3.7 Flash &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer.html#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F6779a22d5e7bb6bdf29936f1600a5259&quot;&gt;draw me some pelicans riding bicycles&lt;/a&gt; at high, medium, and low thinking efforts (minimal, which was an option in 3.6 Flash, has been removed in 3.7.) Here's the high level one, which is pretty great:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;This pelican has  a very cool curved green bicycle, a fish in its basket, a lovely red and white spotted scarf and a captain's hat&quot; src=&quot;https://static.simonwillison.net/static/2026/gemini-3.7-flash-high-pelican.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;One catch though: the pelican I showed here was rendered with Safari. Both Firefox and Chrome render it differently, due to Safari being more tolerant of empty SVG &lt;code&gt;&amp;lt;filter&amp;gt;&lt;/code&gt; elements than those other two browsers.&lt;/p&gt;
+&lt;p&gt;They still display the bicycle, but the pelican is missing entirely!&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;The same image except the pelican is entirely missing - it's just the bicycle.&quot; src=&quot;https://static.simonwillison.net/static/2026/broken-pelican-safari.jpg&quot; /&gt;&lt;/p&gt;
+    
+    
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/google&quot;&gt;google&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm&quot;&gt;llm&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gemini&quot;&gt;gemini&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-release&quot;&gt;llm-release&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Aug/13/llm-gemini/</guid>
+      <pubDate>2026-08-13T19:37:34+00:00</pubDate>
+    </item>
+    <item>
+      <title>Claude Chrome Cowork 🌐, Grok 4.6 🚀, DeepSeek v4-Pro-0813 🧠</title>
+      <link>https://tldr.tech/ai/2026-08-13</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-08-13</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>DeepSeek V4 Pro 0813 (on OpenRouter)</title>
       <link>https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/</link>
       <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://openrouter.ai/deepseek/deepseek-v4-pro-0813&quot;&gt;DeepSeek V4 Pro 0813 (on OpenRouter)&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 The latest DeepSeek Pro model is now available, via API only. I had to link to OpenRouter because DeepSeek don't have any obvious announcement page for their new model.&lt;/p&gt;
-&lt;p&gt;I haven't been able to confirm if they plan to release the open weights, but given the weights are available for both April's &lt;a href=&quot;https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro&quot;&gt;deepseek-ai/DeepSeek-V4-Pro&lt;/a&gt; and July's &lt;a href=&quot;https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731&quot;&gt;deepseek-ai/DeepSeek-V4-Flash-0731&lt;/a&gt; it seems likely.&lt;/p&gt;
+&lt;p&gt;I haven't been able to confirm if they plan to release the open weights, but given the weights are available for both April's &lt;a href=&quot;https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro&quot;&gt;deepseek-ai/DeepSeek-V4-Pro&lt;/a&gt; and July's &lt;a href=&quot;https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731&quot;&gt;deepseek-ai/DeepSeek-V4-Flash-0731&lt;/a&gt; it seems likely. &lt;strong&gt;Update&lt;/strong&gt;: the weights &lt;a href=&quot;https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813&quot;&gt;are now available&lt;/a&gt; on Hugging Face, 1.7T parameters, 893 GB.&lt;/p&gt;
 &lt;p&gt;Interestingly I got &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Fc1108a380593547c2def5863bca63160&quot;&gt;&lt;em&gt;very&lt;/em&gt; different looking pelicans&lt;/a&gt; for the three different reasoning levels of low, medium, and high. I've not noticed this kind of difference from any other model:&lt;/p&gt;
 &lt;p&gt;Low:&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&quot;Flat vector illustration of a white pelican with a large orange beak, wearing a straw hat with an orange band, riding a teal road bicycle in profile, set against a pale cream circle with a dashed outline and small motion marks trailing behind.&quot; src=&quot;https://static.simonwillison.net/static/2026/deepseek-pro-low.png&quot; /&gt;&lt;/p&gt;
@@ -1080,23 +1107,6 @@ llm -T &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;'
       <pubDate>2026-07-31T23:13:22+00:00</pubDate>
     </item>
     <item>
-      <title>Oxide and Friends: The Open Weight Revolution with Simon Willison</title>
-      <link>https://simonwillison.net/2026/Jul/31/oxide-and-friends/</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://oxide-and-friends.transistor.fm/episodes/the-open-weight-revolution-with-simon-willison&quot;&gt;Oxide and Friends: The Open Weight Revolution with Simon Willison&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-On Monday Bryan Cantrill and Adam Leventhal invited me to join their podcast to talk about the &lt;em&gt;wild&lt;/em&gt; week we've had - with Kimi K3 showing open weight models can stand toe-to-toe with proprietary frontier ones, &lt;a href=&quot;https://simonwillison.net/2026/Jul/22/openai-cyberattack/&quot;&gt;accidental cybersecurity attacks&lt;/a&gt;, and public letters about &lt;a href=&quot;https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight/&quot;&gt;Open Weights and American AI Leadership&lt;/a&gt; signed by almost every big name in AI (with one &lt;a href=&quot;https://www.anthropic.com/news/position-open-weights-models&quot;&gt;notable exception&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;It was a great conversation, even though it's already out-of-date! &lt;a href=&quot;https://artificialanalysis.ai/models/deepseek-v4-flash&quot;&gt;DeepSeek V4 Flash 0731&lt;/a&gt; and &lt;a href=&quot;https://simonwillison.net/2026/Jul/30/three-real-world-incidents/&quot;&gt;Anthropic's own embarrassing cyber incident&lt;/a&gt; would absolutely have made the cut if we had recorded just a few days later.&lt;/p&gt;
-&lt;p&gt;We also talk about &lt;a href=&quot;https://www.anthropic.com/news/golden-gate-claude&quot;&gt;Golden Gate Claude&lt;/a&gt;, the &lt;a href=&quot;https://en.wikipedia.org/wiki/Zizians&quot;&gt;Zizians&lt;/a&gt;, &lt;a href=&quot;https://abc7news.com/post/83-year-old-alameda-woman-attacked-wild-turkeys-city-warns-residents-take-precautions-during-mating-season/19190785/&quot;&gt;Alameda wild turkey attacks&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Soviet_biological_weapons_program&quot;&gt;Soviet Marburg virus research&lt;/a&gt;, the &lt;a href=&quot;https://en.wikipedia.org/wiki/Lead–crime_hypothesis&quot;&gt;Lead-crime hypothesis&lt;/a&gt;, and a bunch of other worthy digressions.&lt;/p&gt;
-&lt;p&gt;Finally, we revisited some of &lt;a href=&quot;https://simonwillison.net/2026/Jan/8/llm-predictions-for-2026/&quot;&gt;our predictions from January&lt;/a&gt;, and we &lt;a href=&quot;https://simonwillison.net/2026/May/25/encyclical-on-ai/#another-2026-prediction-down&quot;&gt;added a new Pope prediction&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Prediction by the end of this year: the Pope says something about open models.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/predictions&quot;&gt;predictions&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/local-llms&quot;&gt;local-llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/oxide&quot;&gt;oxide&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/bryan-cantrill&quot;&gt;bryan-cantrill&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/podcast-appearances&quot;&gt;podcast-appearances&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-in-china&quot;&gt;ai-in-china&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai-hugging-face-incident&quot;&gt;openai-hugging-face-incident&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/accidental-cyberattacks&quot;&gt;accidental-cyberattacks&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Jul/31/oxide-and-friends/</guid>
-      <pubDate>2026-07-31T21:33:13+00:00</pubDate>
-    </item>
-    <item>
       <title>Inkling-Small 🧠, GPT-5.6 price cuts 💸, Gemini Robotics 2 🤖</title>
       <link>https://tldr.tech/ai/2026-07-31</link>
       <description/>
@@ -1237,13 +1247,6 @@ On Monday Bryan Cantrill and Adam Leventhal invited me to join their podcast to 
       <description/>
       <guid>https://tldr.tech/ai/2026-07-17</guid>
       <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Thinking Machines Inkling 🧠, GPT-Red 🔒, Perplexity sandboxes 🛡️</title>
-      <link>https://tldr.tech/ai/2026-07-16</link>
-      <description/>
-      <guid>https://tldr.tech/ai/2026-07-16</guid>
-      <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Anthropic commits $10 million to Canadian AI research</title>
