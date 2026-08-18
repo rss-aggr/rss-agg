@@ -3,7 +3,48 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Mon, 17 Aug 2026 11:49:30 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 11:50:15 +0000</lastBuildDate>
+    <item>
+      <title>Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index</title>
+      <link>https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/</link>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://artificialanalysis.ai/models/qwen3-8-27b&quot;&gt;Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is &lt;a href=&quot;https://huggingface.co/zai-org/GLM-5.2&quot;&gt;753B&lt;/a&gt; and that DeepSeek is &lt;a href=&quot;https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813&quot;&gt;1.7T parameters&lt;/a&gt;, and Luna is size unknown but presumably a whole lot bigger than 27B.&lt;/p&gt;
+&lt;p&gt;Qwen 3.8 27B is &lt;a href=&quot;https://simonwillison.net/2026/Aug/16/qwen-38-27b/&quot;&gt;a truly astonishing model&lt;/a&gt;.
+
+    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://news.ycombinator.com/item?id=49334544&quot;&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/qwen&quot;&gt;qwen&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-in-china&quot;&gt;ai-in-china&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/artificial-analysis&quot;&gt;artificial-analysis&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/</guid>
+      <pubDate>2026-08-17T23:58:14+00:00</pubDate>
+    </item>
+    <item>
+      <title>We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility</title>
+      <link>https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/</link>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/&quot;&gt;We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+Excellent piece of reporting from 404 Media. For a while now there have been stories of book dealers receiving orders for large volumes of books from apparently price-insensitive anonymous customers, widely suspected to be companies looking to scan them for AI training (see &lt;a href=&quot;https://simonwillison.net/2025/Jun/24/anthropic-training/&quot;&gt;my previous coverage&lt;/a&gt; of Anthropic's book scanning from June 2025.)&lt;/p&gt;
+&lt;p&gt;404 Media investigated with an AirTag!&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In July, one bookseller told me they received a very large order of around 1,000 books on Biblio, one of these marketplaces. The seller agreed to put an Apple AirTag provided by 404 Media in one of the books included in this order so we could see where the book was going. And by extension, which company, AI or otherwise, was behind this massive order.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The book ended up delivered to the VGT3 corner of the &lt;a href=&quot;https://maps.app.goo.gl/2hMqbHrovTSZxh1U9&quot;&gt;LAS8 Amazon facility&lt;/a&gt; in the north east of Las Vegas, where the entrance carried this on-the-nose logo of a dinosaur with a book!&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Photo of an office entrance. A logo in the window shows a red tyrannosaurus with a book, its claws clearly digging in and with a hint that it is more interested in destruction than reading.&quot; src=&quot;https://static.simonwillison.net/static/2026-08-17/IMG_7418.jpeg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;Photo credit: 404 Media&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;Online forum discussions between Amazon workers confirmed that VGT3 destructively scans large volumes of books.
+
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/amazon&quot;&gt;amazon&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/journalism&quot;&gt;journalism&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/training-data&quot;&gt;training-data&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/404-media&quot;&gt;404-media&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/</guid>
+      <pubDate>2026-08-17T15:21:29+00:00</pubDate>
+    </item>
+    <item>
+      <title>GLM-5.3 🤖, Stripe OpenRouter deal 💰, AI agent consensus 🤝</title>
+      <link>https://tldr.tech/ai/2026-08-17</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-08-17</guid>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things</title>
       <link>https://simonwillison.net/2026/Aug/16/qwen-38-27b/</link>
@@ -45,7 +86,7 @@ And just for completeness, I used OpenRouter to run the same prompt through the 
     Your browser does not support HTML5 video.
   &lt;/video&gt;
 &lt;/p&gt;
-I said Qwen at xhigh has a tendency to over-think things, but how bad really is it?
+&lt;p&gt;I said Qwen at xhigh has a tendency to over-think things, but how bad really is it?&lt;/p&gt;
 &lt;p&gt;I tried a much simpler prompt, again with that default extra high setting:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;code&gt;draw an svg of a circle&lt;/code&gt;&lt;/p&gt;
@@ -615,7 +656,7 @@ There's a fun anecdote from Accenture (apparently via leaked meeting audio recor
     &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://www.tiktok.com/@404.media/video/7654962124053171470&quot;&gt;@404.media on TikTok&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
 
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/pdf&quot;&gt;pdf&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/markdown&quot;&gt;markdown&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-misuse&quot;&gt;ai-misuse&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/pdf&quot;&gt;pdf&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/markdown&quot;&gt;markdown&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-misuse&quot;&gt;ai-misuse&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/404-media&quot;&gt;404-media&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/</guid>
       <pubDate>2026-08-07T16:18:51+00:00</pubDate>
     </item>
@@ -1072,51 +1113,11 @@ Niklas Gruhn coins an excellent new term - &lt;strong&gt;meat proxy&lt;/strong&g
       <pubDate>2026-08-03T16:15:27+00:00</pubDate>
     </item>
     <item>
-      <title>Devtools must be open source (exe.dev)</title>
-      <link>https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/</link>
-      <description>&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49156111#49156719&quot;&gt;My comment&lt;/a&gt; on &lt;a href=&quot;https://news.ycombinator.com/item?id=49156111&quot;&gt;Devtools must be open source (exe.dev)&lt;/a&gt; &amp;mdash; Hacker News.&lt;/p&gt;&lt;p&gt;One of the arguments for open source software for end-users has always been the freedom to examine and modify how that software works.&lt;/p&gt;
-&lt;p&gt;The reality for most people - even expert programmers - has been that the freedom is more about being able to lean on &lt;em&gt;other people&lt;/em&gt; to do that. Most people can't justify the time commitment needed to read and then modify the code for tools they use very often.&lt;/p&gt;
-&lt;p&gt;I think LLMs have changed that equation in a way that makes the original dream much more feasible.&lt;/p&gt;
-&lt;p&gt;Several times a day I'll prompt regular Claude chat to &quot;Clone x/y from GitHub and tell me how Z works&quot;.&lt;/p&gt;
-&lt;p&gt;Getting software to compile in order to start hacking on it used to be enough friction that I often wouldn't bother. Now I treat that as a zero time investment challenge: tell Codex or Claude Code to checkout and build X and then come back ten minutes later and see how it got on.&lt;/p&gt;
-&lt;p&gt;I'm not habitually &lt;em&gt;modifying&lt;/em&gt; the software I use yet, but I can see a path to that which didn't exist a year or so ago.&lt;/p&gt;
-    
-    
-        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/hacker-news&quot;&gt;hacker-news&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/open-source&quot;&gt;open-source&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-assisted-programming&quot;&gt;ai-assisted-programming&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/</guid>
-      <pubDate>2026-08-03T15:30:38+00:00</pubDate>
-    </item>
-    <item>
       <title>DeepSeek V4 Flash ⚡, OpenAI’s math breakthrough 🔢, Qwen 3.8-Max 🤖</title>
       <link>https://tldr.tech/ai/2026-08-03</link>
       <description/>
       <guid>https://tldr.tech/ai/2026-08-03</guid>
       <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Open letters about AI development</title>
-      <link>https://simonwillison.net/2026/Aug/2/open-letters/</link>
-      <description>&lt;h4&gt;Open letters about AI development&lt;/h4&gt;
-&lt;p&gt;&lt;em&gt;I wrote this summary of the past few weeks of open letters as a section of &lt;a href=&quot;https://simonwillison.net/2026/Aug/2/july-newsletter/&quot;&gt;my sponsors-only newsletter&lt;/a&gt; but I've decided to share it here as well.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight/&quot;&gt;Open Weights and American AI Leadership&lt;/a&gt;&lt;/strong&gt; was shepherded by Microsoft, dated July 24th, and signed by 235 AI-adjacent companies including NVIDIA (see Jensen's &lt;a href=&quot;https://twitter.com/jensenhuang/status/2080643682408321103&quot;&gt;first ever tweet&lt;/a&gt;), Amazon, Y Combinator, The Linux Foundation, and (a later signer) OpenAI.&lt;/p&gt;
-&lt;p&gt;It's clearly an argument designed to counter &lt;a href=&quot;https://www.axios.com/2026/07/20/ai-us-china-open-source-kimi&quot;&gt;any instincts&lt;/a&gt; by the current US government to ban or limit open weight models over &quot;safety&quot; concerns - a reasonable consideration given &lt;a href=&quot;https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/&quot;&gt;what happened to Claude Fable 5&lt;/a&gt;!&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Relying solely on closed models is not inherently safe: they can be breached, misused, or fail in ways that outsiders cannot detect. And concentrating advanced AI capabilities behind a small number of closed models compounds that risk. It results in a small number of single points of failure, weakens competition, and leaves critical technology in the hands of a few providers. Open weight models, on the other hand, allow a broad community of researchers and developers to examine their behavior, identify vulnerabilities, develop safeguards, and improve them over time.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;The one surprising note in the letter is that it comes out in support of distillation, where models train on output from other models:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;In shaping this ecosystem, policymakers should be careful not to conflate legitimate model-development techniques with misappropriation. Distillation, or the practice of using one model’s outputs to help train or improve another, is a widely used technique for model improvement, evaluation, and validation. It reflects a long tradition of learning from, building upon, and improving existing technologies, a tradition that has helped drive innovation since the rise of the open-source software movement.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Notably absent from the signatures: Anthropic, who published their own response &lt;a href=&quot;https://www.anthropic.com/news/position-open-weights-models&quot;&gt;Our position on open-weights models&lt;/a&gt; three days later. CEO Dario Amodei doubled down on the risk of authoritarian governments building &quot;AI models that are more powerful than those built by the US&quot;, and models being &quot;misused to carry out cyberattacks or biological attacks&quot;, and called for &quot;a crack down on industrial-scale &lt;a href=&quot;https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks&quot;&gt;distillation operations&lt;/a&gt;&quot;, while also stating that &quot;Anthropic has never advocated for a ban on open-weights models&quot;.&lt;/p&gt;
-&lt;p&gt;Then on July 28th &lt;a href=&quot;https://www.pacingthefrontier.com&quot;&gt;Pacing the Frontier&lt;/a&gt; was published, featuring signatures from &quot;1,324 employees of frontier AI companies&quot; - with names like Jakub Pachocki (Chief Scientist, OpenAI), Ilya Sutskever (Safe Superintelligence Inc, previously OpenAI), Dario Amodei (Anthropic), Jack Clark (Anthropic) and more. Their core message:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;We request that the U.S. government support an international effort to develop the technical and governance tools needed to deliberately pace the frontier of automated AI development.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Their concern is intense competitive pressure combined with accelerated AI progress caused by automated AI research - and given that Anthropic &lt;a href=&quot;https://www.anthropic.com/institute/recursive-self-improvement&quot;&gt;produce 80% of their code with Claude Code&lt;/a&gt;, OpenAI had Sol &lt;a href=&quot;https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency/&quot;&gt;reduce their end-to-end serving costs by 20%&lt;/a&gt;, and Kimi K3 &lt;a href=&quot;https://www.kimi.com/blog/kimi-k3#chip-design&quot;&gt;designed a chip to serve a nano model built on its own architecture&lt;/a&gt;, you can see why people are taking that risk more seriously right now.&lt;/p&gt;
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/2/open-letters/</guid>
-      <pubDate>2026-08-02T04:16:52+00:00</pubDate>
     </item>
     <item>
       <title>Inkling-Small 🧠, GPT-5.6 price cuts 💸, Gemini Robotics 2 🤖</title>
@@ -1245,13 +1246,6 @@ Niklas Gruhn coins an excellent new term - &lt;strong&gt;meat proxy&lt;/strong&g
       <description>Apply for Anthropic’s AI for Science rare disease research grants</description>
       <guid>https://www.anthropic.com/news/rare-disease-research-grants</guid>
       <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Qwen 3.8 ✨, Kimi Code CLI 👨‍💻, Netflix’s LLM stack 🤖</title>
-      <link>https://tldr.tech/ai/2026-07-20</link>
-      <description/>
-      <guid>https://tldr.tech/ai/2026-07-20</guid>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Anthropic commits $10 million to Canadian AI research</title>
