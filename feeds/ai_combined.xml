@@ -3,7 +3,74 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Wed, 19 Aug 2026 11:49:23 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 11:52:14 +0000</lastBuildDate>
+    <item>
+      <title>smolmachines / smolvm as a sandbox for untrusted Python &amp; JavaScript</title>
+      <link>https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/</link>
+      <description>&lt;p&gt;&lt;strong&gt;Research:&lt;/strong&gt; &lt;a href=&quot;https://github.com/simonw/research/tree/main/smolmachines-untrusted-sandbox#readme&quot;&gt;smolmachines / smolvm as a sandbox for untrusted Python &amp;amp; JavaScript&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;I tasked Claude Fable 5 running in Claude Code for web with the following research task:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Put https://smolmachines.com through its paces as a fast secure sandbox. Explore what it would take to use this to run untrusted Python and JavaScript code in a way that is limited in what RAM and CPU time it can take up (protection against &quot;while true&quot;) with no network access and filesystem access only to designated files&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Goal is to be able to use this to execute user-provided tasks for things like data transformations&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It quickly ran into a problem: the Claude Code for web environment can't run &lt;a href=&quot;https://smolmachines.com&quot;&gt;smol machines&lt;/a&gt;. Quoting the &lt;a href=&quot;https://github.com/simonw/research/blob/5e6861e54441472d194de96b49b901fd99ebc153/smolmachines-untrusted-sandbox/notes.md#environment-check&quot;&gt;notes it wrote&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;This Claude Code container: Linux 6.18.5-fc-v20 (itself a Firecracker guest), 4 vCPU, 15GB RAM. &lt;strong&gt;No /dev/kvm, no vmx/svm CPU flags&lt;/strong&gt; → no nested virt.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;smolvm machine run&lt;/code&gt; fails as expected: &quot;kvm not available&quot;.&lt;/li&gt;
+&lt;li&gt;Plan B: GitHub Actions ubuntu runners DO expose /dev/kvm → run the real test battery via a temporary workflow on this branch, collect logs, remove workflow in final commit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;And Plan B is &lt;a href=&quot;https://github.com/simonw/research/blob/5e6861e54441472d194de96b49b901fd99ebc153/.github/workflows/smolvm-sandbox-test.yml&quot;&gt;what it did&lt;/a&gt;, installing smolvm and running &lt;a href=&quot;https://github.com/simonw/research/blob/5e6861e54441472d194de96b49b901fd99ebc153/smolmachines-untrusted-sandbox/run-tests.sh&quot;&gt;these tests&lt;/a&gt; directly in a GitHub Actions runner against that branch.&lt;/p&gt;
+&lt;p&gt;That was a creative solution to the environmental limits posed by Claude Code for web. Another example of Fable being &lt;a href=&quot;https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/&quot;&gt;relentlessly proactive&lt;/a&gt;.&lt;/p&gt;
+    
+    
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/research&quot;&gt;research&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/sandboxing&quot;&gt;sandboxing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/github-actions&quot;&gt;github-actions&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/</guid>
+      <pubDate>2026-08-19T23:16:00+00:00</pubDate>
+    </item>
+    <item>
+      <title>Quoting Jeremy Morrell</title>
+      <link>https://simonwillison.net/2026/Aug/19/jeremy-morrell/</link>
+      <description>&lt;blockquote cite=&quot;https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/&quot;&gt;&lt;p&gt;My hypothesis is that &lt;strong&gt;there is a new opportunity for Extensible Software on the web&lt;/strong&gt;. LLMs radically lower the cost of authoring extensions, and modern sandbox primitives lower the deployment cost and provide good security boundaries. We can build our app as a solid, accountable core, and allow users to safely extend it in many directions by having LLMs fill in the missing pieces. &lt;strong&gt;We can give our users super powers.&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/&quot;&gt;Jeremy Morrell&lt;/a&gt;, Extensible Software in the age of LLMs&lt;/p&gt;
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/sandboxing&quot;&gt;sandboxing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Aug/19/jeremy-morrell/</guid>
+      <pubDate>2026-08-19T22:56:31+00:00</pubDate>
+    </item>
+    <item>
+      <title>Conceptual integrity and counting lines of code</title>
+      <link>https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/</link>
+      <description>&lt;p&gt;Last week I recorded &lt;a href=&quot;https://talkingpostgres.com/episodes/how-ai-is-changing-software-development-with-simon-willison&quot;&gt;an episode of the Talking Postgres podcast&lt;/a&gt; with Claire Giordano on the subject of &quot;How AI is changing software development&quot;. We had a really great conversation. Here are a couple of my highlights from a lightly edited transcript (prompt to Claude: &quot;very minor edits to remove disfluencies&quot;).&lt;/p&gt;
+&lt;p&gt;This is the latest version of an argument I've been trying to build about why sometimes it &lt;em&gt;does&lt;/em&gt; make sense to talk about lines of code as an indicator of productivity with coding agents, at &lt;a href=&quot;https://talkingpostgres.com/episodes/how-ai-is-changing-software-development-with-simon-willison#t=35m1s&quot;&gt;35:01&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A lot of people will tell you it makes no sense to measure productivity in lines of code. I’d actually disagree, because there’s a hard limit. In the before-times, a software engineer could produce a few hundred lines of production-ready code per day — and 200 lines of working, debugged, production-level code is an incredibly good day. Most days you’d produce 50 or 60.&lt;/p&gt;
+&lt;p&gt;If agents let you produce a thousand lines of debugged code, that really is a very meaningful improvement — as long as the code is the same quality: maintainable, tested, all of that. You can get to that point with agents, but it takes a huge amount of skill and knowledge and experience. That’s what senior engineers are made of.&lt;/p&gt;
+&lt;p&gt;I can do way more work as a single engineer than I could without agents. So you could argue, why should a company have more than one engineer? Beyond the obvious bus factor thing — a team of one is a very badly designed team — the answer is that the new limiting factor is cognitive capacity. I can churn out code a hundred times faster. I don’t have the cognitive capacity to stay on top of 100 times the amount of code. So you still need a team of engineers, so you can load balance that cognitive capacity across the team.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;And this section on conceptual integrity at &lt;a href=&quot;https://talkingpostgres.com/episodes/how-ai-is-changing-software-development-with-simon-willison#t=46m3s&quot;&gt;46:03&lt;/a&gt;, which Claire equated to the &lt;a href=&quot;https://en.wikipedia.org/wiki/Winchester_Mystery_House&quot;&gt;Winchester Mystery House&lt;/a&gt;!&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Simon&lt;/strong&gt;: There’s a concept in &lt;em&gt;The Mythical Man-Month&lt;/em&gt; — conceptual integrity — where well-designed software has an integrity to it: there are no surprises in it, it covers exactly the right domain of things, everything fits together and makes sense. That’s so much harder with coding agents, where you can have an idea for a feature, run a prompt, and five minuteslater you’ve got the feature. Your software grows little weird bumps in funny different directions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Claire&lt;/strong&gt;: You know my analogy for that? The Winchester Mystery House.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Simon&lt;/strong&gt;: It’s got 140 rooms, because the woman who built it was the widow of the guy who invented the Winchester rifle, and her psychic told her she’d be haunted by the ghosts of everyone killed with that rifle unless she kept building the house forever. So for 40 years she kept adding new rooms.
+
+That’s exactly the problem with coding agents and software: it’s very easy to keep adding new rooms, because the cost of adding those rooms is so much cheaper. What you end up with is something where the conceptual integrity falls apart — and then it’s harder to make decisions about it.&lt;/p&gt;
+&lt;p&gt;It all keeps coming back to discipline. It used to be that the discipline was enforced on you by the amount of time it took. You’d come up with an idea for a crazy feature and think “yeah, but that would take me a week — I cannot justify that, so I’ll forget about it.” If it takes an hour, it’s so much easier to justify.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;(Side-note: the Wikipedia article includes credible sources that dispute the story about the psychic.)&lt;/p&gt;
+    
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/podcast-appearances&quot;&gt;podcast-appearances&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/</guid>
+      <pubDate>2026-08-19T22:46:07+00:00</pubDate>
+    </item>
+    <item>
+      <title>GLM-5.3 API 🤖, Cerebras’ new chip ⚡, OpenAI cyber slowdown 🚨</title>
+      <link>https://tldr.tech/ai/2026-08-19</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-08-19</guid>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Cursor Origin 👨‍💻, Anthropic $65B revenue 💰, deadline dividend scaling 📈</title>
       <link>https://tldr.tech/ai/2026-08-18</link>
@@ -206,7 +273,7 @@ My strong recommendation: ignore that default. Run Qwen 3.8 27B on low or even n
       <description>&lt;blockquote cite=&quot;https://twitter.com/darioamodei/status/2088758819304443967&quot;&gt;&lt;p&gt;I do agree that the public has a negative view of AI (and that this is a big problem), but I don’t think it is primarily caused by me or any other AI leader warning about AI’s risks.  I think it is fundamentally a crisis of trust.  I think that ordinary people don’t trust companies, governments, or the tech industry and always suspect that we are cooking up some new way to screw them over.  The causes of this go back decades and AI is just the latest iteration of it.  I don’t think that a glitzy marketing campaign with a positive spin (which some have advocated that Anthropic do) is the way to win back that trust — at this point, saying that AI will cure cancer is more a cliche than it is inspiring, and most people think it is deceptive.  The thing that will work is &lt;em&gt;actually curing cancer&lt;/em&gt;.  I think by far the most accurate criticism of AI companies including Anthropic is that we haven’t yet delivered on our big promises to benefit the world.  That is totally on us, and I think it’s the criticism you should be making, instead of all this stuff about messaging and marketing.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://twitter.com/darioamodei/status/2088758819304443967&quot;&gt;Dario Amodei&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-backlash&quot;&gt;ai-backlash&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-backlash&quot;&gt;ai-backlash&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Aug/16/dario-amodei/</guid>
       <pubDate>2026-08-16T15:05:36+00:00</pubDate>
     </item>
@@ -319,7 +386,7 @@ The latest DeepSeek Pro model is now available, via API only. I had to link to O
 &lt;p&gt;This project has become so convoluted, with so many layers and services, that no one on your team could possibly start to understand what's going on.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html&quot;&gt;Florian Herrengt&lt;/a&gt;, AI is removing the middle class of software engineering&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai-misuse&quot;&gt;ai-misuse&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/cognitive-debt&quot;&gt;cognitive-debt&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-assisted-programming&quot;&gt;ai-assisted-programming&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-assisted-programming&quot;&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-misuse&quot;&gt;ai-misuse&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/cognitive-debt&quot;&gt;cognitive-debt&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Aug/12/florian-herrengt/</guid>
       <pubDate>2026-08-12T15:08:47+00:00</pubDate>
     </item>
@@ -454,7 +521,7 @@ Meta are back in the open weights game! Muse Glimmer is a brand new 30B model un
       <description>&lt;blockquote cite=&quot;https://www.abc.net.au/news/2026-08-10/ai-assistant-hacks-gym-website-aus-cyber-attack/107007986&quot;&gt;&lt;p&gt;The API has zero authorisations checks on cancelling other people's reservations … I tested this with the person in waitlist position #1 — and it actually went through. So you've moved from #4 to #3 already.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://www.abc.net.au/news/2026-08-10/ai-assistant-hacks-gym-website-aus-cyber-attack/107007986&quot;&gt;OpenClaw (running Opus 4.6)&lt;/a&gt;, hacking an Australian gym-booking website&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openclaw&quot;&gt;openclaw&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openclaw&quot;&gt;openclaw&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Aug/10/openclaw/</guid>
       <pubDate>2026-08-10T02:05:16+00:00</pubDate>
     </item>
@@ -471,7 +538,7 @@ Meta are back in the open weights game! Muse Glimmer is a brand new 30B model un
       <description>&lt;blockquote cite=&quot;https://platform.claude.com/docs/en/release-notes/system-prompts#claude-opus-5&quot;&gt;&lt;p&gt;Claude Fable 5 and Claude Mythos 5 were first released on June 9, 2026. On June 12, 2026, Anthropic suspended access to both models to comply with U.S. Department of Commerce export controls; the Department lifted those controls on June 30, 2026, and Anthropic restored access on July 1, 2026 (Anthropic's statement: &lt;a href=&quot;https://www.anthropic.com/news/fable-mythos-access&quot;&gt;https://www.anthropic.com/news/fable-mythos-access&lt;/a&gt;). These events are after Claude's training-data cutoff, so Claude knows about them only from this notice. If asked, Claude confirms them accurately and matter-of-factly — it doesn't deny the suspension happened — and otherwise treats the export controls like any other current political topic: it gives a fair, accurate account rather than sharing personal opinions, and points to the linked statement for anything further. Things may have developed since this notice, so Claude checks for newer information when it can search, and otherwise suggests checking Anthropic's site.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://platform.claude.com/docs/en/release-notes/system-prompts#claude-opus-5&quot;&gt;Claude Opus 5 system prompt&lt;/a&gt;, ensuring Claude doesn't provide incorrect answers about the &lt;a href=&quot;https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/&quot;&gt;export controls situation&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/system-prompts&quot;&gt;system-prompts&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/system-prompts&quot;&gt;system-prompts&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/</guid>
       <pubDate>2026-08-09T23:31:39+00:00</pubDate>
     </item>
@@ -1070,16 +1137,6 @@ uv run --with mlx-vlm \
       <pubDate>2026-08-04T19:10:09+00:00</pubDate>
     </item>
     <item>
-      <title>Quoting Steve Yegge</title>
-      <link>https://simonwillison.net/2026/Aug/4/steve-yegge/</link>
-      <description>&lt;blockquote cite=&quot;https://yegge.ai/essays/the-shape-of-things-to-come/&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://yegge.ai/gastown.html&quot;&gt;Gas Town&lt;/a&gt; was intended to be reusable, but I only ever wound up using it to build itself. Gas Town fell apart at the seams with Opus 4.7. Up through 4.6 it was working brilliantly. With 4.7 we saw the introduction of the &quot;just two more things&quot; tic, which prevented Opus from ever converging on being ready to do real work—it always wanted to fiddle with Gas Town itself. The Opus tic never went away, so Gas Town effectively burned down. It had other problems, too, but 4.7 was the final straw.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://yegge.ai/essays/the-shape-of-things-to-come/&quot;&gt;Steve Yegge&lt;/a&gt;, The Shape of Things to Come&lt;/p&gt;
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/steve-yegge&quot;&gt;steve-yegge&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/4/steve-yegge/</guid>
-      <pubDate>2026-08-04T00:42:45+00:00</pubDate>
-    </item>
-    <item>
       <title>Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer</title>
       <link>https://www.anthropic.com/news/tino-cuellar</link>
       <description>Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer</description>
@@ -1092,32 +1149,6 @@ uv run --with mlx-vlm \
       <description/>
       <guid>https://tldr.tech/ai/2026-08-04</guid>
       <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Don't be a meat proxy</title>
-      <link>https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://gruhn.me/blog/2026-08-03/&quot;&gt;Don&amp;#x27;t be a meat proxy&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-Niklas Gruhn coins an excellent new term - &lt;strong&gt;meat proxy&lt;/strong&gt; - for people who blindly copy and paste the output of AI systems to their peers.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;By all means, prompt AI. But don't just relay the output. Read it, understand it, validate it, and then write a response in your own words (a decent certificate that you've done the prior steps). Making that effort is value you can add.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://lobste.rs/s/hfbqr3/don_t_be_meat_proxy#c_svolls&quot;&gt;Lobste.rs&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/definitions&quot;&gt;definitions&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-misuse&quot;&gt;ai-misuse&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/</guid>
-      <pubDate>2026-08-03T23:45:04+00:00</pubDate>
-    </item>
-    <item>
-      <title>Quoting David Crawshaw's prompt</title>
-      <link>https://simonwillison.net/2026/Aug/3/david-crawshaw/</link>
-      <description>&lt;blockquote cite=&quot;https://blog.exe.dev/devtools-must-be-open-source&quot;&gt;&lt;p&gt;&lt;code&gt;Set up a nightly cron job that executes the prompt: fetch upstream changes to the &amp;lt;software&amp;gt; and rebase all local changes on top of upstream. Check that the software works as intended and replace the current version.&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://blog.exe.dev/devtools-must-be-open-source&quot;&gt;David Crawshaw&amp;#x27;s prompt&lt;/a&gt;, Devtools must be open source&lt;/p&gt;
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/prompt-engineering&quot;&gt;prompt-engineering&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/open-source&quot;&gt;open-source&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/3/david-crawshaw/</guid>
-      <pubDate>2026-08-03T16:15:27+00:00</pubDate>
     </item>
     <item>
       <title>DeepSeek V4 Flash ⚡, OpenAI’s math breakthrough 🔢, Qwen 3.8-Max 🤖</title>
@@ -1225,13 +1256,6 @@ Niklas Gruhn coins an excellent new term - &lt;strong&gt;meat proxy&lt;/strong&g
       <description>A research agenda for the Economic Futures Research Fund</description>
       <guid>https://www.anthropic.com/news/economic-futures-research-fund-agenda</guid>
       <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Gemini 3.6 Flash ✨, OpenAI security escape 🚨, Devin Outposts 🛰️</title>
-      <link>https://tldr.tech/ai/2026-07-22</link>
-      <description/>
-      <guid>https://tldr.tech/ai/2026-07-22</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Anthropic is donating another $20 million to Public First Action</title>
