@@ -3,7 +3,32 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Thu, 20 Aug 2026 11:52:14 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 11:51:23 +0000</lastBuildDate>
+    <item>
+      <title>A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView</title>
+      <link>https://simonwillison.net/2026/Aug/20/bun-webview-json-api/</link>
+      <description>&lt;p&gt;&lt;strong&gt;Research:&lt;/strong&gt; &lt;a href=&quot;https://github.com/simonw/research/tree/main/bun-webview-json-api#readme&quot;&gt;A shot-scraper-style JSON API on Bun 1.4&amp;#x27;s new Bun.WebView&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;Today saw the long awaited &lt;a href=&quot;https://bun.com/blog/bun-v1.4&quot;&gt;release of Bun 1.4&lt;/a&gt;, the first stable version since the infamous Rust rewrite &lt;a href=&quot;https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/&quot;&gt;a few months ago&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Interestingly, the Rust rewrite was downplayed in the release notes, which introduced a bewildering array of new features and claimed 2,900 additional bug fixes:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Bun 1.4 adds +1,517 tests from the Node.js test suite - our biggest jump in Node.js compatibility since Bun 1.0. Bun v1.4 also fixes over 2,900 issues. It reduces idle CPU usage by 5x, reduces memory usage by up to 35%, and starts 50% faster on Linux. It adds &lt;a href=&quot;https://bun.com/blog/bun-v1.4#bun-image&quot;&gt;&lt;code&gt;Bun.Image&lt;/code&gt;&lt;/a&gt;, &lt;a href=&quot;https://bun.com/blog/bun-v1.4#bun-webview&quot;&gt;&lt;code&gt;Bun.WebView&lt;/code&gt;&lt;/a&gt;, &lt;a href=&quot;https://bun.com/blog/bun-v1.4#bun-markdown&quot;&gt;&lt;code&gt;Bun.markdown&lt;/code&gt;&lt;/a&gt;, &lt;a href=&quot;https://bun.com/blog/bun-v1.4#bun-cron&quot;&gt;&lt;code&gt;Bun.cron()&lt;/code&gt;&lt;/a&gt;, &lt;a href=&quot;https://bun.com/blog/bun-v1.4#bun-terminal&quot;&gt;&lt;code&gt;Bun.Terminal&lt;/code&gt;&lt;/a&gt;, &lt;a href=&quot;https://bun.com/blog/bun-v1.4#bun-run-parallel&quot;&gt;&lt;code&gt;bun run --parallel&lt;/code&gt;&lt;/a&gt;, &lt;a href=&quot;https://bun.com/blog/bun-v1.4#bun-test-parallel&quot;&gt;&lt;code&gt;bun test --parallel&lt;/code&gt;&lt;/a&gt;, &lt;a href=&quot;https://bun.com/blog/bun-v1.4#bun-audit-fix&quot;&gt;&lt;code&gt;bun audit fix&lt;/code&gt;&lt;/a&gt;, &lt;a href=&quot;https://bun.com/blog/bun-v1.4#bun-dedupe&quot;&gt;&lt;code&gt;bun dedupe&lt;/code&gt;&lt;/a&gt;, and &lt;a href=&quot;https://bun.com/blog/bun-v1.4#bun-prune&quot;&gt;&lt;code&gt;bun prune&lt;/code&gt;&lt;/a&gt;. And it rewrites Bun from Zig to Rust.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Of these the one that most caught my eye was &lt;code&gt;Bun.WebView&lt;/code&gt;, which adds first class support for browser automation to Bun core using either macOS WebKit or control of a local Chromium process via the Chrome DevTools Protocol (CDP).&lt;/p&gt;
+&lt;p&gt;I had Claude Code for web build a prototype of a web API providing the ability to load a web page and then execute JavaScript against it, inspired by my &lt;a href=&quot;https://shot-scraper.datasette.io/en/stable/javascript.html&quot;&gt;shot-scraper javascript&lt;/a&gt; CLI tool - partly to see how much RAM would be needed by such a service.&lt;/p&gt;
+&lt;p&gt;Here's &lt;a href=&quot;https://github.com/simonw/research/blob/main/bun-webview-json-api/server.ts&quot;&gt;that TypeScript server implementation&lt;/a&gt;, which appears to need a 192MB-256MB container to run a full Chrome against complex web pages - tested using cgroups.&lt;/p&gt;
+    
+    
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/browsers&quot;&gt;browsers&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/javascript&quot;&gt;javascript&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/rust&quot;&gt;rust&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/typescript&quot;&gt;typescript&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/bun&quot;&gt;bun&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Aug/20/bun-webview-json-api/</guid>
+      <pubDate>2026-08-20T15:37:00+00:00</pubDate>
+    </item>
+    <item>
+      <title>Muse Video leaks 📹, Ramp Router launch 🔀, why Stripe bought OpenRouter 💰</title>
+      <link>https://tldr.tech/ai/2026-08-20</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-08-20</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>smolmachines / smolvm as a sandbox for untrusted Python &amp; JavaScript</title>
       <link>https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/</link>
@@ -1099,44 +1124,6 @@ llm chat-completions-server --port 9000
       <pubDate>2026-08-04T23:58:24+00:00</pubDate>
     </item>
     <item>
-      <title>PipeNetwork/minimax-h3-mlx</title>
-      <link>https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/PipeNetwork/minimax-h3-mlx&quot;&gt;PipeNetwork/minimax-h3-mlx&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-MiniMax released &lt;a href=&quot;https://huggingface.co/MiniMaxAI/MiniMax-H3&quot;&gt;MiniMax-H3&lt;/a&gt; two days ago - they describe it as a &quot;a general-purpose, omni-modal generative system&quot;, which in practice means it accepts text, images, audio and video and can use them to generate up to 15 second video clips with audio included.&lt;/p&gt;
-&lt;p&gt;This Python package ports it to MLX for running on Apple Silicon.&lt;/p&gt;
-&lt;p&gt;I got it running on my M5 Max MacBook Pro. I cloned the repo and ran the model like this:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;# First download the models
-uvx --from huggingface_hub hf download MiniMaxAI/MiniMax-H3 \
-  --include 'FL2VA/*' --exclude 'FL2VA/transformer/*'
-uvx --from huggingface_hub hf download pipenetwork/MiniMax-H3-MLX-8bit
-
-# Now run the prompt
-uv run --with mlx-vlm \
-  --with-requirements requirements.txt python scripts/generate.py \
-  &quot;a rainbow colored skunk leaps over a mossy log in a supermarket&quot; \
-  -o skunk.mp4 \
-  -c ~/.cache/huggingface/hub/models--MiniMaxAI--MiniMax-H3/snapshots/fa9c8ab1eaa21c8ae25e7e40b83b2e6002f340af/FL2VA \
-  -t ~/.cache/huggingface/hub/models--pipenetwork--MiniMax-H3-MLX-8bit/snapshots/3ac52081470b0488921c3ec3ba84a39097bf2361
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Here's the video I got for the prompt:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;a rainbow colored skunk leaps over a mossy log in a supermarket&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;video controls=&quot;controls&quot; height=&quot;768&quot; loop=&quot;loop&quot; poster=&quot;https://static.simonwillison.net/static/2026/skunk.jpg&quot; preload=&quot;none&quot; style=&quot;display: block; width: 100%; height: auto;&quot; width=&quot;1344&quot;&gt;
-    &lt;source src=&quot;https://static.simonwillison.net/static/2026/skunk.web.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Your browser does not support HTML5 video.
-  &lt;/video&gt;
-&lt;/p&gt;
-
-&lt;p&gt;It downloaded ~115 GB of model files, and the video generation took just under 45 minutes.&lt;/p&gt;
-&lt;p&gt;The video is impressive, but the audio is weird speech-like garbage, because I didn't provide any prompt guidance as to what the audio should be. The &lt;a href=&quot;https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/docs/VIDEO_PROMPT_WRITING_GUIDE_base_en.md&quot;&gt;prompting guide&lt;/a&gt; (which I didn't read prior to this experiment) has a whole bunch of information on how to get this to work.
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/mlx&quot;&gt;mlx&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/text-to-video&quot;&gt;text-to-video&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/minimax&quot;&gt;minimax&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/</guid>
-      <pubDate>2026-08-04T19:10:09+00:00</pubDate>
-    </item>
-    <item>
       <title>Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer</title>
       <link>https://www.anthropic.com/news/tino-cuellar</link>
       <description>Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer</description>
@@ -1235,13 +1222,6 @@ uv run --with mlx-vlm \
       <description/>
       <guid>https://tldr.tech/ai/2026-07-24</guid>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Cursor Router 🔀, OpenAI Presence 🤖, AMD + Anthropic deal 🤝🏻</title>
-      <link>https://tldr.tech/ai/2026-07-23</link>
-      <description/>
-      <guid>https://tldr.tech/ai/2026-07-23</guid>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Ask Claude about the Anthropic Economic Index</title>
