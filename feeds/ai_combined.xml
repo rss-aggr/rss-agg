@@ -3,7 +3,51 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Sun, 23 Aug 2026 11:44:13 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 11:53:12 +0000</lastBuildDate>
+    <item>
+      <title>Anthropic’s best AI model struggles to attract users as cheaper tools thrive</title>
+      <link>https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/</link>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245&quot;&gt;Anthropic’s best AI model struggles to attract users as cheaper tools thrive&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+A few interesting numbers in this FT story gathered from &quot;people with knowledge of the matter&quot;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Anthropic's &quot;annualized revenue&quot; for July is up to $65bn - it was $47bn in May, and I collected &lt;a href=&quot;https://simonwillison.net/2026/May/29/anthropic/&quot;&gt;more historic numbers here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Anthropic expect Q3 to be profitable according to the same model they used to declare Q2 profitable. &quot;It also told investors that it had 6,000 customers that spend $100,000 annually or more.&quot;&lt;/li&gt;
+&lt;li&gt;As for OpenAI, &quot;annualised revenue has jumped 35 per cent in the quarter to date and is now over $40bn, with the launch of GPT 5.6 in July jolting the company’s performance after a sluggish start to the year&quot;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This article also introduced me to the &lt;a href=&quot;https://ramp.com/data/ai-index&quot;&gt;Ramp AI index&lt;/a&gt;, which uses billing data from 70,000 Ramp credit card using companies to estimate model adoption.&lt;/p&gt;
+&lt;p&gt;Here's Ramp's breakdown of Anthropic model spend for July 2026, which looks reasonable given that Opus 5 was only released on July 24th, and supports the idea that Fable's cost has made it a less popular model:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Opus 4.8: 28.0%&lt;/li&gt;
+&lt;li&gt;Sonnet 4.6: 8.3%&lt;/li&gt;
+&lt;li&gt;Fable 5: 8.0%&lt;/li&gt;
+&lt;li&gt;Opus 4.6: 6.9%&lt;/li&gt;
+&lt;li&gt;Sonnet 5: 3.6%&lt;/li&gt;
+&lt;li&gt;Opus 5: 3.5%&lt;/li&gt;
+&lt;li&gt;Opus 4.7: 1.7%&lt;/li&gt;
+&lt;li&gt;Sonnet 4.5: 1.3%&lt;/li&gt;
+&lt;li&gt;Haiku 4.5: 1.0%&lt;/li&gt;
+&lt;li&gt;Opus 4.5: 0.7%&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://news.ycombinator.com/item?id=49411102&quot;&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/</guid>
+      <pubDate>2026-08-23T20:24:52+00:00</pubDate>
+    </item>
+    <item>
+      <title>Quoting Drew Breunig</title>
+      <link>https://simonwillison.net/2026/Aug/23/drew-breunig/</link>
+      <description>&lt;blockquote cite=&quot;https://www.dbreunig.com/2026/08/23/fable-the-end-of-moore-s-law.html&quot;&gt;&lt;p&gt;Prior to Fable, it felt silly to waste &lt;em&gt;too&lt;/em&gt; much time improving your coding harness or context strategies. A new model would arrive at the same price (or cheaper!) and paper over most of your problems.&lt;/p&gt;
+&lt;p&gt;But then Fable landed. It was (and still is!) &lt;em&gt;incredible&lt;/em&gt;. But the cost was so high and Opus was &lt;em&gt;good enough&lt;/em&gt; (as was 5.6, K3, and even GLM) for &lt;em&gt;most&lt;/em&gt; of the code we needed.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;So we started to think about what work went where.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://www.dbreunig.com/2026/08/23/fable-the-end-of-moore-s-law.html&quot;&gt;Drew Breunig&lt;/a&gt;, Fable &amp;amp; The End of the Free Lunch&lt;/p&gt;
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/drew-breunig&quot;&gt;drew-breunig&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-pricing&quot;&gt;llm-pricing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Aug/23/drew-breunig/</guid>
+      <pubDate>2026-08-23T19:55:30+00:00</pubDate>
+    </item>
     <item>
       <title>Quoting Linus Torvalds</title>
       <link>https://simonwillison.net/2026/Aug/22/linus-torvalds/</link>
@@ -13,7 +57,7 @@
 &lt;p&gt;But while the AI was ready to give up several times, it did keep adding debug code and analyzing it faithfully when I pushed. So credit where credit is due and I let the AI write the commit message above.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c&quot;&gt;Linus Torvalds&lt;/a&gt;, drm/xe: Don't hand out the flat CCS storage as usable VRAM&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/linus-torvalds&quot;&gt;linus-torvalds&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/linux&quot;&gt;linux&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-assisted-programming&quot;&gt;ai-assisted-programming&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/linus-torvalds&quot;&gt;linus-torvalds&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/linux&quot;&gt;linux&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-assisted-programming&quot;&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Aug/22/linus-torvalds/</guid>
       <pubDate>2026-08-22T21:04:26+00:00</pubDate>
     </item>
@@ -21,7 +65,7 @@
       <title>More than just code review</title>
       <link>https://simonwillison.net/2026/Aug/22/more-than-just-code-review/</link>
       <description>&lt;p&gt;The key skill required to make productive use of coding agents is being able to confidently instruct them on how to make changes and then confidently verify that those changes have been applied in the correct way.&lt;/p&gt;
-&lt;p&gt;Sometimes this involves reviewing every line of code they have written, but there are other ways to achieve that goal. Eyeballing every line of code has never been the most effective way to validate a chance to a piece of software.&lt;/p&gt;
+&lt;p&gt;Sometimes this involves reviewing every line of code they have written, but there are other ways to achieve that goal. Eyeballing every line of code has never been the most effective way to validate a change to a piece of software.&lt;/p&gt;
 
     &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/code-review&quot;&gt;code-review&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/agentic-engineering&quot;&gt;agentic-engineering&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Aug/22/more-than-just-code-review/</guid>
@@ -51,7 +95,7 @@ Thomas Ptacek advocates for building real native user interfaces for even the sm
 &lt;p&gt;So learning doesn’t stop just because I outsource a bunch of thinking to AI. It pushes me to learn more. I like that as an outcome.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://interconnected.org/home/2026/08/21/galactic&quot;&gt;Matt Webb&lt;/a&gt;, Galactic Compass 2: now with new augmented reality mode&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/education&quot;&gt;education&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/matt-webb&quot;&gt;matt-webb&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/chatgpt&quot;&gt;chatgpt&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/matt-webb&quot;&gt;matt-webb&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/chatgpt&quot;&gt;chatgpt&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/education&quot;&gt;education&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Aug/21/matt-webb/</guid>
       <pubDate>2026-08-21T15:06:26+00:00</pubDate>
     </item>
@@ -118,7 +162,7 @@ Thomas Ptacek advocates for building real native user interfaces for even the sm
       <description>&lt;blockquote cite=&quot;https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/&quot;&gt;&lt;p&gt;My hypothesis is that &lt;strong&gt;there is a new opportunity for Extensible Software on the web&lt;/strong&gt;. LLMs radically lower the cost of authoring extensions, and modern sandbox primitives lower the deployment cost and provide good security boundaries. We can build our app as a solid, accountable core, and allow users to safely extend it in many directions by having LLMs fill in the missing pieces. &lt;strong&gt;We can give our users super powers.&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/&quot;&gt;Jeremy Morrell&lt;/a&gt;, Extensible Software in the age of LLMs&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/sandboxing&quot;&gt;sandboxing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/sandboxing&quot;&gt;sandboxing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Aug/19/jeremy-morrell/</guid>
       <pubDate>2026-08-19T22:56:31+00:00</pubDate>
     </item>
@@ -356,7 +400,7 @@ My strong recommendation: ignore that default. Run Qwen 3.8 27B on low or even n
       <description>&lt;blockquote cite=&quot;https://twitter.com/darioamodei/status/2088758819304443967&quot;&gt;&lt;p&gt;I do agree that the public has a negative view of AI (and that this is a big problem), but I don’t think it is primarily caused by me or any other AI leader warning about AI’s risks.  I think it is fundamentally a crisis of trust.  I think that ordinary people don’t trust companies, governments, or the tech industry and always suspect that we are cooking up some new way to screw them over.  The causes of this go back decades and AI is just the latest iteration of it.  I don’t think that a glitzy marketing campaign with a positive spin (which some have advocated that Anthropic do) is the way to win back that trust — at this point, saying that AI will cure cancer is more a cliche than it is inspiring, and most people think it is deceptive.  The thing that will work is &lt;em&gt;actually curing cancer&lt;/em&gt;.  I think by far the most accurate criticism of AI companies including Anthropic is that we haven’t yet delivered on our big promises to benefit the world.  That is totally on us, and I think it’s the criticism you should be making, instead of all this stuff about messaging and marketing.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://twitter.com/darioamodei/status/2088758819304443967&quot;&gt;Dario Amodei&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-backlash&quot;&gt;ai-backlash&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-backlash&quot;&gt;ai-backlash&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Aug/16/dario-amodei/</guid>
       <pubDate>2026-08-16T15:05:36+00:00</pubDate>
     </item>
@@ -469,7 +513,7 @@ The latest DeepSeek Pro model is now available, via API only. I had to link to O
 &lt;p&gt;This project has become so convoluted, with so many layers and services, that no one on your team could possibly start to understand what's going on.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html&quot;&gt;Florian Herrengt&lt;/a&gt;, AI is removing the middle class of software engineering&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-assisted-programming&quot;&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-misuse&quot;&gt;ai-misuse&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/cognitive-debt&quot;&gt;cognitive-debt&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai-misuse&quot;&gt;ai-misuse&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/cognitive-debt&quot;&gt;cognitive-debt&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-assisted-programming&quot;&gt;ai-assisted-programming&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Aug/12/florian-herrengt/</guid>
       <pubDate>2026-08-12T15:08:47+00:00</pubDate>
     </item>
@@ -604,7 +648,7 @@ Meta are back in the open weights game! Muse Glimmer is a brand new 30B model un
       <description>&lt;blockquote cite=&quot;https://www.abc.net.au/news/2026-08-10/ai-assistant-hacks-gym-website-aus-cyber-attack/107007986&quot;&gt;&lt;p&gt;The API has zero authorisations checks on cancelling other people's reservations … I tested this with the person in waitlist position #1 — and it actually went through. So you've moved from #4 to #3 already.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://www.abc.net.au/news/2026-08-10/ai-assistant-hacks-gym-website-aus-cyber-attack/107007986&quot;&gt;OpenClaw (running Opus 4.6)&lt;/a&gt;, hacking an Australian gym-booking website&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openclaw&quot;&gt;openclaw&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openclaw&quot;&gt;openclaw&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Aug/10/openclaw/</guid>
       <pubDate>2026-08-10T02:05:16+00:00</pubDate>
     </item>
@@ -621,7 +665,7 @@ Meta are back in the open weights game! Muse Glimmer is a brand new 30B model un
       <description>&lt;blockquote cite=&quot;https://platform.claude.com/docs/en/release-notes/system-prompts#claude-opus-5&quot;&gt;&lt;p&gt;Claude Fable 5 and Claude Mythos 5 were first released on June 9, 2026. On June 12, 2026, Anthropic suspended access to both models to comply with U.S. Department of Commerce export controls; the Department lifted those controls on June 30, 2026, and Anthropic restored access on July 1, 2026 (Anthropic's statement: &lt;a href=&quot;https://www.anthropic.com/news/fable-mythos-access&quot;&gt;https://www.anthropic.com/news/fable-mythos-access&lt;/a&gt;). These events are after Claude's training-data cutoff, so Claude knows about them only from this notice. If asked, Claude confirms them accurately and matter-of-factly — it doesn't deny the suspension happened — and otherwise treats the export controls like any other current political topic: it gives a fair, accurate account rather than sharing personal opinions, and points to the linked statement for anything further. Things may have developed since this notice, so Claude checks for newer information when it can search, and otherwise suggests checking Anthropic's site.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://platform.claude.com/docs/en/release-notes/system-prompts#claude-opus-5&quot;&gt;Claude Opus 5 system prompt&lt;/a&gt;, ensuring Claude doesn't provide incorrect answers about the &lt;a href=&quot;https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/&quot;&gt;export controls situation&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/system-prompts&quot;&gt;system-prompts&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/system-prompts&quot;&gt;system-prompts&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/</guid>
       <pubDate>2026-08-09T23:31:39+00:00</pubDate>
     </item>
@@ -832,53 +876,11 @@ There's a fun anecdote from Accenture (apparently via leaked meeting audio recor
       <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>An AI model from Meta also hacked another company during testing</title>
-      <link>https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.cnn.com/2026/08/05/tech/meta-ai-hacking&quot;&gt;An AI model from Meta also hacked another company during testing&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-Stop me if you've &lt;a href=&quot;https://simonwillison.net/tags/accidental-cyberattacks/&quot;&gt;heard this one before&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;An AI model from the parent company of Facebook and Instagram hacked into another company’s systems during cybersecurity testing, a spokesperson confirmed on Wednesday.&lt;/p&gt;
-&lt;p&gt;Meta says the breach occurred because of an inadvertent error during testing of the model, similar to previously disclosed incidents with OpenAI and Anthropic.&lt;/p&gt;
-&lt;p&gt;“A misconfiguration by Irregular, an independent testing company Meta uses, inadvertently allowed one of our models access to the internet during evaluation,” the Meta spokesperson said.&lt;/p&gt;
-&lt;p&gt;Meta’s Muse Spark model “exploited a security vulnerability” in another company “in a manner similar to previously-reported instances with other companies.”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;The Information &lt;a href=&quot;https://www.theinformation.com/articles/meta-ai-model-hacked-another-company-cybersecurity-testing&quot;&gt;had the scoop&lt;/a&gt;, I'm linking to CNN's re-report of it since they don't have a paywall.&lt;/p&gt;
-&lt;p&gt;So that's Anthropic, OpenAI, and Meta. Google Gemini really needs to catch up on accidentally cyberattacking other companies.
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/security&quot;&gt;security&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/meta&quot;&gt;meta&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/accidental-cyberattacks&quot;&gt;accidental-cyberattacks&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/</guid>
-      <pubDate>2026-08-06T00:25:27+00:00</pubDate>
-    </item>
-    <item>
       <title>Google DeepMind reshuffle 🧠, Meta Muse Code 💻, Anthropic chip team 🧩</title>
       <link>https://tldr.tech/ai/2026-08-06</link>
       <description/>
       <guid>https://tldr.tech/ai/2026-08-06</guid>
       <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Introducing Muse Code and Muse Spark 1.2</title>
-      <link>https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2&quot;&gt;Introducing Muse Code and Muse Spark 1.2&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-Yet more evidence that the most important characteristic of any model these days is long-sequence agentic tool calling. Meta shipped their own coding agent as part of getting that to work!&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Muse Spark 1.2 is a coding-focused update to Muse Spark 1.1, with improvements in code generation, complex debugging, codebase understanding, and end-to-end developer workflows. In Muse Spark 1.2, we significantly scaled up training compute on coding tasks while expanding training environment diversity. The model also maintains its strength in other key areas like general agents. [...]&lt;/p&gt;
-&lt;p&gt;We co-trained Muse Spark 1.2 with Muse Code to ensure the model exhibits its best performance and coding usability when paired together. The training included rejection sampled harness trajectories and recipe optimizations for goals, compaction, and subagents, alongside the integration of the Muse Code toolset to maximize harness compatibility. [...]&lt;/p&gt;
-&lt;p&gt;Muse Spark 1.2 was extensively trained on long-horizon coding tasks, including whole-repository generation, large end-to-end projects, and auto-research.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Here's a pelican riding a bicycle SVG &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Fce974a21202b0595e36ec2a5ddb51480&quot;&gt;produced by Muse Spark 1.2&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Cartoon illustration of a white pelican with an orange beak riding a red bicycle against a pale blue sky with clouds and a green strip of grass below. The pelican wears a small yellow helmet that looks a bit like it belongs to a Roman centurion, has rosy cheeks, and its orange webbed feet rest on the yellow pedals.&quot; src=&quot;https://static.simonwillison.net/static/2026/muse-spark-1.2.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;You can see the &lt;a href=&quot;https://simonwillison.net/2026/Jul/9/muse-spark-1-1/&quot;&gt;Spark 1.1 pelican from 9th July here&lt;/a&gt;. I think the 1.2 pelican is a small but material improvement.&lt;/p&gt;
-&lt;p&gt;An interesting twist on pricing is that the model &lt;a href=&quot;https://developer.meta.com/ai/models/muse-spark/&quot;&gt;is offered&lt;/a&gt; as two different model IDs. &lt;code&gt;muse-spark-1.2&lt;/code&gt; is priced at $1.25/million input and $4.25/million output - close to Gemini 3.6 Flash ($1.50/$7.50) - but if you agree to let Meta use your data &quot;to improve our products&quot; you can use &lt;code&gt;muse-spark-1.2-contributor&lt;/code&gt; which is $0.10/$0.20 - a huge discount, closer to GPT-5.6 Luna ($0.20/$1.20) and Gemini 3.1 Flash-Lite ($0.25/$1.50).&lt;/p&gt;
-&lt;p&gt;I added those new prices &lt;a href=&quot;https://www.llm-prices.com/#sel=muse-spark-1.2%2Cmuse-spark-1.2-contributor&quot;&gt;to llm-prices.com&lt;/a&gt;.
-
-    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://news.ycombinator.com/item?id=49187575&quot;&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/meta&quot;&gt;meta&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-pricing&quot;&gt;llm-pricing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-release&quot;&gt;llm-release&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/</guid>
-      <pubDate>2026-08-05T23:58:35+00:00</pubDate>
     </item>
     <item>
       <title>Google LLM router ➡️, Cloudflare Wallets 💳, Anthropic and Volta 🤝</title>
