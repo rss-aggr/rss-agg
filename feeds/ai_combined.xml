@@ -3,7 +3,14 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Mon, 24 Aug 2026 11:53:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 11:53:23 +0000</lastBuildDate>
+    <item>
+      <title>DeepSeek Flash Vision 👀, Claude Mythos security 🛡️, inside Grok Bot 🤖</title>
+      <link>https://tldr.tech/ai/2026-08-24</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-08-24</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Anthropic’s best AI model struggles to attract users as cheaper tools thrive</title>
       <link>https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/</link>
@@ -960,13 +967,6 @@ There's a fun anecdote from Accenture (apparently via leaked meeting audio recor
       <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Claude Opus 5 🧠, inside OpenAI’s hack 👨‍💻, NVIDIA open weights 🔓</title>
-      <link>https://tldr.tech/ai/2026-07-27</link>
-      <description/>
-      <guid>https://tldr.tech/ai/2026-07-27</guid>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Kimi K3 Redraws the Open Frontier, Muse Spark 1.1 Undercuts Competitors, Cloudflare Moves to Cut Off Crawlers</title>
       <link>https://www.deeplearning.ai/the-batch/issue-363</link>
       <description>&lt;figure&gt;&lt;img alt=&quot;A rally for open weight / open source AI with leaders bearing a banner that reads &amp;quot;open source, open weights, open future&amp;quot;&quot; src=&quot;https://charonhub.deeplearning.ai/content/images/2026/07/Open-AI-Rally-FINAL.webp&quot; /&gt;&lt;/figure&gt;&lt;blockquote&gt;The Batch News &amp;amp; Insights: A few frontier labs have tried to tell a story of open models being dangerous because they can be used to launch cyberattacks, and of their “safe” proprietary models with strong guardrails being there to defend us.&lt;/blockquote&gt;&lt;!--kg-card-begin: html--&gt;&lt;div id=&quot;elevenlabs-audionative-widget&quot;&gt;Loading the &lt;a href=&quot;https://elevenlabs.io/text-to-speech&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Elevenlabs Text to Speech&lt;/a&gt; AudioNative Player...&lt;/div&gt;
@@ -1039,17 +1039,17 @@ There's a fun anecdote from Accenture (apparently via leaked meeting audio recor
       <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>UST is bringing Claude to physical AI</title>
-      <link>https://www.anthropic.com/news/ust-claude</link>
-      <description>UST is bringing Claude to physical AI</description>
-      <guid>https://www.anthropic.com/news/ust-claude</guid>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Inviting hard questions</title>
       <link>https://www.anthropic.com/news/hard-questions</link>
       <description>Inviting hard questions</description>
       <guid>https://www.anthropic.com/news/hard-questions</guid>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>UST is bringing Claude to physical AI</title>
+      <link>https://www.anthropic.com/news/ust-claude</link>
+      <description>UST is bringing Claude to physical AI</description>
+      <guid>https://www.anthropic.com/news/ust-claude</guid>
       <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1074,17 +1074,17 @@ There's a fun anecdote from Accenture (apparently via leaked meeting audio recor
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing Claude Sonnet 5</title>
-      <link>https://www.anthropic.com/news/claude-sonnet-5</link>
-      <description>Introducing Claude Sonnet 5</description>
-      <guid>https://www.anthropic.com/news/claude-sonnet-5</guid>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Redeploying Fable 5</title>
       <link>https://www.anthropic.com/news/redeploying-fable-5</link>
       <description>Redeploying Fable 5</description>
       <guid>https://www.anthropic.com/news/redeploying-fable-5</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Claude Sonnet 5</title>
+      <link>https://www.anthropic.com/news/claude-sonnet-5</link>
+      <description>Introducing Claude Sonnet 5</description>
+      <guid>https://www.anthropic.com/news/claude-sonnet-5</guid>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

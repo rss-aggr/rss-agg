@@ -3,7 +3,14 @@
     <title>SEO/AEO Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: SEO/AEO Combined Feed</description>
-    <lastBuildDate>Mon, 24 Aug 2026 11:53:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 11:53:24 +0000</lastBuildDate>
+    <item>
+      <title>Has Google demoted listicles?</title>
+      <link>https://www.growth-memo.com/p/has-google-demoted-listicles</link>
+      <description>What 5.32 million search results reveal about Google's actual stance on &quot;best of&quot; content.</description>
+      <guid>https://www.growth-memo.com/p/has-google-demoted-listicles</guid>
+      <pubDate>Mon, 24 Aug 2026 19:18:49 GMT</pubDate>
+    </item>
     <item>
       <title>Growth Intelligence Brief #23</title>
       <link>https://www.growth-memo.com/p/growth-intelligence-brief-23</link>
@@ -136,13 +143,6 @@
       <description>An updated version of the brief, the SaaS slide and Google's agentic SEO press release.</description>
       <guid>https://www.growth-memo.com/p/growth-intelligence-brief-19</guid>
       <pubDate>Fri, 29 May 2026 10:04:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>Users behave differently in AI Overviews vs. AI Mode</title>
-      <link>https://www.growth-memo.com/p/users-behave-differently-in-ai-overviews</link>
-      <description>A new clickstream study of 846K sessions shows AI Overviews turn the SERP into a comparison environment, while AI Mode produces acceptance</description>
-      <guid>https://www.growth-memo.com/p/users-behave-differently-in-ai-overviews</guid>
-      <pubDate>Mon, 25 May 2026 09:43:09 GMT</pubDate>
     </item>
   </channel>
 </rss>
