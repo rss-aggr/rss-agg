@@ -3,7 +3,31 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Tue, 25 Aug 2026 11:53:23 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 11:55:30 +0000</lastBuildDate>
+    <item>
+      <title>Quoting Paul Dix</title>
+      <link>https://simonwillison.net/2026/Aug/26/paul-dix/</link>
+      <description>&lt;blockquote cite=&quot;https://pauldix.com/the-end-of-programming&quot;&gt;&lt;p&gt;The fact that AI wrote 1M LOC and then refined it over the course of the next couple of months to produce a reliable piece of software that is currently running on millions of developer machines is absolutely mind blowing. And you can say, “well it’s not that impressive because they had an oracle to compare against, so it was simple to go from one language to another”, but I think that’s selling this entire thing short. If you can build a verification system and give proper direction, AI can produce a highly complex, highly sophisticated piece of software and it can continue to refine it until it just works.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://pauldix.com/the-end-of-programming&quot;&gt;Paul Dix&lt;/a&gt;, The end of programming&lt;/p&gt;
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-assisted-programming&quot;&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/bun&quot;&gt;bun&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Aug/26/paul-dix/</guid>
+      <pubDate>2026-08-26T08:07:55+00:00</pubDate>
+    </item>
+    <item>
+      <title>Funding better evaluations of AI’s impact on wellbeing</title>
+      <link>https://www.anthropic.com/news/wellbeing-research-grants</link>
+      <description>Funding better evaluations of AI’s impact on wellbeing</description>
+      <guid>https://www.anthropic.com/news/wellbeing-research-grants</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nvidia’s Groq chip ⚡, frontier economics 💰, Ox Alpha mystery 🕵️</title>
+      <link>https://tldr.tech/ai/2026-08-25</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-08-25</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>DeepSeek Flash Vision 👀, Claude Mythos security 🛡️, inside Grok Bot 🤖</title>
       <link>https://tldr.tech/ai/2026-08-24</link>
@@ -850,25 +874,6 @@ On Wednesday I wrote about &lt;a href=&quot;https://simonwillison.net/2026/Aug/5
       <pubDate>2026-08-07T19:18:09+00:00</pubDate>
     </item>
     <item>
-      <title>The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI</title>
-      <link>https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.404media.co/the-tokenpocalypse-is-here-companies-are-scrambling-to-stop-spending-so-much-on-ai/&quot;&gt;The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-There's a fun anecdote from Accenture (apparently via leaked meeting audio recordings) in this 404 Media piece from June 24th:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“We’re seeing from some of the data internally at least that it’s actually not our engineers that are driving the token consumption. It’s a lot of the non-engineers that are doing some of those behaviors [...] you were talking about,” Justice Kwak, Accenture’s agentic AI strategy lead, said [...]&lt;/p&gt;
-&lt;p&gt;Stuart Henderson, Accenture’s client group lead, interrupts. He jokes he hopes Kwak didn’t just convert a PDF into images and then into markdown files. “I’m learning that’s one of the big token chewers,” Henderson says. “Turning PDFs into markdown: is that right?”&lt;/p&gt;
-&lt;p&gt;That’s when Kwak says that’s what Accenture’s own data shows.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Maybe if Accenture figure out that PDFs are a &lt;em&gt;terrible medium for communicating information&lt;/em&gt; they'll be able to push that message out to the rest of the business world too!
-
-    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://www.tiktok.com/@404.media/video/7654962124053171470&quot;&gt;@404.media on TikTok&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/pdf&quot;&gt;pdf&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/markdown&quot;&gt;markdown&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-misuse&quot;&gt;ai-misuse&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/404-media&quot;&gt;404-media&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/</guid>
-      <pubDate>2026-08-07T16:18:51+00:00</pubDate>
-    </item>
-    <item>
       <title>Improving Fable 5's biology safeguards</title>
       <link>https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards</link>
       <description>Improving Fable 5's biology safeguards</description>
@@ -944,13 +949,6 @@ There's a fun anecdote from Accenture (apparently via leaked meeting audio recor
       <description/>
       <guid>https://tldr.tech/ai/2026-07-29</guid>
       <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic on open weights 🔓, Kimi releases K3 weights 🤖, MAI Cyber model 🔐</title>
-      <link>https://tldr.tech/ai/2026-07-28</link>
-      <description/>
-      <guid>https://tldr.tech/ai/2026-07-28</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients</title>
@@ -1268,13 +1266,6 @@ There's a fun anecdote from Accenture (apparently via leaked meeting audio recor
       <description>Building a new enterprise AI services company with Blackstone, Hellman &amp; Friedman, and Goldman Sachs</description>
       <guid>https://www.anthropic.com/news/enterprise-ai-services-company</guid>
       <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude for Creative Work</title>
-      <link>https://www.anthropic.com/news/claude-for-creative-work</link>
-      <description>Claude for Creative Work</description>
-      <guid>https://www.anthropic.com/news/claude-for-creative-work</guid>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
