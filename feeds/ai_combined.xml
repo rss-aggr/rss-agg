@@ -3,7 +3,38 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Wed, 26 Aug 2026 11:55:30 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 21:04:41 +0000</lastBuildDate>
+    <item>
+      <title>Previewing the Model Hardware Standard</title>
+      <link>https://www.anthropic.com/news/model-hardware-standard-research-preview</link>
+      <description>Previewing the Model Hardware Standard</description>
+      <guid>https://www.anthropic.com/news/model-hardware-standard-research-preview</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GLM-5.3 Flash ⚡, Claudeforce 🤝, NVIDIA revenue surge 📈</title>
+      <link>https://tldr.tech/ai/2026-08-27</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-08-27</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Qwen3.8-Flash-Next</title>
+      <link>https://simonwillison.net/2026/Aug/26/qwen38-flash-next/</link>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://qwen.ai/blog?id=qwen3.8-flash-next&quot;&gt;Qwen3.8-Flash-Next&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+Another open weights model from Qwen. This one is &quot;a multimodal MoE model that also serves as an early preview of the architecture used in Qwen4&quot;.&lt;/p&gt;
+&lt;p&gt;It's pretty big: 125B tokens, but only 6B active which means it gets a significant performance boost.&lt;/p&gt;
+&lt;p&gt;I've been trying it out on a DGX Spark using &lt;a href=&quot;https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF&quot;&gt;these Unsloth quantized models&lt;/a&gt;. I'm still exploring the model - so far I've tried the 72.5GB UD-IQ1_S one (producing &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Ff9c69ebdab90d8a45b8de4742cc7b840&quot;&gt;these pelicans&lt;/a&gt;) and the 78.9GB UD-Q2_K_XL (producing &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F6ba7cbfc1a9336986703b41f7fccd73a&quot;&gt;these&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;My favorite so far was this xhigh reasoning effort one from UD-Q2_K_XL:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Flat vector illustration: a white pelican with an orange beak and orange legs rides a red bicycle along a sandy path, a wicker basket on the handlebars holding a blue fish, with green rolling hills, a small tree and bushes, white clouds and a bright yellow sun in a blue sky behind it&quot; src=&quot;https://static.simonwillison.net/static/2026-08-27/IMG_7667.png&quot; /&gt;
+
+    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://news.ycombinator.com/item?id=49448210&quot;&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/qwen&quot;&gt;qwen&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-in-china&quot;&gt;ai-in-china&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/nvidia-spark&quot;&gt;nvidia-spark&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Aug/26/qwen38-flash-next/</guid>
+      <pubDate>2026-08-26T23:52:58+00:00</pubDate>
+    </item>
     <item>
       <title>Quoting Paul Dix</title>
       <link>https://simonwillison.net/2026/Aug/26/paul-dix/</link>
@@ -13,6 +44,13 @@
     &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-assisted-programming&quot;&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/bun&quot;&gt;bun&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Aug/26/paul-dix/</guid>
       <pubDate>2026-08-26T08:07:55+00:00</pubDate>
+    </item>
+    <item>
+      <title>OpenAI Jalapeño 🌶️, Perplexity Portable Computer  💻, Claude combines memory 🧠</title>
+      <link>https://tldr.tech/ai/2026-08-26</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-08-26</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Funding better evaluations of AI’s impact on wellbeing</title>
@@ -833,47 +871,6 @@ Anthropic are &lt;em&gt;really&lt;/em&gt; confident in Claude Code's &lt;a href=
       <pubDate>2026-08-07T23:55:58+00:00</pubDate>
     </item>
     <item>
-      <title>Moonlight &amp; Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)</title>
-      <link>https://simonwillison.net/2026/Aug/7/moonlight-mayhem/</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://simonw.github.io/raccoon-heist-codex/&quot;&gt;Moonlight &amp;amp; Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-On Wednesday I wrote about &lt;a href=&quot;https://simonwillison.net/2026/Aug/5/raccoon-heist/&quot;&gt;One-shotting a Raccoon Heist game using Claude Fable 5&lt;/a&gt;, where I had Claude Fable 5 build a full working game from a premise I generated with GPT-3 and DALL-E &lt;a href=&quot;https://twitter.com/simonw/status/1555626060384911360&quot;&gt;four years ago&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;I decided to pose the &lt;a href=&quot;https://simonwillison.net/2026/Aug/5/raccoon-heist/#the-fable-5-prompt&quot;&gt;exact same prompt&lt;/a&gt; to Codex Desktop running GPT-5.6 Sol Ultra - the mode where Sol makes &lt;em&gt;aggressive&lt;/em&gt; use of sub-agents - to see how it would do.&lt;/p&gt;
-&lt;p&gt;It produced a much better game! Here's &lt;a href=&quot;https://simonw.github.io/raccoon-heist-codex/&quot;&gt;Moonlight &amp;amp; Mayhem&lt;/a&gt; - &lt;a href=&quot;https://github.com/simonw/raccoon-heist-codex/&quot;&gt;GitHub repository here&lt;/a&gt;, including the &lt;a href=&quot;https://github.com/simonw/raccoon-heist-codex/tree/main/output/imagegen&quot;&gt;textures and prompts&lt;/a&gt; it generated using &lt;code&gt;gpt-image-2&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;video controls=&quot;controls&quot; height=&quot;720&quot; poster=&quot;https://static.simonwillison.net/static/2026/raccoon-heist-codex-poster.jpg&quot; preload=&quot;none&quot; style=&quot;display: block; width: 100%; height: auto;&quot; width=&quot;1280&quot;&gt;
-    &lt;source src=&quot;https://static.simonwillison.net/static/2026/raccoon-heist-codex-720p.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Your browser does not support HTML5 video.
-  &lt;/video&gt;
-&lt;/p&gt;
-
-&lt;p&gt;The original GPT-3 generated game description included:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;In “Raccoon Heist”, you and your team of thieving raccoons are tasked with pulling off a series of daring heists. From robbing banks to stealing priceless art, no job is too big or too small for your furry crew.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Fable's version had you as a single raccoon running around a back yard collecting coins and fish. GPT-5.6 Sol has you in a museum, rescuing your two other raccoon crewmates in order to stack on top of each other and bust the golden sardine out of its case.&lt;/p&gt;
-&lt;p&gt;Much more heisty!&lt;/p&gt;
-&lt;p&gt;There was one catch though: the version produced from the one-shot prompt had a bug where each raccoon had an eyeball that was enlarged to the size of a giant sphere floating over their head!&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;The main player character racoon is visible with an enormous polygon-based black sphere four times the size of its body overlapping its head, with a white pupil on it.&quot; src=&quot;https://static.simonwillison.net/static/2026/raccoon-heist-codex-bug.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;You can &lt;a href=&quot;https://static.simonwillison.net/static/2026/raccoon-heist-eyeball-edition/&quot;&gt;play that version here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Despite reviewing screenshots during development Codex failed to spot and correct this bug.&lt;/p&gt;
-&lt;p&gt;I fixed it by prompting:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;Why do the raccoons have huge black spheres on them?&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;And then:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;Fix it&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Which resulted in &lt;a href=&quot;https://github.com/simonw/raccoon-heist-codex/commit/4e9a390dfbe80533324ee61a37aa661813c08446&quot;&gt;this fix&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;I shared &lt;a href=&quot;https://github.com/simonw/raccoon-heist-codex/blob/main/transcript.md&quot;&gt;the full Codex transcript&lt;/a&gt; in the repository - I wish Claude Code had the same &quot;copy as Markdown&quot; feature.&lt;/p&gt;
-&lt;p&gt;Codex spent 52 minutes on the project. Here's the &lt;a href=&quot;https://www.agentsview.io&quot;&gt;AgentsView&lt;/a&gt; cost estimate for that session if I had been paying full API prices as opposed to using my monthly Codex subscription:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Total Cost: $23.28. Input Tokens: 700.7K, plus 32.5M cached tokens. Output Tokens: 148K&quot; src=&quot;https://static.simonwillison.net/static/2026/raccoon-heist-codex-cost.webp&quot; /&gt;
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/game-design&quot;&gt;game-design&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/codex&quot;&gt;codex&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gpt&quot;&gt;gpt&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/7/moonlight-mayhem/</guid>
-      <pubDate>2026-08-07T19:18:09+00:00</pubDate>
-    </item>
-    <item>
       <title>Improving Fable 5's biology safeguards</title>
       <link>https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards</link>
       <description>Improving Fable 5's biology safeguards</description>
@@ -935,20 +932,6 @@ On Wednesday I wrote about &lt;a href=&quot;https://simonwillison.net/2026/Aug/5
       <description>Investigating three real-world incidents in our cybersecurity evaluations</description>
       <guid>https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals</guid>
       <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI tops ARC-AGI-3 📈, GPT-5.6 efficiency ⚙️, AlphaFold team dissolution 🧬</title>
-      <link>https://tldr.tech/ai/2026-07-30</link>
-      <description/>
-      <guid>https://tldr.tech/ai/2026-07-30</guid>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI slowdown pact ⏸️, Personal superintelligence access 🌍, Grok Build Mode 🛠️</title>
-      <link>https://tldr.tech/ai/2026-07-29</link>
-      <description/>
-      <guid>https://tldr.tech/ai/2026-07-29</guid>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients</title>
@@ -1259,13 +1242,6 @@ On Wednesday I wrote about &lt;a href=&quot;https://simonwillison.net/2026/Aug/5
       <description>Agents for financial services</description>
       <guid>https://www.anthropic.com/news/finance-agents</guid>
       <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Building a new enterprise AI services company with Blackstone, Hellman &amp; Friedman, and Goldman Sachs</title>
-      <link>https://www.anthropic.com/news/enterprise-ai-services-company</link>
-      <description>Building a new enterprise AI services company with Blackstone, Hellman &amp; Friedman, and Goldman Sachs</description>
-      <guid>https://www.anthropic.com/news/enterprise-ai-services-company</guid>
-      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

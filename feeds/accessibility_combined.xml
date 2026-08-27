@@ -3,62 +3,93 @@
     <title>Accessibility Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: Accessibility Combined Feed</description>
-    <lastBuildDate>Wed, 26 Aug 2026 11:55:40 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 21:04:52 +0000</lastBuildDate>
     <item>
-      <title>What If a Wheelchair Could Understand Where You Wanted to Go?</title>
-      <link>https://medium.com/@vinodkumar1947/what-if-a-wheelchair-could-understand-where-you-wanted-to-go-9e7747fa5af6?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@vinodkumar1947/what-if-a-wheelchair-could-understand-where-you-wanted-to-go-9e7747fa5af6?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1369/1*KeLBv4yjie4Gjg0SM-oUbg.png&quot; width=&quot;1369&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;We taught cars to drive themselves. Why are we still asking people with mobility challenges to manually navigate every doorway, hallway&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@vinodkumar1947/what-if-a-wheelchair-could-understand-where-you-wanted-to-go-9e7747fa5af6?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/9e7747fa5af6</guid>
-      <pubDate>Wed, 26 Aug 2026 11:43:34 GMT</pubDate>
+      <title>Acessibilidade de I.A.: como preparar front-ends para agentes inteligentes</title>
+      <link>https://medium.com/@cabukater/acessibilidade-de-i-a-como-preparar-front-ends-para-agentes-inteligentes-cd4250e8ba5f?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@cabukater/acessibilidade-de-i-a-como-preparar-front-ends-para-agentes-inteligentes-cd4250e8ba5f?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1672/1*EJaHVmchPzP_xr3tXnbIUQ.png&quot; width=&quot;1672&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Interfaces agent-ready n&amp;#xe3;o s&amp;#xe3;o sobre uma ferramenta espec&amp;#xed;fica. S&amp;#xe3;o sobre clareza, sem&amp;#xe2;ntica, acessibilidade, automa&amp;#xe7;&amp;#xe3;o e produto digital&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@cabukater/acessibilidade-de-i-a-como-preparar-front-ends-para-agentes-inteligentes-cd4250e8ba5f?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/cd4250e8ba5f</guid>
+      <pubDate>Thu, 27 Aug 2026 18:01:10 GMT</pubDate>
     </item>
     <item>
-      <title>Video Script: AI Agents in the Documentation Workflow (90-Second Explainer)</title>
-      <link>https://medium.com/@siddhuwrites/video-script-ai-agents-in-the-documentation-workflow-90-second-explainer-3a9c04ba1625?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;A companion piece to Building AI Agents Into the Documentation Workflow&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@siddhuwrites/video-script-ai-agents-in-the-documentation-workflow-90-second-explainer-3a9c04ba1625?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/3a9c04ba1625</guid>
-      <pubDate>Wed, 26 Aug 2026 10:32:11 GMT</pubDate>
+      <title>WordlistLoader &amp; SynkLoader: The New Face of Windows Credential Theft</title>
+      <link>https://meetcyber.net/wordlistloader-synkloader-the-new-face-of-windows-credential-theft-9544ec4576b2?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://meetcyber.net/wordlistloader-synkloader-the-new-face-of-windows-credential-theft-9544ec4576b2?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1536/1*qNUYLRs6SDxcJyZPy1Zf-w.png&quot; width=&quot;1536&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Introduction&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://meetcyber.net/wordlistloader-synkloader-the-new-face-of-windows-credential-theft-9544ec4576b2?source=rss------accessibility-5&quot;&gt;Continue reading on MeetCyber »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/9544ec4576b2</guid>
+      <pubDate>Thu, 27 Aug 2026 17:14:45 GMT</pubDate>
     </item>
     <item>
-      <title>Implementing accessibility is not about fixing a series of issues.</title>
-      <link>https://medium.com/design-bootcamp/implementing-accessibility-is-not-about-fixing-a-series-of-issues-a85117481c1a?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/design-bootcamp/implementing-accessibility-is-not-about-fixing-a-series-of-issues-a85117481c1a?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1734/1*yrNo18h5ZZMaYR6lIpYkVQ.png&quot; width=&quot;1734&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;An accessibility audit can tell you what is wrong with a product. It cannot prevent a team from creating the same problems again.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/design-bootcamp/implementing-accessibility-is-not-about-fixing-a-series-of-issues-a85117481c1a?source=rss------accessibility-5&quot;&gt;Continue reading on Bootcamp »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/a85117481c1a</guid>
-      <pubDate>Wed, 26 Aug 2026 07:52:37 GMT</pubDate>
+      <title>Three Ways I Built Accessible Modals in Angular (And the Gotchas Along the Way</title>
+      <link>https://medium.com/@vhurley.dev/three-ways-i-built-accessible-modals-in-angular-and-the-gotchas-along-the-way-03595139a574?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@vhurley.dev/three-ways-i-built-accessible-modals-in-angular-and-the-gotchas-along-the-way-03595139a574?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1160/1*m69RzbqsT6iTLZj8B_eMPA.png&quot; width=&quot;1160&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;In my experience as a software engineer, modals are notoriously tricky to build properly for keyboard and screen reader users. If you miss&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@vhurley.dev/three-ways-i-built-accessible-modals-in-angular-and-the-gotchas-along-the-way-03595139a574?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/03595139a574</guid>
+      <pubDate>Thu, 27 Aug 2026 16:20:32 GMT</pubDate>
     </item>
     <item>
-      <title>SiteHandoff: The Chrome Extension That Helps You Catch Website Issues Before Handoff</title>
-      <link>https://medium.com/@cyberpodcast/sitehandoff-the-chrome-extension-that-helps-you-catch-website-issues-before-handoff-4eafd9eead98?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Launching a website should be the final step in a careful process &amp;#x2014; not the moment a client discovers broken links, placeholder text, or a&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@cyberpodcast/sitehandoff-the-chrome-extension-that-helps-you-catch-website-issues-before-handoff-4eafd9eead98?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/4eafd9eead98</guid>
-      <pubDate>Wed, 26 Aug 2026 07:15:34 GMT</pubDate>
+      <title>I met someone from my culture
+in a leadership position.</title>
+      <link>https://medium.com/@lightuponlight1408/i-met-someone-from-my-culture-in-a-leadership-position-263d40e62b51?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Her name is Natalie Breyer,
+a council member of the City of Bellevue.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@lightuponlight1408/i-met-someone-from-my-culture-in-a-leadership-position-263d40e62b51?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/263d40e62b51</guid>
+      <pubDate>Thu, 27 Aug 2026 15:35:31 GMT</pubDate>
     </item>
     <item>
-      <title>Accessibility Audit Report Format</title>
-      <link>https://iaapaudit.medium.com/accessibility-audit-report-format-cfb7beadb312?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://iaapaudit.medium.com/accessibility-audit-report-format-cfb7beadb312?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1200/1*uYOHrKvamuxc-66bxXxA7A.png&quot; width=&quot;1200&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;An accessibility audit report should do more than list failed checks.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://iaapaudit.medium.com/accessibility-audit-report-format-cfb7beadb312?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/cfb7beadb312</guid>
-      <pubDate>Wed, 26 Aug 2026 07:02:30 GMT</pubDate>
+      <title>The Accessibility Debt Trap: Why Baking It Into Your Design System on Day One is Non-Negotiable</title>
+      <link>https://medium.com/@NiaJefferson/the-accessibility-debt-trap-why-baking-it-into-your-design-system-on-day-one-is-non-negotiable-21460f299ad3?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@NiaJefferson/the-accessibility-debt-trap-why-baking-it-into-your-design-system-on-day-one-is-non-negotiable-21460f299ad3?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1376/1*XTj4RgyRDpfTgimZmGHMgQ.jpeg&quot; width=&quot;1376&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Treating accessibility as an afterthought is a tax on your engineering team and a betrayal of your users. Here is how to fix it at the&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@NiaJefferson/the-accessibility-debt-trap-why-baking-it-into-your-design-system-on-day-one-is-non-negotiable-21460f299ad3?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/21460f299ad3</guid>
+      <pubDate>Thu, 27 Aug 2026 13:33:50 GMT</pubDate>
     </item>
     <item>
-      <title>I Used to Look at SPH First. Now I Check These 4 Numbers for VITURE Luma.</title>
-      <link>https://medium.com/@annkutvr/i-used-to-look-at-sph-first-now-i-check-these-4-numbers-for-viture-luma-31ba0d9cf407?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@annkutvr/i-used-to-look-at-sph-first-now-i-check-these-4-numbers-for-viture-luma-31ba0d9cf407?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1448/1*9ZrS15gTOrFBMWUb_W6uUw.jpeg&quot; width=&quot;1448&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;When I look at a prescription for VITURE Luma, I don&amp;#x2019;t start by asking, &amp;#x201c;How strong is the myopia?&amp;#x201d;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@annkutvr/i-used-to-look-at-sph-first-now-i-check-these-4-numbers-for-viture-luma-31ba0d9cf407?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/31ba0d9cf407</guid>
-      <pubDate>Wed, 26 Aug 2026 06:05:07 GMT</pubDate>
+      <title>Test your custom elements and trust the results with Axe-core’s support for ElementInternals</title>
+      <link>https://www.deque.com/blog/test-your-custom-elements-and-trust-the-results-with-axe-cores-support-for-elementinternals/</link>
+      <description>&lt;p&gt;If you're a large enterprise organization with accessibility issues resulting from interoperability challenges, moving to ElementInternals is a savvy move. You can standardize, and safely test. And, with Axe-core now supporting ElementInternals, you can test those components and trust the results.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://www.deque.com/blog/test-your-custom-elements-and-trust-the-results-with-axe-cores-support-for-elementinternals/&quot;&gt;Test your custom elements and trust the results with Axe-core&amp;#8217;s support for ElementInternals&lt;/a&gt; appeared first on &lt;a href=&quot;https://www.deque.com&quot;&gt;Deque&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid>https://www.deque.com/?p=62518</guid>
+      <pubDate>Thu, 27 Aug 2026 13:21:18 +0000</pubDate>
     </item>
     <item>
-      <title>A Complete Theory of Modality-Invariant Documentary Systems: Toward a Reversible…</title>
-      <link>https://rabbirothschild.medium.com/a-complete-theory-of-modality-invariant-documentary-systems-toward-a-reversible-a0f28230d000?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;&amp;#x2e3b;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://rabbirothschild.medium.com/a-complete-theory-of-modality-invariant-documentary-systems-toward-a-reversible-a0f28230d000?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/a0f28230d000</guid>
-      <pubDate>Wed, 26 Aug 2026 03:30:03 GMT</pubDate>
+      <title>Sometimes the barrier isn’t the limitation</title>
+      <link>https://medium.com/@nuthiprashanthi/sometimes-the-barrier-isnt-the-limitation-4a2668bf285c?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@nuthiprashanthi/sometimes-the-barrier-isnt-the-limitation-4a2668bf285c?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2600/1*KWEmXoY1n2IaqmMG37sYyQ.png&quot; width=&quot;2870&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;What if the capability was there all along?&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@nuthiprashanthi/sometimes-the-barrier-isnt-the-limitation-4a2668bf285c?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/4a2668bf285c</guid>
+      <pubDate>Thu, 27 Aug 2026 12:12:17 GMT</pubDate>
     </item>
     <item>
-      <title>How to Check Subtitle Reading Speed Before You Publish</title>
-      <link>https://medium.com/@wangchuangji903/how-to-check-subtitle-reading-speed-before-you-publish-daf370cd7f67?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;A practical CPS workflow for finding crowded cues, fixing them without changing meaning, and testing the final file&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@wangchuangji903/how-to-check-subtitle-reading-speed-before-you-publish-daf370cd7f67?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/daf370cd7f67</guid>
-      <pubDate>Wed, 26 Aug 2026 02:52:17 GMT</pubDate>
+      <title>How to Perform Accessibility Testing: A Practical QA Process</title>
+      <link>https://medium.com/@hello_10281/how-to-perform-accessibility-testing-a-practical-qa-process-5c13d2548764?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Accessibility issues often sit outside the paths covered by normal functional testing.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@hello_10281/how-to-perform-accessibility-testing-a-practical-qa-process-5c13d2548764?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/5c13d2548764</guid>
+      <pubDate>Thu, 27 Aug 2026 11:29:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>Design Tokens Are the API, One Source of Truth</title>
+      <link>https://uxplanet.org/design-tokens-are-the-api-one-source-of-truth-ac6249947899?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://uxplanet.org/design-tokens-are-the-api-one-source-of-truth-ac6249947899?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1280/1*dalNr6FMVvKzYUIUpDF92g.jpeg&quot; width=&quot;1280&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;letbe-ds: three plain files, a Figma library that mirrors them, and a plugin that proves the contrast. One token file drives it all.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://uxplanet.org/design-tokens-are-the-api-one-source-of-truth-ac6249947899?source=rss------accessibility-5&quot;&gt;Continue reading on UX Planet »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/ac6249947899</guid>
+      <pubDate>Thu, 27 Aug 2026 10:22:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>(Small Business) Do you have Accessible Dining Tables?</title>
+      <link>https://aaconsultant.medium.com/small-business-do-you-have-accessible-dining-tables-fd49682dccc1?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://aaconsultant.medium.com/small-business-do-you-have-accessible-dining-tables-fd49682dccc1?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1376/1*-HkJ7VAm6mBs-aOz0eoamA.jpeg&quot; width=&quot;1376&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Restaurants, cafeterias, bars, and coffee shops commonly provide dining surfaces for the consumption of food and beverages. Where dining&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://aaconsultant.medium.com/small-business-do-you-have-accessible-dining-tables-fd49682dccc1?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/fd49682dccc1</guid>
+      <pubDate>Thu, 27 Aug 2026 06:41:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>AWS IAM Explained: IAM User vs Role vs Group vs Policy — A Simple Guide</title>
+      <link>https://medium.com/@sarangbelsare0005/aws-iam-explained-iam-user-vs-role-vs-group-vs-policy-a-simple-guide-5193c934afb8?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@sarangbelsare0005/aws-iam-explained-iam-user-vs-role-vs-group-vs-policy-a-simple-guide-5193c934afb8?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1122/1*mEZRo6AFp9GnYBa7SIl0Tg.png&quot; width=&quot;1122&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;When I first started learning AWS IAM, I thought it was simple.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@sarangbelsare0005/aws-iam-explained-iam-user-vs-role-vs-group-vs-policy-a-simple-guide-5193c934afb8?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/5193c934afb8</guid>
+      <pubDate>Thu, 27 Aug 2026 05:16:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>The 2.1.1 “specific timings” Clause</title>
+      <link>https://adrianroselli.com/2026/08/the-2-1-1-specific-timings-clause.html</link>
+      <description>Many simplified, intro, or &amp;#8220;plain-English&amp;#8221; WCAG re-interpretations frame Success Criterion 2.1.1 Keyboard as ensuring a control or widget or thing can be operated with a keyboard. Some go further and also ask you to consider keyboard-like devices. Very few (I counted 1 out of 10) pay attention to the part&amp;#8230;</description>
+      <guid>https://adrianroselli.com/?p=51355</guid>
+      <pubDate>Wed, 26 Aug 2026 15:10:52 +0000</pubDate>
     </item>
     <item>
       <title>Deque and Microsoft: Two decades of shaping the future of accessibility</title>
@@ -792,14 +823,6 @@ This, of course, is only a standard minimal setup I use. Your needs and requirem
       <description>This document describes a methodology with a step-by-step process to evaluate how well digital products conform to Web Content Accessibility Guidelines (WCAG) 2.</description>
       <guid>https://www.w3.org/news/2026/group-note-wcag-evaluation-methodology-wcag-em-2-0/</guid>
       <pubDate>Thu, 23 Jul 2026 13:08:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>New survey and report from Deque Systems shows volume of AI-generated code is significantly increasing “accessibility debt” risk</title>
-      <link>https://www.deque.com/blog/new-report-shows-volume-of-ai-generated-code-is-significantly-increasing-accessibility-debt-risk/</link>
-      <description>&lt;p&gt;Groundbreaking survey of engineering leaders finds wide gap between confidence in AI code and digital accessibility, with risk growing faster than validation infrastructure.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://www.deque.com/blog/new-report-shows-volume-of-ai-generated-code-is-significantly-increasing-accessibility-debt-risk/&quot;&gt;New survey and report from Deque Systems shows volume of AI-generated code is significantly increasing “accessibility debt” risk&lt;/a&gt; appeared first on &lt;a href=&quot;https://www.deque.com&quot;&gt;Deque&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid>https://www.deque.com/?p=61336</guid>
-      <pubDate>Thu, 23 Jul 2026 12:59:30 +0000</pubDate>
     </item>
     <item>
       <title>W3C Invites Implementations of EPUB 3.4, EPUB Reading Systems 3.4 and EPUB Accessibility 1.2</title>
@@ -2135,118 +2158,6 @@ Update 2: I improve my demo page to get more realistic results. Added a link to 
 &lt;p&gt;The post &lt;a href=&quot;https://www.tpgi.com/weekly-reading-list-march-2-2026/&quot;&gt;Weekly Reading List March 2 2026&lt;/a&gt; appeared first on &lt;a href=&quot;https://www.tpgi.com&quot;&gt;TPGi — a Vispero company&lt;/a&gt;.&lt;/p&gt;</description>
       <guid>https://www.tpgi.com/?p=10846</guid>
       <pubDate>Mon, 02 Mar 2026 13:30:26 +0000</pubDate>
-    </item>
-    <item>
-      <title>A New Path for Digital Accessibility?</title>
-      <link>https://webaim.org/blog/a-new-path/</link>
-      <description>Please note This post will explore how an adaptive, intelligent system could empower users with disabilities to optimize their experience in digital environments. Even were such a system available tomorrow, developers of digital content, services, and products would still be responsible for providing equal access to ALL users. Consider a few of the many exciting [&amp;#8230;]</description>
-      <guid>https://webaim.org/blog/?p=2842</guid>
-      <pubDate>Fri, 27 Feb 2026 19:02:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>role=presentation is no alternative for aria-hidden=true</title>
-      <link>https://www.matuzo.at/blog/2026/role-presentation-no-alternative-for-aria-hidden</link>
-      <description>&lt;p&gt;In the &lt;a href=&quot;blog/2026/put-aria-hidden-on-presentational-svgs&quot;&gt;previous post&lt;/a&gt;, I explained how to hide presentational SVGs using &lt;code&gt;aria-hidden=&quot;true&quot;&lt;/code&gt;.&lt;br /&gt;
-That's a reliable technique, but sometimes I see developers use &lt;code&gt;role=&quot;presentation&quot;&lt;/code&gt; instead, which may or may not work as expected.&lt;/p&gt;&lt;p&gt;Before I show you where it fails, let's first try to understand the difference between &lt;code&gt;role=&quot;presentation&quot;&lt;/code&gt; and &lt;code&gt;aria-hidden=&quot;true&quot;&lt;/code&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;aria-hidden-true&quot;&gt;aria-hidden=&quot;true&quot;&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://w3c.github.io/aria/#aria-hidden&quot;&gt;According to the spec&lt;/a&gt;, &lt;code&gt;aria-hidden&lt;/code&gt; indicates, when set to &lt;code&gt;true&lt;/code&gt;, that an element and its entire subtree are hidden from assistive technology, regardless of whether it is visibly rendered.&lt;/p&gt;
-&lt;p&gt;The following heading is visually accessible, but hidden from assistive technology.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;h2 aria-hidden=&quot;true&quot;&amp;gt;
-    Hello World
-&amp;lt;/h2&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The same applies to the following SVG.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;svg viewBox=&quot;0 0 39 44&quot; aria-hidden=&quot;true&quot;&amp;gt;
-  &amp;lt;text x=&quot;20&quot; y=&quot;35&quot;&amp;gt;🥔&amp;lt;/text&amp;gt;
-&amp;lt;/svg&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Screen readers skip both elements entirely and don't announce anything.&lt;/p&gt;
-&lt;h2 id=&quot;role-presentation&quot;&gt;role=&quot;presentation&quot;&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://w3c.github.io/aria/#none&quot;&gt;According to the spec&lt;/a&gt;, the native role semantics of an element with &lt;code&gt;role=&quot;presentation&quot;&lt;/code&gt; (or &lt;code&gt;role=&quot;none&quot;&lt;/code&gt;, which is a synonym) will not be mapped to the accessibility API. &lt;/p&gt;
-&lt;p&gt;This means that the main difference from &lt;code&gt;aria-hidden=&quot;true&quot;&lt;/code&gt; is that &lt;code&gt;role=&quot;presentation&quot;&lt;/code&gt; only removes the native role of an element, not the element or its children.&lt;/p&gt;
-&lt;p&gt;Instead of something like &quot;heading level 2, Hello World&quot; a screen announces “Hello World” only. So, in terms of semantics, this element isn't a heading anymore but just static text.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;h2 role=&quot;presentation&quot;&amp;gt;
-    Hello World
-&amp;lt;/h2&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&quot;images-are-different&quot;&gt;Images are different&lt;/h2&gt;
-&lt;p&gt;Images are an exception, as noted in the ARIA specification.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;In HTML, the &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt; element is treated as a single entity regardless of the type of image file. Consequently, using role=&quot;none&quot; or role=&quot;presentation&quot; on an HTML img is equivalent to using aria-hidden=&quot;true&quot;.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Just because that's true for images doesn't mean that it's always true for SVGs.&lt;/p&gt;
-&lt;h2 id=&quot;where-role-presentation-fails-your-expectations&quot;&gt;Where role=&quot;presentation&quot; fails (your expectations)&lt;/h2&gt;
-&lt;p&gt;If you put &lt;code&gt;role=&quot;presentation&quot;&lt;/code&gt; on an unlabelled SVG without any text nodes, VoiceOver, Talkback, JAWS, and NVDA will ignore it.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;svg viewBox=&quot;0 0 39 44&quot; role=&quot;presentation&quot;&amp;gt;
-  &amp;lt;path d=&quot;M19.5 36.5 1.6 26.1v-3.6l16.3 9.4V1.5h3.2v30.4l16.3-9.4v3.6z&quot;/&amp;gt;
-&amp;lt;/svg&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;So, that's fine, but if you provide an accessible name for the SVG, all screen readers I tested, except JAWS, announce the SVG regardless of &lt;code&gt;role=&quot;presentation&quot;&lt;/code&gt;.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;svg viewBox=&quot;0 0 39 44&quot; role=&quot;presentation&quot; aria-label=&quot;Download&quot;&amp;gt;
-  &amp;lt;path d=&quot;M19.5 36.5 1.6 26.1v-3.6l16.3 9.4V1.5h3.2v30.4l16.3-9.4v3.6z&quot;/&amp;gt;
-&amp;lt;/svg&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;For example, VoiceOver on macOS announces “Download, group” or NVDA with Chrome “graphic, download&quot;.&lt;/p&gt;
-&lt;p&gt;If your SVG contains text, all screen readers announce the text.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;svg viewBox=&quot;0 0 39 44&quot; role=&quot;presentation&quot;&amp;gt;
-  &amp;lt;text x=&quot;20&quot; y=&quot;35&quot; class=&quot;small&quot;&amp;gt;🥔&amp;lt;/text&amp;gt;
-&amp;lt;/svg&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;You can see how &lt;code&gt;role=presentation&lt;/code&gt; doesn't always remove an element entirely from the accessibility tree.&lt;/p&gt;
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;If you want to remove an element from the accessibility tree, use &lt;code&gt;aria-hidden=&quot;true&quot;&lt;/code&gt;. For &lt;code&gt;img&lt;/code&gt; elements, you can use an empty alt attribute, &lt;code&gt;alt=&quot;&quot;&lt;/code&gt;. Although &lt;code&gt;role=presentation&lt;/code&gt; works for images, too, avoid it to avoid causing confusion with your colleagues. &lt;/p&gt;
-&lt;p&gt;PS: Screen readers used for testing: VoiceOver, macOS 26.3, Chrome 145, VoiceOver, macOS 26.3, Safari, Talkback, Android 16, Chrome 145, JAWS 2026, Windows 11, Chrome 145, NVDA 2025.3.3, Windows 11, Chrome146, NVDA 2025.3.3, Windows 11, Firefox 147, Narrator, and Windows 11, Edge .&lt;/p&gt;&lt;p&gt;My blog doesn't support comments yet, but you can reply via &lt;a href=&quot;mailto:blog@matuzo.at?subject=Comment+on+%E2%80%9Crole%3Dpresentation+is+no+alternative+for+aria-hidden%3Dtrue%E2%80%9D&quot;&gt;blog@matuzo.at&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid>https://www.matuzo.at/blog/2026/role-presentation-no-alternative-for-aria-hidden</guid>
-      <pubDate>2026-02-27T10:50:00+00:00</pubDate>
-    </item>
-    <item>
-      <title>Put aria-hidden=true on decorative SVGs</title>
-      <link>https://www.matuzo.at/blog/2026/put-aria-hidden-on-presentational-svgs</link>
-      <description>&lt;p&gt;The title says it all: put &lt;code&gt;aria-hidden=&quot;true&quot;&lt;/code&gt; on decorative SVGs, or they'll be announced by some screen readers.&lt;/p&gt;&lt;figure&gt;
-&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;svg viewBox=&quot;0 0 39 44&quot; aria-hidden=&quot;true&quot;&amp;gt;
-    &amp;lt;path d=&quot;M19.5 36.5 1.6 26.1v-3.6l16.3 9.4V1.5h3.2v30.4l16.3-9.4v3.6z&quot;/&amp;gt;
-&amp;lt;/svg&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;figcaption&gt;Similar to when you set &lt;code&gt;alt=&quot;&quot;&lt;/code&gt; on an img element, screen readers will ignore this SVG&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;Without &lt;code&gt;aria-hidden=&quot;true&quot;&lt;/code&gt;, you get the following results:&lt;/p&gt;
-&lt;figure&gt;
-&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;svg viewBox=&quot;0 0 39 44&quot;&amp;gt;
-  &amp;lt;path d=&quot;M19.5 36.5 1.6 26.1v-3.6l16.3 9.4V1.5h3.2v30.4l16.3-9.4v3.6z&quot;/&amp;gt;
-&amp;lt;/svg&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;figcaption&gt;Bad practice: Missing &lt;code&gt;aria-hidden=&quot;true&quot;&lt;/code&gt; state&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;Most current screen readers ignore the SVG, but there are exceptions.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;VoiceOver, macOS 26.3, Chrome 145:&lt;/strong&gt;&lt;br /&gt;
-Image&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Narrator, Windows 11, Edge/Chrome 145:&lt;/strong&gt;&lt;br /&gt;
-Graphic&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;VoiceOver, macOS 26.3, Safari:&lt;/strong&gt;&lt;br /&gt;
-Ignores the SVG&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Talkback, Android 16, Chrome 145:&lt;/strong&gt;&lt;br /&gt;
-Ignores the SVG&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;JAWS 2026, Windows 11, Chrome 145:&lt;/strong&gt;&lt;br /&gt;
-Ignores the SVG&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;NVDA 2025.3.3, Windows 11, Firefox&lt;/strong&gt; &lt;strong&gt;147&lt;/strong&gt;&lt;br /&gt;
-Ignores the SVG&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Adding the attribute is especially important if your SVG contains presentational text.&lt;/p&gt;
-&lt;figure&gt;
-&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;svg viewBox=&quot;0 0 39 44&quot;&amp;gt;
-  &amp;lt;text x=&quot;20&quot; y=&quot;35&quot;&amp;gt;🥔&amp;lt;/text&amp;gt;
-&amp;lt;/svg&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;figcaption&gt;Bad practice: Missing aria-hidden=&quot;true&quot; state&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;&lt;strong&gt;VoiceOver, macOS 26.3, Chrome 145:&lt;/strong&gt;&lt;br /&gt;
-Potato&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;VoiceOver, macOS 26.3, Safari:&lt;/strong&gt;&lt;br /&gt;
-Potato&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Talkback, Android 16, Chrome 145:&lt;/strong&gt;&lt;br /&gt;
-Potato emoji&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;JAWS 2026, Windows 11, Chrome 145:&lt;/strong&gt;&lt;br /&gt;
-Potato&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;NVDA 2025.3.3, Windows 11, Chrome146&lt;/strong&gt;&lt;br /&gt;
-Graphic, Potato&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;NVDA 2025.3.3, Windows 11, Firefox&lt;/strong&gt; &lt;strong&gt;147&lt;/strong&gt;&lt;br /&gt;
-Potato&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Narrator, Windows 11, Edge:&lt;/strong&gt;&lt;br /&gt;
-Graphic, Potato&lt;/p&gt;&lt;p&gt;My blog doesn't support comments yet, but you can reply via &lt;a href=&quot;mailto:blog@matuzo.at?subject=Comment+on+%E2%80%9CPut+aria-hidden%3Dtrue+on+decorative+SVGs%E2%80%9D&quot;&gt;blog@matuzo.at&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid>https://www.matuzo.at/blog/2026/put-aria-hidden-on-presentational-svgs</guid>
-      <pubDate>2026-02-27T09:20:00+00:00</pubDate>
     </item>
   </channel>
 </rss>
