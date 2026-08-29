@@ -3,7 +3,31 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Fri, 28 Aug 2026 21:28:20 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2026 15:43:34 +0000</lastBuildDate>
+    <item>
+      <title>Just a rumour of a bug is enough to find a security exploit these days</title>
+      <link>https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/</link>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://anil.recoil.org/notes/rumour-is-the-exploit&quot;&gt;Just a rumour of a bug is enough to find a security exploit these days&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+Anil Madhavapeddy is a professor of computer science at Cambridge and a core maintainer of the OCaml compiler. In this somewhat alarming post he reports that security issues in OCaml projects are seeing evidence of attempted exploits within minutes of patches being shared for discussion:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This normally takes a few days and a release within a week or two is reasonable. Within about ten minutes (!) this website was fielding probes for percent-encoded traversal sequences, indicating that automated watchers are keeping an eye on public repositories.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Modern coding agents have become so effective at finding flaws that the slightest hint at a new bug can be enough information for them to find it, something Anil has been able to demonstrate using his own agents, switching to DeepSeek V4 Pro⁠ when Claude Fable refused the task.&lt;/p&gt;
+&lt;p&gt;Anil points out that this rate of discovery appears incompatible with existing open source embargo practices for new issues. If an issue can become an exploit this fast, we need to figure out new processes for keeping our communities safe.&lt;/p&gt;
+&lt;p&gt;rclone maintainer Nick Craig-Wood &lt;a href=&quot;https://news.ycombinator.com/item?id=49480466#49480777&quot;&gt;confirms in the Hacker News comments&lt;/a&gt; that his project is seeing this problem:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In the first 10 years of the rclone project we received about 20 security disclosures through GitHub. We had to deal with over 40 in the last month! That has taken a huge amount of my time, even using AI tools to triage and come up with fixes for review.&lt;/p&gt;
+&lt;p&gt;The hit rate for those security disclosures is pretty good - about 75% of them have a nugget of something which needs looking at. [...]&lt;/p&gt;
+&lt;p&gt;GitHub assigns CVEs for the advisories. Before the AI apocalypse they took 2-3 days for an assignment but now it they are running at 3-4 weeks so I have to send the point releases out with CVE-PENDING in the changelog which isn't ideal.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://news.ycombinator.com/item?id=49480466&quot;&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/open-source&quot;&gt;open-source&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/security&quot;&gt;security&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ocaml&quot;&gt;ocaml&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/</guid>
+      <pubDate>2026-08-28T22:12:02+00:00</pubDate>
+    </item>
     <item>
       <title>Gemini Omni 1.1 🎬, Cohere Parse 📄, Codex persistent mode 👨‍💻</title>
       <link>https://tldr.tech/ai/2026-08-28</link>
@@ -841,27 +865,6 @@ Anthropic are &lt;em&gt;really&lt;/em&gt; confident in Claude Code's &lt;a href=
     &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/security&quot;&gt;security&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/prompt-injection&quot;&gt;prompt-injection&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-code&quot;&gt;claude-code&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/lethal-trifecta&quot;&gt;lethal-trifecta&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/thariq-shihipar&quot;&gt;thariq-shihipar&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Aug/8/auto-mode/</guid>
       <pubDate>2026-08-08T22:36:03+00:00</pubDate>
-    </item>
-    <item>
-      <title>Now we have a timeline of the OpenAI accidental attack against Hugging Face</title>
-      <link>https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/</link>
-      <description>&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49220609#49221745&quot;&gt;My comment&lt;/a&gt; on &lt;a href=&quot;https://news.ycombinator.com/item?id=49220609&quot;&gt;Now we have a timeline of the OpenAI accidental attack against Hugging Face&lt;/a&gt; &amp;mdash; Hacker News.&lt;/p&gt;&lt;p&gt;I think one of the most interesting details here might be tucked away in that first bullet point:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;May 7: OpenAI starts a new training run for an experimental, unreleased model. &lt;em&gt;(Do they mean an evaluation run? They say training run in the video, and later mention a “reward signal to judge how well they’re doing”, so I guess this really was about training a model, not evaluating one that was already trained.)&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;The more I think about this the more I suspect that the fact this happened while &lt;em&gt;training&lt;/em&gt; a new model is key to understanding what went wrong.&lt;/p&gt;
-&lt;p&gt;In RLVR - Reinforcement Learning with Verifiable Rewards - you set the model a goal and have it take &lt;em&gt;any steps necessary&lt;/em&gt; to achieve that goal.&lt;/p&gt;
-&lt;p&gt;Clearly one aspect of OpenAI's training here is to RLVR their models for cybersecurity tasks. Just like pre-training benefits from dumping in vast sources of knowledge, the more tasks you can feed into RLVR the more of a general purpose capable model you get at the end.&lt;/p&gt;
-&lt;p&gt;This also helps explain why the models had nothing to cause them to hold back. Those safety behaviors are added much later in the process.&lt;/p&gt;
-&lt;p&gt;AND it explains (but does not excuse) why monitoring was so lax. If you're training a new model like this you presumably set it thousands of tasks like this in parallel. I can see how you might miss that a tiny subset of your training agents have started leaving each other messages in filenames on your packaging server.&lt;/p&gt;
-&lt;p&gt;Someone once told me that you can't just leave the racist materials out of your training data if you want a non-racist model: it has to have seen examples of racism in order to later be taught that racism is bad.&lt;/p&gt;
-&lt;p&gt;I can see echoes of that here. If your model doesn't know how to aggressively hack things how do you later teach it not to?&lt;/p&gt;
-&lt;p&gt;(I have little knowledge of how RLVR works in practice so I'm looking forward to hearing from people who can help me understand if I'm on the right track here.)&lt;/p&gt;
-    
-    
-        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai-hugging-face-incident&quot;&gt;openai-hugging-face-incident&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/</guid>
-      <pubDate>2026-08-08T14:06:41+00:00</pubDate>
     </item>
     <item>
       <title>Improving Fable 5's biology safeguards</title>
