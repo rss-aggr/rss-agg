@@ -3,7 +3,164 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Sun, 30 Aug 2026 15:24:20 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 18:03:42 +0000</lastBuildDate>
+    <item>
+      <title>OpenAI Cursor split 💔, self-improving AI 🧠, GPT-6 Astra 🚀</title>
+      <link>https://tldr.tech/ai/2026-08-31</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Understanding ChatGPT Work</title>
+      <link>https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/</link>
+      <description>&lt;p&gt;OpenAI &lt;a href=&quot;https://openai.com/index/chatgpt-for-your-most-ambitious-work/&quot;&gt;announced ChatGPT Work&lt;/a&gt; on July 9th, and have been furiously iterating on it ever since. It is an extraordinarily confusing and very powerful product. Here's what I've figured out about it so far.&lt;/p&gt;
+&lt;h4 id=&quot;two-products&quot;&gt;ChatGPT Work is actually two products&lt;/h4&gt;
+&lt;p&gt;The more interesting version of ChatGPT Work is the one that runs in the cloud. This can be accessed via &lt;a href=&quot;https://www.chatgpt.com/&quot;&gt;chatgpt.com&lt;/a&gt; or through the ChatGPT mobile apps. Let's call it &lt;strong&gt;Work Cloud&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;If you install the ChatGPT desktop app - the app that used to be called Codex - you gain access to a thing called ChatGPT Work that can access files and run programs directly on your computer. Let's call that one &lt;strong&gt;Work Local&lt;/strong&gt;. This one feels more like regular Codex re-skinned to be less intimidating to non-software-developers.&lt;/p&gt;
+
+&lt;p&gt;(&lt;strong&gt;Update&lt;/strong&gt;: Work Cloud is also available from the ChatGPT desktop app, via a &lt;a href=&quot;https://bsky.app/profile/jkwim.bsky.social/post/3mueurvkss52h&quot;&gt;Where should this chat run?&lt;/a&gt; dropdown.)&lt;/p&gt;
+
+&lt;p&gt;For the rest of this article I'm going to talk exclusively about Work Cloud.&lt;/p&gt;
+&lt;h4 id=&quot;work-is-for-paid-subscribers-only&quot;&gt;Work is for paid subscribers only&lt;/h4&gt;
+&lt;p&gt;Right now, ChatGPT Work (in both flavors) is available only to $20/month and up subscribers. Free users and $8/month Go users do not have access.&lt;/p&gt;
+&lt;h4 id=&quot;work-has-features-that-aren-t-available-in-chat&quot;&gt;Work has features that aren't available in Chat&lt;/h4&gt;
+&lt;p&gt;The interface for accessing Work is a tab selector, which presents it as an alternative to Chat:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;ChatGPT app header with a Chat and a Work tab&quot; src=&quot;https://static.simonwillison.net/static/2026-08-30/IMG_7741.jpeg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The obvious question is &lt;em&gt;when should I use Chat, and when should I use Work?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;OpenAI's &lt;a href=&quot;https://learn.chatgpt.com/docs/get-started-with-work&quot;&gt;official answer&lt;/a&gt; to that question is:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Use Chat when you want an answer, explanation, brainstorm, or short draft. Use ChatGPT Work when you want ChatGPT to complete a task with a clear outcome, such as a brief, deck, analysis, recurring update, workflow, or file you can review and use.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I find that almost entirely useless, because I've been using regular ChatGPT Chat for all of those task categories for years!&lt;/p&gt;
+&lt;p&gt;The better question then is &lt;em&gt;what features does Work have that are missing from Chat?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;After extensive experimentation I think I've mostly figured that out:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#model-selection&quot;&gt;Options to use Luna and Terra in place of Sol&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#code-execution-with-internet-access-&quot;&gt;A code execution environment with Internet access&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#a-full-headless-chrome-browser&quot;&gt;A headless Chrome browser&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#a-persistent-shared-filesystem&quot;&gt;A persistent filesystem shared between sessions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#chatgpt-sites&quot;&gt;The ability to publish ChatGPT Sites&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#sub-agents-with-sol-luna-and-terra&quot;&gt;The ability to run sub-agent sessions with Sol, Luna, and Terra&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#scheduled-prompt-automations&quot;&gt;Scheduled prompt automations&lt;/a&gt; (may be in ChatGPT Chat too)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;model-selection&quot;&gt;Model selection&lt;/h4&gt;
+&lt;p&gt;In Work, you get the option to pick GPT-5.6 Sol, Luna, or Terra, each with Light, Medium, High, Extra High, Max, or Ultra reasoning levels. You can also pick GPT-5.5 at Light, Medium, High, or Extra High.&lt;/p&gt;
+&lt;p&gt;These look to be the same models that are available through the OpenAI API.&lt;/p&gt;
+&lt;p&gt;Chat offers a different selection: 5.6 Instant, Medium, High, Extra High, and Pro (actually Extra High and Pro are only available for $100/month+ subscribers - $20/month subscribers cap out at High). It doesn't explain if those are Luna or Terra or Sol (I'm assuming Sol?). 5.6 Pro appears to be exclusive to Chat, with no equivalent in Work.&lt;/p&gt;
+&lt;p&gt;My current understanding from using Codex is that Ultra is a special mode that more eagerly delegates to sub-agents.&lt;/p&gt;
+&lt;p&gt;I believe ChatGPT Work sessions are billed against your Codex allowance, while ChatGPT Chat Sessions get their own, separate allowance. This may help explain the model availability differences.&lt;/p&gt;
+&lt;h4 id=&quot;code-execution-with-internet-access-&quot;&gt;Code execution with Internet access!&lt;/h4&gt;
+&lt;p&gt;As a long-time fan of the &lt;a href=&quot;https://simonwillison.net/tags/code-interpreter/&quot;&gt;Code Interpreter pattern&lt;/a&gt; - pioneered by OpenAI in 2023 - this is by far the most exciting feature of ChatGPT Work (Cloud) for me.&lt;/p&gt;
+&lt;p&gt;The code execution environment can now talk to the rest of the internet!&lt;/p&gt;
+&lt;p&gt;ChatGPT Chat can't do this - if you ask it to install additional software packages or interact with websites or APIs that access will be blocked by the container proxy.&lt;/p&gt;
+&lt;p&gt;(Weirdly, back in January it &lt;a href=&quot;https://simonwillison.net/2026/Jan/26/chatgpt-containers/&quot;&gt;grew the ability to install packages&lt;/a&gt;, but that doesn't seem to work any more. I wish they had better changelogs!)&lt;/p&gt;
+&lt;p&gt;Claude's equivalent container has allowed restricted internet access since it launched &lt;a href=&quot;https://simonwillison.net/2025/Sep/9/claude-code-interpreter/&quot;&gt;last September&lt;/a&gt;. Claude can install packages from PYPI and NPM and clone repositories from GitHub. But that is about it: the allowlist of domains is very short.&lt;/p&gt;
+&lt;p&gt;ChatGPT Work allows a whole lot more than that. It can be configured with a specific list of allowed domains, but the default appears to be open to all.&lt;/p&gt;
+&lt;p&gt;This makes Work an incredibly useful tool. You can have it clone GitHub repositories, install their dependencies, then use them to interact with the rest of the web!&lt;/p&gt;
+&lt;h4 id=&quot;a-full-headless-chrome-browser&quot;&gt;A full, headless Chrome browser&lt;/h4&gt;
+&lt;p&gt;Another killer feature of ChatGPT Work is &lt;a href=&quot;https://learn.chatgpt.com/docs/browser?surface=web&quot;&gt;the browser tool&lt;/a&gt;. ChatGPT Work can launch a full Chrome instance, load websites, fill out forms, and take screenshots.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Screenshot of a ChatGPT conversation. A user message in a black rounded bubble reads: Visit https://london-pelicans-in-her-piety.simonw.chatgpt.site/ and take a screenshot with you browser. Below it a collapsed status line reads &amp;quot;Worked for 1m 18s &amp;gt;&amp;quot;, followed by the reply &amp;quot;Here's the screenshot of the live site:&amp;quot; and an embedded screenshot of a website.&quot; src=&quot;https://static.simonwillison.net/static/2026/chatgpt-work-card.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If a site requires sign in the browser can prompt you to take over and enter both passwords and 2FA codes, without round-tripping those credentials through the model itself.&lt;/p&gt;
+
+&lt;p&gt;It can even run JavaScript against the DOM of loaded pages. I prompted:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Load simonwillison.net in your browser and extract the headings using JavaScript&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;ChatGPT Work fired up a browser instance and ran the code:&lt;/p&gt;
+&lt;div class=&quot;highlight highlight-source-js&quot;&gt;&lt;pre&gt;&lt;span class=&quot;pl-k&quot;&gt;await&lt;/span&gt; &lt;span class=&quot;pl-s1&quot;&gt;tab&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;playwright&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pl-en&quot;&gt;evaluate&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;pl-kos&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;pl-k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;pl-v&quot;&gt;Array&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pl-en&quot;&gt;from&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;pl-smi&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pl-en&quot;&gt;querySelectorAll&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;pl-s&quot;&gt;&quot;h1,h2,h3,h4,h5,h6&quot;&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;pl-s1&quot;&gt;heading&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;pl-kos&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;pl-c1&quot;&gt;level&lt;/span&gt;: &lt;span class=&quot;pl-s1&quot;&gt;heading&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;tagName&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pl-en&quot;&gt;toLowerCase&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;pl-c1&quot;&gt;text&lt;/span&gt;: &lt;span class=&quot;pl-s1&quot;&gt;heading&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;innerText&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pl-en&quot;&gt;trim&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pl-en&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;pl-pds&quot;&gt;&lt;span class=&quot;pl-c1&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;pl-cce&quot;&gt;\s&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;/&lt;/span&gt;g&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;pl-s&quot;&gt;&quot; &quot;&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;pl-c1&quot;&gt;id&lt;/span&gt;: &lt;span class=&quot;pl-s1&quot;&gt;heading&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;null&lt;/span&gt;
+  &lt;span class=&quot;pl-kos&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;pl-kos&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This feels a lot like my &lt;a href=&quot;https://shot-scraper.datasette.io/en/stable/javascript.html&quot;&gt;shot-scraper javascript&lt;/a&gt; tool, only now I can access it on my phone!&lt;/p&gt;
+&lt;h4 id=&quot;a-persistent-shared-filesystem&quot;&gt;A persistent, shared filesystem&lt;/h4&gt;
+&lt;p&gt;ChatGPT Chat gets a fresh filesystem for each chat session. These cannot be accessed from any other session.&lt;/p&gt;
+&lt;p&gt;In ChatGPT Work each session gets its own scratch folder - named something like &lt;code&gt;/workspace/scratch/e00a0a017944&lt;/code&gt; - but each of those are persisted across sessions, so you can access files from previous chats. I have 171 folders in &lt;code&gt;/workspace/scratch&lt;/code&gt; right now!&lt;/p&gt;
+&lt;p&gt;As far as I can tell that &lt;code&gt;/workspace&lt;/code&gt; volume is mounted to all Work sessions that are currently running - file edits from one can be instantly seen by the others. They don't seem to share the same process space though, and localhost servers running in one can't be accessed from another.&lt;/p&gt;
+&lt;h4 id=&quot;chatgpt-sites&quot;&gt;ChatGPT Sites&lt;/h4&gt;
+&lt;p&gt;ChatGPT Work has the ability to build &lt;em&gt;and deploy&lt;/em&gt; entire websites, using Cloudflare Workers. These can have HTML and JavaScript and can run server-side features too, including stateful features on top of Cloudflare D1 and R2.&lt;/p&gt;
+&lt;p&gt;Here's a simple site I built with this feature:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://london-pelicans-in-her-piety.simonw.chatgpt.site/&quot;&gt;london-pelicans-in-her-piety.simonw.chatgpt.site&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Screenshot of a website homepage on a cream background. Top navigation bar: a circular logo reading &amp;quot;P/P&amp;quot; on the left, the links &amp;quot;THE CENSUS&amp;quot;, &amp;quot;COLLECTIONS&amp;quot; and &amp;quot;METHOD&amp;quot; in the center, and &amp;quot;JSON ↓&amp;quot; on the right. The left half is a hero section with small red capitals reading &amp;quot;AN ICONOGRAPHIC CENSUS · GREATER LONDON&amp;quot; above a large serif heading &amp;quot;Pelicans in her piety&amp;quot;, with &amp;quot;piety&amp;quot; set in red italics. Below it: &amp;quot;Across London, an impossible bird bleeds for her young—in limewood, marble, mosaic, metal and glass. This is an evidence-backed census of where to find her.&amp;quot; Two buttons follow: a solid black &amp;quot;EXPLORE ALL 28&amp;quot; and an outlined &amp;quot;DOWNLOAD THE DATA&amp;quot;. The right half is a photograph of an ornate dark carved wooden reredos in a church, with gilded urns and a crest on top, Corinthian columns, a gilded pelican with outspread wings at its center above inscribed panels, an altar with a brass cross and red flowers, embroidered banners on either side, and a black-and-white checkerboard floor with red carpet. Vertical text along the photo's right edge reads &amp;quot;ST MARY ABCHURCH&amp;quot; and a caption at its bottom reads &amp;quot;Grinling Gibbons's reredos, St Mary Abchurch. Photograph: Diliff, CC BY-SA 3.0, via SPAB ↗&amp;quot;. A statistics strip along the bottom shows &amp;quot;28 FIXED SITES&amp;quot;, &amp;quot;4 COLLECTIONS&amp;quot;, &amp;quot;3 OPEN LEADS&amp;quot; and &amp;quot;2 KNOWN LOSSES&amp;quot;.&quot; src=&quot;https://static.simonwillison.net/static/2026/pelicans-in-her-piety.webp&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;My prompt was:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Figure out all of the places in London with a pelican in her piety, then turn that into a JSON file and build a ChatGPT sites site about them&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;(A pelican in her piety is a fascinating piece of &lt;a href=&quot;https://devonchurchland.co.uk/blog/pelican-in-her-piety/#What-is-a-Pelican-In-Her-Piety&quot;&gt;medieval Christian imagery&lt;/a&gt; - once you know about them you'll find them all over the place.)&lt;/p&gt;
+&lt;p&gt;These sites default to being private to the user that created them, but you can make them public and (on team plans) share them with other specific individuals.&lt;/p&gt;
+&lt;h4 id=&quot;sub-agents-with-sol-luna-and-terra&quot;&gt;Sub-agents with Sol, Luna, and Terra&lt;/h4&gt;
+&lt;p&gt;There's not much to say about this one. ChatGPT Chat can't run sub-agents. ChatGPT Work can. This is very much a power-user feature: if you are running a complex project that can benefit from multiple parallel agents working together, Work can do that.&lt;/p&gt;
+&lt;h4 id=&quot;scheduled-prompt-automations&quot;&gt;Scheduled prompt automations&lt;/h4&gt;
+&lt;p&gt;Another feature that seems to have migrated from regular ChatGPT to ChatGPT Work at some point. You can prompt ChatGPT Work like this:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;run a search to see if Waymo have announced a launch date for Half Moon Bay every day at 8am&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This will schedule a prompt to run on that frequency. These prompts can decide that nothing interesting has happened, or they can decide to notify you of some new information.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: Actually this seems to work in ChatGPT Chat as well.&lt;/p&gt;
+&lt;p&gt;It's still worth noting here though, as it can be used in conjunction with other ChatGPT Work exclusive features. You can set a scheduled task to update a ChatGPT Site on an hourly basis, for example.&lt;/p&gt;
+&lt;h4 id=&quot;is-this-safe-&quot;&gt;Is this safe?&lt;/h4&gt;
+&lt;p&gt;An open question for me right now is how &lt;em&gt;safe&lt;/em&gt; all of this stuff is.&lt;/p&gt;
+&lt;p&gt;My &lt;a href=&quot;https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/&quot;&gt;lethal trifecta model&lt;/a&gt; warns about the risks inherent in any agent system that combines access to private data with exposure to untrusted content and a way to communicate stolen information back to an attacker.&lt;/p&gt;
+&lt;p&gt;ChatGPT Work combines all three!&lt;/p&gt;
+&lt;p&gt;I'd love to hear more from OpenAI about how they protect ChatGPT Work sessions against prompt injection attacks. I expect their answer is the same &lt;a href=&quot;https://learn.chatgpt.com/docs/sandboxing/auto-review&quot;&gt;auto-review mechanism&lt;/a&gt; as Codex.&lt;/p&gt;
+&lt;h4 id=&quot;openai-could-make-this-a-lot-less-confusing&quot;&gt;OpenAI could make this a lot less confusing&lt;/h4&gt;
+&lt;p&gt;Figuring this all out took way more work than it should have.&lt;/p&gt;
+&lt;p&gt;I think there are two key problems here:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;OpenAI explain Work in terms of what it's for, not what it actually does&lt;/li&gt;
+&lt;li&gt;OpenAI still insist on hiding their system prompts and tools descriptions&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If the ChatGPT Work documentation included the exact system prompt and tool descriptions used by the agent I wouldn't have needed to write this post.&lt;/p&gt;
+&lt;h4 id=&quot;all-the-tools&quot;&gt;A list of all the tools&lt;/h4&gt;
+&lt;p&gt;Shortly after publishing this article I had an idea. I started a fresh Work session and prompted:&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;&lt;code&gt;Build a site that lists every one of your tools - nearly grouped into categories - and for each one explain what it does. Try to exactly duplicate arguments and tool descriptions where possible. Design aesthetic should be technical docs, minimal flare&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://codex-tool-reference.simonw.chatgpt.site/&quot;&gt;Here's the site it built&lt;/a&gt;, which includes details of 223 registered tools - though 6 of those are from my own personal MCPs served via &lt;a href=&quot;https://simonwillison.net/2026/Jul/31/stateless-mcp/#datasette-mcp&quot;&gt;datasette-mcp&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;and-a-whole-lot-of-skills&quot;&gt;And a whole lot of Skills&lt;/h4&gt;
+&lt;p&gt;I noticed that the only browser-related tool in the list was &lt;a href=&quot;https://codex-tool-reference.simonw.chatgpt.site/#tool-web-run&quot;&gt;web.run&lt;/a&gt;, which has methods for running searches, opening URLs, and clicking links, but didn't look like the full story in regards to headless browser automation.&lt;/p&gt;
+&lt;p&gt;This made me suspicious that something was missing, so I told the ChatGPT Work session that built that tools reference site:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Add full copies of every skill to the website (separate pages linked to from the homepage)&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It turns out ChatGPT Work uses &lt;a href=&quot;https://codex-tool-reference.simonw.chatgpt.site/#skills&quot;&gt;a lot of skills&lt;/a&gt; - 44 in fact!&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;https://codex-tool-reference.simonw.chatgpt.site/skills/control-browser&quot;&gt;control-browser skill&lt;/a&gt; explains how the browser works:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Run browser setup code through the Node REPL &lt;code&gt;js&lt;/code&gt; tool. In this environment the callable tool id typically appears as &lt;code&gt;mcp__node_repl__js&lt;/code&gt;. [...]&lt;/p&gt;
+&lt;p&gt;The ability to interact directly with the browser is exposed through the &lt;code&gt;browser-client&lt;/code&gt; runtime via the &lt;code&gt;agent.browsers.*&lt;/code&gt; API. Before trying to interact with it, you MUST emit and read the complete documentation returned by &lt;code&gt;await browser.documentation()&lt;/code&gt; in one go.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;So I told Work:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Add the full output of await browser.documentation() to the bottom of the /skills/control-browser page&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;And now you can read that &lt;a href=&quot;https://codex-tool-reference.simonw.chatgpt.site/skills/control-browser#browser-documentation&quot;&gt;on /skills/control-browser&lt;/a&gt; as well.&lt;/p&gt;
+&lt;p&gt;A few more interesting Skills:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://codex-tool-reference.simonw.chatgpt.site/skills/documents&quot;&gt;documents&lt;/a&gt; for creating &lt;code&gt;.docx&lt;/code&gt; files&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://codex-tool-reference.simonw.chatgpt.site/skills/imagegen&quot;&gt;imagegen&lt;/a&gt; with tips on creating images with the &lt;code&gt;image_gen&lt;/code&gt; tool&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://codex-tool-reference.simonw.chatgpt.site/skills/pdf&quot;&gt;pdf&lt;/a&gt; for both reading and rendering PDFs&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://codex-tool-reference.simonw.chatgpt.site/skills/spreadsheets&quot;&gt;Spreadsheets&lt;/a&gt; for manipulating &lt;code&gt;.xlsx&lt;/code&gt;, &lt;code&gt;.xls&lt;/code&gt;, &lt;code&gt;.csv&lt;/code&gt;, &lt;code&gt;.tsv&lt;/code&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://codex-tool-reference.simonw.chatgpt.site/skills/sites-sites-building&quot;&gt;sites:sites-building&lt;/a&gt; for creating ChatGPT Sites&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://codex-tool-reference.simonw.chatgpt.site/skills/openai-docs&quot;&gt;openai-docs&lt;/a&gt; for answering questions about itself&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://codex-tool-reference.simonw.chatgpt.site/skills/data-analytics-build-dashboard&quot;&gt;data-analytics:build-dashboard&lt;/a&gt; for building data dashboards&lt;/li&gt;
+&lt;/ul&gt;
+    
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/chatgpt&quot;&gt;chatgpt&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/code-interpreter&quot;&gt;code-interpreter&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/lethal-trifecta&quot;&gt;lethal-trifecta&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/skills&quot;&gt;skills&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/general-agents&quot;&gt;general-agents&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/</guid>
+      <pubDate>2026-08-30T23:59:47+00:00</pubDate>
+    </item>
     <item>
       <title>Introducing Hy4 Preview</title>
       <link>https://simonwillison.net/2026/Aug/29/hy4/</link>
@@ -88,6 +245,7 @@ Anthropic are putting a great deal of faith in Claude Code's auto mode for prote
 &lt;li&gt;Do not expose home directories, SSH keys, cloud credentials,… to the agent runtime. [...]&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Update 30th August 2026&lt;/strong&gt;: On Lobste.rs &lt;a href=&quot;https://lobste.rs/s/ktbweg/prompt_injection_claude_code_opus_5_auto#c_gi7eqj&quot;&gt;hyperpape points out&lt;/a&gt; that this doesn't fit the bill of a classic prompt injection attack because at no point are malicious instructions from the website accidentally followed by the LLM. They're right: this is more of a confused environment attack where the nature of the environment that the agent is exposed to results in an exploit.
 
 
     &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/sandboxing&quot;&gt;sandboxing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/security&quot;&gt;security&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/prompt-injection&quot;&gt;prompt-injection&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/johann-rehberger&quot;&gt;johann-rehberger&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-code&quot;&gt;claude-code&lt;/a&gt;&lt;/p&gt;</description>
@@ -836,25 +994,6 @@ Meta are back in the open weights game! Muse Glimmer is a brand new 30B model un
       <pubDate>2026-08-09T23:31:39+00:00</pubDate>
     </item>
     <item>
-      <title>GitHub Models is now retired</title>
-      <link>https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.blog/changelog/2026-07-30-github-models-is-now-retired/&quot;&gt;GitHub Models is now retired&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-I missed this news until today, when the GitHub Actions run for my &lt;a href=&quot;https://github.com/simonw/research&quot;&gt;simonw/research&lt;/a&gt; repository failed with this error message:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;That message is already stale, because the retirement has been completed.&lt;/p&gt;
-&lt;p&gt;GitHub Models was an odd-shaped duck. GitHub provided a model playground tool and a unified API across a bunch of different LLM providers, with the biggest benefit being that code running in GitHub Actions could use the GitHub API key already present in that environment to execute prompts.&lt;/p&gt;
-&lt;p&gt;This made it easy to build things that fit GitHub Next's &lt;a href=&quot;https://githubnext.com/projects/continuous-ai/&quot;&gt;Continuous AI&lt;/a&gt; concept.&lt;/p&gt;
-&lt;p&gt;GitHub didn't share the reason behind the shutdown, but my bet is that it fits the pattern where coding agent patterns made it prohibitively expensive to offer free or subsidized tokens.&lt;/p&gt;
-&lt;p&gt;My workflow uses an LLM call to create folder summaries for &lt;a href=&quot;https://github.com/simonw/research/blob/main/README.md&quot;&gt;the README&lt;/a&gt;, using &lt;a href=&quot;https://github.com/simonw/research/blob/43fa54a74ca2350bb28c2c32fbb16d42c78c442f/README.md?plain=1#L104-L113&quot;&gt;this code here&lt;/a&gt;. I swapped GitHub Models out for an OpenAI API key with a monthly spending limit, and I'm now generating my summaries using GPT-5.6 Luna.
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/github&quot;&gt;github&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/github-actions&quot;&gt;github-actions&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-pricing&quot;&gt;llm-pricing&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/</guid>
-      <pubDate>2026-08-09T22:48:05+00:00</pubDate>
-    </item>
-    <item>
       <title>Improving Fable 5's biology safeguards</title>
       <link>https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards</link>
       <description>Improving Fable 5's biology safeguards</description>
@@ -895,13 +1034,6 @@ I missed this news until today, when the GitHub Actions run for my &lt;a href=&q
       <description/>
       <guid>https://tldr.tech/ai/2026-08-04</guid>
       <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>DeepSeek V4 Flash ⚡, OpenAI’s math breakthrough 🔢, Qwen 3.8-Max 🤖</title>
-      <link>https://tldr.tech/ai/2026-08-03</link>
-      <description/>
-      <guid>https://tldr.tech/ai/2026-08-03</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Investigating three real-world incidents in our cybersecurity evaluations</title>
