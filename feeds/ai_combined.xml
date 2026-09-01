@@ -3,7 +3,21 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Mon, 31 Aug 2026 18:03:42 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 15:35:52 +0000</lastBuildDate>
+    <item>
+      <title>Muse Code 👨‍💻, Runway Solaris ☀️, OpenClaw 2.0 🤖</title>
+      <link>https://tldr.tech/ai/2026-09-01</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-09-01</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Improving our alignment and security efforts</title>
+      <link>https://www.anthropic.com/news/improving-alignment-security-efforts</link>
+      <description>Improving our alignment and security efforts</description>
+      <guid>https://www.anthropic.com/news/improving-alignment-security-efforts</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>OpenAI Cursor split 💔, self-improving AI 🧠, GPT-6 Astra 🚀</title>
       <link>https://tldr.tech/ai/2026-08-31</link>
@@ -1029,13 +1043,6 @@ Meta are back in the open weights game! Muse Glimmer is a brand new 30B model un
       <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>ChronicleBio 🧬, Mind Lab continual learning 📈, GPT-Live architecture 🎙️</title>
-      <link>https://tldr.tech/ai/2026-08-04</link>
-      <description/>
-      <guid>https://tldr.tech/ai/2026-08-04</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Investigating three real-world incidents in our cybersecurity evaluations</title>
       <link>https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals</link>
       <description>Investigating three real-world incidents in our cybersecurity evaluations</description>
@@ -1337,13 +1344,6 @@ Meta are back in the open weights game! Muse Glimmer is a brand new 30B model un
       <description>Introducing Claude for Small Business</description>
       <guid>https://www.anthropic.com/news/claude-for-small-business</guid>
       <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Higher usage limits for Claude and a compute deal with SpaceX</title>
-      <link>https://www.anthropic.com/news/higher-limits-spacex</link>
-      <description>Higher usage limits for Claude and a compute deal with SpaceX</description>
-      <guid>https://www.anthropic.com/news/higher-limits-spacex</guid>
-      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
