@@ -3,7 +3,44 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Wed, 02 Sep 2026 15:12:02 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 15:05:31 +0000</lastBuildDate>
+    <item>
+      <title>Muse Spark 1.3 ✨, Gemini 3.8 Flash ⚡, intelligence vs cost 📊</title>
+      <link>https://tldr.tech/ai/2026-09-03</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-09-03</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>llm-gemini 0.34</title>
+      <link>https://simonwillison.net/2026/Sep/2/llm-gemini/</link>
+      <description>&lt;p&gt;&lt;strong&gt;Release:&lt;/strong&gt; &lt;a href=&quot;https://github.com/simonw/llm-gemini/releases/tag/0.34&quot;&gt;llm-gemini 0.34&lt;/a&gt;&lt;/p&gt;
+        &lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;New model &lt;code&gt;gemini-3.8-flash&lt;/code&gt; for &lt;a href=&quot;https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/&quot;&gt;Gemini 3.8 Flash&lt;/a&gt;, with low, medium and high thinking levels. &lt;a href=&quot;https://github.com/simonw/llm-gemini/issues/146&quot;&gt;#146&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fixed async responses failing to record the resolved model version. Thanks, &lt;a href=&quot;https://github.com/c-tonneslan&quot;&gt;Charlie Tonneslan&lt;/a&gt;. &lt;a href=&quot;https://github.com/simonw/llm-gemini/pull/137&quot;&gt;#137&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Google released &lt;a href=&quot;https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/&quot;&gt;Gemini 3.8 Flash&lt;/a&gt; (and 3.8 Flash Cyber, but that's available to &quot;trusted defenders&quot; only) today.&lt;/p&gt;
+&lt;p&gt;Here are &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Ff8820ce47db87490734117e9be4984c3&quot;&gt;the pelicans&lt;/a&gt; for high, medium, and low. This is high:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Description by Gemini 3.8 Flash: Digital illustration of a cartoon pelican wearing a red and white polka-dot scarf riding a teal cruiser bicycle along a wooden boardwalk by the beach, with a small blue fish in the front basket and a glowing sun over the ocean.&quot; src=&quot;https://static.simonwillison.net/static/2026-09-02/image.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;For comparison, here are the same pelicans &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer.html?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F6779a22d5e7bb6bdf29936f1600a5259&quot;&gt;generated using Gemini 3.7 Flash&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Something I appreciate about Gemini Flash is that it's fast, cheap, and competent at things like HTML and JavaScript. I was messing around with it and prompted &quot;make me a cool thing in html&quot; and &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Fb6149a49d327164d67d62c3d12992e48#how-to-use-it&quot;&gt;it built this&lt;/a&gt;, which is certainly a cool thing in HTML! Took 13 seconds, cost 1.8 cents.&lt;/p&gt;
+&lt;p&gt;&lt;video controls=&quot;controls&quot; height=&quot;370&quot; poster=&quot;https://static.simonwillison.net/static/2026/cosmic-gemma.jpg&quot; preload=&quot;none&quot; style=&quot;display: block; width: 100%; height: auto;&quot; width=&quot;854&quot;&gt;
+    &lt;source src=&quot;https://static.simonwillison.net/static/2026/cosmic-gemma.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Your browser does not support HTML5 video.
+  &lt;/video&gt;
+&lt;/p&gt;
+
+&lt;p&gt;If you click through to &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Fb6149a49d327164d67d62c3d12992e48#how-to-use-it&quot;&gt;the demo&lt;/a&gt; you'll see one more thing I built with Gemini 3.8 Flash.&lt;/p&gt;
+&lt;p&gt;My &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer&quot;&gt;markdown-svg-renderer tool&lt;/a&gt; lets me feed in the URL to a Gist with Markdown in and renders that markdown with fenced code blocks for SVG correctly rendered.&lt;/p&gt;
+&lt;p&gt;I used Gemini 3.8 Flash (with my &lt;em&gt;very&lt;/em&gt; basic &lt;a href=&quot;https://github.com/simonw/llm-coding-agent&quot;&gt;llm-coding-agent&lt;/a&gt; coding agent plugin) to add support for HTML as well, so now any HTML blocks in the Markdown are rendered using a sandboxed iframe. &lt;a href=&quot;https://gist.github.com/simonw/3e36b98292dfdc1b3baff158faa743f7&quot;&gt;Here's the transcript&lt;/a&gt;.&lt;/p&gt;
+    
+    
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm&quot;&gt;llm&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gemini&quot;&gt;gemini&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-release&quot;&gt;llm-release&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Sep/2/llm-gemini/</guid>
+      <pubDate>2026-09-02T16:39:38+00:00</pubDate>
+    </item>
     <item>
       <title>Claude's new system prompt really doesn't want to reproduce song lyrics</title>
       <link>https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/</link>
@@ -1076,21 +1113,6 @@ The latest DeepSeek Pro model is now available, via API only. I had to link to O
       <pubDate>2026-08-12T23:59:23+00:00</pubDate>
     </item>
     <item>
-      <title>Quoting Florian Herrengt</title>
-      <link>https://simonwillison.net/2026/Aug/12/florian-herrengt/</link>
-      <description>&lt;blockquote cite=&quot;https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html&quot;&gt;&lt;p&gt;But then users start to report a weird bug. It's the 4th time your team has been trying to fix it. I mean... asking AI to fix it. Unfortunately, it seems like not even Fable can figure it out.&lt;/p&gt;
-&lt;p&gt;You go talk to the person who worked on this feature.&lt;/p&gt;
-&lt;p&gt;&quot;So where does the data come from?&quot;&lt;/p&gt;
-&lt;p&gt;&quot;Hmm... actually I don't know. Let me ask Claude.&quot;&lt;/p&gt;
-&lt;p&gt;You sit next to each other watching an endless wall of text appear on the screen. Neither of you has any idea whether any of it is true but Claude seems very confident. [...]&lt;/p&gt;
-&lt;p&gt;This project has become so convoluted, with so many layers and services, that no one on your team could possibly start to understand what's going on.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html&quot;&gt;Florian Herrengt&lt;/a&gt;, AI is removing the middle class of software engineering&lt;/p&gt;
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai-misuse&quot;&gt;ai-misuse&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/cognitive-debt&quot;&gt;cognitive-debt&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-assisted-programming&quot;&gt;ai-assisted-programming&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/12/florian-herrengt/</guid>
-      <pubDate>2026-08-12T15:08:47+00:00</pubDate>
-    </item>
-    <item>
       <title>Cursor’s GitHub rival 👨‍💻, OpenAI COO leaves 👋, Gemini 1B milestone 📈</title>
       <link>https://tldr.tech/ai/2026-08-12</link>
       <description/>
@@ -1124,13 +1146,6 @@ The latest DeepSeek Pro model is now available, via API only. I had to link to O
       <description/>
       <guid>https://tldr.tech/ai/2026-08-07</guid>
       <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google DeepMind reshuffle 🧠, Meta Muse Code 💻, Anthropic chip team 🧩</title>
-      <link>https://tldr.tech/ai/2026-08-06</link>
-      <description/>
-      <guid>https://tldr.tech/ai/2026-08-06</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer</title>
