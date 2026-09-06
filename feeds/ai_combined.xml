@@ -3,13 +3,55 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Sat, 05 Sep 2026 13:57:36 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 14:18:20 +0000</lastBuildDate>
+    <item>
+      <title>Introducing GPT-6 Astra for developers</title>
+      <link>https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/</link>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=bOC3DisEOfg&quot;&gt;Introducing GPT-6 Astra for developers&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+Blink and you'll miss it, but there's a familiar creature at &lt;a href=&quot;https://www.youtube.com/watch?v=bOC3DisEOfg&amp;amp;t=119&quot;&gt;1m59s&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Across the board, Astra has more attention to detail, better understanding of the user's prompt, and can build more sophisticated outputs. In particular, it excels at building 3D models. I've seen it make incredible renderings of gardens, shipyards, &lt;strong&gt;animals&lt;/strong&gt;, cityscapes, even Dyson spheres.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img alt=&quot;astra-video-pelican.webp&quot; src=&quot;https://static.simonwillison.net/static/2026-09-05/astra-video-pelican.webp&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Astra &lt;a href=&quot;https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/&quot;&gt;really&lt;/a&gt; does &lt;a href=&quot;https://simonwillison.net/2026/Sep/4/astra-pelicans/&quot;&gt;believe&lt;/a&gt; in putting a red neckerchief on a pelican riding a bicycle.
+
+    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://news.ycombinator.com/item?id=49554643#49575117&quot;&gt;Hacker News comment&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gpt-6-astra&quot;&gt;gpt-6-astra&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/</guid>
+      <pubDate>2026-09-05T23:27:48+00:00</pubDate>
+    </item>
+    <item>
+      <title>Using Blender with coding agents on macOS</title>
+      <link>https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/</link>
+      <description>&lt;p&gt;&lt;strong&gt;TIL:&lt;/strong&gt; &lt;a href=&quot;https://til.simonwillison.net/llms/blender-coding-agents-macos&quot;&gt;Using Blender with coding agents on macOS&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;I've been having fun with Blender in ChatGPT Codex on my Mac recently. Getting it to work with coding agents is really easy: install the full Mac application from &lt;a href=&quot;https://www.blender.org&quot;&gt;blender.org&lt;/a&gt; and run a prompt like this:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Use the already install /Applications/Blender to render a scene of a pelican riding a bicycle&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In this case I followed that up with these two prompts:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;OK add a background and a lot of flair&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Then:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;OK make it a whole lot better&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;And got this image, generated &lt;a href=&quot;https://github.com/simonw/gpt-6-astra-blender-pelican-bicycle/blob/main/work/pelican_final.py&quot;&gt;using Blender's Python API&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;A 3D illustration of a white pelican cycling along a seaside boardwalk at sunset. It wears a cream boater hat and a coral scarf, with wings on the handlebars and long orange legs reaching the pedals of a turquoise bicycle. A wicker front basket holds pink and white flowers, and three balloons float behind. Pastel bunting stretches overhead between palm trees. Striped beach huts stand beside a teal sea with a small sailboat, beneath a large peach-colored sun. The scene has a softly lit, toy-like style.&quot; src=&quot;https://static.simonwillison.net/static/2026/astra-blender-pelican.jpg&quot; /&gt;&lt;/p&gt;
+    
+    
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/blender&quot;&gt;blender&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gpt-6-astra&quot;&gt;gpt-6-astra&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/</guid>
+      <pubDate>2026-09-05T15:51:09+00:00</pubDate>
+    </item>
     <item>
       <title>The Pelican comparison grid for Astra is pretty interesting</title>
       <link>https://simonwillison.net/2026/Sep/4/astra-pelicans/</link>
       <description>&lt;p&gt;I got access to GPT-6 Astra this afternoon, so naturally I used it to generate &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle/&quot;&gt;SVGs of pelicans riding bicycles&lt;/a&gt; - at low, medium, high, xhigh and max reasoning levels (Astra doesn't support reasoning=none). Then I rendered those pelicans in &lt;a href=&quot;https://static.simonwillison.net/static/2026/gpt-6-and-5.6-pelicans.html&quot;&gt;a comparison grid&lt;/a&gt; with GPT-5.6 Sol, Terra, and Luna, and beyond being fun the result was surprisingly useful.&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&quot;Comparison grid showing gpt-6-astra, gpt-5.6-sol, gpt-5.6-terra, gpt-5.6-luna at 6 different reasoning levels with pelicans and token counts and prices for each one.&quot; src=&quot;https://static.simonwillison.net/static/2026/astra-grid-3.webp&quot; /&gt;
-See &lt;a href=&quot;https://static.simonwillison.net/static/2026/gpt-6-and-5.6-pelicans.html&quot;&gt;the grid&lt;/a&gt; for full quality images. Here's &lt;a href=&quot;&quot;&gt;the transcript&lt;/a&gt; that created the GPT-6 Nova pelicans.&lt;/p&gt;
+See &lt;a href=&quot;https://static.simonwillison.net/static/2026/gpt-6-and-5.6-pelicans.html&quot;&gt;the grid&lt;/a&gt; for full quality images. Here's &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Ff789d2784fc6c5b870cc80f0b7cd9d01&quot;&gt;the transcript&lt;/a&gt; that created the GPT-6 Nova pelicans.&lt;/p&gt;
 &lt;p&gt;There are a few interesting things that stand out from this grid.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The Astra pelicans are &lt;em&gt;much better&lt;/em&gt;. The very best GPT-5.6-Sol pelican (I liked xhigh better than max) is still pretty clearly a bunch of abstract shapes. Every single one of the Astra pelicans, from low to xhigh, looks better than that. The Astra max one is really good.&lt;/li&gt;
@@ -302,7 +344,7 @@ GPT-6 Astra is &quot;rolling out today to a limited set of organizations and ove
 &lt;p&gt;At times, Claude was working with the fury of 10 freshly unshackled Einstein genius-level 10x coders. And other times ... well, not so much. I had to babysit Claude quite a bit to make sure it did resource management correctly (for awhile it just wasn't doing the COM equivalent of AddRef() for reference counted objects, oops). I had to slap it a few times when I found some really bad design or architecture decisions. And I was also impressed at some rather clever and tireless reverse engineering work it did to figure out all the formulas needed for implementing Direct2D's built-in effects library.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://forums.paint.net/topic/134563-🍷-extremely-experimental-winelinux-support-how-to-get-started/&quot;&gt;Rick Brewster&lt;/a&gt;, author of Paint.NET&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/reverse-engineering&quot;&gt;reverse-engineering&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/dotnet&quot;&gt;dotnet&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/linux&quot;&gt;linux&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/vibe-coding&quot;&gt;vibe-coding&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/dotnet&quot;&gt;dotnet&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/linux&quot;&gt;linux&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/reverse-engineering&quot;&gt;reverse-engineering&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/vibe-coding&quot;&gt;vibe-coding&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Sep/2/rick-brewster/</guid>
       <pubDate>2026-09-02T05:50:57+00:00</pubDate>
     </item>
@@ -397,7 +439,7 @@ GPT-6 Astra is &quot;rolling out today to a limited set of organizations and ove
       <description>&lt;blockquote cite=&quot;https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis/&quot;&gt;&lt;p&gt;They took the letters from me! I have to talk about &lt;em&gt;dwarf behavior&lt;/em&gt; now. I can't even talk about dwarf AI. It doesn't exist. It's &lt;em&gt;dwarf behavior&lt;/em&gt;, and they misbehave sometimes&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis/&quot;&gt;Tarn Adams&lt;/a&gt;, co-creator of Dwarf Fortress&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/game-design&quot;&gt;game-design&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/game-design&quot;&gt;game-design&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Sep/1/tarn-adams/</guid>
       <pubDate>2026-09-01T17:01:11+00:00</pubDate>
     </item>
@@ -714,7 +756,7 @@ Another open weights model from Qwen. This one is &quot;a multimodal MoE model t
       <description>&lt;blockquote cite=&quot;https://pauldix.com/the-end-of-programming&quot;&gt;&lt;p&gt;The fact that AI wrote 1M LOC and then refined it over the course of the next couple of months to produce a reliable piece of software that is currently running on millions of developer machines is absolutely mind blowing. And you can say, “well it’s not that impressive because they had an oracle to compare against, so it was simple to go from one language to another”, but I think that’s selling this entire thing short. If you can build a verification system and give proper direction, AI can produce a highly complex, highly sophisticated piece of software and it can continue to refine it until it just works.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://pauldix.com/the-end-of-programming&quot;&gt;Paul Dix&lt;/a&gt;, The end of programming&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-assisted-programming&quot;&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/bun&quot;&gt;bun&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-assisted-programming&quot;&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/bun&quot;&gt;bun&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Aug/26/paul-dix/</guid>
       <pubDate>2026-08-26T08:07:55+00:00</pubDate>
     </item>
@@ -786,7 +828,7 @@ A few interesting numbers in this FT story gathered from &quot;people with knowl
 &lt;p&gt;&lt;em&gt;So we started to think about what work went where.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://www.dbreunig.com/2026/08/23/fable-the-end-of-moore-s-law.html&quot;&gt;Drew Breunig&lt;/a&gt;, Fable &amp;amp; The End of the Free Lunch&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/drew-breunig&quot;&gt;drew-breunig&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-pricing&quot;&gt;llm-pricing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/drew-breunig&quot;&gt;drew-breunig&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-pricing&quot;&gt;llm-pricing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Aug/23/drew-breunig/</guid>
       <pubDate>2026-08-23T19:55:30+00:00</pubDate>
     </item>
@@ -799,7 +841,7 @@ A few interesting numbers in this FT story gathered from &quot;people with knowl
 &lt;p&gt;But while the AI was ready to give up several times, it did keep adding debug code and analyzing it faithfully when I pushed. So credit where credit is due and I let the AI write the commit message above.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c&quot;&gt;Linus Torvalds&lt;/a&gt;, drm/xe: Don't hand out the flat CCS storage as usable VRAM&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/linus-torvalds&quot;&gt;linus-torvalds&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/linux&quot;&gt;linux&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-assisted-programming&quot;&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/linus-torvalds&quot;&gt;linus-torvalds&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/linux&quot;&gt;linux&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-assisted-programming&quot;&gt;ai-assisted-programming&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Aug/22/linus-torvalds/</guid>
       <pubDate>2026-08-22T21:04:26+00:00</pubDate>
     </item>
@@ -837,7 +879,7 @@ Thomas Ptacek advocates for building real native user interfaces for even the sm
 &lt;p&gt;So learning doesn’t stop just because I outsource a bunch of thinking to AI. It pushes me to learn more. I like that as an outcome.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://interconnected.org/home/2026/08/21/galactic&quot;&gt;Matt Webb&lt;/a&gt;, Galactic Compass 2: now with new augmented reality mode&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/matt-webb&quot;&gt;matt-webb&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/chatgpt&quot;&gt;chatgpt&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/education&quot;&gt;education&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/education&quot;&gt;education&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/matt-webb&quot;&gt;matt-webb&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/chatgpt&quot;&gt;chatgpt&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Aug/21/matt-webb/</guid>
       <pubDate>2026-08-21T15:06:26+00:00</pubDate>
     </item>
@@ -904,7 +946,7 @@ Thomas Ptacek advocates for building real native user interfaces for even the sm
       <description>&lt;blockquote cite=&quot;https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/&quot;&gt;&lt;p&gt;My hypothesis is that &lt;strong&gt;there is a new opportunity for Extensible Software on the web&lt;/strong&gt;. LLMs radically lower the cost of authoring extensions, and modern sandbox primitives lower the deployment cost and provide good security boundaries. We can build our app as a solid, accountable core, and allow users to safely extend it in many directions by having LLMs fill in the missing pieces. &lt;strong&gt;We can give our users super powers.&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/&quot;&gt;Jeremy Morrell&lt;/a&gt;, Extensible Software in the age of LLMs&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/sandboxing&quot;&gt;sandboxing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/sandboxing&quot;&gt;sandboxing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Aug/19/jeremy-morrell/</guid>
       <pubDate>2026-08-19T22:56:31+00:00</pubDate>
     </item>
@@ -1135,30 +1177,6 @@ My strong recommendation: ignore that default. Run Qwen 3.8 27B on low or even n
         &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/local-llms&quot;&gt;local-llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/qwen&quot;&gt;qwen&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-reasoning&quot;&gt;llm-reasoning&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llama-cpp&quot;&gt;llama-cpp&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-release&quot;&gt;llm-release&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/lm-studio&quot;&gt;lm-studio&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-in-china&quot;&gt;ai-in-china&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/nvidia-spark&quot;&gt;nvidia-spark&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pi&quot;&gt;pi&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Aug/16/qwen-38-27b/</guid>
       <pubDate>2026-08-16T22:00:39+00:00</pubDate>
-    </item>
-    <item>
-      <title>Quoting Dario Amodei</title>
-      <link>https://simonwillison.net/2026/Aug/16/dario-amodei/</link>
-      <description>&lt;blockquote cite=&quot;https://twitter.com/darioamodei/status/2088758819304443967&quot;&gt;&lt;p&gt;I do agree that the public has a negative view of AI (and that this is a big problem), but I don’t think it is primarily caused by me or any other AI leader warning about AI’s risks.  I think it is fundamentally a crisis of trust.  I think that ordinary people don’t trust companies, governments, or the tech industry and always suspect that we are cooking up some new way to screw them over.  The causes of this go back decades and AI is just the latest iteration of it.  I don’t think that a glitzy marketing campaign with a positive spin (which some have advocated that Anthropic do) is the way to win back that trust — at this point, saying that AI will cure cancer is more a cliche than it is inspiring, and most people think it is deceptive.  The thing that will work is &lt;em&gt;actually curing cancer&lt;/em&gt;.  I think by far the most accurate criticism of AI companies including Anthropic is that we haven’t yet delivered on our big promises to benefit the world.  That is totally on us, and I think it’s the criticism you should be making, instead of all this stuff about messaging and marketing.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://twitter.com/darioamodei/status/2088758819304443967&quot;&gt;Dario Amodei&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-backlash&quot;&gt;ai-backlash&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/16/dario-amodei/</guid>
-      <pubDate>2026-08-16T15:05:36+00:00</pubDate>
-    </item>
-    <item>
-      <title>CORS Chat</title>
-      <link>https://simonwillison.net/2026/Aug/15/cors-chat/</link>
-      <description>&lt;p&gt;&lt;strong&gt;Tool:&lt;/strong&gt; &lt;a href=&quot;https://tools.simonwillison.net/cors-chat&quot;&gt;CORS Chat&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;I built this today (&lt;a href=&quot;https://gist.github.com/simonw/92a1d97773744b45bf259e003013cf36&quot;&gt;with GPT-5.6-Sol xhigh&lt;/a&gt;) to help test Qwen 3.8 27B running in LM Studio on both my M5 MacBook Pro and an NVIDIA DGX Spark.&lt;/p&gt;
-&lt;p&gt;It provides a web UI for exercising an OpenAI-Responses-compatible chat endpoint. I've tried it against LM Studio with the &lt;code&gt;--cors&lt;/code&gt; option and OpenRouter, and both work fine.&lt;/p&gt;
-&lt;p&gt;Conversations are persisted in the browser and can be exported as copy-pasted JSON. One fun detail is that it notices SVG images that are being generated and progressively renders them in the chat while the tokens are still streaming in.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Alt text generated by Qwen-3.8 27B: Screenshot of the CORS Chat web interface. The left sidebar lists three saved conversations, with &amp;quot;render an svg of five intersecting squares&amp;quot; selected. The main panel shows a chat with the qwen3.8‑27b model: the user asked &amp;quot;render an svg of five intersecting squares. don't overthink this,&amp;quot; followed by the model's reasoning trace describing the design (five semi‑transparent squares rotated around a common center on a dark background). Below is an SVG preview pane displaying five overlapping, semi‑transparent colored squares—pink, blue, green, yellow, and purple—with white outlines, rotated at different angles to form a starburst pattern on a dark navy background. Top controls include endpoint/model selectors and a &amp;quot;New chat&amp;quot; button; the bottom has a message input and a &amp;quot;Send&amp;quot; button.&quot; src=&quot;https://static.simonwillison.net/static/2026/cors-chat.webp&quot; /&gt;&lt;/p&gt;
-    
-    
-        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/svg&quot;&gt;svg&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/cors&quot;&gt;cors&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openrouter&quot;&gt;openrouter&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/lm-studio&quot;&gt;lm-studio&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/15/cors-chat/</guid>
-      <pubDate>2026-08-15T14:49:54+00:00</pubDate>
     </item>
     <item>
       <title>How Claude’s text watermark works</title>
