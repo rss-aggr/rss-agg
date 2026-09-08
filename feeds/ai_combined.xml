@@ -3,7 +3,26 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Mon, 07 Sep 2026 16:35:33 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 15:13:20 +0000</lastBuildDate>
+    <item>
+      <title>OpenAI managed agents 🤖, TPU inference ⚡, Anthropic $517B compute 💰</title>
+      <link>https://tldr.tech/ai/2026-09-08</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-09-08</guid>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Quoting Jakub Pachocki</title>
+      <link>https://simonwillison.net/2026/Sep/7/jakub-pachocki/</link>
+      <description>&lt;blockquote cite=&quot;https://openai.com/index/an-alien-mind/#scalable-defense&quot;&gt;&lt;p&gt;The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...]&lt;/p&gt;
+&lt;p&gt;We will need powerful, aligned AI for defense; to secure infrastructure, to protect against rogue agents in real time, and to invent entirely new protective measures. This will be a primary focus of OpenAI’s deployment efforts.&lt;/p&gt;
+&lt;p&gt;At the same time, even with the uncertainty that comes from anticipated broad AI progress and the need to build defensive systems, we must not let that become an excuse for recklessness. The idea of racing forward at all costs seems absurd once one internalizes the seriousness of the stakes.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://openai.com/index/an-alien-mind/#scalable-defense&quot;&gt;Jakub Pachocki&lt;/a&gt;, Chief Scientist at OpenAI&lt;/p&gt;
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Sep/7/jakub-pachocki/</guid>
+      <pubDate>2026-09-07T22:26:25+00:00</pubDate>
+    </item>
     <item>
       <title>Claude proves Fermat 🧮, automated AI researcher 🔬, Z1 efficiency chip ⚡</title>
       <link>https://tldr.tech/ai/2026-09-07</link>
@@ -366,7 +385,7 @@ GPT-6 Astra is &quot;rolling out today to a limited set of organizations and ove
 &lt;p&gt;At times, Claude was working with the fury of 10 freshly unshackled Einstein genius-level 10x coders. And other times ... well, not so much. I had to babysit Claude quite a bit to make sure it did resource management correctly (for awhile it just wasn't doing the COM equivalent of AddRef() for reference counted objects, oops). I had to slap it a few times when I found some really bad design or architecture decisions. And I was also impressed at some rather clever and tireless reverse engineering work it did to figure out all the formulas needed for implementing Direct2D's built-in effects library.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://forums.paint.net/topic/134563-🍷-extremely-experimental-winelinux-support-how-to-get-started/&quot;&gt;Rick Brewster&lt;/a&gt;, author of Paint.NET&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/dotnet&quot;&gt;dotnet&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/linux&quot;&gt;linux&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/reverse-engineering&quot;&gt;reverse-engineering&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/vibe-coding&quot;&gt;vibe-coding&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/reverse-engineering&quot;&gt;reverse-engineering&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/dotnet&quot;&gt;dotnet&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/linux&quot;&gt;linux&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/vibe-coding&quot;&gt;vibe-coding&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Sep/2/rick-brewster/</guid>
       <pubDate>2026-09-02T05:50:57+00:00</pubDate>
     </item>
@@ -461,7 +480,7 @@ GPT-6 Astra is &quot;rolling out today to a limited set of organizations and ove
       <description>&lt;blockquote cite=&quot;https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis/&quot;&gt;&lt;p&gt;They took the letters from me! I have to talk about &lt;em&gt;dwarf behavior&lt;/em&gt; now. I can't even talk about dwarf AI. It doesn't exist. It's &lt;em&gt;dwarf behavior&lt;/em&gt;, and they misbehave sometimes&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis/&quot;&gt;Tarn Adams&lt;/a&gt;, co-creator of Dwarf Fortress&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/game-design&quot;&gt;game-design&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/game-design&quot;&gt;game-design&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Sep/1/tarn-adams/</guid>
       <pubDate>2026-09-01T17:01:11+00:00</pubDate>
     </item>
@@ -778,7 +797,7 @@ Another open weights model from Qwen. This one is &quot;a multimodal MoE model t
       <description>&lt;blockquote cite=&quot;https://pauldix.com/the-end-of-programming&quot;&gt;&lt;p&gt;The fact that AI wrote 1M LOC and then refined it over the course of the next couple of months to produce a reliable piece of software that is currently running on millions of developer machines is absolutely mind blowing. And you can say, “well it’s not that impressive because they had an oracle to compare against, so it was simple to go from one language to another”, but I think that’s selling this entire thing short. If you can build a verification system and give proper direction, AI can produce a highly complex, highly sophisticated piece of software and it can continue to refine it until it just works.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://pauldix.com/the-end-of-programming&quot;&gt;Paul Dix&lt;/a&gt;, The end of programming&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-assisted-programming&quot;&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/bun&quot;&gt;bun&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-assisted-programming&quot;&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/bun&quot;&gt;bun&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Aug/26/paul-dix/</guid>
       <pubDate>2026-08-26T08:07:55+00:00</pubDate>
     </item>
@@ -850,7 +869,7 @@ A few interesting numbers in this FT story gathered from &quot;people with knowl
 &lt;p&gt;&lt;em&gt;So we started to think about what work went where.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://www.dbreunig.com/2026/08/23/fable-the-end-of-moore-s-law.html&quot;&gt;Drew Breunig&lt;/a&gt;, Fable &amp;amp; The End of the Free Lunch&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/drew-breunig&quot;&gt;drew-breunig&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-pricing&quot;&gt;llm-pricing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/drew-breunig&quot;&gt;drew-breunig&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-pricing&quot;&gt;llm-pricing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Aug/23/drew-breunig/</guid>
       <pubDate>2026-08-23T19:55:30+00:00</pubDate>
     </item>
@@ -863,7 +882,7 @@ A few interesting numbers in this FT story gathered from &quot;people with knowl
 &lt;p&gt;But while the AI was ready to give up several times, it did keep adding debug code and analyzing it faithfully when I pushed. So credit where credit is due and I let the AI write the commit message above.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c&quot;&gt;Linus Torvalds&lt;/a&gt;, drm/xe: Don't hand out the flat CCS storage as usable VRAM&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/linus-torvalds&quot;&gt;linus-torvalds&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/linux&quot;&gt;linux&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-assisted-programming&quot;&gt;ai-assisted-programming&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/linus-torvalds&quot;&gt;linus-torvalds&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/linux&quot;&gt;linux&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-assisted-programming&quot;&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Aug/22/linus-torvalds/</guid>
       <pubDate>2026-08-22T21:04:26+00:00</pubDate>
     </item>
@@ -901,7 +920,7 @@ Thomas Ptacek advocates for building real native user interfaces for even the sm
 &lt;p&gt;So learning doesn’t stop just because I outsource a bunch of thinking to AI. It pushes me to learn more. I like that as an outcome.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://interconnected.org/home/2026/08/21/galactic&quot;&gt;Matt Webb&lt;/a&gt;, Galactic Compass 2: now with new augmented reality mode&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/education&quot;&gt;education&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/matt-webb&quot;&gt;matt-webb&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/chatgpt&quot;&gt;chatgpt&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/matt-webb&quot;&gt;matt-webb&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/chatgpt&quot;&gt;chatgpt&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/education&quot;&gt;education&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Aug/21/matt-webb/</guid>
       <pubDate>2026-08-21T15:06:26+00:00</pubDate>
     </item>
@@ -968,7 +987,7 @@ Thomas Ptacek advocates for building real native user interfaces for even the sm
       <description>&lt;blockquote cite=&quot;https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/&quot;&gt;&lt;p&gt;My hypothesis is that &lt;strong&gt;there is a new opportunity for Extensible Software on the web&lt;/strong&gt;. LLMs radically lower the cost of authoring extensions, and modern sandbox primitives lower the deployment cost and provide good security boundaries. We can build our app as a solid, accountable core, and allow users to safely extend it in many directions by having LLMs fill in the missing pieces. &lt;strong&gt;We can give our users super powers.&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/&quot;&gt;Jeremy Morrell&lt;/a&gt;, Extensible Software in the age of LLMs&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/sandboxing&quot;&gt;sandboxing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/sandboxing&quot;&gt;sandboxing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Aug/19/jeremy-morrell/</guid>
       <pubDate>2026-08-19T22:56:31+00:00</pubDate>
     </item>
@@ -1026,26 +1045,6 @@ That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (
       <pubDate>2026-08-17T23:58:14+00:00</pubDate>
     </item>
     <item>
-      <title>We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility</title>
-      <link>https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/&quot;&gt;We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-Excellent piece of reporting from 404 Media. For a while now there have been stories of book dealers receiving orders for large volumes of books from apparently price-insensitive anonymous customers, widely suspected to be companies looking to scan them for AI training (see &lt;a href=&quot;https://simonwillison.net/2025/Jun/24/anthropic-training/&quot;&gt;my previous coverage&lt;/a&gt; of Anthropic's book scanning from June 2025.)&lt;/p&gt;
-&lt;p&gt;404 Media investigated with an AirTag!&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;In July, one bookseller told me they received a very large order of around 1,000 books on Biblio, one of these marketplaces. The seller agreed to put an Apple AirTag provided by 404 Media in one of the books included in this order so we could see where the book was going. And by extension, which company, AI or otherwise, was behind this massive order.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;The book ended up delivered to the VGT3 corner of the &lt;a href=&quot;https://maps.app.goo.gl/2hMqbHrovTSZxh1U9&quot;&gt;LAS8 Amazon facility&lt;/a&gt; in the north east of Las Vegas, where the entrance carried this on-the-nose logo of a dinosaur with a book!&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Photo of an office entrance. A logo in the window shows a red tyrannosaurus with a book, its claws clearly digging in and with a hint that it is more interested in destruction than reading.&quot; src=&quot;https://static.simonwillison.net/static/2026-08-17/IMG_7418.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;Photo credit: 404 Media&lt;/small&gt;&lt;/p&gt;
-
-&lt;p&gt;Online forum discussions between Amazon workers confirmed that VGT3 destructively scans large volumes of books.
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/amazon&quot;&gt;amazon&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/journalism&quot;&gt;journalism&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/training-data&quot;&gt;training-data&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/404-media&quot;&gt;404-media&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/</guid>
-      <pubDate>2026-08-17T15:21:29+00:00</pubDate>
-    </item>
-    <item>
       <title>GLM-5.3 🤖, Stripe OpenRouter deal 💰, AI agent consensus 🤝</title>
       <link>https://tldr.tech/ai/2026-08-17</link>
       <description/>
@@ -1079,13 +1078,6 @@ Excellent piece of reporting from 404 Media. For a while now there have been sto
       <description/>
       <guid>https://tldr.tech/ai/2026-08-12</guid>
       <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Muse Glimmer ✨, OpenAI Cyber 🛡️, Claude vs Riemann Hypothesis 🧠</title>
-      <link>https://tldr.tech/ai/2026-08-11</link>
-      <description/>
-      <guid>https://tldr.tech/ai/2026-08-11</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Improving Fable 5's biology safeguards</title>
