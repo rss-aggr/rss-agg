@@ -3,7 +3,92 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Tue, 08 Sep 2026 15:13:20 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 15:13:10 +0000</lastBuildDate>
+    <item>
+      <title>Quoting Terence Tao</title>
+      <link>https://simonwillison.net/2026/Sep/9/terence-tao/</link>
+      <description>&lt;blockquote cite=&quot;https://mathstodon.xyz/@tao/117237320796901560&quot;&gt;&lt;p&gt;I wrote recently about how the collection of good, fruitful open problems is now being mined in a non-renewable fashion, leading to the potential scenario of these problems becoming scarce. [...]&lt;/p&gt;
+&lt;p&gt;We have now seen that even the rumor of someone working on a problem can trigger a massive amount of AI-powered effort to flatten it before the original research project has time to reach its full potential.  The incentives may now be pointing in the direction of no longer sharing any promising research directions with the broader community, which would reverse centuries of traditions of open science and do serious long-term damage to the future of the field.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://mathstodon.xyz/@tao/117237320796901560&quot;&gt;Terence Tao&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/mathematics&quot;&gt;mathematics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Sep/9/terence-tao/</guid>
+      <pubDate>2026-09-09T00:20:17+00:00</pubDate>
+    </item>
+    <item>
+      <title>Images 2.5 🎨, OpenAI solves Navier-Stokes 🧮, AlphaGenome Atlas 🧬</title>
+      <link>https://tldr.tech/ai/2026-09-09</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-09-09</guid>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>On the Navier–Stokes Millennium Prize Problem</title>
+      <link>https://simonwillison.net/2026/Sep/8/on-navier-stokes/</link>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://openai.com/index/navier-stokes-solution/&quot;&gt;On the Navier–Stokes Millennium Prize Problem&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+Impressive result from OpenAI, who used an unreleased model to produce a resolution to &lt;a href=&quot;https://en.wikipedia.org/wiki/Navier–Stokes_existence_and_smoothness&quot;&gt;the Navier–Stokes existence and smoothness problem&lt;/a&gt;, one of the seven &lt;a href=&quot;https://en.wikipedia.org/wiki/Millennium_Prize_Problems&quot;&gt;Millennium Prize Problems&lt;/a&gt; that have been subject to a $1,000,000 prize since May 24th, 2000.&lt;/p&gt;
+&lt;p&gt;The discovery is somewhat overshadowed by accusations of skulduggery from Tristan Buckmaster, an NYU mathematics professor who was collaborating on related problems with Levent Alpöge, an accomplished mathematician who currently works for Anthropic.&lt;/p&gt;
+&lt;p&gt;Tristan's complaint accompanied &lt;a href=&quot;https://mastodon.social/@tristanbuckmaster/117233413705701198&quot;&gt;a hastily published version&lt;/a&gt; of their own results. &lt;a href=&quot;https://cims.nyu.edu/~tristanb/statement.pdf&quot;&gt;Here's the PDF describing what happened&lt;/a&gt;. The &lt;em&gt;very&lt;/em&gt; short version is that Tristan and Levent worked on the problem for almost a year, making extensive use of Claude and Codex (mainly GPT-5.6 Sol), then had a breakthrough on August 15th. The mathematical rumour mill kicked into gear and Tristan and Levent heard that OpenAI had heard that Anthropic had resolved &quot;a major open problem&quot;, so they reached out and learned that OpenAI had a team working on a related problem, with a similar approach. Quoting Tristan:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I asked when the first prompt had been sent by them. This question was not answered directly by OpenAI for some time. Eventually it was agreed that it had been sent in the past few days, after information about our work had reached OpenAI.&lt;/p&gt;
+&lt;p&gt;I asked whether the model had been trained on, or had access to, our sessions in Codex, into which we had been putting all our drafts for the whole of this project. I was told the model did not look up user data. I asked again, about training, and I did not get an answer.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It gets more complicated from there. The OpenAI team offered to wait for Tristan to publish, or to have him author a paper about their result, but were clear that Levent would &lt;em&gt;not&lt;/em&gt; be invited as a co-author due to OpenAI's competitive relationship with his employer.&lt;/p&gt;
+&lt;p&gt;Here's how OpenAI described their work:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;On Tuesday, September 1, we heard rumors that two Millennium Prize problems had been resolved. Inspired by these rumors and by the step change in performance of our internal model, we launched an effort to evaluate it on all open Millennium Prize problems and a few other high-impact problems. [...]&lt;/p&gt;
+&lt;p&gt;The agents arrived at their resolution on Saturday, September 5, about 88 hours after the first agents were launched. Lean formalization and verification took an additional 17 hours via GPT‑6 Astra.&lt;/p&gt;
+&lt;p&gt;Across all attempted problems, the agents sent 4.9 million messages and used about 300 billion output tokens. In the process of resolving the Navier–Stokes problem, the agents sent 2.7 million messages and used approximately 130 billion output tokens.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;(We don't know the cost structure of the internal model they used, but 300 billion output tokens at public API prices for GPT-6 Astra would cost &lt;a href=&quot;https://www.llm-prices.com/#ot=300000000000&amp;amp;sel=gpt-6-astra&quot;&gt;$15,000,000&lt;/a&gt;.)&lt;/p&gt;
+&lt;p&gt;Here's where they provide their perspective on Tristan and Levent's work (emphasis mine):&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Our effort began on September 1st after hearing a rumor which we later realized was related to Levent Alpöge, an Anthropic employee, and Tristan Buckmaster, a math professor at NYU. After the completion of our full project and Lean verification (on September 6th), believing from the rumor they also had a solution of Navier–Stokes, we reached out to them to offer a concurrent release of our result and to recognize their priority in a joint announcement. [...]&lt;/p&gt;
+&lt;p&gt;We (the researchers and the agents) did not see any of their work through any means until they released it publicly — in particular, no specific user data was accessed in order to solve this problem. &lt;strong&gt;While unlikely, we cannot rule out that de-identified data derived from their usage of our products helped &lt;a href=&quot;https://openai.com/policies/how-your-data-is-used-to-improve-model-performance/&quot;&gt;improve our models&lt;/a&gt;&lt;/strong&gt;. However, our proofs differ significantly and even the precise results proved are different in the Euler case (forced vs unforced).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;My interpretation of what happened here is that OpenAI heard that some Millennium Prize problems had been solved using LLMs and saw this as an opportunity to demonstrate the power of their latest model, without thinking too hard about the optics of scooping a team who had been using OpenAI's own models to work on this problem for the best part of a year.&lt;/p&gt;
+&lt;p&gt;This situation appears to mirror what's happening in the world of computer security right now. Anil Madhavapeddy recently pointed out that &lt;a href=&quot;https://anil.recoil.org/notes/rumour-is-the-exploit&quot;&gt;Just a rumour of a bug is enough to find a security exploit these days&lt;/a&gt;, because if someone knows that some software has an unpatched vulnerability, they can set their agents the task of finding it. Is the same now true of mathematics? Just knowing that there is an unpublished solution to a problem might trigger millions of dollars in LLM spending to get there first.&lt;/p&gt;
+&lt;p&gt;This also highlights one of my ongoing frustrations about how all of this works. When an AI lab says that my data is &quot;used to improve model performance&quot;, &lt;em&gt;what does that actually mean&lt;/em&gt;?&lt;/p&gt;
+&lt;p&gt;My two favourite hypothetical questions regarding this used to be:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If I'm running Codex and one of my API keys accidentally gets consumed in the context, what are the chances that someone else might ask for an API key in the future and get mine back? (I asked someone at OpenAI once and they called this the &quot;regurgitation&quot; problem and assured me that they take great pains to prevent that... but wouldn't describe how.)&lt;/li&gt;
+&lt;li&gt;If I brainstorm with ChatGPT about potential new directions for my company, what's the chance that information might be exposed to a competitor in six months' time who asks &quot;what might company X plan to do next&quot;?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;My new preferred hypothetical for this is:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If I use ChatGPT to help me partially solve a Millennium Prize problem, what are the chances that my work will influence training such that a later model helps someone &lt;em&gt;else&lt;/em&gt; solve it first?&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://news.ycombinator.com/item?id=49613262&quot;&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/mathematics&quot;&gt;mathematics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/training-data&quot;&gt;training-data&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Sep/8/on-navier-stokes/</guid>
+      <pubDate>2026-09-08T23:55:12+00:00</pubDate>
+    </item>
+    <item>
+      <title>Introducing ChatGPT Images 2.5</title>
+      <link>https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/</link>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://openai.com/index/introducing-chatgpt-images-2-5/&quot;&gt;Introducing ChatGPT Images 2.5&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+OpenAI's image generation models are apparently used &quot;more than 3 billion images across ChatGPT Images and the GPT‑Image models in the API&quot;. This latest release improves their instruction-following ability across multiple turns, responds faster, and &quot;is better at preserving the subjects in your reference photos&quot;.&lt;/p&gt;
+&lt;p&gt;There are two new model IDs in the API: &lt;code&gt;gpt-image-2.5-sunburst&lt;/code&gt; and &lt;code&gt;gpt-image-2.5-flare&lt;/code&gt;. Based &lt;a href=&quot;https://developers.openai.com/api/docs/guides/image-generation#overview&quot;&gt;on this&lt;/a&gt; I think Sunburst is the stronger option:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Choose Sunburst for workflows where editing precision matters most, and Flare for fast, high-quality everyday image generation.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I &lt;a href=&quot;https://github.com/simonw/tools/pull/333&quot;&gt;upgraded&lt;/a&gt; my &lt;a href=&quot;https://tools.simonwillison.net/python/#openai_imagepy&quot;&gt;openai_image.py&lt;/a&gt; CLI tool to support passing in one or more reference images, so now this works:&lt;/p&gt;
+&lt;div class=&quot;highlight highlight-source-shell&quot;&gt;&lt;pre&gt;uv run https://tools.simonwillison.net/python/openai_image.py \
+  &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;'&lt;/span&gt;add a raccoon scientist studying the chart thoughtfully&lt;span class=&quot;pl-pds&quot;&gt;'&lt;/span&gt;&lt;/span&gt; \
+  -i https://static.simonwillison.net/static/2026/openai-agent-usage.webp \
+  -m gpt-image-2.5-sunburst&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This is the &lt;a href=&quot;https://static.simonwillison.net/static/2026/openai-agent-usage.webp&quot;&gt;original image&lt;/a&gt;, and here's what I got back from that prompt to &quot;add a raccoon scientist studying the chart thoughtfully&quot;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Line chart with cartoon illustration. Title: &amp;quot;Usage of internal coding agents is increasing significantly—Median researcher&amp;quot;. Y-axis labeled &amp;quot;Daily $ / researcher&amp;quot; from 0 to 700; x-axis shows Feb 2026, Apr 2026, Jun 2026, Aug 2026. A blue line stays near zero through April, rises gradually to around 150 by June and July, then climbs steeply to about 600 by late August. In the foreground a cartoon raccoon in glasses and a white lab coat, chin in hand, holds a clipboard at a desk with a mug bearing the OpenAI logo, some printed charts, and a stack of three books titled &amp;quot;AI AGENTS&amp;quot;, &amp;quot;SOFTWARE ENGINEERING&amp;quot;, and &amp;quot;PRODUCTIVITY&amp;quot;. An OpenAI logo appears in the top right corner.&quot; src=&quot;https://static.simonwillison.net/static/2026/racoon-chart.webp&quot; /&gt;
+
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/tools&quot;&gt;tools&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/uv&quot;&gt;uv&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/text-to-image&quot;&gt;text-to-image&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/</guid>
+      <pubDate>2026-09-08T22:46:33+00:00</pubDate>
+    </item>
     <item>
       <title>OpenAI managed agents 🤖, TPU inference ⚡, Anthropic $517B compute 💰</title>
       <link>https://tldr.tech/ai/2026-09-08</link>
@@ -982,41 +1067,6 @@ Thomas Ptacek advocates for building real native user interfaces for even the sm
       <pubDate>2026-08-19T23:16:00+00:00</pubDate>
     </item>
     <item>
-      <title>Quoting Jeremy Morrell</title>
-      <link>https://simonwillison.net/2026/Aug/19/jeremy-morrell/</link>
-      <description>&lt;blockquote cite=&quot;https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/&quot;&gt;&lt;p&gt;My hypothesis is that &lt;strong&gt;there is a new opportunity for Extensible Software on the web&lt;/strong&gt;. LLMs radically lower the cost of authoring extensions, and modern sandbox primitives lower the deployment cost and provide good security boundaries. We can build our app as a solid, accountable core, and allow users to safely extend it in many directions by having LLMs fill in the missing pieces. &lt;strong&gt;We can give our users super powers.&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/&quot;&gt;Jeremy Morrell&lt;/a&gt;, Extensible Software in the age of LLMs&lt;/p&gt;
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/sandboxing&quot;&gt;sandboxing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/19/jeremy-morrell/</guid>
-      <pubDate>2026-08-19T22:56:31+00:00</pubDate>
-    </item>
-    <item>
-      <title>Conceptual integrity and counting lines of code</title>
-      <link>https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/</link>
-      <description>&lt;p&gt;Last week I recorded &lt;a href=&quot;https://talkingpostgres.com/episodes/how-ai-is-changing-software-development-with-simon-willison&quot;&gt;an episode of the Talking Postgres podcast&lt;/a&gt; with Claire Giordano on the subject of &quot;How AI is changing software development&quot;. We had a really great conversation. Here are a couple of my highlights from a lightly edited transcript (prompt to Claude: &quot;very minor edits to remove disfluencies&quot;).&lt;/p&gt;
-&lt;p&gt;This is the latest version of an argument I've been trying to build about why sometimes it &lt;em&gt;does&lt;/em&gt; make sense to talk about lines of code as an indicator of productivity with coding agents, at &lt;a href=&quot;https://talkingpostgres.com/episodes/how-ai-is-changing-software-development-with-simon-willison#t=35m1s&quot;&gt;35:01&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;A lot of people will tell you it makes no sense to measure productivity in lines of code. I’d actually disagree, because there’s a hard limit. In the before-times, a software engineer could produce a few hundred lines of production-ready code per day — and 200 lines of working, debugged, production-level code is an incredibly good day. Most days you’d produce 50 or 60.&lt;/p&gt;
-&lt;p&gt;If agents let you produce a thousand lines of debugged code, that really is a very meaningful improvement — as long as the code is the same quality: maintainable, tested, all of that. You can get to that point with agents, but it takes a huge amount of skill and knowledge and experience. That’s what senior engineers are made of.&lt;/p&gt;
-&lt;p&gt;I can do way more work as a single engineer than I could without agents. So you could argue, why should a company have more than one engineer? Beyond the obvious bus factor thing — a team of one is a very badly designed team — the answer is that the new limiting factor is cognitive capacity. I can churn out code a hundred times faster. I don’t have the cognitive capacity to stay on top of 100 times the amount of code. So you still need a team of engineers, so you can load balance that cognitive capacity across the team.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;And this section on conceptual integrity at &lt;a href=&quot;https://talkingpostgres.com/episodes/how-ai-is-changing-software-development-with-simon-willison#t=46m3s&quot;&gt;46:03&lt;/a&gt;, which Claire equated to the &lt;a href=&quot;https://en.wikipedia.org/wiki/Winchester_Mystery_House&quot;&gt;Winchester Mystery House&lt;/a&gt;!&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Simon&lt;/strong&gt;: There’s a concept in &lt;em&gt;The Mythical Man-Month&lt;/em&gt; — conceptual integrity — where well-designed software has an integrity to it: there are no surprises in it, it covers exactly the right domain of things, everything fits together and makes sense. That’s so much harder with coding agents, where you can have an idea for a feature, run a prompt, and five minuteslater you’ve got the feature. Your software grows little weird bumps in funny different directions.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Claire&lt;/strong&gt;: You know my analogy for that? The Winchester Mystery House.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Simon&lt;/strong&gt;: It’s got 140 rooms, because the woman who built it was the widow of the guy who invented the Winchester rifle, and her psychic told her she’d be haunted by the ghosts of everyone killed with that rifle unless she kept building the house forever. So for 40 years she kept adding new rooms.
-
-That’s exactly the problem with coding agents and software: it’s very easy to keep adding new rooms, because the cost of adding those rooms is so much cheaper. What you end up with is something where the conceptual integrity falls apart — and then it’s harder to make decisions about it.&lt;/p&gt;
-&lt;p&gt;It all keeps coming back to discipline. It used to be that the discipline was enforced on you by the amount of time it took. You’d come up with an idea for a crazy feature and think “yeah, but that would take me a week — I cannot justify that, so I’ll forget about it.” If it takes an hour, it’s so much easier to justify.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;(Side-note: the Wikipedia article includes credible sources that dispute the story about the psychic.)&lt;/p&gt;
-    
-        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/podcast-appearances&quot;&gt;podcast-appearances&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/</guid>
-      <pubDate>2026-08-19T22:46:07+00:00</pubDate>
-    </item>
-    <item>
       <title>GLM-5.3 API 🤖, Cerebras’ new chip ⚡, OpenAI cyber slowdown 🚨</title>
       <link>https://tldr.tech/ai/2026-08-19</link>
       <description/>
@@ -1029,20 +1079,6 @@ That’s exactly the problem with coding agents and software: it’s very easy t
       <description/>
       <guid>https://tldr.tech/ai/2026-08-18</guid>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index</title>
-      <link>https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://artificialanalysis.ai/models/qwen3-8-27b&quot;&gt;Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is &lt;a href=&quot;https://huggingface.co/zai-org/GLM-5.2&quot;&gt;753B&lt;/a&gt; and that DeepSeek is &lt;a href=&quot;https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813&quot;&gt;1.7T parameters&lt;/a&gt;, and Luna is size unknown but presumably a whole lot bigger than 27B.&lt;/p&gt;
-&lt;p&gt;Qwen 3.8 27B is &lt;a href=&quot;https://simonwillison.net/2026/Aug/16/qwen-38-27b/&quot;&gt;a truly astonishing model&lt;/a&gt;.
-
-    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://news.ycombinator.com/item?id=49334544&quot;&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/qwen&quot;&gt;qwen&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-in-china&quot;&gt;ai-in-china&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/artificial-analysis&quot;&gt;artificial-analysis&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/</guid>
-      <pubDate>2026-08-17T23:58:14+00:00</pubDate>
     </item>
     <item>
       <title>GLM-5.3 🤖, Stripe OpenRouter deal 💰, AI agent consensus 🤝</title>
@@ -1071,13 +1107,6 @@ That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (
       <description/>
       <guid>https://tldr.tech/ai/2026-08-13</guid>
       <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Cursor’s GitHub rival 👨‍💻, OpenAI COO leaves 👋, Gemini 1B milestone 📈</title>
-      <link>https://tldr.tech/ai/2026-08-12</link>
-      <description/>
-      <guid>https://tldr.tech/ai/2026-08-12</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Improving Fable 5's biology safeguards</title>
