@@ -3,7 +3,52 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Wed, 09 Sep 2026 15:13:10 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 15:04:46 +0000</lastBuildDate>
+    <item>
+      <title>Quoting Calif Research</title>
+      <link>https://simonwillison.net/2026/Sep/10/calif-research/</link>
+      <description>&lt;blockquote cite=&quot;https://calif.io/research/weworm&quot;&gt;&lt;p&gt;Today, we're releasing a demo of WeWorm, the first zero-click worm to spread through WeChat calls across iOS and Android. [...]&lt;/p&gt;
+&lt;p&gt;The victim does not need to answer the call, or interact with their phone at all. Even if they do answer, they hear nothing, and the exploit still succeeds. [...]&lt;/p&gt;
+&lt;p&gt;Working with AI, our team found the bug and wrote the first remote code execution (RCE) exploit in about two days. Building the worm took one more week.&lt;/p&gt;
+&lt;p&gt;A worm at this scale used to be the kind of thing that took a larger team months. AI can already do most of the work here. Our team provided the judgment about what to target and how to test it safely.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://calif.io/research/weworm&quot;&gt;Calif Research&lt;/a&gt;, WeWorm&lt;/p&gt;
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/security&quot;&gt;security&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Sep/10/calif-research/</guid>
+      <pubDate>2026-09-10T00:56:41+00:00</pubDate>
+    </item>
+    <item>
+      <title>DeepSeek Flash v4.1 🤖, Siri AI 📱, Anthropic AI economics 📈</title>
+      <link>https://tldr.tech/ai/2026-09-10</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-09-10</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>.blend URL Viewer</title>
+      <link>https://simonwillison.net/2026/Sep/9/blender-viewer/</link>
+      <description>&lt;p&gt;&lt;strong&gt;Tool:&lt;/strong&gt; &lt;a href=&quot;https://tools.simonwillison.net/blender-viewer&quot;&gt;.blend URL Viewer&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;I'm continuing to have a lot of fun with GPT-6 Astra and Blender (see &lt;a href=&quot;https://til.simonwillison.net/llms/blender-coding-agents-macos&quot;&gt;my TIL&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;As a big fan of the &lt;a href=&quot;https://en.wikipedia.org/wiki/Faberg%C3%A9_egg&quot;&gt;Imperial Fabergé Easter eggs&lt;/a&gt;, I've always thought it would be fun to make some new ones that celebrate popular culture.&lt;/p&gt;
+&lt;p&gt;Yesterday I decided to try out the new &lt;a href=&quot;https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/&quot;&gt;ChatGPT Images 2.5&lt;/a&gt; by &lt;a href=&quot;https://chatgpt.com/share/6aa1f6d2-a7d8-83ea-92ec-0daeb8422617&quot;&gt;running this prompt&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Generate a photo of a faberge egg that's themed after the TV show Pluribus - research first&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It gave me this - honestly not bad for a first attempt!&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;It's a yellow Fabergé egg, half open. Inside you can clearly see Carol in her black outfit facing off against a choir of creepy white-faced joined humans. There are cacti and it has an Albuquerque New Mexico feel to it. The egg stand has a Pluribus plaque.&quot; src=&quot;https://static.simonwillison.net/static/2026/pluribus-egg.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Then, just to see what would happen, I pasted that image into Codex running GPT-6 Astra (high) and prompted:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Use your blender local skill to create a blender model of this faverge egg&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;(Here's &lt;a href=&quot;https://github.com/simonw/gpt-6-astra-blender-pelican-bicycle/blob/main/outputs/blender-local/SKILL.md&quot;&gt;the skill file&lt;/a&gt;, which I created &lt;a href=&quot;https://til.simonwillison.net/llms/blender-coding-agents-macos#creating-a-skill&quot;&gt;like this&lt;/a&gt;.)&lt;/p&gt;
+&lt;p&gt;It churned away for 17m51s and built me &lt;a href=&quot;https://github.com/simonw/vibe-coded-blender-projects/tree/main/pluribus-faberge-egg/deliverables&quot;&gt;several &lt;code&gt;.blend&lt;/code&gt; files&lt;/a&gt;. I already had this vibe-coded Blender viewing experiment lying around, so I added that to my &lt;a href=&quot;https://tools.simonwillison.net/&quot;&gt;tools collection&lt;/a&gt; and now you can use it to &lt;a href=&quot;https://tools.simonwillison.net/blender-viewer?url=https%3A%2F%2Fgithub.com%2Fsimonw%2Fvibe-coded-blender-projects%2Fblob%2Fmain%2Fpluribus-faberge-egg%2Fdeliverables%2FPluribus_Jeweled_Egg_v1.blend&quot;&gt;see my Pluribus blender model in your browser&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Screenshot of a web-based 3D Blender file viewer showing a rendered gold Fabergé-style jeweled egg. The top of the egg is lifted open, revealing a miniature desert diorama inside with green cacti, brown rocks, and a small black-suited figure standing in the center. The egg's shell is decorated with green gems, pearls, ornate scrollwork, a ring of smiling white egg-shaped faces, and oval medallions painted with a cactus and desert scene. The egg stands on four gold legs over a black marbled base with a gold plaque reading PLURIBUS. The URL bar reads https://github.com/simonw/vibe-coded-blender-projects/blob/main/pluribus-faberge-egg/deliverables/Pluribus_Jeweled_Egg_v1.blend with a View button; top-right buttons read Fit, Wireframe, Clear. A bottom-left info panel reads: Loaded Blender 05.01 · 7.2 MB / 387 meshes · 1099 curves · 1 text · 783,764 vertices · 1,446,560 triangles · 17 materials / Preview: approximate materials and text; unapplied modifiers are omitted. / GitHub URL resolved through jsDelivr&quot; src=&quot;https://static.simonwillison.net/static/2026/pluribus-blender-viewer.webp&quot; /&gt;&lt;/p&gt;
+    
+    
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/3d&quot;&gt;3d&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/javascript&quot;&gt;javascript&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/tools&quot;&gt;tools&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/blender&quot;&gt;blender&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/codex&quot;&gt;codex&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gpt-6-astra&quot;&gt;gpt-6-astra&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Sep/9/blender-viewer/</guid>
+      <pubDate>2026-09-09T23:58:32+00:00</pubDate>
+    </item>
     <item>
       <title>Quoting Terence Tao</title>
       <link>https://simonwillison.net/2026/Sep/9/terence-tao/</link>
@@ -1017,54 +1062,11 @@ Thomas Ptacek advocates for building real native user interfaces for even the sm
       <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView</title>
-      <link>https://simonwillison.net/2026/Aug/20/bun-webview-json-api/</link>
-      <description>&lt;p&gt;&lt;strong&gt;Research:&lt;/strong&gt; &lt;a href=&quot;https://github.com/simonw/research/tree/main/bun-webview-json-api#readme&quot;&gt;A shot-scraper-style JSON API on Bun 1.4&amp;#x27;s new Bun.WebView&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;Today saw the long awaited &lt;a href=&quot;https://bun.com/blog/bun-v1.4&quot;&gt;release of Bun 1.4&lt;/a&gt;, the first stable version since the infamous Rust rewrite &lt;a href=&quot;https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/&quot;&gt;a few months ago&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Interestingly, the Rust rewrite was downplayed in the release notes, which introduced a bewildering array of new features and claimed 2,900 additional bug fixes:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Bun 1.4 adds +1,517 tests from the Node.js test suite - our biggest jump in Node.js compatibility since Bun 1.0. Bun v1.4 also fixes over 2,900 issues. It reduces idle CPU usage by 5x, reduces memory usage by up to 35%, and starts 50% faster on Linux. It adds &lt;a href=&quot;https://bun.com/blog/bun-v1.4#bun-image&quot;&gt;&lt;code&gt;Bun.Image&lt;/code&gt;&lt;/a&gt;, &lt;a href=&quot;https://bun.com/blog/bun-v1.4#bun-webview&quot;&gt;&lt;code&gt;Bun.WebView&lt;/code&gt;&lt;/a&gt;, &lt;a href=&quot;https://bun.com/blog/bun-v1.4#bun-markdown&quot;&gt;&lt;code&gt;Bun.markdown&lt;/code&gt;&lt;/a&gt;, &lt;a href=&quot;https://bun.com/blog/bun-v1.4#bun-cron&quot;&gt;&lt;code&gt;Bun.cron()&lt;/code&gt;&lt;/a&gt;, &lt;a href=&quot;https://bun.com/blog/bun-v1.4#bun-terminal&quot;&gt;&lt;code&gt;Bun.Terminal&lt;/code&gt;&lt;/a&gt;, &lt;a href=&quot;https://bun.com/blog/bun-v1.4#bun-run-parallel&quot;&gt;&lt;code&gt;bun run --parallel&lt;/code&gt;&lt;/a&gt;, &lt;a href=&quot;https://bun.com/blog/bun-v1.4#bun-test-parallel&quot;&gt;&lt;code&gt;bun test --parallel&lt;/code&gt;&lt;/a&gt;, &lt;a href=&quot;https://bun.com/blog/bun-v1.4#bun-audit-fix&quot;&gt;&lt;code&gt;bun audit fix&lt;/code&gt;&lt;/a&gt;, &lt;a href=&quot;https://bun.com/blog/bun-v1.4#bun-dedupe&quot;&gt;&lt;code&gt;bun dedupe&lt;/code&gt;&lt;/a&gt;, and &lt;a href=&quot;https://bun.com/blog/bun-v1.4#bun-prune&quot;&gt;&lt;code&gt;bun prune&lt;/code&gt;&lt;/a&gt;. And it rewrites Bun from Zig to Rust.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Of these the one that most caught my eye was &lt;code&gt;Bun.WebView&lt;/code&gt;, which adds first class support for browser automation to Bun core using either macOS WebKit or control of a local Chromium process via the Chrome DevTools Protocol (CDP).&lt;/p&gt;
-&lt;p&gt;I had Claude Code for web build a prototype of a web API providing the ability to load a web page and then execute JavaScript against it, inspired by my &lt;a href=&quot;https://shot-scraper.datasette.io/en/stable/javascript.html&quot;&gt;shot-scraper javascript&lt;/a&gt; CLI tool - partly to see how much RAM would be needed by such a service.&lt;/p&gt;
-&lt;p&gt;Here's &lt;a href=&quot;https://github.com/simonw/research/blob/main/bun-webview-json-api/server.ts&quot;&gt;that TypeScript server implementation&lt;/a&gt;, which appears to need a 192MB-256MB container to run a full Chrome against complex web pages - tested using cgroups.&lt;/p&gt;
-    
-    
-        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/browsers&quot;&gt;browsers&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/javascript&quot;&gt;javascript&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/rust&quot;&gt;rust&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/typescript&quot;&gt;typescript&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/bun&quot;&gt;bun&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/20/bun-webview-json-api/</guid>
-      <pubDate>2026-08-20T15:37:00+00:00</pubDate>
-    </item>
-    <item>
       <title>Muse Video leaks 📹, Ramp Router launch 🔀, why Stripe bought OpenRouter 💰</title>
       <link>https://tldr.tech/ai/2026-08-20</link>
       <description/>
       <guid>https://tldr.tech/ai/2026-08-20</guid>
       <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>smolmachines / smolvm as a sandbox for untrusted Python &amp; JavaScript</title>
-      <link>https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/</link>
-      <description>&lt;p&gt;&lt;strong&gt;Research:&lt;/strong&gt; &lt;a href=&quot;https://github.com/simonw/research/tree/main/smolmachines-untrusted-sandbox#readme&quot;&gt;smolmachines / smolvm as a sandbox for untrusted Python &amp;amp; JavaScript&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;I tasked Claude Fable 5 running in Claude Code for web with the following research task:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;Put https://smolmachines.com through its paces as a fast secure sandbox. Explore what it would take to use this to run untrusted Python and JavaScript code in a way that is limited in what RAM and CPU time it can take up (protection against &quot;while true&quot;) with no network access and filesystem access only to designated files&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Goal is to be able to use this to execute user-provided tasks for things like data transformations&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;It quickly ran into a problem: the Claude Code for web environment can't run &lt;a href=&quot;https://smolmachines.com&quot;&gt;smol machines&lt;/a&gt;. Quoting the &lt;a href=&quot;https://github.com/simonw/research/blob/5e6861e54441472d194de96b49b901fd99ebc153/smolmachines-untrusted-sandbox/notes.md#environment-check&quot;&gt;notes it wrote&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;This Claude Code container: Linux 6.18.5-fc-v20 (itself a Firecracker guest), 4 vCPU, 15GB RAM. &lt;strong&gt;No /dev/kvm, no vmx/svm CPU flags&lt;/strong&gt; → no nested virt.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;smolvm machine run&lt;/code&gt; fails as expected: &quot;kvm not available&quot;.&lt;/li&gt;
-&lt;li&gt;Plan B: GitHub Actions ubuntu runners DO expose /dev/kvm → run the real test battery via a temporary workflow on this branch, collect logs, remove workflow in final commit.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;And Plan B is &lt;a href=&quot;https://github.com/simonw/research/blob/5e6861e54441472d194de96b49b901fd99ebc153/.github/workflows/smolvm-sandbox-test.yml&quot;&gt;what it did&lt;/a&gt;, installing smolvm and running &lt;a href=&quot;https://github.com/simonw/research/blob/5e6861e54441472d194de96b49b901fd99ebc153/smolmachines-untrusted-sandbox/run-tests.sh&quot;&gt;these tests&lt;/a&gt; directly in a GitHub Actions runner against that branch.&lt;/p&gt;
-&lt;p&gt;That was a creative solution to the environmental limits posed by Claude Code for web. Another example of Fable being &lt;a href=&quot;https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/&quot;&gt;relentlessly proactive&lt;/a&gt;.&lt;/p&gt;
-    
-    
-        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/research&quot;&gt;research&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/sandboxing&quot;&gt;sandboxing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/github-actions&quot;&gt;github-actions&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/</guid>
-      <pubDate>2026-08-19T23:16:00+00:00</pubDate>
     </item>
     <item>
       <title>GLM-5.3 API 🤖, Cerebras’ new chip ⚡, OpenAI cyber slowdown 🚨</title>
@@ -1100,13 +1102,6 @@ Thomas Ptacek advocates for building real native user interfaces for even the sm
       <description/>
       <guid>https://tldr.tech/ai/2026-08-14</guid>
       <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Claude Chrome Cowork 🌐, Grok 4.6 🚀, DeepSeek v4-Pro-0813 🧠</title>
-      <link>https://tldr.tech/ai/2026-08-13</link>
-      <description/>
-      <guid>https://tldr.tech/ai/2026-08-13</guid>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Improving Fable 5's biology safeguards</title>
