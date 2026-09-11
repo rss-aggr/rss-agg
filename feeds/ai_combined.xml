@@ -3,7 +3,57 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Thu, 10 Sep 2026 15:04:46 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 15:08:02 +0000</lastBuildDate>
+    <item>
+      <title>Datasette 1.0a39 and 0.65.4 security releases</title>
+      <link>https://simonwillison.net/2026/Sep/11/datasette-security/</link>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://datasette.io/blog/2026/september-security-releases/&quot;&gt;Datasette 1.0a39 and 0.65.4 security releases&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+Today we're releasing two new security patch versions of Datasette: &lt;a href=&quot;https://docs.datasette.io/en/latest/changelog.html#v1-0-a39&quot;&gt;1.0a39&lt;/a&gt; and &lt;a href=&quot;https://docs.datasette.io/en/stable/changelog.html#v0-65-4&quot;&gt;0.65.4&lt;/a&gt; - one for the current alpha series and one for the stable 0.65.x family.&lt;/p&gt;
+&lt;p&gt;These are security fixes which you should apply if you are running a Datasette instance on the public web - in particular if that instance mixes both public and private tables.&lt;/p&gt;
+&lt;p&gt;Following issues reported by &lt;a href=&quot;https://github.com/jankesec&quot;&gt;Sevban Dönmez&lt;/a&gt;, &lt;a href=&quot;https://alexgarcia.xyz&quot;&gt;Alex Garcia&lt;/a&gt; and I ran an extensive audit of Datasette using Claude Fable 5.1, GPT-5.6, and GPT-6 Astra. We then spent almost a week collaborating on and reviewing the fixes.&lt;/p&gt;
+&lt;p&gt;They helped find some &lt;em&gt;very&lt;/em&gt; subtle bugs. We'll be incorporating security audits by frontier models into all of our development work going forward.&lt;/p&gt;
+&lt;p&gt;Alex came up with a way of splitting the work which I found extremely productive:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Alex Garcia and I worked together running and then responding to the audit, working in a shared private repository. For most of the issues we split the work: one of us would create the automated tests highlighting the issue, then the other would implement the fix. This ensured that two separate humans had eyes on each of the issues, in addition to our coding agents running different models.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/releases&quot;&gt;releases&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/security&quot;&gt;security&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/datasette&quot;&gt;datasette&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/agentic-engineering&quot;&gt;agentic-engineering&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Sep/11/datasette-security/</guid>
+      <pubDate>2026-09-11T03:27:16+00:00</pubDate>
+    </item>
+    <item>
+      <title>Agents API 🤖, Cognition SWE-2 👨‍💻, Muse Shared Agents 🧑‍🤝‍🧑</title>
+      <link>https://tldr.tech/ai/2026-09-11</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-09-11</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Native is now the future of mobile at Shopify</title>
+      <link>https://simonwillison.net/2026/Sep/10/shopify-react-native/</link>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://shopify.engineering/back-to-native&quot;&gt;Native is now the future of mobile at Shopify&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+Shopify are moving from React Native back to separate Swift and Kotlin codebases for their native apps, for the exact reason you would expect:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We decided to switch from native to React Native in 2020 for three reasons:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Stop building the same features twice&lt;/li&gt;
+&lt;li&gt;Allow developers to work across the stack&lt;/li&gt;
+&lt;li&gt;Spend less time chasing feature parity and more time shipping value&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;[...]&lt;/p&gt;
+&lt;p&gt;Native still means building and maintaining software on two platforms, that cost has not disappeared. What changed is that agents can now do enough of the implementation, translation, testing, and review work that it’s no longer the deciding factor it was in 2020.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It's a well-written post, which gives full credit to React Native as a great platform for the six years they were using it.&lt;/p&gt;
+&lt;p&gt;Shopify are the maintainers of three significant React Native libraries: &lt;a href=&quot;https://github.com/Shopify/react-native-skia&quot;&gt;react-native-skia&lt;/a&gt;, &lt;a href=&quot;https://github.com/Shopify/flash-list&quot;&gt;flash-list&lt;/a&gt;, and &lt;a href=&quot;https://github.com/Shopify/restyle&quot;&gt;restyle&lt;/a&gt;. The first two are finding new homes; the third &quot;has a smaller user base than our other libraries&quot; and will be archived at the end of 2026.
+
+    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://news.ycombinator.com/item?id=49643982&quot;&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/android&quot;&gt;android&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/mobile&quot;&gt;mobile&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/open-source&quot;&gt;open-source&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ios&quot;&gt;ios&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/react&quot;&gt;react&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-assisted-search&quot;&gt;ai-assisted-search&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/swift&quot;&gt;swift&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/shopify&quot;&gt;shopify&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Sep/10/shopify-react-native/</guid>
+      <pubDate>2026-09-10T21:11:15+00:00</pubDate>
+    </item>
     <item>
       <title>Quoting Calif Research</title>
       <link>https://simonwillison.net/2026/Sep/10/calif-research/</link>
@@ -68,10 +118,9 @@
       <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>On the Navier–Stokes Millennium Prize Problem</title>
+      <title>Some thoughts on the Navier–Stokes Millennium Prize Problem</title>
       <link>https://simonwillison.net/2026/Sep/8/on-navier-stokes/</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://openai.com/index/navier-stokes-solution/&quot;&gt;On the Navier–Stokes Millennium Prize Problem&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-Impressive result from OpenAI, who used an unreleased model to produce a resolution to &lt;a href=&quot;https://en.wikipedia.org/wiki/Navier–Stokes_existence_and_smoothness&quot;&gt;the Navier–Stokes existence and smoothness problem&lt;/a&gt;, one of the seven &lt;a href=&quot;https://en.wikipedia.org/wiki/Millennium_Prize_Problems&quot;&gt;Millennium Prize Problems&lt;/a&gt; that have been subject to a $1,000,000 prize since May 24th, 2000.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&quot;https://openai.com/index/navier-stokes-solution/&quot;&gt;On the Navier–Stokes Millennium Prize Problem&lt;/a&gt; introduces an impressive result from OpenAI, who used an unreleased model to produce a resolution to &lt;a href=&quot;https://en.wikipedia.org/wiki/Navier–Stokes_existence_and_smoothness&quot;&gt;the Navier–Stokes existence and smoothness problem&lt;/a&gt;, one of the seven &lt;a href=&quot;https://en.wikipedia.org/wiki/Millennium_Prize_Problems&quot;&gt;Millennium Prize Problems&lt;/a&gt; that have been subject to a $1,000,000 prize since May 24th, 2000.&lt;/p&gt;
 &lt;p&gt;The discovery is somewhat overshadowed by accusations of skulduggery from Tristan Buckmaster, an NYU mathematics professor who was collaborating on related problems with Levent Alpöge, an accomplished mathematician who currently works for Anthropic.&lt;/p&gt;
 &lt;p&gt;Tristan's complaint accompanied &lt;a href=&quot;https://mastodon.social/@tristanbuckmaster/117233413705701198&quot;&gt;a hastily published version&lt;/a&gt; of their own results. &lt;a href=&quot;https://cims.nyu.edu/~tristanb/statement.pdf&quot;&gt;Here's the PDF describing what happened&lt;/a&gt;. The &lt;em&gt;very&lt;/em&gt; short version is that Tristan and Levent worked on the problem for almost a year, making extensive use of Claude and Codex (mainly GPT-5.6 Sol), then had a breakthrough on August 15th. The mathematical rumour mill kicked into gear and Tristan and Levent heard that OpenAI had heard that Anthropic had resolved &quot;a major open problem&quot;, so they reached out and learned that OpenAI had a team working on a related problem, with a similar approach. Quoting Tristan:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -103,11 +152,9 @@ Impressive result from OpenAI, who used an unreleased model to produce a resolut
 &lt;ul&gt;
 &lt;li&gt;If I use ChatGPT to help me partially solve a Millennium Prize problem, what are the chances that my work will influence training such that a later model helps someone &lt;em&gt;else&lt;/em&gt; solve it first?&lt;/li&gt;
 &lt;/ul&gt;
-
-    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://news.ycombinator.com/item?id=49613262&quot;&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/mathematics&quot;&gt;mathematics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/training-data&quot;&gt;training-data&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;Via &lt;a href=&quot;https://news.ycombinator.com/item?id=49613262&quot;&gt;Hacker News&lt;/a&gt;.&lt;/p&gt;
+    
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/mathematics&quot;&gt;mathematics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/training-data&quot;&gt;training-data&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Sep/8/on-navier-stokes/</guid>
       <pubDate>2026-09-08T23:55:12+00:00</pubDate>
     </item>
@@ -1027,34 +1074,6 @@ A few interesting numbers in this FT story gathered from &quot;people with knowl
       <pubDate>2026-08-22T15:56:54+00:00</pubDate>
     </item>
     <item>
-      <title>Stop Making TUIs</title>
-      <link>https://simonwillison.net/2026/Aug/21/stop-making-tuis/</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://sockpuppet.org/blog/2026/08/20/stop-making-tuis/&quot;&gt;Stop Making TUIs&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-Thomas Ptacek advocates for building real native user interfaces for even the smallest of personal tools, because coding agents have reduced the cost of getting a usable-enough GUI up and running to almost nothing.&lt;/p&gt;
-&lt;p&gt;I wrote about my vibe-coded bandwidth and GPU monitoring macOS task bar apps &lt;a href=&quot;https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/&quot;&gt;back in March&lt;/a&gt;, and I'm still using both of those on a daily basis.&lt;/p&gt;
-&lt;p&gt;I'm not habitually knocking out real UIs for my other projects yet, but I'm running out of excuses!&lt;/p&gt;
-&lt;p&gt;Thomas:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;If you haven’t tried your hand at turning one of your 500 throwaway CLIs into a native app, you’re doing yourself a disservice. Go build a native UI. It’ll probably change the way you think.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/thomas-ptacek&quot;&gt;thomas-ptacek&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/vibe-coding&quot;&gt;vibe-coding&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/21/stop-making-tuis/</guid>
-      <pubDate>2026-08-21T16:07:32+00:00</pubDate>
-    </item>
-    <item>
-      <title>Quoting Matt Webb</title>
-      <link>https://simonwillison.net/2026/Aug/21/matt-webb/</link>
-      <description>&lt;blockquote cite=&quot;https://interconnected.org/home/2026/08/21/galactic&quot;&gt;&lt;p&gt;After I released version 1.0, I figured I would have to do the rotations myself. So I sat down with ChatGPT and I didn’t get it to write the code, but I got it to educate me. With a patient, interactive tutor, I was able to finally do what I hadn’t by reading books and asking mathematician friends – I learnt how to use quaternions just enough to make the app work.&lt;/p&gt;
-&lt;p&gt;So learning doesn’t stop just because I outsource a bunch of thinking to AI. It pushes me to learn more. I like that as an outcome.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://interconnected.org/home/2026/08/21/galactic&quot;&gt;Matt Webb&lt;/a&gt;, Galactic Compass 2: now with new augmented reality mode&lt;/p&gt;
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/matt-webb&quot;&gt;matt-webb&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/chatgpt&quot;&gt;chatgpt&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/education&quot;&gt;education&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/21/matt-webb/</guid>
-      <pubDate>2026-08-21T15:06:26+00:00</pubDate>
-    </item>
-    <item>
       <title>ChatGPT Apple Messages 💬, Anthropic’s meeting recorder 💼, Mistral Agentic Search 🔍</title>
       <link>https://tldr.tech/ai/2026-08-21</link>
       <description/>
@@ -1095,13 +1114,6 @@ Thomas Ptacek advocates for building real native user interfaces for even the sm
       <description>How Claude’s text watermark works</description>
       <guid>https://www.anthropic.com/news/claude-text-watermark</guid>
       <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Gemini 3.7 🤖, GPT-5.6 Sol Ultrafast ⚡, Anthropic $2T IPO 💰</title>
-      <link>https://tldr.tech/ai/2026-08-14</link>
-      <description/>
-      <guid>https://tldr.tech/ai/2026-08-14</guid>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Improving Fable 5's biology safeguards</title>
