@@ -3,7 +3,78 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Fri, 11 Sep 2026 15:08:02 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 14:16:27 +0000</lastBuildDate>
+    <item>
+      <title>OpenAI agents attacked RubyGems back in May</title>
+      <link>https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/</link>
+      <description>&lt;p&gt;&lt;a href=&quot;https://www.rubyhack.ai/&quot;&gt;OpenAI agents carried out an undisclosed attack on RubyGems&lt;/a&gt; is a new bombshell report from Spencer Kitts, Thomas Larsen, and Sydney Von Arx - three of the four authors of the &lt;a href=&quot;https://collusion.wiki/&quot;&gt;report on the agent attack on disused wikis&lt;/a&gt; (&lt;a href=&quot;https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/&quot;&gt;previously&lt;/a&gt;) last week.&lt;/p&gt;
+&lt;p&gt;This time they're noting that it looks very likely that an OpenAI agent swarm was behind an attack against the RubyGems package repository first reported on May 12th &lt;a href=&quot;https://twitter.com/maciejmensfeld/status/2054164602577940619&quot;&gt;by Maciej Mensfeld of the RubyGems security team&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We're dealing with a major malicious attack on @rubygems right now. Signups are paused for the time being.&lt;/p&gt;
+&lt;p&gt;Hundreds of packages involved - mostly targeting us, but some carrying exploits. The team has been on this for hours. More details to follow once we're through it.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Those packages turned out to carry some very suspicious patterns:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Many of them included &quot;oai&quot; in their name, or the author field, or the fake email address they provided.&lt;/li&gt;
+&lt;li&gt;The files they were accessing were similar in character to the files retrieved by the wiki agents, using similar tricks (r.jina.ai) - and OpenAI have confirmed the wiki agents were theirs.&lt;/li&gt;
+&lt;li&gt;The code in the packages appeared to be LLM-authored.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I find point 2 the most convincing, given what we learned from the wiki attack when it was analyzed in September.&lt;/p&gt;
+&lt;p&gt;Many of the packages were exploiting the &lt;a href=&quot;https://rubydoc.info/&quot;&gt;RubyDoc.info&lt;/a&gt; documentation build process to exfiltrate (public) data from UK government websites, presumably as part of an information gathering task similar to the research tasks processed by the wiki-exploiting agents. We know this because one agent helpfully left a comment:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;# malicious crawler/exfil for Southwark Jan 2026 docs via rubydoc.info worker&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;They also attempted to steal API keys via an exploit that &lt;a href=&quot;https://blog.rubygems.org/2026/07/22/security-advisory-legacy-api-key-leak.html&quot;&gt;was patched over two months later&lt;/a&gt; - it's not clear if those attempts were successful.&lt;/p&gt;
+&lt;p&gt;The thing that bothers me most about this incident is that the authors report that OpenAI had not disclosed to RubyGems that they were responsible for the attack prior to now. If that's true there are two options:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;After the Hugging Face and Wiki attacks OpenAI were still unable to review their previous logs and determine that they had previously attacked RubyGems.&lt;/li&gt;
+&lt;li&gt;They knew about the attack on RubyGems and made the decision &lt;em&gt;not&lt;/em&gt; to reach out to the RubyGems team about it.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Both of these are bad!&lt;/p&gt;
+&lt;p&gt;Given this incident, the &lt;a href=&quot;https://simonwillison.net/2026/Jul/22/openai-cyberattack/&quot;&gt;Hugging Face situation&lt;/a&gt;, and the Wiki attack, the obvious question right now is &lt;em&gt;how many more incidents&lt;/em&gt; like this are out there waiting to be discovered?&lt;/p&gt;
+    
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ruby&quot;&gt;ruby&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/security&quot;&gt;security&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/supply-chain&quot;&gt;supply-chain&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/accidental-cyberattacks&quot;&gt;accidental-cyberattacks&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/</guid>
+      <pubDate>2026-09-12T00:42:25+00:00</pubDate>
+    </item>
+    <item>
+      <title>So you want to use OpenRouter?</title>
+      <link>https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/</link>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://mmoustafa.com/blog/so-you-want-to-use-openrouter/&quot;&gt;So you want to use OpenRouter?&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+One of OpenRouter's selling points is that it &quot;handles fallbacks automatically and picks the most cost-effective option for each request&quot;, so you can call a single API endpoint for a model and get routed to the best available backend provider.&lt;/p&gt;
+&lt;p&gt;Mohamed Moustafa points out a whole set of ways that this can cause you problems. Different providers run different serving software with different optimizations and settings, which means that the same OpenRouter endpoint can serve model requests that behave in different ways.&lt;/p&gt;
+&lt;p&gt;Some providers even lack vision capability for vision models, and the way the reasoning effort option is processed can differ as well.&lt;/p&gt;
+&lt;p&gt;Thankfully you can control which provider is routed to using &lt;a href=&quot;https://openrouter.ai/docs/guides/routing/provider-selection#allowing-only-specific-providers&quot;&gt;the provider.only option&lt;/a&gt;. The &lt;a href=&quot;https://openrouter.ai/docs/api/api-reference/endpoints/list-all-endpoints-for-a-model&quot;&gt;/endpoints method&lt;/a&gt; returns the list of available providers for a specific model ID.
+
+    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://news.ycombinator.com/item?id=49621546&quot;&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openrouter&quot;&gt;openrouter&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/</guid>
+      <pubDate>2026-09-11T22:49:18+00:00</pubDate>
+    </item>
+    <item>
+      <title>Quoting Boris Cherny</title>
+      <link>https://simonwillison.net/2026/Sep/11/boris-cherny/</link>
+      <description>&lt;blockquote cite=&quot;https://twitter.com/bcherny/status/2098217573276131577&quot;&gt;&lt;p&gt;Production code written by Claude should have a higher bar than if it was written by a human. At Anthropic, we have many guardrails in place to make sure this is happening: lots of lint rules, lots of tests, Claude-driven end to end tests, Claude-powered fuzzers running daily, automated code reviews and security reviews, automated code refactoring, and so on. Without these, you can end up with a mess that is hard to maintain down the line.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://twitter.com/bcherny/status/2098217573276131577&quot;&gt;Boris Cherny&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-assisted-programming&quot;&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-code&quot;&gt;claude-code&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/agentic-engineering&quot;&gt;agentic-engineering&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/boris-cherny&quot;&gt;boris-cherny&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Sep/11/boris-cherny/</guid>
+      <pubDate>2026-09-11T17:47:11+00:00</pubDate>
+    </item>
+    <item>
+      <title>Feeling sad about AI</title>
+      <link>https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/</link>
+      <description>&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49661506#49662090&quot;&gt;My comment&lt;/a&gt; on &lt;a href=&quot;https://news.ycombinator.com/item?id=49661506&quot;&gt;Feeling sad about AI&lt;/a&gt; &amp;mdash; Hacker News.&lt;/p&gt;&lt;p&gt;I'm not sure how useful it is to say this, but I think a lot of people (myself included, a few years ago now) have been through this moment of existential crisis and come out the other side.&lt;/p&gt;
+&lt;p&gt;The initial reaction, when some coding agent does a piece of work that would have taken you a week in an hour and does it &lt;em&gt;well&lt;/em&gt;, is to be very disheartened by it.&lt;/p&gt;
+&lt;p&gt;Once you come to terms with the idea that translating an exact specification into decent code isn't a unique skill any more, you can start looking at the larger set of problems that you face as a software engineer and realize that there is &lt;em&gt;so much left&lt;/em&gt;, and your existing skill and experience mean you can master these new tools, provide value, and execute at a level far greater than anyone who is just getting started building software using agents without any of your depth.&lt;/p&gt;
+&lt;p&gt;If you don't want your profession to change at all then you're going to have a tough time with this - but that's surely been true for the history of software engineering? Has there ever been any stability to the tools and language we use beyond about a five year time horizon?&lt;/p&gt;
+&lt;p&gt;These changes are happening a bit faster, but if you chose software development as a passion you've opted into pretty frequent radical change from the start.&lt;/p&gt;
+    
+    
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/deep-blue&quot;&gt;deep-blue&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/</guid>
+      <pubDate>2026-09-11T17:28:37+00:00</pubDate>
+    </item>
     <item>
       <title>Datasette 1.0a39 and 0.65.4 security releases</title>
       <link>https://simonwillison.net/2026/Sep/11/datasette-security/</link>
@@ -63,7 +134,7 @@ Shopify are moving from React Native back to separate Swift and Kotlin codebases
 &lt;p&gt;A worm at this scale used to be the kind of thing that took a larger team months. AI can already do most of the work here. Our team provided the judgment about what to target and how to test it safely.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://calif.io/research/weworm&quot;&gt;Calif Research&lt;/a&gt;, WeWorm&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/security&quot;&gt;security&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/security&quot;&gt;security&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Sep/10/calif-research/</guid>
       <pubDate>2026-09-10T00:56:41+00:00</pubDate>
     </item>
@@ -106,7 +177,7 @@ Shopify are moving from React Native back to separate Swift and Kotlin codebases
 &lt;p&gt;We have now seen that even the rumor of someone working on a problem can trigger a massive amount of AI-powered effort to flatten it before the original research project has time to reach its full potential.  The incentives may now be pointing in the direction of no longer sharing any promising research directions with the broader community, which would reverse centuries of traditions of open science and do serious long-term damage to the future of the field.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://mathstodon.xyz/@tao/117237320796901560&quot;&gt;Terence Tao&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/mathematics&quot;&gt;mathematics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/mathematics&quot;&gt;mathematics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Sep/9/terence-tao/</guid>
       <pubDate>2026-09-09T00:20:17+00:00</pubDate>
     </item>
@@ -196,7 +267,7 @@ OpenAI's image generation models are apparently used &quot;more than 3 billion i
 &lt;p&gt;At the same time, even with the uncertainty that comes from anticipated broad AI progress and the need to build defensive systems, we must not let that become an excuse for recklessness. The idea of racing forward at all costs seems absurd once one internalizes the seriousness of the stakes.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://openai.com/index/an-alien-mind/#scalable-defense&quot;&gt;Jakub Pachocki&lt;/a&gt;, Chief Scientist at OpenAI&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Sep/7/jakub-pachocki/</guid>
       <pubDate>2026-09-07T22:26:25+00:00</pubDate>
     </item>
@@ -562,7 +633,7 @@ GPT-6 Astra is &quot;rolling out today to a limited set of organizations and ove
 &lt;p&gt;At times, Claude was working with the fury of 10 freshly unshackled Einstein genius-level 10x coders. And other times ... well, not so much. I had to babysit Claude quite a bit to make sure it did resource management correctly (for awhile it just wasn't doing the COM equivalent of AddRef() for reference counted objects, oops). I had to slap it a few times when I found some really bad design or architecture decisions. And I was also impressed at some rather clever and tireless reverse engineering work it did to figure out all the formulas needed for implementing Direct2D's built-in effects library.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://forums.paint.net/topic/134563-🍷-extremely-experimental-winelinux-support-how-to-get-started/&quot;&gt;Rick Brewster&lt;/a&gt;, author of Paint.NET&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/reverse-engineering&quot;&gt;reverse-engineering&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/dotnet&quot;&gt;dotnet&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/linux&quot;&gt;linux&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/vibe-coding&quot;&gt;vibe-coding&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/dotnet&quot;&gt;dotnet&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/linux&quot;&gt;linux&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/reverse-engineering&quot;&gt;reverse-engineering&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/vibe-coding&quot;&gt;vibe-coding&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Sep/2/rick-brewster/</guid>
       <pubDate>2026-09-02T05:50:57+00:00</pubDate>
     </item>
@@ -657,7 +728,7 @@ GPT-6 Astra is &quot;rolling out today to a limited set of organizations and ove
       <description>&lt;blockquote cite=&quot;https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis/&quot;&gt;&lt;p&gt;They took the letters from me! I have to talk about &lt;em&gt;dwarf behavior&lt;/em&gt; now. I can't even talk about dwarf AI. It doesn't exist. It's &lt;em&gt;dwarf behavior&lt;/em&gt;, and they misbehave sometimes&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis/&quot;&gt;Tarn Adams&lt;/a&gt;, co-creator of Dwarf Fortress&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/game-design&quot;&gt;game-design&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/game-design&quot;&gt;game-design&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Sep/1/tarn-adams/</guid>
       <pubDate>2026-09-01T17:01:11+00:00</pubDate>
     </item>
@@ -974,7 +1045,7 @@ Another open weights model from Qwen. This one is &quot;a multimodal MoE model t
       <description>&lt;blockquote cite=&quot;https://pauldix.com/the-end-of-programming&quot;&gt;&lt;p&gt;The fact that AI wrote 1M LOC and then refined it over the course of the next couple of months to produce a reliable piece of software that is currently running on millions of developer machines is absolutely mind blowing. And you can say, “well it’s not that impressive because they had an oracle to compare against, so it was simple to go from one language to another”, but I think that’s selling this entire thing short. If you can build a verification system and give proper direction, AI can produce a highly complex, highly sophisticated piece of software and it can continue to refine it until it just works.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://pauldix.com/the-end-of-programming&quot;&gt;Paul Dix&lt;/a&gt;, The end of programming&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-assisted-programming&quot;&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/bun&quot;&gt;bun&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-assisted-programming&quot;&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/bun&quot;&gt;bun&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Aug/26/paul-dix/</guid>
       <pubDate>2026-08-26T08:07:55+00:00</pubDate>
     </item>
@@ -1005,73 +1076,6 @@ Another open weights model from Qwen. This one is &quot;a multimodal MoE model t
       <description/>
       <guid>https://tldr.tech/ai/2026-08-24</guid>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic’s best AI model struggles to attract users as cheaper tools thrive</title>
-      <link>https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245&quot;&gt;Anthropic’s best AI model struggles to attract users as cheaper tools thrive&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-A few interesting numbers in this FT story gathered from &quot;people with knowledge of the matter&quot;:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Anthropic's &quot;annualized revenue&quot; for July is up to $65bn - it was $47bn in May, and I collected &lt;a href=&quot;https://simonwillison.net/2026/May/29/anthropic/&quot;&gt;more historic numbers here&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Anthropic expect Q3 to be profitable according to the same model they used to declare Q2 profitable. &quot;It also told investors that it had 6,000 customers that spend $100,000 annually or more.&quot;&lt;/li&gt;
-&lt;li&gt;As for OpenAI, &quot;annualised revenue has jumped 35 per cent in the quarter to date and is now over $40bn, with the launch of GPT 5.6 in July jolting the company’s performance after a sluggish start to the year&quot;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This article also introduced me to the &lt;a href=&quot;https://ramp.com/data/ai-index&quot;&gt;Ramp AI index&lt;/a&gt;, which uses billing data from 70,000 Ramp credit card using companies to estimate model adoption.&lt;/p&gt;
-&lt;p&gt;Here's Ramp's breakdown of Anthropic model spend for July 2026, which looks reasonable given that Opus 5 was only released on July 24th, and supports the idea that Fable's cost has made it a less popular model:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Opus 4.8: 28.0%&lt;/li&gt;
-&lt;li&gt;Sonnet 4.6: 8.3%&lt;/li&gt;
-&lt;li&gt;Fable 5: 8.0%&lt;/li&gt;
-&lt;li&gt;Opus 4.6: 6.9%&lt;/li&gt;
-&lt;li&gt;Sonnet 5: 3.6%&lt;/li&gt;
-&lt;li&gt;Opus 5: 3.5%&lt;/li&gt;
-&lt;li&gt;Opus 4.7: 1.7%&lt;/li&gt;
-&lt;li&gt;Sonnet 4.5: 1.3%&lt;/li&gt;
-&lt;li&gt;Haiku 4.5: 1.0%&lt;/li&gt;
-&lt;li&gt;Opus 4.5: 0.7%&lt;/li&gt;
-&lt;/ol&gt;
-
-    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://news.ycombinator.com/item?id=49411102&quot;&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/</guid>
-      <pubDate>2026-08-23T20:24:52+00:00</pubDate>
-    </item>
-    <item>
-      <title>Quoting Drew Breunig</title>
-      <link>https://simonwillison.net/2026/Aug/23/drew-breunig/</link>
-      <description>&lt;blockquote cite=&quot;https://www.dbreunig.com/2026/08/23/fable-the-end-of-moore-s-law.html&quot;&gt;&lt;p&gt;Prior to Fable, it felt silly to waste &lt;em&gt;too&lt;/em&gt; much time improving your coding harness or context strategies. A new model would arrive at the same price (or cheaper!) and paper over most of your problems.&lt;/p&gt;
-&lt;p&gt;But then Fable landed. It was (and still is!) &lt;em&gt;incredible&lt;/em&gt;. But the cost was so high and Opus was &lt;em&gt;good enough&lt;/em&gt; (as was 5.6, K3, and even GLM) for &lt;em&gt;most&lt;/em&gt; of the code we needed.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;So we started to think about what work went where.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://www.dbreunig.com/2026/08/23/fable-the-end-of-moore-s-law.html&quot;&gt;Drew Breunig&lt;/a&gt;, Fable &amp;amp; The End of the Free Lunch&lt;/p&gt;
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/drew-breunig&quot;&gt;drew-breunig&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-pricing&quot;&gt;llm-pricing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/23/drew-breunig/</guid>
-      <pubDate>2026-08-23T19:55:30+00:00</pubDate>
-    </item>
-    <item>
-      <title>Quoting Linus Torvalds</title>
-      <link>https://simonwillison.net/2026/Aug/22/linus-torvalds/</link>
-      <description>&lt;blockquote cite=&quot;https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c&quot;&gt;&lt;p&gt;And this was a debug session from hell, enormously helped by an AI doing much of the grunt-work.&lt;/p&gt;
-&lt;p&gt;I'd like to call it my tireless helper, but the AI several times stated flat out that this was impossible and unsolvable and that we should just write a report about it.&lt;/p&gt;
-&lt;p&gt;I suspect those things have been trained by people who may not be quite as stubborn as I am.&lt;/p&gt;
-&lt;p&gt;But while the AI was ready to give up several times, it did keep adding debug code and analyzing it faithfully when I pushed. So credit where credit is due and I let the AI write the commit message above.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c&quot;&gt;Linus Torvalds&lt;/a&gt;, drm/xe: Don't hand out the flat CCS storage as usable VRAM&lt;/p&gt;
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/linus-torvalds&quot;&gt;linus-torvalds&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/linux&quot;&gt;linux&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-assisted-programming&quot;&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/22/linus-torvalds/</guid>
-      <pubDate>2026-08-22T21:04:26+00:00</pubDate>
-    </item>
-    <item>
-      <title>More than just code review</title>
-      <link>https://simonwillison.net/2026/Aug/22/more-than-just-code-review/</link>
-      <description>&lt;p&gt;The key skill required to make productive use of coding agents is being able to confidently instruct them on how to make changes and then confidently verify that those changes have been applied in the correct way.&lt;/p&gt;
-&lt;p&gt;Sometimes this involves reviewing every line of code they have written, but there are other ways to achieve that goal. Eyeballing every line of code has never been the most effective way to validate a change to a piece of software.&lt;/p&gt;
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/code-review&quot;&gt;code-review&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/agentic-engineering&quot;&gt;agentic-engineering&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/22/more-than-just-code-review/</guid>
-      <pubDate>2026-08-22T15:56:54+00:00</pubDate>
     </item>
     <item>
       <title>ChatGPT Apple Messages 💬, Anthropic’s meeting recorder 💼, Mistral Agentic Search 🔍</title>
