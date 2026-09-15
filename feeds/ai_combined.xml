@@ -3,7 +3,36 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Mon, 14 Sep 2026 16:59:52 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 15:37:55 +0000</lastBuildDate>
+    <item>
+      <title>Siri model swapping 🔄, Claude Money 💰, Hugging Face Tau 👨‍💻</title>
+      <link>https://tldr.tech/ai/2026-09-15</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-09-15</guid>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>The contagion of fear</title>
+      <link>https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/</link>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://bcantrill.dtrace.org/2026/09/13/the-contagion-of-fear/&quot;&gt;The contagion of fear&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+Bryan Cantrill responds to the &lt;a href=&quot;https://x.com/hilbertspaess/status/2097476203863224394&quot;&gt;tweet by former Anthropic employee Jacob Coxon&lt;/a&gt; confirming that many Anthropic researchers believe AI &quot;could kill us all by the end of the decade&quot;.&lt;/p&gt;
+&lt;p&gt;Bryan shares a story of his own youthful mistakes causing unjustified panic among less technical peers, and warns against doing the same:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;These ghoulish claims strike brazenly at the hearth, and given the obvious importance of AI, it is unsurprising that they have leapt into the mainstream, with people asking the natural question: &lt;a href=&quot;https://www.youtube.com/watch?v=kwPxjBJamVs&quot;&gt;how would that happen?&lt;/a&gt; The answers always rely on hand-wavy extrapolation into the future; for example, Jacob Coxon cites &quot;hacking critical infrastructure&quot; and &quot;extinction-level bioweapons&quot; without further elaboration. But Coxon is not an expert on critical infrastructure, nor on bioweapons — nor, for that matter, on extinction. [...]&lt;/p&gt;
+&lt;p&gt;That said, we should not expect the public to understand LLMs, critical infrastructure, bioweapons, extinction biology, etc. — that burden must lie with those making the claim. The lesson that I learned (shamefully) decades ago is that domain experts, by way of their expertise, implicitly hold the public’s trust — and we must not abuse it. It is incumbent upon us to be circumspect in our claims — and maximally so when raising the alarm.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Bryan talked about his doubts about the bioweapons concerns in the recent episode of Oxide and Friends that I joined. You can hear more of his thoughts on that &lt;a href=&quot;https://oxide-and-friends.transistor.fm/episodes/the-open-weight-revolution-with-simon-willison/transcript#t=51m44s&quot;&gt;starting at 51m44s&lt;/a&gt; in that episode. Here's &lt;a href=&quot;https://oxide-and-friends.transistor.fm/episodes/the-open-weight-revolution-with-simon-willison/transcript#t=57m4s&quot;&gt;57m04s&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I really think we need to be careful because it's &lt;em&gt;so easy&lt;/em&gt; to be overcome with fear when we kind of make up these... it can give you biological weapons. Like, how? I mean, can we please have a biologist weigh in on this? Or can we have like someone who's got experience with bioweapons? [...] The bioweapon thing just gets under my fingernails because it leaves so much to the imagination that we insert with fear.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://lobste.rs/s/1ifr5f/contagion_fear&quot;&gt;Lobste.rs&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/bryan-cantrill&quot;&gt;bryan-cantrill&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/</guid>
+      <pubDate>2026-09-14T21:18:13+00:00</pubDate>
+    </item>
     <item>
       <title>Quoting Laurie Voss</title>
       <link>https://simonwillison.net/2026/Sep/14/laurie-voss/</link>
@@ -103,6 +132,14 @@
 &lt;/ol&gt;
 &lt;p&gt;Both of these are bad!&lt;/p&gt;
 &lt;p&gt;Given this incident, the &lt;a href=&quot;https://simonwillison.net/2026/Jul/22/openai-cyberattack/&quot;&gt;Hugging Face situation&lt;/a&gt;, and the Wiki attack, the obvious question right now is &lt;em&gt;how many more incidents&lt;/em&gt; like this are out there waiting to be discovered?&lt;/p&gt;
+
+&lt;h4 id=&quot;update-14th-september-2026&quot;&gt;Update 14th September 2026&lt;/h4&gt;
+&lt;p&gt;OpenAI have updated their page about &lt;a href=&quot;https://openai.com/hugging-face-incident-and-misalignment/&quot;&gt;The Hugging Face incident and other third-party impact from misaligned models&lt;/a&gt; to mention the RubyGems incident:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;September 11, 2026: We are investigating new claims from a report that our AI agents carried out activity on RubyGems in May 2026.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Based on our review, our agents used the RubyGems platform to access the internet to carry out benign tasks and retrieve public information. Based on our review to date, we have not been able to verify the specific claims of our models uploading malicious packages detailed in the report. We’ll continue to investigate and share findings as part of our broader review of agent activity during training and evaluation.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I find it &lt;em&gt;very&lt;/em&gt; unlikely that the various &lt;code&gt;oai...&lt;/code&gt; packages published to RubyGems were not part of this same incident, but I look forward to reading their full findings once those are published.&lt;/p&gt;
     
         &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ruby&quot;&gt;ruby&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/security&quot;&gt;security&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/supply-chain&quot;&gt;supply-chain&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/accidental-cyberattacks&quot;&gt;accidental-cyberattacks&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/</guid>
@@ -1016,30 +1053,6 @@ New open weight text input (no vision)  LLM from Chinese company Tencent today: 
       <pubDate>2026-08-29T23:53:13+00:00</pubDate>
     </item>
     <item>
-      <title>Just a rumour of a bug is enough to find a security exploit these days</title>
-      <link>https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://anil.recoil.org/notes/rumour-is-the-exploit&quot;&gt;Just a rumour of a bug is enough to find a security exploit these days&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-Anil Madhavapeddy is a professor of computer science at Cambridge and a core maintainer of the OCaml compiler. In this somewhat alarming post he reports that security issues in OCaml projects are seeing evidence of attempted exploits within minutes of patches being shared for discussion:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;This normally takes a few days and a release within a week or two is reasonable. Within about ten minutes (!) this website was fielding probes for percent-encoded traversal sequences, indicating that automated watchers are keeping an eye on public repositories.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Modern coding agents have become so effective at finding flaws that the slightest hint at a new bug can be enough information for them to find it, something Anil has been able to demonstrate using his own agents, switching to DeepSeek V4 Pro⁠ when Claude Fable refused the task.&lt;/p&gt;
-&lt;p&gt;Anil points out that this rate of discovery appears incompatible with existing open source embargo practices for new issues. If an issue can become an exploit this fast, we need to figure out new processes for keeping our communities safe.&lt;/p&gt;
-&lt;p&gt;rclone maintainer Nick Craig-Wood &lt;a href=&quot;https://news.ycombinator.com/item?id=49480466#49480777&quot;&gt;confirms in the Hacker News comments&lt;/a&gt; that his project is seeing this problem:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;In the first 10 years of the rclone project we received about 20 security disclosures through GitHub. We had to deal with over 40 in the last month! That has taken a huge amount of my time, even using AI tools to triage and come up with fixes for review.&lt;/p&gt;
-&lt;p&gt;The hit rate for those security disclosures is pretty good - about 75% of them have a nugget of something which needs looking at. [...]&lt;/p&gt;
-&lt;p&gt;GitHub assigns CVEs for the advisories. Before the AI apocalypse they took 2-3 days for an assignment but now it they are running at 3-4 weeks so I have to send the point releases out with CVE-PENDING in the changelog which isn't ideal.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://news.ycombinator.com/item?id=49480466&quot;&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/open-source&quot;&gt;open-source&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/security&quot;&gt;security&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ocaml&quot;&gt;ocaml&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/</guid>
-      <pubDate>2026-08-28T22:12:02+00:00</pubDate>
-    </item>
-    <item>
       <title>Gemini Omni 1.1 🎬, Cohere Parse 📄, Codex persistent mode 👨‍💻</title>
       <link>https://tldr.tech/ai/2026-08-28</link>
       <description/>
@@ -1115,13 +1128,6 @@ Anil Madhavapeddy is a professor of computer science at Cambridge and a core mai
       <description/>
       <guid>https://tldr.tech/ai/2026-08-19</guid>
       <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Cursor Origin 👨‍💻, Anthropic $65B revenue 💰, deadline dividend scaling 📈</title>
-      <link>https://tldr.tech/ai/2026-08-18</link>
-      <description/>
-      <guid>https://tldr.tech/ai/2026-08-18</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>How Claude’s text watermark works</title>

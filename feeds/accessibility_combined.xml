@@ -3,76 +3,83 @@
     <title>Accessibility Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: Accessibility Combined Feed</description>
-    <lastBuildDate>Mon, 14 Sep 2026 17:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 15:38:06 +0000</lastBuildDate>
+    <item>
+      <title>Why Online Vision Tests Need Accessibility: Building a Voice-Assisted Eye Screening Experience</title>
+      <link>https://medium.com/@peekvision.eyetest/why-online-vision-tests-need-accessibility-building-a-voice-assisted-eye-screening-experience-b7ef3ab96c0d?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@peekvision.eyetest/why-online-vision-tests-need-accessibility-building-a-voice-assisted-eye-screening-experience-b7ef3ab96c0d?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2600/1*BmGerXAZnF-Hec5k7x6dtA.png&quot; width=&quot;3420&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;What I learned while designing PeekVision.io, a browser-based vision screening tool with large-letter, voice-assisted, and&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@peekvision.eyetest/why-online-vision-tests-need-accessibility-building-a-voice-assisted-eye-screening-experience-b7ef3ab96c0d?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/b7ef3ab96c0d</guid>
+      <pubDate>Tue, 15 Sep 2026 14:39:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>I Kept Making Technology Help Me Use a Screen. Then I Realized I Needed to Stop Using One.</title>
+      <link>https://medium.com/@DBShay/i-kept-making-technology-help-me-use-a-screen-then-i-realized-i-needed-to-stop-using-one-8e68a95099a9?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@DBShay/i-kept-making-technology-help-me-use-a-screen-then-i-realized-i-needed-to-stop-using-one-8e68a95099a9?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1370/1*1fvfrDoXOSSYJ__RTZz_UQ@2x.jpeg&quot; width=&quot;1370&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;For years, I kept changing the technology I used to work.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@DBShay/i-kept-making-technology-help-me-use-a-screen-then-i-realized-i-needed-to-stop-using-one-8e68a95099a9?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/8e68a95099a9</guid>
+      <pubDate>Tue, 15 Sep 2026 14:36:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>&lt;div&gt; friend or foe? (Use Semantics, Not Soup)</title>
+      <link>https://medium.com/@penguinpepper/div-friend-or-foe-use-semantics-not-soup-e22a4bdfad03?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@penguinpepper/div-friend-or-foe-use-semantics-not-soup-e22a4bdfad03?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2600/0*m7aX7ZDqctvJKZyX&quot; width=&quot;6016&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Being basic and generic is not a bad thing, even if it means being overlooked.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@penguinpepper/div-friend-or-foe-use-semantics-not-soup-e22a4bdfad03?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/e22a4bdfad03</guid>
+      <pubDate>Tue, 15 Sep 2026 12:51:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>Charts.css vs ProvChart vs st-core.fscss: three ways to chart without a JS chart library</title>
+      <link>https://figsh.medium.com/charts-css-vs-provchart-vs-st-core-fscss-three-ways-to-chart-without-a-js-chart-library-2e6f300a466a?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://figsh.medium.com/charts-css-vs-provchart-vs-st-core-fscss-three-ways-to-chart-without-a-js-chart-library-2e6f300a466a?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/720/1*v0JDVs-39dqtOhEqYa6ZnA.jpeg&quot; width=&quot;720&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;JavaScript chart libraries are powerful, and heavy. For many pages you only need a trend, a bar comparison, or a simple gauge. Shipping&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://figsh.medium.com/charts-css-vs-provchart-vs-st-core-fscss-three-ways-to-chart-without-a-js-chart-library-2e6f300a466a?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/2e6f300a466a</guid>
+      <pubDate>Tue, 15 Sep 2026 11:29:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>Digital Accessibility: From Theory to Mobile Practice</title>
+      <link>https://medium.com/@pasqualini.gustavo/digital-accessibility-from-theory-to-mobile-practice-d7dc14031a97?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@pasqualini.gustavo/digital-accessibility-from-theory-to-mobile-practice-d7dc14031a97?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1248/1*MbjUwzz6PpI2lSRVGnW_JA.jpeg&quot; width=&quot;1248&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Legal Context: The Weight of Compliance in Europe&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@pasqualini.gustavo/digital-accessibility-from-theory-to-mobile-practice-d7dc14031a97?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/d7dc14031a97</guid>
+      <pubDate>Tue, 15 Sep 2026 09:21:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>ADA vs Section 508 vs WCAG: A Practical Comparison for 2026</title>
+      <link>https://medium.com/@marketing_58999/ada-vs-section-508-vs-wcag-a-practical-comparison-for-2026-6c77ec00ca74?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@marketing_58999/ada-vs-section-508-vs-wcag-a-practical-comparison-for-2026-6c77ec00ca74?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1200/0*WntYfWq_ORAPTjg-.png&quot; width=&quot;1200&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;ADA vs Section 508 vs WCAG: A Practical Comparison&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@marketing_58999/ada-vs-section-508-vs-wcag-a-practical-comparison-for-2026-6c77ec00ca74?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/6c77ec00ca74</guid>
+      <pubDate>Tue, 15 Sep 2026 08:18:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>ADA, Section 508 and WCAG: How Do They Work Together?</title>
+      <link>https://medium.com/@marketing_58999/ada-section-508-and-wcag-how-do-they-work-together-6c72e3ab1ba8?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@marketing_58999/ada-section-508-and-wcag-how-do-they-work-together-6c72e3ab1ba8?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1200/0*0Dgq8DNbWTsYSPf4.png&quot; width=&quot;1200&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;ADA, Section 508 and WCAG: How Do They Work Together?&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@marketing_58999/ada-section-508-and-wcag-how-do-they-work-together-6c72e3ab1ba8?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/6c72e3ab1ba8</guid>
+      <pubDate>Tue, 15 Sep 2026 08:15:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>First Public Working Draft: Web Authentication: An API for accessing Public Key Credentials Level 4</title>
+      <link>https://www.w3.org/news/2026/first-public-working-draft-web-authentication-an-api-for-accessing-public-key-credentials-level-4/</link>
+      <description>This specification defines an API enabling the creation and use of strong, attested, scoped, public key-based credentials by web applications, for the purpose of strongly authenticating users.</description>
+      <guid>https://www.w3.org/news/2026/first-public-working-draft-web-authentication-an-api-for-accessing-public-key-credentials-level-4/</guid>
+      <pubDate>Tue, 15 Sep 2026 06:07:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Accessible Drag and Drop: Keyboard-Friendly Reordering with One Handle</title>
+      <link>https://geneparcellano.medium.com/accessible-drag-and-drop-keyboard-friendly-reordering-with-one-handle-3b850398a04b?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://geneparcellano.medium.com/accessible-drag-and-drop-keyboard-friendly-reordering-with-one-handle-3b850398a04b?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2456/1*uxRz7UMJutCV6LZyQg5avw.png&quot; width=&quot;2456&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Drag and drop is a clean interaction: pick something up, put it where it belongs.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://geneparcellano.medium.com/accessible-drag-and-drop-keyboard-friendly-reordering-with-one-handle-3b850398a04b?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/3b850398a04b</guid>
+      <pubDate>Tue, 15 Sep 2026 05:39:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>The Hand We Can’t Automate</title>
+      <link>https://medium.com/@ahaim85/the-hand-we-cant-automate-e22c6467bd14?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@ahaim85/the-hand-we-cant-automate-e22c6467bd14?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1672/1*lmhpBg2_BMpLv4ShShXHaw.png&quot; width=&quot;1672&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Why AI design tools are shipping inaccessible products by default, and why that&amp;#x2019;s not a technical problem&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@ahaim85/the-hand-we-cant-automate-e22c6467bd14?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/e22c6467bd14</guid>
+      <pubDate>Mon, 14 Sep 2026 22:15:06 GMT</pubDate>
+    </item>
     <item>
       <title>When “Seated Tai Chi” Suddenly Asks You to Stand</title>
       <link>https://medium.com/@fiveelementharmony5/when-seated-tai-chi-suddenly-asks-you-to-stand-0fdb97173e56?source=rss------accessibility-5</link>
       <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@fiveelementharmony5/when-seated-tai-chi-suddenly-asks-you-to-stand-0fdb97173e56?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1024/0*b-g_3TXAkYw3gKR5.jpg&quot; width=&quot;1024&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Some &amp;#x201c;seated&amp;#x201d; Tai Chi programs still expect you to stand. Here&amp;#x2019;s what to look for when you need a practice truly designed for the chair.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@fiveelementharmony5/when-seated-tai-chi-suddenly-asks-you-to-stand-0fdb97173e56?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
       <guid>https://medium.com/p/0fdb97173e56</guid>
       <pubDate>Mon, 14 Sep 2026 15:03:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>La ilusión de la biometría “inteligente” y el diseño digital que excluye a los vulnerables</title>
-      <link>https://lucasgiuliani.medium.com/la-ilusi%C3%B3n-de-la-biometr%C3%ADa-inteligente-y-el-dise%C3%B1o-digital-que-excluye-a-los-vulnerables-2c8826077ecd?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://lucasgiuliani.medium.com/la-ilusi%C3%B3n-de-la-biometr%C3%ADa-inteligente-y-el-dise%C3%B1o-digital-que-excluye-a-los-vulnerables-2c8826077ecd?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1672/1*qTUpxvapVJ88v-97eThpQA.png&quot; width=&quot;1672&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Ayer me toc&amp;#xf3; presenciar una escena que sintetiza el colapso &amp;#xe9;tico de nuestra industria. Mi pap&amp;#xe1;, una persona mayor, intentaba&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://lucasgiuliani.medium.com/la-ilusi%C3%B3n-de-la-biometr%C3%ADa-inteligente-y-el-dise%C3%B1o-digital-que-excluye-a-los-vulnerables-2c8826077ecd?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/2c8826077ecd</guid>
-      <pubDate>Mon, 14 Sep 2026 11:24:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>Do You Need a Stair Lift? 9 Signs Your Stairs Are Becoming a Mobility Problem</title>
-      <link>https://medium.com/@rehabmedicalmobility/do-you-need-a-stair-lift-9-signs-your-stairs-are-becoming-a-mobility-problem-ceb32118ffd3?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@rehabmedicalmobility/do-you-need-a-stair-lift-9-signs-your-stairs-are-becoming-a-mobility-problem-ceb32118ffd3?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/600/1*GaeeuI5Dry59zV34pGZOHQ.png&quot; width=&quot;600&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;A stair lift may be worth considering when using the stairs has become difficult, tiring, unpredictable, or stressful. Avoiding certain&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@rehabmedicalmobility/do-you-need-a-stair-lift-9-signs-your-stairs-are-becoming-a-mobility-problem-ceb32118ffd3?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/ceb32118ffd3</guid>
-      <pubDate>Mon, 14 Sep 2026 10:09:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>The HSL Lightness Trap — Shubham Arya Singh | Senior UI/UX Designer, Design Systems</title>
-      <link>https://medium.com/@shubhamarya.ux/the-hsl-lightness-trap-shubham-arya-singh-senior-ui-ux-designer-design-systems-6428e79425bc?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@shubhamarya.ux/the-hsl-lightness-trap-shubham-arya-singh-senior-ui-ux-designer-design-systems-6428e79425bc?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1400/1*RhvxgCUknXNmylb3fgZoCg.png&quot; width=&quot;1400&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;HSL Lightness Lies About Contrast. HCT Tone Does Not.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@shubhamarya.ux/the-hsl-lightness-trap-shubham-arya-singh-senior-ui-ux-designer-design-systems-6428e79425bc?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/6428e79425bc</guid>
-      <pubDate>Mon, 14 Sep 2026 05:21:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>Sentence Case or ALL CAPS? A Practical Guide to Caption Capitalization</title>
-      <link>https://medium.com/@wangchuangji903/sentence-case-or-all-caps-a-practical-guide-to-caption-capitalization-e8f9aafe279d?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Use mixed case for ordinary dialogue, protect names and acronyms, and reserve capitals for meaning &amp;#x2014; not decoration&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@wangchuangji903/sentence-case-or-all-caps-a-practical-guide-to-caption-capitalization-e8f9aafe279d?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/e8f9aafe279d</guid>
-      <pubDate>Mon, 14 Sep 2026 02:51:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>How to Publish a Video Transcript for SEO Without Keyword Stuffing</title>
-      <link>https://medium.com/@wangchuangji903/how-to-publish-a-video-transcript-for-seo-without-keyword-stuffing-f4161500b1b3?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Turn spoken material into a useful web page while keeping accessibility, search guidelines, and reader trust in view&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@wangchuangji903/how-to-publish-a-video-transcript-for-seo-without-keyword-stuffing-f4161500b1b3?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/f4161500b1b3</guid>
-      <pubDate>Mon, 14 Sep 2026 02:51:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>Op-Ed: Traveling Alone With Hidden Disabilities</title>
-      <link>https://medium.com/@dylancotterthomascotter/op-ed-traveling-alone-with-hidden-disabilities-7707c5af8b46?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@dylancotterthomascotter/op-ed-traveling-alone-with-hidden-disabilities-7707c5af8b46?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1320/1*O0daunTTzbZzxmEQfQhi3Q.jpeg&quot; width=&quot;1320&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;For context, I am on the spectrum and have CPTSD. These circumstances aren&amp;#x2019;t visible, but they strongly shape how I move through the world&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@dylancotterthomascotter/op-ed-traveling-alone-with-hidden-disabilities-7707c5af8b46?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/7707c5af8b46</guid>
-      <pubDate>Sun, 13 Sep 2026 21:08:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>We made our product worse on purpose</title>
-      <link>https://medium.com/design-bootcamp/we-made-our-product-worse-on-purpose-46e3e63228e2?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/design-bootcamp/we-made-our-product-worse-on-purpose-46e3e63228e2?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2072/1*nuvjej4_i26I2Jql-i4RHg.png&quot; width=&quot;2072&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;We built a navigation aid for blind and low-vision users. Then we told them not to use it at home.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/design-bootcamp/we-made-our-product-worse-on-purpose-46e3e63228e2?source=rss------accessibility-5&quot;&gt;Continue reading on Bootcamp »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/46e3e63228e2</guid>
-      <pubDate>Sun, 13 Sep 2026 20:42:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>The World is About To Get a Lot Smaller</title>
-      <link>https://daivikgoel.medium.com/the-world-is-about-to-get-a-lot-smaller-99f4ff8d5c3d?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://daivikgoel.medium.com/the-world-is-about-to-get-a-lot-smaller-99f4ff8d5c3d?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2600/1*UcSLlq2HjPi6OTq1ulbL0Q.jpeg&quot; width=&quot;2752&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;During the world cup I was scrolling X and a lot of what was moving through my feed had been in Spanish a second earlier, since the&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://daivikgoel.medium.com/the-world-is-about-to-get-a-lot-smaller-99f4ff8d5c3d?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/99f4ff8d5c3d</guid>
-      <pubDate>Sun, 13 Sep 2026 19:59:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>Can Someone Tell Me?</title>
-      <link>https://medium.com/@akashshanthi29/can-someone-tell-me-411a6ce6aa12?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@akashshanthi29/can-someone-tell-me-411a6ce6aa12?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1377/1*P3lx1BTWgsz5LmLEBto0gg.png&quot; width=&quot;1377&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;I had travelled quite a distance from my workplace to a medical centre where we were testing our robotic device. We were moving the&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@akashshanthi29/can-someone-tell-me-411a6ce6aa12?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/411a6ce6aa12</guid>
-      <pubDate>Sun, 13 Sep 2026 19:07:09 GMT</pubDate>
     </item>
     <item>
       <title>A compilation of W3C in Japan's 30th anniversary events</title>
@@ -1165,13 +1172,6 @@ Show code
 &lt;p&gt;You're welcome.&lt;/p&gt;&lt;p&gt;My blog doesn't support comments yet, but you can reply via &lt;a href=&quot;mailto:blog@matuzo.at?subject=Comment+on+%E2%80%9CZen%2C+Zed%2C+and+Zits%E2%80%9D&quot;&gt;blog@matuzo.at&lt;/a&gt;.&lt;/p&gt;</description>
       <guid>https://www.matuzo.at/blog/2026/zen-zed-zits</guid>
       <pubDate>2026-06-19T11:00:00+00:00</pubDate>
-    </item>
-    <item>
-      <title>First Public Working Draft: Quantum-Resistant Cryptosuites v1.0</title>
-      <link>https://www.w3.org/news/2026/first-public-working-draft-quantum-resistant-cryptosuites-v1-0/</link>
-      <description>This specification describes several Data Integrity Cryptosuites for use when generating a digital signature using Post-Quantum digital signature algorithms.</description>
-      <guid>https://www.w3.org/news/2026/first-public-working-draft-quantum-resistant-cryptosuites-v1-0/</guid>
-      <pubDate>Tue, 16 Jun 2026 08:03:00 +0000</pubDate>
     </item>
     <item>
       <title>∪ of Target Audiences (Accessibility, SEO, AEO/GEO)</title>
