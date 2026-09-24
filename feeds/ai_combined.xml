@@ -3,7 +3,14 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Wed, 23 Sep 2026 15:30:25 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 15:52:05 +0000</lastBuildDate>
+    <item>
+      <title>Gemini TTS 🗣️, Claude’s novel enzyme 🧬, Google private memory 🔒</title>
+      <link>https://tldr.tech/ai/2026-09-24</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-09-24</guid>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>SF October 14th: A Birds of a Feather Session on Agentic Engineering</title>
       <link>https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/</link>
@@ -20,6 +27,13 @@ I'm hosting an evening event with Jesse Vincent in San Francisco on Wednesday 14
     &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/events&quot;&gt;events&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/jesse-vincent&quot;&gt;jesse-vincent&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/agentic-engineering&quot;&gt;agentic-engineering&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/</guid>
       <pubDate>2026-09-23T02:53:19+00:00</pubDate>
+    </item>
+    <item>
+      <title>Claude discovers a novel enzyme system with CRISPR-like repeats</title>
+      <link>https://www.anthropic.com/news/claude-discovers-novel-enzyme-system</link>
+      <description>Claude discovers a novel enzyme system with CRISPR-like repeats</description>
+      <guid>https://www.anthropic.com/news/claude-discovers-novel-enzyme-system</guid>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>GPT-6 ⚡, Opus 5.5 🧠, AI leaders at UN 🌐</title>
@@ -868,13 +882,6 @@ Blink and you'll miss it, but there's a familiar creature at &lt;a href=&quot;ht
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>GLM-5.3 Flash ⚡, Claudeforce 🤝, NVIDIA revenue surge 📈</title>
-      <link>https://tldr.tech/ai/2026-08-27</link>
-      <description/>
-      <guid>https://tldr.tech/ai/2026-08-27</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Funding better evaluations of AI’s impact on wellbeing</title>
       <link>https://www.anthropic.com/news/wellbeing-research-grants</link>
       <description>Funding better evaluations of AI’s impact on wellbeing</description>
@@ -1176,13 +1183,6 @@ Blink and you'll miss it, but there's a familiar creature at &lt;a href=&quot;ht
       <description>Widening the conversation on frontier AI</description>
       <guid>https://www.anthropic.com/news/widening-conversation-ai</guid>
       <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic acquires Stainless</title>
-      <link>https://www.anthropic.com/news/anthropic-acquires-stainless</link>
-      <description>Anthropic acquires Stainless</description>
-      <guid>https://www.anthropic.com/news/anthropic-acquires-stainless</guid>
-      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
