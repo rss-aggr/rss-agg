@@ -3,7 +3,24 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Thu, 24 Sep 2026 15:52:05 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 15:52:31 +0000</lastBuildDate>
+    <item>
+      <title>ChatGPT Pro Max 🤖, Muse realtime avatar 🎭, DeepSeek $1B ARR 💰</title>
+      <link>https://tldr.tech/ai/2026-09-25</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-09-25</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Note on 24th September 2026</title>
+      <link>https://simonwillison.net/2026/Sep/24/harder/</link>
+      <description>&lt;p&gt;The more time I spend working with coding agents, the more convinced I am that they make software engineering even harder.&lt;/p&gt;
+&lt;p&gt;We can do amazing things with them, but unlocking their full potential requires extraordinary discipline and knowledge.&lt;/p&gt;
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Sep/24/harder/</guid>
+      <pubDate>2026-09-24T23:31:08+00:00</pubDate>
+    </item>
     <item>
       <title>Gemini TTS 🗣️, Claude’s novel enzyme 🧬, Google private memory 🔒</title>
       <link>https://tldr.tech/ai/2026-09-24</link>
@@ -794,24 +811,6 @@ Apparently today is RSI day at OpenAI, for Recursive Self-Improvement - I think 
       <pubDate>2026-09-06T23:57:40+00:00</pubDate>
     </item>
     <item>
-      <title>Introducing GPT-6 Astra for developers</title>
-      <link>https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=bOC3DisEOfg&quot;&gt;Introducing GPT-6 Astra for developers&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-Blink and you'll miss it, but there's a familiar creature at &lt;a href=&quot;https://www.youtube.com/watch?v=bOC3DisEOfg&amp;amp;t=119&quot;&gt;1m59s&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Across the board, Astra has more attention to detail, better understanding of the user's prompt, and can build more sophisticated outputs. In particular, it excels at building 3D models. I've seen it make incredible renderings of gardens, shipyards, &lt;strong&gt;animals&lt;/strong&gt;, cityscapes, even Dyson spheres.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img alt=&quot;astra-video-pelican.webp&quot; src=&quot;https://static.simonwillison.net/static/2026-09-05/astra-video-pelican.webp&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Astra &lt;a href=&quot;https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/&quot;&gt;really&lt;/a&gt; does &lt;a href=&quot;https://simonwillison.net/2026/Sep/4/astra-pelicans/&quot;&gt;believe&lt;/a&gt; in putting a red neckerchief on a pelican riding a bicycle.
-
-    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://news.ycombinator.com/item?id=49554643#49575117&quot;&gt;Hacker News comment&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gpt-6-astra&quot;&gt;gpt-6-astra&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/</guid>
-      <pubDate>2026-09-05T23:27:48+00:00</pubDate>
-    </item>
-    <item>
       <title>GPT-6 Astra 🚀, Grok Bot Enterprise 🤖, Runway world model 🌎</title>
       <link>https://tldr.tech/ai/2026-09-04</link>
       <description/>
@@ -859,13 +858,6 @@ Blink and you'll miss it, but there's a familiar creature at &lt;a href=&quot;ht
       <description/>
       <guid>https://tldr.tech/ai/2026-08-31</guid>
       <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Gemini Omni 1.1 🎬, Cohere Parse 📄, Codex persistent mode 👨‍💻</title>
-      <link>https://tldr.tech/ai/2026-08-28</link>
-      <description/>
-      <guid>https://tldr.tech/ai/2026-08-28</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Expanding our support for scientists</title>
