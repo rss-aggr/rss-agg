@@ -3,7 +3,17 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Fri, 25 Sep 2026 15:52:31 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 15:03:33 +0000</lastBuildDate>
+    <item>
+      <title>Quoting John Gruber</title>
+      <link>https://simonwillison.net/2026/Sep/25/john-gruber/</link>
+      <description>&lt;blockquote cite=&quot;https://daringfireball.net/linked/2026/09/25/aten-muse&quot;&gt;&lt;p&gt;Muse is getting a lot of attention — including mine — because it’s both groundbreaking technically (each user gets their own entire persistent Linux VM running in Meta’s cloud) &lt;em&gt;and&lt;/em&gt; because it’s packaged in an easy-to-install easy-to-use way. It’s literally presented as &lt;a href=&quot;https://daringfireball.net/linked/2026/09/24/song-meta-muse-cute&quot;&gt;a cute mascot&lt;/a&gt;. It’s the first consumer-accessible agentic AI system, and Meta has truly done an amazing job with that. But it’s a genuinely open question whether consumers have any understanding what this means. If you buy a power saw that can cut your fingers off, you are almost certainly aware that you are buying a power saw that can sever your fingers. [...] I don’t think people realize how powerful — and thus dangerous — Muse is, especially if it’s running on your Mac.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://daringfireball.net/linked/2026/09/25/aten-muse&quot;&gt;John Gruber&lt;/a&gt;, Muse Looks Cute, but Looks are Deceiving&lt;/p&gt;
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/john-gruber&quot;&gt;john-gruber&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/meta&quot;&gt;meta&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/general-agents&quot;&gt;general-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/muse-agent&quot;&gt;muse-agent&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/muse&quot;&gt;muse&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Sep/25/john-gruber/</guid>
+      <pubDate>2026-09-25T17:22:01+00:00</pubDate>
+    </item>
     <item>
       <title>ChatGPT Pro Max 🤖, Muse realtime avatar 🎭, DeepSeek $1B ARR 💰</title>
       <link>https://tldr.tech/ai/2026-09-25</link>
@@ -795,20 +805,6 @@ OpenAI's image generation models are apparently used &quot;more than 3 billion i
       <description/>
       <guid>https://tldr.tech/ai/2026-09-07</guid>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Research acceleration: The view inside OpenAI</title>
-      <link>https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://openai.com/index/research-acceleration-view-inside-openai/&quot;&gt;Research acceleration: The view inside OpenAI&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-Apparently today is RSI day at OpenAI, for Recursive Self-Improvement - I think it's their new AGI. Both this piece and the new essay &lt;a href=&quot;https://openai.com/index/an-alien-mind/&quot;&gt;An Alien Mind&lt;/a&gt; (by Chief Scientist Jakub Pachocki) talk about it, and this one doesn't even bother to expand the acronym.&lt;/p&gt;
-&lt;p&gt;Included are details on how OpenAI's own research team are using coding agents. Like pretty much everyone else 2026 has been the year that agentic engineering really took off at OpenAI, best illustrated by this chart:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Screenshot of a line chart from a report, headed &amp;quot;1. Coding agents are reshaping daily work for OpenAI researchers&amp;quot; with a partially visible chart title ending &amp;quot;significantly—Median researcher&amp;quot;. Y-axis: &amp;quot;Daily $ / researcher&amp;quot; from 0 to 700. X-axis labels: &amp;quot;Feb 2026&amp;quot;, &amp;quot;Apr 2026&amp;quot;, &amp;quot;Jun 2026&amp;quot;, &amp;quot;Aug 2026&amp;quot;. A blue line stays near 0 through February, rises slowly to about 50 by April and 150 by June, plateaus around 150–165 into July, then climbs steeply to roughly 600 by late August 2026.&quot; src=&quot;https://static.simonwillison.net/static/2026/openai-agent-usage.webp&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;I'm intrigued at what caused that significant acceleration in AI spend per researcher in late July - my best guess is that's when internal employees gained access to the model later released as GPT-6 Astra.
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/chatgpt&quot;&gt;chatgpt&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/november-2025-inflection&quot;&gt;november-2025-inflection&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/recursive-self-improvement&quot;&gt;recursive-self-improvement&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/</guid>
-      <pubDate>2026-09-06T23:57:40+00:00</pubDate>
     </item>
     <item>
       <title>GPT-6 Astra 🚀, Grok Bot Enterprise 🤖, Runway world model 🌎</title>
