@@ -3,7 +3,68 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Sat, 26 Sep 2026 15:03:33 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 15:44:18 +0000</lastBuildDate>
+    <item>
+      <title>Kākāpō Party</title>
+      <link>https://simonwillison.net/2026/Sep/26/kakapo-party/</link>
+      <description>&lt;p&gt;&lt;strong&gt;Tool:&lt;/strong&gt; &lt;a href=&quot;https://tools.simonwillison.net/kakapo-party&quot;&gt;Kākāpō Party&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;I presented a closing keynote for the &lt;a href=&quot;https://www.wearedevelopers.com/world-congress-north-america&quot;&gt;WeAreDevelopers World Congress North America&lt;/a&gt; yesterday. As &lt;a href=&quot;https://simonwillison.net/2019/Dec/10/better-presentations/&quot;&gt;a STAR moment&lt;/a&gt; I decided to weave in references to the record breaking &lt;a href=&quot;https://www.doc.govt.nz/news/media-releases/2026-media-releases/kakapo-population-reaches-new-milestone/&quot;&gt;kākāpō breeding season&lt;/a&gt; we had in 2026.&lt;/p&gt;
+&lt;p&gt;For my closing slide I wanted to celebrate, and I had seen some buzz around how good Claude Opus 5.5 was at creating pixel art animations. So I rounded up three Kakapo photos from Google image search and dropped them into Claude with this prompt:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Here are some photos of kakapo parrots just to remind you what they look like&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;I need you to make an animation in animated pixel art on HTML 5 canvas of obviously pixel art kakapo jumping up and down having a party with confetti and suchlike - there should be at least 20 of them&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Here's &lt;a href=&quot;https://claude.ai/share/43bec0be-a0a3-4737-bfac-34894af34ddc&quot;&gt;the transcript&lt;/a&gt;, and this is the &lt;a href=&quot;https://tools.simonwillison.net/kakapo-party&quot;&gt;resulting page&lt;/a&gt;. It's pretty great!&lt;/p&gt;
+&lt;p&gt;I wanted to embed it in a Keynote presentation file, so I downloaded the HTML and told a local Claude Code session:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Make me a video of file:///Users/simon/Downloads/kakapo-party.html - you need to load it in a browser and click on it a few times to get the confetti effect, the video should be 15s long&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;don't start clicking until 3s in&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;make sure several clicks are spread around the clickable area&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Claude Code used Playwright (&lt;a href=&quot;https://gisthost.github.io/?368b481fba654c4fb84d90188da77581/page-001.html&quot;&gt;transcript here&lt;/a&gt;) and produced this video, which was exactly what I needed for my final slide:&lt;/p&gt;
+&lt;p&gt;&lt;video controls=&quot;controls&quot; height=&quot;720&quot; poster=&quot;https://static.simonwillison.net/static/2026/kakapo-party-first-frame.webp&quot; preload=&quot;none&quot; style=&quot;display: block; width: 100%; height: auto;&quot; width=&quot;1280&quot;&gt;
+    &lt;source src=&quot;https://static.simonwillison.net/static/2026/kakapo-party-small.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Your browser does not support HTML5 video.
+  &lt;/video&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Here's the full Playwright script it used, which was pleasingly short:&lt;/p&gt;
+&lt;pre&gt;&lt;span class=&quot;pl-c&quot;&gt;# /// script&lt;/span&gt;
+&lt;span class=&quot;pl-c&quot;&gt;# dependencies = [&quot;playwright&quot;]&lt;/span&gt;
+&lt;span class=&quot;pl-c&quot;&gt;# ///&lt;/span&gt;
+&lt;span class=&quot;pl-k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;pl-s1&quot;&gt;time&lt;/span&gt;
+&lt;span class=&quot;pl-k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;pl-s1&quot;&gt;playwright&lt;/span&gt;.&lt;span class=&quot;pl-s1&quot;&gt;sync_api&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;pl-s1&quot;&gt;sync_playwright&lt;/span&gt;
+&lt;span class=&quot;pl-c1&quot;&gt;W&lt;/span&gt;, &lt;span class=&quot;pl-c1&quot;&gt;H&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;1280&lt;/span&gt;, &lt;span class=&quot;pl-c1&quot;&gt;720&lt;/span&gt;
+&lt;span class=&quot;pl-c&quot;&gt;# Canvas fills the viewport; spread clicks across corners, edges and centre&lt;/span&gt;
+&lt;span class=&quot;pl-s1&quot;&gt;clicks&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;=&lt;/span&gt; [
+    (&lt;span class=&quot;pl-c1&quot;&gt;3.0&lt;/span&gt;, &lt;span class=&quot;pl-c1&quot;&gt;640&lt;/span&gt;, &lt;span class=&quot;pl-c1&quot;&gt;360&lt;/span&gt;),   &lt;span class=&quot;pl-c&quot;&gt;# centre&lt;/span&gt;
+    (&lt;span class=&quot;pl-c1&quot;&gt;4.2&lt;/span&gt;, &lt;span class=&quot;pl-c1&quot;&gt;160&lt;/span&gt;, &lt;span class=&quot;pl-c1&quot;&gt;120&lt;/span&gt;),   &lt;span class=&quot;pl-c&quot;&gt;# top-left&lt;/span&gt;
+    (&lt;span class=&quot;pl-c1&quot;&gt;5.4&lt;/span&gt;, &lt;span class=&quot;pl-c1&quot;&gt;1120&lt;/span&gt;, &lt;span class=&quot;pl-c1&quot;&gt;120&lt;/span&gt;),  &lt;span class=&quot;pl-c&quot;&gt;# top-right&lt;/span&gt;
+    (&lt;span class=&quot;pl-c1&quot;&gt;6.6&lt;/span&gt;, &lt;span class=&quot;pl-c1&quot;&gt;180&lt;/span&gt;, &lt;span class=&quot;pl-c1&quot;&gt;600&lt;/span&gt;),   &lt;span class=&quot;pl-c&quot;&gt;# bottom-left&lt;/span&gt;
+    (&lt;span class=&quot;pl-c1&quot;&gt;7.8&lt;/span&gt;, &lt;span class=&quot;pl-c1&quot;&gt;1100&lt;/span&gt;, &lt;span class=&quot;pl-c1&quot;&gt;600&lt;/span&gt;),  &lt;span class=&quot;pl-c&quot;&gt;# bottom-right&lt;/span&gt;
+    (&lt;span class=&quot;pl-c1&quot;&gt;9.0&lt;/span&gt;, &lt;span class=&quot;pl-c1&quot;&gt;640&lt;/span&gt;, &lt;span class=&quot;pl-c1&quot;&gt;100&lt;/span&gt;),   &lt;span class=&quot;pl-c&quot;&gt;# top-centre&lt;/span&gt;
+    (&lt;span class=&quot;pl-c1&quot;&gt;10.0&lt;/span&gt;, &lt;span class=&quot;pl-c1&quot;&gt;380&lt;/span&gt;, &lt;span class=&quot;pl-c1&quot;&gt;380&lt;/span&gt;),  &lt;span class=&quot;pl-c&quot;&gt;# mid-left&lt;/span&gt;
+    (&lt;span class=&quot;pl-c1&quot;&gt;11.0&lt;/span&gt;, &lt;span class=&quot;pl-c1&quot;&gt;900&lt;/span&gt;, &lt;span class=&quot;pl-c1&quot;&gt;380&lt;/span&gt;),  &lt;span class=&quot;pl-c&quot;&gt;# mid-right&lt;/span&gt;
+    (&lt;span class=&quot;pl-c1&quot;&gt;12.2&lt;/span&gt;, &lt;span class=&quot;pl-c1&quot;&gt;640&lt;/span&gt;, &lt;span class=&quot;pl-c1&quot;&gt;620&lt;/span&gt;),  &lt;span class=&quot;pl-c&quot;&gt;# bottom-centre&lt;/span&gt;
+    (&lt;span class=&quot;pl-c1&quot;&gt;13.2&lt;/span&gt;, &lt;span class=&quot;pl-c1&quot;&gt;640&lt;/span&gt;, &lt;span class=&quot;pl-c1&quot;&gt;300&lt;/span&gt;),  &lt;span class=&quot;pl-c&quot;&gt;# finale centre&lt;/span&gt;
+]
+&lt;span class=&quot;pl-k&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;pl-en&quot;&gt;sync_playwright&lt;/span&gt;() &lt;span class=&quot;pl-k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;pl-s1&quot;&gt;p&lt;/span&gt;:
+    &lt;span class=&quot;pl-s1&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;pl-s1&quot;&gt;p&lt;/span&gt;.&lt;span class=&quot;pl-c1&quot;&gt;chromium&lt;/span&gt;.&lt;span class=&quot;pl-c1&quot;&gt;launch&lt;/span&gt;()
+    &lt;span class=&quot;pl-s1&quot;&gt;ctx&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;pl-s1&quot;&gt;b&lt;/span&gt;.&lt;span class=&quot;pl-c1&quot;&gt;new_context&lt;/span&gt;(&lt;span class=&quot;pl-s1&quot;&gt;viewport&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;=&lt;/span&gt;{&lt;span class=&quot;pl-s&quot;&gt;&quot;width&quot;&lt;/span&gt;:&lt;span class=&quot;pl-c1&quot;&gt;W&lt;/span&gt;,&lt;span class=&quot;pl-s&quot;&gt;&quot;height&quot;&lt;/span&gt;:&lt;span class=&quot;pl-c1&quot;&gt;H&lt;/span&gt;}, &lt;span class=&quot;pl-s1&quot;&gt;record_video_dir&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;pl-s&quot;&gt;&quot;vids&quot;&lt;/span&gt;, &lt;span class=&quot;pl-s1&quot;&gt;record_video_size&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;=&lt;/span&gt;{&lt;span class=&quot;pl-s&quot;&gt;&quot;width&quot;&lt;/span&gt;:&lt;span class=&quot;pl-c1&quot;&gt;W&lt;/span&gt;,&lt;span class=&quot;pl-s&quot;&gt;&quot;height&quot;&lt;/span&gt;:&lt;span class=&quot;pl-c1&quot;&gt;H&lt;/span&gt;})
+    &lt;span class=&quot;pl-s1&quot;&gt;page&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;pl-s1&quot;&gt;ctx&lt;/span&gt;.&lt;span class=&quot;pl-c1&quot;&gt;new_page&lt;/span&gt;()
+    &lt;span class=&quot;pl-s1&quot;&gt;t0&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;pl-s1&quot;&gt;time&lt;/span&gt;.&lt;span class=&quot;pl-c1&quot;&gt;time&lt;/span&gt;()
+    &lt;span class=&quot;pl-s1&quot;&gt;page&lt;/span&gt;.&lt;span class=&quot;pl-c1&quot;&gt;goto&lt;/span&gt;(&lt;span class=&quot;pl-s&quot;&gt;&quot;file:///Users/simon/Downloads/kakapo-party.html&quot;&lt;/span&gt;)
+    &lt;span class=&quot;pl-k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;pl-s1&quot;&gt;t&lt;/span&gt;,&lt;span class=&quot;pl-s1&quot;&gt;x&lt;/span&gt;,&lt;span class=&quot;pl-s1&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;pl-s1&quot;&gt;clicks&lt;/span&gt;:
+        &lt;span class=&quot;pl-s1&quot;&gt;time&lt;/span&gt;.&lt;span class=&quot;pl-c1&quot;&gt;sleep&lt;/span&gt;(&lt;span class=&quot;pl-en&quot;&gt;max&lt;/span&gt;(&lt;span class=&quot;pl-c1&quot;&gt;0&lt;/span&gt;, &lt;span class=&quot;pl-s1&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;-&lt;/span&gt;(&lt;span class=&quot;pl-s1&quot;&gt;time&lt;/span&gt;.&lt;span class=&quot;pl-c1&quot;&gt;time&lt;/span&gt;()&lt;span class=&quot;pl-c1&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;pl-s1&quot;&gt;t0&lt;/span&gt;)))
+        &lt;span class=&quot;pl-s1&quot;&gt;page&lt;/span&gt;.&lt;span class=&quot;pl-c1&quot;&gt;mouse&lt;/span&gt;.&lt;span class=&quot;pl-c1&quot;&gt;click&lt;/span&gt;(&lt;span class=&quot;pl-s1&quot;&gt;x&lt;/span&gt;,&lt;span class=&quot;pl-s1&quot;&gt;y&lt;/span&gt;)
+    &lt;span class=&quot;pl-s1&quot;&gt;time&lt;/span&gt;.&lt;span class=&quot;pl-c1&quot;&gt;sleep&lt;/span&gt;(&lt;span class=&quot;pl-en&quot;&gt;max&lt;/span&gt;(&lt;span class=&quot;pl-c1&quot;&gt;0&lt;/span&gt;, &lt;span class=&quot;pl-c1&quot;&gt;16.0&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;-&lt;/span&gt;(&lt;span class=&quot;pl-s1&quot;&gt;time&lt;/span&gt;.&lt;span class=&quot;pl-c1&quot;&gt;time&lt;/span&gt;()&lt;span class=&quot;pl-c1&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;pl-s1&quot;&gt;t0&lt;/span&gt;)))
+    &lt;span class=&quot;pl-s1&quot;&gt;ctx&lt;/span&gt;.&lt;span class=&quot;pl-c1&quot;&gt;close&lt;/span&gt;(); &lt;span class=&quot;pl-s1&quot;&gt;b&lt;/span&gt;.&lt;span class=&quot;pl-c1&quot;&gt;close&lt;/span&gt;()&lt;/pre&gt;
+    
+    
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/animation&quot;&gt;animation&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/speaking&quot;&gt;speaking&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/kakapo&quot;&gt;kakapo&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/playwright&quot;&gt;playwright&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-code&quot;&gt;claude-code&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Sep/26/kakapo-party/</guid>
+      <pubDate>2026-09-26T23:39:06+00:00</pubDate>
+    </item>
     <item>
       <title>Quoting John Gruber</title>
       <link>https://simonwillison.net/2026/Sep/25/john-gruber/</link>
@@ -786,18 +847,6 @@ OpenAI's image generation models are apparently used &quot;more than 3 billion i
       <description/>
       <guid>https://tldr.tech/ai/2026-09-08</guid>
       <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Quoting Jakub Pachocki</title>
-      <link>https://simonwillison.net/2026/Sep/7/jakub-pachocki/</link>
-      <description>&lt;blockquote cite=&quot;https://openai.com/index/an-alien-mind/#scalable-defense&quot;&gt;&lt;p&gt;The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...]&lt;/p&gt;
-&lt;p&gt;We will need powerful, aligned AI for defense; to secure infrastructure, to protect against rogue agents in real time, and to invent entirely new protective measures. This will be a primary focus of OpenAI’s deployment efforts.&lt;/p&gt;
-&lt;p&gt;At the same time, even with the uncertainty that comes from anticipated broad AI progress and the need to build defensive systems, we must not let that become an excuse for recklessness. The idea of racing forward at all costs seems absurd once one internalizes the seriousness of the stakes.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://openai.com/index/an-alien-mind/#scalable-defense&quot;&gt;Jakub Pachocki&lt;/a&gt;, Chief Scientist at OpenAI&lt;/p&gt;
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Sep/7/jakub-pachocki/</guid>
-      <pubDate>2026-09-07T22:26:25+00:00</pubDate>
     </item>
     <item>
       <title>Claude proves Fermat 🧮, automated AI researcher 🔬, Z1 efficiency chip ⚡</title>
