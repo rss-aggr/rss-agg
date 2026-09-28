@@ -3,7 +3,14 @@
     <title>SEO/AEO Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: SEO/AEO Combined Feed</description>
-    <lastBuildDate>Sun, 27 Sep 2026 15:44:19 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 18:39:56 +0000</lastBuildDate>
+    <item>
+      <title>The usefulness of attribution for AI Search</title>
+      <link>https://www.growth-memo.com/p/the-collapse-of-attribution</link>
+      <description>Click-based attribution hasn&amp;#8217;t been ideal for non-paid channels for a long time. AI puts a lid on it. (Featuring George Bonaci, VP Growth @ Ramp)</description>
+      <guid>https://www.growth-memo.com/p/the-collapse-of-attribution</guid>
+      <pubDate>Mon, 28 Sep 2026 09:42:25 GMT</pubDate>
+    </item>
     <item>
       <title>Managing the AI mandate upward</title>
       <link>https://www.growth-memo.com/p/managing-the-ai-mandate-upward</link>
@@ -136,13 +143,6 @@
       <description>Primary research is rare, but when it appears, it is much more citation-dense than ordinary pages.</description>
       <guid>https://www.growth-memo.com/p/why-most-original-data-never-gets</guid>
       <pubDate>Mon, 06 Jul 2026 08:59:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>Why proprietary data is your most defensible AI citation asset</title>
-      <link>https://www.growth-memo.com/p/why-proprietary-data-is-your-most</link>
-      <description>Original data wins citations, but being the primary source might not. Part 2 in our series about organic authority multiplication.</description>
-      <guid>https://www.growth-memo.com/p/why-proprietary-data-is-your-most</guid>
-      <pubDate>Mon, 29 Jun 2026 14:20:20 GMT</pubDate>
     </item>
   </channel>
 </rss>
