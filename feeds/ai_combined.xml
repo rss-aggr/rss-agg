@@ -3,7 +3,58 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Mon, 28 Sep 2026 18:39:55 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 16:56:30 +0000</lastBuildDate>
+    <item>
+      <title>OpenAI DevDay 2026 live blog</title>
+      <link>https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/</link>
+      <description>&lt;p&gt;I'm at &lt;a href=&quot;https://devday.openai.com/&quot;&gt;OpenAI DevDay&lt;/a&gt; today, in Fort Mason, San Francisco. Same as &lt;a href=&quot;https://simonwillison.net/2025/Oct/6/openai-devday-live-blog/&quot;&gt;last year&lt;/a&gt; I'll be live blogging the keynote and some other notes during the day.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;OpenAI gave me a free ticket and a seat in the &quot;creator&quot; area for the keynote.&lt;/em&gt;&lt;/p&gt;
+    
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/live-blog&quot;&gt;live-blog&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/</guid>
+      <pubDate>2026-09-29T15:55:13+00:00</pubDate>
+    </item>
+    <item>
+      <title>Claude Sonnet 5.5 🧠, Anthropic IPO leaks 📝, AMD buys World Labs 💰</title>
+      <link>https://tldr.tech/ai/2026-09-29</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-09-29</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Claude Sonnet 5.5</title>
+      <link>https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/</link>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.anthropic.com/claude-sonnet-5-5&quot;&gt;Claude Sonnet 5.5&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+New Sonnet model from Anthropic today. They say it &quot;runs 30%+ faster, and costs up to 30% less for most work&quot; - it's priced the same as Sonnet 5 but appears to beat it on every benchmark, and should be cheaper to run as well.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F1d85a9be7f3ecce26e7f1569161a0d01&quot;&gt;Here are some pelicans riding bicycles&lt;/a&gt;. Sonnet 5.5 suffered from &lt;a href=&quot;https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/#claude-opus-5-5-max-over-thinks-to-the-point-of-breaking&quot;&gt;the same bug as Opus 5.5&lt;/a&gt;: the &quot;max&quot; thinking effort pelican thought for 128,000 tokens (at a cost of $1.28) before running out of tokens and failing to produce an SVG.&lt;/p&gt;
+&lt;p&gt;Here's the pelican it gave me for thinking effort &quot;xhigh&quot;, at a cost of 5.74 cents and taking 41 seconds:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;It's good- correct bicycle frame, legs either side of the frame, feet touching the pedals, chain in the right place, it is wearing a misshapen blue bicycle helmet though.&quot; src=&quot;https://static.simonwillison.net/static/2026/claude-sonnet-5.5-pelican-xhigh.webp&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Sonnet 5.5 appears to be almost as good as Opus 5.5 on some coding tasks, including various &lt;a href=&quot;https://x.com/claudeai/status/2104674987164782598&quot;&gt;viral 3D animation tricks&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The most interesting thing about Sonnet 5.5 is that it's now the model used for the free tier on &lt;a href=&quot;https://claude.ai/&quot;&gt;claude.ai&lt;/a&gt;. OpenAI's ChatGPT free tier uses Luna 5.6, which means Anthropic currently have a much more capable free offering.&lt;/p&gt;
+&lt;p&gt;I ran this prompt against that free tier:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;build me an HTML page that renders a three-dimensional pelican riding a bicycle using WebGL&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;And got back &lt;a href=&quot;https://static.simonwillison.net/static/2026/claude-sonnet-5.5-free-3d-pelican.html&quot;&gt;this page&lt;/a&gt;, which is a solid effort.&lt;/p&gt;
+&lt;p&gt;Anthropic's announcement reiterates that Haiku 5.5 will be available &quot;in the coming weeks&quot;. I really hope that one is price-competitive with GPT-6 Luna!
+
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-release&quot;&gt;llm-release&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/</guid>
+      <pubDate>2026-09-28T22:07:38+00:00</pubDate>
+    </item>
+    <item>
+      <title>Quoting @joedaroo</title>
+      <link>https://simonwillison.net/2026/Sep/28/joedaroo/</link>
+      <description>&lt;blockquote cite=&quot;https://twitter.com/joedaroo/status/2104335929293127851&quot;&gt;&lt;p&gt;To say that we were surprised at the jump and suddenness of the capabilities of our models when it came to “cyber” or “swarming” or “message boards” or anything else related to the incidents is an understatement. Security posture takes time to develop. It’s not just about hardening the systems at play; you have to ingrain it in the culture of the company. The literal people themselves in your organization have to change and evolve with it. These jumps in capabilities were so fast and so sudden that they created an extremely difficult problem. [...]&lt;/p&gt;
+&lt;p&gt;So today my hope is that everyone around the world can look at their own organization and say: how can I deal with a surprise or a sudden jump in AI capability? Are my people, my systems, or my processes resilient to surprises? Do my teams know what to do when something goes wrong? Do I have the right incident response? The right comms and messaging? Do I have the right people ready to go when capabilities jump?&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://twitter.com/joedaroo/status/2104335929293127851&quot;&gt;@joedaroo&lt;/a&gt;, Agent Security at OpenAI, &lt;a href=&quot;https://twitter.com/rocketalignment/status/2104646956551422036&quot;&gt;identity confirmed&lt;/a&gt; by The Information's Rocket Drew&lt;/p&gt;
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Sep/28/joedaroo/</guid>
+      <pubDate>2026-09-28T19:11:42+00:00</pubDate>
+    </item>
     <item>
       <title>Quoting Muse AI Agent</title>
       <link>https://simonwillison.net/2026/Sep/28/muse-ai-agent/</link>
@@ -1570,60 +1621,11 @@ Shopify are moving from React Native back to separate Swift and Kotlin codebases
       <pubDate>2026-09-10T21:11:15+00:00</pubDate>
     </item>
     <item>
-      <title>Quoting Calif Research</title>
-      <link>https://simonwillison.net/2026/Sep/10/calif-research/</link>
-      <description>&lt;blockquote cite=&quot;https://calif.io/research/weworm&quot;&gt;&lt;p&gt;Today, we're releasing a demo of WeWorm, the first zero-click worm to spread through WeChat calls across iOS and Android. [...]&lt;/p&gt;
-&lt;p&gt;The victim does not need to answer the call, or interact with their phone at all. Even if they do answer, they hear nothing, and the exploit still succeeds. [...]&lt;/p&gt;
-&lt;p&gt;Working with AI, our team found the bug and wrote the first remote code execution (RCE) exploit in about two days. Building the worm took one more week.&lt;/p&gt;
-&lt;p&gt;A worm at this scale used to be the kind of thing that took a larger team months. AI can already do most of the work here. Our team provided the judgment about what to target and how to test it safely.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://calif.io/research/weworm&quot;&gt;Calif Research&lt;/a&gt;, WeWorm&lt;/p&gt;
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/security&quot;&gt;security&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Sep/10/calif-research/</guid>
-      <pubDate>2026-09-10T00:56:41+00:00</pubDate>
-    </item>
-    <item>
       <title>DeepSeek Flash v4.1 🤖, Siri AI 📱, Anthropic AI economics 📈</title>
       <link>https://tldr.tech/ai/2026-09-10</link>
       <description/>
       <guid>https://tldr.tech/ai/2026-09-10</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>.blend URL Viewer</title>
-      <link>https://simonwillison.net/2026/Sep/9/blender-viewer/</link>
-      <description>&lt;p&gt;&lt;strong&gt;Tool:&lt;/strong&gt; &lt;a href=&quot;https://tools.simonwillison.net/blender-viewer&quot;&gt;.blend URL Viewer&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;I'm continuing to have a lot of fun with GPT-6 Astra and Blender (see &lt;a href=&quot;https://til.simonwillison.net/llms/blender-coding-agents-macos&quot;&gt;my TIL&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;As a big fan of the &lt;a href=&quot;https://en.wikipedia.org/wiki/Faberg%C3%A9_egg&quot;&gt;Imperial Fabergé Easter eggs&lt;/a&gt;, I've always thought it would be fun to make some new ones that celebrate popular culture.&lt;/p&gt;
-&lt;p&gt;Yesterday I decided to try out the new &lt;a href=&quot;https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/&quot;&gt;ChatGPT Images 2.5&lt;/a&gt; by &lt;a href=&quot;https://chatgpt.com/share/6aa1f6d2-a7d8-83ea-92ec-0daeb8422617&quot;&gt;running this prompt&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;Generate a photo of a faberge egg that's themed after the TV show Pluribus - research first&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;It gave me this - honestly not bad for a first attempt!&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;It's a yellow Fabergé egg, half open. Inside you can clearly see Carol in her black outfit facing off against a choir of creepy white-faced joined humans. There are cacti and it has an Albuquerque New Mexico feel to it. The egg stand has a Pluribus plaque.&quot; src=&quot;https://static.simonwillison.net/static/2026/pluribus-egg.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Then, just to see what would happen, I pasted that image into Codex running GPT-6 Astra (high) and prompted:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;Use your blender local skill to create a blender model of this faverge egg&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;(Here's &lt;a href=&quot;https://github.com/simonw/gpt-6-astra-blender-pelican-bicycle/blob/main/outputs/blender-local/SKILL.md&quot;&gt;the skill file&lt;/a&gt;, which I created &lt;a href=&quot;https://til.simonwillison.net/llms/blender-coding-agents-macos#creating-a-skill&quot;&gt;like this&lt;/a&gt;.)&lt;/p&gt;
-&lt;p&gt;It churned away for 17m51s and built me &lt;a href=&quot;https://github.com/simonw/vibe-coded-blender-projects/tree/main/pluribus-faberge-egg/deliverables&quot;&gt;several &lt;code&gt;.blend&lt;/code&gt; files&lt;/a&gt;. I already had this vibe-coded Blender viewing experiment lying around, so I added that to my &lt;a href=&quot;https://tools.simonwillison.net/&quot;&gt;tools collection&lt;/a&gt; and now you can use it to &lt;a href=&quot;https://tools.simonwillison.net/blender-viewer?url=https%3A%2F%2Fgithub.com%2Fsimonw%2Fvibe-coded-blender-projects%2Fblob%2Fmain%2Fpluribus-faberge-egg%2Fdeliverables%2FPluribus_Jeweled_Egg_v1.blend&quot;&gt;see my Pluribus blender model in your browser&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Screenshot of a web-based 3D Blender file viewer showing a rendered gold Fabergé-style jeweled egg. The top of the egg is lifted open, revealing a miniature desert diorama inside with green cacti, brown rocks, and a small black-suited figure standing in the center. The egg's shell is decorated with green gems, pearls, ornate scrollwork, a ring of smiling white egg-shaped faces, and oval medallions painted with a cactus and desert scene. The egg stands on four gold legs over a black marbled base with a gold plaque reading PLURIBUS. The URL bar reads https://github.com/simonw/vibe-coded-blender-projects/blob/main/pluribus-faberge-egg/deliverables/Pluribus_Jeweled_Egg_v1.blend with a View button; top-right buttons read Fit, Wireframe, Clear. A bottom-left info panel reads: Loaded Blender 05.01 · 7.2 MB / 387 meshes · 1099 curves · 1 text · 783,764 vertices · 1,446,560 triangles · 17 materials / Preview: approximate materials and text; unapplied modifiers are omitted. / GitHub URL resolved through jsDelivr&quot; src=&quot;https://static.simonwillison.net/static/2026/pluribus-blender-viewer.webp&quot; /&gt;&lt;/p&gt;
-    
-    
-        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/3d&quot;&gt;3d&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/javascript&quot;&gt;javascript&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/tools&quot;&gt;tools&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/blender&quot;&gt;blender&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/codex&quot;&gt;codex&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gpt-6-astra&quot;&gt;gpt-6-astra&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Sep/9/blender-viewer/</guid>
-      <pubDate>2026-09-09T23:58:32+00:00</pubDate>
-    </item>
-    <item>
-      <title>Quoting Terence Tao</title>
-      <link>https://simonwillison.net/2026/Sep/9/terence-tao/</link>
-      <description>&lt;blockquote cite=&quot;https://mathstodon.xyz/@tao/117237320796901560&quot;&gt;&lt;p&gt;I wrote recently about how the collection of good, fruitful open problems is now being mined in a non-renewable fashion, leading to the potential scenario of these problems becoming scarce. [...]&lt;/p&gt;
-&lt;p&gt;We have now seen that even the rumor of someone working on a problem can trigger a massive amount of AI-powered effort to flatten it before the original research project has time to reach its full potential.  The incentives may now be pointing in the direction of no longer sharing any promising research directions with the broader community, which would reverse centuries of traditions of open science and do serious long-term damage to the future of the field.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://mathstodon.xyz/@tao/117237320796901560&quot;&gt;Terence Tao&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/mathematics&quot;&gt;mathematics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Sep/9/terence-tao/</guid>
-      <pubDate>2026-09-09T00:20:17+00:00</pubDate>
     </item>
     <item>
       <title>Images 2.5 🎨, OpenAI solves Navier-Stokes 🧮, AlphaGenome Atlas 🧬</title>
@@ -1673,13 +1675,6 @@ Shopify are moving from React Native back to separate Swift and Kotlin codebases
       <description>Developing Enterprise Frontier Safeguards with our customers</description>
       <guid>https://www.anthropic.com/news/enterprise-frontier-safeguards</guid>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Muse Code 👨‍💻, Runway Solaris ☀️, OpenClaw 2.0 🤖</title>
-      <link>https://tldr.tech/ai/2026-09-01</link>
-      <description/>
-      <guid>https://tldr.tech/ai/2026-09-01</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Improving our alignment and security efforts</title>
