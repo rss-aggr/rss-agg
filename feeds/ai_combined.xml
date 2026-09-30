@@ -3,7 +3,36 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Tue, 29 Sep 2026 16:56:30 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 16:54:21 +0000</lastBuildDate>
+    <item>
+      <title>OpenAI Dots 🟡, GPT-6.1 Sol ⚡, software factories 🏭</title>
+      <link>https://tldr.tech/ai/2026-09-30</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-09-30</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Quoting Anthropic Frontier Red Team</title>
+      <link>https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/</link>
+      <description>&lt;blockquote cite=&quot;https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities&quot;&gt;&lt;p&gt;We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview here, a meaningful threshold has clearly been crossed: earlier models, like Claude Opus 4.6 and GLM-5.2, do not succeed in any of them.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities&quot;&gt;Anthropic Frontier Red Team&lt;/a&gt;, GLM-5.3 and the spread of advanced cyber capabilities&lt;/p&gt;
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-in-china&quot;&gt;ai-in-china&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/glm&quot;&gt;glm&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/</guid>
+      <pubDate>2026-09-29T22:20:28+00:00</pubDate>
+    </item>
+    <item>
+      <title>GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price</title>
+      <link>https://simonwillison.net/2026/Sep/29/hn-49898129/</link>
+      <description>&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49896586#49898129&quot;&gt;My comment&lt;/a&gt; on &lt;a href=&quot;https://news.ycombinator.com/item?id=49896586&quot;&gt;GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price&lt;/a&gt; &amp;mdash; Hacker News.&lt;/p&gt;&lt;p&gt;I'm a bit late with the pelicans because I was live-blogging the keynote: &lt;a href=&quot;https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/&quot;&gt;https://simonwillison.net/2026/Sep/29/openai-devday-2026-liv...&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here they are for GPT-6.1-Sol: &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F4aa871683dae5c566129a6028fbc7f21&quot;&gt;https://tools.simonwillison.net/markdown-svg-renderer?url=ht...&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;They're not notably different from the GPT-6 family pelicans: &lt;a href=&quot;https://static.simonwillison.net/static/2026/gpt-pelicans-grid.html&quot;&gt;https://static.simonwillison.net/static/2026/gpt-pelicans-gr...&lt;/a&gt;&lt;/p&gt;
+    
+    
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gpt&quot;&gt;gpt&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Sep/29/hn-49898129/</guid>
+      <pubDate>2026-09-29T18:27:48+00:00</pubDate>
+    </item>
     <item>
       <title>OpenAI DevDay 2026 live blog</title>
       <link>https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/</link>
@@ -11,7 +40,7 @@
 
 &lt;p&gt;&lt;em&gt;OpenAI gave me a free ticket and a seat in the &quot;creator&quot; area for the keynote.&lt;/em&gt;&lt;/p&gt;
     
-        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/live-blog&quot;&gt;live-blog&lt;/a&gt;&lt;/p&gt;</description>
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/live-blog&quot;&gt;live-blog&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai-devday&quot;&gt;openai-devday&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/</guid>
       <pubDate>2026-09-29T15:55:13+00:00</pubDate>
     </item>
@@ -1571,54 +1600,11 @@ One of OpenRouter's selling points is that it &quot;handles fallbacks automatica
       <pubDate>2026-09-11T17:28:37+00:00</pubDate>
     </item>
     <item>
-      <title>Datasette 1.0a39 and 0.65.4 security releases</title>
-      <link>https://simonwillison.net/2026/Sep/11/datasette-security/</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://datasette.io/blog/2026/september-security-releases/&quot;&gt;Datasette 1.0a39 and 0.65.4 security releases&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-Today we're releasing two new security patch versions of Datasette: &lt;a href=&quot;https://docs.datasette.io/en/latest/changelog.html#v1-0-a39&quot;&gt;1.0a39&lt;/a&gt; and &lt;a href=&quot;https://docs.datasette.io/en/stable/changelog.html#v0-65-4&quot;&gt;0.65.4&lt;/a&gt; - one for the current alpha series and one for the stable 0.65.x family.&lt;/p&gt;
-&lt;p&gt;These are security fixes which you should apply if you are running a Datasette instance on the public web - in particular if that instance mixes both public and private tables.&lt;/p&gt;
-&lt;p&gt;Following issues reported by &lt;a href=&quot;https://github.com/jankesec&quot;&gt;Sevban Dönmez&lt;/a&gt;, &lt;a href=&quot;https://alexgarcia.xyz&quot;&gt;Alex Garcia&lt;/a&gt; and I ran an extensive audit of Datasette using Claude Fable 5.1, GPT-5.6, and GPT-6 Astra. We then spent almost a week collaborating on and reviewing the fixes.&lt;/p&gt;
-&lt;p&gt;They helped find some &lt;em&gt;very&lt;/em&gt; subtle bugs. We'll be incorporating security audits by frontier models into all of our development work going forward.&lt;/p&gt;
-&lt;p&gt;Alex came up with a way of splitting the work which I found extremely productive:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Alex Garcia and I worked together running and then responding to the audit, working in a shared private repository. For most of the issues we split the work: one of us would create the automated tests highlighting the issue, then the other would implement the fix. This ensured that two separate humans had eyes on each of the issues, in addition to our coding agents running different models.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/releases&quot;&gt;releases&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/security&quot;&gt;security&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/datasette&quot;&gt;datasette&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/agentic-engineering&quot;&gt;agentic-engineering&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Sep/11/datasette-security/</guid>
-      <pubDate>2026-09-11T03:27:16+00:00</pubDate>
-    </item>
-    <item>
       <title>Agents API 🤖, Cognition SWE-2 👨‍💻, Muse Shared Agents 🧑‍🤝‍🧑</title>
       <link>https://tldr.tech/ai/2026-09-11</link>
       <description/>
       <guid>https://tldr.tech/ai/2026-09-11</guid>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Native is now the future of mobile at Shopify</title>
-      <link>https://simonwillison.net/2026/Sep/10/shopify-react-native/</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://shopify.engineering/back-to-native&quot;&gt;Native is now the future of mobile at Shopify&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-Shopify are moving from React Native back to separate Swift and Kotlin codebases for their native apps, for the exact reason you would expect:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;We decided to switch from native to React Native in 2020 for three reasons:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Stop building the same features twice&lt;/li&gt;
-&lt;li&gt;Allow developers to work across the stack&lt;/li&gt;
-&lt;li&gt;Spend less time chasing feature parity and more time shipping value&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;[...]&lt;/p&gt;
-&lt;p&gt;Native still means building and maintaining software on two platforms, that cost has not disappeared. What changed is that agents can now do enough of the implementation, translation, testing, and review work that it’s no longer the deciding factor it was in 2020.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;It's a well-written post, which gives full credit to React Native as a great platform for the six years they were using it.&lt;/p&gt;
-&lt;p&gt;Shopify are the maintainers of three significant React Native libraries: &lt;a href=&quot;https://github.com/Shopify/react-native-skia&quot;&gt;react-native-skia&lt;/a&gt;, &lt;a href=&quot;https://github.com/Shopify/flash-list&quot;&gt;flash-list&lt;/a&gt;, and &lt;a href=&quot;https://github.com/Shopify/restyle&quot;&gt;restyle&lt;/a&gt;. The first two are finding new homes; the third &quot;has a smaller user base than our other libraries&quot; and will be archived at the end of 2026.
-
-    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://news.ycombinator.com/item?id=49643982&quot;&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/android&quot;&gt;android&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/mobile&quot;&gt;mobile&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/open-source&quot;&gt;open-source&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ios&quot;&gt;ios&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/react&quot;&gt;react&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-assisted-search&quot;&gt;ai-assisted-search&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/swift&quot;&gt;swift&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/shopify&quot;&gt;shopify&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Sep/10/shopify-react-native/</guid>
-      <pubDate>2026-09-10T21:11:15+00:00</pubDate>
     </item>
     <item>
       <title>DeepSeek Flash v4.1 🤖, Siri AI 📱, Anthropic AI economics 📈</title>
@@ -1661,13 +1647,6 @@ Shopify are moving from React Native back to separate Swift and Kotlin codebases
       <description/>
       <guid>https://tldr.tech/ai/2026-09-03</guid>
       <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Fable 5.1 🧠, World Labs Atlas 🌍, Cognition $47B 💰</title>
-      <link>https://tldr.tech/ai/2026-09-02</link>
-      <description/>
-      <guid>https://tldr.tech/ai/2026-09-02</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Developing Enterprise Frontier Safeguards with our customers</title>
