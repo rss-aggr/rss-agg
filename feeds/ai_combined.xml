@@ -3,7 +3,47 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Sun, 04 Oct 2026 15:54:34 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 19:50:50 +0000</lastBuildDate>
+    <item>
+      <title>Prime Inference 📈, agent population 📈, Claude academy 🎓</title>
+      <link>https://tldr.tech/ai/2026-10-05</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-10-05</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Qwen3.8 27B addition in words</title>
+      <link>https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/</link>
+      <description>&lt;p&gt;&lt;strong&gt;Research:&lt;/strong&gt; &lt;a href=&quot;https://github.com/simonw/research/tree/main/qwen38-addition-in-words#readme&quot;&gt;Qwen3.8 27B addition in words&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;Colin Frasier &lt;a href=&quot;https://bsky.app/profile/colin-fraser.net/post/3mwopbyznhs2k&quot;&gt;posted on Bluesky&lt;/a&gt; about an experiment he ran over two years ago using GPT-4o to see how well it could &quot;compute the sum but return the answer in words&quot; across increasingly large numbers. Here's the chart he shared of those results:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Heatmap chart of accuracy on an addition prompt, colored from dark green (high) through yellow to dark red (low). Title: &amp;quot;What is {a} + {b}? Please write your answer in words. Do not include any other text or information, just the answer in words.&amp;quot; Subtitle: 30 randomly selected pairs for each digit combination (n = 30 * 13 * 13 = 5070). X axis: Number of digits in a, 1 to 13. Y axis: Number of digits in b, 1 to 13. Legend: Accuracy, 1.00, 0.75, 0.50, 0.25, 0.00. Values by row, listed for a = 1 to 13. b = 13: 100%, 77%, 27%, 20%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%. b = 12: 97%, 80%, 80%, 40%, 23%, 20%, 7%, 13%, 20%, 27%, 67%, 63%, 3%. b = 11: 97%, 97%, 53%, 17%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 37%, 0%. b = 10: 100%, 90%, 47%, 20%, 7%, 0%, 0%, 0%, 3%, 0%, 0%, 7%, 0%. b = 9: 97%, 93%, 80%, 77%, 53%, 67%, 47%, 87%, 97%, 3%, 0%, 13%, 0%. b = 8: 93%, 87%, 53%, 43%, 7%, 0%, 0%, 13%, 87%, 0%, 0%, 0%, 0%. b = 7: 93%, 93%, 47%, 10%, 13%, 20%, 23%, 0%, 70%, 0%, 0%, 0%, 0%. b = 6: 100%, 100%, 100%, 83%, 97%, 97%, 23%, 0%, 53%, 3%, 0%, 10%, 0%. b = 5: 100%, 100%, 80%, 70%, 73%, 100%, 13%, 13%, 70%, 0%, 20%, 30%, 0%. b = 4: 100%, 100%, 93%, 100%, 60%, 97%, 20%, 50%, 67%, 53%, 40%, 40%, 40%. b = 3: 100%, 100%, 97%, 90%, 83%, 100%, 63%, 50%, 63%, 53%, 60%, 60%, 30%. b = 2: 100%, 100%, 90%, 97%, 93%, 100%, 93%, 83%, 90%, 83%, 87%, 87%, 83%. b = 1: 100%, 100%, 100%, 97%, 100%, 97%, 97%, 97%, 100%, 100%, 100%, 97%, 100%.&quot; src=&quot;https://static.simonwillison.net/static/2026/colin-frasier-grid.webp&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I'm confident GPT-4o didn't cheat and use a calculator, especially since it got so many of the calculations wrong, but I was inspired to run the experiment again on local hardware (a DGX Spark) to explore the effect in a fully controlled environment.&lt;/p&gt;
+&lt;p&gt;I pasted his image into a Codex Remote session (GPT-6 Astra) and had it run the same experiment using &lt;code&gt;Qwen3.8-27B-Q4_K_M.gguf&lt;/code&gt;. Here's the result for a run of 30 attempts per combination with reasoning disabled:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Heatmap in the same layout as the previous chart, using an orange (low) to white to blue (high) color scale, showing much lower accuracy overall. Title: Addition in words — Qwen3.8 27B Q4_K_M. Subtitle: Reasoning disabled · 30 fixed pairs per ordered digit-length cell (n = 5,070). Overall numeric accuracy: 1,195 / 5,070 (23.57%). X axis: Number of digits in a, 1 to 13. Y axis: Number of digits in b, 1 to 13. Legend: Accuracy, 100%, 75%, 50%, 25%, 0%. Values by row, listed for a = 1 to 13. b = 13: 17%, 13%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%. b = 12: 53%, 20%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%. b = 11: 47%, 10%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%. b = 10: 70%, 27%, 3%, 0%, 0%, 0%, 0%, 0%, 0%, 13%, 0%, 0%, 0%. b = 9: 77%, 47%, 3%, 0%, 0%, 0%, 0%, 3%, 7%, 0%, 0%, 0%, 0%. b = 8: 53%, 20%, 0%, 0%, 0%, 0%, 7%, 13%, 0%, 0%, 0%, 0%, 0%. b = 7: 53%, 23%, 17%, 10%, 3%, 3%, 13%, 3%, 0%, 0%, 0%, 0%, 0%. b = 6: 60%, 60%, 33%, 10%, 53%, 47%, 7%, 3%, 0%, 0%, 0%, 0%, 0%. b = 5: 73%, 67%, 87%, 80%, 53%, 40%, 0%, 0%, 3%, 0%, 0%, 0%, 0%. b = 4: 83%, 93%, 90%, 93%, 53%, 13%, 0%, 0%, 0%, 0%, 0%, 0%, 0%. b = 3: 100%, 93%, 90%, 80%, 67%, 37%, 17%, 0%, 0%, 3%, 0%, 0%, 0%. b = 2: 100%, 100%, 93%, 90%, 77%, 77%, 43%, 50%, 63%, 43%, 40%, 13%, 23%. b = 1: 97%, 100%, 100%, 100%, 80%, 67%, 77%, 80%, 80%, 60%, 43%, 30%, 37%. Footnote: Colorblind-safe orange–blue scale; percentages provide a redundant non-color encoding.&quot; src=&quot;https://static.simonwillison.net/static/2026/qwen-words-no-reasoning.webp&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Then I ran it again with reasoning enabled. This took a &lt;em&gt;lot longer&lt;/em&gt; per pair, so instead of running 30 samples per square I ran just one - which results in a much less visually appealing heatmap since each square is either 100% or 0%:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Heatmap in the same layout as the previous charts, almost entirely blue. Title: Addition in words — Qwen3.8 27B — medium reasoning pilot. Subtitle: 1 fixed pair per ordered digit-length cell · easiest first (n = 169). X axis: Number of digits in a, 1 to 13. Y axis: Number of digits in b, 1 to 13. Legend: Accuracy, 1.00, 0.75, 0.50, 0.25, 0.00. Every cell shows 100% except two orange cells showing 0%: a = 2 with b = 8, and a = 12 with b = 9.&quot; src=&quot;https://static.simonwillison.net/static/2026/qwen-words-reasoning.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;It got the right answer in 167 out of 169 attempts, and since these were one-shot I'm confident a second run would produce different results here.&lt;/p&gt;
+&lt;p&gt;Here's a &lt;a href=&quot;https://gist.github.com/simonw/8ef79c777ad34c53e9c09094800576a5#full-reasoning-transcript-2&quot;&gt;version of the report&lt;/a&gt; that includes the reasoning traces from some of those larger calculations, which include text like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Wait, let me redo this more carefully.
+
+4,299,366,105,622
+6,088,794,067,970
+
+Let me align them:
+4 2 9 9 3 6 6 1 0 5 6 2 2
+6 0 8 8 7 9 4 0 6 7 9 7 0
+
+Adding from right to left:
+Position 1 (units): 2 + 0 = 2
+Position 2 (tens): 2 + 7 = 9
+Position 3 (hundreds): 6 + 9 = 15, write 5, carry 1
+&lt;/code&gt;&lt;/pre&gt;
+    
+    
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/mathematics&quot;&gt;mathematics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/local-llms&quot;&gt;local-llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/qwen&quot;&gt;qwen&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-reasoning&quot;&gt;llm-reasoning&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/dgx-spark&quot;&gt;dgx-spark&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/</guid>
+      <pubDate>2026-10-04T23:34:00+00:00</pubDate>
+    </item>
     <item>
       <title>We're going to need default hard budget caps on pretty much everything</title>
       <link>https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/</link>
@@ -1622,22 +1662,6 @@ Bryan Cantrill responds to the &lt;a href=&quot;https://x.com/hilbertspaess/stat
       <pubDate>2026-09-12T00:42:25+00:00</pubDate>
     </item>
     <item>
-      <title>So you want to use OpenRouter?</title>
-      <link>https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://mmoustafa.com/blog/so-you-want-to-use-openrouter/&quot;&gt;So you want to use OpenRouter?&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-One of OpenRouter's selling points is that it &quot;handles fallbacks automatically and picks the most cost-effective option for each request&quot;, so you can call a single API endpoint for a model and get routed to the best available backend provider.&lt;/p&gt;
-&lt;p&gt;Mohamed Moustafa points out a whole set of ways that this can cause you problems. Different providers run different serving software with different optimizations and settings, which means that the same OpenRouter endpoint can serve model requests that behave in different ways.&lt;/p&gt;
-&lt;p&gt;Some providers even lack vision capability for vision models, and the way the reasoning effort option is processed can differ as well.&lt;/p&gt;
-&lt;p&gt;Thankfully you can control which provider is routed to using &lt;a href=&quot;https://openrouter.ai/docs/guides/routing/provider-selection#allowing-only-specific-providers&quot;&gt;the provider.only option&lt;/a&gt;. The &lt;a href=&quot;https://openrouter.ai/docs/api/api-reference/endpoints/list-all-endpoints-for-a-model&quot;&gt;/endpoints method&lt;/a&gt; returns the list of available providers for a specific model ID.
-
-    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://news.ycombinator.com/item?id=49621546&quot;&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openrouter&quot;&gt;openrouter&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/</guid>
-      <pubDate>2026-09-11T22:49:18+00:00</pubDate>
-    </item>
-    <item>
       <title>Agents API 🤖, Cognition SWE-2 👨‍💻, Muse Shared Agents 🧑‍🤝‍🧑</title>
       <link>https://tldr.tech/ai/2026-09-11</link>
       <description/>
@@ -1666,13 +1690,6 @@ One of OpenRouter's selling points is that it &quot;handles fallbacks automatica
       <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Claude proves Fermat 🧮, automated AI researcher 🔬, Z1 efficiency chip ⚡</title>
-      <link>https://tldr.tech/ai/2026-09-07</link>
-      <description/>
-      <guid>https://tldr.tech/ai/2026-09-07</guid>
-      <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Developing Enterprise Frontier Safeguards with our customers</title>
       <link>https://www.anthropic.com/news/enterprise-frontier-safeguards</link>
       <description>Developing Enterprise Frontier Safeguards with our customers</description>
@@ -1687,17 +1704,17 @@ One of OpenRouter's selling points is that it &quot;handles fallbacks automatica
       <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Expanding our support for scientists</title>
-      <link>https://www.anthropic.com/news/expanding-support-for-scientists</link>
-      <description>Expanding our support for scientists</description>
-      <guid>https://www.anthropic.com/news/expanding-support-for-scientists</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Previewing the Model Hardware Standard</title>
       <link>https://www.anthropic.com/news/model-hardware-standard-research-preview</link>
       <description>Previewing the Model Hardware Standard</description>
       <guid>https://www.anthropic.com/news/model-hardware-standard-research-preview</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Expanding our support for scientists</title>
+      <link>https://www.anthropic.com/news/expanding-support-for-scientists</link>
+      <description>Expanding our support for scientists</description>
+      <guid>https://www.anthropic.com/news/expanding-support-for-scientists</guid>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1736,17 +1753,17 @@ One of OpenRouter's selling points is that it &quot;handles fallbacks automatica
       <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients</title>
-      <link>https://www.anthropic.com/news/cognizant-anthropic</link>
-      <description>Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients</description>
-      <guid>https://www.anthropic.com/news/cognizant-anthropic</guid>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Our position on open-weights models</title>
       <link>https://www.anthropic.com/news/position-open-weights-models</link>
       <description>Our position on open-weights models</description>
       <guid>https://www.anthropic.com/news/position-open-weights-models</guid>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients</title>
+      <link>https://www.anthropic.com/news/cognizant-anthropic</link>
+      <description>Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients</description>
+      <guid>https://www.anthropic.com/news/cognizant-anthropic</guid>
       <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1766,17 +1783,17 @@ One of OpenRouter's selling points is that it &quot;handles fallbacks automatica
       <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Ask Claude about the Anthropic Economic Index</title>
-      <link>https://www.anthropic.com/news/anthropic-economic-index-connector</link>
-      <description>Ask Claude about the Anthropic Economic Index</description>
-      <guid>https://www.anthropic.com/news/anthropic-economic-index-connector</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>A research agenda for the Economic Futures Research Fund</title>
       <link>https://www.anthropic.com/news/economic-futures-research-fund-agenda</link>
       <description>A research agenda for the Economic Futures Research Fund</description>
       <guid>https://www.anthropic.com/news/economic-futures-research-fund-agenda</guid>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ask Claude about the Anthropic Economic Index</title>
+      <link>https://www.anthropic.com/news/anthropic-economic-index-connector</link>
+      <description>Ask Claude about the Anthropic Economic Index</description>
+      <guid>https://www.anthropic.com/news/anthropic-economic-index-connector</guid>
       <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1794,13 +1811,6 @@ One of OpenRouter's selling points is that it &quot;handles fallbacks automatica
       <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Anthropic commits $10 million to Canadian AI research</title>
-      <link>https://www.anthropic.com/news/canadian-ai-research</link>
-      <description>Anthropic commits $10 million to Canadian AI research</description>
-      <guid>https://www.anthropic.com/news/canadian-ai-research</guid>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Introducing Claude for Teachers</title>
       <link>https://www.anthropic.com/news/claude-for-teachers</link>
       <description>Introducing Claude for Teachers</description>
@@ -1808,17 +1818,24 @@ One of OpenRouter's selling points is that it &quot;handles fallbacks automatica
       <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Anthropic commits $10 million to Canadian AI research</title>
+      <link>https://www.anthropic.com/news/canadian-ai-research</link>
+      <description>Anthropic commits $10 million to Canadian AI research</description>
+      <guid>https://www.anthropic.com/news/canadian-ai-research</guid>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>UST is bringing Claude to physical AI</title>
+      <link>https://www.anthropic.com/news/ust-claude</link>
+      <description>UST is bringing Claude to physical AI</description>
+      <guid>https://www.anthropic.com/news/ust-claude</guid>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Introducing a way to reflect on how you use Claude</title>
       <link>https://www.anthropic.com/news/reflect-with-claude</link>
       <description>Introducing a way to reflect on how you use Claude</description>
       <guid>https://www.anthropic.com/news/reflect-with-claude</guid>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust</title>
-      <link>https://www.anthropic.com/news/ben-bernanke</link>
-      <description>Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust</description>
-      <guid>https://www.anthropic.com/news/ben-bernanke</guid>
       <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1829,10 +1846,10 @@ One of OpenRouter's selling points is that it &quot;handles fallbacks automatica
       <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>UST is bringing Claude to physical AI</title>
-      <link>https://www.anthropic.com/news/ust-claude</link>
-      <description>UST is bringing Claude to physical AI</description>
-      <guid>https://www.anthropic.com/news/ust-claude</guid>
+      <title>Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust</title>
+      <link>https://www.anthropic.com/news/ben-bernanke</link>
+      <description>Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust</description>
+      <guid>https://www.anthropic.com/news/ben-bernanke</guid>
       <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1850,13 +1867,6 @@ One of OpenRouter's selling points is that it &quot;handles fallbacks automatica
       <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Claude Science, an AI workbench for scientists, is now available</title>
-      <link>https://www.anthropic.com/news/claude-science-ai-workbench</link>
-      <description>Claude Science, an AI workbench for scientists, is now available</description>
-      <guid>https://www.anthropic.com/news/claude-science-ai-workbench</guid>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Redeploying Fable 5</title>
       <link>https://www.anthropic.com/news/redeploying-fable-5</link>
       <description>Redeploying Fable 5</description>
@@ -1868,6 +1878,13 @@ One of OpenRouter's selling points is that it &quot;handles fallbacks automatica
       <link>https://www.anthropic.com/news/claude-sonnet-5</link>
       <description>Introducing Claude Sonnet 5</description>
       <guid>https://www.anthropic.com/news/claude-sonnet-5</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Science, an AI workbench for scientists, is now available</title>
+      <link>https://www.anthropic.com/news/claude-science-ai-workbench</link>
+      <description>Claude Science, an AI workbench for scientists, is now available</description>
+      <guid>https://www.anthropic.com/news/claude-science-ai-workbench</guid>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1892,13 +1909,6 @@ One of OpenRouter's selling points is that it &quot;handles fallbacks automatica
       <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Results from the first Anthropic Public Record</title>
-      <link>https://www.anthropic.com/news/anthropic-public-record</link>
-      <description>Results from the first Anthropic Public Record</description>
-      <guid>https://www.anthropic.com/news/anthropic-public-record</guid>
-      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Statement on the US government directive to suspend access to Fable 5 and Mythos 5</title>
       <link>https://www.anthropic.com/news/fable-mythos-access</link>
       <description>Statement on the US government directive to suspend access to Fable 5 and Mythos 5</description>
@@ -1906,17 +1916,24 @@ One of OpenRouter's selling points is that it &quot;handles fallbacks automatica
       <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing Claude Corps</title>
-      <link>https://www.anthropic.com/news/claude-corps</link>
-      <description>Introducing Claude Corps</description>
-      <guid>https://www.anthropic.com/news/claude-corps</guid>
-      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+      <title>Results from the first Anthropic Public Record</title>
+      <link>https://www.anthropic.com/news/anthropic-public-record</link>
+      <description>Results from the first Anthropic Public Record</description>
+      <guid>https://www.anthropic.com/news/anthropic-public-record</guid>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on</title>
       <link>https://www.anthropic.com/news/dxc-anthropic-alliance</link>
       <description>DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on</description>
       <guid>https://www.anthropic.com/news/dxc-anthropic-alliance</guid>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Claude Corps</title>
+      <link>https://www.anthropic.com/news/claude-corps</link>
+      <description>Introducing Claude Corps</description>
+      <guid>https://www.anthropic.com/news/claude-corps</guid>
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1927,17 +1944,17 @@ One of OpenRouter's selling points is that it &quot;handles fallbacks automatica
       <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>What we learned mapping a year’s worth of AI-enabled cyber threats</title>
-      <link>https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack</link>
-      <description>What we learned mapping a year’s worth of AI-enabled cyber threats</description>
-      <guid>https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack</guid>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Introducing the Services Track and Partner Hub of the Claude Partner Network</title>
       <link>https://www.anthropic.com/news/services-track-partner-hub</link>
       <description>Introducing the Services Track and Partner Hub of the Claude Partner Network</description>
       <guid>https://www.anthropic.com/news/services-track-partner-hub</guid>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What we learned mapping a year’s worth of AI-enabled cyber threats</title>
+      <link>https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack</link>
+      <description>What we learned mapping a year’s worth of AI-enabled cyber threats</description>
+      <guid>https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack</guid>
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1955,17 +1972,17 @@ One of OpenRouter's selling points is that it &quot;handles fallbacks automatica
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing Claude Opus 4.8</title>
-      <link>https://www.anthropic.com/news/claude-opus-4-8</link>
-      <description>Introducing Claude Opus 4.8</description>
-      <guid>https://www.anthropic.com/news/claude-opus-4-8</guid>
-      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Anthropic raises $65B in Series H funding at $965B post-money valuation</title>
       <link>https://www.anthropic.com/news/series-h</link>
       <description>Anthropic raises $65B in Series H funding at $965B post-money valuation</description>
       <guid>https://www.anthropic.com/news/series-h</guid>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Claude Opus 4.8</title>
+      <link>https://www.anthropic.com/news/claude-opus-4-8</link>
+      <description>Introducing Claude Opus 4.8</description>
+      <guid>https://www.anthropic.com/news/claude-opus-4-8</guid>
       <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
