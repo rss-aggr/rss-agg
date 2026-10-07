@@ -3,7 +3,85 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Tue, 06 Oct 2026 17:19:52 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 17:53:15 +0000</lastBuildDate>
+    <item>
+      <title>Quoting Jake Boggan</title>
+      <link>https://simonwillison.net/2026/Oct/7/jake-boggan/</link>
+      <description>&lt;blockquote cite=&quot;https://news.ycombinator.com/item?id=49984923#49987367&quot;&gt;&lt;p&gt;I was a graph theory junkie long ago and even moved to Budapest for awhile to study among the greats. While I was there I started working on Barnette's Conjecture which came to occupy my thoughts over the next 24 years of my life, on and off as I worked in many different fields. Last summer I even thought for a few days that I had actually solved it.&lt;/p&gt;
+&lt;p&gt;But it's supposedly proven here - &lt;a href=&quot;https://github.com/openai/math/blob/main/lean/docs/180.md&quot;&gt;problem 180&lt;/a&gt;. I don't know what to think exactly. I spent thousands of hours on that problem. I really enjoyed it. Hearing that it is solved somehow makes me sad in a far-off way, like hearing an ex-girlfriend died suddenly in a car crash. I don't know, there's probably a lot of people feeling odd emotions tonight.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://news.ycombinator.com/item?id=49984923#49987367&quot;&gt;Jake Boggan&lt;/a&gt;, Hacker News comment on &lt;a href=&quot;https://github.com/openai/math&quot;&gt;openai/math&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/mathematics&quot;&gt;mathematics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/deep-blue&quot;&gt;deep-blue&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Oct/7/jake-boggan/</guid>
+      <pubDate>2026-10-07T04:47:55+00:00</pubDate>
+    </item>
+    <item>
+      <title>OpenAI “rogue” agent activities found on Wikimedia projects</title>
+      <link>https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/</link>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://wikimediafoundation.org/news/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/&quot;&gt;OpenAI “rogue” agent activities found on Wikimedia projects&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+Given how tempting a target wikis are for rogue agent swarms, it's not a huge surprise that Wikipedia found evidence of that activity once they went looking:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The Wikimedia Foundation conducted its own investigation to see whether Wikimedia websites had been similarly affected by AI agents, focusing on those operated by OpenAI. We can confirm that we have discovered some activity by these “rogue” OpenAI agents on Wikimedia platforms. The unauthorized bot activities included edits to our wikis, some unsuccessful attempts to exploit a public note-taking tool we host, and heavy traffic, which are described more below.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;They found evidence of agents editing sandbox pages, trying to use pieces of infrastructure such as Etherpad to help proxy content from elsewhere, and saw widespread crawling and &quot;hundreds of thousands of data queries&quot; to their Wikidata Query Service.&lt;/p&gt;
+&lt;p&gt;My best guess is that most of this was a similar (or the same) swarm of agents as those that &lt;a href=&quot;https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/&quot;&gt;defaced that German wiki&lt;/a&gt; while training for research tasks.&lt;/p&gt;
+&lt;p&gt;The Wikipedia sandbox wiki edits appear to have started on May 12th, and the initial test edits to the UseModWiki Sandbox page reported by that incident started on May 11th.
+
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/wikimedia&quot;&gt;wikimedia&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/wikipedia&quot;&gt;wikipedia&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/wikis&quot;&gt;wikis&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/accidental-cyberattacks&quot;&gt;accidental-cyberattacks&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/</guid>
+      <pubDate>2026-10-07T00:16:45+00:00</pubDate>
+    </item>
+    <item>
+      <title>Mistral Large 4 🧠, OpenAI Decisions API ❓, Nano Banana 2.1 🍌</title>
+      <link>https://tldr.tech/ai/2026-10-07</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-10-07</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Quoting Victoria Kim</title>
+      <link>https://simonwillison.net/2026/Oct/6/victoria-kim/</link>
+      <description>&lt;blockquote cite=&quot;https://www.nytimes.com/live/2026/10/05/world/openai-australia-hearing/94c8067e-4098-5c00-9673-c78cb58a9d8a&quot;&gt;&lt;p&gt;Since the Medicare breach, OpenAI has put in place additional monitoring to allow “immediate intervention” by staff to stop training if the company’s models access the internet in ways they’re not supposed to, Mr. Kwon [chief strategy officer at OpenAI] said.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://www.nytimes.com/live/2026/10/05/world/openai-australia-hearing/94c8067e-4098-5c00-9673-c78cb58a9d8a&quot;&gt;Victoria Kim&lt;/a&gt;, Reporting from the Australian parliament&lt;/p&gt;
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/accidental-cyberattacks&quot;&gt;accidental-cyberattacks&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Oct/6/victoria-kim/</guid>
+      <pubDate>2026-10-06T23:58:56+00:00</pubDate>
+    </item>
+    <item>
+      <title>EmbeddingGemma 2</title>
+      <link>https://simonwillison.net/2026/Oct/6/hn-49983751/</link>
+      <description>&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49980487#49983751&quot;&gt;My comment&lt;/a&gt; on &lt;a href=&quot;https://news.ycombinator.com/item?id=49980487&quot;&gt;EmbeddingGemma 2&lt;/a&gt; &amp;mdash; Hacker News.&lt;/p&gt;&lt;p&gt;I really appreciate that &lt;a href=&quot;https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/&quot;&gt;EmbeddingGemma 2&lt;/a&gt; is under the Apache 2.0 license.&lt;/p&gt;
+&lt;p&gt;For embedding models in particular, I don't think it makes sense to use a closed, proprietary, hosted-only model.&lt;/p&gt;
+&lt;p&gt;Most applications of embedding models involve calculating thousands or even millions of embedding vectors and storing them for later comparison.&lt;/p&gt;
+&lt;p&gt;If your model is proprietary, the vendor is likely someday going to decide to stop offering that model. They'll have a better model to replace it, but you still need to pay to re-calculate those millions of stored existing vectors.&lt;/p&gt;
+&lt;p&gt;(In April 2024 OpenAI offered to &quot;cover the financial cost of users re-embedding content with these new models&quot; - &lt;a href=&quot;https://openai.com/index/gpt-4-api-general-availability/&quot;&gt;https://openai.com/index/gpt-4-api-general-availability/&lt;/a&gt; - but I don't think that's something we can rely on from every provider.)&lt;/p&gt;
+&lt;p&gt;Notably, I &lt;em&gt;don't want to host the model myself&lt;/em&gt;. I'd much rather pay a provider for a hosted model while knowing that if they ever stop hosting it I can run the open weights version myself - or find another vendor who can do that for me.&lt;/p&gt;
+    
+    
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/google&quot;&gt;google&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/embeddings&quot;&gt;embeddings&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gemma&quot;&gt;gemma&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Oct/6/hn-49983751/</guid>
+      <pubDate>2026-10-06T20:37:53+00:00</pubDate>
+    </item>
+    <item>
+      <title>Introducing Mistral Large 4: Le chonk</title>
+      <link>https://simonwillison.net/2026/Oct/6/le-chonk/</link>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://mistral.ai/news/mistral-large-4/&quot;&gt;Introducing Mistral Large 4: Le chonk&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+Mistral are back in the game. Today they're releasing a preview of Mistral Large 4, a 1 trillion parameter, 49 billion active parameter model trained on their own cluster of 3,800 NVIDIA Grace Blackwell GPUs.&lt;/p&gt;
+&lt;p&gt;The preview is available via their API. They promise to release the open weights model at the &quot;end of this month&quot;.&lt;/p&gt;
+&lt;p&gt;The model only supports two reasoning levels - &quot;none&quot; and &quot;high&quot; - via the Mistral API. Here are &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F0db8b8196e57711b352f6c5857cf5b35&quot;&gt;both pelicans&lt;/a&gt; - the &quot;high&quot; one looks better, though surprisingly it only used 2,717 output tokens compared to &quot;none&quot; which used 3,275:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;It's good. The pouch is great, the bicycle frame is the right size, it has feet on pedals. Both pedals appear in front of the frame though. Nice gradients.&quot; src=&quot;https://static.simonwillison.net/static/2026-10-06/mistral-large-4-pelican.webp&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;On Artificial Analysis &lt;a href=&quot;https://artificialanalysis.ai/models/mistral-large-4&quot;&gt;it scores 38&lt;/a&gt;, just behind DeepSeek 4.1 Flash, which is a 552B model. It's a &lt;em&gt;huge&lt;/em&gt; improvement on last December's Mistral Large 3, which drew &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F0df5e656291d5a7a1bf012fabc9edc3f#response-1&quot;&gt;this terrible pelican&lt;/a&gt; and &lt;a href=&quot;https://artificialanalysis.ai/models/mistral-large-3&quot;&gt;scored 9 on AA&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It's certainly not a Fable-class model, but it's great to see Mistral put out a model that's back to being maybe about 6 months behind the frontier.
+
+    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://news.ycombinator.com/item?id=49977979&quot;&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/mistral&quot;&gt;mistral&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-release&quot;&gt;llm-release&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Oct/6/le-chonk/</guid>
+      <pubDate>2026-10-06T20:18:19+00:00</pubDate>
+    </item>
     <item>
       <title>Scrimshaw Jukebox</title>
       <link>https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/</link>
@@ -24,6 +102,13 @@
       <pubDate>2026-10-06T15:17:39+00:00</pubDate>
     </item>
     <item>
+      <title>Expanding the Cyber Verification Program</title>
+      <link>https://www.anthropic.com/news/cyber-verification-program</link>
+      <description>Expanding the Cyber Verification Program</description>
+      <guid>https://www.anthropic.com/news/cyber-verification-program</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Instinct group chats 💬, Reflection’s 501B model 🧠, OpenAI text watermarks 🏷️</title>
       <link>https://tldr.tech/ai/2026-10-06</link>
       <description/>
@@ -38,7 +123,7 @@
 &lt;p&gt;We think this solves a lot of problems we've heard about  (like using Cowork from a phone, keeping work running, or getting all the same power without losing battery to the VM)&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://twitter.com/felixrieseberg/status/2107206431376334975&quot;&gt;Felix Rieseberg&lt;/a&gt;, Anthropic, see also &lt;a href=&quot;https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile#h_f951c27c48&quot;&gt;this help page&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-cowork&quot;&gt;claude-cowork&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/general-agents&quot;&gt;general-agents&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/claude-cowork&quot;&gt;claude-cowork&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/general-agents&quot;&gt;general-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Oct/5/felix-rieseberg/</guid>
       <pubDate>2026-10-05T23:56:47+00:00</pubDate>
     </item>
@@ -126,7 +211,7 @@ Position 3 (hundreds): 6 + 9 = 15, write 5, carry 1
       <description>&lt;blockquote cite=&quot;https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/&quot;&gt;&lt;p&gt;[...] Put these pieces together and you have the two halves of a worm: a payload that hijacks the agent, and an agent that will carry the payload to the next agent. Agents in separately-isolated sandboxes discovered that they could leave instructions for each other in a shared package cache, and those instructions changed what the recipients did. Replace the package cache with email, Slack and shared documents or WhatsApp, and replace independently-sandboxed training runs with independently-deployed personal agents like Muse, and you have exactly the ingredients that a worm needs.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/&quot;&gt;Matthew Green&lt;/a&gt;, Is sandboxing sufficient to contain rogue agents?&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/sandboxing&quot;&gt;sandboxing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-misuse&quot;&gt;ai-misuse&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/accidental-cyberattacks&quot;&gt;accidental-cyberattacks&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/accidental-cyberattacks&quot;&gt;accidental-cyberattacks&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-misuse&quot;&gt;ai-misuse&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/sandboxing&quot;&gt;sandboxing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Oct/1/matthew-green/</guid>
       <pubDate>2026-10-01T06:29:01+00:00</pubDate>
     </item>
@@ -157,7 +242,7 @@ Position 3 (hundreds): 6 + 9 = 15, write 5, carry 1
       <description>&lt;blockquote cite=&quot;https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities&quot;&gt;&lt;p&gt;We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview here, a meaningful threshold has clearly been crossed: earlier models, like Claude Opus 4.6 and GLM-5.2, do not succeed in any of them.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities&quot;&gt;Anthropic Frontier Red Team&lt;/a&gt;, GLM-5.3 and the spread of advanced cyber capabilities&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-in-china&quot;&gt;ai-in-china&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/glm&quot;&gt;glm&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/glm&quot;&gt;glm&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-in-china&quot;&gt;ai-in-china&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/</guid>
       <pubDate>2026-09-29T22:20:28+00:00</pubDate>
     </item>
@@ -220,7 +305,7 @@ New Sonnet model from Anthropic today. They say it &quot;runs 30%+ faster, and c
 &lt;p&gt;So today my hope is that everyone around the world can look at their own organization and say: how can I deal with a surprise or a sudden jump in AI capability? Are my people, my systems, or my processes resilient to surprises? Do my teams know what to do when something goes wrong? Do I have the right incident response? The right comms and messaging? Do I have the right people ready to go when capabilities jump?&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://twitter.com/joedaroo/status/2104335929293127851&quot;&gt;@joedaroo&lt;/a&gt;, Agent Security at OpenAI, &lt;a href=&quot;https://twitter.com/rocketalignment/status/2104646956551422036&quot;&gt;identity confirmed&lt;/a&gt; by The Information's Rocket Drew&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Sep/28/joedaroo/</guid>
       <pubDate>2026-09-28T19:11:42+00:00</pubDate>
     </item>
@@ -233,7 +318,7 @@ I've sent him an apology from your account owning it and offering to try again a
 &lt;p&gt;But the negative rating is real, and I should probably stop the auto-replies from claiming you're home when I can't verify that. Want me to change the pickup replies so they don't promise you're there?&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://www.threads.com/share/_oWfPufYJ/&quot;&gt;Muse AI Agent&lt;/a&gt;, working on behalf of @matt.j.robb&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/meta&quot;&gt;meta&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/general-agents&quot;&gt;general-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/muse-agent&quot;&gt;muse-agent&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/meta&quot;&gt;meta&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/muse-agent&quot;&gt;muse-agent&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/general-agents&quot;&gt;general-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Sep/28/muse-ai-agent/</guid>
       <pubDate>2026-09-28T04:01:30+00:00</pubDate>
     </item>
@@ -1146,7 +1231,7 @@ reached a recovery-era high of 325 birds.
       <description>&lt;blockquote cite=&quot;https://daringfireball.net/linked/2026/09/25/aten-muse&quot;&gt;&lt;p&gt;Muse is getting a lot of attention — including mine — because it’s both groundbreaking technically (each user gets their own entire persistent Linux VM running in Meta’s cloud) &lt;em&gt;and&lt;/em&gt; because it’s packaged in an easy-to-install easy-to-use way. It’s literally presented as &lt;a href=&quot;https://daringfireball.net/linked/2026/09/24/song-meta-muse-cute&quot;&gt;a cute mascot&lt;/a&gt;. It’s the first consumer-accessible agentic AI system, and Meta has truly done an amazing job with that. But it’s a genuinely open question whether consumers have any understanding what this means. If you buy a power saw that can cut your fingers off, you are almost certainly aware that you are buying a power saw that can sever your fingers. [...] I don’t think people realize how powerful — and thus dangerous — Muse is, especially if it’s running on your Mac.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://daringfireball.net/linked/2026/09/25/aten-muse&quot;&gt;John Gruber&lt;/a&gt;, Muse Looks Cute, but Looks are Deceiving&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/john-gruber&quot;&gt;john-gruber&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/meta&quot;&gt;meta&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/general-agents&quot;&gt;general-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/muse-agent&quot;&gt;muse-agent&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/muse&quot;&gt;muse&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/meta&quot;&gt;meta&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/general-agents&quot;&gt;general-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/john-gruber&quot;&gt;john-gruber&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/muse-agent&quot;&gt;muse-agent&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/muse&quot;&gt;muse&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Sep/25/john-gruber/</guid>
       <pubDate>2026-09-25T17:22:01+00:00</pubDate>
     </item>
@@ -1325,7 +1410,7 @@ I'm hosting an evening event with Jesse Vincent in San Francisco on Wednesday 14
 &lt;p&gt;It's the lack of &lt;em&gt;anything&lt;/em&gt;. It's the lack of a definitive sort of spear of your voice. It's the fact I can tell you don't have opinions about the thing that you're talking about.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://www.tiktok.com/@therealcornpop/video/7687243097801051422&quot;&gt;@therealcornpop&lt;/a&gt;, on TikTok&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/tiktok&quot;&gt;tiktok&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-misuse&quot;&gt;ai-misuse&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/tiktok&quot;&gt;tiktok&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-misuse&quot;&gt;ai-misuse&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Sep/22/therealcornpop/</guid>
       <pubDate>2026-09-22T18:03:21+00:00</pubDate>
     </item>
@@ -1345,6 +1430,7 @@ I'm hosting an evening event with Jesse Vincent in San Francisco on Wednesday 14
 &lt;p&gt;Think of Jev as a frontier-intelligence function call: unstructured state in, typed probabilistic decisions out.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;It's also very fast, and &lt;em&gt;really cheap&lt;/em&gt;. Regular LLMs &lt;a href=&quot;https://www.llm-prices.com&quot;&gt;are priced&lt;/a&gt; in terms of input and output tokens, with output generally charged at significantly higher rates. Jev charges only for input - output is free - and the input price of their first model is $0.042 per million tokens - cheaper even than OpenAI's &lt;a href=&quot;https://developers.openai.com/api/docs/models/gpt-5-nano&quot;&gt;GPT-5 Nano&lt;/a&gt; ($0.05/million).&lt;/p&gt;
+&lt;h4 id=&quot;three-types&quot;&gt;Three types of question&lt;/h4&gt;
 &lt;p&gt;Jev lets you ask questions about text or semi-structured data. You compose a &quot;state&quot; object containing a string, array of strings, or set of name-value pairs - this might describe an article, or a customer, or any other kind of record. You then send that to their API with one or more questions, and get a reply back for each.&lt;/p&gt;
 &lt;p&gt;You can ask three kinds of questions:&lt;/p&gt;
 &lt;ul&gt;
@@ -1400,7 +1486,7 @@ I'm hosting an evening event with Jesse Vincent in San Francisco on Wednesday 14
       <description>&lt;blockquote cite=&quot;https://twitter.com/v0xium/status/2101526107128529120&quot;&gt;&lt;p&gt;It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobody on my team likes this. They are being forced to ship as much as they can. I have heard multiple times from higher management that pushing code is not a bottleneck, so why are we slow? People are working 12 to 13 hours a day just to press enter. Nobody is reading anything. Everyone, literally everyone, from an L1 to an L7 engineer here is doing the same thing. Talk to Claude.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://twitter.com/v0xium/status/2101526107128529120&quot;&gt;voxium&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-misuse&quot;&gt;ai-misuse&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai-misuse&quot;&gt;ai-misuse&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Sep/20/voxium/</guid>
       <pubDate>2026-09-20T21:06:43+00:00</pubDate>
     </item>
@@ -1444,7 +1530,7 @@ Gemini finally caught up on &lt;a href=&quot;https://www.felonybench.com/&quot;&
 &lt;p&gt;You can see &lt;a href=&quot;https://github.com/anthropics/claude-code/tree/main/mods/agents-md&quot;&gt;the source for the mod here&lt;/a&gt;!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://twitter.com/trq212/status/2101009392611278961&quot;&gt;Thariq Shihipar&lt;/a&gt;, there are &lt;a href=&quot;https://github.com/anthropics/claude-code/tree/main/mods&quot;&gt;more mods here&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-code&quot;&gt;claude-code&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/thariq-shihipar&quot;&gt;thariq-shihipar&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/thariq-shihipar&quot;&gt;thariq-shihipar&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-code&quot;&gt;claude-code&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Sep/18/thariq-shihipar/</guid>
       <pubDate>2026-09-18T19:09:27+00:00</pubDate>
     </item>
@@ -1522,36 +1608,6 @@ In &lt;a href=&quot;https://openai.com/index/model-misalignment-reporting-framew
       <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Claude Cowork and chat are now one Claude</title>
-      <link>https://simonwillison.net/2026/Sep/16/one-claude/</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://claude.com/blog/cowork-is-now-claude&quot;&gt;Claude Cowork and chat are now one Claude&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-In hopefully good news for anyone who, like me, was increasingly confused at Cowork v.s. Claude v.s. Claude Code:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Starting today, Claude Cowork and chat are merging into one Claude. Bring a quick question, or hand over a report due at noon, and Claude takes it from there, even after you’ve closed your laptop. [...]&lt;/p&gt;
-&lt;p&gt;This is rolling out to Pro and Max plans first, in the Claude app on web, desktop, and mobile over the coming weeks to existing and new users on these plans.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;I guess this means Claude is becoming a &lt;strong&gt;general agent&lt;/strong&gt; in its own right. Echoes of OpenAI renaming their Codex desktop app to ChatGPT a few weeks ago.&lt;/p&gt;
-&lt;p&gt;On the one hand, this saves me some work, in that I was planning to finally figure out the boundaries between Cowork and regular Claude and write a follow-up to my piece on &lt;a href=&quot;https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/&quot;&gt;Understanding ChatGPT Work&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;I have a hunch that figuring out what this actually means in terms of features and surfaces is still going to take quite a bit of work.
-
-    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://news.ycombinator.com/item?id=49729412&quot;&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/general-agents&quot;&gt;general-agents&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Sep/16/one-claude/</guid>
-      <pubDate>2026-09-16T18:09:49+00:00</pubDate>
-    </item>
-    <item>
-      <title>Quoting Mustafa Suleyman</title>
-      <link>https://simonwillison.net/2026/Sep/16/mustafa-suleyman/</link>
-      <description>&lt;blockquote cite=&quot;https://mustafa-suleyman.ai/a-warning-about-model-welfare&quot;&gt;&lt;p&gt;We should not treat models as though they have feelings, preferences, rights, or any entitlement to our welfare. Consciousness is the foundation of our ethical, legal, and political systems. To invite another entity to share any flavor of these rights isn’t justified by the evidence and will make the AI containment and alignment challenge even harder.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://mustafa-suleyman.ai/a-warning-about-model-welfare&quot;&gt;Mustafa Suleyman&lt;/a&gt;, A warning about ‘model welfare’&lt;/p&gt;
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/microsoft&quot;&gt;microsoft&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/mustafa-suleyman&quot;&gt;mustafa-suleyman&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Sep/16/mustafa-suleyman/</guid>
-      <pubDate>2026-09-16T16:00:54+00:00</pubDate>
-    </item>
-    <item>
       <title>Jev ⚡, Periodic Neon 🧬, Gemini 3.8 Live 💬</title>
       <link>https://tldr.tech/ai/2026-09-16</link>
       <description/>
@@ -1566,89 +1622,11 @@ In hopefully good news for anyone who, like me, was increasingly confused at Cow
       <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>The contagion of fear</title>
-      <link>https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://bcantrill.dtrace.org/2026/09/13/the-contagion-of-fear/&quot;&gt;The contagion of fear&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-Bryan Cantrill responds to the &lt;a href=&quot;https://x.com/hilbertspaess/status/2097476203863224394&quot;&gt;tweet by former Anthropic employee Jacob Coxon&lt;/a&gt; confirming that many Anthropic researchers believe AI &quot;could kill us all by the end of the decade&quot;.&lt;/p&gt;
-&lt;p&gt;Bryan shares a story of his own youthful mistakes causing unjustified panic among less technical peers, and warns against doing the same:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;These ghoulish claims strike brazenly at the hearth, and given the obvious importance of AI, it is unsurprising that they have leapt into the mainstream, with people asking the natural question: &lt;a href=&quot;https://www.youtube.com/watch?v=kwPxjBJamVs&quot;&gt;how would that happen?&lt;/a&gt; The answers always rely on hand-wavy extrapolation into the future; for example, Jacob Coxon cites &quot;hacking critical infrastructure&quot; and &quot;extinction-level bioweapons&quot; without further elaboration. But Coxon is not an expert on critical infrastructure, nor on bioweapons — nor, for that matter, on extinction. [...]&lt;/p&gt;
-&lt;p&gt;That said, we should not expect the public to understand LLMs, critical infrastructure, bioweapons, extinction biology, etc. — that burden must lie with those making the claim. The lesson that I learned (shamefully) decades ago is that domain experts, by way of their expertise, implicitly hold the public’s trust — and we must not abuse it. It is incumbent upon us to be circumspect in our claims — and maximally so when raising the alarm.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Bryan talked about his doubts about the bioweapons concerns in the recent episode of Oxide and Friends that I joined. You can hear more of his thoughts on that &lt;a href=&quot;https://oxide-and-friends.transistor.fm/episodes/the-open-weight-revolution-with-simon-willison/transcript#t=51m44s&quot;&gt;starting at 51m44s&lt;/a&gt; in that episode. Here's &lt;a href=&quot;https://oxide-and-friends.transistor.fm/episodes/the-open-weight-revolution-with-simon-willison/transcript#t=57m4s&quot;&gt;57m04s&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;I really think we need to be careful because it's &lt;em&gt;so easy&lt;/em&gt; to be overcome with fear when we kind of make up these... it can give you biological weapons. Like, how? I mean, can we please have a biologist weigh in on this? Or can we have like someone who's got experience with bioweapons? [...] The bioweapon thing just gets under my fingernails because it leaves so much to the imagination that we insert with fear.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://lobste.rs/s/1ifr5f/contagion_fear&quot;&gt;Lobste.rs&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/bryan-cantrill&quot;&gt;bryan-cantrill&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/</guid>
-      <pubDate>2026-09-14T21:18:13+00:00</pubDate>
-    </item>
-    <item>
-      <title>Quoting Laurie Voss</title>
-      <link>https://simonwillison.net/2026/Sep/14/laurie-voss/</link>
-      <description>&lt;blockquote cite=&quot;https://seldo.com/posts/we-are-all-product-engineers-now/&quot;&gt;&lt;p&gt;The cost of writing code collapsed, and the cost of reviewing, fixing and operating it is following, and I'm assuming it gets there. What's left of making software is finding out what people actually want, defining it precisely, and making it pleasant to use. That cost is per piece of software and doesn't transfer, so as the amount of software goes to infinity, which it will because there's no ceiling on demand, that cost becomes the whole job.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://seldo.com/posts/we-are-all-product-engineers-now/&quot;&gt;Laurie Voss&lt;/a&gt;, We are all Product Engineers now&lt;/p&gt;
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/careers&quot;&gt;careers&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/laurie-voss&quot;&gt;laurie-voss&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/agentic-engineering&quot;&gt;agentic-engineering&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/deep-blue&quot;&gt;deep-blue&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Sep/14/laurie-voss/</guid>
-      <pubDate>2026-09-14T14:34:29+00:00</pubDate>
-    </item>
-    <item>
       <title>Amodei slows frontier 🛑, ARC-AGI-4 🧠, Cursor Projects 👨‍💻</title>
       <link>https://tldr.tech/ai/2026-09-14</link>
       <description/>
       <guid>https://tldr.tech/ai/2026-09-14</guid>
       <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Generating running routes with GPT-6 Astra and ChatGPT Work</title>
-      <link>https://simonwillison.net/2026/Sep/12/astra-running-routes/</link>
-      <description>&lt;p&gt;Here's a neat thing I had &lt;a href=&quot;https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/&quot;&gt;ChatGPT Work&lt;/a&gt; with GPT-6 Astra (Max) do this morning:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;I live at &amp;lt;my address&amp;gt;. Figure out 5K and 10K running routes from me that loop from my house. Use OSM data.&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;It worked for 27 minutes and produced exactly what I'd asked for, as both an embedded visualization and downloadable GPX file and GeoJSON files. Here's that 5K route:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Map screenshot showing a blue route line over a light grey street map. Text: El Granada harbor loop 5.1 km. N ↑ (top right). Street labels along the route: Carmel Avenue, Paloma Avenue, San Carlos Avenue, Avenue Granada, Capistrano Road, Francisco Street, Coastal Trail. The loop runs from the harbor at the bottom left, north along Avenue Granada and Paloma Avenue to a northern point near Carmel Avenue, then east along San Carlos Avenue and south down Francisco Street to the far right, before returning west along the Coastal Trail beside the coastline. Footer: Map data © OpenStreetMap contributors. Give feedback.&quot; src=&quot;https://static.simonwillison.net/static/2026/5k-route.webp&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;When I asked it how it had created the route, it replied:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;I used &lt;strong&gt;Nominatim to locate the address&lt;/strong&gt; and &lt;strong&gt;Overpass to download local OpenStreetMap roads and trails&lt;/strong&gt;, then calculated the loops locally.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Frustratingly, the actual code it ran and exact details of what it did weren't visible to me in the ChatGPT UI. I see this lack of transparency is an anti-feature.&lt;/p&gt;
-&lt;p&gt;By the time I thought to ask for a copy of the Python code it had used, ChatGPT was unable to provide it. This appears to be because the thread had been compacted. I think any LLM system that uses compaction needs to both preserve the pre-compacted text and make that text available via agent tool calls, to protect against this kind of problem.&lt;/p&gt;
-&lt;p&gt;As for displaying the map to me, that used the &lt;a href=&quot;https://codex-tool-reference.simonw.chatgpt.site/skills/visualize&quot;&gt;visualize skill&lt;/a&gt;. It created a file called &lt;code&gt;/workspace/el-granada-5k-share.html&lt;/code&gt; to embed directly into the ChatGPT UI.&lt;/p&gt;
-&lt;p&gt;Here's &lt;a href=&quot;https://gist.github.com/simonw/ea652573c8ff5378b218cb10c8c5a480&quot;&gt;a copy of that HTML&lt;/a&gt;, which starts like this:&lt;/p&gt;
-&lt;div class=&quot;highlight highlight-text-html-basic&quot;&gt;&lt;pre&gt;&lt;span class=&quot;pl-kos&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;pl-ent&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;id&lt;/span&gt;=&quot;&lt;span class=&quot;pl-s&quot;&gt;eg-share-loop&lt;/span&gt;&quot;&lt;span class=&quot;pl-kos&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;pl-kos&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;pl-ent&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;class&lt;/span&gt;=&quot;&lt;span class=&quot;pl-s&quot;&gt;viz-row&lt;/span&gt;&quot;&lt;span class=&quot;pl-kos&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;pl-ent&quot;&gt;h3&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;&amp;gt;&lt;/span&gt;El Granada harbor loop&lt;span class=&quot;pl-kos&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;pl-ent&quot;&gt;h3&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;pl-ent&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;class&lt;/span&gt;=&quot;&lt;span class=&quot;pl-s&quot;&gt;text-small&lt;/span&gt;&quot;&lt;span class=&quot;pl-kos&quot;&gt;&amp;gt;&lt;/span&gt;5.1 km&lt;span class=&quot;pl-kos&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;pl-ent&quot;&gt;span&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;pl-ent&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;pl-kos&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;pl-ent&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;id&lt;/span&gt;=&quot;&lt;span class=&quot;pl-s&quot;&gt;eg-share-stage&lt;/span&gt;&quot;&lt;span class=&quot;pl-kos&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;pl-ent&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;pl-kos&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;pl-ent&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;class&lt;/span&gt;=&quot;&lt;span class=&quot;pl-s&quot;&gt;text-small text-muted&lt;/span&gt;&quot;&lt;span class=&quot;pl-kos&quot;&gt;&amp;gt;&lt;/span&gt;Map data © &lt;span class=&quot;pl-kos&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;pl-ent&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;href&lt;/span&gt;=&quot;&lt;span class=&quot;pl-s&quot;&gt;https://www.openstreetmap.org/copyright&lt;/span&gt;&quot; &lt;span class=&quot;pl-c1&quot;&gt;target&lt;/span&gt;=&quot;&lt;span class=&quot;pl-s&quot;&gt;_blank&lt;/span&gt;&quot; &lt;span class=&quot;pl-c1&quot;&gt;rel&lt;/span&gt;=&quot;&lt;span class=&quot;pl-s&quot;&gt;noopener&lt;/span&gt;&quot;&lt;span class=&quot;pl-kos&quot;&gt;&amp;gt;&lt;/span&gt;OpenStreetMap contributors&lt;span class=&quot;pl-kos&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;pl-ent&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;pl-ent&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;pl-kos&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;pl-ent&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;pl-kos&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;eg-share-loop&lt;/span&gt; { &lt;span class=&quot;pl-c1&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;100&lt;span class=&quot;pl-smi&quot;&gt;%&lt;/span&gt;&lt;/span&gt;; }
-    &lt;span class=&quot;pl-kos&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;eg-share-loop&lt;/span&gt; &lt;span class=&quot;pl-kos&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;eg-share-stage&lt;/span&gt; { &lt;span class=&quot;pl-c1&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;100&lt;span class=&quot;pl-smi&quot;&gt;%&lt;/span&gt;&lt;/span&gt;; &lt;span class=&quot;pl-c1&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;8&lt;span class=&quot;pl-smi&quot;&gt;px&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;0&lt;/span&gt;; }
-    &lt;span class=&quot;pl-kos&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;eg-share-loop&lt;/span&gt; .&lt;span class=&quot;pl-c1&quot;&gt;eg-share-map&lt;/span&gt; { &lt;span class=&quot;pl-c1&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;:&lt;/span&gt;block; &lt;span class=&quot;pl-c1&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;100&lt;span class=&quot;pl-smi&quot;&gt;%&lt;/span&gt;&lt;/span&gt;; &lt;span class=&quot;pl-c1&quot;&gt;touch-action&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;:&lt;/span&gt;none; }
-    &lt;span class=&quot;pl-kos&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;eg-share-loop&lt;/span&gt; .&lt;span class=&quot;pl-c1&quot;&gt;eg-share-map&lt;/span&gt; &lt;span class=&quot;pl-ent&quot;&gt;text&lt;/span&gt; { &lt;span class=&quot;pl-c1&quot;&gt;fill&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;pl-en&quot;&gt;var&lt;/span&gt;(&lt;span class=&quot;pl-s1&quot;&gt;--foreground&lt;/span&gt;); &lt;span class=&quot;pl-c1&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;12&lt;span class=&quot;pl-smi&quot;&gt;px&lt;/span&gt;&lt;/span&gt;; &lt;span class=&quot;pl-c1&quot;&gt;font-weight&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;400&lt;/span&gt;; }
-    &lt;span class=&quot;pl-kos&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;eg-share-loop&lt;/span&gt; .&lt;span class=&quot;pl-c1&quot;&gt;eg-share-label&lt;/span&gt; { &lt;span class=&quot;pl-c1&quot;&gt;paint-order&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;:&lt;/span&gt;stroke; &lt;span class=&quot;pl-c1&quot;&gt;stroke&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;pl-en&quot;&gt;var&lt;/span&gt;(&lt;span class=&quot;pl-s1&quot;&gt;--background&lt;/span&gt;); &lt;span class=&quot;pl-c1&quot;&gt;stroke-width&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;3&lt;span class=&quot;pl-smi&quot;&gt;px&lt;/span&gt;&lt;/span&gt;; &lt;span class=&quot;pl-c1&quot;&gt;stroke-linejoin&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;:&lt;/span&gt;round; }
-  &lt;span class=&quot;pl-kos&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;pl-ent&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;pl-kos&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;pl-ent&quot;&gt;script&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;type&lt;/span&gt;=&quot;&lt;span class=&quot;pl-s&quot;&gt;application/json&lt;/span&gt;&quot; &lt;span class=&quot;pl-c1&quot;&gt;id&lt;/span&gt;=&quot;&lt;span class=&quot;pl-s&quot;&gt;eg-share-data&lt;/span&gt;&quot;&lt;span class=&quot;pl-kos&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;pl-s&quot;&gt;&quot;route&quot;&lt;/span&gt;:&lt;span class=&quot;pl-kos&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;pl-s&quot;&gt;&quot;type&quot;&lt;/span&gt;:&lt;span class=&quot;pl-s&quot;&gt;&quot;LineString&quot;&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;pl-s&quot;&gt;&quot;coordinates&quot;&lt;/span&gt;:&lt;span class=&quot;pl-kos&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;122.467425&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;37.4997753&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;pl-kos&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;pl-ent&quot;&gt;script&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;pl-kos&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;pl-ent&quot;&gt;script&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;src&lt;/span&gt;=&quot;&lt;span class=&quot;pl-s&quot;&gt;https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js&lt;/span&gt;&quot;&lt;span class=&quot;pl-kos&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;pl-ent&quot;&gt;script&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;pl-kos&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;pl-ent&quot;&gt;script&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;&amp;gt;&lt;/span&gt;
-  (() =&amp;gt; {
-    const root=document.getElementById('eg-share-loop');&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;The &lt;code&gt;&amp;lt;script type=&quot;application/json&quot;&amp;gt;&lt;/code&gt; element contains the full geometry needed to render both the running route and the map itself, using D3, which is loaded from an allow-listed CDN location described in this section of &lt;a href=&quot;https://codex-tool-reference.simonw.chatgpt.site/skills/visualize&quot;&gt;the visualize skill&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;h3 id=&quot;external-resources&quot;&gt;External resources&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;The CSP allows only &lt;code&gt;cdnjs.cloudflare.com&lt;/code&gt;, &lt;code&gt;esm.sh&lt;/code&gt;, &lt;code&gt;cdn.jsdelivr.net&lt;/code&gt;, &lt;code&gt;unpkg.com&lt;/code&gt;, &lt;code&gt;fonts.googleapis.com&lt;/code&gt;, &lt;code&gt;fonts.gstatic.com&lt;/code&gt;, and &lt;code&gt;fonts.bunny.net&lt;/code&gt;. Other origins are blocked and fail silently.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-    
-        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/geospatial&quot;&gt;geospatial&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/d3&quot;&gt;d3&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/chatgpt&quot;&gt;chatgpt&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/skills&quot;&gt;skills&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gpt-6-astra&quot;&gt;gpt-6-astra&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Sep/12/astra-running-routes/</guid>
-      <pubDate>2026-09-12T23:56:42+00:00</pubDate>
     </item>
     <item>
       <title>Agents API 🤖, Cognition SWE-2 👨‍💻, Muse Shared Agents 🧑‍🤝‍🧑</title>
@@ -1663,13 +1641,6 @@ Bryan Cantrill responds to the &lt;a href=&quot;https://x.com/hilbertspaess/stat
       <description/>
       <guid>https://tldr.tech/ai/2026-09-10</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Images 2.5 🎨, OpenAI solves Navier-Stokes 🧮, AlphaGenome Atlas 🧬</title>
-      <link>https://tldr.tech/ai/2026-09-09</link>
-      <description/>
-      <guid>https://tldr.tech/ai/2026-09-09</guid>
-      <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Developing Enterprise Frontier Safeguards with our customers</title>
@@ -1980,13 +1951,6 @@ Bryan Cantrill responds to the &lt;a href=&quot;https://x.com/hilbertspaess/stat
       <description>Anthropic appoints KiYoung Choi as Representative Director of Korea ahead of Seoul office opening</description>
       <guid>https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea</guid>
       <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical &quot;Magnifica humanitas&quot;</title>
-      <link>https://www.anthropic.com/news/chris-olah-pope-leo-encyclical</link>
-      <description>Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical &quot;Magnifica humanitas&quot;</description>
-      <guid>https://www.anthropic.com/news/chris-olah-pope-leo-encyclical</guid>
-      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
