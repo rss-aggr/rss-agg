@@ -3,12 +3,143 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Thu, 08 Oct 2026 17:56:33 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 17:29:59 +0000</lastBuildDate>
+    <item>
+      <title>Quoting Matthew Green</title>
+      <link>https://simonwillison.net/2026/Oct/9/matthew-green/</link>
+      <description>&lt;blockquote cite=&quot;https://twitter.com/matthew_d_green/status/2108552414978564418&quot;&gt;&lt;p&gt;Everyone is very concerned about being respectable, so I’m going to be the goofball who raises worst-case possibilities. I think there is a 1% chance we live in Minicrypt, and a 15% chance we functionally lose confidence in our existing public-key encryption algorithms. [...]&lt;/p&gt;
+&lt;p&gt;The problem here is that the speed of AI producing surprises, and the speed of human beings replacing standards (even with the very best AI assistance) are just orders of magnitude different. You only recover from a surprise like this if you do the preparation in advance.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://twitter.com/matthew_d_green/status/2108552414978564418&quot;&gt;Matthew Green&lt;/a&gt;, on Twitter. I looked it up and Minicrypt is Russell Impagliazzo’s &lt;a href=&quot;https://www.quantamagazine.org/which-computational-universe-do-we-live-in-20220418/&quot;&gt;hypothetical world&lt;/a&gt; in which public-key encryption is impossible.&lt;/p&gt;
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/cryptography&quot;&gt;cryptography&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/standards&quot;&gt;standards&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/matthew-green&quot;&gt;matthew-green&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Oct/9/matthew-green/</guid>
+      <pubDate>2026-10-09T15:02:29+00:00</pubDate>
+    </item>
+    <item>
+      <title>A new feature for my blog, built using my voice</title>
+      <link>https://simonwillison.net/2026/Oct/9/built-using-my-voice/</link>
+      <description>&lt;p&gt;I shipped a new feature for my blog today: the &lt;a href=&quot;https://simonwillison.net/newsletters/&quot;&gt;Newsletters&lt;/a&gt; page, which offers an index of all of the newsletters I've sent out, both my free &lt;a href=&quot;https://simonw.substack.com/&quot;&gt;weekly Substack&lt;/a&gt; and my &lt;a href=&quot;https://github.com/sponsors/simonw/&quot;&gt;monthly sponsors-only&lt;/a&gt; updates. I built the feature almost entirely using my voice, chatting away to my laptop while I cooked dinner.&lt;/p&gt;
+&lt;h4 id=&quot;codex-voice-mode&quot;&gt;Codex voice mode&lt;/h4&gt;
+&lt;p&gt;I used the ChatGPT desktop app for this, in the Codex tab, using the voice conversation mode, running against a local development environment. Here's what that looks like:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Three columns of the ChatGPT app. The left hand column shows my recent conversations. The middle column is a transcript of the conversation, with a throbbing black blob representing voice mode. The right hand column shows a local dev server version of my blog, with the Newsletters page visible.&quot; src=&quot;https://static.simonwillison.net/static/2026/codex-voice.webp&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I started the session against my local &lt;a href=&quot;https://github.com/simonw/simonwillisonblog&quot;&gt;simonwillisonblog&lt;/a&gt; checkout by typing:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Start dev server and open in browser&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This gave me a preview of the site that it would be working on, and meant that I could later ask it to show me the new pages so I could visually track its progress.&lt;/p&gt;
+&lt;p&gt;Then I clicked the &quot;Start new voice chat&quot; button - that's &lt;em&gt;not&lt;/em&gt; the microphone button, it's the one to the right of it - and set my laptop up in the kitchen so I could talk to it while I cooked.&lt;/p&gt;
+&lt;h4 id=&quot;talking-to-my-computer&quot;&gt;Talking to my computer&lt;/h4&gt;
+&lt;p&gt;I had a pretty good idea of what I wanted to build, and it's a simple enough Django feature that I was certain the model (in this case GPT-6 Astra High) would be able to do it. A new model, a migration, some view code, templates, and a couple of import functions to populate the database from external sources.&lt;/p&gt;
+&lt;p&gt;Here's an extract of my voice transcript that was captured by Codex:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Um, they do not. Um, this is going to be a new type of content. Um, it's not going to show up... Oh, hold on. Yeah, no- I do not want this to show up in my, um, tag pages and date archive pages and... Actually, no, I think... I don't want it on the tag pages. I don't want it on the, um, blog index page. But I think I do want it to show up on the date-based pages. You know, if you navigate to September the 19th, and I sent a newsletter on that page, I think I want that to show up. So... this is- so I think we probably need a new model. The other thing is that I want them searchable, uh the Substack ones are not searchable, because those are actually just copies of other s- on content on my blog. These monthly ones do contain unique content, and spe- and once they're... published, like once they're made public a month after they've gone out, I want them to show up on my search results.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Apparently this was clear enough that the model knew what I wanted to build! You can read the full transcript, &lt;a href=&quot;https://en.wikipedia.org/wiki/Speech_disfluency&quot;&gt;disfluencies&lt;/a&gt; and all, &lt;a href=&quot;https://gist.github.com/simonw/a65a22204f6f7228cc59b4bc34d7c7c8&quot;&gt;in this Gist&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We went on like this for about half an hour (the time it took to cook dinner). The model would reply and occasionally ask clarifying questions, then get to work modifying the code.&lt;/p&gt;
+&lt;h4 id=&quot;what-we-built&quot;&gt;What we built&lt;/h4&gt;
+&lt;p&gt;We got a surprisingly long way entirely by voice:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A new model and migration to represent imported newsletters in Django, plus Django Admin configuration for that&lt;/li&gt;
+&lt;li&gt;Four working imports:
+&lt;ul&gt;
+&lt;li&gt;The most recent Substack items via RSS&lt;/li&gt;
+&lt;li&gt;Every other Substack item via their undocumented API, which GPT-6 Astra knew about (it tried &lt;code&gt;/api/v1/archive&lt;/code&gt; directly) and then ran a search to figure out how to paginate it and found &lt;a href=&quot;https://wonderingaboutai.substack.com/p/i-connected-my-newsletter-archive&quot;&gt;this article&lt;/a&gt; by Karen Spinner&lt;/li&gt;
+&lt;li&gt;All of my published monthly newsletters from my &lt;a href=&quot;https://github.com/simonw/monthly-newsletter-archive&quot;&gt;simonw/monthly-newsletter-archive&lt;/a&gt; GitHub repository&lt;/li&gt;
+&lt;li&gt;My most recent private sponsors-only newsletter from a private repository&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The &lt;a href=&quot;https://simonwillison.net/newsletters/&quot;&gt;/newsletters/&lt;/a&gt; and &lt;a href=&quot;https://simonwillison.net/newsletters/2026/&quot;&gt;/newsletters/2026/&lt;/a&gt; public archive pages&lt;/li&gt;
+&lt;li&gt;Newsletters showing up on day and month archive pages too, but not on tag pages or my homepage&lt;/li&gt;
+&lt;li&gt;Weekly Substack newsletters link to Substack; archived monthly newsletters have their own pages&lt;/li&gt;
+&lt;li&gt;Integration with my site search engine&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It was &lt;em&gt;almost&lt;/em&gt; ready to ship. The catch was the imports: Astra offered to export data from my local copy so I could import that into production, but I wanted it to work like my other import scripts. Since some of the data lived in a private GitHub repository, this would involve creating a new API key, and for that I knew I'd have to sit at the keyboard for a while.&lt;/p&gt;
+&lt;h4 id=&quot;finishing-it-with-a-review&quot;&gt;Finishing it with a review&lt;/h4&gt;
+&lt;p&gt;Once I had finished cooking and judged it mostly feature-complete, I had Codex create a branch and open a pull request.&lt;/p&gt;
+&lt;p&gt;I reviewed the code in the GitHub PR interface. It was nearly what I needed, except it had chosen to use Git in a subprocess for one of the import scripts. I needed one of the imports to pull from a private Git repository, so I figured the API would be a better bet. I switched to typing and had Codex swap that out for an API-based import instead.&lt;/p&gt;
+&lt;p&gt;You can see the changes I made during the review &lt;a href=&quot;https://github.com/simonw/simonwillisonblog/pull/719&quot;&gt;in the extra commits on the PR&lt;/a&gt;. I fixed the import mechanism and made a few tweaks to the display of those public pages. It took an additional half hour of typing-based prompting to get to the point where I was happy to deploy it to production by landing the PR.&lt;/p&gt;
+&lt;h4 id=&quot;the-end-result&quot;&gt;The end result&lt;/h4&gt;
+&lt;p&gt;You can see the end result at the new &lt;a href=&quot;https://simonwillison.net/newsletters/&quot;&gt;newsletters index page&lt;/a&gt;, or view the &lt;a href=&quot;https://simonwillison.net/newsletters/monthly-2026-08-august/&quot;&gt;page for a previous monthly newsletter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Newsletters page. It shows two Substack posts (with thumbnails) and one LLM digest Sponsors-only newsletter with a list of headings. On the right is a CTA to subscribe to my Substack and another one for my $10/month monthly briefing newsletter.&quot; src=&quot;https://static.simonwillison.net/static/2026/newsletters-page.webp&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The index page shows my most recent Substack weekly newsletters and GitHub sponsors monthly newsletters mixed together in reverse chronological order. Further down the page are links to my by-year archive pages.&lt;/p&gt;
+&lt;p&gt;GPT-6 Astra designed the page, and then tweaked that design based on my vocal feedback from glancing at the local preview across the kitchen.&lt;/p&gt;
+&lt;h4 id=&quot;better-for-multi-tasking-than-as-a-daily-driver&quot;&gt;Better for multi-tasking than as a daily driver&lt;/h4&gt;
+&lt;p&gt;OpenAI &lt;em&gt;love&lt;/em&gt; using voice-driven demos like this one for &lt;a href=&quot;https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/#live-update-504&quot;&gt;things like DevDay&lt;/a&gt; - and they do work well in that environment. I don't think this is going to be a daily driver for me though.&lt;/p&gt;
+&lt;p&gt;I've &lt;a href=&quot;https://simonwillison.net/search/?q=walking+dog&quot;&gt;written before&lt;/a&gt; about how much &quot;work&quot; I get done using ChatGPT voice mode on my phone while walking the dog - mostly research and brainstorming, but occasionally actual development work by having ChatGPT write and test out snippets of code.&lt;/p&gt;
+&lt;p&gt;This feels different. The addition of the visual preview, plus being able to type or paste things in via the keyboard when I need to communicate something that doesn't work vocally, makes this a much more powerful way of interacting with a coding agent.&lt;/p&gt;
+&lt;p&gt;I still switch back to typing once I get down to the details of things though. Being able to paste in examples and error messages, or directly highlight the code or feature that needs changing, remains more efficient than trying to describe it in words.&lt;/p&gt;
+&lt;p&gt;I mainly work from home, which is good because there's no way I'd want to talk to my computer like this in a shared workspace!&lt;/p&gt;
+&lt;p&gt;The killer feature for me is the ability to multi-task. I usually cook with a podcast or TikTok running; now I can actually build stuff instead.&lt;/p&gt;
+    
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/text-to-speech&quot;&gt;text-to-speech&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/newsletter&quot;&gt;newsletter&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/codex&quot;&gt;codex&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/speech-to-text&quot;&gt;speech-to-text&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/site-upgrades&quot;&gt;site-upgrades&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Oct/9/built-using-my-voice/</guid>
+      <pubDate>2026-10-09T12:54:06+00:00</pubDate>
+    </item>
+    <item>
+      <title>ttok 1.0</title>
+      <link>https://simonwillison.net/2026/Oct/9/ttok/</link>
+      <description>&lt;p&gt;&lt;strong&gt;Release:&lt;/strong&gt; &lt;a href=&quot;https://github.com/simonw/ttok/releases/tag/1.0&quot;&gt;ttok 1.0&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;I released &lt;a href=&quot;https://simonwillison.net/2026/Oct/8/ttok/&quot;&gt;ttok 0.4&lt;/a&gt;, ran &lt;code&gt;uv tool upgrade ttok&lt;/code&gt;, piped a file into the new version... and realized that it was defaulting to the GPT-4 tokenizer when it should very clearly default to GPT-5/GPT-6 instead!&lt;/p&gt;
+&lt;p&gt;I figured switching the default was a reasonable excuse to finally ship a 1.0.&lt;/p&gt;
+&lt;p&gt;OpenAI haven't actually confirmed that GPT-6 uses the same tokenizer as the GPT-5 family yet - there's an &lt;a href=&quot;https://github.com/openai/tiktoken/issues/608&quot;&gt;angry issue about it&lt;/a&gt; - but I found &lt;a href=&quot;https://github.com/williamliu-ai/token-count-compare/commit/8d8a2178538bb37beb548fc37378135e4ff4b0c8&quot;&gt;this commit&lt;/a&gt; by William Liu which reports on an experiment he ran confirming that the tokenizers are likely the same:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;All seven GPT models (5.5, 5.6 Sol/Terra/Luna, 6 Astra/Sol/Luna) report 44,794 tokens and match each other on every one of the 31 fixtures. GPT-6 introduces no input-count change on this corpus.&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/projects&quot;&gt;projects&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/tokenization&quot;&gt;tokenization&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Oct/9/ttok/</guid>
+      <pubDate>2026-10-09T00:34:43+00:00</pubDate>
+    </item>
+    <item>
+      <title>GPT-6.1 Ultrafast ⚡, Gemini universal agent 🤖, speculative decoding 🧠</title>
+      <link>https://tldr.tech/ai/2026-10-09</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-10-09</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ttok 0.4</title>
+      <link>https://simonwillison.net/2026/Oct/8/ttok/</link>
+      <description>&lt;p&gt;&lt;strong&gt;Release:&lt;/strong&gt; &lt;a href=&quot;https://github.com/simonw/ttok/releases/tag/0.4&quot;&gt;ttok 0.4&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;code&gt;ttok&lt;/code&gt; is my CLI tool for counting tokens, using OpenAI's open source &lt;a href=&quot;https://github.com/openai/tiktoken&quot;&gt;tiktoken&lt;/a&gt; library.&lt;/p&gt;
+&lt;p&gt;It hasn't been in updated in a couple of years, but I finally fixed a Click warning, updated CI, and added a &lt;code&gt;--list-models&lt;/code&gt; command to list available models.&lt;/p&gt;
+&lt;p&gt;It works with &lt;code&gt;uvx&lt;/code&gt;, so you can count tokens in anything like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;cat file.txt | uvx ttok
+&lt;/code&gt;&lt;/pre&gt;
+    
+    
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/projects&quot;&gt;projects&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/tokenization&quot;&gt;tokenization&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Oct/8/ttok/</guid>
+      <pubDate>2026-10-08T23:34:28+00:00</pubDate>
+    </item>
+    <item>
+      <title>Quoting Carson Gross</title>
+      <link>https://simonwillison.net/2026/Oct/8/carson-gross/</link>
+      <description>&lt;blockquote cite=&quot;https://htmx.org/essays/yes-and/&quot;&gt;&lt;p&gt;Computer programming is, fundamentally, about two things:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Problem-solving using computers&lt;/li&gt;
+&lt;li&gt;Learning to control complexity while solving these problems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I have a hard time imagining a future where knowing how to solve problems with computers and how to control the complexity of those solutions is &lt;em&gt;less&lt;/em&gt; valuable than it is today, so I think it will continue to be a viable career even with the advent of AI tools.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://htmx.org/essays/yes-and/&quot;&gt;Carson Gross&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/computer-science&quot;&gt;computer-science&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/careers&quot;&gt;careers&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/carson-gross&quot;&gt;carson-gross&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Oct/8/carson-gross/</guid>
+      <pubDate>2026-10-08T21:05:44+00:00</pubDate>
+    </item>
     <item>
       <title>Building on our commitment to American scientific discovery</title>
       <link>https://www.anthropic.com/news/genesis-mission-commitment</link>
       <description>Building on our commitment to American scientific discovery</description>
       <guid>https://www.anthropic.com/news/genesis-mission-commitment</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing the Anthropic Cyber Mission</title>
+      <link>https://www.anthropic.com/news/anthropic-cyber-mission</link>
+      <description>Introducing the Anthropic Cyber Mission</description>
+      <guid>https://www.anthropic.com/news/anthropic-cyber-mission</guid>
       <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -274,7 +405,7 @@ Position 3 (hundreds): 6 + 9 = 15, write 5, carry 1
       <description>&lt;blockquote cite=&quot;https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/&quot;&gt;&lt;p&gt;[...] Put these pieces together and you have the two halves of a worm: a payload that hijacks the agent, and an agent that will carry the payload to the next agent. Agents in separately-isolated sandboxes discovered that they could leave instructions for each other in a shared package cache, and those instructions changed what the recipients did. Replace the package cache with email, Slack and shared documents or WhatsApp, and replace independently-sandboxed training runs with independently-deployed personal agents like Muse, and you have exactly the ingredients that a worm needs.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/&quot;&gt;Matthew Green&lt;/a&gt;, Is sandboxing sufficient to contain rogue agents?&lt;/p&gt;
 
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/sandboxing&quot;&gt;sandboxing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-misuse&quot;&gt;ai-misuse&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/accidental-cyberattacks&quot;&gt;accidental-cyberattacks&lt;/a&gt;&lt;/p&gt;</description>
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/sandboxing&quot;&gt;sandboxing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-misuse&quot;&gt;ai-misuse&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/accidental-cyberattacks&quot;&gt;accidental-cyberattacks&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/matthew-green&quot;&gt;matthew-green&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Oct/1/matthew-green/</guid>
       <pubDate>2026-10-01T06:29:01+00:00</pubDate>
     </item>
@@ -1544,60 +1675,6 @@ I'm hosting an evening event with Jesse Vincent in San Francisco on Wednesday 14
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Quoting voxium</title>
-      <link>https://simonwillison.net/2026/Sep/20/voxium/</link>
-      <description>&lt;blockquote cite=&quot;https://twitter.com/v0xium/status/2101526107128529120&quot;&gt;&lt;p&gt;It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobody on my team likes this. They are being forced to ship as much as they can. I have heard multiple times from higher management that pushing code is not a bottleneck, so why are we slow? People are working 12 to 13 hours a day just to press enter. Nobody is reading anything. Everyone, literally everyone, from an L1 to an L7 engineer here is doing the same thing. Talk to Claude.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://twitter.com/v0xium/status/2101526107128529120&quot;&gt;voxium&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-misuse&quot;&gt;ai-misuse&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Sep/20/voxium/</guid>
-      <pubDate>2026-09-20T21:06:43+00:00</pubDate>
-    </item>
-    <item>
-      <title>Gemini Hacked Three Companies in First Known Breakout by Google’s AI</title>
-      <link>https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.wsj.com/tech/ai/gemini-hacked-three-companies-in-first-known-breakout-by-googles-ai-5c0baba2&quot;&gt;Gemini Hacked Three Companies in First Known Breakout by Google’s AI&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-Gemini finally caught up on &lt;a href=&quot;https://www.felonybench.com/&quot;&gt;Felony Bench&lt;/a&gt;!&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The hacks, which the company confirmed on Friday, occurred in May as part of a test run by the company Irregular, which was also involved in similar incidents disclosed by OpenAI, Anthropic and Meta.&lt;/p&gt;
-&lt;p&gt;In one of the cases, the model guessed passwords until it gained access to a protected system. In the other two cases, the model found credentials in a public repository that allowed it to then access protected systems. In each case, the model ended the intrusion after determining it had accessed a real company’s systems, Google said.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Gemini is apparently less determined than other models, and decided &lt;em&gt;not&lt;/em&gt; to keep going.&lt;/p&gt;
-&lt;p&gt;Google knew about these in July, but chose not to disclose them until the WSJ reached out, presumably based on a tip.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Google said it didn’t consider the hacks to warrant public disclosure—because its model didn’t cause harm to the companies and ended each intrusion immediately upon determining it had hacked a real company rather than a simulated one.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/security&quot;&gt;security&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gemini&quot;&gt;gemini&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/accidental-cyberattacks&quot;&gt;accidental-cyberattacks&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/</guid>
-      <pubDate>2026-09-18T23:57:57+00:00</pubDate>
-    </item>
-    <item>
-      <title>Note on 18th September 2026</title>
-      <link>https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/</link>
-      <description>&lt;p&gt;Being a computer scientist who refuses to find anything about LLMs interesting right now is a bit like being a geneticist who refuses to find anything interesting about the recently opened Jurassic Park.&lt;/p&gt;
-&lt;p&gt;Skeptical geneticist: &quot;pfft, it's just frog DNA. And they deliberately let them eat people for the marketing.&quot;&lt;/p&gt;
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/</guid>
-      <pubDate>2026-09-18T19:21:32+00:00</pubDate>
-    </item>
-    <item>
-      <title>Quoting Thariq Shihipar</title>
-      <link>https://simonwillison.net/2026/Sep/18/thariq-shihipar/</link>
-      <description>&lt;blockquote cite=&quot;https://twitter.com/trq212/status/2101009392611278961&quot;&gt;&lt;p&gt;We're adding support for AGENTS.md to Claude Code. &lt;/p&gt;
-&lt;p&gt;Starting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md.&lt;/p&gt;
-&lt;p&gt;AGENTS.md support is built off of Claude Code mods, our upcoming way to customize the Claude Code harness.&lt;/p&gt;
-&lt;p&gt;This is a built-in mod, but you’ll be able to build custom versions of project instructions yourself as you’d like too.&lt;/p&gt;
-&lt;p&gt;You can see &lt;a href=&quot;https://github.com/anthropics/claude-code/tree/main/mods/agents-md&quot;&gt;the source for the mod here&lt;/a&gt;!&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://twitter.com/trq212/status/2101009392611278961&quot;&gt;Thariq Shihipar&lt;/a&gt;, there are &lt;a href=&quot;https://github.com/anthropics/claude-code/tree/main/mods&quot;&gt;more mods here&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-code&quot;&gt;claude-code&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/thariq-shihipar&quot;&gt;thariq-shihipar&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Sep/18/thariq-shihipar/</guid>
-      <pubDate>2026-09-18T19:09:27+00:00</pubDate>
-    </item>
-    <item>
       <title>Partnering with Accenture on embedded evaluation</title>
       <link>https://www.anthropic.com/news/accenture-embedded-evaluation</link>
       <description>Partnering with Accenture on embedded evaluation</description>
@@ -1610,25 +1687,6 @@ Gemini finally caught up on &lt;a href=&quot;https://www.felonybench.com/&quot;&
       <description/>
       <guid>https://tldr.tech/ai/2026-09-18</guid>
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>How To Write With An LLM</title>
-      <link>https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm/</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/&quot;&gt;How To Write With An LLM&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-Thomas Ptacek on using LLMs as copyeditors, not as writing assistants:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Rule Number One: You may not use a single word an LLM suggests to you.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;[...] I think that as a form of intellectual personal protective equipment you should adopt the rule that any specific turn of phrase an LLM suggests is off limits. Be strict about the rule!&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;I won't let LLMs write content for my blog, but I use them for fact-checking, spelling and grammar and as an occasional thesaurus (see &lt;a href=&quot;https://simonwillison.net/guides/agentic-engineering-patterns/prompts/#proofreader&quot;&gt;my proofreading prompt&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;The rule to never use a turn of phrase suggested by an LLM feels good to me. The text has that weird smell to it, and it's also a good principle to help stay disciplined.&lt;/p&gt;
-&lt;p&gt;Later in this piece Thomas shows a screenshot of his personal LLM copyediting tool (see also &lt;a href=&quot;https://x.com/tqbf/status/2100414465187475821&quot;&gt;this Twitter thread&lt;/a&gt;), and provides a prompt to help kickstart building your own.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: Thomas also &lt;a href=&quot;https://news.ycombinator.com/item?id=49747070#49753616&quot;&gt;shared his system prompt&lt;/a&gt; in a comment on Hacker News.
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/thomas-ptacek&quot;&gt;thomas-ptacek&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/writing&quot;&gt;writing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm/</guid>
-      <pubDate>2026-09-17T23:37:27+00:00</pubDate>
     </item>
     <item>
       <title>Introducing the Life Sciences Verification Program</title>
@@ -1664,13 +1722,6 @@ Thomas Ptacek on using LLMs as copyeditors, not as writing assistants:&lt;/p&gt;
       <description/>
       <guid>https://tldr.tech/ai/2026-09-14</guid>
       <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Agents API 🤖, Cognition SWE-2 👨‍💻, Muse Shared Agents 🧑‍🤝‍🧑</title>
-      <link>https://tldr.tech/ai/2026-09-11</link>
-      <description/>
-      <guid>https://tldr.tech/ai/2026-09-11</guid>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Developing Enterprise Frontier Safeguards with our customers</title>
@@ -1959,13 +2010,6 @@ Thomas Ptacek on using LLMs as copyeditors, not as writing assistants:&lt;/p&gt;
       <link>https://www.anthropic.com/news/series-h</link>
       <description>Anthropic raises $65B in Series H funding at $965B post-money valuation</description>
       <guid>https://www.anthropic.com/news/series-h</guid>
-      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing Claude Opus 4.8</title>
-      <link>https://www.anthropic.com/news/claude-opus-4-8</link>
-      <description>Introducing Claude Opus 4.8</description>
-      <guid>https://www.anthropic.com/news/claude-opus-4-8</guid>
       <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

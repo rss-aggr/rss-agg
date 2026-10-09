@@ -3,88 +3,110 @@
     <title>Accessibility Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: Accessibility Combined Feed</description>
-    <lastBuildDate>Thu, 08 Oct 2026 17:56:44 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 17:30:08 +0000</lastBuildDate>
     <item>
-      <title>Why I Replaced Chart.js With Pure CSS</title>
-      <link>https://figsh.medium.com/why-i-replaced-chart-js-with-pure-css-dee5cde29d21?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://figsh.medium.com/why-i-replaced-chart-js-with-pure-css-dee5cde29d21?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/720/1*REy26mr9hqsTfWr-tNCggg.jpeg&quot; width=&quot;720&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;The problem nobody questions anymore&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://figsh.medium.com/why-i-replaced-chart-js-with-pure-css-dee5cde29d21?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/dee5cde29d21</guid>
-      <pubDate>Thu, 08 Oct 2026 13:12:25 GMT</pubDate>
+      <title>How Color Systems Shape Better Digital Products</title>
+      <link>https://devfaysalkhan.medium.com/how-color-systems-shape-better-digital-products-9c69911f5e84?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://devfaysalkhan.medium.com/how-color-systems-shape-better-digital-products-9c69911f5e84?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1919/1*PRpiHnXZppo-UzcyzdIibA.png&quot; width=&quot;1919&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Color is one of the most powerful design tools, and one of the most casually handled. Three ideas fix that.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://devfaysalkhan.medium.com/how-color-systems-shape-better-digital-products-9c69911f5e84?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/9c69911f5e84</guid>
+      <pubDate>Fri, 09 Oct 2026 16:22:12 GMT</pubDate>
     </item>
     <item>
-      <title>AI Glasses Are Becoming More Useful in Everyday Life. Meta’s Latest Move Shows Why.</title>
-      <link>https://medium.com/@michaelmax1608/ai-glasses-are-becoming-more-useful-in-everyday-life-metas-latest-move-shows-why-278426611860?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@michaelmax1608/ai-glasses-are-becoming-more-useful-in-everyday-life-metas-latest-move-shows-why-278426611860?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1672/1*PyR0yKGDAIoI0M1kn6PjSQ.png&quot; width=&quot;1672&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Meta is bringing 1,000 AI-powered smart glasses to disability organizations in Singapore. Beyond the technology itself, the announcement&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@michaelmax1608/ai-glasses-are-becoming-more-useful-in-everyday-life-metas-latest-move-shows-why-278426611860?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/278426611860</guid>
-      <pubDate>Thu, 08 Oct 2026 11:35:16 GMT</pubDate>
+      <title>Decorative Images…</title>
+      <link>https://adrianroselli.com/2026/10/decorative-images.html</link>
+      <description>…aren&amp;#8217;t a thing. Three hand-drawn lines curling together like an S or three skinny snakes trying to spoon. At least not as far as people are concerned. Yes, this is an absolutist take, but sometimes it&amp;#8217;s necessary to take the absolutist position to force someone to justify their own reasoning.&amp;#8230;</description>
+      <guid>https://adrianroselli.com/?p=51707</guid>
+      <pubDate>Fri, 09 Oct 2026 16:02:23 +0000</pubDate>
     </item>
     <item>
-      <title>Part 2: From Five Stars to One Sentence: Semantics for Custom Compose Controls</title>
-      <link>https://medium.com/@sivavishnu0705/part-2-from-five-stars-to-one-sentence-semantics-for-custom-compose-controls-0f6360500ae8?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@sivavishnu0705/part-2-from-five-stars-to-one-sentence-semantics-for-custom-compose-controls-0f6360500ae8?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2600/1*GozK4Tnll7DmUdI_7YZhsA.jpeg&quot; width=&quot;2752&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;One node, one sentence: merging, clearing, state descriptions and custom actions that make hand-built Compose controls work with TalkBack&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@sivavishnu0705/part-2-from-five-stars-to-one-sentence-semantics-for-custom-compose-controls-0f6360500ae8?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/0f6360500ae8</guid>
-      <pubDate>Thu, 08 Oct 2026 11:02:13 GMT</pubDate>
+      <title>Deque named a Leader in the 2026 Gartner® Magic Quadrant™ for Digital Accessibility</title>
+      <link>https://www.deque.com/blog/deque-named-a-leader-in-the-2026-gartner-magic-quadrant-for-digital-accessibility/</link>
+      <description>&lt;p&gt;Deque has been recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Digital Accessibility!&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://www.deque.com/blog/deque-named-a-leader-in-the-2026-gartner-magic-quadrant-for-digital-accessibility/&quot;&gt;Deque named a Leader in the 2026 Gartner® Magic Quadrant™ for Digital Accessibility &lt;/a&gt; appeared first on &lt;a href=&quot;https://www.deque.com&quot;&gt;Deque&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid>https://www.deque.com/?p=65129</guid>
+      <pubDate>Fri, 09 Oct 2026 15:03:01 +0000</pubDate>
     </item>
     <item>
-      <title>I’d Love to Travel. First, Let Me Pack My Replacement Parts.</title>
-      <link>https://medium.com/@troybreiland/id-love-to-travel-first-let-me-pack-my-replacement-parts-7bba43e3890e?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@troybreiland/id-love-to-travel-first-let-me-pack-my-replacement-parts-7bba43e3890e?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1672/1*RMHL-x0t5zZbl8EQSXLLFw.png&quot; width=&quot;1672&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;The retirement brochures show the sunset. They leave out the walker, the medication bag, and the negotiations at security.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@troybreiland/id-love-to-travel-first-let-me-pack-my-replacement-parts-7bba43e3890e?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/7bba43e3890e</guid>
-      <pubDate>Thu, 08 Oct 2026 10:46:01 GMT</pubDate>
+      <title>Agentic Design Workflow: A Complete Guide to Figma MCP, Code Connect, and Accessible Design-to-Code</title>
+      <link>https://dimitari.medium.com/agentic-design-workflow-a-complete-guide-to-figma-mcp-code-connect-and-accessible-design-to-code-7d4dc8057039?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://dimitari.medium.com/agentic-design-workflow-a-complete-guide-to-figma-mcp-code-connect-and-accessible-design-to-code-7d4dc8057039?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2600/1*jouuwbJ7GYtFzvWf0u7hYw.png&quot; width=&quot;3200&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Lessons from bringing AI coding agents into a real enterprise design system, and how you can do the same with yours.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://dimitari.medium.com/agentic-design-workflow-a-complete-guide-to-figma-mcp-code-connect-and-accessible-design-to-code-7d4dc8057039?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/7d4dc8057039</guid>
+      <pubDate>Fri, 09 Oct 2026 13:27:00 GMT</pubDate>
     </item>
     <item>
-      <title>Can AI Create an Artificial Hand That Learns Its Owner?</title>
-      <link>https://medium.com/@gamindapremasiri9/can-ai-create-an-artificial-hand-that-learns-its-owner-98b365161fb9?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@gamindapremasiri9/can-ai-create-an-artificial-hand-that-learns-its-owner-98b365161fb9?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1024/1*b6LSmWEWRgmghHowxxlNRg.png&quot; width=&quot;1024&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;What if a prosthetic hand could learn not just how to move, but how its owner naturally moves?&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@gamindapremasiri9/can-ai-create-an-artificial-hand-that-learns-its-owner-98b365161fb9?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/98b365161fb9</guid>
-      <pubDate>Thu, 08 Oct 2026 10:14:43 GMT</pubDate>
+      <title>Your Portfolio’s Best Feature Is Its Worst Barrier</title>
+      <link>https://medium.com/@tasostilsi/your-portfolios-best-feature-is-its-worst-barrier-d8258a17a7c5?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@tasostilsi/your-portfolios-best-feature-is-its-worst-barrier-d8258a17a7c5?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2600/0*saLNyyWWeMUOfY9w&quot; width=&quot;4846&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;How I redesigned my developer portfolio into something humans actually read, with AI agents doing the typing, me doing the design, and a&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@tasostilsi/your-portfolios-best-feature-is-its-worst-barrier-d8258a17a7c5?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/d8258a17a7c5</guid>
+      <pubDate>Fri, 09 Oct 2026 13:07:29 GMT</pubDate>
     </item>
     <item>
-      <title>Designing an Accessibility Course: Turning Technical Guidelines into Practical Learning</title>
-      <link>https://medium.com/@sakinashoque/designing-an-accessibility-course-turning-technical-guidelines-into-practical-learning-cd74373edc5c?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@sakinashoque/designing-an-accessibility-course-turning-technical-guidelines-into-practical-learning-cd74373edc5c?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1640/1*zJATVlvkaGh3SyI2TzSPgg.png&quot; width=&quot;1640&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;While working alongside women entrepreneurs in the SheConnect community in Qatar, I started noticing a pattern. Different businesses&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@sakinashoque/designing-an-accessibility-course-turning-technical-guidelines-into-practical-learning-cd74373edc5c?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/cd74373edc5c</guid>
-      <pubDate>Thu, 08 Oct 2026 10:02:05 GMT</pubDate>
+      <title>Project Tracker Interface Languages: Who You Lose Without Them</title>
+      <link>https://dganzha.medium.com/project-tracker-interface-languages-who-you-lose-without-them-177e2cc0f89b?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://dganzha.medium.com/project-tracker-interface-languages-who-you-lose-without-them-177e2cc0f89b?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1200/0*cM5zu9q4pchuoawv&quot; width=&quot;1200&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Sprintly ships 50 interface languages. Why a tracker in your team&amp;#x2019;s own language keeps managers, QA and clients inside it &amp;#x2014; and what it&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://dganzha.medium.com/project-tracker-interface-languages-who-you-lose-without-them-177e2cc0f89b?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/177e2cc0f89b</guid>
+      <pubDate>Fri, 09 Oct 2026 10:28:25 GMT</pubDate>
     </item>
     <item>
-      <title>Tables on Mobile: The Problem Isn’t Screen Width</title>
-      <link>https://medium.com/@setarehkhatapoosh/tables-on-mobile-the-problem-isnt-screen-width-cce3f4c8fc32?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@setarehkhatapoosh/tables-on-mobile-the-problem-isnt-screen-width-cce3f4c8fc32?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1374/0*CeQ60rVN-j6WJv1n&quot; width=&quot;1374&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;We shrink a desktop table until it fits a phone screen. It fits, but nobody can read it anymore: headers wrap onto several lines, values&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@setarehkhatapoosh/tables-on-mobile-the-problem-isnt-screen-width-cce3f4c8fc32?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/cce3f4c8fc32</guid>
-      <pubDate>Thu, 08 Oct 2026 09:33:20 GMT</pubDate>
+      <title>Part 4: When the Screen Changes Silently: Live Regions, Headings and Focus in Compose</title>
+      <link>https://medium.com/@sivavishnu0705/part-4-when-the-screen-changes-silently-live-regions-headings-and-focus-in-compose-9173562da48c?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@sivavishnu0705/part-4-when-the-screen-changes-silently-live-regions-headings-and-focus-in-compose-9173562da48c?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2600/1*1pqb8wiUDijSLeeBczYu0Q.jpeg&quot; width=&quot;2752&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Live regions, headings and focus management that keep TalkBack users informed when a Compose screen changes after it first loads&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@sivavishnu0705/part-4-when-the-screen-changes-silently-live-regions-headings-and-focus-in-compose-9173562da48c?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/9173562da48c</guid>
+      <pubDate>Fri, 09 Oct 2026 09:18:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>What’s new in the W3C Website Design System</title>
+      <link>https://www.w3.org/blog/2026/whats-new-in-the-w3c-design-system-september-2026/</link>
+      <description>A significant update to the W3C Website Design System was published at the end of September 2026. Here’s what changed and why.</description>
+      <guid>https://www.w3.org/blog/2026/whats-new-in-the-w3c-design-system-september-2026/</guid>
+      <pubDate>Fri, 09 Oct 2026 07:58:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>BUY REGISTERED AND FAKE PASSPORTS, (https://buygenuinedocs.com/)</title>
+      <link>https://medium.com/@globallegitdocument1/buy-registered-and-fake-passports-https-buygenuinedocs-com-9596d7c0dbe4?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Global Legit Documents LTD&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@globallegitdocument1/buy-registered-and-fake-passports-https-buygenuinedocs-com-9596d7c0dbe4?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/9596d7c0dbe4</guid>
+      <pubDate>Fri, 09 Oct 2026 07:33:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>Carrefour Accessibility and the European Accessibility Act: Key Lessons</title>
+      <link>https://medium.com/@marketing_58999/carrefour-accessibility-and-the-european-accessibility-act-key-lessons-52b497623c3b?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@marketing_58999/carrefour-accessibility-and-the-european-accessibility-act-key-lessons-52b497623c3b?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1200/0*C1prW-b46w-j55xD.png&quot; width=&quot;1200&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;On June 4, 2026, a French court issued a ruling that sent a clear message across Europe: digital accessibility is not a suggestion, a best&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@marketing_58999/carrefour-accessibility-and-the-european-accessibility-act-key-lessons-52b497623c3b?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/52b497623c3b</guid>
+      <pubDate>Fri, 09 Oct 2026 06:16:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>Heading Structure and Landmarks in WCAG Audits</title>
+      <link>https://iaapaudit.medium.com/heading-structure-and-landmarks-in-wcag-audits-01d72f7ebda8?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://iaapaudit.medium.com/heading-structure-and-landmarks-in-wcag-audits-01d72f7ebda8?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1200/1*Lwj4wB62i77QAS90vF0yaw.png&quot; width=&quot;1200&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;The page structure your accessibility report should examine&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://iaapaudit.medium.com/heading-structure-and-landmarks-in-wcag-audits-01d72f7ebda8?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/01d72f7ebda8</guid>
+      <pubDate>Fri, 09 Oct 2026 05:35:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>Plan Community Language Access Before Translation — Feel Worldwide Foundation Inc.</title>
+      <link>https://medium.com/entrepreneurs-worldwide/plan-community-language-access-before-translation-feel-worldwide-foundation-inc-81a8c1b9bee5?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/entrepreneurs-worldwide/plan-community-language-access-before-translation-feel-worldwide-foundation-inc-81a8c1b9bee5?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1672/0*Cvu_1xcAZaPRLrCv&quot; width=&quot;1672&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Build the action, language, channel, reviewer, and response route together so a translated message can actually be used.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/entrepreneurs-worldwide/plan-community-language-access-before-translation-feel-worldwide-foundation-inc-81a8c1b9bee5?source=rss------accessibility-5&quot;&gt;Continue reading on Entrepreneurs Worldwide »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/81a8c1b9bee5</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>GitHub’s Timeline Update: How to Make an AI-Built Activity Feed Accessible in 2026</title>
+      <link>https://marcusykim.medium.com/githubs-timeline-update-how-to-make-an-ai-built-activity-feed-accessible-in-2026-81bf88aeedc6?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://marcusykim.medium.com/githubs-timeline-update-how-to-make-an-ai-built-activity-feed-accessible-in-2026-81bf88aeedc6?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1935/1*94v87MmbCV1z2efZ3-_uNw.png&quot; width=&quot;1935&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;A timeline can look finished while leaving a screen-reader user lost.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://marcusykim.medium.com/githubs-timeline-update-how-to-make-an-ai-built-activity-feed-accessible-in-2026-81bf88aeedc6?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/81bf88aeedc6</guid>
+      <pubDate>Thu, 08 Oct 2026 19:50:44 GMT</pubDate>
     </item>
     <item>
       <title>First Draft Notes: Verifiable Credential Threat Models</title>
       <link>https://www.w3.org/news/2026/first-draft-notes-verifiable-credential-threat-models/</link>
-      <description>&lt;p&gt;The &lt;a href=&quot;https://www.w3.org/groups/wg/vc&quot;&gt;Verifiable Credentials Working Group&lt;/a&gt; has published a series of W3C Working Group Note Drafts for threat models. All identify and analyze security and privacy threats specific to their respective recommendation-track documents:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.w3.org/TR/2026/DNOTE-vc-recognized-entities-threat-model-1.0-20261008/&quot;&gt;Recognized Entities Threat Model v1.0&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.w3.org/TR/2026/DNOTE-vc-data-integrity-threat-model-1.1-20261008/&quot;&gt;Data Integrity Threat Model v1.1&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.w3.org/TR/2026/DNOTE-vc-barcodes-threat-model-1.0-20261008/&quot;&gt;Verifiable Credential Barcodes Threat Model v1.0&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.w3.org/TR/2026/DNOTE-vc-render-method-threat-model-1.0-20261008/&quot;&gt;Verifiable Credentials Render Method Threat Model v1.0&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.w3.org/TR/2026/DNOTE-vcalm-threat-model-1.0-20261008/&quot;&gt;VCALM Threat Model v1.0&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;The working group welcomes comments via GitHub repository issues; the respective repository URL-s can be found in the header of each document.&lt;/p&gt;</description>
+      <description>The Verifiable Credentials Working Group has published a series of W3C Working Group Note Drafts for threat models.</description>
       <guid>https://www.w3.org/news/2026/first-draft-notes-verifiable-credential-threat-models/</guid>
       <pubDate>Thu, 08 Oct 2026 08:32:00 +0000</pubDate>
     </item>
     <item>
-      <title>A PixiJS quest-complete marker that still works with the particles off</title>
-      <link>https://medium.com/@samnovak997/a-pixijs-quest-complete-marker-that-still-works-with-the-particles-off-0a26d475b9a8?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@samnovak997/a-pixijs-quest-complete-marker-that-still-works-with-the-particles-off-0a26d475b9a8?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1120/0*m4o24UTTnZ4booaZ.png&quot; width=&quot;1120&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;A quest-completion marker has one job: tell the player a quest is finished, and keep telling them after the moment has passed. The sparkle&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@samnovak997/a-pixijs-quest-complete-marker-that-still-works-with-the-particles-off-0a26d475b9a8?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/0a26d475b9a8</guid>
-      <pubDate>Thu, 08 Oct 2026 08:06:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>The Accessibility Audit You Skipped Isn’t Just a Legal Risk. It’s a Market You’re Not Reaching.</title>
-      <link>https://medium.com/@RahulVerma_ES/software-development-accessibility-market-reach-884f1dbefc05?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;When accessibility comes up in a software development project, it&amp;#x2019;s usually framed as a legal compliance item &amp;#x2014; something to address&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@RahulVerma_ES/software-development-accessibility-market-reach-884f1dbefc05?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/884f1dbefc05</guid>
-      <pubDate>Thu, 08 Oct 2026 07:46:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>Section 508 ICT Requirements: What Organizations Need to Know</title>
-      <link>https://medium.com/@marketing_58999/section-508-ict-requirements-what-organizations-need-to-know-a1ce43eab44f?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@marketing_58999/section-508-ict-requirements-what-organizations-need-to-know-a1ce43eab44f?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1200/0*GOVjo6lyK8S4QZGk.jpg&quot; width=&quot;1200&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;If your organization develops, procures, maintains, or uses information and communication technology (ICT) with federal funding &amp;#x2014; or sells&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@marketing_58999/section-508-ict-requirements-what-organizations-need-to-know-a1ce43eab44f?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/a1ce43eab44f</guid>
-      <pubDate>Thu, 08 Oct 2026 06:51:07 GMT</pubDate>
-    </item>
-    <item>
       <title>W3C issues press release about developing Verifiable Credential Barcodes</title>
       <link>https://www.w3.org/news/2026/w3c-issues-press-release-about-developing-verifiable-credential-barcodes/</link>
-      <description>&lt;p&gt;Recently the data theft of approximately 160 million drivers licenses from the US and Canada was reported and unfortunately, identity thieves will use this data to impersonate victims. Real-time revocation is needed to protect individuals against identity theft. The future of physical document security is being decided as we speak. W3C Verifiable Credential Barcodes are the solution — and the technology is open and free for all to use. The Verifiable Credential Barcodes technology we are building in the W3C Verifiable Credentials Working Group is already protecting millions of people from identity theft and fraud, with the potential to protect billions more. We want to make sure that government organizations and policymakers know that there is a free and open solution to this problem that is being designed for the public good.&lt;/p&gt;&lt;p&gt;Learn more in our press release: &lt;a href=&quot;https://www.w3.org/press-releases/2026/data-breaches-identity-theft-and-revocation-a-real-world-case-study-on-why-w3c-is-developing-verifiable-credential-barcodes/&quot;&gt;Data breaches, identity theft, and revocation: a real-world case study on why W3C is developing Verifiable Credential Barcodes&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>In a press release we present the concept of real-time revocation that is being developed in the W3C Verifiable Credentials Barcodes specification to protect physical documents.</description>
       <guid>https://www.w3.org/news/2026/w3c-issues-press-release-about-developing-verifiable-credential-barcodes/</guid>
       <pubDate>Wed, 07 Oct 2026 17:50:00 +0000</pubDate>
     </item>
@@ -648,14 +670,6 @@ This, of course, is only a standard minimal setup I use. Your needs and requirem
       <description>This document describes the process of obtaining a DID document and accompanying metadata for a specific DID.</description>
       <guid>https://www.w3.org/news/2026/w3c-invites-implementations-of-decentralized-identifier-resolution-did-resolution-v1/</guid>
       <pubDate>Thu, 06 Aug 2026 09:16:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>New in Axe MCP Server: More automated coverage and streamlined developer workflows</title>
-      <link>https://www.deque.com/blog/new-in-axe-mcp-server-more-automated-coverage-and-streamlined-developer-workflows/</link>
-      <description>&lt;p&gt;Automated accessibility testing helps teams catch issues earlier in the development workflow and reduce manual effort. However, some of the most complex accessibility checks have traditionally required guided or manual testing. With the latest Axe MCP Server updates, your developers can now automate even more accessibility testing directly inside their coding workflows.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://www.deque.com/blog/new-in-axe-mcp-server-more-automated-coverage-and-streamlined-developer-workflows/&quot;&gt;New in Axe MCP Server: More automated coverage and streamlined developer workflows&lt;/a&gt; appeared first on &lt;a href=&quot;https://www.deque.com&quot;&gt;Deque&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid>https://www.deque.com/?p=61604</guid>
-      <pubDate>Wed, 05 Aug 2026 11:23:58 +0000</pubDate>
     </item>
     <item>
       <title>Group Note: Further Aligning W3C's Program of Technical Work with Human Rights</title>
@@ -1368,13 +1382,6 @@ customElements.define(&quot;the-section&quot;, Section);&lt;/code&gt;&lt;/pre&gt
       <pubDate>Thu, 28 May 2026 21:20:02 +0000</pubDate>
     </item>
     <item>
-      <title>Maybe Don’t Rely on Google’s “Modern Web Guidance”</title>
-      <link>https://adrianroselli.com/2026/05/maybe-dont-rely-on-googles-modern-web-guidance.html</link>
-      <description>Just in time for Google I/O, the Chrome for Developers site announced Modern Web Guidance (MWG): Modern Web Guidance is a set of evergreen and expert-vetted skills that guide your AI coding agents across many common use cases to build modern web experiences that are accessible, performant, and secure. Build&amp;#8230;</description>
-      <guid>https://adrianroselli.com/?p=49085</guid>
-      <pubDate>Mon, 25 May 2026 14:08:02 +0000</pubDate>
-    </item>
-    <item>
       <title>W3C Japan Member Meeting and W3C in Japan 30th Anniversary Ceremony</title>
       <link>https://www.w3.org/blog/2026/w3c-japan-member-meeting-and-w3c-in-japan-30th-anniversary-ceremony/</link>
       <description>On 14 May 2026 W3C held its Japan Member Meeting with presentations reflected the latest developments and offered valuable insights into future W3C activities. Following that, it hosted the “W3C in Japan 30th Anniversary Reception” with W3C members and also many alumni who have established shape W3C in Japan over the years.</description>
@@ -1683,13 +1690,6 @@ customElements.define(&quot;the-section&quot;, Section);&lt;/code&gt;&lt;/pre&gt
 &lt;p&gt;The post &lt;a href=&quot;https://www.tpgi.com/weekly-reading-list-march-30-2026/&quot;&gt;Weekly Reading List March 30 2026&lt;/a&gt; appeared first on &lt;a href=&quot;https://www.tpgi.com&quot;&gt;TPGi — a Vispero company&lt;/a&gt;.&lt;/p&gt;</description>
       <guid>https://www.tpgi.com/?p=10852</guid>
       <pubDate>Mon, 30 Mar 2026 12:56:50 +0000</pubDate>
-    </item>
-    <item>
-      <title>Testing Font Scaling For Accessibility With Figma Variables</title>
-      <link>https://www.smashingmagazine.com/2026/03/testing-font-scaling-accessibility-figma-variables/</link>
-      <description>Accessibility works best when it blends into everyday design workflows. The goal isn’t a big transformation, but simple work processes that fit naturally into a team’s routine. With Figma variables, testing font size increases becomes part of the design flow itself, making accessibility feel almost inevitable rather than optional.</description>
-      <guid>https://www.smashingmagazine.com/2026/03/testing-font-scaling-accessibility-figma-variables/</guid>
-      <pubDate>Tue, 24 Mar 2026 13:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
