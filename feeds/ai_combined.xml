@@ -3,7 +3,17 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Fri, 09 Oct 2026 17:29:59 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 16:18:36 +0000</lastBuildDate>
+    <item>
+      <title>Quoting The New York Times</title>
+      <link>https://simonwillison.net/2026/Oct/10/the-new-york-times/</link>
+      <description>&lt;blockquote cite=&quot;https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html&quot;&gt;&lt;p&gt;Anthropic detailed the activity of its A.I. agents in &lt;a href=&quot;https://www.anthropic.com/research/investigating-unintended-model-actions&quot;&gt;a blog post&lt;/a&gt; on Friday, without naming the targeted websites. But two sources with knowledge of the incidents said Anthropic’s A.I. agents had submitted 20 visa applications through a form available on the State Department’s website. All the applications were incomplete and were not processed, they said.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html&quot;&gt;The New York Times&lt;/a&gt;, Anthropic Agents Tried to Fill Out Visa Forms on State Dept. Website&lt;/p&gt;
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/accidental-cyberattacks&quot;&gt;accidental-cyberattacks&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Oct/10/the-new-york-times/</guid>
+      <pubDate>2026-10-10T02:04:12+00:00</pubDate>
+    </item>
     <item>
       <title>Quoting Matthew Green</title>
       <link>https://simonwillison.net/2026/Oct/9/matthew-green/</link>
@@ -1614,58 +1624,6 @@ I'm hosting an evening event with Jesse Vincent in San Francisco on Wednesday 14
       <description/>
       <guid>https://tldr.tech/ai/2026-09-22</guid>
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Jev introduces a new shape of LLM - System One, aka Decision Models</title>
-      <link>https://simonwillison.net/2026/Sep/21/jev/</link>
-      <description>&lt;p&gt;Last week &lt;a href=&quot;https://typesafe.ai/&quot;&gt;TypeSafe AI&lt;/a&gt; unveiled &lt;a href=&quot;https://typesafe.ai/blog/introducing-system-one-models-and-jev&quot;&gt;Jev&lt;/a&gt;, their first example of a new category of model that they are calling &quot;System One models&quot; (I'm with Maggie Appleton, I think &quot;decision models&quot; is &lt;a href=&quot;https://twitter.com/Mappletons/status/2101560333441610133&quot;&gt;a better name&lt;/a&gt; for these). Jev is an interesting variant on the usual LLM format: it still accepts text inputs, but instead of text output it returns floating point numbers corresponding to categories, yes/no questions, ratings, and associated confidence scores.&lt;/p&gt;
-&lt;p&gt;TypeSafe describe Jev like this:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Think of Jev as a frontier-intelligence function call: unstructured state in, typed probabilistic decisions out.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;It's also very fast, and &lt;em&gt;really cheap&lt;/em&gt;. Regular LLMs &lt;a href=&quot;https://www.llm-prices.com&quot;&gt;are priced&lt;/a&gt; in terms of input and output tokens, with output generally charged at significantly higher rates. Jev charges only for input - output is free - and the input price of their first model is $0.042 per million tokens - cheaper even than OpenAI's &lt;a href=&quot;https://developers.openai.com/api/docs/models/gpt-5-nano&quot;&gt;GPT-5 Nano&lt;/a&gt; ($0.05/million).&lt;/p&gt;
-&lt;h4 id=&quot;three-types&quot;&gt;Three types of question&lt;/h4&gt;
-&lt;p&gt;Jev lets you ask questions about text or semi-structured data. You compose a &quot;state&quot; object containing a string, array of strings, or set of name-value pairs - this might describe an article, or a customer, or any other kind of record. You then send that to their API with one or more questions, and get a reply back for each.&lt;/p&gt;
-&lt;p&gt;You can ask three kinds of questions:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Yes/No questions, which Jev calls &quot;Noul&quot; questions - their CEO &lt;a href=&quot;https://news.ycombinator.com/item?id=49717558#49718407&quot;&gt;confirmed on Hacker News&lt;/a&gt; that this is short for Bernoulli, from the &lt;a href=&quot;https://en.wikipedia.org/wiki/Bernoulli_distribution&quot;&gt;Bernoulli distribution&lt;/a&gt;. You pose a statement and get back a floating point number between 0 and 1 for how confident the model is that the statement is true.&lt;/li&gt;
-&lt;li&gt;Choice questions, where the model picks one from a set of provided options - actually a confidence score plus a probability distribution across all of the options.&lt;/li&gt;
-&lt;li&gt;Score questions, where you provide sequence of numeric levels with descriptions and it provides a floating point score somewhere along that range.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The Jev API can accept a single document (&quot;state&quot;) and as many questions as you can cram into the context window. Questions are evaluated in parallel, so sending many questions should take a similar time to sending just one.&lt;/p&gt;
-&lt;p&gt;The &lt;a href=&quot;https://docs.typesafe.ai/model-jaggedness/jev-1.13&quot;&gt;Jev 1.13 jaggedness&lt;/a&gt; documentation offers useful guidance as to Jev's strengths and weaknesses. It's currently not great with numbers, dates, or &quot;adversarial content&quot;.&lt;/p&gt;
-&lt;p&gt;I think the &lt;strong&gt;decision model&lt;/strong&gt; framing is useful for understanding where to use Jev. It's great for anything that can be expressed as a classification task - think spam detection, suggesting labels, prioritization and ranking.&lt;/p&gt;
-&lt;p&gt;I've also been experimenting with it for search reranking, where you fetch 100 likely matches using an inexpensive algorithm like BM25, then have Jev score those 100 candidates for relevance against the original query.&lt;/p&gt;
-&lt;h4 id=&quot;black-boxes-are-back-in-fashion&quot;&gt;Black boxes are back in fashion&lt;/h4&gt;
-&lt;p&gt;Something I've found a little uncomfortable about Jev is how it very much represents a regression even further towards black box machine learning systems.&lt;/p&gt;
-&lt;p&gt;LLMs are black boxes already - you can ask them to justify their decisions, but you can't guarantee that what they say is useful or accurate.&lt;/p&gt;
-&lt;p&gt;Jev doesn't even give you that: put in all the text you want, the only thing you're going to get back is a floating point number. If Jev marks something as spam, which content signals tipped it off?&lt;/p&gt;
-&lt;p&gt;This also means that concerns about bias should be front and center. I really hope nobody uses Jev to rank job applicants - that floating point number could conceal all manner of unseen bias baked into the models, and experimentally picking that bias apart is going to be a tricky business.&lt;/p&gt;
-&lt;p&gt;(I tried one experiment where I had Jev score every city in the San Francisco Bay Area on a yes/no answer to whether they were a &quot;Good city?&quot; - it rated &lt;a href=&quot;https://en.wikipedia.org/wiki/Cupertino,_California&quot;&gt;Cupertino&lt;/a&gt; top and &lt;a href=&quot;https://en.wikipedia.org/wiki/East_Palo_Alto,_California&quot;&gt;East Palo Alto&lt;/a&gt; bottom. Huh.)&lt;/p&gt;
-&lt;p&gt;In practice, this all means that evals and structured experiments are even more important than they are for regular LLM projects. Thankfully, Jev is so cheap that running hundreds or even thousands of experimental prompts through it costs just a few cents.&lt;/p&gt;
-&lt;h4 id=&quot;unconventional-uses-for-jev&quot;&gt;Unconventional uses for Jev&lt;/h4&gt;
-&lt;p&gt;It's been really fun watching the wider community come up with potential use-cases for Jev over the past few days. Here are some creative ones that caught my eye:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href=&quot;https://github.com/kyle-pena-nlp/jevchat/&quot;&gt;jevchat&lt;/a&gt; by Kyle Pena turns Jev into a (terrible) chat model. &quot;At every step it asks Jev one question: Given the user's question and the reply written so far, which symbol comes next?&quot;. &lt;a href=&quot;https://news.ycombinator.com/item?id=49778162#49778423&quot;&gt;ericpruitt on Hacker News&lt;/a&gt;: &quot;It's the digital equivalent of Morty speaking with the death crystal&quot;.&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&quot;https://github.com/f/jev-leftpad&quot;&gt;jev-leftpad&lt;/a&gt; by Fatih Kadir Akın implements &lt;a href=&quot;https://www.npmjs.com/package/left-pad&quot;&gt;left-pad&lt;/a&gt; with the prompt &quot;How many spaces are needed before value to reach targetLength?&quot; and &lt;a href=&quot;https://github.com/f/jev-leftpad/blob/4f405354de756cc372826d19aa8dfbee2b675778/src/index.js#L9-L30&quot;&gt;a choice query&lt;/a&gt; allowing options from &quot;0 spaces are needed&quot; to &quot;10 spaces are needed&quot;.&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&quot;https://gist.github.com/cablehead/bdf9ad946ceb26d9008976e49c9bfbbb&quot;&gt;jev-2048&lt;/a&gt; by Andy Gayton uses Jev to play &lt;a href=&quot;https://simple-jev.featherless.ai/cool-demo/2048/&quot;&gt;the 2048 sliding puzzle game&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&quot;open-weight-recreations&quot;&gt;Open weight recreations&lt;/h4&gt;
-&lt;p&gt;There's also been a flurry of projects attempting to create a model like Jev using on top of open weight models. &lt;a href=&quot;https://github.com/jaredpalmer/kev&quot;&gt;Kev&lt;/a&gt; is one interesting example, using Qwen 3.5 to produce 0.8B, 4B, and 9B models. Here's the &lt;a href=&quot;https://news.ycombinator.com/item?id=49783999&quot;&gt;accompanying Hacker News thread&lt;/a&gt;, where someone linked to a &lt;a href=&quot;https://benchmarkheaven.com/jev-models&quot;&gt;JevBench&lt;/a&gt; benchmark that has already cropped up to compare &quot;Jev-class decision models&quot;.&lt;/p&gt;
-&lt;p&gt;Given Jev was released just under a week ago, the amount of activity around it is extremely impressive.&lt;/p&gt;
-
-&lt;h4 id=&quot;using-jev-from-llm&quot;&gt;Using Jev from LLM&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;Update 22nd September 2026&lt;/strong&gt;: I released &lt;a href=&quot;https://github.com/simonw/llm-typesafe&quot;&gt;llm-typesafe&lt;/a&gt;, a plugin that adds support for Jev to my &lt;a href=&quot;https://llm.datasette.io/&quot;&gt;LLM&lt;/a&gt; CLI tool and Python library. Basic usage looks like this:&lt;/p&gt;
-&lt;div class=&quot;highlight highlight-source-shell&quot;&gt;&lt;pre&gt;llm -m jev &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;'&lt;/span&gt;Please refund my last payment.&lt;span class=&quot;pl-pds&quot;&gt;'&lt;/span&gt;&lt;/span&gt; \
-  -s &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;'&lt;/span&gt;Does this message explicitly request a refund?&lt;span class=&quot;pl-pds&quot;&gt;'&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;See &lt;a href=&quot;https://github.com/simonw/llm-typesafe/blob/main/README.md&quot;&gt;the README&lt;/a&gt; for examples of other query types.&lt;/p&gt;
-    
-        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/evals&quot;&gt;evals&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-bias&quot;&gt;ai-bias&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/jev&quot;&gt;jev&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Sep/21/jev/</guid>
-      <pubDate>2026-09-21T23:09:20+00:00</pubDate>
     </item>
     <item>
       <title>Muse connectors 🤖, Meta SAM 3.1 🖼️, Gemini hacks companies 🔓</title>
