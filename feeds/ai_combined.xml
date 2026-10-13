@@ -3,7 +3,39 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Mon, 12 Oct 2026 20:22:47 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 18:25:25 +0000</lastBuildDate>
+    <item>
+      <title>Quoting Geoffrey Huntley</title>
+      <link>https://simonwillison.net/2026/Oct/13/geoffrey-huntley/</link>
+      <description>&lt;blockquote cite=&quot;https://ghuntley.com/agency/&quot;&gt;&lt;p&gt;If the agent isn't using my diagnostics library, I could introspect and update AGENTS.md, but there's still a delta, and it'll drift. Instead, I write a pre-commit hook that checks the git diff for direct calls to observability modules that bypass my diagnostics module. Boom: fail the commit, inject a prompt telling the agent to use the diagnostics library. All of a sudden it's ten out of ten.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://ghuntley.com/agency/&quot;&gt;Geoffrey Huntley&lt;/a&gt;, nobody should type code by hand anymore. here's what's left.&lt;/p&gt;
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/git&quot;&gt;git&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/geoffrey-huntley&quot;&gt;geoffrey-huntley&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/agentic-engineering&quot;&gt;agentic-engineering&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Oct/13/geoffrey-huntley/</guid>
+      <pubDate>2026-10-13T13:32:00+00:00</pubDate>
+    </item>
+    <item>
+      <title>Muse Wonder ✨, Maia 300 ⚡, AI self-replication 🧬</title>
+      <link>https://tldr.tech/ai/2026-10-13</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-10-13</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>web-edit 0.1a0</title>
+      <link>https://simonwillison.net/2026/Oct/12/web-edit/</link>
+      <description>&lt;p&gt;&lt;strong&gt;Release:&lt;/strong&gt; &lt;a href=&quot;https://github.com/simonw/web-edit/releases/tag/0.1a0&quot;&gt;web-edit 0.1a0&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;I was working on a project from my phone using Codex Remote when I found myself wanting to edit a credentials file without round-tripping those credentials through the LLM itself.&lt;/p&gt;
+&lt;p&gt;So... I had Codex and GPT-6 Astra Extra High build this Python web app which provides a web UI for viewing and editing files in a folder. It's intended to be run over Tailscale, so I can have an agent start this running and then edit files via my Tailscale network directly from my phone.&lt;/p&gt;
+&lt;p&gt;Here's the interface for browsing files in a folder:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Screenshot of a web file manager interface. Header reads &amp;quot;WORKSPACE&amp;quot; above the title &amp;quot;Files&amp;quot;, with buttons &amp;quot;Refresh&amp;quot;, &amp;quot;Upload files&amp;quot; and &amp;quot;New file&amp;quot; (dark green). A breadcrumb shows &amp;quot;web-edit / web_edit / static&amp;quot;. A table with columns &amp;quot;Name&amp;quot;, &amp;quot;Size&amp;quot;, &amp;quot;Modified&amp;quot; lists four files, each with &amp;quot;Download ↓&amp;quot; and &amp;quot;Delete&amp;quot; links: &amp;quot;app.css&amp;quot; 8.4 KB Oct 12, 2026; &amp;quot;app.js&amp;quot; 671.5 KB Oct 12, 2026; &amp;quot;index.html&amp;quot; 4.3 KB Oct 12, 2026 (underlined, as if hovered); &amp;quot;THIRD_PARTY_LICENSES.txt&amp;quot; 32.3 KB Oct 12, 2026. Below the table: &amp;quot;Images under 2 MB appear inline. Select a text file to edit it.&amp;quot; A panel below is labelled &amp;quot;UPLOAD QUEUE&amp;quot; with heading &amp;quot;Add files&amp;quot; and a &amp;quot;Close&amp;quot; button. It has a &amp;quot;Destination folder&amp;quot; text field containing &amp;quot;web_edit&amp;quot;, then a dashed drop zone reading &amp;quot;Choose files or drop them here&amp;quot; and &amp;quot;Set a path and filename for each file before uploading.&amp;quot; with a &amp;quot;Choose Files&amp;quot; button and the text &amp;quot;no files selected&amp;quot;. A greyed-out &amp;quot;Upload files&amp;quot; button sits at the bottom right.&quot; src=&quot;https://static.simonwillison.net/static/2026/web-edit.webp&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Editing uses &lt;a href=&quot;https://codemirror.net&quot;&gt;CodeMirror 6&lt;/a&gt; - I was going to use &lt;a href=&quot;https://microsoft.github.io/monaco-editor/&quot;&gt;Monaco&lt;/a&gt; but that still doesn't have a great mobile experience yet.&lt;/p&gt;
+    
+    
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/projects&quot;&gt;projects&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/python&quot;&gt;python&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/tailscale&quot;&gt;tailscale&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/codex&quot;&gt;codex&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Oct/12/web-edit/</guid>
+      <pubDate>2026-10-12T15:54:36+00:00</pubDate>
+    </item>
     <item>
       <title>Gemini 4 Carbon 🧠, Nvidia weighs Reflection acquihire 💰, decision model race 🤖</title>
       <link>https://tldr.tech/ai/2026-10-12</link>
@@ -1502,130 +1534,6 @@ I'm hosting an evening event with Jesse Vincent in San Francisco on Wednesday 14
       <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war</title>
-      <link>https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/</link>
-      <description>&lt;p&gt;Yesterday was &lt;a href=&quot;https://x.ai/news/grok-4-7&quot;&gt;Grok 4.7&lt;/a&gt; (&lt;a href=&quot;https://news.ycombinator.com/item?id=49788838#49790209&quot;&gt;pelicans&lt;/a&gt;) and &lt;a href=&quot;https://mimo.xiaomi.com/mimo-v2-6&quot;&gt;MiMo v2.6 Flash/Pro&lt;/a&gt; (&lt;a href=&quot;https://news.ycombinator.com/item?id=49792730#49793480&quot;&gt;more pelicans&lt;/a&gt;). Today Anthropic &lt;a href=&quot;https://www.anthropic.com/claude-opus-5-5&quot;&gt;released Claude Opus 5.5&lt;/a&gt;, and around an hour later OpenAI &lt;a href=&quot;https://openai.com/index/introducing-gpt-6-sol-and-luna/&quot;&gt;released GPT-6 Sol and GPT-6 Luna&lt;/a&gt;. It's going to take a while to get a good read on all of these new models, but here are my impressions so far.&lt;/p&gt;
-&lt;h4 id=&quot;gpt-6-sol-and-luna-are-half-the-price-of-their-gpt-5-6-equivalents&quot;&gt;GPT-6 Sol and Luna are half the price of their GPT-5.6 equivalents&lt;/h4&gt;
-&lt;p&gt;GPT-5.6 Luna was already my favorite model for building applications against, because it combined excellent performance with being &lt;em&gt;really cheap&lt;/em&gt;. Somehow GPT-6 Luna is half the price of that again - and GPT-6 Sol had a similar reduction compared to GPT-5.6 Sol.&lt;/p&gt;
-&lt;p&gt;Here's what the pricing landscape looks like today:&lt;/p&gt;
-&lt;center&gt;&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Model&lt;/th&gt;
-      &lt;th&gt;Input&lt;/th&gt;
-      &lt;th&gt;Cached input&lt;/th&gt;
-      &lt;th&gt;Output&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;GPT-6 Luna&lt;/td&gt;
-      &lt;td&gt;$0.10/M&lt;/td&gt;
-      &lt;td&gt;$0.01/M&lt;/td&gt;
-      &lt;td&gt;$0.50/M&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;GPT-5.6 Luna&lt;/td&gt;
-      &lt;td&gt;$0.20/M&lt;/td&gt;
-      &lt;td&gt;$0.02/M&lt;/td&gt;
-      &lt;td&gt;$1.20/M&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Grok 4.7&lt;/td&gt;
-      &lt;td&gt;$2/M&lt;/td&gt;
-      &lt;td&gt;$0.50/M&lt;/td&gt;
-      &lt;td&gt;$6/M&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;GPT-6 Sol&lt;/td&gt;
-      &lt;td&gt;$2/M&lt;/td&gt;
-      &lt;td&gt;$0.20/M&lt;/td&gt;
-      &lt;td&gt;$10/M&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;GPT-5.6 Terra&lt;/td&gt;
-      &lt;td&gt;$2/M&lt;/td&gt;
-      &lt;td&gt;$0.20/M&lt;/td&gt;
-      &lt;td&gt;$12/M&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Claude Opus 5.5&lt;/td&gt;
-      &lt;td&gt;$4/M&lt;/td&gt;
-      &lt;td&gt;$0.20/M&lt;/td&gt;
-      &lt;td&gt;$20/M&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;GPT-5.6 Sol&lt;/td&gt;
-      &lt;td&gt;$4/M&lt;/td&gt;
-      &lt;td&gt;$0.40/M&lt;/td&gt;
-      &lt;td&gt;$20/M&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Claude Fable 5.1&lt;/td&gt;
-      &lt;td&gt;$10/M&lt;/td&gt;
-      &lt;td&gt;$0.25/M&lt;/td&gt;
-      &lt;td&gt;$50/M&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;GPT-6 Astra&lt;/td&gt;
-      &lt;td&gt;$10/M&lt;/td&gt;
-      &lt;td&gt;$1/M&lt;/td&gt;
-      &lt;td&gt;$50/M&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;&lt;/center&gt;
-&lt;p&gt;Note that GPT-5.6 has a scheduled 25% price increase for November, so GPT-6 is half the price of the &lt;em&gt;promotional&lt;/em&gt; pricing for those models.&lt;/p&gt;
-&lt;p&gt;(With GPT-5.6 Terra priced the same as GPT-6 Sol, any remaining reasons to use Terra just evaporated.)&lt;/p&gt;
-&lt;p&gt;It's hard to overstate how competitive this pricing is. Grok 4.7 priced itself at $2/$6, less than half the price of GPT-5.6 Sol, but is now equally priced to GPT-6 Sol on input and closer on output.&lt;/p&gt;&lt;p&gt;At $0.10/$0.50 GPT-6 Luna is one of the cheapest models OpenAI have ever released, beaten only by the far weaker GPT-4.1 Nano ($0.10/$0.40, April 2025) and GPT-5 Nano ($0.05/$0.40, August 2025).&lt;/p&gt;
-&lt;p&gt;I rendered &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F40d129fc140faca378b9c9f4f16c6ec2&quot;&gt;pelicans for GPT-6 Luna&lt;/a&gt; and &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Fbe7ae25af2634b68bc34b7b7aaf02cb2&quot;&gt;for GPT-6 Sol&lt;/a&gt;, then I combined them all together in &lt;a href=&quot;https://static.simonwillison.net/static/2026/gpt-pelicans-grid.html&quot;&gt;this comparison grid&lt;/a&gt; along with the GPT-5.6 pelicans. I like how you can instantly see that the 5.6 family chose bolder, brighter colors, while the 6 family is a lot more muted. I still think GPT-6 Astra on max produced the best pelican.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;A grid of pelicans for six GPT models at different thinking efforts.&quot; src=&quot;https://static.simonwillison.net/static/2026/gpt-pelicans-grid.webp&quot; /&gt;&lt;/p&gt;
-&lt;h4 id=&quot;claude-opus-5-5-got-a-price-cut-too&quot;&gt;Claude Opus 5.5 got a price cut too&lt;/h4&gt;
-&lt;p&gt;Opus 5.5 looks like it addresses the biggest complaints people had about Opus in terms of its communication style. &lt;a href=&quot;https://twitter.com/trq212/status/2102437686967738431&quot;&gt;Thariq Shihipar&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Opus 5.5 is the result of your feedback.&lt;/p&gt;
-&lt;p&gt;It communicates clearly, it's cheaper per token than Opus 5.0 with the intelligence of Fable 5.1 it's very token efficient and works across every effort level.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;It's also meant to be &lt;a href=&quot;https://twitter.com/alexalbert__/status/2102466523164274839&quot;&gt;better at Blender&lt;/a&gt;. I'm looking forward to putting it through its paces there.&lt;/p&gt;
-&lt;p&gt;Opus 4.5, 4.6, 4.7, 4.8, and 5 all shared the same price: $5/million tokens for input and $25/million for output. 5.5 is a 20% reduction - $4/million and $20/million.&lt;/p&gt;
-&lt;p&gt;The price for cache reads fell 60%. That's significant for longer agentic conversations, where 90%+ of input tokens are processed at cached token prices.&lt;/p&gt;
-&lt;p&gt;The new price for Opus 5.5 is the same as the price for GPT-5.6 Sol, but that was &lt;em&gt;before&lt;/em&gt; OpenAI dropped their Sol prices by half.&lt;/p&gt;
-&lt;p&gt;GPT-6 Astra and Claude Fable 5.1 are both priced at $10/million input and $50/million output. The price war currently affects the next tier of models below that.&lt;/p&gt;
-&lt;p&gt;Anthropic say that Sonnet 5.5 and Haiku 5.5 are coming soon. It's going to be interesting to see if Haiku can regain its price competitiveness at the lower end, given current Haiku 4.5 is $1/$5 while the latest GPT-6 Luna is &lt;em&gt;one tenth&lt;/em&gt; of that price at $0.10/$0.50.&lt;/p&gt;
-&lt;h4 id=&quot;claude-opus-5-5-max-over-thinks-to-the-point-of-breaking&quot;&gt;Claude Opus 5.5 max over-thinks to the point of breaking&lt;/h4&gt;
-&lt;p&gt;In a first for my &quot;&lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle/&quot;&gt;Generate an SVG of a pelican riding a bicycle&lt;/a&gt;&quot; test, Claude Opus 5.5 at &quot;max&quot; thinking level failed to return a response!&lt;/p&gt;
-&lt;p&gt;It started by calling this &quot;a classic test request&quot;, and then thought really, &lt;em&gt;really&lt;/em&gt; hard about what it was doing:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;This is a classic test request, so I want to plan out a well-composed pelican with its distinctive beak and pouch riding a bicycle with proper wheels, frame, and pedals, set against a simple sky and ground backdrop. [...]&lt;/p&gt;
-&lt;p&gt;Verifying the shin length checks out at roughly 95.2, close enough. Now I'm working out the near leg path from hip to knee to ankle, then sketching the foot shape resting on the pedal — outlining the heel, toe tips, and sole contour with a path using lines and curves to sit naturally on the pedal surface around y=478-494. [...]&lt;/p&gt;
-&lt;p&gt;I like the fish sticking prominently out of the basket with the pelican eyeing it as a fun detail worth keeping. I'm also confirming the eye placement near the bill base matches typical pelican anatomy, and considering giving it a slightly happier expression. [...]&lt;/p&gt;
-&lt;p&gt;The far leg reads correctly as passing behind the frame, so I'm moving on to check the chainring teeth and confirm layer ordering—the far crank arm should be mostly hidden by the seat tube and chainring. I'm settling on the final SVG's width and height attributes alongside the viewBox to ensure proper scaling, noting there's no text so no font-family is needed. [...]&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;I was so excited to see this pelican... but then it &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F61fd7c3683fffce9a3ab7c43d1180024#response-4&quot;&gt;stopped&lt;/a&gt;. Opus 5.5 has a 128,000 maximum output token limit (as do the other Claude models), and it hit that while it was still reasoning about the SVG!&lt;/p&gt;
-&lt;p&gt;I tried a second time and got the same result. This makes me suspect that &quot;max&quot; is effectively useless - if it over-thinks to breaking point on a stupid SVG prompt I don't trust it not to do the same for more interesting work.&lt;/p&gt;
-&lt;p&gt;(Those two failures each cost me &lt;a href=&quot;https://www.llm-prices.com/#it=27&amp;amp;ot=128000&amp;amp;sel=claude-opus-5-5&quot;&gt;$2.56&lt;/a&gt; and took nearly 20 minutes.)&lt;/p&gt;
-&lt;p&gt;Fable 5.1 on &quot;max&quot; didn't over-think and did give me &lt;a href=&quot;https://simonwillison.net/2026/Sep/1/claude-fable-5-1/#max&quot;&gt;the best pelican I've seen&lt;/a&gt; from any Anthropic model.&lt;/p&gt;
-&lt;p&gt;Here are &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F61fd7c3683fffce9a3ab7c43d1180024&quot;&gt;the Opus 5.5 pelicans&lt;/a&gt;, excluding 5.5 max.&lt;/p&gt;
-&lt;p&gt;I also built &lt;a href=&quot;https://static.simonwillison.net/static/2026/claude-pelicans-grid.html&quot;&gt;this comparison grid&lt;/a&gt; comparing them with pelicans by Opus 5, Fable 5.1, and Sonnet 5:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;A grid of pelicans for four Claude models at different thinking efforts.&quot; src=&quot;https://static.simonwillison.net/static/2026/claude-pelicans-grid.webp&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Comparing different model vendors by how well they draw a pelican riding a bicycle may not make much sense now (if it ever did), but I'm still finding value in using them for comparisons of the same model families at different reasoning levels.&lt;/p&gt;
-&lt;p&gt;I'm now using GPT-6 Sol and Claude Opus 5.5 as my default models in Codex and Claude Code. I've upgraded the Datasette Agent demo at &lt;a href=&quot;https://agent.datasette.io/&quot;&gt;agent.datasette.io&lt;/a&gt; to use GPT-6 Luna, and it seems to be fast and competent at both SQL queries and building HTML and JavaScript for &lt;a href=&quot;https://simonwillison.net/2026/Jun/18/datasette-apps/&quot;&gt;Datasette Apps&lt;/a&gt;.&lt;/p&gt;
-    
-        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-pricing&quot;&gt;llm-pricing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-release&quot;&gt;llm-release&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gpt&quot;&gt;gpt&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gpt-6-astra&quot;&gt;gpt-6-astra&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/</guid>
-      <pubDate>2026-09-22T23:46:41+00:00</pubDate>
-    </item>
-    <item>
-      <title>Quoting @therealcornpop</title>
-      <link>https://simonwillison.net/2026/Sep/22/therealcornpop/</link>
-      <description>&lt;blockquote cite=&quot;https://www.tiktok.com/@therealcornpop/video/7687243097801051422&quot;&gt;&lt;p&gt;Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of &quot;it's not X, it's Y&quot;, or the rule of three, or the really weird broken staccato-like way of writing where you just say a lot of things with all these punctuation marks. and it sounds really deep, but it's not.&lt;/p&gt;
-&lt;p&gt;It's the lack of &lt;em&gt;anything&lt;/em&gt;. It's the lack of a definitive sort of spear of your voice. It's the fact I can tell you don't have opinions about the thing that you're talking about.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://www.tiktok.com/@therealcornpop/video/7687243097801051422&quot;&gt;@therealcornpop&lt;/a&gt;, on TikTok&lt;/p&gt;
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/tiktok&quot;&gt;tiktok&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-misuse&quot;&gt;ai-misuse&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Sep/22/therealcornpop/</guid>
-      <pubDate>2026-09-22T18:03:21+00:00</pubDate>
-    </item>
-    <item>
       <title>Opus 5.5 imminent ⏳, Grok 4.7 🚀, MiMo v2.6 🤖</title>
       <link>https://tldr.tech/ai/2026-09-22</link>
       <description/>
@@ -1673,13 +1581,6 @@ I'm hosting an evening event with Jesse Vincent in San Francisco on Wednesday 14
       <description/>
       <guid>https://tldr.tech/ai/2026-09-16</guid>
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Siri model swapping 🔄, Claude Money 💰, Hugging Face Tau 👨‍💻</title>
-      <link>https://tldr.tech/ai/2026-09-15</link>
-      <description/>
-      <guid>https://tldr.tech/ai/2026-09-15</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Developing Enterprise Frontier Safeguards with our customers</title>
