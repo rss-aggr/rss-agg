@@ -3,7 +3,29 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Thu, 15 Oct 2026 15:40:21 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 15:26:11 +0000</lastBuildDate>
+    <item>
+      <title>Muse Spark Open ✨, Microsoft’s 3T param model 🧠, d1-ultra 💡</title>
+      <link>https://tldr.tech/ai/2026-10-16</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-10-16</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Chirp Pong</title>
+      <link>https://simonwillison.net/2026/Oct/15/chirp-pong/</link>
+      <description>&lt;p&gt;&lt;strong&gt;Tool:&lt;/strong&gt; &lt;a href=&quot;https://tools.simonwillison.net/chirp-pong&quot;&gt;Chirp Pong&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;Another game experiment - I wanted to see if it was feasible to have a two player game on two separate phones running in static HTML where the networking code uses chirps sent via the microphone. It seems to work!&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Build a two player competitive pong like game where two players use their phones close to each other and the game state is sent via audio noises which the web microphone API can interpret - but add graphical and gameplay twists to make it a lot more fun and intertwine than pong&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Claude Opus 5.5 Extra &lt;a href=&quot;https://claude.ai/code/session_019awUnNB7NoYd7noBNAsNdd&quot;&gt;in Claude Code&lt;/a&gt;.&lt;/p&gt;
+    
+    
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/game-design&quot;&gt;game-design&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-code&quot;&gt;claude-code&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Oct/15/chirp-pong/</guid>
+      <pubDate>2026-10-15T19:47:52+00:00</pubDate>
+    </item>
     <item>
       <title>Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO</title>
       <link>https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/</link>
@@ -23,12 +45,20 @@ The phrase &quot;told investors&quot; appears four times in this FT article, whi
 &lt;p&gt;When rival companies “distil” their models from Anthropic’s models, that involves heavy usage and spending.&lt;/p&gt;
 &lt;p&gt;Anthropic told investors on Wednesday &lt;strong&gt;distillation accounted for 5 per cent to 7 per cent of revenue&lt;/strong&gt; and that they had cut it back “materially” in the third quarter of the year, said four people with direct knowledge of the matter.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Napkin maths says that if distillation was 5% of their Q2 revenue (before they cut it back in Q3) then unnamed &quot;other labs&quot; spent over half a billion dollars distilling Anthropic's models in that quarter!
+&lt;p&gt;Napkin maths says that if distillation was 5% of their Q2 revenue (before they cut it back in Q3) then unnamed &quot;other labs&quot; spent over half a billion dollars distilling Anthropic's models in that quarter!&lt;/p&gt;
+&lt;p&gt;Also notable: Anthropic appear to no longer be leaning on &quot;annualized run-rate revenue&quot; (&lt;a href=&quot;https://simonwillison.net/2026/May/29/anthropic/&quot;&gt;previously&lt;/a&gt;) in these communications to their investors.
 
 
     &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/</guid>
       <pubDate>2026-10-15T13:04:03+00:00</pubDate>
+    </item>
+    <item>
+      <title>An update on independent evaluators</title>
+      <link>https://www.anthropic.com/news/an-update-on-independent-evaluators</link>
+      <description>An update on independent evaluators</description>
+      <guid>https://www.anthropic.com/news/an-update-on-independent-evaluators</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Jev 1.14 ⚡, Grok Voice 3 🎙️, RSI 🔁</title>
@@ -701,17 +731,6 @@ New Sonnet model from Anthropic today. They say it &quot;runs 30%+ faster, and c
       <pubDate>2026-09-28T22:07:38+00:00</pubDate>
     </item>
     <item>
-      <title>Quoting @joedaroo</title>
-      <link>https://simonwillison.net/2026/Sep/28/joedaroo/</link>
-      <description>&lt;blockquote cite=&quot;https://twitter.com/joedaroo/status/2104335929293127851&quot;&gt;&lt;p&gt;To say that we were surprised at the jump and suddenness of the capabilities of our models when it came to “cyber” or “swarming” or “message boards” or anything else related to the incidents is an understatement. Security posture takes time to develop. It’s not just about hardening the systems at play; you have to ingrain it in the culture of the company. The literal people themselves in your organization have to change and evolve with it. These jumps in capabilities were so fast and so sudden that they created an extremely difficult problem. [...]&lt;/p&gt;
-&lt;p&gt;So today my hope is that everyone around the world can look at their own organization and say: how can I deal with a surprise or a sudden jump in AI capability? Are my people, my systems, or my processes resilient to surprises? Do my teams know what to do when something goes wrong? Do I have the right incident response? The right comms and messaging? Do I have the right people ready to go when capabilities jump?&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://twitter.com/joedaroo/status/2104335929293127851&quot;&gt;@joedaroo&lt;/a&gt;, Agent Security at OpenAI, &lt;a href=&quot;https://twitter.com/rocketalignment/status/2104646956551422036&quot;&gt;identity confirmed&lt;/a&gt; by The Information's Rocket Drew&lt;/p&gt;
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Sep/28/joedaroo/</guid>
-      <pubDate>2026-09-28T19:11:42+00:00</pubDate>
-    </item>
-    <item>
       <title>Muse manifesto 📜, OpenAI training pause 🚨, trading compute 🤝</title>
       <link>https://tldr.tech/ai/2026-09-28</link>
       <description/>
@@ -766,13 +785,6 @@ New Sonnet model from Anthropic today. They say it &quot;runs 30%+ faster, and c
       <description>Partnering with Accenture on embedded evaluation</description>
       <guid>https://www.anthropic.com/news/accenture-embedded-evaluation</guid>
       <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude Projects v2 💼, Google family agent 👨‍👩‍👧‍👦,</title>
-      <link>https://tldr.tech/ai/2026-09-18</link>
-      <description/>
-      <guid>https://tldr.tech/ai/2026-09-18</guid>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Introducing the Life Sciences Verification Program</title>
@@ -1048,13 +1060,6 @@ New Sonnet model from Anthropic today. They say it &quot;runs 30%+ faster, and c
       <description>What we learned mapping a year’s worth of AI-enabled cyber threats</description>
       <guid>https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack</guid>
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Expanding Project Glasswing</title>
-      <link>https://www.anthropic.com/news/expanding-project-glasswing</link>
-      <description>Expanding Project Glasswing</description>
-      <guid>https://www.anthropic.com/news/expanding-project-glasswing</guid>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
