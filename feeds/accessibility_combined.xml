@@ -3,76 +3,83 @@
     <title>Accessibility Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: Accessibility Combined Feed</description>
-    <lastBuildDate>Mon, 19 Oct 2026 17:38:30 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 15:43:30 +0000</lastBuildDate>
     <item>
-      <title>Accessibility is not a code fix</title>
-      <link>https://medium.com/@pwoods5/accessibility-is-not-a-code-fix-aca8a2d8099e?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@pwoods5/accessibility-is-not-a-code-fix-aca8a2d8099e?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*ghyhnbr6HdF4bvcp4XO_LQ.jpeg&quot; width=&quot;800&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Acces&amp;#xad;si&amp;#xad;bil&amp;#xad;i&amp;#xad;ty is fun&amp;#xad;da&amp;#xad;men&amp;#xad;tally a design problem.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@pwoods5/accessibility-is-not-a-code-fix-aca8a2d8099e?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/aca8a2d8099e</guid>
-      <pubDate>Mon, 19 Oct 2026 15:59:11 GMT</pubDate>
+      <title>Stop Letting Headlines Rag Themselves: text-wrap: balance and pretty</title>
+      <link>https://medium.com/@tangweikun123/stop-letting-headlines-rag-themselves-text-wrap-balance-and-pretty-b548b923f4c4?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;One CSS property pair that fixes lonely last words, uneven two-line titles, and the awkward wrap you never noticed until the screenshot&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@tangweikun123/stop-letting-headlines-rag-themselves-text-wrap-balance-and-pretty-b548b923f4c4?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/b548b923f4c4</guid>
+      <pubDate>Tue, 20 Oct 2026 15:07:21 GMT</pubDate>
     </item>
     <item>
-      <title>Stop Nuking outline: none — Ship :focus-visible Rings People Don’t Hate</title>
-      <link>https://medium.com/@tangweikun123/stop-nuking-outline-none-ship-focus-visible-rings-people-dont-hate-df8cb45e0b85?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;The old &amp;#x201c;kill every outline&amp;#x201d; reset made keyboard users guess where they are.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@tangweikun123/stop-nuking-outline-none-ship-focus-visible-rings-people-dont-hate-df8cb45e0b85?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/df8cb45e0b85</guid>
-      <pubDate>Mon, 19 Oct 2026 15:32:11 GMT</pubDate>
+      <title>Before Paying for Another Streaming Plan, Define Your Caption Requirements</title>
+      <link>https://medium.com/@amr.abdelnaser91/before-paying-for-another-streaming-plan-define-your-caption-requirements-d6750c24a6dc?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@amr.abdelnaser91/before-paying-for-another-streaming-plan-define-your-caption-requirements-d6750c24a6dc?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1672/1*HYPTSHMo4L2Wwe5d88mW2g.png&quot; width=&quot;1672&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;A working video stream is not the same as a viewing experience that works for your household. If captions matter, write down what you need&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@amr.abdelnaser91/before-paying-for-another-streaming-plan-define-your-caption-requirements-d6750c24a6dc?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/d6750c24a6dc</guid>
+      <pubDate>Tue, 20 Oct 2026 14:07:11 GMT</pubDate>
     </item>
     <item>
-      <title>How Keyboard Navigation Fundamentally Rewires the Web Experience</title>
-      <link>https://medium.com/@NiamhOS/how-keyboard-navigation-fundamentally-rewires-the-web-experience-355c9dad5d52?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@NiamhOS/how-keyboard-navigation-fundamentally-rewires-the-web-experience-355c9dad5d52?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1376/1*ncejtjKNhDC7cl6r2-qv8A.jpeg&quot; width=&quot;1376&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Stop treating accessibility as a checklist. Keyboard navigation exposes the true structural integrity of your product.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@NiamhOS/how-keyboard-navigation-fundamentally-rewires-the-web-experience-355c9dad5d52?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/355c9dad5d52</guid>
-      <pubDate>Mon, 19 Oct 2026 14:33:39 GMT</pubDate>
+      <title>Why Text Symbols Sometimes Show Up as Boxes (and How to Pick Ones That Don’t)</title>
+      <link>https://medium.com/@ankurbhardwaj1/why-text-symbols-sometimes-show-up-as-boxes-and-how-to-pick-ones-that-dont-d1cb06fa96bb?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Tofu, emoji variants, &amp;#x201c;fancy fonts&amp;#x201d; and platform filters, explained for bios, names and chats&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@ankurbhardwaj1/why-text-symbols-sometimes-show-up-as-boxes-and-how-to-pick-ones-that-dont-d1cb06fa96bb?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/d1cb06fa96bb</guid>
+      <pubDate>Tue, 20 Oct 2026 13:39:48 GMT</pubDate>
     </item>
     <item>
-      <title>The Five Screens Developers Forget to Build</title>
-      <link>https://mohitphogat.medium.com/the-five-screens-developers-forget-to-build-24872d00817c?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://mohitphogat.medium.com/the-five-screens-developers-forget-to-build-24872d00817c?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2600/1*0VZiGZSfzIBrrUVKlmIdmg.png&quot; width=&quot;2754&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Your UI looks finished when everything works. The real test is what happens when it doesn&amp;#x2019;t.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://mohitphogat.medium.com/the-five-screens-developers-forget-to-build-24872d00817c?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/24872d00817c</guid>
-      <pubDate>Mon, 19 Oct 2026 14:06:01 GMT</pubDate>
+      <title>Finally Pause a GIF With CSS: Chrome 156’s image-animation Is the WCAG Escape Hatch We Needed</title>
+      <link>https://medium.com/@tangweikun123/finally-pause-a-gif-with-css-chrome-156s-image-animation-is-the-wcag-escape-hatch-we-needed-157aba3642af?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Stable today: pause animated GIFs/WebP with one CSS property, wire :animated-image for real controls, and stop failing WCAG 2.2.2 with the&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@tangweikun123/finally-pause-a-gif-with-css-chrome-156s-image-animation-is-the-wcag-escape-hatch-we-needed-157aba3642af?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/157aba3642af</guid>
+      <pubDate>Tue, 20 Oct 2026 13:39:38 GMT</pubDate>
     </item>
     <item>
-      <title>Ditch the Tooltip Math: CSS Anchor Positioning Is Ready Enough to Ship</title>
-      <link>https://medium.com/@tangweikun123/ditch-the-tooltip-math-css-anchor-positioning-is-ready-enough-to-ship-ff27f1ebc197?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Interop 2026 is pushing anchor positioning hard &amp;#x2014; here&amp;#x2019;s a practical tooltip/popover pattern, fallbacks that flip themselves, and the a11y&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@tangweikun123/ditch-the-tooltip-math-css-anchor-positioning-is-ready-enough-to-ship-ff27f1ebc197?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/ff27f1ebc197</guid>
-      <pubDate>Mon, 19 Oct 2026 13:53:57 GMT</pubDate>
+      <title>My test page scored 100 for speed and 33 for accessibility</title>
+      <link>https://medium.com/@BakingSoda/my-test-page-scored-100-for-speed-and-33-for-accessibility-686e018d1d85?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;I wanted to know what a website report feels like when you are not a developer, so I built a page that is bad on purpose and ran it&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@BakingSoda/my-test-page-scored-100-for-speed-and-33-for-accessibility-686e018d1d85?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/686e018d1d85</guid>
+      <pubDate>Tue, 20 Oct 2026 13:21:10 GMT</pubDate>
     </item>
     <item>
-      <title>The Best Seat at a Live Event Should Not Depend on Hearing Every Word</title>
-      <link>https://medium.com/@michaelmax1608/the-best-seat-at-a-live-event-should-not-depend-on-hearing-every-word-8f262a61a8dc?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@michaelmax1608/the-best-seat-at-a-live-event-should-not-depend-on-hearing-every-word-8f262a61a8dc?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1600/1*RSpwi0hDO9V6qYkFrBa7Dg.png&quot; width=&quot;1600&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Real-time captions, thoughtful commentary, and better production choices can make live digital culture more welcoming without draining its&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@michaelmax1608/the-best-seat-at-a-live-event-should-not-depend-on-hearing-every-word-8f262a61a8dc?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/8f262a61a8dc</guid>
-      <pubDate>Mon, 19 Oct 2026 13:47:39 GMT</pubDate>
+      <title>Your AI Prototype Probably Fails Six Accessibility Checks. Most Are an Afternoon’s Fix.</title>
+      <link>https://medium.com/@theshaheermalik/your-ai-prototype-probably-fails-six-accessibility-checks-most-are-an-afternoons-fix-f38aa8c0cb10?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@theshaheermalik/your-ai-prototype-probably-fails-six-accessibility-checks-most-are-an-afternoons-fix-f38aa8c0cb10?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1400/1*7lzrrzuW9644z6D1MPTijg.png&quot; width=&quot;1400&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;The same six errors show up on almost every home page on the web. Here is how to find and fix them before real users do.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@theshaheermalik/your-ai-prototype-probably-fails-six-accessibility-checks-most-are-an-afternoons-fix-f38aa8c0cb10?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/f38aa8c0cb10</guid>
+      <pubDate>Tue, 20 Oct 2026 13:14:44 GMT</pubDate>
     </item>
     <item>
-      <title>UX promptly needed. Can you can?</title>
-      <link>https://medium.com/ux-foundations/ux-promptly-needed-can-you-can-d5ad7627c423?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/ux-foundations/ux-promptly-needed-can-you-can-d5ad7627c423?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1680/1*k-DVk8SAOnQH7JQgm0jM8Q.jpeg&quot; width=&quot;1680&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;A slot height too high for a wheelchair user reveals the question nobody in the process ever asked.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/ux-foundations/ux-promptly-needed-can-you-can-d5ad7627c423?source=rss------accessibility-5&quot;&gt;Continue reading on UX Foundations »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/d5ad7627c423</guid>
-      <pubDate>Mon, 19 Oct 2026 12:46:01 GMT</pubDate>
+      <title>The Invisible Seconds That Make a Live Event Feel Alive</title>
+      <link>https://medium.com/@michaelmax1608/the-invisible-seconds-that-make-a-live-event-feel-alive-94c3a2a6a32c?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@michaelmax1608/the-invisible-seconds-that-make-a-live-event-feel-alive-94c3a2a6a32c?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1600/1*_5T6r89853tKhs7o646A8A.png&quot; width=&quot;1600&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Latency, chat, captions, and moderation quietly decide whether an audience feels present &amp;#x2014; or merely watches from a distance.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@michaelmax1608/the-invisible-seconds-that-make-a-live-event-feel-alive-94c3a2a6a32c?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/94c3a2a6a32c</guid>
+      <pubDate>Tue, 20 Oct 2026 13:03:24 GMT</pubDate>
     </item>
     <item>
-      <title>The AI Productivity Story Everyone Missed Is an Accessibility Story</title>
-      <link>https://briannuesi809.medium.com/the-ai-productivity-story-everyone-missed-is-an-accessibility-story-d16df635e174?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://briannuesi809.medium.com/the-ai-productivity-story-everyone-missed-is-an-accessibility-story-d16df635e174?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1600/1*Z7CrOARVDJJa-qSeP2yXRw.png&quot; width=&quot;1600&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;For people with ADHD, chatbots are quietly becoming external executive function. The evidence says: use them as scaffolding, not as a&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://briannuesi809.medium.com/the-ai-productivity-story-everyone-missed-is-an-accessibility-story-d16df635e174?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/d16df635e174</guid>
-      <pubDate>Mon, 19 Oct 2026 11:52:38 GMT</pubDate>
+      <title>The Quiet Revolution in Storytelling Has a Transcript</title>
+      <link>https://medium.com/@ace444news/the-quiet-revolution-in-storytelling-has-a-transcript-56f0dd5030c4?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@ace444news/the-quiet-revolution-in-storytelling-has-a-transcript-56f0dd5030c4?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1600/1*pmb3XBDnHp4bYjzbkFcB9A.png&quot; width=&quot;1600&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Why the most thoughtful audio creators are treating the written version as part of the experience, not an afterthought.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@ace444news/the-quiet-revolution-in-storytelling-has-a-transcript-56f0dd5030c4?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/56f0dd5030c4</guid>
+      <pubDate>Tue, 20 Oct 2026 12:58:25 GMT</pubDate>
     </item>
     <item>
-      <title>Morse Code Never Really Left</title>
-      <link>https://medium.com/@broh_91535/morse-code-never-really-left-3a34cc436db6?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;It hasn&amp;#x2019;t been required for a radio licence in years, yet dots and dashes still guide pilots, give people a voice and fill the ham bands&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@broh_91535/morse-code-never-really-left-3a34cc436db6?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/3a34cc436db6</guid>
-      <pubDate>Mon, 19 Oct 2026 10:26:34 GMT</pubDate>
+      <title>Accessibility on a Travel Booking Website: A Practical Starting Point for UK Agencies</title>
+      <link>https://medium.com/@social_36465/accessibility-on-a-travel-booking-website-a-practical-starting-point-for-uk-agencies-b9080121749c?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Simple checks that help more people search, compare and book&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@social_36465/accessibility-on-a-travel-booking-website-a-practical-starting-point-for-uk-agencies-b9080121749c?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/b9080121749c</guid>
+      <pubDate>Tue, 20 Oct 2026 10:54:14 GMT</pubDate>
     </item>
     <item>
-      <title>A inclusão continua sendo prioridade quando a decisão é difícil?</title>
-      <link>https://brasil.uxdesign.cc/a-inclusao-continua-sendo-prioridade-quando-a-decisao-e-dificil-260987b69313?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://brasil.uxdesign.cc/a-inclusao-continua-sendo-prioridade-quando-a-decisao-e-dificil-260987b69313?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1672/1*VWnXnOsJc3C8PO6ST8QNGA.png&quot; width=&quot;1672&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Um desabafo sobre o espa&amp;#xe7;o que damos &amp;#xe0; acessibilidade quando ela exige rever escolhas, dividir recursos e assumir responsabilidades.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://brasil.uxdesign.cc/a-inclusao-continua-sendo-prioridade-quando-a-decisao-e-dificil-260987b69313?source=rss------accessibility-5&quot;&gt;Continue reading on UX Collective  »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/260987b69313</guid>
-      <pubDate>Mon, 19 Oct 2026 09:37:15 GMT</pubDate>
+      <title>To see accessibility requirements</title>
+      <link>https://caglararaz.medium.com/to-see-accessibility-requirements-041ac2b406dc?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://caglararaz.medium.com/to-see-accessibility-requirements-041ac2b406dc?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1456/0*Eb3cStxU2-X8gcd1.jpeg&quot; width=&quot;1456&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;A late discovery of what I overlook&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://caglararaz.medium.com/to-see-accessibility-requirements-041ac2b406dc?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/041ac2b406dc</guid>
+      <pubDate>Tue, 20 Oct 2026 07:51:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>First Public Working Draft: Animation Triggers</title>
+      <link>https://www.w3.org/news/2026/first-public-working-draft-animation-triggers/</link>
+      <description>Defines CSS properties and an API for creating mechanisms that affect animation playback, based on DOM events resulting from user interaction, or on entry/exit of ranges on animation timelines.</description>
+      <guid>https://www.w3.org/news/2026/first-public-working-draft-animation-triggers/</guid>
+      <pubDate>Tue, 20 Oct 2026 05:55:00 +0000</pubDate>
     </item>
     <item>
       <title>Improved thread navigation in W3C's mailing list archives</title>
@@ -831,13 +838,6 @@ This, of course, is only a standard minimal setup I use. Your needs and requirem
       <description>At the European Identity and Cloud Conference (EIC 2026) in Berlin, we explored how Threat Modeling with LEGO® SERIOUS PLAY® can help uncover security, privacy, and human-rights threats in age-based content restriction systems. Starting from an Issuer-Holder-Verifier model, participants built harms such as exclusion, surveillance, profiling, and correlation, then mapped them back to flows, actors, and assumptions. The exercise showed how compliance choices can become Web architecture.</description>
       <guid>https://www.w3.org/blog/2026/threat-modeling-age-based-content-restrictions-what-we-learned-at-eic-2026/</guid>
       <pubDate>Mon, 20 Jul 2026 09:23:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>First Public Working Draft: Character Model for the World Wide Web: String Matching</title>
-      <link>https://www.w3.org/news/2026/first-public-working-draft-character-model-for-the-world-wide-web-string-matching/</link>
-      <description>This document builds upon Character Model for the World Wide Web 1.0: Fundamentals to provide authors of specifications, software developers, and content developers a common reference on string identity matching on the World Wide Web and thereby increase interoperability.</description>
-      <guid>https://www.w3.org/news/2026/first-public-working-draft-character-model-for-the-world-wide-web-string-matching/</guid>
-      <pubDate>Thu, 16 Jul 2026 09:29:00 +0000</pubDate>
     </item>
     <item>
       <title>CSS animations, human rights, and big accessibility at the AB Web Meetup</title>

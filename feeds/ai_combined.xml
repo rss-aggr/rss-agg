@@ -3,7 +3,32 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Mon, 19 Oct 2026 17:38:20 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 15:43:22 +0000</lastBuildDate>
+    <item>
+      <title>Mercury 3 🤖, MiniMax Flash 3.1 ⚡, Exa 3 🔎</title>
+      <link>https://tldr.tech/ai/2026-10-20</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-10-20</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>My obituary for programming</title>
+      <link>https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/</link>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://dumbmatter.com/2026/10/programming-obituary/&quot;&gt;My obituary for programming&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+Jeremy Scheff poignantly captures the key loss caused by coding agents for career programmers who enjoyed the &lt;em&gt;puzzle&lt;/em&gt; of developing code:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Programming turned into one of the greatest jobs you could imagine. You got paid to work on tricky little logic puzzles. The trickier the puzzle, the more you got paid. But even pretty simple puzzles were worth a lot of money because regular people just couldn't do it! No, they needed us. They would give us a problem and we would solve it the way we wanted. We set the strategy, we made the timeline, we defined what was and was not possible.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;If you're a programmer who thrives on building working systems and doesn't care too deeply about the problems solved along the way, LLMs are the gift that keeps on giving.&lt;/p&gt;
+&lt;p&gt;If directly solving those problems was a big part of your enjoyment, the loss is very real.
+
+    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://lobste.rs/s/wtobpt/my_obituary_for_programming&quot;&gt;lobste.rs&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/programming&quot;&gt;programming&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/careers&quot;&gt;careers&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/deep-blue&quot;&gt;deep-blue&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/</guid>
+      <pubDate>2026-10-19T23:58:25+00:00</pubDate>
+    </item>
     <item>
       <title>DeepSeek’s new Flash ⚡, Replit drops Anthropic 🔄, Anthropic’s workforce 💼</title>
       <link>https://tldr.tech/ai/2026-10-19</link>
@@ -754,18 +779,6 @@ Position 3 (hundreds): 6 + 9 = 15, write 5, carry 1
       <pubDate>2026-09-29T22:20:28+00:00</pubDate>
     </item>
     <item>
-      <title>GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price</title>
-      <link>https://simonwillison.net/2026/Sep/29/hn-49898129/</link>
-      <description>&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49896586#49898129&quot;&gt;My comment&lt;/a&gt; on &lt;a href=&quot;https://news.ycombinator.com/item?id=49896586&quot;&gt;GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price&lt;/a&gt; &amp;mdash; Hacker News.&lt;/p&gt;&lt;p&gt;I'm a bit late with the pelicans because I was live-blogging the keynote: &lt;a href=&quot;https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/&quot;&gt;https://simonwillison.net/2026/Sep/29/openai-devday-2026-liv...&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Here they are for GPT-6.1-Sol: &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F4aa871683dae5c566129a6028fbc7f21&quot;&gt;https://tools.simonwillison.net/markdown-svg-renderer?url=ht...&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;They're not notably different from the GPT-6 family pelicans: &lt;a href=&quot;https://static.simonwillison.net/static/2026/gpt-pelicans-grid.html&quot;&gt;https://static.simonwillison.net/static/2026/gpt-pelicans-gr...&lt;/a&gt;&lt;/p&gt;
-    
-    
-        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gpt&quot;&gt;gpt&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Sep/29/hn-49898129/</guid>
-      <pubDate>2026-09-29T18:27:48+00:00</pubDate>
-    </item>
-    <item>
       <title>Claude Sonnet 5.5 🧠, Anthropic IPO leaks 📝, AMD buys World Labs 💰</title>
       <link>https://tldr.tech/ai/2026-09-29</link>
       <description/>
@@ -813,13 +826,6 @@ Position 3 (hundreds): 6 + 9 = 15, write 5, carry 1
       <description/>
       <guid>https://tldr.tech/ai/2026-09-23</guid>
       <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Opus 5.5 imminent ⏳, Grok 4.7 🚀, MiMo v2.6 🤖</title>
-      <link>https://tldr.tech/ai/2026-09-22</link>
-      <description/>
-      <guid>https://tldr.tech/ai/2026-09-22</guid>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Meta’s Agent Security, The Navier-Stokes Controversy, Fraud on Claude</title>
