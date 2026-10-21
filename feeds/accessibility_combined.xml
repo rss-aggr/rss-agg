@@ -3,76 +3,98 @@
     <title>Accessibility Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: Accessibility Combined Feed</description>
-    <lastBuildDate>Tue, 20 Oct 2026 15:43:30 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 16:01:21 +0000</lastBuildDate>
     <item>
-      <title>Stop Letting Headlines Rag Themselves: text-wrap: balance and pretty</title>
-      <link>https://medium.com/@tangweikun123/stop-letting-headlines-rag-themselves-text-wrap-balance-and-pretty-b548b923f4c4?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;One CSS property pair that fixes lonely last words, uneven two-line titles, and the awkward wrap you never noticed until the screenshot&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@tangweikun123/stop-letting-headlines-rag-themselves-text-wrap-balance-and-pretty-b548b923f4c4?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/b548b923f4c4</guid>
-      <pubDate>Tue, 20 Oct 2026 15:07:21 GMT</pubDate>
+      <title>Stop Flatlining Motion: Honor prefers-reduced-motion Without Killing Delight</title>
+      <link>https://medium.com/@tangweikun123/stop-flatlining-motion-honor-prefers-reduced-motion-without-killing-delight-eae6e3305007?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Reduce decorative animation for vestibular comfort &amp;#x2014; keep focus, loading, and error feedback that still tell the user what happened.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@tangweikun123/stop-flatlining-motion-honor-prefers-reduced-motion-without-killing-delight-eae6e3305007?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/eae6e3305007</guid>
+      <pubDate>Wed, 21 Oct 2026 15:03:40 GMT</pubDate>
     </item>
     <item>
-      <title>Before Paying for Another Streaming Plan, Define Your Caption Requirements</title>
-      <link>https://medium.com/@amr.abdelnaser91/before-paying-for-another-streaming-plan-define-your-caption-requirements-d6750c24a6dc?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@amr.abdelnaser91/before-paying-for-another-streaming-plan-define-your-caption-requirements-d6750c24a6dc?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1672/1*HYPTSHMo4L2Wwe5d88mW2g.png&quot; width=&quot;1672&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;A working video stream is not the same as a viewing experience that works for your household. If captions matter, write down what you need&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@amr.abdelnaser91/before-paying-for-another-streaming-plan-define-your-caption-requirements-d6750c24a6dc?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/d6750c24a6dc</guid>
-      <pubDate>Tue, 20 Oct 2026 14:07:11 GMT</pubDate>
+      <title>Debunking AI agent accessibility claims and solving AI alignment for accessibility</title>
+      <link>https://www.deque.com/blog/debunking-ai-agent-accessibility-claims-and-solving-ai-alignment-for-accessibility/</link>
+      <description>&lt;p&gt;There is a digital accessibility approach that gives us the best of both worlds: the reliability and predictability of rules-based testing and the velocity of AI-powered automation. By taking this approach, we can close the gap between presumed and actual accessibility. &lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://www.deque.com/blog/debunking-ai-agent-accessibility-claims-and-solving-ai-alignment-for-accessibility/&quot;&gt;Debunking AI agent accessibility claims and solving AI alignment for accessibility&lt;/a&gt; appeared first on &lt;a href=&quot;https://www.deque.com&quot;&gt;Deque&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid>https://www.deque.com/?p=65454</guid>
+      <pubDate>Wed, 21 Oct 2026 14:11:48 +0000</pubDate>
     </item>
     <item>
-      <title>Why Text Symbols Sometimes Show Up as Boxes (and How to Pick Ones That Don’t)</title>
-      <link>https://medium.com/@ankurbhardwaj1/why-text-symbols-sometimes-show-up-as-boxes-and-how-to-pick-ones-that-dont-d1cb06fa96bb?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Tofu, emoji variants, &amp;#x201c;fancy fonts&amp;#x201d; and platform filters, explained for bios, names and chats&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@ankurbhardwaj1/why-text-symbols-sometimes-show-up-as-boxes-and-how-to-pick-ones-that-dont-d1cb06fa96bb?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/d1cb06fa96bb</guid>
-      <pubDate>Tue, 20 Oct 2026 13:39:48 GMT</pubDate>
+      <title>Plain Language Matters More on the Phone: Lessons for Government Voice AI</title>
+      <link>https://medium.com/@oleksiikocherev/plain-language-matters-more-on-the-phone-lessons-for-government-voice-ai-b95b5376d796?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;The Plain Writing Act of 2010 pushed federal agencies toward clear, plain communication in the documents they put in front of the public&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@oleksiikocherev/plain-language-matters-more-on-the-phone-lessons-for-government-voice-ai-b95b5376d796?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/b95b5376d796</guid>
+      <pubDate>Wed, 21 Oct 2026 14:01:05 GMT</pubDate>
     </item>
     <item>
-      <title>Finally Pause a GIF With CSS: Chrome 156’s image-animation Is the WCAG Escape Hatch We Needed</title>
-      <link>https://medium.com/@tangweikun123/finally-pause-a-gif-with-css-chrome-156s-image-animation-is-the-wcag-escape-hatch-we-needed-157aba3642af?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Stable today: pause animated GIFs/WebP with one CSS property, wire :animated-image for real controls, and stop failing WCAG 2.2.2 with the&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@tangweikun123/finally-pause-a-gif-with-css-chrome-156s-image-animation-is-the-wcag-escape-hatch-we-needed-157aba3642af?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/157aba3642af</guid>
-      <pubDate>Tue, 20 Oct 2026 13:39:38 GMT</pubDate>
+      <title>Stop Guessing Why a Rule Vanished: Chrome DevTools’ Inactive Styles (and Keyboard Adorners)</title>
+      <link>https://medium.com/@tangweikun123/stop-guessing-why-a-rule-vanished-chrome-devtools-inactive-styles-and-keyboard-adorners-620cdb6a9213?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;I&amp;#x2019;ve lost count of how many times I&amp;#x2019;ve toggled a class in the Elements panel, watched a layout snap into place, and then had no idea which&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@tangweikun123/stop-guessing-why-a-rule-vanished-chrome-devtools-inactive-styles-and-keyboard-adorners-620cdb6a9213?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/620cdb6a9213</guid>
+      <pubDate>Wed, 21 Oct 2026 13:43:51 GMT</pubDate>
     </item>
     <item>
-      <title>My test page scored 100 for speed and 33 for accessibility</title>
-      <link>https://medium.com/@BakingSoda/my-test-page-scored-100-for-speed-and-33-for-accessibility-686e018d1d85?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;I wanted to know what a website report feels like when you are not a developer, so I built a page that is bad on purpose and ran it&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@BakingSoda/my-test-page-scored-100-for-speed-and-33-for-accessibility-686e018d1d85?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/686e018d1d85</guid>
-      <pubDate>Tue, 20 Oct 2026 13:21:10 GMT</pubDate>
+      <title>Making CanvasJS Charts Accessible: Keyboard Navigation and Screen-Reader Support</title>
+      <link>https://vishwas-r.medium.com/making-canvasjs-charts-accessible-keyboard-navigation-and-screen-reader-support-da8ff9f1cbe3?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://vishwas-r.medium.com/making-canvasjs-charts-accessible-keyboard-navigation-and-screen-reader-support-da8ff9f1cbe3?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1600/1*YPAPyy1tW-23R1FCQFjPgQ.png&quot; width=&quot;1600&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Keep the speed of canvas rendering and add a keyboard-friendly, screen-reader-friendly layer with a single helper function.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://vishwas-r.medium.com/making-canvasjs-charts-accessible-keyboard-navigation-and-screen-reader-support-da8ff9f1cbe3?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/da8ff9f1cbe3</guid>
+      <pubDate>Wed, 21 Oct 2026 11:21:24 GMT</pubDate>
     </item>
     <item>
-      <title>Your AI Prototype Probably Fails Six Accessibility Checks. Most Are an Afternoon’s Fix.</title>
-      <link>https://medium.com/@theshaheermalik/your-ai-prototype-probably-fails-six-accessibility-checks-most-are-an-afternoons-fix-f38aa8c0cb10?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@theshaheermalik/your-ai-prototype-probably-fails-six-accessibility-checks-most-are-an-afternoons-fix-f38aa8c0cb10?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1400/1*7lzrrzuW9644z6D1MPTijg.png&quot; width=&quot;1400&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;The same six errors show up on almost every home page on the web. Here is how to find and fix them before real users do.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@theshaheermalik/your-ai-prototype-probably-fails-six-accessibility-checks-most-are-an-afternoons-fix-f38aa8c0cb10?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/f38aa8c0cb10</guid>
-      <pubDate>Tue, 20 Oct 2026 13:14:44 GMT</pubDate>
+      <title>cPanel Login Not Working? 10 Common Problems and Fixes</title>
+      <link>https://medium.com/@abhinav.shuklaworld/cpanel-login-not-working-10-common-problems-and-fixes-9165ef839575?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@abhinav.shuklaworld/cpanel-login-not-working-10-common-problems-and-fixes-9165ef839575?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1376/0*lX8SyA52miLfrE61.png&quot; width=&quot;1376&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Have you ever tried to access your website&amp;#x2019;s control panel, only to find that the cPanel login page refuses to cooperate? Maybe your&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@abhinav.shuklaworld/cpanel-login-not-working-10-common-problems-and-fixes-9165ef839575?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/9165ef839575</guid>
+      <pubDate>Wed, 21 Oct 2026 11:02:18 GMT</pubDate>
     </item>
     <item>
-      <title>The Invisible Seconds That Make a Live Event Feel Alive</title>
-      <link>https://medium.com/@michaelmax1608/the-invisible-seconds-that-make-a-live-event-feel-alive-94c3a2a6a32c?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@michaelmax1608/the-invisible-seconds-that-make-a-live-event-feel-alive-94c3a2a6a32c?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1600/1*_5T6r89853tKhs7o646A8A.png&quot; width=&quot;1600&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Latency, chat, captions, and moderation quietly decide whether an audience feels present &amp;#x2014; or merely watches from a distance.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@michaelmax1608/the-invisible-seconds-that-make-a-live-event-feel-alive-94c3a2a6a32c?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/94c3a2a6a32c</guid>
-      <pubDate>Tue, 20 Oct 2026 13:03:24 GMT</pubDate>
+      <title>Testing Android keyboard accessibility from your computer with scrcpy</title>
+      <link>https://medium.com/@cononube/testing-android-keyboard-accessibility-from-your-computer-with-scrcpy-95d9a91ac9d8?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@cononube/testing-android-keyboard-accessibility-from-your-computer-with-scrcpy-95d9a91ac9d8?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2600/1*uMrcKDJFoCskDqJnjmjf7w.jpeg&quot; width=&quot;2752&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;How to make Android detect your macOS, Windows, or Linux keyboard as a physical device and test native keyboard shortcuts correctly&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@cononube/testing-android-keyboard-accessibility-from-your-computer-with-scrcpy-95d9a91ac9d8?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/95d9a91ac9d8</guid>
+      <pubDate>Wed, 21 Oct 2026 10:32:58 GMT</pubDate>
     </item>
     <item>
-      <title>The Quiet Revolution in Storytelling Has a Transcript</title>
-      <link>https://medium.com/@ace444news/the-quiet-revolution-in-storytelling-has-a-transcript-56f0dd5030c4?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@ace444news/the-quiet-revolution-in-storytelling-has-a-transcript-56f0dd5030c4?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1600/1*pmb3XBDnHp4bYjzbkFcB9A.png&quot; width=&quot;1600&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Why the most thoughtful audio creators are treating the written version as part of the experience, not an afterthought.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@ace444news/the-quiet-revolution-in-storytelling-has-a-transcript-56f0dd5030c4?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/56f0dd5030c4</guid>
-      <pubDate>Tue, 20 Oct 2026 12:58:25 GMT</pubDate>
+      <title>The Single-Screen Trap: Why Designing for One Size Is a Massive Product Risk</title>
+      <link>https://medium.com/@Baran-Ozdemir/the-single-screen-trap-why-designing-for-one-size-is-a-massive-product-risk-8c451a10e36a?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@Baran-Ozdemir/the-single-screen-trap-why-designing-for-one-size-is-a-massive-product-risk-8c451a10e36a?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1376/1*JP-pQCzwEEswiWbSHHJLWw.jpeg&quot; width=&quot;1376&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;We optimize for the 1440px desktop canvas, but our users live in a chaotic, multi-device reality. Here is how to fix it.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@Baran-Ozdemir/the-single-screen-trap-why-designing-for-one-size-is-a-massive-product-risk-8c451a10e36a?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/8c451a10e36a</guid>
+      <pubDate>Wed, 21 Oct 2026 09:58:53 GMT</pubDate>
     </item>
     <item>
-      <title>Accessibility on a Travel Booking Website: A Practical Starting Point for UK Agencies</title>
-      <link>https://medium.com/@social_36465/accessibility-on-a-travel-booking-website-a-practical-starting-point-for-uk-agencies-b9080121749c?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Simple checks that help more people search, compare and book&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@social_36465/accessibility-on-a-travel-booking-website-a-practical-starting-point-for-uk-agencies-b9080121749c?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/b9080121749c</guid>
-      <pubDate>Tue, 20 Oct 2026 10:54:14 GMT</pubDate>
+      <title>W3C and the State of the Web in the AI Era</title>
+      <link>https://www.w3.org/news/2026/w3c-and-the-state-of-the-web-in-the-ai-era/</link>
+      <description>This W3C paper from the Strategy Team is intended to foster discussion in the technical community at TPAC — the most important W3C community event of the year — about how the W3C technical agenda for the web needs to evolve based on the rise of AI agents. It is part of building a consistent, coherent shared vision for evolving the web, starting with AI.</description>
+      <guid>https://www.w3.org/news/2026/w3c-and-the-state-of-the-web-in-the-ai-era/</guid>
+      <pubDate>Wed, 21 Oct 2026 09:56:00 +0000</pubDate>
     </item>
     <item>
-      <title>To see accessibility requirements</title>
-      <link>https://caglararaz.medium.com/to-see-accessibility-requirements-041ac2b406dc?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://caglararaz.medium.com/to-see-accessibility-requirements-041ac2b406dc?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1456/0*Eb3cStxU2-X8gcd1.jpeg&quot; width=&quot;1456&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;A late discovery of what I overlook&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://caglararaz.medium.com/to-see-accessibility-requirements-041ac2b406dc?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/041ac2b406dc</guid>
-      <pubDate>Tue, 20 Oct 2026 07:51:20 GMT</pubDate>
+      <title>The Dark Mode Illusion: Why Your Theme Toggle is Actually a Design Token Problem</title>
+      <link>https://medium.com/@Justin-Li/the-dark-mode-illusion-why-your-theme-toggle-is-actually-a-design-token-problem-5be045b3c7ac?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@Justin-Li/the-dark-mode-illusion-why-your-theme-toggle-is-actually-a-design-token-problem-5be045b3c7ac?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1376/1*U84sci1oWvFl8JpX6thSPw.jpeg&quot; width=&quot;1376&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Stop inverting colors. Here is how to build a resilient, scalable theming architecture that survives the transition to dark mode.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@Justin-Li/the-dark-mode-illusion-why-your-theme-toggle-is-actually-a-design-token-problem-5be045b3c7ac?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/5be045b3c7ac</guid>
+      <pubDate>Wed, 21 Oct 2026 09:50:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>The Curb Cut Effect: How Inclusive Design Expands the Definition of a Usable Product</title>
+      <link>https://medium.com/@Ryan-Chen/the-curb-cut-effect-how-inclusive-design-expands-the-definition-of-a-usable-product-26ecb50329e5?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@Ryan-Chen/the-curb-cut-effect-how-inclusive-design-expands-the-definition-of-a-usable-product-26ecb50329e5?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1376/1*DakrE2BrnlMvaCPH9eNmuw.jpeg&quot; width=&quot;1376&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Stop treating accessibility as a compliance checklist. Here is the psychological and business framework for building products that empower&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@Ryan-Chen/the-curb-cut-effect-how-inclusive-design-expands-the-definition-of-a-usable-product-26ecb50329e5?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/26ecb50329e5</guid>
+      <pubDate>Wed, 21 Oct 2026 09:20:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>Web of Things Working Group recharter: New momentum for IoT interoperability</title>
+      <link>https://www.w3.org/blog/2026/web-of-things-working-group-recharter-new-momentum-for-iot-interoperability/</link>
+      <description>The Web of Things (WoT) Working Group rechartered for two years to improve IoT interoperability and address physical AI use cases. WoT counteracts fragmentation in IoT by providing building blocks that enable seamless device integration across smart buildings, industrial automation, and energy management. Drawing on Plugfest insights, the new charter focuses on enhancing Thing Description expressiveness, introducing protocol bindings, and guiding AI agents.</description>
+      <guid>https://www.w3.org/blog/2026/web-of-things-working-group-recharter-new-momentum-for-iot-interoperability/</guid>
+      <pubDate>Wed, 21 Oct 2026 09:05:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Beyond the Silos: How UX, Research, Accessibility, and Design Systems Actually Work Together</title>
+      <link>https://medium.com/@GulAhmedShah/beyond-the-silos-how-ux-research-accessibility-and-design-systems-actually-work-together-f97c40317765?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@GulAhmedShah/beyond-the-silos-how-ux-research-accessibility-and-design-systems-actually-work-together-f97c40317765?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1376/1*QrGFc1bXV2ioBszlCXP5nQ.jpeg&quot; width=&quot;1376&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Stop treating disciplines as separate phases. Here is how to build products that scale without losing their soul.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@GulAhmedShah/beyond-the-silos-how-ux-research-accessibility-and-design-systems-actually-work-together-f97c40317765?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/f97c40317765</guid>
+      <pubDate>Wed, 21 Oct 2026 08:41:00 GMT</pubDate>
     </item>
     <item>
       <title>First Public Working Draft: Animation Triggers</title>
@@ -755,14 +777,6 @@ This, of course, is only a standard minimal setup I use. Your needs and requirem
       <pubDate>Tue, 11 Aug 2026 15:19:00 +0000</pubDate>
     </item>
     <item>
-      <title>The anatomy of accessible forms: Required form fields</title>
-      <link>https://www.deque.com/blog/anatomy-of-accessible-forms-required-form-fields/</link>
-      <description>&lt;p&gt;Creating accessible forms ensures your forms are accessible to all users while meeting standards like ADA, WCAG, and EAA compliance.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://www.deque.com/blog/anatomy-of-accessible-forms-required-form-fields/&quot;&gt;The anatomy of accessible forms: Required form fields&lt;/a&gt; appeared first on &lt;a href=&quot;https://www.deque.com&quot;&gt;Deque&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid>http://www.deque.com/?p=23634</guid>
-      <pubDate>Thu, 06 Aug 2026 15:47:31 +0000</pubDate>
-    </item>
-    <item>
       <title>W3C invites implementations of Decentralized Identifier Resolution (DID Resolution) v1</title>
       <link>https://www.w3.org/news/2026/w3c-invites-implementations-of-decentralized-identifier-resolution-did-resolution-v1/</link>
       <description>This document describes the process of obtaining a DID document and accompanying metadata for a specific DID.</description>
@@ -824,13 +838,6 @@ This, of course, is only a standard minimal setup I use. Your needs and requirem
       <description>EPUB® 3 defines a distribution and interchange format for digital publications and documents. The EPUB format provides a means of representing, packaging, and encoding structured and semantically enhanced web content — including HTML, CSS, SVG, and other resources — for distribution in a single-file container.</description>
       <guid>https://www.w3.org/news/2026/w3c-invites-implementations-of-epub-3-4-epub-reading-systems-3-4-and-epub-accessibility-1-2/</guid>
       <pubDate>Tue, 21 Jul 2026 09:26:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Proposed Advancement of Web Authentication: An API for accessing Public Key Credentials Level 3 to W3C Recommendation</title>
-      <link>https://www.w3.org/news/2026/proposed-advancement-of-webauthn-3-to-w3c-recommendation/</link>
-      <description>This specification defines an API enabling the creation and use of strong, attested, scoped, public key-based credentials by web applications, for the purpose of strongly authenticating users.</description>
-      <guid>https://www.w3.org/news/2026/proposed-advancement-of-webauthn-3-to-w3c-recommendation/</guid>
-      <pubDate>Mon, 20 Jul 2026 15:16:00 +0000</pubDate>
     </item>
     <item>
       <title>Threat modeling age-based content restrictions: what we learned at EIC 2026</title>
@@ -1744,14 +1751,6 @@ customElements.define(&quot;the-section&quot;, Section);&lt;/code&gt;&lt;/pre&gt
 &lt;p&gt;The post &lt;a href=&quot;https://www.tpgi.com/weekly-reading-list-april-13-2026/&quot;&gt;Weekly Reading List April 13 2026&lt;/a&gt; appeared first on &lt;a href=&quot;https://www.tpgi.com&quot;&gt;TPGi — a Vispero company&lt;/a&gt;.&lt;/p&gt;</description>
       <guid>https://www.tpgi.com/?p=10859</guid>
       <pubDate>Mon, 13 Apr 2026 22:22:23 +0000</pubDate>
-    </item>
-    <item>
-      <title>Weekly Reading List April 6 2026</title>
-      <link>https://www.tpgi.com/weekly-reading-list-april-6-2026/</link>
-      <description>&lt;p&gt;A weekly roundup of links to digital accessibility industry news, posted every Monday. Compiled by Ricky Onsman.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://www.tpgi.com/weekly-reading-list-april-6-2026/&quot;&gt;Weekly Reading List April 6 2026&lt;/a&gt; appeared first on &lt;a href=&quot;https://www.tpgi.com&quot;&gt;TPGi — a Vispero company&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid>https://www.tpgi.com/?p=10854</guid>
-      <pubDate>Mon, 06 Apr 2026 13:13:34 +0000</pubDate>
     </item>
   </channel>
 </rss>
