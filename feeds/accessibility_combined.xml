@@ -3,28 +3,76 @@
     <title>Accessibility Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: Accessibility Combined Feed</description>
-    <lastBuildDate>Thu, 22 Oct 2026 15:56:38 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 15:48:47 +0000</lastBuildDate>
     <item>
-      <title>Can You See With Your Ears?
-By Pakhi Yadav</title>
-      <link>https://medium.com/@ydv.pakhi/can-you-see-with-your-ears-by-pakhi-yadav-4aac3979a765?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@ydv.pakhi/can-you-see-with-your-ears-by-pakhi-yadav-4aac3979a765?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2000/1*ceY9UTkwuM95ObZEB33Pgg.png&quot; width=&quot;2000&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Imagine strapping a small camera to your head and listening to its view through headphones.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@ydv.pakhi/can-you-see-with-your-ears-by-pakhi-yadav-4aac3979a765?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/4aac3979a765</guid>
-      <pubDate>Thu, 22 Oct 2026 14:48:03 GMT</pubDate>
+      <title>What If Reading Worked Like Karaoke? Building WordGlow with OCR, AI, and Text-to-Speech</title>
+      <link>https://medium.com/@sheetaldsingh/what-if-reading-worked-like-karaoke-building-wordglow-with-ocr-ai-and-text-to-speech-d6f64a2e9dff?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@sheetaldsingh/what-if-reading-worked-like-karaoke-building-wordglow-with-ocr-ai-and-text-to-speech-d6f64a2e9dff?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2600/1*QoIiD0bN0i9pRPdNhawM2A.jpeg&quot; width=&quot;4672&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;How I built an AI-assisted reading tool that combines OCR, dyslexia-friendly formatting, text-to-speech, and synchronized word&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@sheetaldsingh/what-if-reading-worked-like-karaoke-building-wordglow-with-ocr-ai-and-text-to-speech-d6f64a2e9dff?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/d6f64a2e9dff</guid>
+      <pubDate>Fri, 23 Oct 2026 15:13:25 GMT</pubDate>
     </item>
     <item>
-      <title>Ditch the IntersectionObserver Fade-In: CSS Animation Triggers Just Got a Working Draft</title>
-      <link>https://medium.com/@tangweikun123/ditch-the-intersectionobserver-fade-in-css-animation-triggers-just-got-a-working-draft-c68f465817f3?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;W3C published Animation Triggers as a First Public Working Draft on Oct 20 &amp;#x2014; here&amp;#x2019;s the play-once scroll pattern I&amp;#x2019;d ship in Chrome 146+&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@tangweikun123/ditch-the-intersectionobserver-fade-in-css-animation-triggers-just-got-a-working-draft-c68f465817f3?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/c68f465817f3</guid>
-      <pubDate>Thu, 22 Oct 2026 13:39:07 GMT</pubDate>
+      <title>I Built a UI Library Nobody Asked For (And Here’s Why That Was the Point)</title>
+      <link>https://medium.com/@mail7antarip/i-built-a-ui-library-nobody-asked-for-and-heres-why-that-was-the-point-91f1ccf02fb5?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@mail7antarip/i-built-a-ui-library-nobody-asked-for-and-heres-why-that-was-the-point-91f1ccf02fb5?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1399/1*iYXGKaAeLNY-BpvoLqI-aQ.png&quot; width=&quot;1399&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Accessly UI is 22 React components that work with a keyboard and a screen reader out of the box.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@mail7antarip/i-built-a-ui-library-nobody-asked-for-and-heres-why-that-was-the-point-91f1ccf02fb5?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/91f1ccf02fb5</guid>
+      <pubDate>Fri, 23 Oct 2026 14:20:09 GMT</pubDate>
     </item>
     <item>
-      <title>Support, access and training</title>
-      <link>https://medium.com/design-bootcamp/support-access-and-training-e99cec32db83?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/design-bootcamp/support-access-and-training-e99cec32db83?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1358/1*E9W1C568atj0ieSOhEa7kA.png&quot; width=&quot;1358&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;What 2026 evidence shows about manager support, tool access, training and AI adoption&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/design-bootcamp/support-access-and-training-e99cec32db83?source=rss------accessibility-5&quot;&gt;Continue reading on Bootcamp »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/e99cec32db83</guid>
-      <pubDate>Thu, 22 Oct 2026 13:13:28 GMT</pubDate>
+      <title>Stop Hiding Live-Region Divs: ariaNotify Is Baseline — and DevTools Can Finally Record What Gets…</title>
+      <link>https://medium.com/@tangweikun123/stop-hiding-live-region-divs-arianotify-is-baseline-and-devtools-can-finally-record-what-gets-4fcfb1c976ec?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;document.ariaNotify() hit Baseline newly available in September 2026, and Chrome DevTools (153/154) added an A11y Announcements recording&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@tangweikun123/stop-hiding-live-region-divs-arianotify-is-baseline-and-devtools-can-finally-record-what-gets-4fcfb1c976ec?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/4fcfb1c976ec</guid>
+      <pubDate>Fri, 23 Oct 2026 13:43:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>Matemáticas con Dados: cómo construí un juego para que mi niña aprenda a contar con dados y tapitas…</title>
+      <link>https://medium.com/@enlabe/matem%C3%A1ticas-con-dados-c%C3%B3mo-constru%C3%AD-un-juego-para-que-mi-ni%C3%B1a-aprenda-a-contar-con-dados-y-tapitas-e20e9b34af18?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@enlabe/matem%C3%A1ticas-con-dados-c%C3%B3mo-constru%C3%AD-un-juego-para-que-mi-ni%C3%B1a-aprenda-a-contar-con-dados-y-tapitas-e20e9b34af18?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2600/1*ZVm-O6RewNSMrbuiDlItUA.jpeg&quot; width=&quot;3168&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Un juego web hecho con HTML, CSS y JavaScript, sin framework, pensado para los peques. En este tutorial lo construimos desde cero: la idea&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@enlabe/matem%C3%A1ticas-con-dados-c%C3%B3mo-constru%C3%AD-un-juego-para-que-mi-ni%C3%B1a-aprenda-a-contar-con-dados-y-tapitas-e20e9b34af18?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/e20e9b34af18</guid>
+      <pubDate>Fri, 23 Oct 2026 12:47:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>Matemáticas con Dados: how I built a game to help my little girl learn to count with dice and real…</title>
+      <link>https://medium.com/@enlabe/matem%C3%A1ticas-con-dados-how-i-built-a-game-to-help-my-little-girl-learn-to-count-with-dice-and-real-47258b06e6fc?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@enlabe/matem%C3%A1ticas-con-dados-how-i-built-a-game-to-help-my-little-girl-learn-to-count-with-dice-and-real-47258b06e6fc?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2600/1*ZVm-O6RewNSMrbuiDlItUA.jpeg&quot; width=&quot;3168&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;A web game made with HTML, CSS and JavaScript, no framework, designed for little kids. In this tutorial we build it from scratch: the idea&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@enlabe/matem%C3%A1ticas-con-dados-how-i-built-a-game-to-help-my-little-girl-learn-to-count-with-dice-and-real-47258b06e6fc?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/47258b06e6fc</guid>
+      <pubDate>Fri, 23 Oct 2026 12:00:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>Accessibility vs Inclusion: Are We Asking the Right Questions About Autism Support?</title>
+      <link>https://medium.com/@leenahaque1/accessibility-vs-inclusion-are-we-asking-the-right-questions-about-autism-support-9a4cacb4a35d?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@leenahaque1/accessibility-vs-inclusion-are-we-asking-the-right-questions-about-autism-support-9a4cacb4a35d?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/856/1*_m-3ECOQ4NSqeRTDBDdz6A.png&quot; width=&quot;856&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Imagine an organisation introduces an online appointment system designed to make its services more accessible.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@leenahaque1/accessibility-vs-inclusion-are-we-asking-the-right-questions-about-autism-support-9a4cacb4a35d?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/9a4cacb4a35d</guid>
+      <pubDate>Fri, 23 Oct 2026 11:12:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>Accessibility for Deaf People in the Age of AI</title>
+      <link>https://medium.com/@leonellopez/accessibility-for-deaf-people-in-the-age-of-ai-fa1a33e81e90?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Why the Deaf community must be part of how AI learns to communicate&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@leonellopez/accessibility-for-deaf-people-in-the-age-of-ai-fa1a33e81e90?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/fa1a33e81e90</guid>
+      <pubDate>Fri, 23 Oct 2026 09:23:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>모임 장소의 접근성, 사진보다 먼저 물어야 할 질문</title>
+      <link>https://medium.com/@kwj7949/%EB%AA%A8%EC%9E%84-%EC%9E%A5%EC%86%8C%EC%9D%98-%EC%A0%91%EA%B7%BC%EC%84%B1-%EC%82%AC%EC%A7%84%EB%B3%B4%EB%8B%A4-%EB%A8%BC%EC%A0%80-%EB%AC%BC%EC%96%B4%EC%95%BC-%ED%95%A0-%EC%A7%88%EB%AC%B8-fe4cb9301e23?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;&amp;#xbaa8;&amp;#xc784; &amp;#xc7a5;&amp;#xc18c;&amp;#xb97c; &amp;#xace0;&amp;#xb97c; &amp;#xb54c; &amp;#xc0ac;&amp;#xc9c4;&amp;#xc740; &amp;#xbd84;&amp;#xc704;&amp;#xae30;&amp;#xb97c; &amp;#xbcf4;&amp;#xc5ec;&amp;#xc8fc;&amp;#xc9c0;&amp;#xb9cc;, &amp;#xc785;&amp;#xad6c;&amp;#xc5d0;&amp;#xc11c; &amp;#xc88c;&amp;#xc11d;&amp;#xae4c;&amp;#xc9c0; &amp;#xc5b4;&amp;#xb5bb;&amp;#xac8c; &amp;#xc774;&amp;#xb3d9;&amp;#xd558;&amp;#xb294;&amp;#xc9c0;&amp;#xb294; &amp;#xc54c;&amp;#xb824;&amp;#xc8fc;&amp;#xc9c0; &amp;#xbabb;&amp;#xd574;&amp;#xc694;. &amp;#xacc4;&amp;#xb2e8; &amp;#xc774;&amp;#xc6a9;&amp;#xc774; &amp;#xc5b4;&amp;#xb835;&amp;#xac70;&amp;#xb098; &amp;#xc624;&amp;#xb798; &amp;#xac77;&amp;#xae30; &amp;#xd798;&amp;#xb4e0; &amp;#xc77c;&amp;#xd589;&amp;#xc774; &amp;#xc788;&amp;#xb2e4;&amp;#xba74; &amp;#xc608;&amp;#xc57d; &amp;#xc804;&amp;#xc5d0; &amp;#xb3d9;&amp;#xc120;&amp;#xc744; &amp;#xb530;&amp;#xb85c; &amp;#xbb3c;&amp;#xc5b4;&amp;#xbcf4;&amp;#xb294; &amp;#xac8c; &amp;#xc88b;&amp;#xc2b5;&amp;#xb2c8;&amp;#xb2e4;.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@kwj7949/%EB%AA%A8%EC%9E%84-%EC%9E%A5%EC%86%8C%EC%9D%98-%EC%A0%91%EA%B7%BC%EC%84%B1-%EC%82%AC%EC%A7%84%EB%B3%B4%EB%8B%A4-%EB%A8%BC%EC%A0%80-%EB%AC%BC%EC%96%B4%EC%95%BC-%ED%95%A0-%EC%A7%88%EB%AC%B8-fe4cb9301e23?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/fe4cb9301e23</guid>
+      <pubDate>Fri, 23 Oct 2026 09:15:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>Why Fast Websites Still Feel Slow: Designing for Human Attention</title>
+      <link>https://medium.com/@ck44onlinenews/why-fast-websites-still-feel-slow-designing-for-human-attention-5faae026523f?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@ck44onlinenews/why-fast-websites-still-feel-slow-designing-for-human-attention-5faae026523f?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1600/1*oJjZh8b3A6hwIt2FZ04QNg.png&quot; width=&quot;1600&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Performance metrics matter, but the real test is whether a page helps someone finish a task without friction or uncertainty.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@ck44onlinenews/why-fast-websites-still-feel-slow-designing-for-human-attention-5faae026523f?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/5faae026523f</guid>
+      <pubDate>Fri, 23 Oct 2026 08:50:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>How to Style Custom Radio Buttons with CSS (Accessibly)</title>
+      <link>https://medium.com/@iskandar.elakbar99/how-to-style-custom-radio-buttons-with-css-accessibly-db82eb5c1588?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@iskandar.elakbar99/how-to-style-custom-radio-buttons-with-css-accessibly-db82eb5c1588?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1044/1*zpyKjXiiqoU7j0ir5nudkA.jpeg&quot; width=&quot;1044&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Styling radio buttons in CSS is frustrating.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@iskandar.elakbar99/how-to-style-custom-radio-buttons-with-css-accessibly-db82eb5c1588?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/db82eb5c1588</guid>
+      <pubDate>Fri, 23 Oct 2026 08:03:54 GMT</pubDate>
     </item>
     <item>
       <title>Find Label in Name issues in every scan with Axe-core 4.14.0</title>
@@ -34,55 +82,6 @@ By Pakhi Yadav</title>
 &lt;p&gt;The post &lt;a href=&quot;https://www.deque.com/blog/find-label-in-name-issues-in-every-scan-with-axe-core-4-14-0/&quot;&gt;Find Label in Name issues in every scan with Axe-core 4.14.0&lt;/a&gt; appeared first on &lt;a href=&quot;https://www.deque.com&quot;&gt;Deque&lt;/a&gt;.&lt;/p&gt;</description>
       <guid>https://www.deque.com/?p=65483</guid>
       <pubDate>Thu, 22 Oct 2026 13:01:23 +0000</pubDate>
-    </item>
-    <item>
-      <title>An Empty Alt Attribute Is Not Automatically an Accessibility Error</title>
-      <link>https://medium.com/@kamranliaquatali/an-empty-alt-attribute-is-not-automatically-an-accessibility-error-2d1216f30ee5?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;A bulk image audit gives you a list of images to investigate. It cannot tell you, by itself, what every image means to someone reading the&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@kamranliaquatali/an-empty-alt-attribute-is-not-automatically-an-accessibility-error-2d1216f30ee5?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/2d1216f30ee5</guid>
-      <pubDate>Thu, 22 Oct 2026 12:47:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>Should everything that can, be programmed with javascript?</title>
-      <link>https://medium.com/@aev_software/should-everything-that-can-be-programmed-with-javascript-f0a7156db920?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Instinctively my brain went, no, that&amp;#x2019;s a terrible idea. The lack of accessibility alone should trigger one to caution.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@aev_software/should-everything-that-can-be-programmed-with-javascript-f0a7156db920?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/f0a7156db920</guid>
-      <pubDate>Thu, 22 Oct 2026 11:39:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>The Awkward Pause That Makes a Livestream Feel Human</title>
-      <link>https://medium.com/@michaelmax1608/the-awkward-pause-that-makes-a-livestream-feel-human-9a3ff13a27b6?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@michaelmax1608/the-awkward-pause-that-makes-a-livestream-feel-human-9a3ff13a27b6?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1024/1*Pz0svRt1NzHQfo6aB5Vi-w.png&quot; width=&quot;1024&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Real-time video is not truly instantaneous. Understanding the delay between a question and its answer can make live events more thoughtful&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@michaelmax1608/the-awkward-pause-that-makes-a-livestream-feel-human-9a3ff13a27b6?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/9a3ff13a27b6</guid>
-      <pubDate>Thu, 22 Oct 2026 11:36:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>Choosing Where to Stay in Tamarindo: Neighborhoods, Noise, and Access</title>
-      <link>https://medium.com/@rayandavis0786/choosing-where-to-stay-in-tamarindo-neighborhoods-noise-and-access-c9678aea86fc?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Tamarindo draws a mix of surfers, families, and remote workers, and its neighborhoods reflect that variety. Choosing the right location&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@rayandavis0786/choosing-where-to-stay-in-tamarindo-neighborhoods-noise-and-access-c9678aea86fc?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/c9678aea86fc</guid>
-      <pubDate>Thu, 22 Oct 2026 11:00:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>It really doesn’t matter what you want to call mobile-ready</title>
-      <link>https://medium.com/@oliverbradley_35022/it-really-doesnt-matter-what-you-want-to-call-mobile-ready-1bac6d84aca5?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@oliverbradley_35022/it-really-doesnt-matter-what-you-want-to-call-mobile-ready-1bac6d84aca5?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2046/1*YjJaUBlhaXJqrB2QTKCJ4w.png&quot; width=&quot;2046&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;But there is a precise way to measure mobile-readiness&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@oliverbradley_35022/it-really-doesnt-matter-what-you-want-to-call-mobile-ready-1bac6d84aca5?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/1bac6d84aca5</guid>
-      <pubDate>Thu, 22 Oct 2026 08:41:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>WCAG 2.2 Dragging Movements: Accessible Options</title>
-      <link>https://iaapaudit.medium.com/wcag-2-2-dragging-movements-accessible-options-c4cf9031121b?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://iaapaudit.medium.com/wcag-2-2-dragging-movements-accessible-options-c4cf9031121b?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1200/1*4s0QnHwDeiK_857mGNRkLQ.png&quot; width=&quot;1200&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;When a drag-and-drop workflow stops a task&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://iaapaudit.medium.com/wcag-2-2-dragging-movements-accessible-options-c4cf9031121b?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/c4cf9031121b</guid>
-      <pubDate>Thu, 22 Oct 2026 04:35:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>The screens your Figma file doesn’t have</title>
-      <link>https://medium.com/@dacyo/the-screens-your-figma-file-doesnt-have-06db6d0f4f47?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;What I keep forgetting to design, and only notice once something is actually built.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@dacyo/the-screens-your-figma-file-doesnt-have-06db6d0f4f47?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/06db6d0f4f47</guid>
-      <pubDate>Wed, 21 Oct 2026 22:32:59 GMT</pubDate>
     </item>
     <item>
       <title>Debunking AI agent accessibility claims and solving AI alignment for accessibility</title>
