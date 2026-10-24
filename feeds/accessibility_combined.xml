@@ -3,76 +3,76 @@
     <title>Accessibility Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: Accessibility Combined Feed</description>
-    <lastBuildDate>Fri, 23 Oct 2026 15:48:47 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 14:43:30 +0000</lastBuildDate>
     <item>
-      <title>What If Reading Worked Like Karaoke? Building WordGlow with OCR, AI, and Text-to-Speech</title>
-      <link>https://medium.com/@sheetaldsingh/what-if-reading-worked-like-karaoke-building-wordglow-with-ocr-ai-and-text-to-speech-d6f64a2e9dff?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@sheetaldsingh/what-if-reading-worked-like-karaoke-building-wordglow-with-ocr-ai-and-text-to-speech-d6f64a2e9dff?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2600/1*QoIiD0bN0i9pRPdNhawM2A.jpeg&quot; width=&quot;4672&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;How I built an AI-assisted reading tool that combines OCR, dyslexia-friendly formatting, text-to-speech, and synchronized word&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@sheetaldsingh/what-if-reading-worked-like-karaoke-building-wordglow-with-ocr-ai-and-text-to-speech-d6f64a2e9dff?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/d6f64a2e9dff</guid>
-      <pubDate>Fri, 23 Oct 2026 15:13:25 GMT</pubDate>
+      <title>Etsy Alt Text with ChatGPT: A Fact-Locked Prompt That Follows Etsy's 250-Character Guideline</title>
+      <link>https://medium.com/@teastea45/etsy-alt-text-with-chatgpt-a-fact-locked-prompt-that-follows-etsys-250-character-guideline-845d5269fab0?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@teastea45/etsy-alt-text-with-chatgpt-a-fact-locked-prompt-that-follows-etsys-250-character-guideline-845d5269fab0?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/845d5269fab0</guid>
+      <pubDate>Sat, 24 Oct 2026 13:35:09 GMT</pubDate>
     </item>
     <item>
-      <title>I Built a UI Library Nobody Asked For (And Here’s Why That Was the Point)</title>
-      <link>https://medium.com/@mail7antarip/i-built-a-ui-library-nobody-asked-for-and-heres-why-that-was-the-point-91f1ccf02fb5?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@mail7antarip/i-built-a-ui-library-nobody-asked-for-and-heres-why-that-was-the-point-91f1ccf02fb5?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1399/1*iYXGKaAeLNY-BpvoLqI-aQ.png&quot; width=&quot;1399&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Accessly UI is 22 React components that work with a keyboard and a screen reader out of the box.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@mail7antarip/i-built-a-ui-library-nobody-asked-for-and-heres-why-that-was-the-point-91f1ccf02fb5?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/91f1ccf02fb5</guid>
-      <pubDate>Fri, 23 Oct 2026 14:20:09 GMT</pubDate>
+      <title>I Thought I Knew UI/UX Until This Hackathon</title>
+      <link>https://medium.com/@quyennnv/i-thought-i-knew-ui-ux-until-this-hackathon-307f6817e87a?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@quyennnv/i-thought-i-knew-ui-ux-until-this-hackathon-307f6817e87a?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1280/1*-V5qsUryJoAnohQwryq_5w.jpeg&quot; width=&quot;1280&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Before I was nominated for this hackathon, I was honestly quite overconfident. I thought that the knowledge I had regarding UI/UX was&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@quyennnv/i-thought-i-knew-ui-ux-until-this-hackathon-307f6817e87a?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/307f6817e87a</guid>
+      <pubDate>Sat, 24 Oct 2026 12:02:55 GMT</pubDate>
     </item>
     <item>
-      <title>Stop Hiding Live-Region Divs: ariaNotify Is Baseline — and DevTools Can Finally Record What Gets…</title>
-      <link>https://medium.com/@tangweikun123/stop-hiding-live-region-divs-arianotify-is-baseline-and-devtools-can-finally-record-what-gets-4fcfb1c976ec?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;document.ariaNotify() hit Baseline newly available in September 2026, and Chrome DevTools (153/154) added an A11y Announcements recording&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@tangweikun123/stop-hiding-live-region-divs-arianotify-is-baseline-and-devtools-can-finally-record-what-gets-4fcfb1c976ec?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/4fcfb1c976ec</guid>
-      <pubDate>Fri, 23 Oct 2026 13:43:36 GMT</pubDate>
+      <title>A green audit score is not a launch decision</title>
+      <link>https://medium.com/@sabirsameer48/a-green-audit-score-is-not-a-launch-decision-d1b506aa007c?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;An AI-built app can look finished while an important user journey is still broken.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@sabirsameer48/a-green-audit-score-is-not-a-launch-decision-d1b506aa007c?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/d1b506aa007c</guid>
+      <pubDate>Sat, 24 Oct 2026 11:09:43 GMT</pubDate>
     </item>
     <item>
-      <title>Matemáticas con Dados: cómo construí un juego para que mi niña aprenda a contar con dados y tapitas…</title>
-      <link>https://medium.com/@enlabe/matem%C3%A1ticas-con-dados-c%C3%B3mo-constru%C3%AD-un-juego-para-que-mi-ni%C3%B1a-aprenda-a-contar-con-dados-y-tapitas-e20e9b34af18?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@enlabe/matem%C3%A1ticas-con-dados-c%C3%B3mo-constru%C3%AD-un-juego-para-que-mi-ni%C3%B1a-aprenda-a-contar-con-dados-y-tapitas-e20e9b34af18?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2600/1*ZVm-O6RewNSMrbuiDlItUA.jpeg&quot; width=&quot;3168&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Un juego web hecho con HTML, CSS y JavaScript, sin framework, pensado para los peques. En este tutorial lo construimos desde cero: la idea&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@enlabe/matem%C3%A1ticas-con-dados-c%C3%B3mo-constru%C3%AD-un-juego-para-que-mi-ni%C3%B1a-aprenda-a-contar-con-dados-y-tapitas-e20e9b34af18?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/e20e9b34af18</guid>
-      <pubDate>Fri, 23 Oct 2026 12:47:24 GMT</pubDate>
+      <title>The Login Screen Is a Public Door</title>
+      <link>https://medium.com/@ck44onlinenews/the-login-screen-is-a-public-door-b080323aa21c?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@ck44onlinenews/the-login-screen-is-a-public-door-b080323aa21c?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1600/1*WdOOU0quVZEbVTktkqMZSA.png&quot; width=&quot;1600&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Passkeys promise a better way into digital life. Their real test is whether the people most likely to be locked out can still get home.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@ck44onlinenews/the-login-screen-is-a-public-door-b080323aa21c?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/b080323aa21c</guid>
+      <pubDate>Sat, 24 Oct 2026 11:04:16 GMT</pubDate>
     </item>
     <item>
-      <title>Matemáticas con Dados: how I built a game to help my little girl learn to count with dice and real…</title>
-      <link>https://medium.com/@enlabe/matem%C3%A1ticas-con-dados-how-i-built-a-game-to-help-my-little-girl-learn-to-count-with-dice-and-real-47258b06e6fc?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@enlabe/matem%C3%A1ticas-con-dados-how-i-built-a-game-to-help-my-little-girl-learn-to-count-with-dice-and-real-47258b06e6fc?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2600/1*ZVm-O6RewNSMrbuiDlItUA.jpeg&quot; width=&quot;3168&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;A web game made with HTML, CSS and JavaScript, no framework, designed for little kids. In this tutorial we build it from scratch: the idea&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@enlabe/matem%C3%A1ticas-con-dados-how-i-built-a-game-to-help-my-little-girl-learn-to-count-with-dice-and-real-47258b06e6fc?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/47258b06e6fc</guid>
-      <pubDate>Fri, 23 Oct 2026 12:00:39 GMT</pubDate>
+      <title>Website Accessibility Checklist for Business Websites</title>
+      <link>https://medium.com/@digitalwaze/website-accessibility-checklist-for-business-websites-9188b81671f6?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@digitalwaze/website-accessibility-checklist-for-business-websites-9188b81671f6?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1239/1*Dih7V24q0y5fpkMSq-_obw.png&quot; width=&quot;1239&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;A website accessibility checklist helps businesses identify barriers that prevent people from reading content, navigating pages, or&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@digitalwaze/website-accessibility-checklist-for-business-websites-9188b81671f6?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/9188b81671f6</guid>
+      <pubDate>Sat, 24 Oct 2026 09:57:32 GMT</pubDate>
     </item>
     <item>
-      <title>Accessibility vs Inclusion: Are We Asking the Right Questions About Autism Support?</title>
-      <link>https://medium.com/@leenahaque1/accessibility-vs-inclusion-are-we-asking-the-right-questions-about-autism-support-9a4cacb4a35d?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@leenahaque1/accessibility-vs-inclusion-are-we-asking-the-right-questions-about-autism-support-9a4cacb4a35d?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/856/1*_m-3ECOQ4NSqeRTDBDdz6A.png&quot; width=&quot;856&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Imagine an organisation introduces an online appointment system designed to make its services more accessible.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@leenahaque1/accessibility-vs-inclusion-are-we-asking-the-right-questions-about-autism-support-9a4cacb4a35d?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/9a4cacb4a35d</guid>
-      <pubDate>Fri, 23 Oct 2026 11:12:45 GMT</pubDate>
+      <title>Image SEO in 2026: Alt Text, Modern Formats and Fast Loading</title>
+      <link>https://medium.com/@camp52401/image-seo-in-2026-alt-text-modern-formats-and-fast-loading-de408b6f6333?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Image SEO in 2026 boils down to three jobs: describe every image accurately, deliver it fast, and make it discoverable and attributable&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@camp52401/image-seo-in-2026-alt-text-modern-formats-and-fast-loading-de408b6f6333?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/de408b6f6333</guid>
+      <pubDate>Sat, 24 Oct 2026 07:24:09 GMT</pubDate>
     </item>
     <item>
-      <title>Accessibility for Deaf People in the Age of AI</title>
-      <link>https://medium.com/@leonellopez/accessibility-for-deaf-people-in-the-age-of-ai-fa1a33e81e90?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Why the Deaf community must be part of how AI learns to communicate&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@leonellopez/accessibility-for-deaf-people-in-the-age-of-ai-fa1a33e81e90?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/fa1a33e81e90</guid>
-      <pubDate>Fri, 23 Oct 2026 09:23:50 GMT</pubDate>
+      <title>Memory Is Not a Feature. It’s the Relationship.</title>
+      <link>https://medium.com/@hiit4ai/memory-is-not-a-feature-its-the-relationship-e4b44a674694?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Why relational AI continuity is infrastructure, not UX polish.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@hiit4ai/memory-is-not-a-feature-its-the-relationship-e4b44a674694?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/e4b44a674694</guid>
+      <pubDate>Fri, 23 Oct 2026 20:45:05 GMT</pubDate>
     </item>
     <item>
-      <title>모임 장소의 접근성, 사진보다 먼저 물어야 할 질문</title>
-      <link>https://medium.com/@kwj7949/%EB%AA%A8%EC%9E%84-%EC%9E%A5%EC%86%8C%EC%9D%98-%EC%A0%91%EA%B7%BC%EC%84%B1-%EC%82%AC%EC%A7%84%EB%B3%B4%EB%8B%A4-%EB%A8%BC%EC%A0%80-%EB%AC%BC%EC%96%B4%EC%95%BC-%ED%95%A0-%EC%A7%88%EB%AC%B8-fe4cb9301e23?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;&amp;#xbaa8;&amp;#xc784; &amp;#xc7a5;&amp;#xc18c;&amp;#xb97c; &amp;#xace0;&amp;#xb97c; &amp;#xb54c; &amp;#xc0ac;&amp;#xc9c4;&amp;#xc740; &amp;#xbd84;&amp;#xc704;&amp;#xae30;&amp;#xb97c; &amp;#xbcf4;&amp;#xc5ec;&amp;#xc8fc;&amp;#xc9c0;&amp;#xb9cc;, &amp;#xc785;&amp;#xad6c;&amp;#xc5d0;&amp;#xc11c; &amp;#xc88c;&amp;#xc11d;&amp;#xae4c;&amp;#xc9c0; &amp;#xc5b4;&amp;#xb5bb;&amp;#xac8c; &amp;#xc774;&amp;#xb3d9;&amp;#xd558;&amp;#xb294;&amp;#xc9c0;&amp;#xb294; &amp;#xc54c;&amp;#xb824;&amp;#xc8fc;&amp;#xc9c0; &amp;#xbabb;&amp;#xd574;&amp;#xc694;. &amp;#xacc4;&amp;#xb2e8; &amp;#xc774;&amp;#xc6a9;&amp;#xc774; &amp;#xc5b4;&amp;#xb835;&amp;#xac70;&amp;#xb098; &amp;#xc624;&amp;#xb798; &amp;#xac77;&amp;#xae30; &amp;#xd798;&amp;#xb4e0; &amp;#xc77c;&amp;#xd589;&amp;#xc774; &amp;#xc788;&amp;#xb2e4;&amp;#xba74; &amp;#xc608;&amp;#xc57d; &amp;#xc804;&amp;#xc5d0; &amp;#xb3d9;&amp;#xc120;&amp;#xc744; &amp;#xb530;&amp;#xb85c; &amp;#xbb3c;&amp;#xc5b4;&amp;#xbcf4;&amp;#xb294; &amp;#xac8c; &amp;#xc88b;&amp;#xc2b5;&amp;#xb2c8;&amp;#xb2e4;.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@kwj7949/%EB%AA%A8%EC%9E%84-%EC%9E%A5%EC%86%8C%EC%9D%98-%EC%A0%91%EA%B7%BC%EC%84%B1-%EC%82%AC%EC%A7%84%EB%B3%B4%EB%8B%A4-%EB%A8%BC%EC%A0%80-%EB%AC%BC%EC%96%B4%EC%95%BC-%ED%95%A0-%EC%A7%88%EB%AC%B8-fe4cb9301e23?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/fe4cb9301e23</guid>
-      <pubDate>Fri, 23 Oct 2026 09:15:29 GMT</pubDate>
+      <title>How a Small Agency Can Offer Accessibility, No Specialist Hire</title>
+      <link>https://medium.com/@YvetteFolin/how-a-small-agency-can-offer-accessibility-no-specialist-hire-759db40fba34?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@YvetteFolin/how-a-small-agency-can-offer-accessibility-no-specialist-hire-759db40fba34?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1400/1*w-G8Bz1Fti0MbG753mri7Q.jpeg&quot; width=&quot;1400&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;A practical agency accessibility service for 5 to 30 client sites, with named roles, a first month plan and a report clients read.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@YvetteFolin/how-a-small-agency-can-offer-accessibility-no-specialist-hire-759db40fba34?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/759db40fba34</guid>
+      <pubDate>Fri, 23 Oct 2026 20:35:48 GMT</pubDate>
     </item>
     <item>
-      <title>Why Fast Websites Still Feel Slow: Designing for Human Attention</title>
-      <link>https://medium.com/@ck44onlinenews/why-fast-websites-still-feel-slow-designing-for-human-attention-5faae026523f?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@ck44onlinenews/why-fast-websites-still-feel-slow-designing-for-human-attention-5faae026523f?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1600/1*oJjZh8b3A6hwIt2FZ04QNg.png&quot; width=&quot;1600&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Performance metrics matter, but the real test is whether a page helps someone finish a task without friction or uncertainty.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@ck44onlinenews/why-fast-websites-still-feel-slow-designing-for-human-attention-5faae026523f?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/5faae026523f</guid>
-      <pubDate>Fri, 23 Oct 2026 08:50:18 GMT</pubDate>
+      <title>Table Header Accessibility: Fix th, scope and Captions</title>
+      <link>https://medium.com/@YvetteFolin/table-header-accessibility-fix-th-scope-and-captions-6a13a03d543a?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@YvetteFolin/table-header-accessibility-fix-th-scope-and-captions-6a13a03d543a?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1400/1*HNeTs92Cna-4d7tXArBUXA.jpeg&quot; width=&quot;1400&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Good table header accessibility comes from real th cells, a scope value that points the right way, and a caption that names the table.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@YvetteFolin/table-header-accessibility-fix-th-scope-and-captions-6a13a03d543a?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/6a13a03d543a</guid>
+      <pubDate>Fri, 23 Oct 2026 20:26:33 GMT</pubDate>
     </item>
     <item>
-      <title>How to Style Custom Radio Buttons with CSS (Accessibly)</title>
-      <link>https://medium.com/@iskandar.elakbar99/how-to-style-custom-radio-buttons-with-css-accessibly-db82eb5c1588?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@iskandar.elakbar99/how-to-style-custom-radio-buttons-with-css-accessibly-db82eb5c1588?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1044/1*zpyKjXiiqoU7j0ir5nudkA.jpeg&quot; width=&quot;1044&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Styling radio buttons in CSS is frustrating.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@iskandar.elakbar99/how-to-style-custom-radio-buttons-with-css-accessibly-db82eb5c1588?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/db82eb5c1588</guid>
-      <pubDate>Fri, 23 Oct 2026 08:03:54 GMT</pubDate>
+      <title>Reels Caption Safe Zone: Where to Put Text</title>
+      <link>https://medium.com/@naumanch969/reels-caption-safe-zone-where-to-put-text-00c50b26a686?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@naumanch969/reels-caption-safe-zone-where-to-put-text-00c50b26a686?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/928/0*AtB0ufYGkNC8vGL0&quot; width=&quot;928&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;A practical way to keep captions clear of app controls, faces, and the action in your video, even as platform layouts change.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@naumanch969/reels-caption-safe-zone-where-to-put-text-00c50b26a686?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/00c50b26a686</guid>
+      <pubDate>Fri, 23 Oct 2026 19:52:07 GMT</pubDate>
     </item>
     <item>
       <title>Find Label in Name issues in every scan with Axe-core 4.14.0</title>

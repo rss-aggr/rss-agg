@@ -3,7 +3,40 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Fri, 23 Oct 2026 15:48:39 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 14:43:19 +0000</lastBuildDate>
+    <item>
+      <title>Introducing Kimi K3.1 Pro</title>
+      <link>https://simonwillison.net/2026/Oct/23/kimi-k31-pro/</link>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.kimi.ai/blog/kimi-k3-1-pro&quot;&gt;Introducing Kimi K3.1 Pro&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot  promise &quot;Full model weights will be released by Nov 4, 2026&quot;.&lt;/p&gt;
+&lt;p&gt;They're also offering a &quot;Highspeed&quot; version that's 2-3x faster, at twice the price (except for input token cache hits, which are priced the same).&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;https://platform.kimi.ai/docs/pricing/chat&quot;&gt;US dollar pricing&lt;/a&gt; is $2.00/million tokens for input and $10/million for output - the same as GPT-6.1 Sol and half the price of Claude Opus 5.5.&lt;/p&gt;
+&lt;p&gt;Moonshot's own benchmarks show Kimi as approximately level with Opus 5.5 and GPT-6 Astra - beating them on a few benchmarks, coming close on others.&lt;/p&gt;
+&lt;p&gt;Artificial Analysis &lt;a href=&quot;https://artificialanalysis.ai/models/kimi-k3-1-pro&quot;&gt;scored Kimi at 55&lt;/a&gt; - ahead of Claude Fable 5.1, GPT-6 Astra, and Gemini 4 Argon (all at 53) and behind only Claude Opus 5.5 (58).&lt;/p&gt;
+&lt;p&gt;This is the first time a (soon-to-be) open weight model has scored this highly against the frontier.&lt;/p&gt;
+&lt;p&gt;I tried it out via the &lt;a href=&quot;https://platform.kimi.ai/docs/get-your-api-key&quot;&gt;Moonshot API&lt;/a&gt; using the &lt;a href=&quot;https://llm.datasette.io/en/stable/other-models.html#openai-endpoint&quot;&gt;llm openai endpoint&lt;/a&gt; command I added to &lt;a href=&quot;https://llm.datasette.io/en/stable/changelog.html#v0-32&quot;&gt;LLM 0.32&lt;/a&gt; back in August:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;llm openai endpoint \
+  https://api.moonshot.ai/v1 \
+  --key kimi \
+  -m kimi-k3.1-pro \
+  &quot;Generate an SVG of a pelican riding a bicycle&quot; \
+  --responses \
+  -o reasoning_effort low \
+  &amp;gt; kimi-k3.1-pro-pelican-low.stdout.txt \
+  2&amp;gt; kimi-k3.1-pro-pelican-low.stderr.txt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;llm openai endpoint&lt;/code&gt; can run prompts against any OpenAI-compatible endpoint but doesn't log the results, hence the extra options to save stdout and stderr (the reasoning trace).&lt;/p&gt;
+&lt;p&gt;Here &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F9b7181492209387da1d4f53002f26663&quot;&gt;are the pelicans&lt;/a&gt; I got for Kimi K3.1 Pro on the three reasoning levels it supports -  low, medium, and max. This is max:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;It's pretty solid - feet are on the pedals, bicycle frame is good, nice beak. Both legs are on the same side of the Fram though.&quot; src=&quot;https://static.simonwillison.net/static/2026-10-23/image-2.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;For comparison, I ran fresh &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Feba9a4283c9e94cbbb5325902a3921a8&quot;&gt;pelicans against Kimi K3&lt;/a&gt; on those three reasoning levels.
+
+    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://news.ycombinator.com/item?id=50212065&quot;&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm&quot;&gt;llm&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-pricing&quot;&gt;llm-pricing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-release&quot;&gt;llm-release&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-in-china&quot;&gt;ai-in-china&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/moonshot&quot;&gt;moonshot&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/kimi&quot;&gt;kimi&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Oct/23/kimi-k31-pro/</guid>
+      <pubDate>2026-10-23T19:40:54+00:00</pubDate>
+    </item>
     <item>
       <title>Meta’s Muse Wonder and Spark Open, Educational Use of ChatGPT, Reflection's Partnership with Nvidia</title>
       <link>https://www.deeplearning.ai/the-batch/issue-376</link>
@@ -1003,24 +1036,6 @@ Given how tempting a target wikis are for rogue agent swarms, it's not a huge su
         &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/google&quot;&gt;google&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/embeddings&quot;&gt;embeddings&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gemma&quot;&gt;gemma&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Oct/6/hn-49983751/</guid>
       <pubDate>2026-10-06T20:37:53+00:00</pubDate>
-    </item>
-    <item>
-      <title>Introducing Mistral Large 4: Le chonk</title>
-      <link>https://simonwillison.net/2026/Oct/6/le-chonk/</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://mistral.ai/news/mistral-large-4/&quot;&gt;Introducing Mistral Large 4: Le chonk&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-Mistral are back in the game. Today they're releasing a preview of Mistral Large 4, a 1 trillion parameter, 49 billion active parameter model trained on their own cluster of 3,800 NVIDIA Grace Blackwell GPUs.&lt;/p&gt;
-&lt;p&gt;The preview is available via their API. They promise to release the open weights model at the &quot;end of this month&quot;.&lt;/p&gt;
-&lt;p&gt;The model only supports two reasoning levels - &quot;none&quot; and &quot;high&quot; - via the Mistral API. Here are &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F0db8b8196e57711b352f6c5857cf5b35&quot;&gt;both pelicans&lt;/a&gt; - the &quot;high&quot; one looks better, though surprisingly it only used 2,717 output tokens compared to &quot;none&quot; which used 3,275:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;It's good. The pouch is great, the bicycle frame is the right size, it has feet on pedals. Both pedals appear in front of the frame though. Nice gradients.&quot; src=&quot;https://static.simonwillison.net/static/2026-10-06/mistral-large-4-pelican.webp&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;On Artificial Analysis &lt;a href=&quot;https://artificialanalysis.ai/models/mistral-large-4&quot;&gt;it scores 38&lt;/a&gt;, just behind DeepSeek 4.1 Flash, which is a 552B model. It's a &lt;em&gt;huge&lt;/em&gt; improvement on last December's Mistral Large 3, which drew &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F0df5e656291d5a7a1bf012fabc9edc3f#response-1&quot;&gt;this terrible pelican&lt;/a&gt; and &lt;a href=&quot;https://artificialanalysis.ai/models/mistral-large-3&quot;&gt;scored 9 on AA&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;It's certainly not a Fable-class model, but it's great to see Mistral put out a model that's back to being maybe about 6 months behind the frontier.
-
-    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://news.ycombinator.com/item?id=49977979&quot;&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/mistral&quot;&gt;mistral&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-release&quot;&gt;llm-release&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Oct/6/le-chonk/</guid>
-      <pubDate>2026-10-06T20:18:19+00:00</pubDate>
     </item>
     <item>
       <title>Expanding the Cyber Verification Program</title>
