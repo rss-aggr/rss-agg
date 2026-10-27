@@ -3,7 +3,51 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Mon, 26 Oct 2026 17:30:38 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 16:46:26 +0000</lastBuildDate>
+    <item>
+      <title>GPT-6.1 Terra ⚡, Anthropic IPO filing 📈, agent native git 👨‍💻</title>
+      <link>https://tldr.tech/ai/2026-10-27</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-10-27</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>GPT-6.1 Terra</title>
+      <link>https://simonwillison.net/2026/Oct/26/gpt-61-terra/</link>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://openai.com/index/introducing-gpt-6-1-terra/&quot;&gt;GPT-6.1 Terra&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+It's always interesting to note which aspects of a new model are emphasized in the release announcement.&lt;/p&gt;
+&lt;p&gt;In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We’re introducing &lt;strong&gt;GPT-6.1 Terra&lt;/strong&gt;, a fast, efficient model that combines detailed visual reasoning and precise computer use alongside clearer, more natural writing. A significant step up from GPT‑5.6 Terra, it excels at the communication and computer-based tasks that fill the workday, from drafting proposals and interpreting technical drawings to filling out forms and editing videos.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Terra sits in the same position as Sonnet in the Anthropic model collection - not the cheapest or the most expensive, making it harder to decide when to use it.&lt;/p&gt;
+&lt;p&gt;Computer use is a good example of a task that benefits from a less expensive model, since you might put it to work on automated, repetitive tasks.&lt;/p&gt;
+&lt;p&gt;OpenAI's Ted Sanders provided some useful advice in &lt;a href=&quot;https://news.ycombinator.com/item?id=50248124#50249160&quot;&gt;a comment&lt;/a&gt; on Hacker News:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In the case of GPT-6.1 Terra, I'd say Terra is probably better than Astra and Sol at technical communication, similar on vision and computer use (but much faster!), and a bit worse on most other things. For API developers, it's a nice midrange option if you want something cheaper than Sol but a lot smarter than Luna (especially for vision / computer use / communication). For subscribers, it's not a bombshell release - if you're hitting usage limits, maybe it helps you go a bit further, and if you want clearer communication or faster computer use, it can be a nice option to select.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Here are &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F855d951d12c68eccca5374cd7d4f834e&quot;&gt;the pelicans&lt;/a&gt; for the different reasoning levels. This pelican &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F855d951d12c68eccca5374cd7d4f834e#reasoning-2&quot;&gt;for &quot;max&quot;&lt;/a&gt; cost &lt;a href=&quot;https://www.llm-prices.com/#it=16&amp;amp;ot=22629&amp;amp;sel=gpt-6.1-terra&quot;&gt;11.3161 cents&lt;/a&gt; and took 4 minutes and 11 seconds:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;It's a good pelican and a good bicycle - correctly shaped frame, feet n pedals either side of the frame, has the same color scheme as the others in the GPT-6 and GPT-6.1 families.&quot; src=&quot;https://static.simonwillison.net/static/2026-10-26/terra-max.webp&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Here's &lt;a href=&quot;https://static.simonwillison.net/static/2026/openai-pelicans-october-2026.html&quot;&gt;a new comparison grid&lt;/a&gt; showing pelicans for every reasoning level of OpenAI's current frontier lineup: GPT-6 Astra, GPT-6.1 Sol, GPT-6.1 Terra, and GPT-6 Luna.&lt;/p&gt;
+&lt;p&gt;GPT-6.1 Terra is priced at $1/million input tokens and $5/million output - almost half the price of GPT-5.6 Terra and GPT-6.1 Sol, and around 10x the price of GPT-6 Luna.
+
+    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://news.ycombinator.com/item?id=50248124&quot;&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-pricing&quot;&gt;llm-pricing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-release&quot;&gt;llm-release&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gpt&quot;&gt;gpt&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Oct/26/gpt-61-terra/</guid>
+      <pubDate>2026-10-26T23:53:07+00:00</pubDate>
+    </item>
+    <item>
+      <title>Quoting Jason Koebler</title>
+      <link>https://simonwillison.net/2026/Oct/26/jason-koebler/</link>
+      <description>&lt;blockquote cite=&quot;https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/&quot;&gt;&lt;p&gt;Because big tech platforms essentially do not have customer support and make it impossible for their users to contact a human, many people experiencing run-of-the-mill tech problems have turned to ChatGPT. And, increasingly, ChatGPT is telling people that have normal tech support problems that they have discovered something journalistically notable and that 404 Media, specifically, can help them.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/&quot;&gt;Jason Koebler&lt;/a&gt;, ChatGPT Keeps Telling People 404 Media Can Solve Their Tech Support Problems&lt;/p&gt;
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/journalism&quot;&gt;journalism&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/chatgpt&quot;&gt;chatgpt&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/jason-koebler&quot;&gt;jason-koebler&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-misuse&quot;&gt;ai-misuse&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/404-media&quot;&gt;404-media&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Oct/26/jason-koebler/</guid>
+      <pubDate>2026-10-26T19:00:25+00:00</pubDate>
+    </item>
     <item>
       <title>Anthropic files S-1 with the SEC for proposed initial public offering</title>
       <link>https://www.anthropic.com/news/s1-sec</link>
@@ -1027,31 +1071,6 @@ Given how tempting a target wikis are for rogue agent swarms, it's not a huge su
       <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Quoting Victoria Kim</title>
-      <link>https://simonwillison.net/2026/Oct/6/victoria-kim/</link>
-      <description>&lt;blockquote cite=&quot;https://www.nytimes.com/live/2026/10/05/world/openai-australia-hearing/94c8067e-4098-5c00-9673-c78cb58a9d8a&quot;&gt;&lt;p&gt;Since the Medicare breach, OpenAI has put in place additional monitoring to allow “immediate intervention” by staff to stop training if the company’s models access the internet in ways they’re not supposed to, Mr. Kwon [chief strategy officer at OpenAI] said.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://www.nytimes.com/live/2026/10/05/world/openai-australia-hearing/94c8067e-4098-5c00-9673-c78cb58a9d8a&quot;&gt;Victoria Kim&lt;/a&gt;, Reporting from the Australian parliament&lt;/p&gt;
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-security-research&quot;&gt;ai-security-research&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/accidental-cyberattacks&quot;&gt;accidental-cyberattacks&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Oct/6/victoria-kim/</guid>
-      <pubDate>2026-10-06T23:58:56+00:00</pubDate>
-    </item>
-    <item>
-      <title>EmbeddingGemma 2</title>
-      <link>https://simonwillison.net/2026/Oct/6/hn-49983751/</link>
-      <description>&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49980487#49983751&quot;&gt;My comment&lt;/a&gt; on &lt;a href=&quot;https://news.ycombinator.com/item?id=49980487&quot;&gt;EmbeddingGemma 2&lt;/a&gt; &amp;mdash; Hacker News.&lt;/p&gt;&lt;p&gt;I really appreciate that &lt;a href=&quot;https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/&quot;&gt;EmbeddingGemma 2&lt;/a&gt; is under the Apache 2.0 license.&lt;/p&gt;
-&lt;p&gt;For embedding models in particular, I don't think it makes sense to use a closed, proprietary, hosted-only model.&lt;/p&gt;
-&lt;p&gt;Most applications of embedding models involve calculating thousands or even millions of embedding vectors and storing them for later comparison.&lt;/p&gt;
-&lt;p&gt;If your model is proprietary, the vendor is likely someday going to decide to stop offering that model. They'll have a better model to replace it, but you still need to pay to re-calculate those millions of stored existing vectors.&lt;/p&gt;
-&lt;p&gt;(In April 2024 OpenAI offered to &quot;cover the financial cost of users re-embedding content with these new models&quot; - &lt;a href=&quot;https://openai.com/index/gpt-4-api-general-availability/&quot;&gt;https://openai.com/index/gpt-4-api-general-availability/&lt;/a&gt; - but I don't think that's something we can rely on from every provider.)&lt;/p&gt;
-&lt;p&gt;Notably, I &lt;em&gt;don't want to host the model myself&lt;/em&gt;. I'd much rather pay a provider for a hosted model while knowing that if they ever stop hosting it I can run the open weights version myself - or find another vendor who can do that for me.&lt;/p&gt;
-    
-    
-        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/google&quot;&gt;google&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/embeddings&quot;&gt;embeddings&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gemma&quot;&gt;gemma&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Oct/6/hn-49983751/</guid>
-      <pubDate>2026-10-06T20:37:53+00:00</pubDate>
-    </item>
-    <item>
       <title>Expanding the Cyber Verification Program</title>
       <link>https://www.anthropic.com/news/cyber-verification-program</link>
       <description>We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.</description>
@@ -1113,13 +1132,6 @@ Given how tempting a target wikis are for rogue agent swarms, it's not a huge su
       <description/>
       <guid>https://tldr.tech/ai/2026-09-30</guid>
       <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Claude Sonnet 5.5 🧠, Anthropic IPO leaks 📝, AMD buys World Labs 💰</title>
-      <link>https://tldr.tech/ai/2026-09-29</link>
-      <description/>
-      <guid>https://tldr.tech/ai/2026-09-29</guid>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Introducing Claude Sonnet 5.5</title>
