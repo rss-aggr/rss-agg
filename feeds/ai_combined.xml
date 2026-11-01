@@ -3,7 +3,18 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Sat, 31 Oct 2026 16:13:20 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 17:12:32 +0000</lastBuildDate>
+    <item>
+      <title>Quoting Kyle Kingsbury</title>
+      <link>https://simonwillison.net/2026/Nov/1/kyle-kingsbury/</link>
+      <description>&lt;blockquote cite=&quot;https://jepsen.io/analyses/particledb-1.1.4#llm-tradeoffs&quot;&gt;&lt;p&gt;More broadly, the use of LLMs erodes trust in documentation, in software, and in the organizations which produce them. Perhaps engineers will begin to treat any new software project with suspicion—the signals we used to rely on as markers of a mature system are now easier to counterfeit. [...]&lt;/p&gt;
+&lt;p&gt;In the age of LLMs, what can maintainers do to ensure correct software and accurate documentation? Having done that work, how can they demonstrate its quality to users?&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://jepsen.io/analyses/particledb-1.1.4#llm-tradeoffs&quot;&gt;Kyle Kingsbury&lt;/a&gt;, Jepsen results for ParticleDB 1.1.4&lt;/p&gt;
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-misuse&quot;&gt;ai-misuse&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/kyle-kingsbury&quot;&gt;kyle-kingsbury&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Nov/1/kyle-kingsbury/</guid>
+      <pubDate>2026-11-01T16:49:04+00:00</pubDate>
+    </item>
     <item>
       <title>dbreunig/nesformer</title>
       <link>https://simonwillison.net/2026/Oct/30/nesformer/</link>
@@ -1093,21 +1104,6 @@ Interesting piece from Anthropic describing why and how they built their own cus
         &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/meta&quot;&gt;meta&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-release&quot;&gt;llm-release&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Oct/12/llm-meta-ai/</guid>
       <pubDate>2026-10-12T23:58:46+00:00</pubDate>
-    </item>
-    <item>
-      <title>web-edit 0.1a0</title>
-      <link>https://simonwillison.net/2026/Oct/12/web-edit/</link>
-      <description>&lt;p&gt;&lt;strong&gt;Release:&lt;/strong&gt; &lt;a href=&quot;https://github.com/simonw/web-edit/releases/tag/0.1a0&quot;&gt;web-edit 0.1a0&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;I was working on a project from my phone using Codex Remote when I found myself wanting to edit a credentials file without round-tripping those credentials through the LLM itself.&lt;/p&gt;
-&lt;p&gt;So... I had Codex and GPT-6 Astra Extra High build this Python web app which provides a web UI for viewing and editing files in a folder. It's intended to be run over Tailscale, so I can have an agent start this running and then edit files via my Tailscale network directly from my phone.&lt;/p&gt;
-&lt;p&gt;Here's the interface for browsing files in a folder:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Screenshot of a web file manager interface. Header reads &amp;quot;WORKSPACE&amp;quot; above the title &amp;quot;Files&amp;quot;, with buttons &amp;quot;Refresh&amp;quot;, &amp;quot;Upload files&amp;quot; and &amp;quot;New file&amp;quot; (dark green). A breadcrumb shows &amp;quot;web-edit / web_edit / static&amp;quot;. A table with columns &amp;quot;Name&amp;quot;, &amp;quot;Size&amp;quot;, &amp;quot;Modified&amp;quot; lists four files, each with &amp;quot;Download ↓&amp;quot; and &amp;quot;Delete&amp;quot; links: &amp;quot;app.css&amp;quot; 8.4 KB Oct 12, 2026; &amp;quot;app.js&amp;quot; 671.5 KB Oct 12, 2026; &amp;quot;index.html&amp;quot; 4.3 KB Oct 12, 2026 (underlined, as if hovered); &amp;quot;THIRD_PARTY_LICENSES.txt&amp;quot; 32.3 KB Oct 12, 2026. Below the table: &amp;quot;Images under 2 MB appear inline. Select a text file to edit it.&amp;quot; A panel below is labelled &amp;quot;UPLOAD QUEUE&amp;quot; with heading &amp;quot;Add files&amp;quot; and a &amp;quot;Close&amp;quot; button. It has a &amp;quot;Destination folder&amp;quot; text field containing &amp;quot;web_edit&amp;quot;, then a dashed drop zone reading &amp;quot;Choose files or drop them here&amp;quot; and &amp;quot;Set a path and filename for each file before uploading.&amp;quot; with a &amp;quot;Choose Files&amp;quot; button and the text &amp;quot;no files selected&amp;quot;. A greyed-out &amp;quot;Upload files&amp;quot; button sits at the bottom right.&quot; src=&quot;https://static.simonwillison.net/static/2026/web-edit.webp&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Editing uses &lt;a href=&quot;https://codemirror.net&quot;&gt;CodeMirror 6&lt;/a&gt; - I was going to use &lt;a href=&quot;https://microsoft.github.io/monaco-editor/&quot;&gt;Monaco&lt;/a&gt; but that still doesn't have a great mobile experience yet.&lt;/p&gt;
-    
-    
-        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/projects&quot;&gt;projects&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/python&quot;&gt;python&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/tailscale&quot;&gt;tailscale&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/codex&quot;&gt;codex&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Oct/12/web-edit/</guid>
-      <pubDate>2026-10-12T15:54:36+00:00</pubDate>
     </item>
     <item>
       <title>Strengthening our defenses against distillation attacks</title>
