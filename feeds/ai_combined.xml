@@ -3,7 +3,61 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Sun, 01 Nov 2026 17:12:32 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 20:50:55 +0000</lastBuildDate>
+    <item>
+      <title>The U.S. Census Bureau and “Super Intelligence”</title>
+      <link>https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/</link>
+      <description>&lt;p&gt;I was reminded today of &lt;a href=&quot;https://www.apolloacademy.com/ai-adoption-rate-trending-down-for-large-companies/&quot;&gt;AI Adoption Rate Trending Down for Large Companies&lt;/a&gt;, a chart produced by Apollo Global Management in September 2025, which appeared to show a slowdown in U.S. corporate AI adoption based on numbers collected by the U.S. Census Bureau. At the time I used that chart &lt;a href=&quot;https://simonwillison.net/2025/Sep/9/apollo-ai-adoption/&quot;&gt;to demonstrate GPT-5 data analysis&lt;/a&gt;, and then &lt;a href=&quot;https://simonwillison.net/2025/Sep/9/claude-code-interpreter/#something-much-harder-recreating-the-ai-adoption-chart&quot;&gt;to experiment with Claude's new Code Interpreter&lt;/a&gt;. I decided to try running those numbers again to see what had changed over the past year, and in doing so learned that the Bureau has fallen foul of &lt;a href=&quot;https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence/&quot;&gt;Executive Order 14434&lt;/a&gt;, aka the asinine Super Intelligence one.&lt;/p&gt;
+&lt;h4 id=&quot;first-the-updated-chart&quot;&gt;First, the updated chart&lt;/h4&gt;
+&lt;p&gt;Every two weeks the U.S. Census Bureau runs a survey called the &lt;a href=&quot;https://www.census.gov/hfp/btos/data&quot;&gt;Business Trends and Outlook Survey&lt;/a&gt; (aka BTOS). Each time it goes to 200,000 businesses out of 1.2 million total - the surveyed group (a &quot;panel&quot;) cycles such that an individual business only completes the survey every twelve weeks.&lt;/p&gt;
+&lt;p&gt;The latest data is published on alternating Thursdays at 10am.&lt;/p&gt;
+&lt;p&gt;I used the most recent numbers (published October 22, 2026) to create a new version (&lt;a href=&quot;https://chatgpt.com/share/6ae89e86-8658-83e8-85fd-c4ef2d4f3b89?ogimg=plain&quot;&gt;GPT-6 Astra Extra High transcript&lt;/a&gt;) of the AI adoption chart, updated to reflect both the last twelve months and a change that was made to the survey question sent out by the Bureau:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Line chart titled &amp;quot;AI use by U.S. firm size&amp;quot;, subtitled &amp;quot;Six-survey trailing average • Share of employer businesses reporting use in the last two weeks&amp;quot; and &amp;quot;Updated with the October 22, 2026 Census release&amp;quot;. Seven lines for firm sizes 250+, 100–249, 50–99, 20–49, 10–19, 5–9 and 1–4, on a y-axis from 0% to 45% and an x-axis from Jan 2024 to Oct 2026. Left section, &amp;quot;AI in producing goods or services&amp;quot;: all sizes start at 3–5% in late 2023 and climb slowly to 7–13% by September 2025, with 250+ highest. A shaded gap is labeled &amp;quot;Question broadened Nov 2025&amp;quot; and &amp;quot;Series not comparable&amp;quot;. Right section, &amp;quot;AI in any business function&amp;quot;: all lines restart higher in February 2026 and rise steadily to &amp;quot;250+: 40.7%&amp;quot;, &amp;quot;100–249: 33.5%&amp;quot;, &amp;quot;50–99: 27.9%&amp;quot;, &amp;quot;20–49: 23.8%&amp;quot;, &amp;quot;1–4: 23.3%&amp;quot;, &amp;quot;10–19: 22.1%&amp;quot;, &amp;quot;5–9: 21.1%&amp;quot;. Footnotes: &amp;quot;Source: U.S. Census Bureau, Business Trends and Outlook Survey (BTOS). Size groups are numbers of employees.&amp;quot; &amp;quot;Method: arithmetic mean of six successive survey estimates, calculated separately for each question wording; no bridging of the break.&amp;quot; &amp;quot;Dates use reference-period end, matching the original chart. Latest: Oct 4, 2026 (collected Oct 5–18). First new six-wave average: Jan 25, 2026.&amp;quot; &amp;quot;The gap includes the 2025 shutdown and the wait for six observations under the broader question. Survey uncertainty is not displayed.&amp;quot;&quot; src=&quot;https://static.simonwillison.net/static/2026-11-01/5821A414-FAF6-4E61-B037-952C1FD80D39.png&quot; /&gt;&lt;/p&gt;
+
+
+&lt;p&gt;For comparison, here's that AI adoption chart from last year (my GPT-5 version):
+&lt;img alt=&quot;AI adoption rates starting to decline for larger firms. A chart of AI adoption rate by firm size. Includes lines for 250+, 100-249, 50-99, 20-49, 10-19, 5-9 and 1-4 sized organizations. Chart starts in November 2023 with percentages ranging from 3 to 5, then all groups grow through August 2025 albeit with the 250+ group having a higher score than the others. That 250+ group peaks in July 2025 at around 14% and then appears to slope slightly downwards to 12% by August. Some of the other lines also start to tip down, though not as much.&quot; src=&quot;https://static.simonwillison.net/static/2025/apollo-ai-chart.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In September 2025 the largest (250+ employees) companies answered &quot;yes&quot; around 12% of the time to the question about whether they used AI in &quot;producing goods or services&quot;.&lt;/p&gt;
+&lt;p&gt;Under the new &quot;any business function&quot; wording, by February 2026, those same large companies answered &quot;yes&quot; around 30% of the time, and by October 2026 that had increased to around 40%.&lt;/p&gt;
+&lt;p&gt;The data in the above chart comes from the &quot;Employment size class&quot; XLSX file, &lt;a href=&quot;https://www.census.gov/hfp/btos/data_downloads&quot;&gt;available from here&lt;/a&gt;. Here's &lt;a href=&quot;https://static.simonwillison.net/static/2026/Employment-Size-Class-Nov-1-2026-copy.xlsx&quot;&gt;a copy&lt;/a&gt; of the file I used.&lt;/p&gt;
+&lt;p&gt;You can view &lt;a href=&quot;https://www.census.gov/hfp/btos/downloads/BTOS%20Content%20V5%20Core%20Round%203,%204.pdf&quot;&gt;the survey document&lt;/a&gt; that is sent out to businesses - here's &lt;a href=&quot;https://static.simonwillison.net/static/2026/BTOS-Content-V5-Core-Round-3-4.pdf&quot;&gt;my snapshot copy&lt;/a&gt; of that 346KB PDF.&lt;/p&gt;
+&lt;h4 id=&quot;the-changing-language-of-the-questions&quot;&gt;The changing language of the questions&lt;/h4&gt;
+&lt;p&gt;As the chart demonstrates, the question asked by the Bureau changed in a material way on November 17th, 2025. Prior to that date, the question they asked was this (emphasis mine):&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In the last two weeks, did this business use Artificial Intelligence (AI) in &lt;strong&gt;producing goods or services&lt;/strong&gt;? (Examples of AI: machine learning, natural language processing, virtual agents, voice recognition, etc.)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;On December 3rd, 2025, &lt;a href=&quot;https://www.census.gov/hfp/btos/downloads/AI%20Question%20Wording%20Updates.pdf&quot;&gt;the Bureau announced&lt;/a&gt; a significant change to that question. Here's the replacement:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In the last two weeks, did this business use Artificial Intelligence (AI) in &lt;strong&gt;any of its business functions&lt;/strong&gt;? (Examples of AI: machine learning, natural language processing, virtual agents, voice recognition, etc.)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;No more &quot;producing goods or services&quot; - now it's &quot;in any of its business functions&quot;! This means that the answers to the question before and after November 17th are not directly comparable.&lt;/p&gt;
+&lt;h4 id=&quot;from-october-19-2026-they-ask-about-super-intelligence&quot;&gt;From October 19, 2026, they ask about Super Intelligence&lt;/h4&gt;
+&lt;p&gt;When I went looking for the updated question language in the latest XLSX file, I couldn't find it. I found this instead:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In the last two weeks, did this business &lt;strong&gt;use Super Intelligence or SI&lt;/strong&gt; (formerly referred to as Artificial Intelligence or AI) in any of its business functions? (Examples of SI use include: SI-powered data analysis; generative SI for marketing, product design, or coding; virtual SI agents for customer service; SI-powered forecasting or pricing; SI-driven computer vision for quality control, etc.)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The &lt;a href=&quot;https://www.census.gov/hfp/btos/about&quot;&gt;BTOS about page&lt;/a&gt; explains what happened:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Beginning with the October 19, 2026 collection, &lt;a href=&quot;https://www.census.gov/hfp/btos/downloads/BTOS%20Content%20V5%20Core%20Round%203,%204.pdf&quot;&gt;instrument wording&lt;/a&gt; was updated due to &lt;a href=&quot;https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence/&quot;&gt;Executive Order 14434&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The current numbers reflect the old Artificial Intelligence survey wording - the first survey results reflecting the Super Intelligence wording are due for publication on Thursday.&lt;/p&gt;
+&lt;h4 id=&quot;is-this-going-to-affect-the-survey-&quot;&gt;Is this going to affect the survey?&lt;/h4&gt;
+&lt;p&gt;The obvious open question here is whether this wording change is going to affect the survey results.&lt;/p&gt;
+&lt;p&gt;The businesses answering this survey will have last seen that question twelve weeks ago, when it was still called AI. Hopefully the new language isn't going to confuse them, especially since the survey helpfully spells out &quot;formerly referred to as Artificial Intelligence or AI&quot;.&lt;/p&gt;
+&lt;p&gt;I can't help but laugh at the absurdity of &quot;SI-powered data analysis; generative SI for marketing, product design, or coding; virtual SI agents for customer service&quot; though.&lt;/p&gt;
+    
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/census&quot;&gt;census&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/surveys&quot;&gt;surveys&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/</guid>
+      <pubDate>2026-11-02T13:31:26+00:00</pubDate>
+    </item>
+    <item>
+      <title>DeepSeek super agent 🤖, GPT-6 Rosalind 🧬, Google orbital compute 🛰️</title>
+      <link>https://tldr.tech/ai/2026-11-02</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Quoting Kyle Kingsbury</title>
       <link>https://simonwillison.net/2026/Nov/1/kyle-kingsbury/</link>
@@ -1092,20 +1146,6 @@ Interesting piece from Anthropic describing why and how they built their own cus
       <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>llm-meta-ai 0.2</title>
-      <link>https://simonwillison.net/2026/Oct/12/llm-meta-ai/</link>
-      <description>&lt;p&gt;&lt;strong&gt;Release:&lt;/strong&gt; &lt;a href=&quot;https://github.com/simonw/llm-meta-ai/releases/tag/0.2&quot;&gt;llm-meta-ai 0.2&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;Meta AI release &lt;a href=&quot;https://research.meta.ai/blog/muse-wonder&quot;&gt;Muse Wonder&lt;/a&gt; (and Muse Wonder Full), their new &quot;most capable models&quot;. These look like they may be Meta's first &lt;a href=&quot;https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/#simon-willison-2026-in-llms.042.webp&quot;&gt;Fable class models&lt;/a&gt; - Artificial Analysis &lt;a href=&quot;https://artificialanalysis.ai/models/muse-wonder&quot;&gt;scores Muse Wonder (Max)&lt;/a&gt; as equivalent to GPT-6.1 Sol.&lt;/p&gt;
-&lt;p&gt;I updated my &lt;code&gt;llm-meta-ai&lt;/code&gt; plugin for the new model. Here are &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer?url=https://gist.github.com/simonw/185cff7ff0b11379725abf7f78d5d2b2&quot;&gt;pelicans for Muse Wonder&lt;/a&gt; for the six reasoning levels: minimal, low, medium, high, xhigh, max. This is the max one:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Blue cycling helmet, bicycle is missing one bar but otherwise an OK shape, has mudguards, nice background, OK beak.&quot; src=&quot;https://static.simonwillison.net/static/2026/muse-wonder-max.webp&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;For comparison, here are &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer?url=https://gist.github.com/simonw/1f8c25686971da82077e34c088d408db&quot;&gt;pelicans for Muse 1.3&lt;/a&gt; (released September 2nd) and &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Fce974a21202b0595e36ec2a5ddb51480&quot;&gt;Muse 1.2&lt;/a&gt; (released August 5th). Meta AI are putting out a new model a month, and the improvements between each model (at least in terms of drawing pelicans) are material.&lt;/p&gt;
-    
-    
-        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/meta&quot;&gt;meta&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-release&quot;&gt;llm-release&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Oct/12/llm-meta-ai/</guid>
-      <pubDate>2026-10-12T23:58:46+00:00</pubDate>
-    </item>
-    <item>
       <title>Strengthening our defenses against distillation attacks</title>
       <link>https://www.anthropic.com/news/distillation-defenses</link>
       <description>Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%.</description>
@@ -1188,13 +1228,6 @@ Interesting piece from Anthropic describing why and how they built their own cus
       <description/>
       <guid>https://tldr.tech/ai/2026-10-06</guid>
       <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Prime Inference 📈, agent population 📈, Claude academy 🎓</title>
-      <link>https://tldr.tech/ai/2026-10-05</link>
-      <description/>
-      <guid>https://tldr.tech/ai/2026-10-05</guid>
-      <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>GLM-5.3’s ExploitBench Score is Good News for Cybersecurity</title>
