@@ -3,76 +3,98 @@
     <title>Accessibility Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: Accessibility Combined Feed</description>
-    <lastBuildDate>Wed, 04 Nov 2026 18:44:54 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 18:53:13 +0000</lastBuildDate>
     <item>
-      <title>Acessibilidade e WCAG 2.2: É tarefa do designer ou do desenvolvedor?</title>
-      <link>https://medium.com/@juliasavaris/acessibilidade-e-wcag-2-2-%C3%A9-tarefa-do-designer-ou-do-desenvolvedor-d0f69613f65d?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@juliasavaris/acessibilidade-e-wcag-2-2-%C3%A9-tarefa-do-designer-ou-do-desenvolvedor-d0f69613f65d?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1280/1*oWJg5AdIUUoJLKAmE3BZdA.png&quot; width=&quot;1280&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Desvendando quais diretrizes e crit&amp;#xe9;rios de sucesso da WCAG 2.2 s&amp;#xe3;o responsabilidade do UX/UI designer&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@juliasavaris/acessibilidade-e-wcag-2-2-%C3%A9-tarefa-do-designer-ou-do-desenvolvedor-d0f69613f65d?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/d0f69613f65d</guid>
-      <pubDate>Wed, 04 Nov 2026 14:58:22 GMT</pubDate>
+      <title>When the status is “unknown”, name who knows</title>
+      <link>https://medium.com/@sebastianbalderas/when-the-status-is-unknown-name-who-knows-68e3496436af?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@sebastianbalderas/when-the-status-is-unknown-name-who-knows-68e3496436af?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1280/1*Rw6fKdM9HukfKdLxLIrL8A.jpeg&quot; width=&quot;1280&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;In Strata&amp;#x2019;s order line items table, some lines showed an &amp;#x201c;unknown&amp;#x201d; status because the order couldn&amp;#x2019;t be traced between manufacturer and&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@sebastianbalderas/when-the-status-is-unknown-name-who-knows-68e3496436af?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/68e3496436af</guid>
+      <pubDate>Thu, 05 Nov 2026 17:36:19 GMT</pubDate>
     </item>
     <item>
-      <title>Is Being Alone the New Emotional Status Symbol?</title>
-      <link>https://yvimurray.medium.com/is-being-alone-the-new-emotional-status-symbol-5cdee53ad5a3?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://yvimurray.medium.com/is-being-alone-the-new-emotional-status-symbol-5cdee53ad5a3?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2600/1*BAj0bw5NEnikgQq27WO6iA.jpeg&quot; width=&quot;4284&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Something interesting seems to be happening within modern dating culture. Being single is no longer merely a relationship status&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://yvimurray.medium.com/is-being-alone-the-new-emotional-status-symbol-5cdee53ad5a3?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/5cdee53ad5a3</guid>
-      <pubDate>Wed, 04 Nov 2026 14:01:03 GMT</pubDate>
+      <title>Start the design system at accessibility</title>
+      <link>https://medium.com/@sebastianbalderas/before-tokens-before-the-first-button-id-pick-the-wcag-criteria-the-system-will-defend-422db86a39fa?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@sebastianbalderas/before-tokens-before-the-first-button-id-pick-the-wcag-criteria-the-system-will-defend-422db86a39fa?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1280/1*kgjFkaMfTXUR9-fNwhDGRA.jpeg&quot; width=&quot;1280&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Before tokens, before the first Button, I&amp;#x2019;d pick the WCAG criteria the system will defend. Each component then inherits them instead of&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@sebastianbalderas/before-tokens-before-the-first-button-id-pick-the-wcag-criteria-the-system-will-defend-422db86a39fa?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/422db86a39fa</guid>
+      <pubDate>Thu, 05 Nov 2026 17:33:47 GMT</pubDate>
     </item>
     <item>
-      <title>One Structure, Two Wins for AI and Accessibility</title>
-      <link>https://www.towardsdeeplearning.com/one-structure-two-wins-for-ai-and-accessibility-7d80450bfd8b?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://www.towardsdeeplearning.com/one-structure-two-wins-for-ai-and-accessibility-7d80450bfd8b?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2248/1*hly9ODABsvlNqgLB2Ftm3Q.png&quot; width=&quot;2248&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;OpenDataLoader PDF aims to make document content more useful for both AI systems and people who rely on accessible PDFs.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://www.towardsdeeplearning.com/one-structure-two-wins-for-ai-and-accessibility-7d80450bfd8b?source=rss------accessibility-5&quot;&gt;Continue reading on Towards Deep Learning »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/7d80450bfd8b</guid>
-      <pubDate>Wed, 04 Nov 2026 13:54:12 GMT</pubDate>
+      <title>Toward a Universal Keyboard Standard: A Systems Argument for Global Input Consistency</title>
+      <link>https://rabbirothschild.medium.com/toward-a-universal-keyboard-standard-a-systems-argument-for-global-input-consistency-f914f3550d76?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Introduction&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://rabbirothschild.medium.com/toward-a-universal-keyboard-standard-a-systems-argument-for-global-input-consistency-f914f3550d76?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/f914f3550d76</guid>
+      <pubDate>Thu, 05 Nov 2026 17:17:51 GMT</pubDate>
     </item>
     <item>
-      <title>Mobility as a Service: New Opportunities and Risks for Disabled People</title>
-      <link>https://davebanesaccess.medium.com/mobility-as-a-service-new-opportunities-and-risks-for-disabled-people-175a90d7fc21?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://davebanesaccess.medium.com/mobility-as-a-service-new-opportunities-and-risks-for-disabled-people-175a90d7fc21?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2172/1*NVsgMrF1eTTYrsBy5btCyg.png&quot; width=&quot;2172&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Personal mobility is changing rapidly. The traditional model, in which people rely primarily on privately owned cars, fixed-route buses&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://davebanesaccess.medium.com/mobility-as-a-service-new-opportunities-and-risks-for-disabled-people-175a90d7fc21?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/175a90d7fc21</guid>
-      <pubDate>Wed, 04 Nov 2026 13:38:21 GMT</pubDate>
+      <title>Morocco Without Barriers: How Houssaine Ichen Is Opening New Doors to Accessible Tourism</title>
+      <link>https://medium.com/@houssine.ichen/morocco-without-barriers-how-houssaine-ichen-is-opening-new-doors-to-accessible-tourism-332aa96cdb8b?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;One man&amp;#x2019;s vision is helping challenge the boundaries of travel, showing the world that Morocco&amp;#x2019;s beauty, culture and hospitality should be&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@houssine.ichen/morocco-without-barriers-how-houssaine-ichen-is-opening-new-doors-to-accessible-tourism-332aa96cdb8b?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/332aa96cdb8b</guid>
+      <pubDate>Thu, 05 Nov 2026 16:50:32 GMT</pubDate>
     </item>
     <item>
-      <title>Public Health Should Take Over Your Yoga Studio</title>
-      <link>https://medium.com/cabin-fever-magazine/public-health-should-take-over-your-yoga-studio-eabe73bf0419?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/cabin-fever-magazine/public-health-should-take-over-your-yoga-studio-eabe73bf0419?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1228/0*CtIOOy6oJDBFLIYw&quot; width=&quot;1228&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;When Wellness Becomes a Luxury, Who Gets Left Off the&amp;#xa0;Mat?&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/cabin-fever-magazine/public-health-should-take-over-your-yoga-studio-eabe73bf0419?source=rss------accessibility-5&quot;&gt;Continue reading on Cabin Fever Magazine »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/eabe73bf0419</guid>
-      <pubDate>Wed, 04 Nov 2026 13:01:03 GMT</pubDate>
+      <title>How to Pair Hearing Aids With Any Phone in 2 Minutes (iPhone and Android)</title>
+      <link>https://medium.com/@CarolAudiologist/how-to-pair-hearing-aids-with-any-phone-in-2-minutes-iphone-and-android-e77c910285b4?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@CarolAudiologist/how-to-pair-hearing-aids-with-any-phone-in-2-minutes-iphone-and-android-e77c910285b4?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2400/1*-YsV_tFyPdyPK9M4OPtiVQ.png&quot; width=&quot;2400&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;If you can pair AirPods, you can pair hearing aids. Here&amp;#x2019;s exactly how, brand by brand.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@CarolAudiologist/how-to-pair-hearing-aids-with-any-phone-in-2-minutes-iphone-and-android-e77c910285b4?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/e77c910285b4</guid>
+      <pubDate>Thu, 05 Nov 2026 15:13:33 GMT</pubDate>
     </item>
     <item>
-      <title>Access and Inclusion Through Technology — October 2026 Edition</title>
-      <link>https://davebanesaccess.medium.com/access-and-inclusion-through-technology-october-2026-edition-c7f05cbfb923?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://davebanesaccess.medium.com/access-and-inclusion-through-technology-october-2026-edition-c7f05cbfb923?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2172/1*UEa-a-OQjFtmnofJ96T5FQ.png&quot; width=&quot;2172&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;A Monthly Round-Up of Global News on Disability, Assistive Technology and Digital Inclusion&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://davebanesaccess.medium.com/access-and-inclusion-through-technology-october-2026-edition-c7f05cbfb923?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/c7f05cbfb923</guid>
-      <pubDate>Wed, 04 Nov 2026 13:00:18 GMT</pubDate>
+      <title>Making Immersive LLM Chat Experiences More Accessible</title>
+      <link>https://www.smashingmagazine.com/2026/11/making-immersive-llm-chat-experiences-more-accessible/</link>
+      <description>As LLM chat patterns become more widespread, making them accessible is essential to ensuring everyone can access the information, tools, and opportunities they offer. Drawing on his work improving these interfaces, Eric Bailey shares practical ways to make chat-based experiences on the web more accessible and usable for people who rely on assistive technology.</description>
+      <guid>https://www.smashingmagazine.com/2026/11/making-immersive-llm-chat-experiences-more-accessible/</guid>
+      <pubDate>Thu, 05 Nov 2026 13:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Boy in the Wheelchair Who Conquered the World: A Journey Beyond Limits</title>
-      <link>https://medium.com/@foodfuntrip37/the-boy-in-the-wheelchair-who-conquered-the-world-a-journey-beyond-limits-87d8b9d52c01?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@foodfuntrip37/the-boy-in-the-wheelchair-who-conquered-the-world-a-journey-beyond-limits-87d8b9d52c01?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/696/0*J1HibozEm862RLCp.jpg&quot; width=&quot;696&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;An inspiring story of courage, determination, accessible travel, and the dream of exploring all seven continents.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@foodfuntrip37/the-boy-in-the-wheelchair-who-conquered-the-world-a-journey-beyond-limits-87d8b9d52c01?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/87d8b9d52c01</guid>
-      <pubDate>Wed, 04 Nov 2026 10:41:34 GMT</pubDate>
+      <title>What Is Web Accessibility and Why It Matters — Swan Software Solutions</title>
+      <link>https://medium.com/@SwanSoftwareSolutions/what-is-web-accessibility-and-why-it-matters-swan-software-solutions-04649472b482?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@SwanSoftwareSolutions/what-is-web-accessibility-and-why-it-matters-swan-software-solutions-04649472b482?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/768/1*3hsEnV52My6oib9t0-3TUQ.png&quot; width=&quot;768&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;For a long time, I thought website accessibility was just about the alt attribute for images. That all changed when I first tried&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@SwanSoftwareSolutions/what-is-web-accessibility-and-why-it-matters-swan-software-solutions-04649472b482?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/04649472b482</guid>
+      <pubDate>Thu, 05 Nov 2026 12:00:22 GMT</pubDate>
     </item>
     <item>
-      <title>AI That Reads Facial Expressions for People With Communication Difficulties</title>
-      <link>https://medium.com/@gamindapremasiri9/ai-that-reads-facial-expressions-for-people-with-communication-difficulties-fa159688a9a8?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@gamindapremasiri9/ai-that-reads-facial-expressions-for-people-with-communication-difficulties-fa159688a9a8?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1774/1*C9Sc8YiCpiGInszN4hbKLw.png&quot; width=&quot;1774&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;How computer vision and personalized AI could turn individual facial movements into a new communication channel.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@gamindapremasiri9/ai-that-reads-facial-expressions-for-people-with-communication-difficulties-fa159688a9a8?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/fa159688a9a8</guid>
-      <pubDate>Wed, 04 Nov 2026 08:54:00 GMT</pubDate>
+      <title>W3C Newsletter - October 2026</title>
+      <link>https://www.w3.org/blog/2026/w3c-newsletter-october-2026/</link>
+      <description>W3C President and Interim CEO Dominique Hazaël-Massieux shares timely and notable highlights and information selected from the busy and prolific work last month at W3C such as TPAC 2026, AI @ W3C, progress on Identity and Credentials, further improvements to W3C infrastructure for standardization and more.</description>
+      <guid>https://www.w3.org/blog/2026/w3c-newsletter-october-2026/</guid>
+      <pubDate>Thu, 05 Nov 2026 10:57:00 +0000</pubDate>
     </item>
     <item>
-      <title>Inclusive Accessibility Infrastructure &amp; Equipment</title>
-      <link>https://medium.com/@bemyvision/inclusive-accessibility-infrastructure-equipment-68546dce87f8?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Build inclusive environments with dependable accessibility infrastructure and equipment. Discover mobility assistance products, wheelchair&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@bemyvision/inclusive-accessibility-infrastructure-equipment-68546dce87f8?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/68546dce87f8</guid>
-      <pubDate>Wed, 04 Nov 2026 08:29:44 GMT</pubDate>
+      <title>Does Caption Sync Affect SEO? 7 Ways Accurate Captions Improve Video Performance</title>
+      <link>https://medium.com/@ytzoloai/does-caption-sync-affect-seo-7-ways-accurate-captions-improve-video-performance-8d0bb909afc4?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@ytzoloai/does-caption-sync-affect-seo-7-ways-accurate-captions-improve-video-performance-8d0bb909afc4?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1024/0*1lQOWkGELo0xeUPQ.png&quot; width=&quot;1024&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;When making your videos you will have probably spent a lot of time on doing research around your keyword, titling your video, and making&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@ytzoloai/does-caption-sync-affect-seo-7-ways-accurate-captions-improve-video-performance-8d0bb909afc4?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/8d0bb909afc4</guid>
+      <pubDate>Thu, 05 Nov 2026 05:11:24 GMT</pubDate>
     </item>
     <item>
-      <title>Making Airport Prayer Rooms More Accessible to International Visitors</title>
-      <link>https://medium.com/@alya_779/making-airport-prayer-rooms-more-accessible-to-international-visitors-5dc1fe6e1262?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@alya_779/making-airport-prayer-rooms-more-accessible-to-international-visitors-5dc1fe6e1262?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1376/1*RIXHcz-Uc5Arv5ZZBHKkKQ.jpeg&quot; width=&quot;1376&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Why clear signage, thoughtful facilities, and reliable information matter for Muslim travelers navigating international airports.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@alya_779/making-airport-prayer-rooms-more-accessible-to-international-visitors-5dc1fe6e1262?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/5dc1fe6e1262</guid>
-      <pubDate>Wed, 04 Nov 2026 06:24:33 GMT</pubDate>
+      <title>Building a Responsible Product Strategy for Accessibility Browser Extensions</title>
+      <link>https://medium.com/@polurus/building-a-responsible-product-strategy-for-accessibility-browser-extensions-21e46b0a369d?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@polurus/building-a-responsible-product-strategy-for-accessibility-browser-extensions-21e46b0a369d?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1774/1*iKpGKedJO9HCAADaHjYeWA.png&quot; width=&quot;1774&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Build accessibility tools around user needs, clear permissions, reversible changes, and evidence from real tasks while maintaining a&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@polurus/building-a-responsible-product-strategy-for-accessibility-browser-extensions-21e46b0a369d?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/21e46b0a369d</guid>
+      <pubDate>Thu, 05 Nov 2026 05:09:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>Your AI-Built Website Isn’t Finished When the Code Runs</title>
+      <link>https://ajseven.medium.com/your-ai-built-website-isnt-finished-when-the-code-runs-df595f007bc0?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://ajseven.medium.com/your-ai-built-website-isnt-finished-when-the-code-runs-df595f007bc0?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1672/1*U6PFt8lFc7txsxSSqAoAow.png&quot; width=&quot;1672&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;One thing I&amp;#x2019;ve noticed about building websites with AI coding tools is how quickly you can get something that looks finished.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://ajseven.medium.com/your-ai-built-website-isnt-finished-when-the-code-runs-df595f007bc0?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/df595f007bc0</guid>
+      <pubDate>Thu, 05 Nov 2026 03:01:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>Workshop on Disability-Inclusive Disaster Risk Reduction: Strategies, Simulations, and Global…</title>
+      <link>https://sangyan.medium.com/workshop-on-disability-inclusive-disaster-risk-reduction-strategies-simulations-and-global-3859359977ed?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://sangyan.medium.com/workshop-on-disability-inclusive-disaster-risk-reduction-strategies-simulations-and-global-3859359977ed?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2550/1*lqKzTHUXkKS17mW0gBnCYQ.jpeg&quot; width=&quot;2550&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Event Report of Workshop conduced/organised by NDMA, SDMA-Goa, UN India (UNICEF, UNDP), Core Group Members (DRIF, MHI, GeoHazard Society&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://sangyan.medium.com/workshop-on-disability-inclusive-disaster-risk-reduction-strategies-simulations-and-global-3859359977ed?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/3859359977ed</guid>
+      <pubDate>Wed, 04 Nov 2026 22:00:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>How to choose the right VPAT approach for your organization (and whether you should use AI to complete your ACR!)</title>
+      <link>https://www.deque.com/blog/how-to-choose-the-right-vpat-approach-for-your-organization/</link>
+      <description>&lt;p&gt;In this post, I’m going to discuss why accuracy matters for digital accessibility in an era of evolving global standards and increased regulatory scrutiny. I’ll explain where and how VPATs and ACRs fit into your accessibility strategies, and what you need to know before making any decisions about AI use.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://www.deque.com/blog/how-to-choose-the-right-vpat-approach-for-your-organization/&quot;&gt;How to choose the right VPAT approach for your organization (and whether you should use AI to complete your ACR!)&lt;/a&gt; appeared first on &lt;a href=&quot;https://www.deque.com&quot;&gt;Deque&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid>https://www.deque.com/?p=65585</guid>
+      <pubDate>Wed, 04 Nov 2026 14:35:40 +0000</pubDate>
     </item>
     <item>
       <title>Captioned Doesn’t Always Mean Accessible</title>
@@ -484,14 +506,6 @@
       <description>W3C Team and Members will present at Global Digital Collaboration Conference (GDC 26) which will bring together governments, standards organizations, open-source communities, the private sector, and civil society with a focus on digital identity and digital wallets</description>
       <guid>https://www.w3.org/blog/2026/a-global-digital-infrastructure-gdc-2026/</guid>
       <pubDate>Mon, 24 Aug 2026 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Canada’s next phase of ACA enforcement: Are you ready?</title>
-      <link>https://www.deque.com/blog/canadas-next-phase-of-aca-enforcement-are-you-ready/</link>
-      <description>&lt;p&gt;There’s a new deadline looming for the Accessible Canada Act (ACA), and it’s a significant one. The work required to meet the new requirements is substantial, and you need to start now if your business is going to safely meet the new deadline.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://www.deque.com/blog/canadas-next-phase-of-aca-enforcement-are-you-ready/&quot;&gt;Canada&amp;#8217;s next phase of ACA enforcement: Are you ready?&lt;/a&gt; appeared first on &lt;a href=&quot;https://www.deque.com&quot;&gt;Deque&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid>https://www.deque.com/?p=62195</guid>
-      <pubDate>Thu, 20 Aug 2026 17:02:15 +0000</pubDate>
     </item>
     <item>
       <title>First Public Working Draft: The Profiles Vocabulary</title>
@@ -1664,13 +1678,6 @@ customElements.define(&quot;the-section&quot;, Section);&lt;/code&gt;&lt;/pre&gt
       <pubDate>2026-05-22T10:20:00+00:00</pubDate>
     </item>
     <item>
-      <title>W3C recognized on the 2026 Forbes Accessibility 200 list</title>
-      <link>https://www.w3.org/blog/2026/w3c-recognized-on-the-2026-forbes-accessibility-200-list/</link>
-      <description>The World Wide Web Consortium (W3C) is honored to be included in the Forbes Accessibility 200 list for 2026 in recognition of the impact that our Web Accessibility Initiative (WAI) has had on the world.</description>
-      <guid>https://www.w3.org/blog/2026/w3c-recognized-on-the-2026-forbes-accessibility-200-list/</guid>
-      <pubDate>Thu, 21 May 2026 12:49:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Weekly Reading List May 18 2026</title>
       <link>https://www.tpgi.com/weekly-reading-list-may-18-2026/</link>
       <description>&lt;p&gt;A weekly roundup of links to digital accessibility industry news, posted every Monday. Compiled by Ricky Onsman.&lt;/p&gt;
@@ -1723,36 +1730,6 @@ customElements.define(&quot;the-section&quot;, Section);&lt;/code&gt;&lt;/pre&gt
       <description>Poorly handled session timeouts are more than a technical inconvenience. They can become serious accessibility barriers that interrupt essential online tasks, especially for people with disabilities. Here is how to implement thoughtful session management that improves usability, reduces frustration, and helps create a more accessible and respectful web.</description>
       <guid>https://www.smashingmagazine.com/2026/04/session-timeouts-accessibility-barrier-authentication-design/</guid>
       <pubDate>Mon, 20 Apr 2026 13:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>box-shadow is no alternative to outline</title>
-      <link>https://www.matuzo.at/blog/2026/box-shadow-no-alternative-to-outline</link>
-      <description>&lt;p&gt;People like to use the &lt;code&gt;box-shadow&lt;/code&gt; property for styling focus outlines because it gives them more flexibility.&lt;/p&gt;
-&lt;div&gt;
-&lt;p&gt;
-  &lt;button class=&quot;demobad&quot;&gt;
-    A focused button
-  &lt;/button&gt;
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;That's okay in browsers' default color mode, but in &lt;a href=&quot;https://www.w3.org/TR/css-color-adjust-1/#forced&quot;&gt;forced colors mode&lt;/a&gt;, it's problematic because the &lt;a href=&quot;https://www.w3.org/TR/css-color-adjust-1/#forced-colors-properties&quot;&gt;&lt;code&gt;box-shadow&lt;/code&gt; property computes to &lt;code&gt;none&lt;/code&gt;&lt;/a&gt;, which means that there are no shadows and consequently no focus styles in this mode. You can confirm that by opening &lt;a href=&quot;https://es-d-9279738920260417-019d90fa-faad-7655-b9a5-8d29a97d44dc.codepen.dev/&quot;&gt;this page&lt;/a&gt; in a Chromium-based browser, switching to the &lt;i&gt;Rendering&lt;/i&gt; tab in DevTools, and setting forced-colors to active.&lt;/p&gt;
-&lt;img alt=&quot;The button is visible in forced colors mode but no box-shadow&quot; src=&quot;https://www.matuzo.at/media/pages/blog/2026/box-shadow-no-alternative-to-outline/2f3ab5308a-1780687567/chromium.avif&quot; /&gt;
-&lt;p&gt;There are two solutions to that problem. Either don't try to be fancy and simply use an outline, or, if you think the user experience will be better with a box shadow, don't set &lt;code&gt;outline: none;&lt;/code&gt; instead, set &lt;code&gt;outline: 2px solid transparent&lt;/code&gt;.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-css&quot;&gt;button:focus-visible {
-  outline: 2px solid transparent;
-  outline-offset: 2px;
-  box-shadow: 0 0 0px 1px blue, 0 0 0px 2px white, 0 0 0 4px blue;
-}&lt;/code&gt;&lt;/pre&gt;
-&lt;div&gt;
-&lt;p&gt;
-  &lt;button class=&quot;demogood&quot;&gt;
-    A focused button
-  &lt;/button&gt;
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;The outline will be transparent in the regular mode but visible in forced colors mode.  That works because in forced colors mode, colors on the page are constrained to a restricted, user-chosen palette. For &lt;code&gt;transparent&lt;/code&gt;, which is a CSS color, this means it becomes visible.&lt;/p&gt;&lt;p&gt;My blog doesn't support comments yet, but you can reply via &lt;a href=&quot;mailto:blog@matuzo.at?subject=Comment+on+%E2%80%9Cbox-shadow+is+no+alternative+to+outline%E2%80%9D&quot;&gt;blog@matuzo.at&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid>https://www.matuzo.at/blog/2026/box-shadow-no-alternative-to-outline</guid>
-      <pubDate>2026-04-15T13:50:00+00:00</pubDate>
     </item>
   </channel>
 </rss>
