@@ -3,41 +3,76 @@
     <title>Accessibility Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: Accessibility Combined Feed</description>
-    <lastBuildDate>Thu, 05 Nov 2026 18:53:13 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 18:11:44 +0000</lastBuildDate>
     <item>
-      <title>When the status is “unknown”, name who knows</title>
-      <link>https://medium.com/@sebastianbalderas/when-the-status-is-unknown-name-who-knows-68e3496436af?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@sebastianbalderas/when-the-status-is-unknown-name-who-knows-68e3496436af?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1280/1*Rw6fKdM9HukfKdLxLIrL8A.jpeg&quot; width=&quot;1280&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;In Strata&amp;#x2019;s order line items table, some lines showed an &amp;#x201c;unknown&amp;#x201d; status because the order couldn&amp;#x2019;t be traced between manufacturer and&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@sebastianbalderas/when-the-status-is-unknown-name-who-knows-68e3496436af?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/68e3496436af</guid>
-      <pubDate>Thu, 05 Nov 2026 17:36:19 GMT</pubDate>
+      <title>Accessibility You Can Actually Ship: A Practical Checklist for Design Engineers</title>
+      <link>https://medium.com/designengineer-pro/accessibility-you-can-actually-ship-a-practical-checklist-for-design-engineers-717aeefcbc63?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/designengineer-pro/accessibility-you-can-actually-ship-a-practical-checklist-for-design-engineers-717aeefcbc63?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2600/0*bNN1FERWFOCSlaUl&quot; width=&quot;8736&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Accessibility is the thing that never appears in a Figma file.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/designengineer-pro/accessibility-you-can-actually-ship-a-practical-checklist-for-design-engineers-717aeefcbc63?source=rss------accessibility-5&quot;&gt;Continue reading on designengineer.pro »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/717aeefcbc63</guid>
+      <pubDate>Fri, 06 Nov 2026 17:52:56 GMT</pubDate>
     </item>
     <item>
-      <title>Start the design system at accessibility</title>
-      <link>https://medium.com/@sebastianbalderas/before-tokens-before-the-first-button-id-pick-the-wcag-criteria-the-system-will-defend-422db86a39fa?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@sebastianbalderas/before-tokens-before-the-first-button-id-pick-the-wcag-criteria-the-system-will-defend-422db86a39fa?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1280/1*kgjFkaMfTXUR9-fNwhDGRA.jpeg&quot; width=&quot;1280&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Before tokens, before the first Button, I&amp;#x2019;d pick the WCAG criteria the system will defend. Each component then inherits them instead of&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@sebastianbalderas/before-tokens-before-the-first-button-id-pick-the-wcag-criteria-the-system-will-defend-422db86a39fa?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/422db86a39fa</guid>
-      <pubDate>Thu, 05 Nov 2026 17:33:47 GMT</pubDate>
+      <title>Web Development Challenge: Understanding Web Accessibility</title>
+      <link>https://medium.com/@jakemort2191/web-development-challenge-understanding-web-accessibility-1fab37e49935?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Introduction&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@jakemort2191/web-development-challenge-understanding-web-accessibility-1fab37e49935?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/1fab37e49935</guid>
+      <pubDate>Fri, 06 Nov 2026 15:07:00 GMT</pubDate>
     </item>
     <item>
-      <title>Toward a Universal Keyboard Standard: A Systems Argument for Global Input Consistency</title>
-      <link>https://rabbirothschild.medium.com/toward-a-universal-keyboard-standard-a-systems-argument-for-global-input-consistency-f914f3550d76?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Introduction&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://rabbirothschild.medium.com/toward-a-universal-keyboard-standard-a-systems-argument-for-global-input-consistency-f914f3550d76?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/f914f3550d76</guid>
-      <pubDate>Thu, 05 Nov 2026 17:17:51 GMT</pubDate>
+      <title>Stop Locking Hover Popups Behind the Pointer — WCAG Just Named Failure F114</title>
+      <link>https://medium.com/@tangweikun123/stop-locking-hover-popups-behind-the-pointer-wcag-just-named-failure-f114-f8c2ca035abc?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;On Nov 2, 2026 W3C published F114 for SC 1.4.13: if a tooltip or submenu only goes away when you move the pointer or Tab away, that is now&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@tangweikun123/stop-locking-hover-popups-behind-the-pointer-wcag-just-named-failure-f114-f8c2ca035abc?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/f8c2ca035abc</guid>
+      <pubDate>Fri, 06 Nov 2026 13:36:05 GMT</pubDate>
     </item>
     <item>
-      <title>Morocco Without Barriers: How Houssaine Ichen Is Opening New Doors to Accessible Tourism</title>
-      <link>https://medium.com/@houssine.ichen/morocco-without-barriers-how-houssaine-ichen-is-opening-new-doors-to-accessible-tourism-332aa96cdb8b?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;One man&amp;#x2019;s vision is helping challenge the boundaries of travel, showing the world that Morocco&amp;#x2019;s beauty, culture and hospitality should be&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@houssine.ichen/morocco-without-barriers-how-houssaine-ichen-is-opening-new-doors-to-accessible-tourism-332aa96cdb8b?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/332aa96cdb8b</guid>
-      <pubDate>Thu, 05 Nov 2026 16:50:32 GMT</pubDate>
+      <title>Accessible Puzzle Design Isn’t Charity — It’s Just Better Design</title>
+      <link>https://medium.com/@progessiveskillss/accessible-puzzle-design-isnt-charity-it-s-just-better-design-a7f3538037e6?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Accessibility in games is often treated as a feature bolted on at the end, something added for a small group of players after the &amp;#x201c;real&amp;#x201d;&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@progessiveskillss/accessible-puzzle-design-isnt-charity-it-s-just-better-design-a7f3538037e6?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/a7f3538037e6</guid>
+      <pubDate>Fri, 06 Nov 2026 13:01:03 GMT</pubDate>
     </item>
     <item>
-      <title>How to Pair Hearing Aids With Any Phone in 2 Minutes (iPhone and Android)</title>
-      <link>https://medium.com/@CarolAudiologist/how-to-pair-hearing-aids-with-any-phone-in-2-minutes-iphone-and-android-e77c910285b4?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@CarolAudiologist/how-to-pair-hearing-aids-with-any-phone-in-2-minutes-iphone-and-android-e77c910285b4?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2400/1*-YsV_tFyPdyPK9M4OPtiVQ.png&quot; width=&quot;2400&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;If you can pair AirPods, you can pair hearing aids. Here&amp;#x2019;s exactly how, brand by brand.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@CarolAudiologist/how-to-pair-hearing-aids-with-any-phone-in-2-minutes-iphone-and-android-e77c910285b4?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/e77c910285b4</guid>
-      <pubDate>Thu, 05 Nov 2026 15:13:33 GMT</pubDate>
+      <title>The Readability Gap: Why Legible Interfaces Are Still Hard to Read</title>
+      <link>https://medium.com/@NiamhOS/the-readability-gap-why-legible-interfaces-are-still-hard-to-read-362c00759c6d?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@NiamhOS/the-readability-gap-why-legible-interfaces-are-still-hard-to-read-362c00759c6d?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1376/1*RSlEZm3bHZzuXHw-42o94w.jpeg&quot; width=&quot;1376&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Legibility gets letters on the screen. Readability gets meaning into the mind. Most teams stop at the first part.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@NiamhOS/the-readability-gap-why-legible-interfaces-are-still-hard-to-read-362c00759c6d?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/362c00759c6d</guid>
+      <pubDate>Fri, 06 Nov 2026 12:57:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>What We Can Share, Right Where We Are</title>
+      <link>https://zenythshop.medium.com/what-we-can-share-right-where-we-are-fbfce8689d3b?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://zenythshop.medium.com/what-we-can-share-right-where-we-are-fbfce8689d3b?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2600/1*Om9iqa-fn4C6M6nWagf6SQ.jpeg&quot; width=&quot;4032&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;What my family taught me about giving back, and how those lessons helped shape Spirit Grow Shop.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://zenythshop.medium.com/what-we-can-share-right-where-we-are-fbfce8689d3b?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/fbfce8689d3b</guid>
+      <pubDate>Fri, 06 Nov 2026 12:51:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>Inequality in AI adoption</title>
+      <link>https://medium.com/design-bootcamp/inequality-in-ai-adoption-02257fc8d883?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/design-bootcamp/inequality-in-ai-adoption-02257fc8d883?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1358/1*vjZxEKTtlvJhXVwpOp5B0g.jpeg&quot; width=&quot;1358&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Hierarchy, gender and disability in AI adoption.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/design-bootcamp/inequality-in-ai-adoption-02257fc8d883?source=rss------accessibility-5&quot;&gt;Continue reading on Bootcamp »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/02257fc8d883</guid>
+      <pubDate>Fri, 06 Nov 2026 12:28:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>UI design do’s and don’ts: 42 rules with examples</title>
+      <link>https://medium.com/@dacyo/ui-design-dos-and-don-ts-42-rules-with-examples-67d623f10d25?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@dacyo/ui-design-dos-and-don-ts-42-rules-with-examples-67d623f10d25?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1200/1*BlScF6v3XrSxR8xns_KVPQ.png&quot; width=&quot;1200&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Typography, interface basics, spacing, color, mobile, dark mode and dashboards. Each rule has a wrong and a right example.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@dacyo/ui-design-dos-and-don-ts-42-rules-with-examples-67d623f10d25?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/67d623f10d25</guid>
+      <pubDate>Fri, 06 Nov 2026 12:16:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>Yoga With Your Eyes Closed</title>
+      <link>https://medium.com/@daniel_71722/yoga-with-your-eyes-closed-c6caac8e5f42?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;How to practice by ear with FlowBuilder, so you can stop looking at the screen and start paying attention to your body.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@daniel_71722/yoga-with-your-eyes-closed-c6caac8e5f42?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/c6caac8e5f42</guid>
+      <pubDate>Fri, 06 Nov 2026 11:13:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>CSS Flexbox Order: How to Reorder Items (And the Accessibility Trap)</title>
+      <link>https://medium.com/@iskandar.elakbar99/css-flexbox-order-how-to-reorder-items-and-the-accessibility-trap-538eba9302c6?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@iskandar.elakbar99/css-flexbox-order-how-to-reorder-items-and-the-accessibility-trap-538eba9302c6?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1018/1*kjC5dMQZ3nlocdCiag45Pg.jpeg&quot; width=&quot;1018&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;CSS Flexbox order is a double-edged sword.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@iskandar.elakbar99/css-flexbox-order-how-to-reorder-items-and-the-accessibility-trap-538eba9302c6?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/538eba9302c6</guid>
+      <pubDate>Fri, 06 Nov 2026 09:33:04 GMT</pubDate>
     </item>
     <item>
       <title>Making Immersive LLM Chat Experiences More Accessible</title>
@@ -47,46 +82,11 @@
       <pubDate>Thu, 05 Nov 2026 13:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>What Is Web Accessibility and Why It Matters — Swan Software Solutions</title>
-      <link>https://medium.com/@SwanSoftwareSolutions/what-is-web-accessibility-and-why-it-matters-swan-software-solutions-04649472b482?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@SwanSoftwareSolutions/what-is-web-accessibility-and-why-it-matters-swan-software-solutions-04649472b482?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/768/1*3hsEnV52My6oib9t0-3TUQ.png&quot; width=&quot;768&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;For a long time, I thought website accessibility was just about the alt attribute for images. That all changed when I first tried&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@SwanSoftwareSolutions/what-is-web-accessibility-and-why-it-matters-swan-software-solutions-04649472b482?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/04649472b482</guid>
-      <pubDate>Thu, 05 Nov 2026 12:00:22 GMT</pubDate>
-    </item>
-    <item>
       <title>W3C Newsletter - October 2026</title>
       <link>https://www.w3.org/blog/2026/w3c-newsletter-october-2026/</link>
       <description>W3C President and Interim CEO Dominique Hazaël-Massieux shares timely and notable highlights and information selected from the busy and prolific work last month at W3C such as TPAC 2026, AI @ W3C, progress on Identity and Credentials, further improvements to W3C infrastructure for standardization and more.</description>
       <guid>https://www.w3.org/blog/2026/w3c-newsletter-october-2026/</guid>
       <pubDate>Thu, 05 Nov 2026 10:57:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Does Caption Sync Affect SEO? 7 Ways Accurate Captions Improve Video Performance</title>
-      <link>https://medium.com/@ytzoloai/does-caption-sync-affect-seo-7-ways-accurate-captions-improve-video-performance-8d0bb909afc4?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@ytzoloai/does-caption-sync-affect-seo-7-ways-accurate-captions-improve-video-performance-8d0bb909afc4?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1024/0*1lQOWkGELo0xeUPQ.png&quot; width=&quot;1024&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;When making your videos you will have probably spent a lot of time on doing research around your keyword, titling your video, and making&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@ytzoloai/does-caption-sync-affect-seo-7-ways-accurate-captions-improve-video-performance-8d0bb909afc4?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/8d0bb909afc4</guid>
-      <pubDate>Thu, 05 Nov 2026 05:11:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>Building a Responsible Product Strategy for Accessibility Browser Extensions</title>
-      <link>https://medium.com/@polurus/building-a-responsible-product-strategy-for-accessibility-browser-extensions-21e46b0a369d?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@polurus/building-a-responsible-product-strategy-for-accessibility-browser-extensions-21e46b0a369d?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1774/1*iKpGKedJO9HCAADaHjYeWA.png&quot; width=&quot;1774&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Build accessibility tools around user needs, clear permissions, reversible changes, and evidence from real tasks while maintaining a&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@polurus/building-a-responsible-product-strategy-for-accessibility-browser-extensions-21e46b0a369d?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/21e46b0a369d</guid>
-      <pubDate>Thu, 05 Nov 2026 05:09:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>Your AI-Built Website Isn’t Finished When the Code Runs</title>
-      <link>https://ajseven.medium.com/your-ai-built-website-isnt-finished-when-the-code-runs-df595f007bc0?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://ajseven.medium.com/your-ai-built-website-isnt-finished-when-the-code-runs-df595f007bc0?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1672/1*U6PFt8lFc7txsxSSqAoAow.png&quot; width=&quot;1672&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;One thing I&amp;#x2019;ve noticed about building websites with AI coding tools is how quickly you can get something that looks finished.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://ajseven.medium.com/your-ai-built-website-isnt-finished-when-the-code-runs-df595f007bc0?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/df595f007bc0</guid>
-      <pubDate>Thu, 05 Nov 2026 03:01:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>Workshop on Disability-Inclusive Disaster Risk Reduction: Strategies, Simulations, and Global…</title>
-      <link>https://sangyan.medium.com/workshop-on-disability-inclusive-disaster-risk-reduction-strategies-simulations-and-global-3859359977ed?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://sangyan.medium.com/workshop-on-disability-inclusive-disaster-risk-reduction-strategies-simulations-and-global-3859359977ed?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2550/1*lqKzTHUXkKS17mW0gBnCYQ.jpeg&quot; width=&quot;2550&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Event Report of Workshop conduced/organised by NDMA, SDMA-Goa, UN India (UNICEF, UNDP), Core Group Members (DRIF, MHI, GeoHazard Society&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://sangyan.medium.com/workshop-on-disability-inclusive-disaster-risk-reduction-strategies-simulations-and-global-3859359977ed?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/3859359977ed</guid>
-      <pubDate>Wed, 04 Nov 2026 22:00:39 GMT</pubDate>
     </item>
     <item>
       <title>How to choose the right VPAT approach for your organization (and whether you should use AI to complete your ACR!)</title>
