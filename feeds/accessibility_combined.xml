@@ -3,76 +3,76 @@
     <title>Accessibility Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: Accessibility Combined Feed</description>
-    <lastBuildDate>Fri, 06 Nov 2026 18:11:44 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 16:56:41 +0000</lastBuildDate>
     <item>
-      <title>Accessibility You Can Actually Ship: A Practical Checklist for Design Engineers</title>
-      <link>https://medium.com/designengineer-pro/accessibility-you-can-actually-ship-a-practical-checklist-for-design-engineers-717aeefcbc63?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/designengineer-pro/accessibility-you-can-actually-ship-a-practical-checklist-for-design-engineers-717aeefcbc63?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2600/0*bNN1FERWFOCSlaUl&quot; width=&quot;8736&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Accessibility is the thing that never appears in a Figma file.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/designengineer-pro/accessibility-you-can-actually-ship-a-practical-checklist-for-design-engineers-717aeefcbc63?source=rss------accessibility-5&quot;&gt;Continue reading on designengineer.pro »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/717aeefcbc63</guid>
-      <pubDate>Fri, 06 Nov 2026 17:52:56 GMT</pubDate>
+      <title>Inclusion is not Just an Invitation: Lessons from Deaf Awareness and BSL Training</title>
+      <link>https://medium.com/@blessingadejoh91/inclusion-is-not-just-an-invitation-lessons-from-deaf-awareness-and-bsl-training-a85c764e817b?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@blessingadejoh91/inclusion-is-not-just-an-invitation-lessons-from-deaf-awareness-and-bsl-training-a85c764e817b?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2600/1*Zk_5mV7Afsn2K067m3MATg@2x.jpeg&quot; width=&quot;4284&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;How often do we take the sounds around us for granted? For those of us in community engagement, communication is our most vital tool, yet&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@blessingadejoh91/inclusion-is-not-just-an-invitation-lessons-from-deaf-awareness-and-bsl-training-a85c764e817b?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/a85c764e817b</guid>
+      <pubDate>Sat, 07 Nov 2026 14:50:10 GMT</pubDate>
     </item>
     <item>
-      <title>Web Development Challenge: Understanding Web Accessibility</title>
-      <link>https://medium.com/@jakemort2191/web-development-challenge-understanding-web-accessibility-1fab37e49935?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Introduction&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@jakemort2191/web-development-challenge-understanding-web-accessibility-1fab37e49935?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/1fab37e49935</guid>
-      <pubDate>Fri, 06 Nov 2026 15:07:00 GMT</pubDate>
+      <title>Your Modal Is a Keyboard Contract: 4 Playwright Checks for Focus Trap and Focus Return</title>
+      <link>https://santoshyadav979439.medium.com/your-modal-is-a-keyboard-contract-4-playwright-checks-for-focus-trap-and-focus-return-6f3b2ce543b6?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://santoshyadav979439.medium.com/your-modal-is-a-keyboard-contract-4-playwright-checks-for-focus-trap-and-focus-return-6f3b2ce543b6?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2600/1*vyQWuvlsfuMzX-MQRjULwg.png&quot; width=&quot;2800&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;The native dialog passed three of my four checks in Chromium. The fourth, where focus goes after a delete, is still your job.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://santoshyadav979439.medium.com/your-modal-is-a-keyboard-contract-4-playwright-checks-for-focus-trap-and-focus-return-6f3b2ce543b6?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/6f3b2ce543b6</guid>
+      <pubDate>Sat, 07 Nov 2026 13:31:01 GMT</pubDate>
     </item>
     <item>
-      <title>Stop Locking Hover Popups Behind the Pointer — WCAG Just Named Failure F114</title>
-      <link>https://medium.com/@tangweikun123/stop-locking-hover-popups-behind-the-pointer-wcag-just-named-failure-f114-f8c2ca035abc?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;On Nov 2, 2026 W3C published F114 for SC 1.4.13: if a tooltip or submenu only goes away when you move the pointer or Tab away, that is now&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@tangweikun123/stop-locking-hover-popups-behind-the-pointer-wcag-just-named-failure-f114-f8c2ca035abc?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/f8c2ca035abc</guid>
-      <pubDate>Fri, 06 Nov 2026 13:36:05 GMT</pubDate>
+      <title>The Silent Kitchen Struggle: How Tight Jar Lids Damage Arthritic Hands</title>
+      <link>https://medium.com/@chandonpaul23/the-silent-kitchen-struggle-how-tight-jar-lids-damage-arthritic-hands-9404658c790b?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@chandonpaul23/the-silent-kitchen-struggle-how-tight-jar-lids-damage-arthritic-hands-9404658c790b?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1376/1*BuEnim0FvFdMi8pZh1Oiog.jpeg&quot; width=&quot;1376&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;It&amp;#x2019;s a small task that most people never think about, and for millions of people with arthritis, it can be a daily source of pain&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@chandonpaul23/the-silent-kitchen-struggle-how-tight-jar-lids-damage-arthritic-hands-9404658c790b?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/9404658c790b</guid>
+      <pubDate>Sat, 07 Nov 2026 13:13:07 GMT</pubDate>
     </item>
     <item>
-      <title>Accessible Puzzle Design Isn’t Charity — It’s Just Better Design</title>
-      <link>https://medium.com/@progessiveskillss/accessible-puzzle-design-isnt-charity-it-s-just-better-design-a7f3538037e6?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Accessibility in games is often treated as a feature bolted on at the end, something added for a small group of players after the &amp;#x201c;real&amp;#x201d;&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@progessiveskillss/accessible-puzzle-design-isnt-charity-it-s-just-better-design-a7f3538037e6?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/a7f3538037e6</guid>
-      <pubDate>Fri, 06 Nov 2026 13:01:03 GMT</pubDate>
+      <title>A Stop Button Proves Nothing If a Blind User Can’t Hear What Your AI Agent Is About to Do</title>
+      <link>https://orbytlabs.medium.com/a-stop-button-proves-nothing-if-a-blind-user-cant-hear-what-your-ai-agent-is-about-to-do-6acb82b17418?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://orbytlabs.medium.com/a-stop-button-proves-nothing-if-a-blind-user-cant-hear-what-your-ai-agent-is-about-to-do-6acb82b17418?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1200/1*ciCmTQYhC2Meuk7SY8qIXA.jpeg&quot; width=&quot;1200&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;A Stop button proves little. If a blind person can&amp;#x2019;t hear what an AI agent plans, inspect its evidence, and reject the action before it&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://orbytlabs.medium.com/a-stop-button-proves-nothing-if-a-blind-user-cant-hear-what-your-ai-agent-is-about-to-do-6acb82b17418?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/6acb82b17418</guid>
+      <pubDate>Sat, 07 Nov 2026 13:01:31 GMT</pubDate>
     </item>
     <item>
-      <title>The Readability Gap: Why Legible Interfaces Are Still Hard to Read</title>
-      <link>https://medium.com/@NiamhOS/the-readability-gap-why-legible-interfaces-are-still-hard-to-read-362c00759c6d?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@NiamhOS/the-readability-gap-why-legible-interfaces-are-still-hard-to-read-362c00759c6d?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1376/1*RSlEZm3bHZzuXHw-42o94w.jpeg&quot; width=&quot;1376&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Legibility gets letters on the screen. Readability gets meaning into the mind. Most teams stop at the first part.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@NiamhOS/the-readability-gap-why-legible-interfaces-are-still-hard-to-read-362c00759c6d?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/362c00759c6d</guid>
-      <pubDate>Fri, 06 Nov 2026 12:57:13 GMT</pubDate>
+      <title>Extra Time and Exam Language: What AI Certification Policies Say About Accommodation Requests</title>
+      <link>https://medium.com/@jaafarmourtada/extra-time-and-exam-language-what-ai-certification-policies-say-about-accommodation-requests-ac06fea51cb2?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Originally published on academies.ai: https://academies.ai/guides/ai-exam-accommodations-language/&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@jaafarmourtada/extra-time-and-exam-language-what-ai-certification-policies-say-about-accommodation-requests-ac06fea51cb2?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/ac06fea51cb2</guid>
+      <pubDate>Sat, 07 Nov 2026 08:33:28 GMT</pubDate>
     </item>
     <item>
-      <title>What We Can Share, Right Where We Are</title>
-      <link>https://zenythshop.medium.com/what-we-can-share-right-where-we-are-fbfce8689d3b?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://zenythshop.medium.com/what-we-can-share-right-where-we-are-fbfce8689d3b?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2600/1*Om9iqa-fn4C6M6nWagf6SQ.jpeg&quot; width=&quot;4032&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;What my family taught me about giving back, and how those lessons helped shape Spirit Grow Shop.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://zenythshop.medium.com/what-we-can-share-right-where-we-are-fbfce8689d3b?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/fbfce8689d3b</guid>
-      <pubDate>Fri, 06 Nov 2026 12:51:07 GMT</pubDate>
+      <title>How to Choose Muslim-Friendly Experiences When Traveling Abroad</title>
+      <link>https://medium.com/@alya_779/how-to-choose-muslim-friendly-experiences-when-traveling-abroad-2851f4479677?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@alya_779/how-to-choose-muslim-friendly-experiences-when-traveling-abroad-2851f4479677?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1577/1*vTRcLPh8jvxnEDCjjCKcHw.jpeg&quot; width=&quot;1577&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;A practical guide to evaluating travel information, choosing suitable activities, and enjoying local experiences while considering your&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@alya_779/how-to-choose-muslim-friendly-experiences-when-traveling-abroad-2851f4479677?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/2851f4479677</guid>
+      <pubDate>Sat, 07 Nov 2026 07:39:14 GMT</pubDate>
     </item>
     <item>
-      <title>Inequality in AI adoption</title>
-      <link>https://medium.com/design-bootcamp/inequality-in-ai-adoption-02257fc8d883?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/design-bootcamp/inequality-in-ai-adoption-02257fc8d883?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1358/1*vjZxEKTtlvJhXVwpOp5B0g.jpeg&quot; width=&quot;1358&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Hierarchy, gender and disability in AI adoption.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/design-bootcamp/inequality-in-ai-adoption-02257fc8d883?source=rss------accessibility-5&quot;&gt;Continue reading on Bootcamp »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/02257fc8d883</guid>
-      <pubDate>Fri, 06 Nov 2026 12:28:06 GMT</pubDate>
+      <title>How Local Businesses Can Welcome Muslim Travelers</title>
+      <link>https://medium.com/@alya_779/how-local-businesses-can-welcome-muslim-travelers-a39b2b3f2b9f?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@alya_779/how-local-businesses-can-welcome-muslim-travelers-a39b2b3f2b9f?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2048/1*QB-X2Jree5A-HnKFGnmRvw.jpeg&quot; width=&quot;2048&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Practical ways for restaurants, hotels, shops, and tourism providers to create more welcoming experiences for Muslim visitors without&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@alya_779/how-local-businesses-can-welcome-muslim-travelers-a39b2b3f2b9f?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/a39b2b3f2b9f</guid>
+      <pubDate>Sat, 07 Nov 2026 07:36:44 GMT</pubDate>
     </item>
     <item>
-      <title>UI design do’s and don’ts: 42 rules with examples</title>
-      <link>https://medium.com/@dacyo/ui-design-dos-and-don-ts-42-rules-with-examples-67d623f10d25?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@dacyo/ui-design-dos-and-don-ts-42-rules-with-examples-67d623f10d25?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1200/1*BlScF6v3XrSxR8xns_KVPQ.png&quot; width=&quot;1200&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Typography, interface basics, spacing, color, mobile, dark mode and dashboards. Each rule has a wrong and a right example.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@dacyo/ui-design-dos-and-don-ts-42-rules-with-examples-67d623f10d25?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/67d623f10d25</guid>
-      <pubDate>Fri, 06 Nov 2026 12:16:22 GMT</pubDate>
+      <title>Beyond Muslim-Friendly Facilities: Experiencing Local Culture as a Muslim Traveler</title>
+      <link>https://medium.com/@alya_779/beyond-muslim-friendly-facilities-experiencing-local-culture-as-a-muslim-traveler-f73675344d5f?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@alya_779/beyond-muslim-friendly-facilities-experiencing-local-culture-as-a-muslim-traveler-f73675344d5f?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2048/1*njzOaVlGeX7Ru7RQ5UpNeA.jpeg&quot; width=&quot;2048&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;How cultural experiences, local interactions, and thoughtful hospitality can make destinations more welcoming to Muslim visitors.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@alya_779/beyond-muslim-friendly-facilities-experiencing-local-culture-as-a-muslim-traveler-f73675344d5f?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/f73675344d5f</guid>
+      <pubDate>Sat, 07 Nov 2026 07:34:05 GMT</pubDate>
     </item>
     <item>
-      <title>Yoga With Your Eyes Closed</title>
-      <link>https://medium.com/@daniel_71722/yoga-with-your-eyes-closed-c6caac8e5f42?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;How to practice by ear with FlowBuilder, so you can stop looking at the screen and start paying attention to your body.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@daniel_71722/yoga-with-your-eyes-closed-c6caac8e5f42?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/c6caac8e5f42</guid>
-      <pubDate>Fri, 06 Nov 2026 11:13:57 GMT</pubDate>
+      <title>he Sports Page in Your Pocket: Designing for Readers Who Are Already on the Move</title>
+      <link>https://medium.com/@ck44onlinenews/he-sports-page-in-your-pocket-designing-for-readers-who-are-already-on-the-move-9218d60913e7?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@ck44onlinenews/he-sports-page-in-your-pocket-designing-for-readers-who-are-already-on-the-move-9218d60913e7?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1600/1*1dhQdcbJ4mWZS_-E6iYSeA.png&quot; width=&quot;1600&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;The next chapter of digital sports journalism is not about making everything faster. It is about making every small moment of attention&amp;#x2026;&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@ck44onlinenews/he-sports-page-in-your-pocket-designing-for-readers-who-are-already-on-the-move-9218d60913e7?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/9218d60913e7</guid>
+      <pubDate>Sat, 07 Nov 2026 07:26:49 GMT</pubDate>
     </item>
     <item>
-      <title>CSS Flexbox Order: How to Reorder Items (And the Accessibility Trap)</title>
-      <link>https://medium.com/@iskandar.elakbar99/css-flexbox-order-how-to-reorder-items-and-the-accessibility-trap-538eba9302c6?source=rss------accessibility-5</link>
-      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/@iskandar.elakbar99/css-flexbox-order-how-to-reorder-items-and-the-accessibility-trap-538eba9302c6?source=rss------accessibility-5&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1018/1*kjC5dMQZ3nlocdCiag45Pg.jpeg&quot; width=&quot;1018&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;CSS Flexbox order is a double-edged sword.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@iskandar.elakbar99/css-flexbox-order-how-to-reorder-items-and-the-accessibility-trap-538eba9302c6?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
-      <guid>https://medium.com/p/538eba9302c6</guid>
-      <pubDate>Fri, 06 Nov 2026 09:33:04 GMT</pubDate>
+      <title>How to Make Text Bigger on Your iPhone</title>
+      <link>https://medium.com/@GoldenYearsTech/how-to-make-text-bigger-on-your-iphone-853ba2c27f35?source=rss------accessibility-5</link>
+      <description>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;A simple, step-by-step guide for seniors &amp;#x2014; no tech skills needed.&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/@GoldenYearsTech/how-to-make-text-bigger-on-your-iphone-853ba2c27f35?source=rss------accessibility-5&quot;&gt;Continue reading on Medium »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <guid>https://medium.com/p/853ba2c27f35</guid>
+      <pubDate>Sat, 07 Nov 2026 04:39:18 GMT</pubDate>
     </item>
     <item>
       <title>Making Immersive LLM Chat Experiences More Accessible</title>
