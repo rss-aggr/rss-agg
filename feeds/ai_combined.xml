@@ -3,7 +3,32 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Sat, 14 Nov 2026 17:14:39 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 17:53:59 +0000</lastBuildDate>
+    <item>
+      <title>datasette-llm 0.1a11</title>
+      <link>https://simonwillison.net/2026/Nov/14/datasette-llm/</link>
+      <description>&lt;p&gt;&lt;strong&gt;Release:&lt;/strong&gt; &lt;a href=&quot;https://github.com/datasette/datasette-llm/releases/tag/0.1a11&quot;&gt;datasette-llm 0.1a11&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;code&gt;datasette-llm&lt;/code&gt; is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins.&lt;/p&gt;
+&lt;p&gt;This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that talks the OpenAI pseudo-standard web protocol.&lt;/p&gt;
+&lt;p&gt;This means that if you're running local models with &lt;a href=&quot;https://lmstudio.ai&quot;&gt;LM Studio&lt;/a&gt; or &lt;a href=&quot;https://ollama.com&quot;&gt;Ollama&lt;/a&gt; or &lt;a href=&quot;https://github.com/ggml-org/llama.cpp&quot;&gt;llama.cpp&lt;/a&gt; (which just hit &lt;a href=&quot;https://huggingface.co/blog/ggml-org/llama-cpp-v1&quot;&gt;v1.0.0&lt;/a&gt;) you can run Datasette via &lt;code&gt;uvx&lt;/code&gt; like this:&lt;/p&gt;
+&lt;div class=&quot;highlight highlight-source-shell&quot;&gt;&lt;pre&gt;wget https://datasette.io/content.db
+
+uvx --with datasette-agent datasette \
+  --root --secret 1 \
+  -s plugins.datasette-llm.default_model &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;'&lt;/span&gt;{&lt;/span&gt;
+&lt;span class=&quot;pl-s&quot;&gt;    &quot;model&quot;: &quot;lmstudio-qwen&quot;,&lt;/span&gt;
+&lt;span class=&quot;pl-s&quot;&gt;    &quot;model_name&quot;: &quot;qwen/qwen3.8-27b&quot;,&lt;/span&gt;
+&lt;span class=&quot;pl-s&quot;&gt;    &quot;api_base&quot;: &quot;http://localhost:1234/v1&quot;&lt;/span&gt;
+&lt;span class=&quot;pl-s&quot;&gt;  }&lt;span class=&quot;pl-pds&quot;&gt;'&lt;/span&gt;&lt;/span&gt; content.db&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;And you'll get a local server running a Datasette Agent instance powered by your local model!&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Screenshot of a chat interface. Header bar reads &amp;quot;home&amp;quot; on the left and &amp;quot;root&amp;quot; with a hamburger menu icon on the right. Below is a back arrow, the heading &amp;quot;Chat&amp;quot;, a model label &amp;quot;lmstudio-qwen&amp;quot; and an &amp;quot;EXPORT&amp;quot; button. A blue user message bubble says &amp;quot;how many repos and how many releases are there?&amp;quot; Below it is a collapsed tool call &amp;quot;list_databases_and_tables&amp;quot; and an expanded tool call &amp;quot;sql_query&amp;quot;. Its REQUEST section shows database &amp;quot;content&amp;quot;, display &amp;quot;both&amp;quot; and the SQL: SELECT (SELECT COUNT(*) FROM repos) AS repo_count, (SELECT COUNT(*) FROM releases) AS release_count. Its RESPONSE section shows columns repo_count and release_count with a single row of 200 and 1889. Below that is a table with columns repo_count and release_count and one row: 200, 1889, followed by a &amp;quot;View SQL query&amp;quot; button. The assistant reply reads &amp;quot;There are 200 repos and 1,889 releases in the content database.&amp;quot; At the bottom is a text input with placeholder &amp;quot;Type a message... (# to tag a table or query)&amp;quot; and a blue &amp;quot;Send&amp;quot; button.&quot; src=&quot;https://static.simonwillison.net/static/2026/lmstudio-datasette-agent.webp&quot; /&gt;&lt;/p&gt;
+    
+    
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/datasette&quot;&gt;datasette&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm&quot;&gt;llm&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/uv&quot;&gt;uv&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/datasette-agent&quot;&gt;datasette-agent&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Nov/14/datasette-llm/</guid>
+      <pubDate>2026-11-14T23:59:28+00:00</pubDate>
+    </item>
     <item>
       <title>GPT-6 Cyber Versus Linux, The Problem With LLM-Powered Search, LLMs Edit Model Weights, Agentic Doc Retrieval</title>
       <link>https://www.deeplearning.ai/the-batch/issue-379</link>
@@ -1087,16 +1112,6 @@ It's always interesting to note which aspects of a new model are emphasized in t
     &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-pricing&quot;&gt;llm-pricing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-release&quot;&gt;llm-release&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gpt&quot;&gt;gpt&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ted-sanders&quot;&gt;ted-sanders&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Oct/26/gpt-61-terra/</guid>
       <pubDate>2026-10-26T23:53:07+00:00</pubDate>
-    </item>
-    <item>
-      <title>Quoting Jason Koebler</title>
-      <link>https://simonwillison.net/2026/Oct/26/jason-koebler/</link>
-      <description>&lt;blockquote cite=&quot;https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/&quot;&gt;&lt;p&gt;Because big tech platforms essentially do not have customer support and make it impossible for their users to contact a human, many people experiencing run-of-the-mill tech problems have turned to ChatGPT. And, increasingly, ChatGPT is telling people that have normal tech support problems that they have discovered something journalistically notable and that 404 Media, specifically, can help them.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/&quot;&gt;Jason Koebler&lt;/a&gt;, ChatGPT Keeps Telling People 404 Media Can Solve Their Tech Support Problems&lt;/p&gt;
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/journalism&quot;&gt;journalism&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/chatgpt&quot;&gt;chatgpt&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/jason-koebler&quot;&gt;jason-koebler&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-misuse&quot;&gt;ai-misuse&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/404-media&quot;&gt;404-media&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Oct/26/jason-koebler/</guid>
-      <pubDate>2026-10-26T19:00:25+00:00</pubDate>
     </item>
     <item>
       <title>Anthropic files S-1 with the SEC for proposed initial public offering</title>
