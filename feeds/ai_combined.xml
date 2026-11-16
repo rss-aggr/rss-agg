@@ -3,7 +3,45 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Sun, 15 Nov 2026 17:53:59 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 21:08:43 +0000</lastBuildDate>
+    <item>
+      <title>ChatGPT Wallet 💳, Devin Apps 🛠️, always-on agents ⚡</title>
+      <link>https://tldr.tech/ai/2026-11-16</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-11-16</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>datasette-maplibre 0.1a0</title>
+      <link>https://simonwillison.net/2026/Nov/15/datasette-maplibre/</link>
+      <description>&lt;p&gt;&lt;strong&gt;Release:&lt;/strong&gt; &lt;a href=&quot;https://github.com/datasette/datasette-maplibre/releases/tag/0.1a0&quot;&gt;datasette-maplibre 0.1a0&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;The first new Datasette geospatial plugin in quite a while! This one combines the excellent &lt;a href=&quot;https://maplibre.org/maplibre-gl-js/docs/&quot;&gt;MapLibre GL&lt;/a&gt; library with &lt;a href=&quot;https://openfreemap.org&quot;&gt;OpenFreeMap&lt;/a&gt;, the free vector map server operated by Zsolt Ero (you should &lt;a href=&quot;https://github.com/sponsors/hyperknot&quot;&gt;sponsor Zsolt on GitHub&lt;/a&gt;.)&lt;/p&gt;
+&lt;p&gt;I built most of this with a single prompt to Claude Fable 5.2:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Look at datasette-cluster-map and datasette-leaflet-geojson plugins, then look at ~/dev/tools/openfreemap-demo.html - then build a brand new Datasette plugin that uses maplibreGL and openfreemap and combines the features of those other two plugins - but be creative and think outside the box for other useful features the plugin might have&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&quot;Be creative and think outside the box&quot; resulted in a few neat ideas - my favorite is that it displays SVG previews of GeoJSON shapes, then loads a WebGL preview only when they scroll into view.&lt;/p&gt;
+&lt;p&gt;I also had Claude build a comprehensive demo which works in the latest Datasette Lite, so you can &lt;a href=&quot;https://lite.datasette.io/?install=datasette-maplibre&amp;amp;url=https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/demo.db&amp;amp;metadata=https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/metadata.yml&quot;&gt;visit this link&lt;/a&gt; to load the plugin and a demo database in your browser via Pyodide and WebAssembly.&lt;/p&gt;
+&lt;p&gt;I like &lt;a href=&quot;https://lite.datasette.io/?install=datasette-maplibre&amp;amp;url=https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/demo.db&amp;amp;metadata=https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/metadata.yml#/demo/capitals_and_countries%23map=0/4.2/180&amp;amp;color=continent&quot;&gt;this demo page&lt;/a&gt; showing both GeoJSON shapes and lat/lon points on the same map:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Screenshot of a web map interface. Toolbar: &amp;quot;View&amp;quot; set to &amp;quot;Clusters&amp;quot;, &amp;quot;Colour by&amp;quot; set to &amp;quot;continent&amp;quot;, plus &amp;quot;Filter to this area&amp;quot; and &amp;quot;Download GeoJSON&amp;quot; buttons. A world map shows countries outlined and shaded by continent, with coloured dots and numbered cluster circles. A popup for a point in South America reads: capital Caracas, country Venezuela, continent South America, capital_population 2985000, latitude 10.502944, longitude -66.918983. Legend: Africa (52), Asia (45), Europe (39), North America (16), South America (13), Oceania (6). Text: &amp;quot;All 171 rows are on the map&amp;quot;. Below, a table with columns country, continent, capital_population, latitude, longitude, boundary. First row: Afghanistan, Asia, 3277000, 34.518636, 69.181314, with a small map in the boundary column showing Afghanistan outlined and shaded in blue.&quot; src=&quot;https://static.simonwillison.net/static/cors-allow/2026/datasette-maplibre.webp&quot; /&gt;&lt;/p&gt;
+    
+    
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/geospatial&quot;&gt;geospatial&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openstreetmap&quot;&gt;openstreetmap&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/visualization&quot;&gt;visualization&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/datasette&quot;&gt;datasette&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/datasette-lite&quot;&gt;datasette-lite&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Nov/15/datasette-maplibre/</guid>
+      <pubDate>2026-11-15T23:58:36+00:00</pubDate>
+    </item>
+    <item>
+      <title>datasette-agent 0.6a0</title>
+      <link>https://simonwillison.net/2026/Nov/15/datasette-agent/</link>
+      <description>&lt;p&gt;&lt;strong&gt;Release:&lt;/strong&gt; &lt;a href=&quot;https://github.com/datasette/datasette-agent/releases/tag/0.6a0&quot;&gt;datasette-agent 0.6a0&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;Accumulated small fixes for Datasette Agent, my agent plugin for Datasette that lets you ask questions about your data. Most notably, it now adds an agent prompt directly to the Datasette homepage, with support for hash-mentions of tables and queries:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Datasette homepage. Below the search box is a Datasette Agent heading with a text input and an ask button. User has typed: Tell me about #re - the box is showing autocomplete results for the repos and releases tables.&quot; src=&quot;https://static.simonwillison.net/static/cors-allow/2026/datasette-agent-homepage.webp&quot; /&gt;&lt;/p&gt;
+    
+    
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/datasette&quot;&gt;datasette&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm&quot;&gt;llm&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/datasette-agent&quot;&gt;datasette-agent&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Nov/15/datasette-agent/</guid>
+      <pubDate>2026-11-15T03:49:47+00:00</pubDate>
+    </item>
     <item>
       <title>datasette-llm 0.1a11</title>
       <link>https://simonwillison.net/2026/Nov/14/datasette-llm/</link>
@@ -1051,21 +1089,6 @@ I'm at GitHub Universe today (GitHub gave  me a free ticket through their &quot;
       <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Game Boy Color on My Conference Badge</title>
-      <link>https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://spf13.com/p/game-boy-color-on-my-conference-badge/&quot;&gt;Game Boy Color on My Conference Badge&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-I'm at GitHub Universe this week and, &lt;a href=&quot;https://simonwillison.net/2025/Oct/28/github-universe-badge/&quot;&gt;similar to last year&lt;/a&gt;, the conference badge is a full-blown color screen computer.&lt;/p&gt;
-&lt;p&gt;I've been hacking around with it again, and then I ran into with Steve Francia... who worked with Gemini to get a &lt;a href=&quot;https://spf13.com/p/zelda-on-my-conference-badge/&quot;&gt;full NES emulator&lt;/a&gt; working on it, and then went a step further and deployed an emulator for both the Game Boy and the Game Boy Color.&lt;/p&gt;
-&lt;p&gt;Which means, if you can obtain the ROM, you can run &lt;a href=&quot;https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Link%27s_Awakening&quot;&gt;The Legend of Zelda: Link's Awakening&lt;/a&gt; on your conference badge!&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Photo of the badge running Zelda, in full color, with visible touch buttons below the screen.&quot; src=&quot;https://static.simonwillison.net/static/2026-10-27/IMG_9339.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;A neat feature of the badge is that you can turn it upside down and then use game controller touch buttons that are built into the badge body.
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/games&quot;&gt;games&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/github&quot;&gt;github&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/hardware-hacking&quot;&gt;hardware-hacking&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gemini&quot;&gt;gemini&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/steve-francia&quot;&gt;steve-francia&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/</guid>
-      <pubDate>2026-10-27T19:34:18+00:00</pubDate>
-    </item>
-    <item>
       <title>Early progress on accelerating drug development with Claude</title>
       <link>https://www.anthropic.com/research/early-progress-drug-development</link>
       <description>We're at the start of a major effort to speed up drug development with Claude. Over the past several months, our scientists have engaged in deep research partnerships with six organizations developing new medicines.</description>
@@ -1085,33 +1108,6 @@ I'm at GitHub Universe this week and, &lt;a href=&quot;https://simonwillison.net
       <description/>
       <guid>https://tldr.tech/ai/2026-10-27</guid>
       <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>GPT-6.1 Terra</title>
-      <link>https://simonwillison.net/2026/Oct/26/gpt-61-terra/</link>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://openai.com/index/introducing-gpt-6-1-terra/&quot;&gt;GPT-6.1 Terra&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-It's always interesting to note which aspects of a new model are emphasized in the release announcement.&lt;/p&gt;
-&lt;p&gt;In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;We’re introducing &lt;strong&gt;GPT-6.1 Terra&lt;/strong&gt;, a fast, efficient model that combines detailed visual reasoning and precise computer use alongside clearer, more natural writing. A significant step up from GPT‑5.6 Terra, it excels at the communication and computer-based tasks that fill the workday, from drafting proposals and interpreting technical drawings to filling out forms and editing videos.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Terra sits in the same position as Sonnet in the Anthropic model collection - not the cheapest or the most expensive, making it harder to decide when to use it.&lt;/p&gt;
-&lt;p&gt;Computer use is a good example of a task that benefits from a less expensive model, since you might put it to work on automated, repetitive tasks.&lt;/p&gt;
-&lt;p&gt;OpenAI's Ted Sanders provided some useful advice in &lt;a href=&quot;https://news.ycombinator.com/item?id=50248124#50249160&quot;&gt;a comment&lt;/a&gt; on Hacker News:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;In the case of GPT-6.1 Terra, I'd say Terra is probably better than Astra and Sol at technical communication, similar on vision and computer use (but much faster!), and a bit worse on most other things. For API developers, it's a nice midrange option if you want something cheaper than Sol but a lot smarter than Luna (especially for vision / computer use / communication). For subscribers, it's not a bombshell release - if you're hitting usage limits, maybe it helps you go a bit further, and if you want clearer communication or faster computer use, it can be a nice option to select.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Here are &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F855d951d12c68eccca5374cd7d4f834e&quot;&gt;the pelicans&lt;/a&gt; for the different reasoning levels. This pelican &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F855d951d12c68eccca5374cd7d4f834e#reasoning-2&quot;&gt;for &quot;max&quot;&lt;/a&gt; cost &lt;a href=&quot;https://www.llm-prices.com/#it=16&amp;amp;ot=22629&amp;amp;sel=gpt-6.1-terra&quot;&gt;11.3161 cents&lt;/a&gt; and took 4 minutes and 11 seconds:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;It's a good pelican and a good bicycle - correctly shaped frame, feet n pedals either side of the frame, has the same color scheme as the others in the GPT-6 and GPT-6.1 families.&quot; src=&quot;https://static.simonwillison.net/static/2026-10-26/terra-max.webp&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Here's &lt;a href=&quot;https://static.simonwillison.net/static/2026/openai-pelicans-october-2026.html&quot;&gt;a new comparison grid&lt;/a&gt; showing pelicans for every reasoning level of OpenAI's current frontier lineup: GPT-6 Astra, GPT-6.1 Sol, GPT-6.1 Terra, and GPT-6 Luna.&lt;/p&gt;
-&lt;p&gt;GPT-6.1 Terra is priced at $1/million input tokens and $5/million output - almost half the price of GPT-5.6 Terra and GPT-6.1 Sol, and around 10x the price of GPT-6 Luna.
-
-    &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=&quot;https://news.ycombinator.com/item?id=50248124&quot;&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openai&quot;&gt;openai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-pricing&quot;&gt;llm-pricing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-release&quot;&gt;llm-release&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gpt&quot;&gt;gpt&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ted-sanders&quot;&gt;ted-sanders&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Oct/26/gpt-61-terra/</guid>
-      <pubDate>2026-10-26T23:53:07+00:00</pubDate>
     </item>
     <item>
       <title>Anthropic files S-1 with the SEC for proposed initial public offering</title>
@@ -1182,13 +1178,6 @@ It's always interesting to note which aspects of a new model are emphasized in t
       <description/>
       <guid>https://tldr.tech/ai/2026-10-20</guid>
       <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>DeepSeek’s new Flash ⚡, Replit drops Anthropic 🔄, Anthropic’s workforce 💼</title>
-      <link>https://tldr.tech/ai/2026-10-19</link>
-      <description/>
-      <guid>https://tldr.tech/ai/2026-10-19</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Investing in the public benefit</title>
