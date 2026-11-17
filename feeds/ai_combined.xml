@@ -3,7 +3,42 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Mon, 16 Nov 2026 21:08:43 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 19:57:23 +0000</lastBuildDate>
+    <item>
+      <title>Perplexity Research 🧪, NVIDIA Rubin HPC 🖥️, OpenAI safety assessments 👨‍💻</title>
+      <link>https://tldr.tech/ai/2026-11-17</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-11-17</guid>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>llm 0.37.3</title>
+      <link>https://simonwillison.net/2026/Nov/16/llm/</link>
+      <description>&lt;p&gt;&lt;strong&gt;Release:&lt;/strong&gt; &lt;a href=&quot;https://github.com/simonw/llm/releases/tag/0.37.3&quot;&gt;llm 0.37.3&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;A bug fix release for &lt;a href=&quot;https://llm.datasette.io&quot;&gt;LLM&lt;/a&gt;, mainly to cover a problem with the most recent Homebrew package of the software.&lt;/p&gt;
+&lt;p&gt;Homebrew now ships the latest SQLite, &lt;a href=&quot;https://www.sqlite.org/releaselog/3_54_1.html&quot;&gt;3.54.1&lt;/a&gt;, which includes &lt;a href=&quot;https://sqlite.org/bugs/info/2026-10-12T13:52:22Z&quot;&gt;a fix&lt;/a&gt; that &lt;a href=&quot;https://github.com/simonw/llm/issues/1879&quot;&gt;broke LLM's logging code&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Short version: in SQLite 3.54.0 the following SQL:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;select json_object('a', (select json_array(1)))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Returns this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{&quot;a&quot;:[1]}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;But in 3.54.1 the same query returns this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{&quot;a&quot;:&quot;[1]&quot;}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;According &lt;a href=&quot;https://sqlite.org/forum/forumpost/dff1a343157e422f&quot;&gt;to D. Richard Hipp&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;That was a bug fix. Per the documentation, (SELECT json_array(...)) returns SQL text, not JSON. Hence the 3.54.1 behavior is correct and 3.54.0 was a bug.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The workaround looks like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;select json_object('a', json((select json_array(1))))
+&lt;/code&gt;&lt;/pre&gt;
+    
+    
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/sqlite&quot;&gt;sqlite&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/webassembly&quot;&gt;webassembly&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/d-richard-hipp&quot;&gt;d-richard-hipp&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm&quot;&gt;llm&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Nov/16/llm/</guid>
+      <pubDate>2026-11-16T23:57:26+00:00</pubDate>
+    </item>
     <item>
       <title>ChatGPT Wallet 💳, Devin Apps 🛠️, always-on agents ⚡</title>
       <link>https://tldr.tech/ai/2026-11-16</link>
@@ -1065,16 +1100,6 @@ I'm at GitHub Universe today (GitHub gave  me a free ticket through their &quot;
       <pubDate>2026-10-28T13:55:15+00:00</pubDate>
     </item>
     <item>
-      <title>Quoting Terk Terkowitz</title>
-      <link>https://simonwillison.net/2026/Oct/28/terk-terkowitz/</link>
-      <description>&lt;blockquote cite=&quot;https://www.aboutamazon.com/news/company-news/amazon-software-engineer-role-guideline-ai&quot;&gt;&lt;p&gt;If your work does not benefit from current AI tooling, that is a finding, not a failing. Document why, share it with your community of peers, bring it to your manager, and work to find solutions. An engineer who can explain where AI does not yet help their work is demonstrating the judgement we are asking for.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://www.aboutamazon.com/news/company-news/amazon-software-engineer-role-guideline-ai&quot;&gt;Terk Terkowitz&lt;/a&gt;, An update from Amazon engineering leadership on the role of the developer in the age of AI&lt;/p&gt;
-
-    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/amazon&quot;&gt;amazon&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/agentic-engineering&quot;&gt;agentic-engineering&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Oct/28/terk-terkowitz/</guid>
-      <pubDate>2026-10-28T10:09:07+00:00</pubDate>
-    </item>
-    <item>
       <title>AI for Science expands to foundations and research institutions</title>
       <link>https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions</link>
       <description>We’re highlighting 20 scientific foundations, institutions, and research groups around the world that we’ve partnered with in an expansion of our AI for Science program.</description>
@@ -1171,13 +1196,6 @@ I'm at GitHub Universe today (GitHub gave  me a free ticket through their &quot;
       <description/>
       <guid>https://tldr.tech/ai/2026-10-21</guid>
       <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mercury 3 🤖, MiniMax Flash 3.1 ⚡, Exa 3 🔎</title>
-      <link>https://tldr.tech/ai/2026-10-20</link>
-      <description/>
-      <guid>https://tldr.tech/ai/2026-10-20</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Investing in the public benefit</title>
