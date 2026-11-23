@@ -3,7 +3,14 @@
     <title>SEO/AEO Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: SEO/AEO Combined Feed</description>
-    <lastBuildDate>Sun, 22 Nov 2026 18:36:01 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 22:47:36 +0000</lastBuildDate>
+    <item>
+      <title>DenominAItor</title>
+      <link>https://www.growth-memo.com/p/denominaitor</link>
+      <description>New Hubspot data reveals how mentions and citations relate on the AI engine level.</description>
+      <guid>https://www.growth-memo.com/p/denominaitor</guid>
+      <pubDate>Mon, 23 Nov 2026 11:18:32 GMT</pubDate>
+    </item>
     <item>
       <title>AI Search Meta Analysis - Q4 2026</title>
       <link>https://www.growth-memo.com/p/ai-search-meta-analysis-q4-2026</link>
@@ -136,13 +143,6 @@
       <description>Author bios, schema markup, word count: all noise . Only freshness predicted top-three rankings.</description>
       <guid>https://www.growth-memo.com/p/what-makes-a-good-listicle</guid>
       <pubDate>Mon, 31 Aug 2026 09:10:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>New Claude skill: Commodity Content Audit</title>
-      <link>https://www.growth-memo.com/p/new-claude-skill-commodity-content</link>
-      <description>Score how replaceable your content is</description>
-      <guid>https://www.growth-memo.com/p/new-claude-skill-commodity-content</guid>
-      <pubDate>Thu, 27 Aug 2026 17:55:25 GMT</pubDate>
     </item>
   </channel>
 </rss>

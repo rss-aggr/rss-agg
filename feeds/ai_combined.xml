@@ -3,7 +3,70 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Sun, 22 Nov 2026 18:36:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 22:47:36 +0000</lastBuildDate>
+    <item>
+      <title>Ladybird's first alpha release</title>
+      <link>https://simonwillison.net/2026/Nov/23/ladybird/</link>
+      <description>&lt;p&gt;&lt;a href=&quot;https://ladybird.org&quot;&gt;Ladybird&lt;/a&gt; is an astonishingly ambitious project: a new browser, in 2026, with its own implementation of most of the key components - HTML parsing, CSS engine, layout, JavaScript, even WebAssembly. It still uses a few external components - things like &lt;a href=&quot;https://github.com/harfbuzz/harfbuzz&quot;&gt;HarfBuzz&lt;/a&gt; for text shaping, &lt;a href=&quot;https://skia.org/&quot;&gt;Skia&lt;/a&gt; for 2D graphics, ffmpeg for video, and SQLite for the things you do with SQLite. Everything else is part of Ladybird, or code brought in from Ladybird's even more ambitious predecessor project &lt;a href=&quot;https://serenityos.org/&quot;&gt;SerenityOS&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This morning the Ladybird project &lt;a href=&quot;https://ladybird.org/posts/alpha/&quot;&gt;released their first alpha&lt;/a&gt;, which means you can now &lt;a href=&quot;https://ladybird.org/download/&quot;&gt;install the browser&lt;/a&gt; (on macOS or Linux) without having to compile it yourself!&lt;/p&gt;
+&lt;p&gt;I've been trying it out today, and it's very impressive. It feels fast, the UI is lightweight and intuitive, and most of the websites I've tried to load in it have worked as they should. It looks like this (showing my &lt;a href=&quot;https://tools.simonwillison.net/video-compressor&quot;&gt;video-compressor&lt;/a&gt; tool):&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;macOS running Ladybird - it has four tabs open, the visible one is showing tools.simonwillison.net/video-compressor which is an app for running ffmpeg using WebAssembly and is shown working.&quot; src=&quot;https://static.simonwillison.net/static/2026/ladybird-ffmpeg.webp&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Here's the process tree after I opened six tabs in one window and another tab in a second window (generated &lt;a href=&quot;https://gist.github.com/simonw/b9162f1741b96fea72b11c300b749226&quot;&gt;by this script&lt;/a&gt;, thanks Claude):&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Ladybird (72925)  [240 MB]
+└── Hub (72926)  [61 MB]
+    ├── RequestServer (72927)  [29 MB]
+    ├── ProcessReaper (72928)  [1 MB]
+    ├── Compositor (72930)  [123 MB]
+    ├── RequestServer (72953)  [36 MB]
+    ├── WebContent (72984)  [819 MB]
+    ├── MediaServer (73006)  [118 MB]
+    ├── VideoDecoderServer (73007)  [20 MB]
+    ├── WebContent (73052)  [144 MB]
+    ├── WebContent (73057)  [73 MB]
+    ├── WebContent (73073)  [166 MB]
+    ├── WebContent (73094)  [70 MB]
+    ├── WebContent (73112)  [116 MB]
+    ├── RequestServer (73113)  [27 MB]
+    └── WebContent (73185)  [60 MB]&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Ladybird runs different tabs in different processes, an isolation mechanism used by most browsers (well, technically Chrome uses a process-per-site).&lt;/p&gt;
+&lt;p&gt;I tried Ladybird against several of my more advanced tool examples - like the &lt;a href=&quot;https://tools.simonwillison.net/video-compressor&quot;&gt;video-compressor&lt;/a&gt; shown above, which runs ffmpeg compiled to WebAssembly. I had it resize its own screenshot using my &lt;a href=&quot;https://tools.simonwillison.net/image-resize-quality&quot;&gt;image-resize tool&lt;/a&gt;. It happily runs my &lt;a href=&quot;https://tools.simonwillison.net/pyodide-repl&quot;&gt;Pyodide REPL&lt;/a&gt; (Python compiled to WebAssembly) too.&lt;/p&gt;
+&lt;p&gt;The one thing I tried that didn't work was &lt;a href=&quot;https://lite.datasette.io/&quot;&gt;Datasette Lite&lt;/a&gt;, which runs Pyodide in &lt;a href=&quot;https://simonwillison.net/2026/Nov/17/datasette-lite/#how-this-works-using-service-workers&quot;&gt;a complicated arrangement&lt;/a&gt; of service workers and web workers. Attempting to start Datasette Lite displays this error:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;undefined is not a function (evaluated from 'navigator.serviceWorker.startMessages')&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I filed &lt;a href=&quot;https://github.com/LadybirdBrowser/ladybird/issues/15515&quot;&gt;an issue about this&lt;/a&gt;, then found &lt;a href=&quot;https://github.com/LadybirdBrowser/ladybird/blob/864f4362b5334a7e830c4c7c923a95292a871d4e/Libraries/LibWeb/ServiceWorker/ServiceWorkerContainer.idl#L12&quot;&gt;a FIXME annotation&lt;/a&gt; in the source code.&lt;/p&gt;
+&lt;h4 id=&quot;the-october-explosion&quot;&gt;The October explosion&lt;/h4&gt;
+&lt;p&gt;The project has been leaning heavily into coding agents this year. On February 23, 2026 Andreas Kling published &lt;a href=&quot;https://ladybird.org/posts/adopting-rust/&quot;&gt;Ladybird adopts Rust, with help from AI&lt;/a&gt;, describing how they ported parts of their LibJS JavaScript engine from C++ to 25,000 lines of Rust in two weeks using Claude Code and Codex.&lt;/p&gt;
+&lt;p&gt;Here's &lt;a href=&quot;https://github.com/LadybirdBrowser/ladybird/graphs/contributors?from=2025-11-22T08%3A00%3A00.000Z&quot;&gt;the GitHub contributions chart&lt;/a&gt; for Ladybird over the past twelve months:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Screenshot of a GitHub-style bar chart titled &amp;quot;Commits over time&amp;quot; with the subtitle &amp;quot;Weekly from Nov 22, 2025 to Nov 21, 2026&amp;quot;. The y-axis is labeled &amp;quot;Contributions&amp;quot; with ticks at 0, 500, 1000 and 1500, and the x-axis is labeled Jan 2026, Mar 2026, May 2026, Jul 2026, Sep 2026 and Nov 2026. Blue weekly bars stay low for the first half of the year, then climb steeply from July to a peak in late October before dropping off in the final partial week.&quot; src=&quot;https://static.simonwillison.net/static/2026/ladybird-contributions.webp&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;That uptick in October corresponds to the landing of a wealth of big improvements.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://ladybird.org/newsletter/2026-10-31/&quot;&gt;This Month in Ladybird — October 2026&lt;/a&gt; describes what happened. In addition to moving style and layout to their own thread, landing a new JavaScript JIT, and replacing their C++ with Cranelift WebAssembly engine with new code that achieved a 7x boost on the &lt;a href=&quot;https://webkit.org/blog/17899/introducing-the-jetstream-3-benchmark-suite/&quot;&gt;JetStream 3 WASM benchmark&lt;/a&gt;, they gained 75,650 new passes on the ~2.25 million subtest &lt;a href=&quot;https://web-platform-tests.org/&quot;&gt;web-platform-tests&lt;/a&gt; suite, beating Safari!&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Line chart titled &amp;quot;WPT subtests passed in October&amp;quot; with the subtitle &amp;quot;Best run per day. The axis doesn't start at zero.&amp;quot; The y-axis runs from 2.10M to 2.25M with ticks at 2.10M, 2.15M, 2.20M and 2.25M, and the x-axis is labeled Oct 1, Oct 8, Oct 15, Oct 22 and Oct 29. Four lines are labeled at their right-hand ends with final values: Chrome 2,244,397, Firefox 2,189,315, Ladybird 2,184,722, Safari 2,172,990. Chrome, Firefox and Safari rise only slightly across the month, at roughly 2.23M to 2.24M, 2.18M to 2.19M and 2.16M to 2.17M respectively. Ladybird, drawn as a thicker purple line, starts near 2.10M, stays around 2.11M with a brief dip on about Oct 15, then climbs steeply from about Oct 22, overtaking Safari around Oct 26 and finishing just below Firefox.&quot; src=&quot;https://static.simonwillison.net/static/2026/newsletter-oct-2026-wpt-light.webp&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;How did they do that? Coding agents:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Most of that gain came in five days, from about 2.12 million on October 22 to about 2.18 million on October 27. We pointed AI coding agents at WPT and asked them to fill in missing functionality. They made lots of small fixes, and those added up. Our biggest gains for the month were about 30,000 in &lt;code&gt;/css&lt;/code&gt; and 10,000 in &lt;code&gt;/editing&lt;/code&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I'm interested in what models they are using here - I know Andreas uses Codex and Claude Code, but I haven't seen him talk about specific model versions. Claude Opus 5.5 came out on September 22, 2026 and Claude Fable 5.2 on November 9, 2026 (after that window). I'd love to know what they were using for that huge leap in the last week of October.&lt;/p&gt;
+&lt;h4 id=&quot;should-you-use-ladybird-&quot;&gt;Should you use Ladybird?&lt;/h4&gt;
+&lt;p&gt;Here's what &lt;a href=&quot;https://ladybird.org/posts/alpha/&quot;&gt;Andreas says&lt;/a&gt; about Ladybird's suitability for use as a daily browser:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is an alpha, so some websites won’t work, and it will crash sometimes. When that happens, tell us! You can report a broken site from inside the browser. After a crash, you can read the crash report and decide whether to send it. Our &lt;a href=&quot;https://ladybird.org/privacy/&quot;&gt;privacy policy&lt;/a&gt; has the details.&lt;/p&gt;
+&lt;p&gt;We want security nerds to hack it! A new browser gets hacked, over and over, and that’s part of the process, so we make no promises about security today. When you pwn us, please &lt;a href=&quot;https://github.com/LadybirdBrowser/ladybird/blob/master/SECURITY.md&quot;&gt;tell us how&lt;/a&gt; so we can harden Ladybird!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Given how hard it is to secure a web browser, and the hostility of the environment they operate in, I won't be using Ladybird to sign into GitHub or Gmail or any of my other sensitive accounts.&lt;/p&gt;
+&lt;p&gt;I'm going to keep it around for anonymous browsing though, partly to participate in the testing efforts but mainly because it gives me a glimmer of optimism to see a promising new entrant in the stagnant browser engine market start to grow its wings.&lt;/p&gt;
+    
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/browsers&quot;&gt;browsers&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/open-source&quot;&gt;open-source&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/rust&quot;&gt;rust&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/webassembly&quot;&gt;webassembly&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/andreas-kling&quot;&gt;andreas-kling&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ladybird&quot;&gt;ladybird&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Nov/23/ladybird/</guid>
+      <pubDate>2026-11-23T21:46:35+00:00</pubDate>
+    </item>
+    <item>
+      <title>OpenAI publishes progress 🧠, Inkling 2 Mini 💧, Riemann proof 📐</title>
+      <link>https://tldr.tech/ai/2026-11-23</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-11-23</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Muru</title>
       <link>https://simonwillison.net/2026/Nov/21/muru/</link>
@@ -1004,55 +1067,6 @@ llm -m claude-fable-5.2 &quot;Generate an SVG of a pelican riding a bicycle&quot
       <pubDate>2026-11-02T23:49:30+00:00</pubDate>
     </item>
     <item>
-      <title>The U.S. Census Bureau and “Super Intelligence”</title>
-      <link>https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/</link>
-      <description>&lt;p&gt;I was reminded today of &lt;a href=&quot;https://www.apolloacademy.com/ai-adoption-rate-trending-down-for-large-companies/&quot;&gt;AI Adoption Rate Trending Down for Large Companies&lt;/a&gt;, a chart produced by Apollo Global Management in September 2025, which appeared to show a slowdown in U.S. corporate AI adoption based on numbers collected by the U.S. Census Bureau. At the time I used that chart &lt;a href=&quot;https://simonwillison.net/2025/Sep/9/apollo-ai-adoption/&quot;&gt;to demonstrate GPT-5 data analysis&lt;/a&gt;, and then &lt;a href=&quot;https://simonwillison.net/2025/Sep/9/claude-code-interpreter/#something-much-harder-recreating-the-ai-adoption-chart&quot;&gt;to experiment with Claude's new Code Interpreter&lt;/a&gt;. I decided to try running those numbers again to see what had changed over the past year, and in doing so learned that the Bureau has fallen foul of &lt;a href=&quot;https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence/&quot;&gt;Executive Order 14434&lt;/a&gt;, aka the asinine Super Intelligence one.&lt;/p&gt;
-&lt;h4 id=&quot;first-the-updated-chart&quot;&gt;First, the updated chart&lt;/h4&gt;
-&lt;p&gt;Every two weeks the U.S. Census Bureau runs a survey called the &lt;a href=&quot;https://www.census.gov/hfp/btos/data&quot;&gt;Business Trends and Outlook Survey&lt;/a&gt; (aka BTOS). Each time it goes to 200,000 businesses out of 1.2 million total - the surveyed group (a &quot;panel&quot;) cycles such that an individual business only completes the survey every twelve weeks.&lt;/p&gt;
-&lt;p&gt;The latest data is published on alternating Thursdays at 10am.&lt;/p&gt;
-&lt;p&gt;I used the most recent numbers (published October 22, 2026) to create a new version (&lt;a href=&quot;https://chatgpt.com/share/6ae89e86-8658-83e8-85fd-c4ef2d4f3b89?ogimg=plain&quot;&gt;GPT-6 Astra Extra High transcript&lt;/a&gt;) of the AI adoption chart, updated to reflect both the last twelve months and a change that was made to the survey question sent out by the Bureau:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Line chart titled &amp;quot;AI use by U.S. firm size&amp;quot;, subtitled &amp;quot;Six-survey trailing average • Share of employer businesses reporting use in the last two weeks&amp;quot; and &amp;quot;Updated with the October 22, 2026 Census release&amp;quot;. Seven lines for firm sizes 250+, 100–249, 50–99, 20–49, 10–19, 5–9 and 1–4, on a y-axis from 0% to 45% and an x-axis from Jan 2024 to Oct 2026. Left section, &amp;quot;AI in producing goods or services&amp;quot;: all sizes start at 3–5% in late 2023 and climb slowly to 7–13% by September 2025, with 250+ highest. A shaded gap is labeled &amp;quot;Question broadened Nov 2025&amp;quot; and &amp;quot;Series not comparable&amp;quot;. Right section, &amp;quot;AI in any business function&amp;quot;: all lines restart higher in February 2026 and rise steadily to &amp;quot;250+: 40.7%&amp;quot;, &amp;quot;100–249: 33.5%&amp;quot;, &amp;quot;50–99: 27.9%&amp;quot;, &amp;quot;20–49: 23.8%&amp;quot;, &amp;quot;1–4: 23.3%&amp;quot;, &amp;quot;10–19: 22.1%&amp;quot;, &amp;quot;5–9: 21.1%&amp;quot;. Footnotes: &amp;quot;Source: U.S. Census Bureau, Business Trends and Outlook Survey (BTOS). Size groups are numbers of employees.&amp;quot; &amp;quot;Method: arithmetic mean of six successive survey estimates, calculated separately for each question wording; no bridging of the break.&amp;quot; &amp;quot;Dates use reference-period end, matching the original chart. Latest: Oct 4, 2026 (collected Oct 5–18). First new six-wave average: Jan 25, 2026.&amp;quot; &amp;quot;The gap includes the 2025 shutdown and the wait for six observations under the broader question. Survey uncertainty is not displayed.&amp;quot;&quot; src=&quot;https://static.simonwillison.net/static/2026-11-01/5821A414-FAF6-4E61-B037-952C1FD80D39.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Here's &lt;a href=&quot;https://static.simonwillison.net/static/2026-11-01/5821A414-FAF6-4E61-B037-952C1FD80D39.png&quot;&gt;a link to the larger image&lt;/a&gt;.&lt;/p&gt;
-
-
-&lt;p&gt;For comparison, here's that AI adoption chart from last year (my GPT-5 version):
-&lt;img alt=&quot;AI adoption rates starting to decline for larger firms. A chart of AI adoption rate by firm size. Includes lines for 250+, 100-249, 50-99, 20-49, 10-19, 5-9 and 1-4 sized organizations. Chart starts in November 2023 with percentages ranging from 3 to 5, then all groups grow through August 2025 albeit with the 250+ group having a higher score than the others. That 250+ group peaks in July 2025 at around 14% and then appears to slope slightly downwards to 12% by August. Some of the other lines also start to tip down, though not as much.&quot; src=&quot;https://static.simonwillison.net/static/2025/apollo-ai-chart.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In September 2025 the largest (250+ employees) companies answered &quot;yes&quot; around 12% of the time to the question about whether they used AI in &quot;producing goods or services&quot;.&lt;/p&gt;
-&lt;p&gt;Under the new &quot;any business function&quot; wording, by February 2026, those same large companies answered &quot;yes&quot; around 30% of the time, and by October 2026 that had increased to around 40%.&lt;/p&gt;
-&lt;p&gt;The data in the above chart comes from the &quot;Employment size class&quot; XLSX file, &lt;a href=&quot;https://www.census.gov/hfp/btos/data_downloads&quot;&gt;available from here&lt;/a&gt;. Here's &lt;a href=&quot;https://static.simonwillison.net/static/2026/Employment-Size-Class-Nov-1-2026-copy.xlsx&quot;&gt;a copy&lt;/a&gt; of the file I used.&lt;/p&gt;
-&lt;p&gt;You can view &lt;a href=&quot;https://www.census.gov/hfp/btos/downloads/BTOS%20Content%20V5%20Core%20Round%203,%204.pdf&quot;&gt;the survey document&lt;/a&gt; that is sent out to businesses - here's &lt;a href=&quot;https://static.simonwillison.net/static/2026/BTOS-Content-V5-Core-Round-3-4.pdf&quot;&gt;my snapshot copy&lt;/a&gt; of that 346KB PDF.&lt;/p&gt;
-&lt;h4 id=&quot;the-changing-language-of-the-questions&quot;&gt;The changing language of the questions&lt;/h4&gt;
-&lt;p&gt;As the chart demonstrates, the question asked by the Bureau changed in a material way on November 17th, 2025. Prior to that date, the question they asked was this (emphasis mine):&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;In the last two weeks, did this business use Artificial Intelligence (AI) in &lt;strong&gt;producing goods or services&lt;/strong&gt;? (Examples of AI: machine learning, natural language processing, virtual agents, voice recognition, etc.)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;On December 3rd, 2025, &lt;a href=&quot;https://www.census.gov/hfp/btos/downloads/AI%20Question%20Wording%20Updates.pdf&quot;&gt;the Bureau announced&lt;/a&gt; a significant change to that question. Here's the replacement:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;In the last two weeks, did this business use Artificial Intelligence (AI) in &lt;strong&gt;any of its business functions&lt;/strong&gt;? (Examples of AI: machine learning, natural language processing, virtual agents, voice recognition, etc.)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;No more &quot;producing goods or services&quot; - now it's &quot;in any of its business functions&quot;! This means that the answers to the question before and after November 17th are not directly comparable.&lt;/p&gt;
-&lt;h4 id=&quot;from-october-19-2026-they-ask-about-super-intelligence&quot;&gt;From October 19, 2026, they ask about Super Intelligence&lt;/h4&gt;
-&lt;p&gt;When I went looking for the updated question language in the latest XLSX file, I couldn't find it. I found this instead:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;In the last two weeks, did this business &lt;strong&gt;use Super Intelligence or SI&lt;/strong&gt; (formerly referred to as Artificial Intelligence or AI) in any of its business functions? (Examples of SI use include: SI-powered data analysis; generative SI for marketing, product design, or coding; virtual SI agents for customer service; SI-powered forecasting or pricing; SI-driven computer vision for quality control, etc.)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;The &lt;a href=&quot;https://www.census.gov/hfp/btos/about&quot;&gt;BTOS about page&lt;/a&gt; explains what happened:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Beginning with the October 19, 2026 collection, &lt;a href=&quot;https://www.census.gov/hfp/btos/downloads/BTOS%20Content%20V5%20Core%20Round%203,%204.pdf&quot;&gt;instrument wording&lt;/a&gt; was updated due to &lt;a href=&quot;https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence/&quot;&gt;Executive Order 14434&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;The current numbers reflect the old Artificial Intelligence survey wording - the first survey results reflecting the Super Intelligence wording are due for publication on Thursday.&lt;/p&gt;
-&lt;h4 id=&quot;is-this-going-to-affect-the-survey-&quot;&gt;Is this going to affect the survey?&lt;/h4&gt;
-&lt;p&gt;The obvious open question here is whether this wording change is going to affect the survey results.&lt;/p&gt;
-&lt;p&gt;The businesses answering this survey will have last seen that question twelve weeks ago, when it was still called AI. Hopefully the new language isn't going to confuse them, especially since the survey helpfully spells out &quot;formerly referred to as Artificial Intelligence or AI&quot;.&lt;/p&gt;
-&lt;p&gt;I can't help but laugh at the absurdity of &quot;SI-powered data analysis; generative SI for marketing, product design, or coding; virtual SI agents for customer service&quot; though.&lt;/p&gt;
-    
-        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/census&quot;&gt;census&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/surveys&quot;&gt;surveys&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/</guid>
-      <pubDate>2026-11-02T13:31:26+00:00</pubDate>
-    </item>
-    <item>
       <title>DeepSeek super agent 🤖, GPT-6 Rosalind 🧬, Google orbital compute 🛰️</title>
       <link>https://tldr.tech/ai/2026-11-02</link>
       <description/>
@@ -1121,13 +1135,6 @@ llm -m claude-fable-5.2 &quot;Generate an SVG of a pelican riding a bicycle&quot
       <description>Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.</description>
       <guid>https://www.anthropic.com/news/s1-sec</guid>
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Apple’s 20B model 📱, Kimi K3.1 Pro 🧠, Block Dessa 🗣️, frontier training security 🔐</title>
-      <link>https://tldr.tech/ai/2026-10-26</link>
-      <description/>
-      <guid>https://tldr.tech/ai/2026-10-26</guid>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Meta’s Muse Wonder and Spark Open, Educational Use of ChatGPT, Reflection's Partnership with Nvidia</title>
