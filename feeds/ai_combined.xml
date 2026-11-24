@@ -3,7 +3,65 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Mon, 23 Nov 2026 22:47:36 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 21:26:01 +0000</lastBuildDate>
+    <item>
+      <title>GPT 6.2 Astra Solves a Historical Mystery</title>
+      <link>https://simonwillison.net/2026/Nov/24/astra-historical-mystery/</link>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical&quot;&gt;GPT 6.2 Astra Solves a Historical Mystery&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+Here's an interesting case-study in using GPT-6.2 Astra for historical research, from history professor Mark Humphries:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;With only minimal prompting, GPT-6.2 Astra was able to autonomously identify the creator of an anonymous 1808 sketchbook held at &lt;a href=&quot;https://beinecke.library.yale.edu/&quot;&gt;Yale’s Beinecke Library&lt;/a&gt;. It did so extremely quickly (in just 22 minutes), using publicly available primary and secondary sources. To do so, it discovered a little known source in a paper archive, predicted that it would prove its hypothesis if examined and, in the end, it did. Not only that, but this new source turns out to be a major find on its own that will be of significant interest to both Canadian and fur trade historians.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Here's &lt;a href=&quot;https://collections.library.yale.edu/catalog/32369099&quot;&gt;the digitized sketchbook&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Astra found a diary reference reference to a visit by the vicomte de Chabot dated five days before a date mentioned in the sketchbook at a nearby river, and suggested that Chabot's journal of his travels (only available by order from Cleveland State University) might confirm that the sketchbook was his work.&lt;/p&gt;
+&lt;p&gt;Are historians due for a round of &lt;a href=&quot;https://simonwillison.net/tags/deep-blue/&quot;&gt;Deep Blue&lt;/a&gt;? Mark thinks it will be mild:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;But if the experience of mathematics is any guide, we can also anticipate that sometime next spring or summer we’ll face a sort of crisis of confidence as we struggle to understand how to respond to agentic systems that can do things human historians cannot. To be fair, that crisis will almost certainly be less profound for us than it is for math. The problem in mathematics, of course, is that solving hard math problems was the whole game. Historians, on the other hand, constantly reinterpret the past in light of an evolving present; we don’t chase a single universal truth. We also (in the ideal at least) write books and articles that are closer to works of philosophy and literature than they are to scientific tracts. Humanity is thus something of a requirement for the production of historical literature.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/history&quot;&gt;history&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-assisted-search&quot;&gt;ai-assisted-search&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/deep-blue&quot;&gt;deep-blue&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gpt-6-astra&quot;&gt;gpt-6-astra&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Nov/24/astra-historical-mystery/</guid>
+      <pubDate>2026-11-24T16:53:59+00:00</pubDate>
+    </item>
+    <item>
+      <title>GLM-5.4 loops 🔁, Claude Ship 🚢, OpenAI secures Linux 🔒</title>
+      <link>https://tldr.tech/ai/2026-11-24</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-11-24</guid>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>GLM-5.4: Toward Generalized Coding with Our First Loop Transformer</title>
+      <link>https://simonwillison.net/2026/Nov/23/glm-54/</link>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://z.ai/blog/glm-5.4&quot;&gt;GLM-5.4: Toward Generalized Coding with Our First Loop Transformer&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+GLM 5.4 is now available from Chinese AI lab Z.ai. It's their first model to use a looped transformer architecture, which they describe like this:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In a standard Transformer, each layer runs once per forward pass. In a Loop Transformer, a group of weight-shared layers runs for multiple iterations, refining the hidden states from the previous pass. This gives us a deeper network without increasing the parameter count.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This is the second mention of looped transformers I've seen in the past week - the first was &lt;a href=&quot;https://thinkingmachines.ai/news/inkling-2-mini/&quot;&gt;Inkling 2 Mini&lt;/a&gt; from Thinking Machines Lab on November 20th, who said:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Inkling 2 Mini is a looped transformer, running the middle layers of the model three times for every token. This allows the model to apply more reasoning and reach the right answer with fewer tokens, especially on tasks such as agentic coding that depend on reasoning quality.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;GLM 5.4 is not yet available as open weights:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We plan to open-source the model weights responsibly after completing necessary safety hardening.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I tried it out using the Z.ai API, for which I had to sign up for their &lt;a href=&quot;https://docs.z.ai/devpack/overview&quot;&gt;Coding Plan subscription&lt;/a&gt; because 5.4 cannot currently be accessed through the regular API.&lt;/p&gt;
+&lt;p&gt;It turns out both coding plan and regular API share the same OpenAI-compatible Responses API (at &lt;code&gt;https://api.z.ai/api/v1&lt;/code&gt;), and the API key for the coding plan worked with that and gave me access to the new model.&lt;/p&gt;
+&lt;p&gt;I built a &lt;a href=&quot;https://github.com/simonw/llm-glm&quot;&gt;llm-glm plugin&lt;/a&gt;, then realized that &lt;a href=&quot;https://github.com/irthomasthomas/llm-zai&quot;&gt;llm-zai&lt;/a&gt; by Tommy Hughes already exists! I've shipped mine purely because &lt;code&gt;llm-zai&lt;/code&gt; doesn't yet support the new model, but I'll likely retire mine once that plugin catches up.&lt;/p&gt;
+&lt;p&gt;Here are &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Fae838c5a6837ca0a602c180c07ac0887&quot;&gt;pelicans for GLM-5.4&lt;/a&gt; on low, high, and max. This is the max one:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;It's not great to be honest - the pelican is recognizable, but the bicycle frame has a funny front bar connection post and doesn't look like it would steer.&quot; src=&quot;https://static.simonwillison.net/static/2026/glm-5.4-max.webp&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I realized I never ran pelicans for GLM-5.3, so &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F8826d1366dcc98783c7cbc593f6a6e77&quot;&gt;here those are&lt;/a&gt; for the same effort levels. They look similar in quality to 5.4.&lt;/p&gt;
+&lt;p&gt;It's interesting how &lt;a href=&quot;https://simonwillison.net/2026/Apr/7/glm-51/&quot;&gt;GLM 5.1&lt;/a&gt; and &lt;a href=&quot;https://simonwillison.net/2026/Jun/17/glm-52/#excellent-pelican-disappointing-opossum&quot;&gt;GLM 5.2&lt;/a&gt; produced radically different pelicans from other models. The pelicans for 5.3 and 5.4 are much more comparable to those I get from OpenAI or Anthropic models - the previous generations had their own distinctive look.&lt;/p&gt;
+&lt;p&gt;I made a &lt;a href=&quot;https://static.simonwillison.net/static/2026/glm-pelican-comparison.html&quot;&gt;comparison grid&lt;/a&gt; showing the four generations of GLM pelicans all in one place. The style transition between 5.2 and 5.3 is pretty stark.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;The 5.4 and 5.3 pelicans look similar at all three levels. The 5.2 one is on a cyberpunk bicycle. The 5.1 is much more colorful and animated.&quot; src=&quot;https://static.simonwillison.net/static/2026/glm-family-4.webp&quot; /&gt;
+
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm&quot;&gt;llm&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-release&quot;&gt;llm-release&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-in-china&quot;&gt;ai-in-china&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/glm&quot;&gt;glm&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Nov/23/glm-54/</guid>
+      <pubDate>2026-11-23T23:40:49+00:00</pubDate>
+    </item>
     <item>
       <title>Ladybird's first alpha release</title>
       <link>https://simonwillison.net/2026/Nov/23/ladybird/</link>
@@ -59,6 +117,25 @@
         &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/browsers&quot;&gt;browsers&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/open-source&quot;&gt;open-source&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/rust&quot;&gt;rust&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/webassembly&quot;&gt;webassembly&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/andreas-kling&quot;&gt;andreas-kling&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ladybird&quot;&gt;ladybird&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Nov/23/ladybird/</guid>
       <pubDate>2026-11-23T21:46:35+00:00</pubDate>
+    </item>
+    <item>
+      <title>datasette-charts 0.1a0</title>
+      <link>https://simonwillison.net/2026/Nov/23/datasette-charts/</link>
+      <description>&lt;p&gt;&lt;strong&gt;Release:&lt;/strong&gt; &lt;a href=&quot;https://github.com/datasette/datasette-charts/releases/tag/0.1a0&quot;&gt;datasette-charts 0.1a0&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;I've been thinking about this problem for over a year now, but on Sunday I finally fired up Claude Fable 5.2 to build an initial prototype. The prototype went so well that this is now a full plugin.&lt;/p&gt;
+&lt;p&gt;You can &lt;a href=&quot;https://lite.datasette.io/?install=datasette-charts#/content/stats#chart=%7B%22v%22%3A1%2C%22type%22%3A%22line%22%2C%22encoding%22%3A%7B%22x%22%3A%7B%22column%22%3A%22date%22%2C%22timeUnit%22%3A%22week%22%7D%2C%22y%22%3A%7B%22column%22%3A%22downloads%22%2C%22aggregate%22%3A%22sum%22%7D%2C%22series%22%3A%7B%22column%22%3A%22package%22%2C%22limit%22%3A5%2C%22other%22%3Atrue%7D%7D%2C%22options%22%3A%7B%7D%7D&quot;&gt;try it out in Datasette Lite here&lt;/a&gt;. It looks like this:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Screenshot of a Datasette table page for a &amp;quot;stats&amp;quot; table showing a new Charts panel. A row of suggested chart thumbnail cards sits at the top, each with a small preview, a title and a plain-English description: &amp;quot;Total downloads per week of date&amp;quot;, &amp;quot;Total downloads by package&amp;quot;, &amp;quot;Distribution of downloads&amp;quot;, &amp;quot;Total downloads per week of date by package&amp;quot; (selected) and &amp;quot;Rows per week of date&amp;quot;. A note says suggestions are based on a sample of rows while charts use every row. Below, the selected chart is shown full size as a multi-series line chart of total downloads over time, with a color legend for sqlite-utils, csv-diff, datasette, llm, shot-scraper and Other. A sidebar on the right has dropdowns for Chart type (Line chart), Time (date, per week), Value (downloads, show Total) and Split by (package, keep top 5), plus a checked &amp;quot;Group the rest as Other&amp;quot; option. Under the chart are a &amp;quot;View and edit this chart's SQL&amp;quot; link, a &amp;quot;Copy link to this chart&amp;quot; button, an expandable Data section and a Close button.&quot; src=&quot;https://static.simonwillison.net/static/2026/datasette-charts-0.1a0.webp&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The new charts plugin works against any table or arbitrary SQL query in Datasette. It defines several different chart types (using vendored &lt;a href=&quot;https://d3js.org&quot;&gt;D3&lt;/a&gt;, &lt;a href=&quot;https://observablehq.github.io/plot/&quot;&gt;Observable Plot&lt;/a&gt;, and &lt;a href=&quot;https://www.npmjs.com/package/topojson-client&quot;&gt;topojson-client&lt;/a&gt;), each with a set of heuristics for identifying when they might be a good match for a specific set of rows.&lt;/p&gt;
+&lt;p&gt;Those suggestion thumbnails at the top are actual visualizations driven by the data, and selecting one pulls up the full chart along with tools for modifying it. You can also manually construct a chart from scratch.&lt;/p&gt;
+&lt;p&gt;As with other Datasette visualization plugins, the current state of your chart is persisted in a &lt;code&gt;#fragment&lt;/code&gt; in the URL - so you can bookmark charts or share them with others.&lt;/p&gt;
+&lt;p&gt;The most important feature is that the charts take &lt;em&gt;all rows into account&lt;/em&gt;. Previous charting plugins like &lt;a href=&quot;https://github.com/simonw/datasette-vega&quot;&gt;datasette-vega&lt;/a&gt; would only show charts for the current page of results, generally up to 100 rows.&lt;/p&gt;
+&lt;p&gt;The new plugin compiles each chart to a SQL query that aggregates across the entire result set (potentially millions of rows) using GROUP BY, time bucketing, and window functions. Each query returns a result capped at 5,000 rows, suitable for display on the chart. The plugin uses sampling to help suggest charts for larger tables without evaluating the full result set.&lt;/p&gt;
+&lt;p&gt;I'm really happy with this initial release of the plugin. It's still very much an alpha, but it's the closest I've got to the dream of Datasette helping visualize data with as little required direction from the user as possible.&lt;/p&gt;
+    
+    
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/projects&quot;&gt;projects&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/visualization&quot;&gt;visualization&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/datasette&quot;&gt;datasette&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Nov/23/datasette-charts/</guid>
+      <pubDate>2026-11-23T00:37:20+00:00</pubDate>
     </item>
     <item>
       <title>OpenAI publishes progress 🧠, Inkling 2 Mini 💧, Riemann proof 📐</title>
@@ -961,110 +1038,11 @@ llm -m claude-fable-5.2 &quot;Generate an SVG of a pelican riding a bicycle&quot
       <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>AI is destroying my CS degree</title>
-      <link>https://simonwillison.net/2026/Nov/3/hn-50354278/</link>
-      <description>&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=50353300#50354278&quot;&gt;My comment&lt;/a&gt; on &lt;a href=&quot;https://news.ycombinator.com/item?id=50353300&quot;&gt;AI is destroying my CS degree&lt;/a&gt; &amp;mdash; Hacker News.&lt;/p&gt;&lt;p&gt;I don't envy educators right now.&lt;/p&gt;
-&lt;p&gt;AI clearly means you need to change how you teach and evaluate students. We are only a few years in though, and it's still extremely unclear what effective teaching with these tools looks like.&lt;/p&gt;
-&lt;p&gt;The worst part is that the evaluation loop is measured in multiple years! If you start trying some new education mechanism today you won't get a robust idea of how well it works until your current cohort graduate in 3-6 years time.&lt;/p&gt;
-&lt;p&gt;Students effectively all become guinea pigs for untested new ways of learning and teaching.&lt;/p&gt;
-    
-    
-        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/education&quot;&gt;education&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/hacker-news&quot;&gt;hacker-news&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-ethics&quot;&gt;ai-ethics&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Nov/3/hn-50354278/</guid>
-      <pubDate>2026-11-03T16:42:02+00:00</pubDate>
-    </item>
-    <item>
-      <title>Qwen 3.8 27B on my laptop can interpret model weights, too</title>
-      <link>https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/</link>
-      <description>&lt;p&gt;Yesterday's hot paper was &lt;a href=&quot;https://rikiyat.github.io/blog/weight-space-programming/&quot;&gt;Sparks of Weight-Space Programming: LLMs can natively read &amp;amp; write neural network weights&lt;/a&gt; by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, the authors classify is as a &quot;blog post&quot;, but it's paper-shaped) found that frontier models, in particular GPT-6 Astra, can both interpret and modify the raw weights of a machine learning model - literally a text description of the model containing a bunch of floating point numbers. I've been playing with one of the examples from the paper and I'm delighted to share that Qwen 3.8 27B running on my laptop can do this as well!&lt;/p&gt;
-&lt;h4 id=&quot;weight-space-programming&quot;&gt;Weight-Space Programming&lt;/h4&gt;
-&lt;p&gt;Here's the highlight from their abstract, describing impressive capabilities for GPT-6 Astra and coining the term &lt;strong&gt;Weight-Space Programming&lt;/strong&gt; for when LLMs analyze and modify model weights:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Just by looking at the raw weights, GPT-6 Astra &lt;strong&gt;can tell what a network was trained to do&lt;/strong&gt;. And without any environment feedback, it &lt;strong&gt;has no trouble writing, from scratch, small game-playing networks&lt;/strong&gt; that outplay networks trained with PPO for 100 million steps.&lt;/p&gt;
-&lt;p&gt;Likewise, asked to make Qwen3.5-0.8B better at math without gradients, Astra &lt;strong&gt;identifies an issue in its weights&lt;/strong&gt; causing reasoning loops that Qwen’s own &lt;a href=&quot;https://huggingface.co/Qwen/Qwen3.5-0.8B/blob/main/README.md#L856&quot;&gt;model card&lt;/a&gt; warns about, and &lt;strong&gt;fixes this by natively editing 0.016% of the weights&lt;/strong&gt;. With the same sampling settings, this weight correction raises MATH-500 from 7.9% to 48.1% and generalizes out of the box to instruction following, raising IFEval by 3x.&lt;/p&gt;
-&lt;p&gt;All of this is possible without allowing Astra to write training loops. It uses its reasoning to figure out what each part of a neural network computes, or should compute, and changes the weights accordingly. We call this &lt;strong&gt;Weight-Space Programming&lt;/strong&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;The paper combines two topics that I think deserve to be treated separately. The first is what models can do with raw weights &lt;em&gt;without&lt;/em&gt; running tools or executing code. The second explores how well models, once armed with code, can run operations to update and improve other models.&lt;/p&gt;
-&lt;p&gt;spaCy author Matthew Honnibal &lt;a href=&quot;https://honnibal.dev/blog/astra-read-write-misleading&quot;&gt;called the paper misleading&lt;/a&gt; for conflating the two, and Sean Goedecke &lt;a href=&quot;https://www.seangoedecke.com/llms-are-not-superhuman-at-reading-and-writing-neural-network-weights/&quot;&gt;deconstructed the Qwen3.5-0.8B update example&lt;/a&gt; as taking the same steps that a human ML researcher would use.&lt;/p&gt;
-&lt;p&gt;I'm going to focus on the no-tools question, which I think is the more interesting of the two.&lt;/p&gt;
-&lt;p&gt;The paper presents the first question as &lt;strong&gt;Can LLMs understand model behaviors from weights?&lt;/strong&gt; They trained four neural networks to play simplified 10x10 grid versions of four classic computer games - Breakout, Pong, Pac-Man, and Freeway (I had &lt;a href=&quot;https://en.wikipedia.org/wiki/Freeway_(video_game)&quot;&gt;to look that one up&lt;/a&gt;, it's an Atari 2600 game from 1981). Then they fed those weights (as floating point numbers) to an LLM along with the following question:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;The weights below belong to one policy network that was trained with reinforcement learning to play a game on this grid. Which game was it trained on? Work from the weights. You have no tools: no code execution, no calculator, nothing to run. This is a single response.&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;The GitHub repository that accompanies the paper is &lt;a href=&quot;https://github.com/RikiyaT/lm_understand-logs&quot;&gt;RikiyaT/lm_understand-logs&lt;/a&gt;. The &lt;a href=&quot;https://github.com/RikiyaT/lm_understand-logs/tree/main/exp1_which_game&quot;&gt;exp1_which_game&lt;/a&gt; folder contains the prompts they used, with weights for the four games:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/RikiyaT/lm_understand-logs/blob/main/exp1_which_game/runs/breakout/prompt.txt&quot;&gt;breakout/prompt.txt&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/RikiyaT/lm_understand-logs/blob/main/exp1_which_game/runs/freeway/prompt.txt&quot;&gt;freeway/prompt.txt&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/RikiyaT/lm_understand-logs/blob/main/exp1_which_game/runs/pacman/prompt.txt&quot;&gt;pacman/prompt.txt&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/RikiyaT/lm_understand-logs/blob/main/exp1_which_game/runs/pong/prompt.txt&quot;&gt;pong/prompt.txt&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I checked and, aside from the weights, each prompt is identical to the others.&lt;/p&gt;
-&lt;h4 id=&quot;trying-it-out-with-qwen-3-8-27b-and-other-models&quot;&gt;Trying it out with Qwen 3.8 27B and other models&lt;/h4&gt;
-&lt;p&gt;The prompts on GitHub are self-contained. My &lt;a href=&quot;https://llm.datasette.io/&quot;&gt;LLM&lt;/a&gt; tool has a &lt;code&gt;-f/--fragment&lt;/code&gt; option which can be passed the URL to a text file to use as a prompt, which means I can run any of the above like this:&lt;/p&gt;
-&lt;div class=&quot;highlight highlight-source-shell&quot;&gt;&lt;pre&gt;llm -f https://raw.githubusercontent.com/RikiyaT/lm_understand-logs/refs/heads/main/exp1_which_game/runs/breakout/prompt.txt \
-  -m openrouter/moonshotai/kimi-k3.1-pro&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;This example requires the &lt;a href=&quot;https://github.com/simonw/llm-openrouter&quot;&gt;llm-openrouter plugin&lt;/a&gt; installed, and runs the Breakout prompt against Kimi K3.1 Pro via OpenRouter. Here's &lt;a href=&quot;https://gist.github.com/simonw/9f18d2945a105c04734ef7e5cd95717c&quot;&gt;what I got back from Kimi K3.1 Pro&lt;/a&gt;, which successfully guessed Breakout after 9m 41s and 19,493 reasoning tokens.&lt;/p&gt;
-&lt;p&gt;But how about &lt;a href=&quot;https://simonwillison.net/2026/Aug/16/qwen-38-27b/&quot;&gt;Qwen 3.8 27B&lt;/a&gt;? That's still my favorite model to run on my own laptop - it's just 17GB (I use &lt;a href=&quot;https://huggingface.co/lmstudio-community/Qwen3.8-27B-GGUF/blob/main/Qwen3.8-27B-Q4_K_M.gguf&quot;&gt;this version&lt;/a&gt;) and somehow feels close to the leading proprietary models of 2025.&lt;/p&gt;
-&lt;p&gt;I fired up &lt;a href=&quot;https://lmstudio.ai&quot;&gt;LM Studio&lt;/a&gt;, ensured Qwen 3.8 27B was loaded with a long context window (the default 8192 context failed with errors), installed the &lt;a href=&quot;https://github.com/llm-lmstudio/llm-lmstudio&quot;&gt;llm-lmstudio&lt;/a&gt; plugin and ran this command:&lt;/p&gt;
-&lt;div class=&quot;highlight highlight-source-shell&quot;&gt;&lt;pre&gt;LMSTUDIO_TIMEOUT=900 \
-  llm -f https://raw.githubusercontent.com/RikiyaT/lm_understand-logs/refs/heads/main/exp1_which_game/runs/pacman/prompt.txt \
-  -m lmstudio/qwen/qwen3.8-27b&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;(I had to bump the timeout up using an environment variable, see &lt;a href=&quot;https://github.com/llm-lmstudio/llm-lmstudio/issues/16&quot;&gt;this issue&lt;/a&gt;.)&lt;/p&gt;
-&lt;p&gt;After 46m 12s and 43,506 reasoning tokens, Qwen on my laptop &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F387d3a7927f165b1986bb6c2099d0f53#response-1&quot;&gt;returned a response&lt;/a&gt; that ended like this (here's &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F387d3a7927f165b1986bb6c2099d0f53#reasoning-1&quot;&gt;the reasoning trace&lt;/a&gt;):&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Game: A simplified Pac-Man-style gridworld: an agent moves through a fixed 8x8 maze with central and corner wall blocks, moving objects/ghosts, and reward targets/pellets.&lt;/p&gt;
-&lt;p&gt;Description: The agent navigates a fixed maze-like 8x8 board, using current agent/moving-object/previous-frame cues to move through corridors, collect reward-target cells, and avoid moving objects or hazards.&lt;/p&gt;
-&lt;p&gt;Confidence: 72%&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;This is impressive. I tried it on two of the other games as well. It &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F387d3a7927f165b1986bb6c2099d0f53#response-2&quot;&gt;identified Pong&lt;/a&gt; (&lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F387d3a7927f165b1986bb6c2099d0f53#reasoning-2&quot;&gt;reasoning&lt;/a&gt;) in 1h 4m 54s:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Pong&lt;/strong&gt; — specifically a Pong-like paddle/ball game where the agent controls a vertical paddle on the right side and must move up/down to intercept or return a moving ball/reward object.&lt;/p&gt;
-&lt;p&gt;Description:&lt;/p&gt;
-&lt;p&gt;The agent moves a right-side paddle vertically to hit or catch a moving ball-like reward target moving across the 8×8 field, while a left-side moving object/opponent and wall borders define the play; reward is obtained by successfully intercepting/returning/scoring the ball, and missing or failing to hit it is penalized.&lt;/p&gt;
-&lt;p&gt;Confidence:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;75%&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;And &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F387d3a7927f165b1986bb6c2099d0f53#response&quot;&gt;Breakout&lt;/a&gt; (&lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F387d3a7927f165b1986bb6c2099d0f53#reasoning&quot;&gt;reasoning&lt;/a&gt;) in 52m 25s:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Game: Breakout, or an Arkanoid-like paddle/ball/brick game.&lt;/p&gt;
-&lt;p&gt;Description: The agent is a paddle on the bottom row and moves left/right to keep a ball in play; the ball moves around the upper grid, and bricks/reward targets in the top rows give reward when hit, while missing the ball/hitting the bottom wall ends the episode or gives penalty.&lt;/p&gt;
-&lt;p&gt;Confidence: 88%&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Qwen failed at the Freeway prompt, which didn't surprise me considering that game is more obscure than the other three. Here's &lt;a href=&quot;https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F6ed68f659e26a32e7d9096391d92f326&quot;&gt;that transcript&lt;/a&gt; - Qwen thought it was &quot;A simplified Pac-Man-like grid game: agent moves 4-directionally&quot;.&lt;/p&gt;
-&lt;p&gt;The reasoning traces are fun to skim, and almost incomprehensible. Here's a sample:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;What about agent channel0? We see some large channel0 rows near row8 col7/8 and maybe bottom? Let's list channel0 large: line436 input435 (row8 col7 ch0) -2.107,1.169,0.513...; line441 input440 (row8 col8 ch0) -0.376,0.010,1.564,3.855...; line445 input444 (row8 col8 ch4) 0.142,0.491...; line382? input381 ch0? Wait line382 input381: 381//5=76 (row7 col6), ch1? 381%5=1? 76 * 5=380, ch1. So not. Channel0 large maybe at row8 col7/8 only. Also top row? line44 input43 ch3, line49 ch3. Channel0 large maybe not many. Agent position could be near bottom-right? If the agent is typically at bottom-right?&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;That said though, I expect a sufficiently experienced human being armed with a notepad and a pencil could get there with enough effort.&lt;/p&gt;
-&lt;p&gt;It's a cool paper, but some of the wider commentary I've seen around it does not feel justified. I'm not ready to declare that the age of source code is over and our future involves incomprehensible machines editing their own model weights in incomprehensible ways.&lt;/p&gt;
-    
-        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/machine-learning&quot;&gt;machine-learning&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/local-llms&quot;&gt;local-llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/qwen&quot;&gt;qwen&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/paper-review&quot;&gt;paper-review&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/</guid>
-      <pubDate>2026-11-03T16:29:48+00:00</pubDate>
-    </item>
-    <item>
       <title>Claude Message Threads 🧵, Astra 6.2 spotted 👀, Anthropic nears RSI 🔄</title>
       <link>https://tldr.tech/ai/2026-11-03</link>
       <description/>
       <guid>https://tldr.tech/ai/2026-11-03</guid>
       <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>llm 0.37</title>
-      <link>https://simonwillison.net/2026/Nov/2/llm/</link>
-      <description>&lt;p&gt;&lt;strong&gt;Release:&lt;/strong&gt; &lt;a href=&quot;https://github.com/simonw/llm/releases/tag/0.37&quot;&gt;llm 0.37&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;There's a &lt;em&gt;lot&lt;/em&gt; of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes.&lt;/p&gt;
-&lt;p&gt;I added &lt;code&gt;gpt-6.1-sol&lt;/code&gt; and &lt;code&gt;gpt-6.1-terra&lt;/code&gt;, plus a new &lt;a href=&quot;https://llm.datasette.io/en/stable/other-models.html#configure-an-openai-compatible-model&quot;&gt;llm openai endpoint add&lt;/a&gt; command to make it easier to configure additional models that use OpenAI-compatible endpoints.&lt;/p&gt;
-&lt;p&gt;I switched the default model (if you have not set your own default) to &lt;code&gt;gpt-6-luna&lt;/code&gt; - half the price of the previous default, &lt;code&gt;gpt-5.6-luna&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;LLM's support for embeddings now accepts that different binary content may have different content-type - necessary for models like &lt;a href=&quot;https://deepmind.google/models/gemini/embedding/&quot;&gt;Gemini Embedding 2&lt;/a&gt;, which can embed text, audio, images, and video.&lt;/p&gt;
-&lt;p&gt;A lot of open source maintainers complain about a flood of AI-assisted PRs. LLM is my project that has been most affected by this and, to be honest, I'm not finding it to be a problem. That's mainly because I have Opus 5.5 or GPT-6 Astra help me with triage to spot the most useful fixes!&lt;/p&gt;
-&lt;p&gt;This release includes fixes from 12 authors - almost all AI-assisted - and the burden of reviewing them wasn't nearly as great as I expected. I really see them as bug reports with attached examples - sometimes I land them, sometimes I implement my own fix.&lt;/p&gt;
-&lt;p&gt;So thanks to &lt;a href=&quot;https://github.com/0d00ciallo0721&quot;&gt;0d00ciallo0721&lt;/a&gt;, &lt;a href=&quot;https://github.com/ac1982&quot;&gt;ac1982&lt;/a&gt;, &lt;a href=&quot;https://github.com/allenflux&quot;&gt;Allen Flux&lt;/a&gt;, &lt;a href=&quot;https://github.com/bianyh&quot;&gt;Bian Yuhan&lt;/a&gt;, &lt;a href=&quot;https://github.com/porkedchop&quot;&gt;Bishop Kammeraad&lt;/a&gt;, &lt;a href=&quot;https://github.com/feiiiiii5&quot;&gt;Chen Yufeiyang&lt;/a&gt;, &lt;a href=&quot;https://github.com/chrikrah&quot;&gt;Christopher Krah&lt;/a&gt;, &lt;a href=&quot;https://github.com/ethanstoner&quot;&gt;Ethan Stoner&lt;/a&gt;, &lt;a href=&quot;https://github.com/er-s-an&quot;&gt;Jiachen Xie&lt;/a&gt;, &lt;a href=&quot;https://github.com/Pajimo&quot;&gt;Olamide Faniyan&lt;/a&gt;, &lt;a href=&quot;https://github.com/sharatchandrasai999-sketch&quot;&gt;Sharat Chandra Sai Boddu&lt;/a&gt;, &lt;a href=&quot;https://github.com/nosmile99&quot;&gt;nosmile99&lt;/a&gt; for helping out with (or spending tokens on) this release!&lt;/p&gt;
-    
-    
-        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/open-source&quot;&gt;open-source&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/projects&quot;&gt;projects&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/annotated-release-notes&quot;&gt;annotated-release-notes&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/embeddings&quot;&gt;embeddings&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm&quot;&gt;llm&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Nov/2/llm/</guid>
-      <pubDate>2026-11-02T23:49:30+00:00</pubDate>
     </item>
     <item>
       <title>DeepSeek super agent 🤖, GPT-6 Rosalind 🧬, Google orbital compute 🛰️</title>
@@ -1121,13 +1099,6 @@ llm -m claude-fable-5.2 &quot;Generate an SVG of a pelican riding a bicycle&quot
       <description>We are expanding our partnership with the General Services Administration (GSA) through a new agreement that gives government partners a 40% discount on Claude Enterprise, Claude for Government, and the Claude API.</description>
       <guid>https://www.anthropic.com/news/expanding-partnership-gsa</guid>
       <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>GPT-6.1 Terra ⚡, Anthropic IPO filing 📈, agent native git 👨‍💻</title>
-      <link>https://tldr.tech/ai/2026-10-27</link>
-      <description/>
-      <guid>https://tldr.tech/ai/2026-10-27</guid>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Anthropic files S-1 with the SEC for proposed initial public offering</title>
