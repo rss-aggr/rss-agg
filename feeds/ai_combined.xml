@@ -3,7 +3,34 @@
     <title>AI Combined Feed</title>
     <link>https://github.com</link>
     <description>Combined feed: AI Combined Feed</description>
-    <lastBuildDate>Wed, 25 Nov 2026 20:33:15 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 20:21:01 +0000</lastBuildDate>
+    <item>
+      <title>Quoting Jack Despain Zhou</title>
+      <link>https://simonwillison.net/2026/Nov/26/jack-despain-zhou/</link>
+      <description>&lt;blockquote cite=&quot;https://www.tracingwoodgrains.com/p/spitting-in-the-face-of-glaude&quot;&gt;&lt;p&gt;Among the many already existing effects of AI has been a great de-individualization. I open a YouTube video, and I hear Claude. I sit in a conference presentation, and I hear Claude. I open my email inbox, and I find pitches and articles from ostensibly serious people with ostensibly serious credentials attached to ostensibly serious institutions who want to publish things attached to their reputations and mine, &lt;em&gt;and I see Claude&lt;/em&gt;.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://www.tracingwoodgrains.com/p/spitting-in-the-face-of-glaude&quot;&gt;Jack Despain Zhou&lt;/a&gt;, Spitting in the Face of Glaude&lt;/p&gt;
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-misuse&quot;&gt;ai-misuse&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Nov/26/jack-despain-zhou/</guid>
+      <pubDate>2026-11-26T15:09:31+00:00</pubDate>
+    </item>
+    <item>
+      <title>Opus 5.6 testing 🤖, OpenAI private Inference 🔒, Jev is probably Qwen 📝</title>
+      <link>https://tldr.tech/ai/2026-11-26</link>
+      <description/>
+      <guid>https://tldr.tech/ai/2026-11-26</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Quoting Scott Aaronson</title>
+      <link>https://simonwillison.net/2026/Nov/25/scott-aaronson/</link>
+      <description>&lt;blockquote cite=&quot;https://scottaaronson.blog/?p=10379&quot;&gt;&lt;p&gt;It’s now obvious that we’ll be getting, not one-off solutions to this or that complexity question, but a whole new continent of mathematical truth, one that we’d previously only glimpsed through fog. Picture van Leeuwenhoek first training a microscope on pondwater, or Galileo first training his telescope on the stars. That might give you &lt;em&gt;some&lt;/em&gt; idea of how our resolution into the complexity-theoretic universe, and the whole universe of mathematical truth beyond it, has now improved.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p class=&quot;cite&quot;&gt;&amp;mdash; &lt;a href=&quot;https://scottaaronson.blog/?p=10379&quot;&gt;Scott Aaronson&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/mathematics&quot;&gt;mathematics&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://simonwillison.net/2026/Nov/25/scott-aaronson/</guid>
+      <pubDate>2026-11-25T23:26:32+00:00</pubDate>
+    </item>
     <item>
       <title>OpenAI solves matrix math 🔢, SWE-2.1 💻, swarm limitations 🐝</title>
       <link>https://tldr.tech/ai/2026-11-25</link>
@@ -192,7 +219,7 @@ GLM 5.4 is now available from Chinese AI lab Z.ai. It's their first model to use
 &lt;p&gt;I'm really happy with this initial release of the plugin. It's still very much an alpha, but it's the closest I've got to the dream of Datasette helping visualize data with as little required direction from the user as possible.&lt;/p&gt;
     
     
-        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/projects&quot;&gt;projects&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/visualization&quot;&gt;visualization&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/datasette&quot;&gt;datasette&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;&lt;/p&gt;</description>
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/projects&quot;&gt;projects&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/datasette-charts&quot;&gt;datasette-charts&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/sqlite&quot;&gt;sqlite&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/datasette&quot;&gt;datasette&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/visualization&quot;&gt;visualization&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Nov/23/datasette-charts/</guid>
       <pubDate>2026-11-23T00:37:20+00:00</pubDate>
     </item>
@@ -263,7 +290,7 @@ Graham Dumpleton started &lt;a href=&quot;https://modwsgi.readthedocs.io/&quot;&
 &lt;p&gt;&lt;img alt=&quot;Screenshot of a comparison table of illustrations of a pelican riding a bicycle, generated by three models at two thinking levels. Column headers: Thinking, gemini-4-carbon, gemini-4-neon, gemini-4-hydrogen. Row XHIGH: gemini-4-carbon cell is empty and reads &amp;quot;Unsupported&amp;quot;. gemini-4-neon shows a detailed white pelican with a large orange beak riding a red cruiser bicycle along a beachside road, a fish in the wicker basket on the handlebars, with sea, a sailboat, clouds and sun behind, captioned &amp;quot;40 input tokens, 26,546 output = 39.83 cents · 3m 47s&amp;quot;. gemini-4-hydrogen shows a similar pelican on a teal bicycle on a sandy beach with a blue fish in the basket, captioned &amp;quot;40 input tokens, 31,477 output = 23.61 cents · 2m 36s&amp;quot;. Row HIGH: gemini-4-carbon shows a pelican wearing a sailor hat riding a red cruiser bicycle with a fish in the basket beside the sea, captioned &amp;quot;40 input tokens, 20,305 output = 20.31 cents · 4m 11s&amp;quot;. gemini-4-neon shows a pelican on a simpler red bicycle on a dark asphalt road with yellow dashed lines and the sea behind, captioned &amp;quot;40 input tokens, 9,691 output = 14.55 cents · 1m 11s&amp;quot;. gemini-4-hydrogen shows a plainer, flatter pelican on a red bicycle over a green strip of ground with no basket or sea, captioned &amp;quot;40 input tokens, 5,311 output = 3.99 cents · 19s&amp;quot;.&quot; src=&quot;https://static.simonwillison.net/static/2026/gemini-4-xhigh-pelicans.webp&quot; /&gt;&lt;/p&gt;
     
     
-        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/google&quot;&gt;google&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm&quot;&gt;llm&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gemini&quot;&gt;gemini&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-reasoning&quot;&gt;llm-reasoning&lt;/a&gt;&lt;/p&gt;</description>
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/gemini&quot;&gt;gemini&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm&quot;&gt;llm&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-reasoning&quot;&gt;llm-reasoning&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/google&quot;&gt;google&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Nov/20/llm-gemini/</guid>
       <pubDate>2026-11-20T03:01:57+00:00</pubDate>
     </item>
@@ -328,7 +355,7 @@ Claire Vo runs &lt;a href=&quot;https://www.chatprd.ai&quot;&gt;ChatPRD&lt;/a&gt
 &lt;/video&gt;
     
     
-        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/google&quot;&gt;google&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm&quot;&gt;llm&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gemini&quot;&gt;gemini&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-release&quot;&gt;llm-release&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/yonkers-rising&quot;&gt;yonkers-rising&lt;/a&gt;&lt;/p&gt;</description>
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/yonkers-rising&quot;&gt;yonkers-rising&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gemini&quot;&gt;gemini&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm&quot;&gt;llm&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-release&quot;&gt;llm-release&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/google&quot;&gt;google&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Nov/18/llm-gemini/</guid>
       <pubDate>2026-11-18T23:59:20+00:00</pubDate>
     </item>
@@ -458,7 +485,7 @@ OpenAI:&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;
     
     
-        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/sqlite&quot;&gt;sqlite&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/webassembly&quot;&gt;webassembly&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/d-richard-hipp&quot;&gt;d-richard-hipp&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm&quot;&gt;llm&lt;/a&gt;&lt;/p&gt;</description>
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/llm&quot;&gt;llm&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/webassembly&quot;&gt;webassembly&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/sqlite&quot;&gt;sqlite&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/d-richard-hipp&quot;&gt;d-richard-hipp&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Nov/16/llm/</guid>
       <pubDate>2026-11-16T23:57:26+00:00</pubDate>
     </item>
@@ -484,7 +511,7 @@ OpenAI:&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&quot;Screenshot of a web map interface. Toolbar: &amp;quot;View&amp;quot; set to &amp;quot;Clusters&amp;quot;, &amp;quot;Colour by&amp;quot; set to &amp;quot;continent&amp;quot;, plus &amp;quot;Filter to this area&amp;quot; and &amp;quot;Download GeoJSON&amp;quot; buttons. A world map shows countries outlined and shaded by continent, with coloured dots and numbered cluster circles. A popup for a point in South America reads: capital Caracas, country Venezuela, continent South America, capital_population 2985000, latitude 10.502944, longitude -66.918983. Legend: Africa (52), Asia (45), Europe (39), North America (16), South America (13), Oceania (6). Text: &amp;quot;All 171 rows are on the map&amp;quot;. Below, a table with columns country, continent, capital_population, latitude, longitude, boundary. First row: Afghanistan, Asia, 3277000, 34.518636, 69.181314, with a small map in the boundary column showing Afghanistan outlined and shaded in blue.&quot; src=&quot;https://static.simonwillison.net/static/cors-allow/2026/datasette-maplibre.webp&quot; /&gt;&lt;/p&gt;
     
     
-        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/geospatial&quot;&gt;geospatial&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openstreetmap&quot;&gt;openstreetmap&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/visualization&quot;&gt;visualization&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/datasette&quot;&gt;datasette&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/datasette-lite&quot;&gt;datasette-lite&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;&lt;/p&gt;</description>
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/visualization&quot;&gt;visualization&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/datasette-lite&quot;&gt;datasette-lite&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/geospatial&quot;&gt;geospatial&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/openstreetmap&quot;&gt;openstreetmap&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/datasette&quot;&gt;datasette&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Nov/15/datasette-maplibre/</guid>
       <pubDate>2026-11-15T23:58:36+00:00</pubDate>
     </item>
@@ -496,7 +523,7 @@ OpenAI:&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&quot;Datasette homepage. Below the search box is a Datasette Agent heading with a text input and an ask button. User has typed: Tell me about #re - the box is showing autocomplete results for the repos and releases tables.&quot; src=&quot;https://static.simonwillison.net/static/cors-allow/2026/datasette-agent-homepage.webp&quot; /&gt;&lt;/p&gt;
     
     
-        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/datasette&quot;&gt;datasette&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm&quot;&gt;llm&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/datasette-agent&quot;&gt;datasette-agent&lt;/a&gt;&lt;/p&gt;</description>
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/datasette-agent&quot;&gt;datasette-agent&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm&quot;&gt;llm&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/datasette&quot;&gt;datasette&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Nov/15/datasette-agent/</guid>
       <pubDate>2026-11-15T03:49:47+00:00</pubDate>
     </item>
@@ -521,7 +548,7 @@ uvx --with datasette-agent datasette \
 &lt;p&gt;&lt;img alt=&quot;Screenshot of a chat interface. Header bar reads &amp;quot;home&amp;quot; on the left and &amp;quot;root&amp;quot; with a hamburger menu icon on the right. Below is a back arrow, the heading &amp;quot;Chat&amp;quot;, a model label &amp;quot;lmstudio-qwen&amp;quot; and an &amp;quot;EXPORT&amp;quot; button. A blue user message bubble says &amp;quot;how many repos and how many releases are there?&amp;quot; Below it is a collapsed tool call &amp;quot;list_databases_and_tables&amp;quot; and an expanded tool call &amp;quot;sql_query&amp;quot;. Its REQUEST section shows database &amp;quot;content&amp;quot;, display &amp;quot;both&amp;quot; and the SQL: SELECT (SELECT COUNT(*) FROM repos) AS repo_count, (SELECT COUNT(*) FROM releases) AS release_count. Its RESPONSE section shows columns repo_count and release_count with a single row of 200 and 1889. Below that is a table with columns repo_count and release_count and one row: 200, 1889, followed by a &amp;quot;View SQL query&amp;quot; button. The assistant reply reads &amp;quot;There are 200 repos and 1,889 releases in the content database.&amp;quot; At the bottom is a text input with placeholder &amp;quot;Type a message... (# to tag a table or query)&amp;quot; and a blue &amp;quot;Send&amp;quot; button.&quot; src=&quot;https://static.simonwillison.net/static/2026/lmstudio-datasette-agent.webp&quot; /&gt;&lt;/p&gt;
     
     
-        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/datasette&quot;&gt;datasette&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm&quot;&gt;llm&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/uv&quot;&gt;uv&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/datasette-agent&quot;&gt;datasette-agent&lt;/a&gt;&lt;/p&gt;</description>
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/uv&quot;&gt;uv&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/datasette-agent&quot;&gt;datasette-agent&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm&quot;&gt;llm&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/datasette&quot;&gt;datasette&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Nov/14/datasette-llm/</guid>
       <pubDate>2026-11-14T23:59:28+00:00</pubDate>
     </item>
@@ -604,7 +631,7 @@ uvx --with datasette-agent datasette \
 &lt;p&gt;Most notably, Hydrogen is the new free tier model, and is the model that will power AI features in Google Search.&lt;/p&gt;
     
     
-        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/google&quot;&gt;google&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm&quot;&gt;llm&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gemini&quot;&gt;gemini&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-pricing&quot;&gt;llm-pricing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;&lt;/p&gt;</description>
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/gemini&quot;&gt;gemini&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm&quot;&gt;llm&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/google&quot;&gt;google&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-pricing&quot;&gt;llm-pricing&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Nov/12/llm-gemini/</guid>
       <pubDate>2026-11-12T22:55:19+00:00</pubDate>
     </item>
@@ -734,7 +761,7 @@ Anthropic kicked off their IPO roadshow yesterday, and their roadshow video has 
 &lt;p&gt;Here's &lt;a href=&quot;https://aistudio.google.com/apps/bundled/pelican-campus-quest?showAssistant=true&amp;amp;showPreview=true&amp;amp;fullscreenApplet=true&quot;&gt;the playable version&lt;/a&gt; in AI Studio.&lt;/p&gt;
     
     
-        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/google&quot;&gt;google&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm&quot;&gt;llm&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gemini&quot;&gt;gemini&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-release&quot;&gt;llm-release&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/yonkers-rising&quot;&gt;yonkers-rising&lt;/a&gt;&lt;/p&gt;</description>
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/llm-release&quot;&gt;llm-release&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/gemini&quot;&gt;gemini&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm&quot;&gt;llm&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/google&quot;&gt;google&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/yonkers-rising&quot;&gt;yonkers-rising&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Nov/10/llm-gemini/</guid>
       <pubDate>2026-11-10T20:09:44+00:00</pubDate>
     </item>
@@ -850,7 +877,7 @@ Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Em
 &lt;/video&gt;
     
     
-        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/three-js&quot;&gt;three-js&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/yonkers-rising&quot;&gt;yonkers-rising&lt;/a&gt;&lt;/p&gt;</description>
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/three-js&quot;&gt;three-js&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/yonkers-rising&quot;&gt;yonkers-rising&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Nov/10/yonkers-rises/</guid>
       <pubDate>2026-11-10T03:53:04+00:00</pubDate>
     </item>
@@ -887,7 +914,7 @@ llm -m claude-fable-5.2 &quot;Generate an SVG of a pelican riding a bicycle&quot
 &lt;p&gt;I also used Fable 5.2 to &lt;a href=&quot;https://simonwillison.net/2026/Nov/9/mysterious-beeps/&quot;&gt;help identify the source of a mysterious beep&lt;/a&gt;.&lt;/p&gt;
     
     
-        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm&quot;&gt;llm&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm-release&quot;&gt;llm-release&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;&lt;/p&gt;</description>
+        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/llm-release&quot;&gt;llm-release&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm&quot;&gt;llm&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/anthropic&quot;&gt;anthropic&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/pelican-riding-a-bicycle&quot;&gt;pelican-riding-a-bicycle&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude-mythos-fable&quot;&gt;claude-mythos-fable&lt;/a&gt;&lt;/p&gt;</description>
       <guid>https://simonwillison.net/2026/Nov/9/llm-anthropic/</guid>
       <pubDate>2026-11-09T23:58:46+00:00</pubDate>
     </item>
@@ -974,73 +1001,6 @@ llm -m claude-fable-5.2 &quot;Generate an SVG of a pelican riding a bicycle&quot
       <pubDate>2026-11-09T23:57:21+00:00</pubDate>
     </item>
     <item>
-      <title>The Web Is More Than Enough, by Paul Ford</title>
-      <link>https://simonwillison.net/2026/Nov/9/hn-50421091/</link>
-      <description>&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=50416456#50421091&quot;&gt;My comment&lt;/a&gt; on &lt;a href=&quot;https://news.ycombinator.com/item?id=50416456&quot;&gt;The Web Is More Than Enough, by Paul Ford&lt;/a&gt; &amp;mdash; Hacker News.&lt;/p&gt;&lt;p&gt;OK, this comment convinced me to give that a shot.&lt;/p&gt;
-&lt;p&gt;Here's a thing I made in Three.js this morning - a Nudibranch themed Faberge Egg: &lt;a href=&quot;https://static.simonwillison.net/static/2026/Hidden-Reef-Egg-threejs.html&quot;&gt;https://static.simonwillison.net/static/2026/Hidden-Reef-Egg...&lt;/a&gt; (77KB)&lt;/p&gt;
-&lt;p&gt;I just asked Claude (Opus 5.5 Medium running in regular Claude Chat) to port that to Vanilla JS, in the same thread where it had built it, and got this: &lt;a href=&quot;https://static.simonwillison.net/static/2026/Hidden-Reef-Egg-Vanilla-WebGL.html&quot;&gt;https://static.simonwillison.net/static/2026/Hidden-Reef-Egg...&lt;/a&gt; (98KB)&lt;/p&gt;
-&lt;p&gt;They aren't identical - you can see what Claude said about that in the transcript (I don't fully understand why it differed): &lt;a href=&quot;https://claude.ai/share/e56d163e-2793-4677-aa11-191d5058b414&quot;&gt;https://claude.ai/share/e56d163e-2793-4677-aa11-191d5058b414&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;But yeah, it turns out Claude Opus 5.5 is perfectly capable of 3D modeling in Vanilla JS + WebGL without Three.js.&lt;/p&gt;
-&lt;p&gt;In eyeballing the code I find the Three.js slightly easier to understand myself, but I rarely look at the code for these 3D projects so that isn't a particularly big deal.&lt;/p&gt;
-    
-    
-        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/hacker-news&quot;&gt;hacker-news&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/javascript&quot;&gt;javascript&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/claude&quot;&gt;claude&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/three-js&quot;&gt;three-js&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Nov/9/hn-50421091/</guid>
-      <pubDate>2026-11-09T04:32:33+00:00</pubDate>
-    </item>
-    <item>
-      <title>Hide your slop PR descriptions behind &lt;details&gt;&lt;summary&gt;</title>
-      <link>https://simonwillison.net/2026/Nov/9/details-summary/</link>
-      <description>&lt;p&gt;Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then merge the finished result. Today's coding agents are great at writing PR descriptions.&lt;/p&gt;
-&lt;h4 id=&quot;they-re-too-good-at-describing-the-work&quot;&gt;They're too good at describing the work&lt;/h4&gt;
-&lt;p&gt;The problem is that they are &lt;em&gt;too&lt;/em&gt; good. An agent-written PR description is accurate and comprehensive. It describes the problem, the detailed solution, and the steps taken to verify it. That's a lot of information to absorb.&lt;/p&gt;
-&lt;p&gt;It's not necessarily slop, but it &lt;em&gt;reads&lt;/em&gt; like slop!&lt;/p&gt;
-&lt;p&gt;It's very easy to spot an AI-written PR, and as with other forms of AI writing my instant reaction is best summarized as &quot;I'm not reading all of that&quot;. It doesn't matter how accurate or useful the information is, I'm instantly put off by the thought that it will take me longer to read than it took the driving author to write... even when that driving author is me!&lt;/p&gt;
-&lt;p&gt;I want human editorial judgement. I want someone to have thought just long enough about the PR to give me a human-approved introduction that helps me understand, at a high level, what the PR is for and whether it deserves more of my attention.&lt;/p&gt;
-&lt;p&gt;I think I've found a low-effort way to do this that feels right.&lt;/p&gt;
-&lt;h4 id=&quot;hide-most-of-it-in-a-details-summary&quot;&gt;Hide most of it in a details/summary&lt;/h4&gt;
-&lt;p&gt;The HTML &lt;code&gt;&amp;lt;details&amp;gt;&amp;lt;summary&amp;gt;&lt;/code&gt; elements render as a collapsed heading (the summary) that can be expanded to view the larger piece of text. The code looks like this:&lt;/p&gt;
-&lt;div class=&quot;highlight highlight-text-html-basic&quot;&gt;&lt;pre&gt;&lt;span class=&quot;pl-kos&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;pl-ent&quot;&gt;details&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;pl-kos&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;pl-ent&quot;&gt;summary&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;&amp;gt;&lt;/span&gt;Claude Opus 5.5&lt;span class=&quot;pl-kos&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;pl-ent&quot;&gt;summary&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;pl-kos&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;pl-ent&quot;&gt;h2&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;&amp;gt;&lt;/span&gt;The hook&lt;span class=&quot;pl-kos&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;pl-ent&quot;&gt;h2&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;&amp;gt;&lt;/span&gt;
-  Plugins implement &lt;span class=&quot;pl-kos&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;pl-ent&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;&amp;gt;&lt;/span&gt;register_agent_reference_types(datasette)&lt;span class=&quot;pl-kos&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;pl-ent&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;&amp;gt;&lt;/span&gt;...
-&lt;span class=&quot;pl-kos&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;pl-ent&quot;&gt;details&lt;/span&gt;&lt;span class=&quot;pl-kos&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;When rendered, it looks &lt;a href=&quot;https://github.com/datasette/datasette-agent/pull/51&quot;&gt;like this&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Screenshot of a GitHub PR. The text &amp;quot;Claude Opus 5.5&amp;quot; sits next to a little black arrow. Clicking on that text expands a full description inside the PR body.&quot; src=&quot;https://static.simonwillison.net/static/2026/details-summary-pr.gif&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Crucially, &lt;code&gt;&amp;lt;details&amp;gt;&amp;lt;summary&amp;gt;&lt;/code&gt; &lt;em&gt;is supported in GitHub Markdown&lt;/em&gt;. You can drop those tags directly into an issue comment or PR description and GitHub will hide the details and display just the summary plus an expansion arrow.&lt;/p&gt;
-&lt;p&gt;I've started using this for my AI-generated pull requests.&lt;/p&gt;
-&lt;p&gt;The opening paragraph of my PRs will be carefully selected to act as a high-level explanation of what's going on - the shortest text a human can read that will help get them up to speed.&lt;/p&gt;
-&lt;p&gt;I'll sometimes throw in a screenshot as well, since images are often the best way to quickly illustrate a new feature.&lt;/p&gt;
-&lt;p&gt;The full agent-written essay then follows in a &lt;code&gt;&amp;lt;details&amp;gt;&amp;lt;summary&amp;gt;&lt;/code&gt;. I use the model name and often the effort level as that summary, to make it abundantly clear what is going on - &quot;Claude Opus 5.5 Medium&quot; for example.&lt;/p&gt;
-&lt;p&gt;My PRs don't feel nearly as sloppy now! The information is all still there, but a reader can glance at it and get the top, human-curated information without their eyes glazing over at multiple paragraphs of agent-written details.&lt;/p&gt;
-&lt;p&gt;I don't always write the introduction myself - sometimes the agent has given me what I need already, hidden away in the avalanche of other text. My promise to the reader is that the short opener will represent my human judgement as to what is definitely worth their time.&lt;/p&gt;
-&lt;p&gt;Here are some recent examples where I've used this pattern, including the opener I used:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href=&quot;https://github.com/simonw/datasette/pull/3052&quot;&gt;datasette PR #3052: Redesign row page as a vertical list of fields&lt;/a&gt; - &quot;The row page showed its single row as a one-row table. For wide tables, like a 46-column GitHub &lt;code&gt;repos&lt;/code&gt; table, that scrolled far off to the right and left most of the page blank.&quot; (then a screenshot)&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&quot;https://github.com/simonw/datasette/pull/3043&quot;&gt;datasette PR #3043: Pagination bar showing which rows are on the current page&lt;/a&gt; - &quot;Table pages that span more than one page now make it obvious where you are, and offer navigation at the top of the page as well as the bottom.&quot; (plus screenshot)&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&quot;https://github.com/simonw/datasette/pull/3042&quot;&gt;datasette PR #3042: Load edit-tools.js on demand via a small loader&lt;/a&gt; - &quot;&lt;code&gt;edit-tools.js&lt;/code&gt; (~220KB) was loaded on every table, row and database page, even for users who couldn't edit anything. Now only load it for users who can edit when they first interact with an edit feature (including mouse over an edit link).&quot;&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&quot;https://github.com/datasette/datasette-agent/pull/51&quot;&gt;datasette-agent PR #51: register_agent_reference_types plugin hook&lt;/a&gt; - &quot;Lets plugins add their own kinds of item to the &lt;code&gt;#&lt;/code&gt; tagging in the chat composer using a new &lt;code&gt;register_agent_reference_types(datasette)&lt;/code&gt; plugin hook.&quot; - pictured above.&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&quot;https://github.com/simonw/llm/pull/1838&quot;&gt;llm PR #1838: Add llm openai endpoint add/list/remove/path commands&lt;/a&gt; - &quot;Adds commands for managing the records in &lt;code&gt;extra-openai-models.yaml&lt;/code&gt;, so OpenAI-compatible endpoints can be saved from the command line instead of by hand-editing YAML.&quot; - then copied &lt;code&gt;--help&lt;/code&gt; output.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&quot;the-mnemonic&quot;&gt;The mnemonic&lt;/h4&gt;
-&lt;p&gt;I used to have trouble remembering the order of the tags - is it &lt;code&gt;&amp;lt;details&amp;gt;&amp;lt;summary&amp;gt;&lt;/code&gt; or &lt;code&gt;&amp;lt;summary&amp;gt;&amp;lt;details&amp;gt;&lt;/code&gt;?&lt;/p&gt;
-&lt;p&gt;Here are two tricks that helped me.&lt;/p&gt;
-&lt;p&gt;First, and most obviously, the &lt;code&gt;&amp;lt;summary&amp;gt;&lt;/code&gt; is clearly the bit where you summarize the details. That's the tag for your line of text that can be clicked to expand - the &lt;code&gt;&amp;lt;details&amp;gt;&lt;/code&gt; element must then wrap everything else.&lt;/p&gt;
-&lt;p&gt;An even better trick is to always refer to these two tags as &quot;details-summary&quot;.&lt;/p&gt;
-&lt;p&gt;&quot;details-summary&quot; is two syllables followed by three syllables. That rolls off the tongue more smoothly than the three-two punch of &quot;summary-details&quot;.&lt;/p&gt;
-&lt;p&gt;Say &quot;details-summary&quot; out loud just a few times and you'll never forget the order of the tags again.&lt;/p&gt;
-&lt;p&gt;(I still wish GitHub would add a button to their Markdown editor for this - partly to save me painstakingly typing it on my mobile keyboard, and partly to help spread the word to more GitHub users that this feature exists.)&lt;/p&gt;
-    
-        &lt;p&gt;Tags: &lt;a href=&quot;https://simonwillison.net/tags/github&quot;&gt;github&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/html&quot;&gt;html&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/markdown&quot;&gt;markdown&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai&quot;&gt;ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/datasette&quot;&gt;datasette&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/generative-ai&quot;&gt;generative-ai&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llms&quot;&gt;llms&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/ai-assisted-programming&quot;&gt;ai-assisted-programming&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/llm&quot;&gt;llm&lt;/a&gt;, &lt;a href=&quot;https://simonwillison.net/tags/coding-agents&quot;&gt;coding-agents&lt;/a&gt;&lt;/p&gt;</description>
-      <guid>https://simonwillison.net/2026/Nov/9/details-summary/</guid>
-      <pubDate>2026-11-09T04:25:05+00:00</pubDate>
-    </item>
-    <item>
       <title>Introducing Claude Fable 5.2 and Claude Mythos 5.2</title>
       <link>https://www.anthropic.com/claude-fable-and-mythos-5-2</link>
       <description>Our most capable models for daunting technical work, Claude Fable 5.2 and Claude Mythos 5.2 set a new bar in coding, finance, and the sciences.</description>
@@ -1109,13 +1069,6 @@ llm -m claude-fable-5.2 &quot;Generate an SVG of a pelican riding a bicycle&quot
       <description/>
       <guid>https://tldr.tech/ai/2026-10-30</guid>
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Gemini 4 Carbon 🌱, Nemotron Transcribe 📝, benchmarker’s dilemma ❓</title>
-      <link>https://tldr.tech/ai/2026-10-29</link>
-      <description/>
-      <guid>https://tldr.tech/ai/2026-10-29</guid>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>AI for Science expands to foundations and research institutions</title>
